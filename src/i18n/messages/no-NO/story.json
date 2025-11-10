@@ -1,0 +1,101 @@
+{
+  "illustration_alt": "moonini omfavner illustrasjon",
+  "title": "🌕 Historien om moonini",
+  "origin": [
+    "En dag falt et rødt meteorit på den fjerne siden av månen,",
+    "Måneskinnet brøt ut ved sammenstøt, forvandlet til et sølv-hvitt lysregn.",
+    "Fra den blinkende røde 'red packet meteoren',",
+    "En lysende liten månen kanin ble født — moonini.",
+    "",
+    "moonini har et gull-gult måne merke på brystet.",
+    "Han kan føle hver eneste hjertelig red packet sendt fra Jorden.",
+    "Uansett beløp, er det den reneste varme energien.",
+    "Ja, moonini vokser takket være alles red packet energi.",
+    "",
+    "Disse energiene ble transformert til red packet kredentialer født på Solana-kjeden —",
+    "Det er opprinnelsen til $moonini Token."
+  ],
+  "secrets_title": "🌸 Hans Hemmelighet",
+  "secrets_intro": "Hver gang du sender en red packet, vil moonini registrere en energinotering på månen:",
+  "secrets_flow": "Send red packet → Produser tilsvarende energiverdi (konvertert til USDT verdi) → Akkumuler til 10 → Nå minimum innløsbar $moonini verdi.",
+  "secrets_halving": [
+    "I den innledende fasen (Fase 1) vil moonini generelt returnere i et best 1:1 forhold til avsenderen av red packet. For å opprettholde rettferdighet og redusere risikoen for wash/ping-pong, vil vi introdusere konseptet effektiv energi.",
+    "Når de totale sendte og uttatte beløpene fra fellesskapet når systemets satte halveringsgrense, vil den første halveringen finne sted; etterpå, når halvparten av det forrige nivåets beløp nås, vil det utløse en ny halvering."
+  ],
+  "schedule_title": "Token Utgivelsesregler",
+  "schedule_headers": [
+    "scene",
+    "Utstedes Begrensning",
+    "Utdelingsforhold (energi produsert per 1 USDT akkumulert)",
+    "Beskrivelse"
+  ],
+  "schedule_rows": [
+    [
+      "Phase 1",
+      "0 ~ 4.5 billion",
+      "1.0 $MOONINI / USDT",
+      "Initial period, energy overflow."
+    ],
+    [
+      "Phase 2",
+      "4.5B ~ 6.75B",
+      "0.5 $MOONINI / USDT",
+      "First halving."
+    ],
+    [
+      "Phase 3",
+      "6.75B ~ 7.875B",
+      "0.25 $MOONINI / USDT",
+      "Stabilization period."
+    ],
+    [
+      "Phase 4",
+      "7.875B ~ 8.4375B",
+      "0.125 $MOONINI / USDT",
+      "Scarcity period."
+    ],
+    [
+      "Phase 5",
+      "8.4375B ~ 8.71875B",
+      "0.0625 $MOONINI / USDT",
+      "Late mining phase."
+    ],
+    [
+      "Phase 6",
+      "8.71875B ~ 9B",
+      "0.03125 $MOONINI / USDT",
+      "Crystallization period (final phase)."
+    ]
+  ],
+  "cap_note": [
+    "Når den totale sirkulasjonen når 9 milliarder, vil moonini stoppe utgivelsen.",
+    "De resterende 1 milliarden (10% av det totale tilbudet),",
+    "Reservert av de offisielle for fremtidige samfunnsbelønninger og samarbeid energi-pool bruk."
+  ],
+  "belief_title": "🌕 Månen sin energi og troen på red packets",
+  "belief_paragraphs": [
+    "moonini elsker alle som er villige til å 'dele'.",
+    "Han mener at red packets ikke bare er penger, men en utveksling av velsignelser og energi.",
+    "Hver gang du sender en red packet, fullfører en oppgave, eller blir med i moonpacket-fellesskapet,",
+    "vil du ha muligheten til å motta en avkastning fra månen — tilfeldig utdelt $moonini.",
+    "",
+    "Det er lyset universet gir tilbake til deg etter å ha spredd glede."
+  ],
+  "future_title": "💫 Fremtidige applikasjoner",
+  "future_intro": "For øyeblikket er $moonini ikke åpen for noen offisielle applikasjonsscenarier, men den er designet som en belønning og energikredential for fremtidens red packet verden, muligens brukt til:",
+  "future_list": [
+    "✅ Rabatter på transaksjonsgebyrer for red packet",
+    "🎁 Handelskuponger/redemption rabatter",
+    "🌐 Airdrops for arrangementer og belønninger for samfunnsoppgaver"
+  ],
+  "disclaimer_title": "⚠️ Erklæring",
+  "disclaimer_paragraphs": [
+    "De offisielle garanterer ingen fiat-utvekslingsverdi for $moonini.",
+    "Du kan tenke på det som en generøs persons bonuspoeng.",
+    "Symboliserer alle som er villige til å dele lykke og spre energi."
+  ],
+  "closing": [
+    "moonini — månen kanin født fra red packet energi.",
+    "Hver velsignelse er et lysstråle for hans vekst."
+  ]
+}

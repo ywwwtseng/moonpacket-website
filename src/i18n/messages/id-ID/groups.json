@@ -1,0 +1,57 @@
+{
+  "tabs": {
+    "latest": "Terbaru",
+    "hot": "Populer"
+  },
+  "search": {
+    "placeholder": "Cari Grup…",
+    "label": "Cari Grup"
+  },
+  "card": {
+    "ownerLabel": "Pemilik:",
+    "members": "Anggota",
+    "totalSent": "Total Kirim",
+    "sent": "Pengiriman Saat Ini",
+    "unnamed": "Group Tanpa Nama"
+  },
+  "pagination": {
+    "prev": "Halaman Sebelumnya",
+    "next": "Halaman Selanjutnya",
+    "pageInfo": "{{count}} grup (Halaman {{page}} / {{pages}})"
+  },
+  "cta": {
+    "launch": "Aktifkan moonpacket"
+  },
+  "empty": "Tidak Ada Grup Tersedia",
+  "group": {
+    "members": "Daftar Anggota",
+    "owner": "Pemilik Grup: {owner}",
+    "sent": "Jumlah Terkirim",
+    "totalSent": "Jumlah Total Terkirim",
+    "unnamed": "Group Tanpa Nama"
+  },
+  "marquee": {
+    "fallback": [
+      "💰 John mengirim angpao sebesar 100 USDT di 'Game Guild A'!",
+      "🎯 Lisa mengklaim 3.5 USDT, pemenang beruntung!",
+      "🔥 Pemilik Grup Ken mengisi ulang 2000 USDT",
+      "📢 Pembaruan sistem selesai, dukungan untuk SOL ditambahkan!",
+      "🥇 Pemenang beruntung hari ini: @Mina (total 28.3 USDT)"
+    ],
+    "templates": {
+      "daily_winner": "🥇 Pemenang beruntung hari ini: {user} (total {amount} {ccy})",
+      "red_packet_claimed": "{user} mengklaim {amount} {ccy}, pemenang beruntung!",
+      "red_packet_sent": "{user} mengirim angpao sebesar {amount} {ccy} di '{group}'!",
+      "system_upgrade": "📢 Pembaruan sistem selesai, dukungan untuk {ccy} ditambahkan!",
+      "top_up": "Pemilik Grup {user} mengisi ulang {amount} {ccy}"
+    }
+  },
+  "pager": {
+    "groups": "Jumlah Grup",
+    "next": "Halaman Selanjutnya",
+    "pageOf": "(Halaman {page} / {pages})",
+    "prev": "Halaman Sebelumnya"
+  },
+  "searchLabel": "Cari Grup",
+  "searchPlaceholder": "Silakan masukkan kata kunci untuk mencari grup…"
+}

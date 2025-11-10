@@ -1,0 +1,171 @@
+{
+  "title": "",
+  "hero": {
+    "api_demo_label": "Demostración de API",
+    "api_get": "https://t.me/MoonPackageDevBot",
+    "response_label": "Respuesta:",
+    "json": "{ \"data\": { \"level\": 100, \"status\": \"active\", \"is_blacklist\": false } } {, \"data\": {, \"level\": 100,, \"status\": \"active\",, \"is_blacklist\": false, }",
+    "title": "Atrae nuevos usuarios, aumenta la actividad",
+    "lead": "La parte del proyecto puede establecer condiciones específicas:",
+    "points": {
+      "0": "",
+      "1": "",
+      "2": ""
+    },
+    "note": "Los usuarios que cumplan con las condiciones pueden reclamar el Sobre rojo",
+    "subtitle": "Crea un evento de Sobre rojo personalizado para tu comunidad",
+    "desc": "Fácil configuración, rápido lanzamiento, ¡activa tu comunidad!",
+    "ctaPrimaryLabel": "Comienza ahora",
+    "ctaPrimaryHref": "https://t.me/MoonPackageDevBot",
+    "ctaSecondaryLabel": "Ver ejemplo",
+    "ctaSecondaryHref": "/zh-TW/claim/",
+    "api_demo_code": "{\n\"data\": {\n\"level\": {\n\"gt\": 99\n},\n\"status\": {\n\"eq\": \"active\"\n},\n\"is_blacklist\": {\n\"eq\": false\n}\n}\n}",
+    "api_demo_title": "GET [api_url]?api_key=[api_key]&user_id=[user_id]",
+    "use_cases_items": {
+      "0": "La parte del proyecto puede establecer condiciones de tarea:",
+      "1": "Únete al grupo / Sigue el canal",
+      "2": "Frase de contraseña correcta",
+      "3": "API personalizada del proyecto",
+      "4": "Solo los usuarios que cumplan con las condiciones pueden reclamar, enviar el Sobre rojo a usuarios valiosos."
+    },
+    "use_cases_title": "Atraer nuevos usuarios・Aumentar la actividad"
+  },
+  "faq": {
+    "section_1": "Introducción y configuraciones.",
+    "q1": "¿Cómo empezar?",
+    "a1": "Agrega el Robot moonpacket a tu grupo o canal de Telegram y configúralo como administrador.",
+    "q2": "¿Qué preparativos se necesitan antes de enviar?",
+    "a2": "Por favor, deposite primero los activos que desea distribuir (por ejemplo, deposite 10 USDT para pruebas).",
+    "section_2": "2) Proceso de Envío",
+    "q3": "¿Puedo elegir dónde enviarlo?",
+    "a3": "Seleccione los grupos o canales vinculados en 'Objetivos de Envío' para enviar a uno o varios grupos simultáneamente.",
+    "tip": "Consejo: Enviar sobres rojos es adecuado para interacciones de rompehielos. Puedes responder al mensaje del sobre rojo para explicar el tema del juego que deseas organizar.",
+    "section_3": "3) Problemas Técnicos",
+    "section_4": "Datos y Análisis",
+    "section_5": "Soporte Técnico y Mantenimiento",
+    "q4": "¿Se puede personalizar el método de asignación?",
+    "a4": "Soporta modos de distribución aleatoria y distribución media.",
+    "q5": "Puedes enviar un mensaje directamente al robot de atención al cliente oficial @moonini_helper_bot.",
+    "a5": "Cada clave API se puede llamar hasta 60 veces por minuto.",
+    "q6": "¿Cómo manejar los errores?",
+    "a6": "La API devolverá códigos de error y mensajes de error detallados.",
+    "q7": "¿Cómo monitorear la efectividad de la actividad?",
+    "a7": "Proporcionar un panel de datos en tiempo real:",
+    "q8": "¿Cómo se calculan las tarifas de transacción?",
+    "a8": "• Comisión por servicio en la plataforma: 2-5% (ajustada según la escala de actividad)",
+    "q9": "¿Cómo asegurar la seguridad de los fondos?",
+    "a9": "• Arquitectura descentralizada, sin necesidad de fondos en custodia",
+    "q10": "¿Qué hacer con los fondos restantes después de que termine el evento?",
+    "a10": "• Los sobres rojos no reclamados se devolverán automáticamente a tu billetera.",
+    "q11": "¿Se pueden realizar múltiples eventos al mismo tiempo?",
+    "a11": "Sí, pero te recomendamos:",
+    "q12": "¿Cómo manejar las quejas de los usuarios?",
+    "a12": "• Proporcionar un canal de atención al cliente dedicado",
+    "q13": "¿Está disponible el soporte técnico?",
+    "a13": "• Soporte técnico 24/7",
+    "q14": "¿Cómo optimizar la efectividad del evento?",
+    "a14": "• Ajustar la estrategia de actividad según los datos",
+    "q9_passcode": "¿Qué es una frase de contraseña? ¿En qué escenarios es adecuada?",
+    "a9_passcode": "Los jugadores deben obtener la frase secreta de canales externos y regresar a esta página para ingresarla correctamente para reclamar. Prácticas comunes:",
+    "passcode_scenarios": {
+      "0": "Divida la frase secreta de 6 dígitos en videos largos de YouTube para fomentar la visualización completa.",
+      "1": "Publicaciones en X.com (Twitter) o Threads que insinúan la frase secreta para mejorar la interacción.",
+      "2": "Comparte la frase secreta solo verbalmente durante las transmisiones en vivo para guiar a las audiencias asistentes.",
+      "3": "Los grupos privados/pagos proporcionan frases secretas exclusivas para asegurar que los beneficios se otorguen solo a los miembros principales."
+    },
+    "q10_api": "¿Puedo usar mi propia API para determinar la elegibilidad de los participantes?",
+    "a10_api": "Sí. moonpacket llamará a la API de solo lectura proporcionada para verificación antes de que el usuario lo reclame. Solo configura el api_url y api_key (configuraciones de dominio opcionales disponibles) en el backend.",
+    "api_condition_title": "Declaración de condición (sin user_id)",
+    "api_response_label": "Retornar:",
+    "api_operators_label": "Operador:",
+    "api_operators_desc": "eq (puede coincidir con cualquier tipo), gt/lt/gte/lte (debe ser numérico)",
+    "api_user_query_title": "Consulta del Usuario (incluyendo user_id)",
+    "api_logic_desc": "moonpacket utiliza la 'Declaración de condición' como un umbral para comparar con el valor real de la 'Consulta del Usuario'; si coincide, se aprueba, si no, no puede ser reclamado.",
+    "api_security_title": "Recomendaciones de Seguridad",
+    "api_security_desc": "Utilice endpoints de solo lectura, habilite api_key y permita restricciones de dominio; para dominios cruzados, se recomienda usar Cloudflare Workers para tránsito y limitación de tasas.",
+    "q12_antibot": "¿Cómo prevenir el engaño y la actividad de bots?",
+    "a12_antibot_items": {
+      "0": "Frecuencia de comportamiento y detección de dispositivo/IP",
+      "1": "Cuenta vinculada de manera única a la billetera",
+      "2": "Código de verificación de retiro",
+      "3": "Revisión preliminar del control de riesgo de IA; puede realizar autenticación biométrica de terceros, reconocimiento facial y verificación de documentos si es necesario"
+    },
+    "q13_records": "¿Dónde puedo comprobar los registros de mis mensajes enviados y el número de destinatarios?",
+    "a13_records": "Por favor, revisa 'Sobres Rojos que Envié' en tu página de inicio personal para ver el número de reclamantes, los montos restantes y el total gastado para cada sesión; si está habilitado, los informes también se pueden descargar.",
+    "q1_body": {
+      "0": "Esta es una herramienta para ayudar a los equipos de proyectos, propietarios de grupos o gerentes de comunidad a distribuir rápidamente sobres rojos en grupos de Telegram.\nDirigido específicamente a la distribución de monedas meme para incentivar a los miembros de la comunidad,\nusos principales incluyen: estimular la actividad, atraer nuevos miembros y realizar actividades promocionales.\nPuedes usar no solo tus monedas meme emitidas para distribuir sobres rojos, sino también tokens convencionales como USDT, TRX, SOL, y otros.\nA través de moonpacket, puedes requerir que los usuarios completen tareas simples y configurar aún más a través de la API, permitiendo a los propietarios de grupos 'personalizar las reglas de distribución' y 'establecer condiciones de reclamación', verificando con su propia API.",
+      "1": "Consejo: Distribuir sobres rojos de moonpacket te permite descubrir verdaderos miembros valiosos de la comunidad. Puedes establecer condiciones de reclamación en cada sobre rojo, proporcionando a los jugadores diferentes tareas para completar."
+    },
+    "q1_title": "1) ¿Cuál es la función de sobres rojos de moonpacket?",
+    "q2_body": {
+      "0": "Mensaje de bienvenida para nuevos miembros después de unirse (cumpliendo con las tareas básicas de ingreso)",
+      "1": "Interacción en tiempo real durante las transmisiones en vivo / AMAs / eventos (solo los miembros enfocados en el evento pueden recibir la frase y calificar para el sobre rojo)",
+      "2": "Promociones de marketing en grupo, sorteos, tareas de esloganes, niveles de juegos, reembolsos de recarga (por ejemplo, solo los jugadores que alcancen un cierto nivel en el juego o recarguen una cierta cantidad son elegibles para recibir)",
+      "3": "Recompensas por invitar amigos a unirse al grupo",
+      "4": "Promociones por tiempo limitado, eventos de cuenta regresiva (tareas diarias de inicio de sesión)",
+      "5": "\"Sobre rojo entre grupos\": Envía sobres rojos en otros grupos (si el propietario del grupo lo permite), para promover la publicidad mutua y la colaboración comunitaria."
+    },
+    "q2_title": "2) ¿Cuándo es apropiado usar la función de sobres rojos?",
+    "q3_body": {
+      "0": "Todas las operaciones en cadena incurren en una tarifa de gas. La tarifa de gas es cobrada por la propia blockchain y no es una tarifa adicional de nuestra parte.",
+      "1": "Cuando depositas tokens en el fondo de sobres rojos, se deducirá una tarifa de gas en la cadena inmediatamente. La cantidad real que entra en el fondo puede ser un poco menor que la cantidad nominal que ingresaste (o se puede cobrar una tarifa de gas adicional al transferir). Esto es una deducción normal en la cadena.",
+      "2": "Al emitir un sobre rojo en 'tu grupo', el sistema cobrará automáticamente una tarifa del 2% de la plataforma en el momento de la distribución, que se deducirá directamente.",
+      "3": "Los sobres rojos entre grupos (promocionando un sobre rojo en el grupo de otra persona) tienen reglas adicionales:",
+      "4": "Primero, el propietario del grupo que recibe la promoción debe establecer permisos, y deben usarse tokens principales. Los sobres rojos entre grupos no aceptan monedas meme autogeneradas, y el sistema tiene un umbral mínimo para las cantidades de sobres rojos entre grupos. Si está por debajo del umbral, el sobre rojo no puede ser establecido. Confirma que tu cantidad sea suficiente antes de enviarlo."
+    },
+    "q3_title": "3) Costo y umbral para enviar sobres rojos",
+    "q4_body": {
+      "0": "Detectaremos activamente comportamientos abusivos (como fraude, blanqueo de dinero, tácticas de robots, interacciones de spam, etc.). Si se considera de alto riesgo, la cuenta o los activos pueden entrar en estado de 'bajo revisión': los retiros pueden retrasarse y la cuenta puede ser temporalmente excluida. Esto es para proteger los activos generales de los usuarios y cumplir con los requisitos regulatorios.",
+      "1": "Este es el mecanismo de control de riesgos y cumplimiento de la plataforma. Según el control de riesgos interno, los requisitos de cumplimiento, o las investigaciones de terceros, podemos suspender, restringir, retrasar o negar retiros o transferencias específicas.",
+      "2": "Si crees que esto es un error de juicio, puedes presentar un recurso a través del bot oficial de atención al cliente."
+    },
+    "q4_title": "4) Seguridad, Control de Riesgos y Estado de la Cuenta",
+    "q5_body": {
+      "0": "Puedes enviar un mensaje directamente al bot de atención al cliente oficial @moonini_helper_bot.",
+      "1": "Por favor, introduce el comando /setlang en la conversación (por ejemplo, /setlang zh-TW o /setlang en-US) para cambiar el idioma del servicio de atención al cliente.",
+      "2": "Al informar de un problema, por favor proporciona:",
+      "3": "El servicio de atención al cliente solo verificará datos en cadena y registros de transacciones. No te pediremos que envíes originales de imágenes o que proporciones claves privadas de wallets, mnemotécnicas o frases semilla completas, ni te pediremos que remitas fondos para 'verificación'. El servicio de atención al cliente oficial no te enviará mensajes proactivamente para solicitar activos.",
+      "4": "También puedes usar la API de consulta de autoservicio para verificar tu estado, como si tu cuenta es válida, si está en la lista negra o si está bajo revisión. Aquí hay un ejemplo: si la respuesta muestra que es_blacklist: true o estado: \"hold\", significa que la cuenta está bajo revisión de control de riesgos y los retiros o distribuciones pueden estar suspendidos. Si esta función no está disponible durante el período de prueba, por favor presenta un recurso a través del bot de atención al cliente y proporciona el hash de la transacción, y aceleraremos el procesamiento basado en evidencia en cadena."
+    },
+    "q5_title": "5) Atención al cliente y consulta de autoservicio",
+    "q6_body": {
+      "0": "Proporcionamos un mecanismo API para que los propietarios de grupos personalicen las condiciones de tarea y las reglas de canje.",
+      "1": "¿Qué es una frase de acceso? ¿Cuándo debe usarse? Por ejemplo, cuando desees pedir a más usuarios que visiten tu TikTok o YouTube, o se unan a tu grupo privado, puedes ocultar la frase de acceso en videos o mensajes. Los usuarios necesitan obtener la frase de acceso en el lugar especificado para reclamar el Sobre rojo después de introducirla.",
+      "2": "¿Cuál es el concepto de API? ¿Cómo se determina la elegibilidad?",
+      "3": "En la interfaz de configuración de API, primero necesitamos informar a la API de las condiciones, conocidas como 'declaración de condiciones' (excluyendo user_id).\nEjemplo: Retornar un conjunto de condiciones de umbral, como nivel, estado, si está en la lista negra, etc.\nmoonpacket considerará este conjunto de condiciones como el umbral básico.",
+      "4": "A continuación, cuando el usuario desea recibir un Sobre rojo, la API necesita proporcionar:\n'Consulta de usuario' (incluyendo user_id).\nEjemplo: Retornar el valor real de ese usuario. La plataforma comparará los resultados de la 'Consulta de usuario' con el umbral de 'declaración de condiciones' previamente establecido; si coincide, se aprueba; si no, se rechaza.",
+      "5": "Recomendación de seguridad: Por favor, proporcione únicamente puntos finales de solo lectura y habilite api_key junto con restricciones de lista blanca de dominio; si se necesitan operaciones de dominio cruzado, puedes usar Cloudflare Workers como un relay e implementar limitación de tasa.",
+      "6": "¿Se pueden modificar las reglas de actividad a mitad de camino?",
+      "7": "No se pueden realizar modificaciones a mitad de camino. Esperamos que todos los usuarios de este sistema puedan mantener la confianza mutua. Si una parte del proyecto promete emitir sobres rojos pero cambia las calificaciones del juego a mitad, haciendo imposible la reclamación, esto dañará la confianza de los jugadores. Si el emisor modifica la API para cambiar las reglas, y múltiples jugadores lo informan, nos reservamos el derecho de suspender o congelar cuentas al confirmar mediante registros de cambios. Por lo tanto, evite absolutamente cambiar las reglas del juego a mitad de la API, ya que esto puede llevar a bloqueos de cuenta.",
+      "8": "Si te preocupa la configuración incorrecta, el enfoque correcto es:",
+      "9": "Puedes crear primero tu propio grupo de prueba, emitir sobres rojos de prueba a ti mismo en el grupo de prueba, y una vez confirmado sin problemas, proceder a distribuir en la comunidad oficial. La regla básica para los sobres rojos es: no puedes pedir una detención a mitad, ni puedes cambiar directamente las reglas para una actividad en curso. Cada ronda debe completarse y liquidarse de acuerdo con el compromiso original antes de que se puedan usar nuevas reglas en la siguiente ronda."
+    },
+    "q6_title": "6) Reglas de actividad, control de elegibilidad y sin cambios de reglas a mitad de camino",
+    "q7_body": {
+      "0": "Actualmente todavía estamos en la fase de operación Beta y optimizaremos gradualmente el panel de datos, incluyendo el número de participantes, número de sobres rojos reclamados, tasa de reclamación, etc. Las partes del proyecto también pueden incrustar indicadores de seguimiento en su configuración de API.",
+      "1": "Los sobres rojos no reclamados se devolverán automáticamente a tu billetera. Si no recibes un reembolso dentro de los 3 días después de que finalice la actividad, puedes consultar con el servicio de atención al cliente para su procesamiento.",
+      "2": "Se recomienda no ejecutar demasiadas actividades simultáneamente en el mismo grupo para evitar conflictos. Los usuarios también pueden confundirse; es mejor ejecutar actividades de manera lineal, una a la vez o una por día, y asegurarte de tener fondos adecuados para completar cada actividad.",
+      "3": "Se recomienda ajustar las reglas en función de los datos; puedes utilizar la API para pruebas A/B, hacer referencia a casos exitosos anteriores y recopilar regularmente comentarios de miembros para optimizar gradualmente la jugabilidad.",
+      "4": "Antifraude y abuso:",
+      "5": "Durante el período de pruebas de operación beta abierta, estamos optimizando problemas de engaño de usuarios. Para asegurar la equidad del sistema, específicamente bloquearemos a los usuarios que intenten usar bots para reclamar sobres rojos. La mejor medida de prevención es permitir que los usuarios establezcan su propia API y condiciones y restringir el número de reclamaciones, lo que elevará el umbral para aquellos que les gusta hacer trampa. En caso de situaciones anormales, no dudes en contactar a nuestro servicio de atención al cliente para dar tu opinión."
+    },
+    "q7_title": "7) Rastrear el rendimiento, optimizar y prevenir fraudes",
+    "section_title": "Preguntas Frecuentes (FAQ Detalladas) — Enviar Sobre rojo"
+  },
+  "features": {
+    "f1": "Configuración Rápida",
+    "f2": "Varios Estilos de Juego",
+    "f3": "Datos en Tiempo Real",
+    "f4": "Seguro y Fiable"
+  },
+  "features_desc": {
+    "f1": "Completa la configuración en 3 minutos para iniciar la actividad del sobre rojo",
+    "f2": "Soporta métodos de asignación aleatorios, promedios y especificados",
+    "f3": "Visualiza instantáneamente los datos de recepción y la retroalimentación del usuario",
+    "f4": "El diseño descentralizado garantiza la seguridad de los fondos"
+  },
+  "cta_button_prefix": "Activar ahora",
+  "cta_button_suffix": "Robot",
+  "cta_launch_bot": "Activar el Robot moonpacket ahora",
+  "footer_tip": "Consejo: Enviar sobres rojos es adecuado para interacciones de rompehielos. Puedes responder al mensaje del sobre rojo para explicar el tema del juego que deseas organizar."
+}

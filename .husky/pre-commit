@@ -1,0 +1,20 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+pnpm format
+pnpm lint
+pnpm test:unit
+
+# i18n 快速校驗：禁止在 en-US/ar-SA 寫中文
+changed=$(git diff --cached --name-only)
+echo "$changed" | grep -E "src/i18n/messages/(en-US|ar-SA)/common.json" >/dev/null 2>&1 && {
+  if git diff --cached -U0 | grep -E "+.*[\u4e00-\u9fff]" >/dev/null 2>&1; then
+    echo "\n[pre-commit] 檢測到在 en-US/ar-SA 寫入中文，請將中文新增到 zh-TW，並用 pnpm i18n:sync 同步占位。";
+    exit 1;
+  fi
+}
+
+# 提示語：顯示缺失鍵概況（不阻塞提交）
+pnpm i18n:diff
+
+

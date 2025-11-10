@@ -1,0 +1,61 @@
+---
+interface PricingLabels {
+  starter?: string;
+  pro?: string;
+  enterprise?: string;
+  price_free?: string;
+  price_19?: string;
+  price_contact?: string;
+  bullets?: { starter?: string[]; pro?: string[]; enterprise?: string[] };
+}
+const { labels } = Astro.props as { labels: PricingLabels };
+const safe = {
+  starter: labels?.starter || 'Starter',
+  pro: labels?.pro || 'Pro',
+  enterprise: labels?.enterprise || 'Enterprise',
+  price_free: labels?.price_free || 'Free',
+  price_19: labels?.price_19 || '$19',
+  price_contact: labels?.price_contact || 'Contact',
+  bullets: {
+    starter: Array.isArray(labels?.bullets?.starter) ? labels.bullets.starter : ['Basic features', 'Community support'],
+    pro: Array.isArray(labels?.bullets?.pro) ? labels.bullets.pro : ['All Starter', 'Advanced localization'],
+    enterprise: Array.isArray(labels?.bullets?.enterprise) ? labels.bullets.enterprise : ['SLA & support', 'Custom integrations'],
+  },
+};
+---
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
+  <div class="p-6 rounded-xl ring-1 ring-black/5 bg-white flex flex-col">
+    <div class="font-semibold">{safe.starter}</div>
+    <div class="text-3xl font-extrabold my-2">{safe.price_free}</div>
+    <ul class="text-sm text-textSubtle space-y-1">
+      {safe.bullets.starter.map((b) => (<li>{b}</li>))}
+    </ul>
+    <a href="#" class="mt-4 inline-block px-4 py-2 rounded bg-navy text-white text-sm text-center">Get started</a>
+  </div>
+  <div class="relative p-6 rounded-xl ring-2 ring-primary/60 bg-white shadow-lg scale-[1.02] flex flex-col">
+    <span class="absolute -top-3 right-3 text-xs px-2 py-0.5 rounded bg-primary text-white recommended-badge">Recommended</span>
+    <div class="font-semibold">{safe.pro}</div>
+    <div class="text-3xl font-extrabold my-2">{safe.price_19}</div>
+    <ul class="text-sm text-textSubtle space-y-1">
+      {safe.bullets.pro.map((b) => (<li>{b}</li>))}
+    </ul>
+    <a href="#" class="mt-4 inline-block px-4 py-2 rounded bg-primary text-white text-sm text-center">Buy {safe.pro}</a>
+  </div>
+  <div class="p-6 rounded-xl ring-1 ring-primary/40 bg-white flex flex-col">
+    <div class="font-semibold">{safe.enterprise}</div>
+    <div class="text-3xl font-extrabold my-2">{safe.price_contact}</div>
+    <ul class="text-sm text-textSubtle space-y-1">
+      {safe.bullets.enterprise.map((b) => (<li>{b}</li>))}
+    </ul>
+    <a href="#" class="mt-4 inline-block px-4 py-2 rounded border border-primary text-primary text-sm text-center">Contact {safe.enterprise}</a>
+  </div>
+</div>
+
+<style>
+  /* RTL support for Recommended badge */
+  [dir="rtl"] .recommended-badge {
+    right: auto;
+    left: 0.75rem;
+  }
+</style>
+

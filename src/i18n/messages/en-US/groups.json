@@ -1,0 +1,57 @@
+{
+  "tabs": {
+    "latest": "Latest",
+    "hot": "Popular"
+  },
+  "search": {
+    "placeholder": "Search Groups…",
+    "label": "Search Groups"
+  },
+  "card": {
+    "ownerLabel": "Owner:",
+    "members": "Members",
+    "totalSent": "Total Sent",
+    "sent": "Current Sending",
+    "unnamed": "Unnamed Group"
+  },
+  "pagination": {
+    "prev": "Previous Page",
+    "next": "Next Page",
+    "pageInfo": "{{count}} groups (Page {{page}} / {{pages}})"
+  },
+  "cta": {
+    "launch": "Activate moonpacket"
+  },
+  "empty": "No Groups Available",
+  "group": {
+    "members": "Member List",
+    "owner": "Group Owner: {owner}",
+    "sent": "Sent Amount",
+    "totalSent": "Total Sent Amount",
+    "unnamed": "Unnamed Group"
+  },
+  "marquee": {
+    "fallback": [
+      "💰 John sent a red packet of 100 USDT in 'Game Guild A'!",
+      "🎯 Lisa claimed 3.5 USDT, lucky winner!",
+      "🔥 Group Owner Ken topped up 2000 USDT",
+      "📢 System upgrade completed, added support for SOL!",
+      "🥇 Today's lucky winner: @Mina (total 28.3 USDT)"
+    ],
+    "templates": {
+      "daily_winner": "🥇 Today's lucky winner: {user} (total {amount} {ccy})",
+      "red_packet_claimed": "{user} claimed {amount} {ccy}, lucky winner!",
+      "red_packet_sent": "{user} sent a red packet of {amount} {ccy} in '{group}'!",
+      "system_upgrade": "📢 System upgrade completed, added support for {ccy}!",
+      "top_up": "Group Owner {user} topped up {amount} {ccy}"
+    }
+  },
+  "pager": {
+    "groups": "Number of Groups",
+    "next": "Next Page",
+    "pageOf": "(Page {page} / {pages})",
+    "prev": "Previous Page"
+  },
+  "searchLabel": "Search Groups",
+  "searchPlaceholder": "Please enter keywords to search groups…"
+}

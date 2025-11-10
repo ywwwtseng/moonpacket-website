@@ -1,0 +1,15 @@
+{
+  "hero": {
+    "headline": "moonpacket wznosi się na księżyc!",
+    "subheadline": "Telegram TON, meme, USDT red packet grab｜Najlepszy bot red packet dla projektów meme i adminów grup Telegram do przyciągania nowych użytkowników i zwiększania zaangażowania.",
+    "cta_primary": "Aktywuj moonpacket",
+    "cta_secondary": "Jak zintegrować"
+  },
+  "metrics": {
+    "title": "Tokeny i statystyki",
+    "connected_groups": "Połączone grupy",
+    "total_packets_sent": "Wysłano red packet",
+    "total_claimed": "Łączna kwota zebrana (USDT)",
+    "data_stale": "Dane mogą być przestarzałe"
+  }
+}

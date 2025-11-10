@@ -1,0 +1,171 @@
+{
+  "title": "",
+  "hero": {
+    "api_demo_label": "Demonstrație API",
+    "api_get": "https://t.me/MoonPackageDevBot",
+    "response_label": "Răspuns:",
+    "json": "{ \"data\": { \"level\": 100, \"status\": \"active\", \"is_blacklist\": false } } {, \"data\": {, \"level\": 100,, \"status\": \"active\",, \"is_blacklist\": false, }",
+    "title": "Atrage utilizatori noi, crește activitatea",
+    "lead": "Partidul proiectului poate stabili condiții specifice:",
+    "points": {
+      "0": "",
+      "1": "",
+      "2": ""
+    },
+    "note": "Utilizatorii care îndeplinesc condițiile pot revendica pachetul roșu",
+    "subtitle": "Creează un eveniment personalizat pentru pachetul roșu pentru comunitatea ta",
+    "desc": "Configurare ușoară, lansare rapidă, activează-ți comunitatea!",
+    "ctaPrimaryLabel": "Începe acum",
+    "ctaPrimaryHref": "https://t.me/MoonPackageDevBot",
+    "ctaSecondaryLabel": "Vezi exemplul",
+    "ctaSecondaryHref": "/zh-TW/claim/",
+    "api_demo_code": "{\n\"data\": {\n\"level\": {\n\"gt\": 99\n},\n\"status\": {\n\"eq\": \"active\"\n},\n\"is_blacklist\": {\n\"eq\": false\n}\n}\n}",
+    "api_demo_title": "GET [api_url]?api_key=[api_key]&user_id=[user_id]",
+    "use_cases_items": {
+      "0": "Partidul proiectului poate stabili condiții pentru sarcini:",
+      "1": "Alătură-te grupului / Urmează canalul",
+      "2": "Fraza de acces corectă",
+      "3": "API personalizat al partidului proiectului",
+      "4": "Numai utilizatorii care îndeplinesc condițiile pot revendica, trimite pachetul roșu către utilizatori valoroși."
+    },
+    "use_cases_title": "Atrage utilizatori noi・Crește activitatea"
+  },
+  "faq": {
+    "section_1": "Introducere și setări.",
+    "q1": "Cum să începeți?",
+    "a1": "Adăugați Robotul moonpacket în grupul sau canalul vostru Telegram și setați-l ca administrator.",
+    "q2": "Ce pregătiri sunt necesare înainte de a trimite?",
+    "a2": "Vă rugăm să depuneți mai întâi activele pe care doriți să le distribuiți (de exemplu, depuneți 10 USDT pentru testare).",
+    "section_2": "2) Procesul de trimitere",
+    "q3": "Pot alege unde să-l trimit?",
+    "a3": "Selectați grupurile sau canalele legate în 'Destinații de Trimitere' pentru a trimite simultan către unul sau mai multe grupuri.",
+    "tip": "Sugestie: Trimiterea de red packets este potrivită pentru interacțiuni de deschidere. Poți răspunde la postarea red packet pentru a explica tema jocului pe care dorești să-l organizezi.",
+    "section_3": "3) Probleme tehnice",
+    "section_4": "Date și analiză",
+    "section_5": "Asistență tehnică și întreținere",
+    "q4": "Metoda de alocare poate fi personalizată?",
+    "a4": "Suportă atât modul de distribuție aleatorie, cât și modul de distribuție medie.",
+    "q5": "Puteți trimite direct un mesaj robotului oficial de servicii pentru clienți @moonini_helper_bot.",
+    "a5": "Fiecare cheie API poate fi apelată de până la 60 de ori pe minut.",
+    "q6": "Cum să gestionăm erorile?",
+    "a6": "API-ul va returna coduri de eroare detaliate și mesaje de eroare.",
+    "q7": "Cum se monitorizează eficiența activității?",
+    "a7": "Furnizați un panou de date în timp real:",
+    "q8": "Cum sunt calculate taxele de tranzacție?",
+    "a8": "• Taxa de serviciu a platformei: 2-5% (ajustată în funcție de scala de activitate)",
+    "q9": "Cum să asiguri siguranța fondurilor?",
+    "a9": "• Arhitectură descentralizată, fără nevoie de fonduri custodiale",
+    "q10": "Ce să fac cu fondurile rămase după încheierea evenimentului?",
+    "a10": "• Pachetele roșii nepretinse vor fi returnate automat în portofelul vostru.",
+    "q11": "Pot avea loc mai multe evenimente în același timp?",
+    "a11": "Da, dar vă recomandăm să:",
+    "q12": "Cum se gestionează plângerile utilizatorilor?",
+    "a12": "• Oferiți un canal dedicat de asistență pentru clienți",
+    "q13": "Este disponibil suport tehnic?",
+    "a13": "• Suport tehnic 24/7",
+    "q14": "Cum să optimizăm eficiența evenimentului?",
+    "a14": "• Ajustați strategia de activitate pe baza datelor",
+    "q9_passcode": "Ce este o frază de acces? În ce scenarii este potrivită?",
+    "a9_passcode": "Jucătorii trebuie să obțină fraza secretă din canale externe și să revină pe această pagină pentru a o introduce corect pentru a o revendica. Practici comune:",
+    "passcode_scenarios": {
+      "0": "Împărțiți fraza secretă de 6 cifre în videoclipurile lungi de pe YouTube pentru a încuraja vizionarea completă.",
+      "1": "Postările pe X.com (Twitter) sau Threads care sugerează fraza secretă pentru a spori interacțiunea.",
+      "2": "Împărtășiți verbal fraza secretă numai în timpul transmisiunilor live pentru a ghida audiențele prezente.",
+      "3": "Grupele private/contra cost oferă fraze secrete exclusive pentru a asigura că beneficiile sunt oferite doar membrilor de bază."
+    },
+    "q10_api": "Pot folosi propria API pentru a determina eligibilitatea participanților?",
+    "a10_api": "Da. moonpacket va apela API-ul de citire oferit pentru verificare înainte ca utilizatorul să-l pretindă. Configurați doar api_url și api_key (setări opționale de domeniu disponibile) în backend.",
+    "api_condition_title": "Declarație de condiție (fără user_id)",
+    "api_response_label": "Întoarcere:",
+    "api_operators_label": "Operator:",
+    "api_operators_desc": "eq (poate se potrivi cu orice tip), gt/lt/gte/lte (trebuie să fie numeric)",
+    "api_user_query_title": "Întrebarea utilizatorului (inclusiv user_id)",
+    "api_logic_desc": "moonpacket folosește 'Declarația de condiție' ca prag pentru a compara cu valoarea reală a 'Întrebării utilizatorului'; dacă se potrivește, trece, dacă nu, nu poate fi revendicată.",
+    "api_security_title": "Recomandări de securitate",
+    "api_security_desc": "Utilizați punctele finale de citire doar, activați api_key și permiteți restricțiile de domeniu; pentru interacțiuni între domenii, se recomandă utilizarea Cloudflare Workers pentru tranzit și limitarea ratelor.",
+    "q12_antibot": "Cum să prevenim înșelătoriile și activitatea bot-urilor?",
+    "a12_antibot_items": {
+      "0": "Frecvența comportamentului și detectarea dispozitivului/IP",
+      "1": "Contul legat unic de portofel",
+      "2": "Cod de verificare pentru retragere",
+      "3": "Revizuire preliminară a controlului riscurilor AI; poate efectua autentificare biometrică terță parte, recunoaștere facială și verificarea documentelor dacă este necesar"
+    },
+    "q13_records": "Unde pot verifica înregistrările mesajelor mele trimise și numărul de destinatari?",
+    "a13_records": "Vă rugăm să verificați 'Pachetele Roșii Pe Care Le-am Trimis' pe pagina dvs. personală pentru a vedea numărul de solicitanți, sumele rămase și suma totală cheltuită pentru fiecare sesiune; dacă este activat, rapoartele pot fi, de asemenea, descărcate.",
+    "q1_body": {
+      "0": "Acesta este un instrument pentru a ajuta echipele de proiecte, proprietarii de grupuri sau managerii de comunitate să distribuie rapid red packet-uri în grupurile Telegram.\nVizând în special distribuția de monede meme pentru a stimula membrii comunității,\nprincipalele utilizări includ: stimularea activității, atragerea de membri noi și desfășurarea de activități promoționale.\nPuteți folosi nu doar monedele meme emise de dumneavoastră pentru a distribui red packet-uri, ci și token-uri de mainstream precum USDT, TRX, SOL și altele.\nPrin moonpacket, puteți solicita utilizatorilor să finalizeze sarcini simple și, ulterior, să configurați prin API, permitând proprietarilor de grupuri să 'personalizeze regulile de distribuție' și 'să stabilească condiții de revendicare', verificând cu propriul API.",
+      "1": "Sfat: Distribuția red packet-urilor moonpacket vă permite să descoperiți membri cu adevărat valoroși ai comunității. Puteți stabili condiții de revendicare în fiecare red packet, oferind jucătorilor sarcini diferite de completat."
+    },
+    "q1_title": "1) Care este funcția de red packet a moonpacket?",
+    "q2_body": {
+      "0": "Mesaj de bun venit pentru noii membri după aderare (îndeplinind sarcinile de bază de aderare)",
+      "1": "Interacțiune în timp real în timpul transmisiunilor live / AMAs / evenimente (doar membrii concentrați pe eveniment pot primi parola și se pot califica pentru red packet)",
+      "2": "Promovări de marketing în grup, loterii, sarcini de slogan, nivelare în joc, reduceri la reîncărcare (de exemplu, doar jucătorii care ating un anumit nivel în joc sau reîncărcă o anumită sumă sunt eligibili pentru a primi)",
+      "3": "Recompense pentru invitarea prietenilor să se alăture grupului",
+      "4": "Promovări limitate în timp, evenimente de numărătoare inversă (sarcini zilnice de semnare)",
+      "5": "\"red packet inter-grup\": Trimiterea de red packet în alte grupuri (dacă proprietarul grupului permite), pentru a promova publicitatea reciprocă și colaborarea comunității."
+    },
+    "q2_title": "2) Când este potrivit să folosesc funcția de red packet?",
+    "q3_body": {
+      "0": "Toate operațiunile on-chain implică o taxă de gaz. Taxa de gaz este percepută de blockchain-ul în sine și nu o taxă suplimentară de la noi.",
+      "1": "Când depui token-uri în piscina de red packet, o taxă de gaz va fi dedusă imediat on-chain. Suma efectivă care intră în piscină poate fi ușor mai mică decât suma nominală pe care ai introdus-o (sau se poate percepe o taxă de gaz suplimentară la transfer). Aceasta este o deducere normală on-chain.",
+      "2": "Atunci când emiteți un red packet în 'grupa dumneavoastră', sistemul va percepe automat o taxă de platformă de 2% în momentul distribuției, care va fi dedusă direct.",
+      "3": "Red packets între grupuri (promovarea unui red packet în grupul altcuiva) au reguli suplimentare:",
+      "4": "În primul rând, proprietarul grupului care primește promovarea trebuie să stabilească permisiunea, iar token-uri de tip mainstream trebuie utilizate. Red packets între grupuri nu acceptă monede meme auto-create, iar sistemul are un prag minim pentru sumele red packet între grupuri. Dacă este sub prag, red packet-ul nu poate fi stabilit. Vă rugăm să confirmați că suma dumneavoastră este suficientă înainte de a trimite."
+    },
+    "q3_title": "3) Cost și prag pentru trimiterea red packets",
+    "q4_body": {
+      "0": "Vom detecta activ comportamentele abuzive (cum ar fi fraudele, spălarea banilor, tactici robot, interacțiuni spam etc.). Dacă sunt considerate de înalt risc, contul sau activele pot intra în statutul 'în revizuire': retragerile pot fi întârzierate, iar contul poate fi temporar inclus pe lista neagră. Aceasta este pentru a proteja activele generale ale utilizatorilor și a respecta cerințele de reglementare.",
+      "1": "Aceasta este mecanismul de control al riscurilor și conformitate al platformei. Pe baza controlului intern al riscurilor, cerințelor de conformitate sau investigațiilor terțe, putem suspenda, restricționa, întârzia sau refuza retrageri sau transferuri specifice.",
+      "2": "Dacă credeți că este o judecată greșită, puteți face un apel prin botul oficial de servicii pentru clienți."
+    },
+    "q4_title": "4) Securitate, Control al Riscurilor și Starea Contului",
+    "q5_body": {
+      "0": "Puteți trimite mesaj direct botului oficial de servicii pentru clienți @moonini_helper_bot.",
+      "1": "Vă rugăm să introduceți comanda /setlang în conversație (de exemplu, /setlang zh-TW sau /setlang en-US) pentru a schimba limba serviciului pentru clienți.",
+      "2": "Atunci când raportați o problemă, vă rugăm să oferiți:",
+      "3": "Serviciile pentru clienți vor verifica doar datele on-chain și înregistrările de tranzacție. Nu vă vom cere să trimiteți originale ale imaginilor sau să oferiți chei private de portofel, mnemonicuri sau propoziții seed complete, nici nu vă vom cere să trimiteți fonduri pentru 'verificare'. Serviciul oficial pentru clienți nu vă va contacta proactiv pentru a solicita active.",
+      "4": "Puteți folosi de asemenea API-ul de interogare de autoservire pentru a verifica starea dumneavoastră, cum ar fi dacă contul dumneavoastră este valid, dacă este pe lista neagră, sau dacă este în revizuire. Iată un exemplu: dacă răspunsul arată is_blacklist: true sau status: \"hold\", înseamnă că contul este în revizuire a controlului riscurilor, iar retragerile sau distribuțiile ar putea fi suspendate. Dacă această funcție nu este disponibilă în perioada de testare, vă rugăm să faceți un apel prin botul de servicii pentru clienți și să oferiți hash-ul tranzacției, iar noi vom accelera procesarea pe baza dovezilor on-chain."
+    },
+    "q5_title": "5) Servicii pentru clienți și interogare de autoservire",
+    "q6_body": {
+      "0": "Oferim un mecanism API pentru proprietarii de grupuri pentru a personaliza condițiile de sarcină și regulile de răscumpărare.",
+      "1": "Ce este o frază de acces? Când ar trebui să fie folosită? De exemplu, atunci când doriți să rugați mai mulți utilizatori să viziteze TikTok-ul sau YouTube-ul dumneavoastră, sau să se alăture grupului dumneavoastră privat, puteți ascunde fraza de acces în videoclipuri sau mesaje. Utilizatorii trebuie să obțină fraza de acces de la locația specificată pentru a revendica red packet-ul după ce o introduc.",
+      "2": "Care este conceptul de API? Cum este determinată eligibilitatea?",
+      "3": "În interfața de setări API, trebuie mai întâi să informăm API-ul despre condițiile, denumite 'declarație de condiție' (excluzând user_id).\nExemplu: Returnați un set de condiții de prag, cum ar fi nivel, statut, dacă este pe lista neagră etc.\nmoonpacket va considera acest set de condiții drept pragul de bază.",
+      "4": "Următorul pas, când utilizatorul dorește să primească un red packet, API-ul trebuie să ofere:\n'Interogare utilizator' (inclusiv user_id).\nExemplu: Returnați valoarea reală a acelui utilizator. Platforma va compara rezultatele 'Interogării utilizator' cu 'declarația de condiție' setată anterior; dacă se potrivește, este aprobat; dacă nu, este respins.",
+      "5": "Recomandare de siguranță: Vă rugăm să furnizați doar puncte finale de citire și să activați api_key împreună cu restricții de whitelist pe domeniu; dacă sunt necesare operațiuni între domenii, puteți folosi Cloudflare Workers ca relai și implementa limitarea ratei.",
+      "6": "Pot fi modificate regulile activității pe parcurs?",
+      "7": "Nu se pot face modificări pe parcurs. Sperăm că toți utilizatorii acestui sistem pot menține reciproc încrederea. Dacă o parte a proiectului promite emiterea de red packets, dar schimbă calificările jocului pe parcurs, făcând imposibilă revendicarea, aceasta va dăuna încrederii jucătorilor. Dacă emitentul modifică API-ul pentru a schimba regulile și mai mulți jucători o raportează, ne rezervăm dreptul de a suspenda sau îngheța conturile după confirmarea prin jurnalele de modificare. Prin urmare, vă rugăm să evitați absolut schimbarea regulilor jocului în mijlocul API-ului, deoarece acest lucru poate duce la interzicerea contului.",
+      "8": "Dacă sunteți îngrijorat de setările incorecte, abordarea corectă este:",
+      "9": "Puteți crea mai întâi propriul grup de testare, emiteți red packets de test pentru dumneavoastră în grupul de testare și, odată confirmat fără probleme, continuați să distribuiți în comunitatea oficială. Regula de bază pentru red packets este: nu puteți solicita o oprire pe parcurs, nici nu puteți schimba direct regulile pentru o activitate în desfășurare. Fiecare rundă trebuie finalizată și soluționată conform angajamentului original înainte de a putea folosi reguli noi în runda următoare."
+    },
+    "q6_title": "6) Regulile activității, controlul eligibilității și nicio schimbare a regulilor pe parcurs",
+    "q7_body": {
+      "0": "În prezent suntem încă în faza beta de operare și vom optimiza treptat tabloul de bord de date, inclusiv numărul de participanți, numărul de red packets revendicate, rata de revendicare etc. Părțile de proiect pot, de asemenea, încorpora indicatori de urmărire în setările API-ului lor.",
+      "1": "Red packets neclaimate vor fi returnate automat în portofelul dumneavoastră. Dacă nu primiți o rambursare în termen de 3 zile după încheierea activității, puteți întreba serviciul de asistență pentru procesare.",
+      "2": "Este recomandat să nu executați prea multe activități simultan în același grup pentru a evita conflictele. Utilizatorii pot, de asemenea, să devină confuzi; este cel mai bine să executați activitățile pe rând, una câte una sau una pe zi, și să asigurați fonduri adecvate pentru a finaliza fiecare activitate.",
+      "3": "Se recomandă ajustarea regulilor pe baza datelor; puteți utiliza API-ul pentru testare A/B, faceți referire la cazuri de succes anterioare și colectați în mod regulat feedback de la membri pentru a optimiza treptat gameplay-ul.",
+      "4": "Anti-fraudă și abuz:",
+      "5": "În timpul perioadei de testare a operării beta deschise, optimizăm problemele de înșelătorie ale utilizatorilor. Pentru a asigura corectitudinea sistemului, vom bloca în mod special utilizatorii care încearcă să folosească roboți pentru a obține red packets. Cea mai bună metodă de prevenire este să permitem utilizatorilor să își seteze propriul API și condiții și să restricționeze numărul de revendicări, ceea ce va crește pragul pentru cei care doresc să înșele. În caz de situații anormale, nu ezitați să contactați serviciul nostru de asistență pentru feedback."
+    },
+    "q7_title": "7) Urmărirea performanței, optimizarea și prevenirea fraudelor",
+    "section_title": "Întrebări frecvente (FAQ detaliat) — Trimite red packet"
+  },
+  "features": {
+    "f1": "Configurare rapidă",
+    "f2": "Diverse stiluri de joc",
+    "f3": "Date în timp real",
+    "f4": "Sigur și de încredere"
+  },
+  "features_desc": {
+    "f1": "Finalizează configurarea în 3 minute pentru a începe activitatea cu red packet",
+    "f2": "Suportă metode de alocare aleatorie, medie și specificată",
+    "f3": "Vizualizează instantaneu datele de primire și feedback-ul utilizatorilor",
+    "f4": "Designul descentralizat asigură securitatea fondurilor"
+  },
+  "cta_button_prefix": "Activare acum",
+  "cta_button_suffix": "Robot",
+  "cta_launch_bot": "Activează Robotul moonpacket acum",
+  "footer_tip": "Sugestie: Trimiterea de red packets este potrivită pentru interacțiuni de deschidere. Poți răspunde la postarea red packet pentru a explica tema jocului pe care dorești să-l organizezi."
+}

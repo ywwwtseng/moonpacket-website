@@ -1,0 +1,152 @@
+{
+  "title": "moonpacket — חבילות אדומות בקלות, בביטחון ובמהירות",
+  "description": "רובוט red packet של moonpacket מוצפן | תומך ב-USDT, TON, SOL, ETH. שלח red packets בקלות, קבל מיידית, בצורה מאובטחת לא-שמרנית, מושלם לצמיחה של קהילת Telegram והגברת המעורבות.",
+  "nav": {
+    "home": "בית",
+    "about": "אודות",
+    "pricing": "תמחור",
+    "team": "צוות",
+    "blog": "בלוג",
+    "faq": "שאלות נפוצות",
+    "contact": "צור קשר",
+    "careers": "קריירות",
+    "claim": "דרוש red packet",
+    "send": "שלח עטיפה אדומה",
+    "api": "מסמכי API"
+  },
+  "hero": {
+    "title": "red packets במטבעות קריפטוגרפיים, זמינים לכולם",
+    "subtitle": "שפר את חוויית הקהילה שלך עם שירותים פשוטים, גלובליים.",
+    "desc": "הבוט הטוב ביותר של red packet לפרויקטי מטבעות meme ולבעלי קבוצות טלגרם לרכוש משתמשים חדשים ולהגביר מעורבות.",
+    "ctaPrimaryLabel": "השקת moonpacket",
+    "ctaPrimaryHref": "https://t.me/MoonPackageDevBot",
+    "ctaSecondaryLabel": "איך להתחבר",
+    "ctaSecondaryHref": "/zh-TW/integration",
+    "lead": "red packets של Telegram TON, meme, USDT | הבוט הטוב ביותר של red packet לפרויקטי מטבעות meme ולבעלי קבוצות טלגרם לרכוש משתמשים חדשים ולהגביר מעורבות.",
+    "cta_primary": "הפעל את moonpacket עכשיו",
+    "cta_secondary": "איך לשלב עם קבוצות",
+    "headline_line1": "moonpacket",
+    "headline_line2": "התחל, שאף אל הירח.",
+    "tagline": "red packets של Telegram TON, meme, ו-USDT לשיווק ותחזוקת קהילה. בוט red packet קבוצתי שמיועד למנהלים כדי להגביר מעורבות, למשוך חברים חדשים, ולעודד אינטראקציה."
+  },
+  "features": {
+    "f1": "ה注册 מהירה",
+    "f2": "לוקליזציה גלובלית",
+    "f3": "אבטחת לא-שמרנית",
+    "title": "תכונות עיקריות",
+    "items": "__TODO_TRANSLATE_zh-CN__"
+  },
+  "sections": {
+    "features_heading": "דגשי תכונה",
+    "features_subtitle": "אתה יכול לקבל",
+    "tokens_heading": "אסימונים וסטטיסטיקות",
+    "testimonials_heading": "ביקורות משתמשים",
+    "pricing_heading": "תוכניות ומחירים",
+    "waterfall_title": "מפל חבילות אדומות"
+  },
+  "footer": {
+    "rights": "",
+    "privacy": "מדיניות פרטיות",
+    "terms": "תנאי שירות",
+    "social": {
+      "telegram_group": "קבוצת טלגרם",
+      "telegram_channel": "ערוץ טלגרם",
+      "x": "X",
+      "youtube": "YouTube"
+    },
+    "copyright": "זכויות יוצרים."
+  },
+  "a11y": {
+    "skip_to_main": "דלג לתוכן העיקרי",
+    "language_menu": "פתח תפריט שפה",
+    "language": "שפה"
+  },
+  "metrics": {
+    "heading": "אינדיקטורים בזמן אמת",
+    "price_btc": "מחיר BTC",
+    "total_sent": "סכום כולל שנשלח",
+    "total_claimed_amount": "סכום כולל שהתקבל (USDT)",
+    "title": "אסימונים וסטטיסטיקות",
+    "groups": "קבוצות מחוברות",
+    "groupsLinkLabel": "קבוצות red packet מחוברות",
+    "sent": "red packets שנשלחו",
+    "claimed": "סכום כולל שנדרש",
+    "sort": {
+      "latest": "החדש ביותר",
+      "oldest": "הישן ביותר",
+      "most": "מספר מקסימלי של משתתפים",
+      "least": "מספר מינימלי של משתתפים"
+    }
+  },
+  "errors": {
+    "stale": "הנתונים עשויים להיות מיושנים",
+    "not_found": "הדף לא נמצא",
+    "not_found_desc": "מצטערים, לא הצלחנו למצוא את הדף הזה, או שהוא הוסר."
+  },
+  "pricing": {
+    "starter": "תוכנית בסיסית",
+    "pro": "שירותים מקצועיים",
+    "enterprise": "תוכנית ארגונית",
+    "price_free": "חינם",
+    "price_19": "$19",
+    "price_contact": "צור קשר",
+    "sla_support": "SLA ותמיכה",
+    "bullets": {
+      "starter": {
+        "0": "תכונות בסיסיות",
+        "1": "תמיכה קהילתית"
+      },
+      "pro": {
+        "0": "כולל תוכנית בסיסית",
+        "1": "הוקרה מתקדמת"
+      },
+      "enterprise": {
+        "0": "SLA ותמיכה",
+        "1": "אינטגרציה מותאמת"
+      }
+    }
+  },
+  "story": {
+    "belief_title": "🌕 האנרגיה של הירח והאמונה בחבילות אדומות",
+    "disclaimer_title": "⚠️ הצהרה",
+    "future_title": "💫 יישומים עתידיים",
+    "schedule_title": "כללי השחרור של אסימונים",
+    "secrets_title": "🌸 הסוד שלו",
+    "title": "🌕 הסיפור של moonini"
+  },
+  "waterfall": {
+    "claimed": "דרוש",
+    "progress": "נטען",
+    "sent_from": "שליחה לקבוצה:",
+    "total": "סכום כולל"
+  },
+  "seo": {
+    "og": {
+      "image": "/images/og-default.png",
+      "type": "website"
+    },
+    "routes": {
+      "claim": {
+        "description": "תכונת ה-red packet של moonpacket תומכת במטבעות שונים כולל SOL ו-USDT, ומאפשרת לשלוח את המטבעות הממים שלך. כלי עוצמתי למשיכת משתמשים חדשים והגברת המעורבות בקבוצות טלגרם.",
+        "title": "אפליקציית המיני של red packet בטלגרם — moonpacket"
+      },
+      "privacy": {
+        "description": "מדיניות הפרטיות של moonpacket מסבירה כיצד אנו אוספים, משתמשים ומגנים על הנתונים האישיים שלך.",
+        "title": "מדיניות פרטיות — moonpacket"
+      },
+      "send": {
+        "description": "השתמש ב-moonpacket כדי לשלוח red packets, לקבוע תנאי משימות, ואינטגרציות API כדי למשוך בצורה אפקטיבית משתמשים חדשים ולחזק את המעורבות של משתמשים יקרי ערך.",
+        "title": "שלח red packet — moonpacket"
+      },
+      "terms": {
+        "description": "תנאי שירות moonpacket, מדריכי שימוש והצהרות משפטיות.",
+        "title": "תנאי שירות — moonpacket"
+      }
+    },
+    "site": {
+      "description": "שירות Telegram Bot ל-red packet cryptocurrency של moonpacket | תומך ב-USDT, TON, SOL, ETH, DOGE. אתה יכול גם לשלוח red packets של מטבע meme משלך, אידיאלי למשיכת משתמשים חדשים, יצירת אווירה תוססת, והגדלת המעורבות בקהילות Telegram.",
+      "site_name": "moonpacket",
+      "title": "moonpacket — red packets של מטבע meme cryptocurrency, ארנק red packet ייעודי"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "title": "moonpacket Přehled dat",
+  "subtitle": "Statistiky v reálném čase a žebříček",
+  "latest": "Nejnovější",
+  "top_groups": "Oblíbené skupiny",
+  "total_sent": "Celková odeslaná částka",
+  "total_claimed": "Celková částka nárokovaná (USDT)",
+  "participants": "Počet účastníků",
+  "avg_packet": "Průměrná částka na balíček",
+  "sort": {
+    "label": "Seřadit podle",
+    "latest": "Nejnovější",
+    "oldest": "Nejstarší",
+    "most": "Maximální účastníci",
+    "least": "Minimální účastníci"
+  }
+}

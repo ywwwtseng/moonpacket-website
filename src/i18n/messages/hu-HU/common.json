@@ -1,0 +1,377 @@
+{
+  "site": {
+    "title": "moonpacket — egyszerű, gyors és biztonságos kripto red packetek",
+    "description": "Küldj red packeteket kriptovalutával, és jelenítsd meg az árakat és mutatókat SEO-barát statikus oldalakon."
+  },
+  "nav": {
+    "home": "Főoldal",
+    "about": "Rólunk",
+    "pricing": "Árazás",
+    "team": "Csapat",
+    "blog": "Blog",
+    "faq": "Gyakran feltett kérdések",
+    "contact": "Kapcsolat",
+    "careers": "Toborzás",
+    "claim": "red packet igénylése",
+    "send": "red packet küldése",
+    "api": "API dokumentáció"
+  },
+  "hero": {
+    "title": "a moonpacket felszáll a holdra!",
+    "subtitle": "Telegram TON, meme, USDT red packet fogás｜Egy red packet bot, amelyet meme coin projektek és Telegram csoporttulajdonosok számára terveztek a felhasználói megszerzés és elköteleződés fokozására.",
+    "desc": "Egy red packet bot, amelyet meme coin projektek és Telegram csoporttulajdonosok számára terveztek a felhasználói megszerzés és elköteleződés fokozására.",
+    "ctaPrimaryLabel": "Aktiváld a moonpacket-et",
+    "ctaPrimaryHref": "https://t.me/MoonPackageDevBot",
+    "ctaSecondaryLabel": "Hogyan integrálj",
+    "ctaSecondaryHref": "/zh-TW/integration"
+  },
+  "features": {
+    "f1": "Gyors beállítás",
+    "f2": "Globális lokalizáció",
+    "f3": "Decentralizált biztonság"
+  },
+  "metrics": {
+    "heading": "Valós idejű mutatók",
+    "price_btc": "BTC ár",
+    "total_sent": "Összes elküldött red packet száma",
+    "total_claimed_amount": "Összes igényelt összeg (USDT)",
+    "title": "moonpacket adatok",
+    "groups": "Csoport",
+    "groupsLinkLabel": "Csatlakozott red packet csoportok",
+    "sent": "Küldve",
+    "claimed": "Igényelt (USDT)",
+    "sort": {
+      "latest": "Legfrissebb",
+      "oldest": "Legidősebb",
+      "most": "Maximális résztvevők",
+      "least": "Minimális résztvevők"
+    }
+  },
+  "cta": {
+    "primary": "Kezdj el",
+    "secondary": "Tudj meg többet",
+    "banner": "Készen állsz, hogy aktívabbá tedd a közösséged?"
+  },
+  "footer": {
+    "rights": "Minden jog fenntartva.",
+    "privacy": "Magánéleti jogok",
+    "terms": "Szolgáltatási feltételek",
+    "social": {
+      "telegram_group": "Telegram Csoport",
+      "telegram_channel": "Telegram Csatorna",
+      "x": "X",
+      "youtube": "YouTube"
+    }
+  },
+  "features_desc": {
+    "f1": "Gyors kezdés minimális lépésekkel",
+    "f2": "Beépített 34 nyelv és RTL támogatás",
+    "f3": "Decentralizált, figyelembe véve a magánéletet"
+  },
+  "sections": {
+    "features_heading": "Funkciók kiemelése",
+    "features_subtitle": "Kaphat",
+    "tokens_heading": "Tokenek és statisztikák",
+    "testimonials_heading": "Mit mondanak a felhasználók",
+    "pricing_heading": "Tervek és árak",
+    "waterfall_title": "Valós idejű red packet nyilvántartások"
+  },
+  "tokens": {
+    "columns": {
+      "token": "Token",
+      "price": "Ár",
+      "h24": "24 óra",
+      "d7": "7 nap",
+      "market_cap": "Piaci kapitalizáció"
+    }
+  },
+  "testimonials": {
+    "q1": "A többnyelvű indítás nagyon gyors és egyszerű.",
+    "a1": "Jane, termékmenedzser",
+    "q2": "Szinte nincs szükség JS-re, és SEO-barát.",
+    "a2": "Mike, SEO",
+    "q3": "A hozzáférhetőségi és lokalizálási alapbeállítások meglehetősen átfogóak.",
+    "a3": "Sara, tervező"
+  },
+  "pricing": {
+    "starter": "Kezdés",
+    "pro": "Professzionális",
+    "enterprise": "Vállalati",
+    "price_free": "Ingyenes",
+    "price_19": "$19",
+    "price_contact": "Lépjen kapcsolatba velünk",
+    "bullets": {
+      "starter": {
+        "0": "Alapfunkciók",
+        "1": "Közösségi támogatás"
+      },
+      "pro": {
+        "0": "Alapcsomag",
+        "1": "Fejlett lokalizáció"
+      },
+      "enterprise": {
+        "0": "SLA és támogatás",
+        "1": "Egyedi integráció"
+      }
+    }
+  },
+  "form": {
+    "your_email": "Az Ön e-mail címe",
+    "message": "Üzenet",
+    "send": "Küldés"
+  },
+  "errors": {
+    "not_found": "Az oldal nem található",
+    "stale": "Az adatok ideiglenesen nem elérhetők"
+  },
+  "claim": {
+    "title": "A red packet fogadásáról",
+    "faq": {
+      "section_1": "Kezdés és jogosultság",
+      "section_2": "Rendezvény szabályai és tisztesség",
+      "section_3": "Igénylés folyamata és feladatok",
+      "section_4": "Összegek, egyenlegek és kifizetések",
+      "section_5": "Kockázatkezelés és korlátozások",
+      "section_6": "Időzítés és értesítések",
+      "section_7": "Többnyelvűség és regionális különbségek",
+      "section_8": "Eszközök és kompatibilitás",
+      "section_9": "Adatvédelem és Biztonság",
+      "section_10": "Ügyfélszolgálat és panaszok",
+      "section_11": "Egyéb játékok és információk",
+      "q1": "Hogyan lehet regisztrálni?",
+      "a1": "Használja a linket, hogy aktiválja botunkat az automatikus élményregisztráláshoz. A moonpacket lehetővé teszi a csoporttulajdonosok számára, hogy integrálják azt csoportjaikba. A játékosok nemcsak hivatalos csoportunkban, hanem az összes moonpacket red packet bothoz kötött csoportban is igényelhetnek red packet-et.",
+      "q2": "Mit kell telepítenem vagy letiltanom?",
+      "a2": "Nem szükséges további alkalmazások telepítése; javasolt a Telegram legújabb verzióját használni. Ha a WebAppot a rendszer böngészőjében nyitja meg, kérjük, győződjön meg arról, hogy a sütik/tárolás nincsenek blokkolva.",
+      "q3": "Ki vehet részt?",
+      "a3": "Általában minden Telegram felhasználó jogosult a részvételre; azonban minden csoport API kialakítása eltérő, és be kell tartanod az adott csoport vagy csatorna szabályait. Bizonyos régiók internetes korlátozásokkal rendelkezhetnek, vagy néhány esemény regionális/korhatárokat állíthat fel, és a rendszer automatikusan meghatározza a nem jogosult résztvevőket és megakadályozza őket a követelésben.",
+      "q4": "Több fiókkal vagy eszközzel igényelhetek?",
+      "a4": "Nem. A rendszer megakadályozza, hogy a felhasználók többször követeljenek a Telegram fiók + összekapcsolt Gmail, ellenőrző kód, egyedi pénztárcacím és háttérben végzett rendellenes vizsgálatok használatával; a szabálysértések kockázatkezeléshez vezethetnek és a fiók felfüggesztését eredményezhetik.",
+      "q5": "A red packet-ek véletlenszerűen vagy egyenletesen kerülnek kiosztásra?",
+      "a5": "A csoport vagy csatorna projekt tevékenységeinél választható a 'véletlenszerű', 'egyenletes elosztás' vagy 'meghatározott'. Minden csoport szabályai eltérőek, kérlek, nézd meg az egyes csoportok tevékenység leírásának megjegyzéseit.",
+      "q6": "Hogyan biztosítják a tisztességet? Ellenőrizhetem ott a red packet eredményeimet?",
+      "a6": "moonpacket csak red packet-et biztosít; a red packet rendszer kiegészítő bot eszközként működik, nincs befektetési vagy üzleti kapcsolata a különböző platformok üzemeltetőivel. Ezért a teljes körű méltányosság biztosítása az egyetlen módja annak, hogy mindenki igényeit kielégítsük. Ezen kívül egy audit nyilvántartás megmarad a szerver oldalán egy bizonyos időszakra (algoritmus és mag); a felhasználók ellenőrizhetik követelésük eredményét a boton, miután a red packet követelési tevékenység véget ért, és ez az eredmény a Telegram miniapp indítása után is lekérdezhető.",
+      "q7": "Hány red packet-et igényelhet egy személy?",
+      "a7": "Az esemény beállításaitól függ. Néhány egyszeri, míg másoknak napi határaik vannak, és ha van 'többször egy személyre' korlátozás, a rendszer automatikusan korlátozni fogja azt, és figyelmeztetni fog, amikor elérted a határt.",
+      "q8": "A rendezvény korábban véget ér, vagy elhalasztják?",
+      "a8": "Ha a részvényeket követelték vagy lejárt, véget ér; vagy ha a szervező felfüggeszti vagy megszünteti rendellenes kockázatok miatt, a red packet oldal valós időben szinkronizálódik.",
+      "q9": "Miért nem tudok igényelni a gomb megnyomása után?",
+      "a9": "Gyakori okok: követelték/azt a feladatot nem teljesítették. Néhány esetben a projektek kockázatok miatt felfüggeszthetők vagy megszüntethetők. Az információk frissítési időkésése miatt a csoportok között ez nem tükröződhet azonnal; kérlek, figyelj az esemény oldal legfrissebb red packet információira, amelyet a csoport posztolt.",
+      "q10": "Mi az a feladat feloldása?",
+      "a10": "Meg kell felelnie a megadott feltételeknek (például a csatorna követése, a csoporthoz való csatlakozás, a jelszó megadása, külső feladatok) az igényléshez. A teljesítés után térjen vissza a red packet információs poszt gombjához az 'igénylés red packet'.",
+      "q11": "Világosan teljesítettem a feladatot, miért mutatja, hogy nem sikerült?",
+      "a11": "Előfordulhat szinkronizálási késedelem a különböző API-k között a Telegramon; ha nem sikerül azonnal, kérjük, várjon egy pillanatot. Ha továbbra is sikertelen, akkor valószínűleg az API szolgáltatónál van a probléma, és javasoljuk, hogy jelentse a red packet feladatot kiadó projektnek.",
+      "q12": "Hol lehet megszerezni a jelszót? Mi lesz, ha hibásan adtam meg?",
+      "a12": "A jelszót általában a projekt hirdeti meg posztokban, élő közvetítésekben vagy videókban az x-en; ha rosszul adta meg, újra próbálkozhat, de a többszöri helytelen kísérlet sebességkorlátozást indíthat el.",
+      "q13": "Hogyan lehet ellenőrizni a külső feladatokat (például weboldal regisztrálás/kereskedés)?",
+      "a13": "A moonpacket API-t biztosít külső projektek számára, hogy megerősítsék, a felhasználók teljesítették-e a feladatokat. Amikor a felhasználók red packet-et igényelnek, kérés érkezik az API-hoz, ami visszaküldi az ellenőrzési eredményt; ha megfelel a feltételeknek, feloldódik; ha még nem érkezett válasz, akkor várhat, és később újra megpróbálhatja.",
+      "q14": "Hol tudom ellenőrizni a kapott összeget?",
+      "a14": "A sikeres igényléseket a Telegram boton keresztül küldik el, és a red packet igénylési nyilvántartás elérhető lesz a mini alkalmazásban, lehetővé téve a történet és a rendelkezésre álló kivehető egyenleg megtekintését bármikor.",
+      "q15": "Milyen eszközök támogatottak?",
+      "a15": "Az aktivitás beállításai alapján a red packet-ek jelenleg főként USDT/SOL/ETH/TON és a csoporttulajdonos által kibocsátott tokenek szerint oszlanak meg. Az oldalon jelezni fogja az eszköz egységeket és az árfolyamokat (ha vannak).",
+      "q16": "Milyen információkat kell megkötni a kivonáshoz? Mennyi időt vesz igénybe?",
+      "a16": "Biztosítási célból meg kell adnia a pénztárca címét és alapvető személyazonosító információkat; az érkezési idő általában T+0-tól T+2 munkanapig terjed. Abnormális kockázatellenőrzés során meghosszabbítható.",
+      "q17": "Ki viseli a tranzakciós díjat/Gas-t?",
+      "a17": "Minden on-chain művelethez gázdíj szükséges, amelyet maga a blokklánc számít fel, és a moonpacket nem számít fel további díjat.",
+      "q18": "Át tudom adni a egyenlegemet a barátaimnak, vagy össze tudom vonni?",
+      "a18": "Nincs rendelkezésre álló 'átutalás/összevonás' módszer.",
+      "q19": "Miért tekintették gyanúsnak vagy miért lett megakadályozva?",
+      "a19": "Lehetséges okok közé tartozik, hogy több fiókot használnak ugyanazon az eszközön, abnormális proxyk/VPN-ek, túl magas gyakoriságú red packet igénylés több csoportban, feketelista régiók/ASN, stb. A /report üzenet tartalmát el tudja küldeni a botnak; ez egyirányú válaszcsatorna, és a hivatal fenntartja a jogot, hogy a fiók felfüggesztéséről ne adjon magyarázatot vagy választ.",
+      "q20": "Szükségem van KYC ellenőrzésre (ellenőrző kód)?",
+      "a20": "Magas kockázatú helyzetekben az ellenőrzés a felhasználók által megadott információkra támaszkodik; kérjük, győződjön meg arról, hogy a helyes biztonsági információk vannak kitöltve a kivonáskor; ha téves információt nem ad meg, nem fogja teljesíteni a biometrikus és dokumentum KYC-t.",
+      "q21": "Mit tegyek, ha a fiókom korlátozva van?",
+      "a21": "A korlátozások általában ideiglenes védelmi intézkedések. Kérjük, küldje el a /report üzenet tartalmát a botnak. Azoknak a verifikátoroknak a kérdéseit, akik nem fejezték be a biztonsági információk kitöltését, nem fogják feldolgozni; ha a helyzet normális a verifikálás befejezése után, kezelni fogjuk azt.",
+      "q22": "Mikor kezdődnek és érnek véget a red packet események?",
+      "a22": "Minden red packet-et kibocsátó projekt különböző feltételekkel rendelkezik, kérjük, figyeljen a red packet információk időbeli és fennmaradó kvótáira; engedélyezheti a Telegram értesítéseket, vagy beállíthat konkrét értesítési hangokat, hogy időben értesítést kapjon a red packet igénylésről.",
+      "q23": "Bekapcsolhatom vagy kikapcsolhatom az értesítéseket a kivonatok fogadásáról vagy teljesítéséről?",
+      "a23": "Ez a beállítás a Telegram-on van, nem a moonpacket beállítása; a Telegram beállításaiban módosíthatja az értesítéseket.",
+      "q24": "Miért nem látok bizonyos kivonási módszereket vagy funkciókat?",
+      "a24": "Bizonyos régiók politikái nem alkalmazhatók, és a rendszer automatikusan elrejti vagy megakadályozza a kivonásokat, jelezve, hogy nem vehet részt a red packet igénylési tevékenységben, mivel ez a régió jelenleg nem támogatja azt.",
+      "q25": "Hány tizedesjegyet fog megjeleníteni a digitális formátum?",
+      "a25": "A weboldal automatikusan alkalmazza a lokalizált ezres elválasztókat és tizedesjegyeket az Ön nyelve alapján.",
+      "q26": "Elérhető iOS, Android és asztali Telegramon?",
+      "a26": "Igen, ajánlott a Telegram legújabb verziójának használata. Ha olvashatatlan helyzetekkel találkozik, kérjük, ellenőrizze, hogy az hivatalos klienst használja-e, vagy frissítse az alkalmazást, vagy kattintson a mini alkalmazás oldalának jobb felső sarkában található három pontra az oldal újratöltéséhez.",
+      "q27": "Hatással lesz a készülékek váltása a fogadásra?",
+      "a27": "Nem befolyásolja a feljegyzéseket, de ha többszöri műveletet hajtanak végre több eszközön rövid időn belül, az kockázatellenőrzést indíthat el.",
+      "q28": "Lesz-e hatása a VPN/proxy használatának?",
+      "a28": "Ha magas kockázatú proxy-t használsz, azt elkaphatják. Ajánljuk, hogy ideiglenesen tiltsd le a proxy-t, vagy válts egy tiszta hálózati környezetre, és próbáld újra.",
+      "q29": "Milyen adatokat fognak gyűjteni?",
+      "a29": "Kövesd a minimalizálás elvét: csak az elosztáshoz/kivételhez/kockázatkezeléshez szükséges adatokat gyűjtsd össze (például személyes biztonsági kérdések, pénztárcacímek, email, Telegram ID). Ha szükséges a hitelesítés, egy harmadik fél ellenőrző platformján keresztül fogunk ellenőrizni, amely nem tárolja a felhasználó magánadatait a biztonsági információn kívül.",
+      "q30": "Milyen intézkedések vannak érvényben a pénzügyi biztonság biztosítására?",
+      "a30": "Minden kritikus művelet második hitelesítést igényel; a magas kockázatú kivételek manuális ellenőrzést válthatnak ki.",
+      "q31": "Törölhetem a fiókomat vagy az adataimat?",
+      "a31": "Adataid hozzáférésére vagy törlésére vonatkozó kérelmet lehet benyújtani a folyamat szerint. Miután a fiók törlésre került, már nem tudsz bejelentkezni, de a tranzakciós adatok a megfelelési követelményeknek megfelelően megmaradnak.",
+      "q32": "Kit kell keresnem, ha problémába ütközöm?",
+      "a32": "Felkereshetsz bennünket az információk benyújtásával/jelentésével a boton keresztül. A hibaüzenetek és képernyőfelvételek megadása felgyorsíthatja a feldolgozást.",
+      "q33": "Mennyi időt vesz igénybe a panaszra való válasz?",
+      "a33": "Általában a válaszok 1-3 munkanapon belül érkeznek; a sürgős pénzes ügyek prioritást élveznek.",
+      "q34": "Részt vehetek több csoport tevékenységeiben?",
+      "a34": "Igen; minden tevékenységnek független szabályai vannak, kérlek, figyelj a határokra és az egyes események érvényességi idejére.",
+      "q35": "Lesz ranglista vagy kitüntetések?",
+      "a35": "Néhány tevékenység rendelkezhet ranglistákkal/jelvényekkel és sorsolásokkal; a szabályokért és jutalmakért lásd az esemény oldalát."
+    }
+  },
+  "send": {
+    "title": "Gyakran Ismételt Kérdések (Részletes Verzió) — Red Packetek Küldése (Szervező)",
+    "hero": {
+      "api_demo_label": "API Bemutató",
+      "api_get": "GET [api_url]?api_key=[api_key]&user_id=[user_id]",
+      "response_label": "Vissza:",
+      "json": {
+        "0": "{",
+        "1": "\"data\": {",
+        "2": "\"level\": 100,",
+        "3": "\"status\": \"active\",",
+        "4": "\"is_blacklist\": false",
+        "5": "}",
+        "6": "}"
+      },
+      "title": "Új felhasználók szerzése, aktivitás növelése",
+      "lead": "A projekt felelőse konkrét feltételeket állíthat be:",
+      "points": {
+        "0": "• Csatlakozz a csoporthoz/kövesd a csatornát",
+        "1": "• Helyesen használd a jelszót",
+        "2": "• Egyedi API megvalósítás"
+      },
+      "note": "Csak azok a felhasználók kaphatnak red packetet, akik megfelelnek a feltételeknek"
+    },
+    "faq": {
+      "section_1": "Kezdés és Beállítások",
+      "section_2": "Közzétételi Szabályok és Méltányosság",
+      "section_3": "Feladatok és Feltételek",
+      "section_4": "Eszközök, Kitettség és Szabályozás",
+      "q1": "Hogyan kezdjem el?",
+      "a1": "Kérjük, adja hozzá a moonpacket botot a Telegram csoportjához vagy csatornájához, és állítsa be adminisztrátornak. Győződjön meg róla, hogy legalább a következő engedélyek engedélyezve vannak: posztolás, saját posztok szerkesztése/törlése. A befejezés után térjen vissza a moonpacket 'red packet Küldése' oldalra, és látni fogja a kötött csoportokat/csatornákat a 'Küldési lehetőségek' listában.",
+      "q2": "Mire kell figyelnem küldés előtt?",
+      "a2": "Kérjük, először helyezze el az eszközöket, amelyeket ki szeretne adni (például helyezzen el 10 USDT-t teszteléshez). Küldhet mainstream tokeneket (USDT/TON, stb.) vagy saját meme érméit. A mainstream tokenek további megjelenést kapnak a kezdőlap hírfolyamában, míg a meme érmék csak a közösségében jelennek meg.",
+      "q3": "Kiválaszthatom, hová küldjem?",
+      "a3": "A 'Küldési Célok' részben ellenőrizze a kötött csoportokat/csatornákat, hogy egyszeri vagy több csoportba küldhessen egyszerre. Ha nem látja őket a listában, kérjük, erősítse meg, hogy a bot adminisztrátora a csoportnak/csatornának, és rendelkezik a szükséges engedélyekkel.",
+      "q4": "Milyen elosztási modellek állnak rendelkezésre?",
+      "a4": "Választhat véletlenszerű (szerencse) vagy fix összeget (egyenlő elosztás). Mindkettő beállíthatja a teljes összeget, a részesedések számát és a főösszeg korlátját, és hozzáadhat érvényességi időt vagy ütemezett megjelenítést.",
+      "q5": "Egyszerre vagy részletekben küldhető?",
+      "a5": "Igen. Beállíthat egy egyszeri teljes kiadást vagy csoportos kiadást előre meghatározott időn belül; az időzítőt és a megjelenítési üzeneteket is támogatja.",
+      "q6": "Mi történik, ha a egyenleg nem elegendő?",
+      "a6": "A rendszer az Ön rendelkezésre álló egyenlege alapján működik. Ha az egyenleg nem elegendő, hibaüzenetet küldenek, amelyben kérik, hogy töltse fel az összeget, hogy elkerülje a túlköltekezést.",
+      "q7": "Hogyan biztosított a méltányosság?",
+      "a7": "Az elosztás a szerveroldalon történik, és auditnyilvántartásokat őriz (algoritmus és mag, műveleti naplók). A szabályok, részesedések, korlátok és végső eredmények nyilvánosan megjelennek az eseményoldalon a nyomon követhetőség érdekében.",
+      "q8": "Megkövetelhetem, hogy csatlakozzanak egy csapathoz vagy kövessenek egy csatornát a fogadáshoz?",
+      "a8": "Igen. Engedélyezheti a beépített feltételt, hogy 'Biztosan csatlakozni kell egy bizonyos csoporthoz/követni kell egy bizonyos csatornát'. Az alapfeltétel, hogy a botja benne van abban a csoportban/csatornában, és rendelkezik a közzétételhez és a saját posztok szerkesztéséhez/törléséhez szükséges engedélyekkel a tagok státuszának ellenőrzéséhez.",
+      "q9": "Mi az a passphrase? Milyen helyzetekben alkalmas?",
+      "a9": "A játékosoknak külső csatornákon keresztül kell megszerezniük a jelszót, és azt a megfelelő megadás után a lapon igényelhetik. A közönséges gyakorlatok közé tartozik: a 6-jegyű jelszó felosztása hosszú YouTube videókban, hogy ösztönözze a teljes megtekintést; a jelszó rejtvényei az X.com (Twitter) bejegyzéseiben vagy Threads-ben az interakció fokozása érdekében; a jelszó csak szóban történő bejelentése élő közvetítések során az érdeklődők irányítása érdekében; dedikált jelszavak privát/fizetett csoportokban, hogy biztosítsák, hogy a juttatásokat csak a magtagok kapják.",
+      "q10": "Használhatom a saját API-mat a jogosultság megállapítására?",
+      "a10": "Igen. A moonpacket a megadott, csak olvasható API-t fogja hívni a felhasználók igénylésének ellenőrzésére. A backendnek csak az api_url és az api_key beállítására van szüksége (a domain engedély opcionálisan konfigurálható).",
+      "q11": "Mi a különbség a mainstream érmék és a meme érmék láthatóságában?",
+      "a11": "A mainstream érmék (USDT/TON, stb.) a csoportban és a kezdőlap hírfolyamában is megjelennek a nagyobb láthatóság érdekében; a meme érmék csak a csoportjában jelennek meg.",
+      "q12": "Hogyan lehet megelőzni a csalásokat és a tömeges gépeket?",
+      "a12": "A magatartási gyakoriság és az eszköz/IP észlelése, a fiókok és pénztárcák egyedi kötése, a visszavonási ellenőrzőkód, az AI kockázatkezelés kezdeti ellenőrzése; ha szükséges, lesz külső biometrikus + arcfelismerő + azonosítási ellenőrzés.",
+      "q13": "Hol nézhetem meg az elküldött rekordjaimat és a címzettek számát?",
+      "a13": "Kérjük, ellenőrizze a 'Küldött Red Packetek' részt a személyes kezdőlapján, hogy lássa a jogosultak számát, a fennmaradó részesedéseket és a fogyasztott összeg összegét minden egyes alkalommal; ha engedélyezve van, jelentéseket is letölthet."
+    }
+  },
+  "groups_directory": {
+    "latest_tab": "Legfrissebb red packet csoportok",
+    "hot_tab": "Népszerű red packet csoportok",
+    "search_placeholder": "Keresési kulcsszavak csatlakozott csoportokhoz"
+  },
+  "a11y": {
+    "skip_to_main": "Ugrás a fő tartalomra",
+    "language_menu": "Nyelv menü",
+    "language": "Nyelv"
+  },
+  "waterfall": {
+    "sent_from": "Küldési csoport:",
+    "claimed": "Igénylés",
+    "total": "Összeg",
+    "progress": "Igényelve"
+  },
+  "terms": {
+    "title": "Felhasználói feltételek",
+    "version": "v1.0.0",
+    "updated": "2025. október 5., 15:00 GMT+0800 (Taipei Standard Time) :00:",
+    "owner": "moonpacket-core",
+    "sections": {
+      "scope": "Alkalmazási terjedelem és szerződéskötés",
+      "definitions": "Meghatározás",
+      "eligibility": "Képesítések és Fiókok",
+      "services": "Szolgáltatási tartalom",
+      "wallet": "Felhő tárca és alapok",
+      "fees": "Díjak és Számlázás",
+      "rules": "Tevékenységi szabályok és tisztesség",
+      "restrictions": "Anti-bot és használati korlátozások",
+      "ip": "Tartalom és szellemi tulajdonjogok",
+      "third_party": "Harmadik fél szolgáltatások",
+      "data": "Adat és adatvédelem",
+      "risks": "Kockázati tájékoztatás",
+      "disclaimer": "Felelősségkizáró Nyilatkozat",
+      "liability": "Felelősség korlátozása",
+      "indemnity": "Kártérítés",
+      "termination": "Felfüggesztés, megszüntetés és törlés",
+      "force_majeure": "Vis major",
+      "high_risk": "Tiltott magas kockázatú felhasználások",
+      "tax": "Adók és jelentés",
+      "third_party_services": "Harmadik fél szolgáltatások és kapcsolati nyilatkozatok",
+      "wallet_assets": "Tárca és eszköz nyilatkozatok",
+      "accuracy": "A tartalom és az adatok pontossága",
+      "governing_law": "Irányadó jog és viták rendezése",
+      "contact": "Kapcsolati információk"
+    }
+  },
+  "privacy": {
+    "title": "Adatvédelmi irányelvek",
+    "version": "v1.1.0",
+    "updated": "2025. október 5., vasárnap 15:00:00 GMT+0800 (Tajpeji idő)",
+    "owner": "moonpacket-core",
+    "sections": {
+      "intro": "Bevezetés",
+      "definitions": "Definíciók",
+      "scope": "Alkalmazási terület",
+      "data_collection": "Az általunk gyűjtött adatok",
+      "data_usage": "Használatunk",
+      "legal_basis": "Szabályozási alap",
+      "cookies": "Sütik és helyi tárolás",
+      "data_sharing": "Adatmegosztási címzettek",
+      "cross_border": "Határokon átnyúló átutalás",
+      "retention": "Megőrzési időszak",
+      "security": "Biztonság",
+      "blockchain": "A blockchain jellemzőinek leírása",
+      "telegram": "Telegram platform nyilatkozata",
+      "minors": "Kiskorúakkal kapcsolatos szabályozások",
+      "rights": "Jogai és azok érvényesítése",
+      "faq": "Gyakran Ismételt Kérdések (Adatvédelem és Biztonság)",
+      "updates": "Szerződési feltételek frissítése",
+      "contact": "Kapcsolattartási információ"
+    },
+    "faq": {
+      "q1": "Milyen adatokat gyűjtünk?",
+      "a1": "Biztosítjuk a szükséges információkat a red packet kiadásához és fogadásához, a feladatok ellenőrzéséhez, a felhő pénztárcához és a kivételekhez, beleértve az alap Telegram információkat, az eszköz- és hálózati mutatókat, az interakciós eseményeket, valamint a KYC és pénztárca információkat, ha szükséges.",
+      "q2": "Biztonságban vannak a pénzeszközeim?",
+      "a2": "A pénzeszközök és a műveleti számlák elkülönítve vannak, a érzékeny műveletekhez kétfaktoros hitelesítés szükséges, és minden pénzügyi eseményt naplózunk; a magas kockázatú kivételeket manuálisan át fogják nézni.",
+      "q3": "Törölhetem az adataimat?",
+      "a3": "A törvény értelmében kérheti az adatainak törlését vagy korlátozását; a törvény által megőrzendő, számviteli vagy vitás kapcsolódó adatokat nem érinti ez a korlátozás, és ezeket követően törlik vagy anonimálják.",
+      "q4": "A régiókorlátozások és a látható tartalom nem egyeznek?",
+      "a4": "A megfelelőségi politikák szerint egyes funkciók vagy kivételi módszerek nem állhatnak rendelkezésre regionális korlátozások miatt, és a rendszer automatikusan elrejti az alkalmazhatatlan lehetőségeket.",
+      "q5": "Miért tartották gyanúsnak?",
+      "a5": "Problémák léphetnek fel proxy/VPN, szokatlan gyakoriság vagy több fiókból történő egyidejű bejelentkezés miatt; később próbálkozhat újra vagy kérheti az felülvizsgálati folyamatot."
+    }
+  },
+  "roadmap": {
+    "accept": "Elfogadási kritériumok",
+    "bucket": {
+      "progress": "Haladás"
+    },
+    "lanes": {
+      "build": "Termék létrehozása",
+      "growth": "Növekedés",
+      "token": "moonini token",
+      "trust": "Bizalom, megfelelőség és biztonság"
+    },
+    "progressLabel": "Státusz",
+    "status": {
+      "live": "Élő",
+      "planned": "Tervek",
+      "research": "Kutatás alatt",
+      "shipping": "Fejlesztés alatt"
+    },
+    "title": "Termékúti terv",
+    "updated": "Frissítés (Tokenek a haladási sáv feltöltése után kerülnek elosztásra)"
+  }
+}

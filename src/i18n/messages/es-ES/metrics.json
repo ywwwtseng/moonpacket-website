@@ -1,0 +1,17 @@
+{
+  "title": "Resumen de Datos de moonpacket",
+  "subtitle": "Estadísticas en Tiempo Real y Clasificación",
+  "latest": "Último",
+  "top_groups": "Grupos Populares",
+  "total_sent": "Cantidad Total Enviada",
+  "total_claimed": "Cantidad Total Reclamada (USDT)",
+  "participants": "Número de Participantes",
+  "avg_packet": "Cantidad Promedio Por Paquete",
+  "sort": {
+    "label": "Ordenar Por",
+    "latest": "Último",
+    "oldest": "Más Antiguo",
+    "most": "Participantes Máximos",
+    "least": "Participantes Mínimos"
+  }
+}

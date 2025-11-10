@@ -1,0 +1,152 @@
+{
+  "title": "moonpacket — 쉽고 안전하며 빠른 암호화 레드패킷",
+  "description": "moonpacket 암호화된 레드패킷 로봇 | USDT, TON, SOL, ETH 지원. 레드패킷을 쉽게 전송하고 즉시 안전하게 수령하며, 비관리형으로 텔레그램 커뮤니티 성장과 참여 증가에 완벽합니다.",
+  "nav": {
+    "home": "홈",
+    "about": "소개",
+    "pricing": "가격",
+    "team": "팀",
+    "blog": "블로그",
+    "faq": "자주 묻는 질문",
+    "contact": "문의하기",
+    "careers": "채용 정보",
+    "claim": "레드패킷 청구",
+    "send": "레드패킷 보내기",
+    "api": "API 문서"
+  },
+  "hero": {
+    "title": "모두가 이용할 수 있는 암호화폐 레드패킷",
+    "subtitle": "간단하고 글로벌한 서비스로 커뮤니티 경험을 향상시키세요.",
+    "desc": "최고의 레드패킷 봇으로 meme 토큰 프로젝트와 텔레그램 그룹 소유자가 새로운 사용자를 획득하고 참여를 증가시킬 수 있습니다.",
+    "ctaPrimaryLabel": "moonpacket 출시하기",
+    "ctaPrimaryHref": "https://t.me/MoonPackageDevBot",
+    "ctaSecondaryLabel": "연결하는 방법",
+    "ctaSecondaryHref": "/zh-TW/integration",
+    "lead": "텔레그램 TON, meme, USDT 레드패킷 | 최고의 레드패킷 봇으로 meme 토큰 프로젝트와 텔레그램 그룹 소유자가 새로운 사용자를 획득하고 참여를 증가시킬 수 있습니다.",
+    "cta_primary": "지금 moonpacket 활성화",
+    "cta_secondary": "그룹과 통합하는 방법",
+    "headline_line1": "moonpacket",
+    "headline_line2": "시작하세요, 달을 목표로 하세요.",
+    "tagline": "커뮤니티 마케팅 및 유지관리를 위한 텔레그램 TON, meme, USDT 레드패킷. 참여를 증가시키고 새로운 회원을 유치하며 상호작용을 장려하기 위해 관리자를 위해 설계된 그룹 레드패킷 봇."
+  },
+  "features": {
+    "f1": "신속 등록",
+    "f2": "글로벌 로컬라이제이션",
+    "f3": "비관리형 보안",
+    "title": "핵심 기능",
+    "items": "__TODO_TRANSLATE_zh-CN__"
+  },
+  "sections": {
+    "waterfall_title": "레드패킷 폭포",
+    "features_heading": "기능 하이라이트",
+    "features_subtitle": "받을 수 있습니다",
+    "tokens_heading": "토큰 및 통계",
+    "testimonials_heading": "사용자 리뷰",
+    "pricing_heading": "가격 및 플랜"
+  },
+  "footer": {
+    "rights": "",
+    "privacy": "개인정보 보호정책",
+    "terms": "서비스 이용약관",
+    "social": {
+      "telegram_group": "텔레그램 그룹",
+      "telegram_channel": "텔레그램 채널",
+      "x": "X",
+      "youtube": "YouTube"
+    },
+    "copyright": "저작권입니다."
+  },
+  "a11y": {
+    "skip_to_main": "주 내용으로 건너뛰기",
+    "language_menu": "언어 메뉴 열기",
+    "language": "언어"
+  },
+  "metrics": {
+    "heading": "실시간 지표",
+    "price_btc": "BTC 가격",
+    "total_sent": "총 발송 금액",
+    "total_claimed_amount": "총 수신 금액 (USDT)",
+    "title": "토큰 및 통계",
+    "groups": "연결된 그룹",
+    "groupsLinkLabel": "연결된 레드패킷 그룹",
+    "sent": "전송된 레드패킷",
+    "claimed": "총 청구 금액",
+    "sort": {
+      "latest": "최신",
+      "oldest": "가장 오래된",
+      "most": "최대 참여자",
+      "least": "최소 참여자"
+    }
+  },
+  "errors": {
+    "stale": "데이터가 오래되었을 수 있습니다",
+    "not_found": "페이지를 찾을 수 없습니다",
+    "not_found_desc": "죄송합니다. 이 페이지를 찾을 수 없거나 제거되었습니다."
+  },
+  "pricing": {
+    "starter": "기본 계획",
+    "pro": "전문 서비스",
+    "enterprise": "기업 플랜",
+    "price_free": "무료",
+    "price_19": "$19",
+    "price_contact": "문의하기",
+    "sla_support": "SLA 및 지원",
+    "bullets": {
+      "starter": {
+        "0": "기본 기능",
+        "1": "커뮤니티 지원"
+      },
+      "pro": {
+        "0": "기본 계획 포함",
+        "1": "고급 로컬라이제이션"
+      },
+      "enterprise": {
+        "0": "SLA 및 지원",
+        "1": "맞춤형 통합"
+      }
+    }
+  },
+  "story": {
+    "belief_title": "🌕 달의 에너지와 레드패킷에 대한 믿음",
+    "disclaimer_title": "⚠️ 면책사항",
+    "future_title": "💫 미래의 응용 프로그램",
+    "schedule_title": "토큰 배포 규칙",
+    "secrets_title": "🌸 그의 비밀",
+    "title": "🌕 moonini의 이야기"
+  },
+  "waterfall": {
+    "claimed": "청구",
+    "progress": "청구 완료됨",
+    "sent_from": "전송 그룹:",
+    "total": "총 금액"
+  },
+  "seo": {
+    "og": {
+      "image": "/images/og-default.png",
+      "type": "website"
+    },
+    "routes": {
+      "claim": {
+        "description": "moonpacket의 레드패킷 기능은 SOL 및 USDT를 포함한 다양한 토큰을 지원하며, 귀하의 고유한 meme 토큰을 전송할 수 있게 해줍니다. 새로운 사용자를 유치하고 Telegram 그룹에서 참여를 증진시키는 강력한 도구입니다.",
+        "title": "레드패킷 텔레그램 미니 APP — moonpacket"
+      },
+      "privacy": {
+        "description": "moonpacket 개인정보 보호정책은 우리가 귀하의 개인 데이터를 어떻게 수집, 사용 및 보호하는지를 설명합니다.",
+        "title": "개인정보 처리방침 — moonpacket"
+      },
+      "send": {
+        "description": "moonpacket을 사용하여 레드패킷을 보내고, 작업 조건을 설정하며, API 통합을 통해 신규 사용자 유치 및 소중한 사용자와의 커뮤니티 참여를 효과적으로 증대시킵니다.",
+        "title": "레드패킷 보내기 — moonpacket"
+      },
+      "terms": {
+        "description": "moonpacket 서비스 약관, 사용 지침 및 법적 선언.",
+        "title": "서비스 약관 — moonpacket"
+      }
+    },
+    "site": {
+      "description": "moonpacket 암호화폐 레드패킷 텔레그램 봇 | USDT, TON, SOL, ETH, DOGE를 지원합니다. 사용자 맞춤형 meme 토큰 레드패킷도 보낼 수 있어 신규 사용자 유치, 활기찬 분위기 조성 및 텔레그램 커뮤니티 내 참여를 증가시킬 수 있습니다.",
+      "site_name": "moonpacket",
+      "title": "moonpacket — meme 토큰 암호화폐 레드패킷, 전용 레드패킷 지갑"
+    }
+  }
+}

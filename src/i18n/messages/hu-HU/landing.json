@@ -1,0 +1,15 @@
+{
+  "hero": {
+    "headline": "A moonpacket az égre tör!",
+    "subheadline": "Telegram TON, meme, USDT red packet gyorsfogó｜A legjobb red packet bot a meme projektek és a Telegram csoport adminisztrátorai számára az új felhasználók vonzására és az elköteleződés növelésére.",
+    "cta_primary": "Aktiválja a moonpacket-et",
+    "cta_secondary": "Hogyan integrálja"
+  },
+  "metrics": {
+    "title": "Tokenek és statisztikák",
+    "connected_groups": "Csatlakozott csoportok",
+    "total_packets_sent": "Pénzes boríték elküldve",
+    "total_claimed": "Összesített összeg (USDT)",
+    "data_stale": "Az adatok elavultak lehetnek"
+  }
+}

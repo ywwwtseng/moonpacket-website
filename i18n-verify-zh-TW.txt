@@ -1,0 +1,16 @@
+i18n verify (base=en-US vs zh-TW)
+missing=0
+extra=0
+empty=4
+
+-- missing --
+
+
+-- empty --
+send.json:hero.api_demo_label
+send.json:faq.sections.1.items.1.q
+send.json:faq.q5
+terms.json:sections.service_description
+
+-- extra --
+

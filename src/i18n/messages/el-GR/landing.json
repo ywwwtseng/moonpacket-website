@@ -1,0 +1,15 @@
+{
+  "hero": {
+    "headline": "Η moonpacket απογειώνεται προς το φεγγάρι!",
+    "subheadline": "Telegram TON, meme, USDT red packet grab｜Ο καλύτερος bot για red packet για meme έργα και διαχειριστές ομάδων Telegram για να προσελκύσουν νέους χρήστες και να ενισχύσουν τη συμμετοχή.",
+    "cta_primary": "Ενεργοποίηση moonpacket",
+    "cta_secondary": "Πώς να Ενσωματώσετε"
+  },
+  "metrics": {
+    "title": "Tokens και Στατιστικά",
+    "connected_groups": "Συνδεδεμένες Ομάδες",
+    "total_packets_sent": "Εστάλη κόκκινο πακέτο",
+    "total_claimed": "Συνολικό Ποσό Συλλεγόμενο (USDT)",
+    "data_stale": "Τα δεδομένα μπορεί να είναι παλιά"
+  }
+}

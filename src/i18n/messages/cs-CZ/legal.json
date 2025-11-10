@@ -1,0 +1,456 @@
+{
+  "privacyTitle": "Zásady ochrany osobních údajů",
+  "termsTitle": "Uživatelská smlouva",
+  "version": "Verze",
+  "updated": "Aktualizace",
+  "owner": "Majitel",
+  "sections": {
+    "scope": "Rozsah a vznik smlouvy",
+    "definitions": "Vysokorizikové a zakázané použití",
+    "eligibility": "Práva duševního vlastnictví",
+    "services": "Obsah služeb a obchodní model",
+    "wallet": "Cloudová peněženka, závazek daru a uzamčení prostředků",
+    "fees": "Poplatky a náklady",
+    "rules": "Pravidla činnosti a spravedlnost",
+    "restrictions": "Ochrana proti botům, kontrola zneužívání a omezení účtu",
+    "ip": "Práva duševního vlastnictví",
+    "third_party": "Služby třetích stran a externí závislosti",
+    "data": "Způsobilost a účet",
+    "risks": "Zveřejnění rizik",
+    "disclaimer": "Odstupnění",
+    "liability": "Limita odpovědnosti",
+    "indemnity": "Odstupnění",
+    "termination": "Pozastavení, zmrazení, ukončení a uchovávání dat",
+    "force_majeure": "Vyšší moc",
+    "high_risk": "Vysokorizikové a zakázané použití",
+    "tax": "Zdanění a reportování",
+    "accuracy": "Přesnost obsahu a dat",
+    "governing_law": "Použitelné právo a řešení sporů",
+    "contact": "Kontaktní metoda",
+    "changes": "Terms Changes",
+    "intro": "",
+    "data_collection": "Poplatky a náklady",
+    "data_usage": "Použitelné právo a řešení sporů",
+    "legal_basis": "",
+    "cookies": "Definice",
+    "data_sharing": "Vyšší moc",
+    "cross_border": "Zřeknutí se odpovědnosti",
+    "retention": "",
+    "security": "",
+    "minors": "",
+    "rights": "",
+    "faq": "",
+    "updates": "",
+    "contact_info": "Spolupráce v oblasti dat, ochrany osobních údajů a souladu"
+  },
+  "contact": {
+    "title": "Kontaktní metoda",
+    "privacy": "Privátní schránka",
+    "security": "Zpráva o bezpečnosti",
+    "support": "Robot zákaznického servisu"
+  },
+  "privacy": {
+    "version": "v1.0.0",
+    "updated": "auto",
+    "owner": "tým moonpacket",
+    "version_label": "Verze",
+    "updated_label": "Aktualizovat",
+    "owner_label": "Vlastník",
+    "data_sources": "Zdroj údajů",
+    "notice": {
+      "disclaimer_binding": "Následující termíny jsou překlady a slouží pouze pro referenci. Oficiální právně závazná verze je originální anglický text. V případě nesrovnalostí mezi jazykovými verzemi a anglickou verzí má anglická verze přednost."
+    },
+    "intro": [
+      "Tato zásada ochrany soukromí (dále jen 'tato politika') popisuje, jak shromažďujeme, používáme, ukládáme a chráníme vaše osobní údaje a údaje o používání, když používáte služby poskytované moonpacket, včetně Telegram Mini App, bota a webových stránek (dále jen 'služba'). Přečtěte si ji prosím celou před použitím; zahájením používání služby souhlasíte s touto politikou.",
+      "Hlavní funkcí této služby je 'růst komunity a interakce s red packetem' a může poskytovat potřebné funkce vztahující se k cloudovým peněženkám, transakcím nebo výměnám v rámci požadavků na dodržování. Tato politika se vztahuje pouze na zpracování dat; pro pravidla používání, limity odpovědnosti, zveřejnění rizik a zveřejnění odmítnutí se prosím podívejte na 'Podmínky použití.'",
+      "moonpacket (dále jen 'moonpacket' nebo 'služba') je subjektem a administrátorem, který shromažďuje, používá, ukládá a zpracovává osobní a provozní údaje související s provozem této služby, zpracovává data výhradně pro technické a operační účely; moonpacket není banka, důvěrník, správce, investiční poradce, platební zprostředkovatel ani správce aktiv, ani nepřebírá žádné fiduciární, úschovné, uchovávací, investiční nebo zárukové povinnosti z důvodu zpracování výše uvedených údajů."
+    ],
+    "definitions": [
+      "moonpacket: Odkazuje na aplikační služby poskytované tímto projektem, včetně webových aplikací a mobilních aplikací dostupných ke stažení, a včetně (ale neomezeno na) Telegram Mini App, boty, cloudové peněženky a související funkční moduly.",
+      "Osobní údaje: Informace, které mohou přímo nebo nepřímo identifikovat fyzickou osobu, jako jsou (kde je to relevantní) kontaktní informace, Telegram UID, adresa cloudové peněženky (pokud může identifikovat jednotlivce), zařízení a síťové identifikátory.",
+      "Údaje o používání: Záznamy událostí a interakce související s účty nebo zařízeními (např. odesílání/přijímání červených balíčků, chyby a protokoly výkonu, signály proti botům)."
+    ],
+    "scope": [
+      "Tyto podmínky se vztahují na vaše používání všech funkcí poskytovaných moonpacket, včetně (ale nikoli omezeno na) připojení nebo správu skupin/kanálů, odesílání nebo přijímání červených obálek, účast na akcích, propojování nebo používání cloudových peněženek a bodů a integrace prostřednictvím API/Webhook.",
+      "moonpacket podporuje dva hlavní případy použití: ty, kteří posílají červené obálky a ty, kteří je přijímají. Odesílatelé musí přidat bota do svých vlastněných nebo spravovaných skupin/kanálů a udělit potřebná povolení; pokud nebude povoleno nebo bude povolení nedostatečná, funkčnost nemůže být zaručena. Příjemci nemají své soukromé informace zaznamenány mimo nezbytné identifikátory sítě a události využívání během interakcí ve skupině."
+    ],
+    "dataCollected": [
+      "Účet a identita: Telegram UID, uživatelské jméno, avatar, jazyková nastavení, identita člena skupiny a oprávnění; pokud je to potřeba, budou shromážděny a uchovány údaje z vládou vydaných dokladů, selfies nebo výsledky shody obličeje, prohlášení o bydlišti, informace o auditu KYC/AML a výsledky shody výhradně pro účely dodržování, prevence praní špinavých peněz, boje proti financování terorismu, dodržování sankcí, daňového hlášení, vyšetřování podvodů nebo řízení rizik.",
+      "Události používání: Odesílání/přijímání červených balíčků, záznamy o příkazech a interakcích, účast na událostech, události z API/Webhook, chyby a protokoly výkonu; signály proti botům a řízení rizik (například abnormální frekvence, vlastnosti zařízení nebo sítě).",
+      "Transakce a aktiva: Adresy související s cloudovou peněženkou, zůstatky nebo souhrny transakcí (pouze do nezbytné míry pro funkčnost); on-chain transakce mohou být veřejně ověřeny, ale jsou nevratné a neměnné. Uvedené informace mohou obsahovat off-chain záznamy (například interní účetnictví označené zůstatky, částky čekající na distribuci nebo zablokovaný stav), které jsou poskytovány pouze pro interní vyrovnání systému a pokyny k alokaci a neznamenají, že moonpacket má jakékoli povinnosti na uchování, důvěru, vklady, delegované finanční řízení, inkaso a platby, investiční řízení nebo úschovu.",
+      "Technické a zařízení informace: Model zařízení, operační systém, verze prohlížeče nebo aplikace, síťová adresa (IP/ASN) a přibližná oblast, značky souborů cookie a lokálního úložiště (pokud existují).",
+      "Kontaktní informace: Obsah chatu zákaznické podpory, který aktivně poskytujete (pokud existuje)."
+    ],
+    "sources": [
+      "Vaše data poskytnutá aktivně při registraci, propojení, interakci nebo komunikaci se zákaznickým servisem.",
+      "Události a technická data automaticky zaznamenávaná systémem během vašeho používání této služby.",
+      "Výsledky porovnání nebo ověření třetích stran získané zákonně pro compliance nebo nutnost služeb (například poskytovatelé KYC/AML)."
+    ],
+    "purposes": [
+      "Funkce poskytované pro provoz a údržbu této služby zahrnují: ověřování identity, autentizaci povolení, aktivaci a správu modulů (červené obálky, body, cloudová peněženka), troubleshooting a monitoring bezpečnosti.",
+      "Řízení rizik a dodržování předpisů: Detekce, prevence a vyšetřování zneužití, podvodu, praní špinavých peněz, financování terorismu, obcházení sankcí, daňového úniku, nelegálního fundraisingu, manipulace s podíly nebo jiných abnormálních aktivit; provádění KYC/AML auditů a ověřování identity (včetně vládou vydaných identifikací, selfie a biometrického ověřování), hodnocení rizik a kontrola daní a sankcí. Pokud to bude nutné, může to zahrnovat uchování, zmrazení, zpoždění, omezení nebo zamítnutí transakcí, distribucí, refundací, výběrů nebo odblokování. Takové akce nepředstavují porušení nebo porušení ze strany moonpacket a moonpacket nenese žádnou odpovědnost za náhradu, náhradu škody nebo jinou odpovědnost.",
+      "Analýza dat a optimalizace produktů: Statistické trendy využívání, zlepšování zkušeností a výkonu, provádění A/B testování a školení modelů proti podvodům (při používání metod minimalizace a de-identifikace).",
+      "Dodržování předpisů a uplatňování práv: Spolupráce s právními žádostmi ze strany předpisů, autorit nebo soudů, nebo uplatňování, zakládání či obhajování práv. moonpacket může podle svého uvážení poskytnout relevantní data regulačním orgánům, soudním orgánům, daňovým nebo sankčním orgánům, rozhodčím nebo vykonavatelům, nebo jejich autorizovaným poskytovatelům compliance služeb na základě právních, regulačních, daňových, sankčních, anti-praní špinavých peněz, anti-financování terorismu, vyšetřování podvodů, nebo jiných potřeb compliance; takové poskytnutí nepředstavuje porušení nebo porušení ze strany moonpacket a moonpacket nenese žádnou odpovědnost za náhradu, náhradu škody nebo jinou odpovědnost.",
+      "Komunikace a upozornění: Poskytování důležitých změn, oznámení o událostech nebo nezbytných informací o službách; marketingové zprávy budou zasílány pouze se souhlasem nebo pokud to povoluje zákon."
+    ],
+    "legalBases": [
+      "Nezbytné pro plnění smluv nebo poskytování služeb (např. umožnění procesů red packetů/bodů, ověření kontrol rizik a záznamy událostí).",
+      "Dodržování právních povinností (např. KYC/AML, sankce, audit a povinnosti uchovávání).",
+      "Oprávněné zájmy (např. detekce zneužití, zajištění bezpečnosti systému a dostupnosti služby, zlepšování produktů a zkušeností). V tomto případě provedeme testy vyváženosti a přijmeme opatření k de-identifikaci nebo minimalizaci.",
+      "Váš souhlas (např. přijímání marketingových zpráv, nepodstatné cookies a odvolatelné volby)."
+    ],
+    "cookies": [
+      "Nezbytné soubory cookie a lokální úložiště: Používány k udržení stavu přihlášení, výběru jazyka, opatřením proti botům a bezpečnostním kontrolám; některé funkce nemusí správně fungovat, pokud jsou zakázány.",
+      "Analytika nebo preference: Aktivováno pouze tehdy, pokud to právně umožňuje nebo s vaším souhlasem; můžete je odstranit nebo omezit v nastavení prohlížeče."
+    ],
+    "wallet": [
+      "Pokud je cloudová peněženka poskytována touto službou nebo partnerem, zpracovává a uchovává pouze minimální nezbytná data transakcí a příjmy po dokončení red packetů, bodů nebo nezbytných procesů výměny.",
+      "On-chain data jsou veřejná a nevratná; prosím, jednejte opatrně. Neměnná, trvale veřejná povaha a vazby dat vyplývající z funkcí blockchainu jsou mimo kontrolu této služby."
+    ],
+    "antiFraud": [
+      "Abychom zabránili zneužívání a podvodům, můžeme vyhodnotit frekvenci interakcí, vlastnosti zařízení nebo sítě, geografickou polohu, vzory chování a signály černé listiny; funkčnost může být pozastavena nebo omezena a může být vyžadována dodatečná verifikace, pokud je to nezbytné.",
+      "Z důvodů souladu a bezpečnosti si vyhrazujeme právo sdílet relevantní ukazatele nebo výsledky auditu s důvěryhodnými poskytovateli služeb proti podvodům nebo Compliance v rozumných mezích.",
+      "Pro výše uvedené účely může moonpacket, podle vlastního uvážení, pozastavit, odložit, omezit nebo odmítnout konkrétní funkce a vyžadovat doplňkovou verifikaci (včetně auditu KYC/AML, dokladů od vládních orgánů, selfies nebo biometrických porovnání) nebo sdílet nezbytné ukazatele nebo výsledky auditu s důvěryhodnými poskytovateli služeb proti podvodům, Compliance, daním nebo sankcím; takové akce nejsou považovány za porušení nebo narušení ze strany moonpacket a moonpacket nenese odpovědnost za jakékoli škody, odškodnění nebo jiné povinnosti."
+    ],
+    "sharing": [
+      "Zpracovatelé nebo poskytovatelé třetích stran, včetně cloudového hostingu, logování a monitorování, analýz, proti-botových a compliance služeb, provádějí operace za minimalizovaných a smluvně stanovených podmínek.",
+      "Partneři a správci komunity sdílejí nezbytné informace na základě konkrétních aktivit, red packetů nebo scénářů správy komunity, kterých se účastníte, v souladu s pravidly aktivit.",
+      "Budeme zveřejňovat nezbytná data orgánům, soudům nebo nositelům práv v souladu s právními postupy, jak vyžaduje zákon, nebo k prosazení práv.",
+      "moonpacket může uchovávat, analyzovat, přenášet, zveřejňovat a poskytovat nezbytné informace (včetně off-chain záznamů, on-chain důkazů, KYC/AML dat, záznamů o skupinách/chatování/aktivitách a chování při distribuci a výběru) orgánům, soudům, orgánům činným v trestním řízení nebo daňovým jednotkám, orgánům pro sankce a regulaci, nebo jejich autorizovaným poskytovatelům compliance služeb ohledně revizí compliance, KYC/AML auditů, ověřování identity (včetně vládou vydaných ID a biometrických porovnání), boje proti praní špinavých peněz, boje proti financování terorismu, dodržování sankcí, daňové compliance, vyšetřování podvodů, detekce zneužití, finančních auditů a sledování distribucí a výběrů v přiměřeném obchodním rozsahu. Takové zpracování, přenos a zveřejnění nepředstavují porušení nebo delikt ze strany moonpacket, a moonpacket nenese odpovědnost za žádnou kompenzaci, odškodnění nebo jiné závazky."
+    ],
+    "crossBorder": [
+      "Na základě cloudové architektury této služby, globálního operačního modelu, řízení rizik, prevence proti praní špinavých peněz (AML), boje proti financování terorismu, dodržování sankcí, daňové spolupráce, prevence podvodů, uchovávání auditních záznamů, zákaznické podpory a potřeb údržby systému, mohou být vaše údaje (včetně osobních údajů, údajů o používání, off-chain záznamů, výsledků auditů KYC/AML a záznamů o řízení rizik a výběrech) zpracovávány, uchovávány nebo přenášeny mimo vaši jurisdikci a mohou být přístupné partnery, poskytovateli cloudové infrastruktury, poskytovateli služeb dodržování a řízení rizik nebo autoritativními/soudními/daňovými/sankčními/regulačními orgány (nebo jejich autorizovanými subjekty) podle potřeby pro uvedené účely.",
+      "moonpacket vyhodnotí povinnosti z hlediska bezpečnosti informací a dodržování právních předpisů příjemců, v rámci komerčně rozumných a nezbytných limitů, a sníží rizika neoprávněného přístupu či zneužití prostřednictvím smluv, technických a organizačních opatření; nicméně chápete a souhlasíte, že jakýkoli přeshraniční přenos, cloudové hostování nebo zpracování třetími stranami může být ovlivněno síťovým a regulačním prostředím a nelze zaručit absolutní bezpečnost ani dostupnost. Uvedené přeshraniční zpracování a přenos neznamenají porušení nebo přestupek ze strany moonpacket a moonpacket nebude odpovědný za žádné škody, kompenzace nebo jiné závazky."
+    ],
+    "retention": [
+      "Budeme uchovávat data po dobu potřebnou k naplnění účelů shromažďování a udržení nezbytných záznamů v souladu se zákonnými nebo auditními povinnostmi (např. účetní a compliance záznamy).",
+      "Jakmile bude cíl dosažen nebo vyprší doba uchovávání, vymažeme nebo zpracujeme data de-identifikovaným způsobem; data na blockchainu nejsou touto omezeností ovlivněna kvůli své neměnnosti.",
+      "I když požádáte o deaktivaci svého účtu, vymazání svých dat nebo přestání používat tuto službu, moonpacket může uchovávat, zmrazit, analyzovat nebo poskytnout výše uvedená data podle zákonů, předpisů, daní, sankcí, anti-praní špinavých peněz, anti-financování terorismu, vyšetřování podvodů, povinností uchovávání auditu, ověřování účetnictví, nebo jiných compliance závazků. Takové uchovávání a zpracování nepředstavují porušení nebo porušení ze strany moonpacket, a moonpacket nenese žádnou odpovědnost za náhradu, náhradu škody nebo jinou odpovědnost."
+    ],
+    "security": [
+      "Přijímáme rozumná a přiměřená technická a management opatření, včetně řízení přístupu, šifrování během přenosu a statického (pokud je to vhodné), segregaci oprávnění, auditní záznamy a principy minimálního nezbytného přístupu personálu.",
+      "I když moonpacket přijala technické a manažerské opatření ke snížení rizika neoprávněného přístupu, použití, zveřejnění, změny nebo zničení v přiměřeném obchodním rozsahu, chápete a souhlasíte, že jakýkoli přenos, uchování nebo integrace třetích stran může nést určitá rizika. moonpacket nevydává žádné výslovné ani implicitní záruky týkající se bezpečnosti dat, integrity, dostupnosti, nepřerušovaného přístupu nebo narušení. Taková rizika nebo škody nepředstavují porušení nebo delikt ze strany moonpacket, a moonpacket nenese odpovědnost za žádnou kompenzaci, odškodnění nebo jiné závazky."
+    ],
+    "minors": [
+      "Tato služba není určena pro jednotlivce mladší 13 let nebo pod věkovým prahem v rámci vaší jurisdikce. Pokud jste nezletilý, prosím, používejte tuto službu se souhlasem vašeho zákonného zástupce, nebo se zdržte používání této služby."
+    ],
+    "rights": [
+      "Podle platných zákonů v různých regionech máte právo požadovat nebo přezkoumat své osobní údaje, požádat o kopie, opravy, omezení zpracování, vymazání, přenositelnost dat a odvolání souhlasu, ale ne v konfliktu s právními povinnostmi moonpacket uchovávat, zmrazit, analyzovat, auditovat, spolupracovat s požadavky regulačních/soudních/daňových/sankčních/orgánů, nebo s KYC/AML/anti-financováním terorismu/sankčním dodržováním/daňovým vykazováním/vyšetřováním podvodů/detekcí zneužití, nebo legitimními zájmy moonpacket.",
+      "Pokud chcete uplatnit výše uvedená práva nebo vyjádřit obavy o soukromí, kontaktujte prosím moonpacket pomocí 'Kontaktních informací.' Pro zajištění bezpečnosti může moonpacket požadovat, abyste dokončili ověřování identity (včetně, ale nikoli omezeno na poskytování informací požadovaných pro KYC/AML audity, vládou vydaných identifikací, selfie nebo výsledků biometrického ověřování) k potvrzení, že žadatel je subjektem údajů nebo autorizovaným zástupcem.",
+      "moonpacket může podle svého uvážení zcela nebo částečně odmítnout, zpoždění, omezit nebo požádat o opravy takových žádostí v rámci rozsahu právních nebo compliance povinností, požadavků legitimního zájmu nebo řízení rizik; takové odmítnutí, zpoždění, omezení nebo žádosti o opravu nepředstavují porušení nebo porušení ze strany moonpacket a moonpacket nenese žádnou odpovědnost za náhradu, náhradu škody nebo jinou odpovědnost."
+    ],
+    "faq": [
+      "Proč potřebujeme informace o souladu a rizikové kontrole? To je nezbytné pro poskytování red packetů, prevenci zneužití a zajištění bezpečného provozu, stejně jako pro dodržování relevantních zákonů nebo politik platformy.",
+      "Mohu odmítnout poskytnout určité informace? Bez ovlivnění bezpečnosti služby a právních povinností můžete zvolit zakázání nepodstatných položek, ale to může vést k tomu, že některé funkce budou nedostupné.",
+      "Mohou být data z blockchainu smazána? On-chain záznamy jsou nezvratné a veřejné, a my je nemůžeme upravit ani smazat vaším jménem."
+    ],
+    "updates": [
+      "Tyto podmínky mohou být aktualizovány s úpravami služeb nebo právními změnami; významné změny budou označeny prostřednictvím interních zpráv nebo oznámení na stránce; aktualizovaná verze nabývá účinnosti od oznámení nebo data účinnosti uvedeného v podmínkách."
+    ],
+    "contact": [
+      "Pokud máte dotazy týkající se ochrany soukromí nebo bezpečnosti údajů, prosím, kontaktujte nás prostřednictvím kontaktních metod na stránce (privátní schránka/zpráva o bezpečnosti/zákaznický servis); odpovíme v přiměřené době."
+    ],
+    "controller": [
+      "Správce údajů: tým moonpacket (malý tým operací).",
+      "Kontaktní okno (Ochrana soukromí): prosím kontaktujte nás prostřednictvím Help_bota na stránce 'Kontaktní metody'."
+    ],
+    "jurisdictions": [
+      "Dodržujeme platné předpisy o ochraně osobních údajů; pokud existují konflikty v předpisech napříč různými jurisdikcemi, podnikneme kroky, které jsou pro uživatele více ochranné a proveditelné, v rámci limitů stanovených zákonem.",
+      "Pokud potřebujete další práva nebo postupy pro konkrétní jurisdikce, obraťte se prosím prostřednictvím kontaktních kanálů a my se pokusíme pomoci v rozumném rozsahu."
+    ],
+    "dsrProcess": [
+      "Máte právo vykonávat dotazy, prohlídky, požadovat kopie, opravy, vymazání, omezení zpracování, přenositelnost údajů a odvolání souhlasu ohledně osobních údajů (s výhradou platných právních předpisů a technologické proveditelnosti).",
+      "Proces: Odeslání žádosti → Ověření identity → Přijetí a hodnocení → Odpověď ve přiměřené době (obvykle do 30 dnů; jakékoli prodloužení bude oznámeno zvlášť).",
+      "Pokud žádost zahrnuje třetí strany nebo nezvratná on-chain data, nemusí být zpracována přímo. Poskytneme vysvětlení nebo proveditelné alternativy.",
+      "Pokud máte obavy ohledně výsledků, kontaktujte nás prosím znovu prostřednictvím uvedených kanálů; můžete také podat stížnost u příslušných orgánů podle místních zákonů (pokud je to relevantní)."
+    ],
+    "breach": [
+      "Pokud bude detekován podezřelý incident s osobními údaji, budeme následovat interní postupy pro postupné zpracování a nouzovou reakci, včetně blokování nebo zmírnění, auditu a dokumentace důkazů.",
+      "Pokud to bude právně požadováno nebo nezbytné, oznámíme příslušnému orgánu a potenciálně dotčeným uživatelům v přiměřené době; obsah a načasování oznámení bude záviset na úrovni incidentu a pokroku vyšetřování.",
+      "Následně budeme přezkoumávat a neustále zlepšovat kontrolní opatření a školení zaměstnanců (v rámci dostupných zdrojů)."
+    ],
+    "cookiesDetail": [
+      "Nezbytné soubory cookie: Používány k udržení přihlášení, nastavení jazyka, opatřením proti botům a bezpečnosti; jejich zakázání může ovlivnit dostupnost služby.",
+      "Preference/Analytika/Marketingové soubory cookie: Aktivováno pouze tehdy, pokud to právně umožňuje nebo s vaším souhlasem; můžete kdykoli upravit nebo odvolat preference.",
+      "Pokud je to relevantní, poskytneme jednoduchou možnost výběru souborů cookie; můžete je také spravovat nebo odstraňovat v nastavení prohlížeče."
+    ],
+    "consent": [
+      "Pro nezbytné zpracování (např. marketing nebo specifické analytické sledování) získáme předchozí souhlas a poskytneme způsob, jak odstoupit, kde to bude možné a realizovatelné podle zákona.",
+      "Odstoupení od souhlasu neovlivňuje zákonnost zpracování před odstoupením; některé funkce mohou být v důsledku omezeny."
+    ],
+    "lawfulMatrix": {
+      "headers": [
+        "Kategorie dat",
+        "Účel zpracování",
+        "Právní základ",
+        "Doba uchovávání"
+      ],
+      "rows": [
+        {
+          "cat": "帳號/身分（Telegram UID、暱稱、語言、群組權限）",
+          "purpose": "提供與維運服務（紅包、權限驗證、防刷）",
+          "basis": "履行契約、合法利益",
+          "retention": "帳號存續期間＋必要稽核留存"
+        },
+        {
+          "cat": "合規資料（KYC/AML 結果）",
+          "purpose": "法遵審查與防詐欺",
+          "basis": "法定義務",
+          "retention": "依法令或監理要求（一般為多年期）"
+        },
+        {
+          "cat": "使用事件與日誌（互動、錯誤、效能）",
+          "purpose": "故障排除、資安與產品優化",
+          "basis": "合法利益",
+          "retention": "依安全與營運需要的合理期限"
+        },
+        {
+          "cat": "交易與雲端錢包摘要",
+          "purpose": "完成紅包/積分/兌換流程",
+          "basis": "履行契約、合法利益",
+          "retention": "目的達成後最小化留存；鏈上紀錄不在此限"
+        },
+        {
+          "cat": "Cookie/本地儲存（必要）",
+          "purpose": "登入狀態、語言、防刷標記",
+          "basis": "履行契約、合法利益",
+          "retention": "依裝置與瀏覽器生命周期"
+        },
+        {
+          "cat": "Cookie/像素（非必要）",
+          "purpose": "偏好/分析/行銷（如啟用）",
+          "basis": "同意",
+          "retention": "依工具供應商政策或您撤回為止"
+        }
+      ]
+    },
+    "automated": [
+      "Tato služba používá automatizovanou analýzu a modely řízení rizik k detekci zneužívání nebo abnormálního chování; obecně se nejedná o čistě automatizovaná rozhodnutí, která významně ovlivňují jednotlivce právně nebo podobně.",
+      "Pokud budou přijata omezující opatření z důvodu potřeb compliance nebo řízení rizik bezpečnosti (např. pozastavení funkcí), poskytneme možnosti odvolání a manuálních přezkumů, jak to umožní zdroje a bezpečnost."
+    ],
+    "subprocessors": {
+      "note": "Můžeme spolupracovat se smluvními subprocessory (např. cloud, monitorování, proti-bot/KYC, email atd.); seznam může být aktualizován podle úprav služeb, prosím, odkazujte na oficiální web pro oznámení."
+    },
+    "note": [
+      "Poznámka: Tento odstavec má za cíl jasně zveřejnit praktiky zpracování a ochrany údajů. Vzhledem k tomu, že moonpacket je malý tým, budou skutečná opatření přizpůsobena podle zákonů, úrovní rizika a dostupnosti zdrojů; pokud existují nějaké povinné předpisy, mají přednost zákony."
+    ],
+    "telegramPermissions": [
+      "Operace robota ve skupinách/kanálech probíhají pouze v rámci oprávnění, která jste udělili (např. čtení, odesílání, mazání, přichytávání zpráv, kontrola odkazů atd., podle skutečných potřeb).",
+      "Pokud jsou funkce nedostupné nebo fungují abnormálně kvůli nedostatečným oprávněním, omezením platformy nebo nastavením třetích stran, moonpacket nezaručuje, že funkce bude fungovat normálně."
+    ],
+    "groupDataMinimization": [
+      "V kontextech skupin/kanálů zpracováváme pouze minimální množství dat potřebných k poskytování služby, jako jsou identifikátory uživatelských sítí (UID), záznamy interakcí/událostí a ukazatele potřebné k prevenci zneužití; aktivně neshromažďujeme ani nevytváříme osobní profily členů skupiny.",
+      "Pro účely souladu (KYC/AML/sankce) nebo bezpečnosti, pokud budeme muset rozšířit rozsah zpracování, budeme se řídit zásadami minimalizace a de-identifikace, jak vyžaduje zákon."
+    ],
+    "analytics": [
+      "Abychom vyhodnotili výkonnost produktu, zabránili zneužívání a posoudili provozní výsledky, můžeme zpracovávat údaje o použití ve zneidentifikované nebo agregované podobě a zavést nástroje pro analýzu/sledování třetích stran v rozumných mezích pro monitorování toku a analýzu přidělení.",
+      "Nebudeme prodávat vaše osobní údaje; prosím, odkazujte na vysvětlení a možnosti týkající se CPRA a dalších předpisů v této dohodě, pokud má příslušná jurisdikce specifické definice pro 'prodej/zdílení'.",
+      "Když místní zákony vyžadují předchozí souhlas nebo nabízejí možnost opt-out, poskytneme relevantní možnosti, pokud to bude možné."
+    ],
+    "saleShareStatement": [
+      "Vaše osobní data neprodáváme za odměnu; jakékoliv analytické a reklamní technologie třetích stran budou zpracovávány pouze v de-identifikované nebo agregované formě, pokud to zákon povoluje nebo se získaným nezbytným souhlasem."
+    ]
+  },
+  "terms": {
+    "version": "v1.0.0",
+    "updated": "auto",
+    "version_label": "Verze",
+    "updated_label": "Aktualizovat",
+    "owner_label": "Majitel",
+    "appendix_title": "Dodatek | Definice a Vysvětlení",
+    "notice": {
+      "disclaimer_binding": "Následující podmínky jsou uvedeny jako přeložená verze pouze pro referenci; oficiální verze s právní závazností je anglický originál. V případě jakýchkoli nesrovnalostí mezi jazykovými verzemi a anglickou verzí má přednost anglická verze."
+    },
+    "owner": "Tým moonpacket (dále jen 'moonpacket') je značka a název služby, která poskytuje experimentální online interaktivní funkce a nástroje pro marketing/růst komunity. moonpacket není banka, důvěrník, správcovská instituce, burza, investiční poradce, broker ani jakákoli regulovaná finanční instituce; kromě případů, kdy to požaduje zákon, moonpacket nemá vůči uživatelům žádnou fidučiární, důvěryhodnou, majetkovou nebo výnosovou zodpovědnost.",
+    "intro": [
+      "Tyto uživatelské podmínky (dále jen „tyto podmínky“) představují právně závaznou dohodu mezi vámi (dále jen „vy“ nebo „uživatel“) a moonpacket (dále jen „moonpacket,“ „tato služba,“ nebo „my“) týkající se vašeho přístupu k nebo používání služeb poskytovaných moonpacket.",
+      "Tato služba zahrnuje, ale není omezena na: webové stránky, stahovatelné aplikace, Telegram Mini App, boty, cloudové peněženky, moduly pro distribuci červených obálek/odměn, rozhraní pro správu událostí a související statistiky/rankovací funkce (dále kolektivně jako „tato služba“).",
+      "Klepnutím na tlačítka jako „Začít,“ „Souhlasit,“ „Odeslat“ nebo podobné akce udělující souhlas v rozhraní, nebo skutečným zahájením používání této služby jste považováni za to, že jste si přečetli, porozuměli a neodvolatelně souhlasíte s tím, že budete vázáni všemi obsahy těchto podmínek; pokud nesouhlasíte, okamžitě přestaňte tuto službu používat.",
+      "Konkrétní činnosti, propagační spolupráce nebo podnikové programy mohou poskytovat další podmínky nebo pravidla aktivit; takové dodatečné podmínky budou považovány za součást těchto podmínek; v případě konfliktu s těmito podmínkami budou dodatečné podmínky upřednostněny v rámci konkrétní aktivity, zatímco zbytek zůstane řízen těmito podmínkami.",
+      "Tyto podmínky mohou být poskytnuty ve více jazycích pro usnadnění čtení. V případě jakýchkoli nesrovnalostí nebo konfliktů mezi jakoukoli přeloženou verzí a anglickou verzí týkající se obsahu, výkladu nebo účinku bude anglická verze mít přednost a bude považována za konečnou platnou verzi; jiné jazykové verze nebudou považovány za vytváření dalších povinností pro moonpacket.",
+      "Potvrzujete a zaručujete, že vaše rozhodnutí použít tuto službu není založeno na žádných slibech o 'garantovaných výnosech,', 'návratu kapitálu,', 'dělění zisků,' 'investičních radách,' nebo jiných závazcích k odměně; moonpacket neposkytla a nebude poskytovat žádné záruky nebo právně závazné závazky týkající se jakýchkoli budoucích příjmů, odměn, cen, žebříčků nebo vykupitelné hodnoty."
+    ],
+    "definitions": [
+      "Odesílatel 'red packet' nebo 'iniciátor' se vztahuje na ty, kteří vytvářejí, financují nebo distribují red packets/odměny/revenue share/promo fondy v rámci této služby, včetně jednotlivých uživatelů, správců skupin, projektových stran nebo jejich zástupců.",
+      "Příjemce 'red packet' nebo 'účastník' se vztahuje na ty, kteří interagují podle pravidel aktivity, splňují úkoly nebo se pokouší přijímat/již přijali red packets nebo odměny.",
+      "Aktivita' se vztahuje na distribuční mechanismus nastavený iniciátorem, včetně, ale nikoli výlučně, rovnoměrné distribuce, náhodného 'štěstí', odemykání určených úkolů, chytání hesel, časově omezené úlovky, distribuci s omezenou kvótou/časem atd.",
+      "Off-chain záznamy' se vztahují na interní účetnictví, ukazatele zůstatku a ukazatele přidělení práv v rámci systému moonpacket (např. 'k distribuci', 'přiděleno', 'v dostupnosti pro výběr'). Off-chain záznamy jsou čistě systémové ukazatele a neodráží aktuální převod aktiv na blockchainu, ani nevytvářejí konečný právní důkaz o vlastnictví aktiv; skutečné on-chain transakce převažují.",
+      "Cloud peněženka' se týká úschovné nebo poloúschovné peněženky/procesu úschovy aktiv poskytovaného moonpacket nebo jeho partnery pro přijímání nabíjecích aktiv, indikaci alokovatelných zůstatků a podporu následných výběrů. Cloud peněženky nejsou bankovní účty, důvěryhodné účty, depozitní účty ani předměty pojištění a nenabízejí žádné záruky na zachování kapitálu.",
+      "Poplatky' se týkají nákladů na síťové zdroje potřebné pro blockchainové transakce (např. poplatky za plyn), náklady třetích stran na služby nebo platební kanály a (pokud je to relevantní) poplatky platformy účtované moonpacket za konkrétní služby nebo aktivity. Poplatky hradí uživatelé; jakmile vzniknou, nejsou vratné.",
+      "KYC/AML' se vztahuje na procesy ověřování identity (Know Your Customer), ochrany před praním špinavých peněz (Anti-Money Laundering), boje proti financování terorismu, revize sankcí, prevence podvodů, daňové a compliance audity atd."
+    ],
+    "eligibility": [
+      "Prohlašujete a zaručujete, že jste právně způsobilí a máte plnou kapacitu používat tuto službu ve vaší jurisdikci; nezletilé osoby nebo jednotlivci s omezenou způsobilostí musí získat potřebný souhlas podle místních zákonů.",
+      "Tato služba používá model 'vyzkoušejte před tím, než se zaregistrujete'; nicméně, před tím, než požádáte o výběr, převod zůstatku mezi aktivitami, nebo se zapojíte do jakéhokoli skutečného nakládání s aktivy, má moonpacket právo požadovat, abyste propojili svůj e-mail, telefonní číslo a adresu kryptoměnové peněženky a (pokud je to relevantní) dokončili ověření KYC/AML."
+    ],
+    "accounts": [
+      "Pokud odmítnete, zpozdíte se nebo neprojdete výše uvedenou ověřovací procedurou, moonpacket může dle své výhradní úvahy zpozdit, omezit nebo odmítnout jakékoliv žádosti o výběr, vrácení, rozmrazení nebo refundaci; takové zpoždění, omezení nebo odmítnutí neznamenají porušení smlouvy ze strany moonpacket a moonpacket nenese žádnou odpovědnost, náhradu nebo jiné závazky.",
+      "Musíte řádně chránit všechny ověřovací prvky, jako je váš účet Telegram, přihlašovací údaje k cloudové peněžence, přihlašovací tokeny, podepisovací klíče, zařízení a hesla. Jakékoliv důsledky vyplývající z phishingu, malwaru, půjčování zařízení, úniku přihlašovacích údajů, slabých hesel nebo jednání oprávněných třetích stran ponese uživatel."
+    ],
+    "service": [
+      "Možnosti poskytnuté touto službou zahrnují mimo jiné: (a) vytváření a financování aktivit/red packetů; (b) nastavování pravidel aktivity (celková částka, kvóta, individuální limity, platná doba, distribuční algoritmy, podmínky úloh, hesla, naplánované开启 (opening)抢 (snatching) atd.); (c) ověřování, zda účastníci splňují podmínky aktivity; (d) označování, distribuce a uzamykání přidělitelných částek v of-chain záznamech; (e) umožnění kvalifikovaným účastníkům aktivovat skutečné on-chain výběry po uplatnění; (f) generování žebříčků, statistik a prezentací výkonu.",
+      "Provozní proces je následující: poté, co iniciátor dobití aktiv na určenou moonpacket adresu, odpovídající částka bude označena jako 'aktiva dostupná pro distribuci v této aktivitě' v of-chain záznamech; během období aktivity systém pouze označí nebo rozdělí částky v of-chain, aniž by zaručil okamžité, individuální, transakční přímé on-chain převody na jakoukoli konkrétní peněženku jednotlivce; pouze když kvalifikovaní účastníci uplatní a projdou technickými a soulady kontroly, moonpacket provede skutečné on-chain převody.",
+      "Uživatelé výslovně souhlasí: Of-chain záznamy jsou výhradně pro interní účetnictví moonpacket a naznačují zájmy a nepředstavují právní konečnou vlastnickou právu aktiv; konečná uplatitelná práva se zakládají na skutečně dokončených on-chain převodech."
+    ],
+    "features": [
+      "moonpacket může kdykoli upravit, pozastavit, omezit nebo ukončit určité funkce nebo typy aktivit z důvodů bezpečnosti, provozu nebo souladu; pokud je změna založena na rozumných technických, rizikových, souladových nebo obchodních úvahách, tyto situace nepředstavují porušení ze strany moonpacket, který nebude odpovědný za jakékoli náhrady nebo jiné povinnosti.",
+      "moonpacket důrazně doporučuje používat tuto službu pro malé částky vícekrát; částka každého dobití nebo distribuce by neměla překročit ekvivalent 100 USDT, a je doporučeno hromadit velké částky aktiv v off-chain záznamech po dlouhou dobu."
+    ],
+    "cloudWallet": [
+      "Jakmile emitent potvrdí podmínky události (celková částka, pravidla distribuce, doba platnosti a poplatky atd.) na rozhraní a odešle je, představuje to slib dárku neurčeným účastníkům. Tento slib nabývá účinnosti, jakmile je odeslán, a má povahu být \"nedohledatelný a nezvratný\"; emitent nemůže požadovat zastavení s tvrzením \"změnil jsem názor\" nebo \"neuznávám určitého účastníka.\"",
+      "Aby byl splněn výše uvedený slib dárku, moonpacket může zamknout odpovídající částku (uzamčení aktiv) v Off-chain záznamech a označit ji jako \"čekající na distribuci.\" Toto zamknutí je nezbytné pro splnění slibu emitenta a není to libovolná konfiskace nebo přivlastnění moonpacket.",
+      "Během období události nemůže emitent požadovat předčasný výběr zavázané částky, ani nemůže požadovat převedení aktiva.",
+      "Po datu uzávěrky události: (a) Části, které byly nárokovány účastníky (nebo spustily postupy výběru), stejně jako poplatky vzniklé za distribuci, nemohou být požadovány na vrácení; (b) Pro zůstatky, které zůstávají nevyužity do uzávěrky, moonpacket může vrátit zbývající částku na původní nabíjecí nebo odesílací adresu, nebo na původní adresu, kterou moonpacket považuje za rozumnou po odečtení nezbytných poplatků, pokud technické a dodržovací podmínky dovolují.",
+      "Pro jakýkoli proces vrácení, rozmrazení, výběru nebo refundace zůstatku může moonpacket nejprve požadovat dokončení KYC/AML; pokud uživatel odmítne, zpozdí se nebo neprojde, moonpacket může dle své výhradní úvahy zpozdit, omezit nebo odmítnout zpracování; takové zpoždění, omezení nebo odmítnutí neznamenají porušení smlouvy ze strany moonpacket a moonpacket nenese žádnou odpovědnost, náhradu nebo jiné závazky.",
+      "Jakmile je na řetězci, transakce blockchainu jsou typicky nezvratné, veřejně ověřitelné a neměnné; moonpacket nemůže zpětně smazat, odvolat nebo \"vrátit zpět\" transakce, které již byly na řetězci, ani nenese žádné související odpovědnosti.",
+      "Jakékoli hodnoty, body, zůstatky, odměny nebo jiné indikace, které dosud nebyly na řetězci, jsou pouze dočasné záznamy a indikace distribuce v rámci systému a nepředstavují, že taková aktiva jsou držena, svěřena nebo chráněna moonpacket, ani nepředstavují, že moonpacket má povinnost doručení, povinnost ochrany hodnoty, úrokovou povinnost nebo povinnost kompenzace škody vůči vám. moonpacket může rozhodnout zpozdit, odmítnout nebo dále nevydávat takové hodnoty na základě svého řízení rizik, KYC/AML, povinností sankcí, daní nebo jiných požadavků na dodržování předpisů; taková rozhodnutí neznamenají porušení smlouvy ze strany moonpacket a moonpacket nenese žádnou odpovědnost, náhradu nebo jiné závazky.",
+      "Aby se ušetřily poplatky za transakce na řetězci a poskytly funkce hromadné distribuce/rozvodních červených balíčků, může moonpacket dočasně zaznamenat a zobrazit váš distribuovatelný zůstatek nebo čekající přidělené částky pomocí interních databázových (Off-chain) hodnot. Tyto hodnoty jsou pouze pohodlné indikace pro interní vyrovnání a distribuci v rámci systému a nepředstavují důvěru, úschovu, vklady, diskreční finanční správu, výběr a platby, řízení investic nebo jiné regulované finanční činnosti. Pokud a dokud tyto hodnoty skutečně nejsou na řetězci, skutečně zaplaceny a ověřitelné na veřejném řetězci, moonpacket nenese žádnou povinnost za jejich vrácení, ochranu hodnoty nebo úrokové povinnosti a tyto hodnoty nejsou zaručeny k vybrání v jakémkoli konkrétním čase, jakékoli konkrétní ceně nebo jakýchkoli konkrétních nákladech na síť."
+    ],
+    "fees": [
+      "Procesy jako vytváření aktivit, distribuce, ověřování, výběry a on-chain převody mohou vyžadovat poplatky za zpracování. Druhy a sazby poplatků za zpracování budou zobrazeny na rozhraní, podle pravidel aktivit, stránek vyrovnání, smluvních dohod nebo jiných explicitních prostředků.",
+      "Poplatky za zpracování nese uživatel a budou odečteny během odesílání, distribuce, výběru nebo souvisejících operací; jakmile vzniknou, jsou nevratné. I když moonpacket pomáhá s vrácením či navrácením zůstatků z důvodů této služby, takové vrácení nebo navrácení bude provedeno pouze v původní měně zpět na původní adresu, s výjimkou jakýchkoli vzniklých poplatků za zpracování nebo nákladů na on-chain gas.",
+      "Pokud uživatel poskytne nerealistické informace o souladu požadované moonpacket (např. KYC/AML), může moonpacket podle vlastního uvážení zpozdit, omezit nebo zamítnout jakékoli žádosti o vrácení peněz, navrácení zůstatku, výběr nebo žádosti o odblokování; takové zpoždění, omezení nebo odmítnutí nebudou považovány za porušení ze strany moonpacket, který nebude odpovědný za jakékoli náhrady nebo jiné povinnosti.",
+      "Když se rozhodnete použít specifickou distribuci červeného balíčku, skupinovou distribuci, propagační distribuci nebo podobné funkce, systém může automaticky zohlednit a zobrazit určité procento systémových poplatků (např. přibližně 2 % jako odměnu moonpacket za udržení provozu služby) a/nebo určité procento odměn za komunitní operace (např. přibližně 3 % vráceno vůdcům komunity na podporu komunitních operací). Použitím těchto funkcí autorizujete systém k výpočtu a rozdělení těchto poplatků podle zobrazených procent."
+    ],
+    "rules": [
+      "Iniciátor je povinen nastavit pravidla aktivity pravdivě a jasně (včetně celkové částky, kvóty, individuálních limitů, platné doby, podmíněných omezení, distribučních algoritmů atd.) a nesmí přitahovat účast prostřednictvím klamných nebo zavádějících prostředků.",
+      "moonpacket provádí a zaznamenává distribuční algoritmy, ověřování úloh a výsledky cen na serverové straně a uchovává nezbytné auditní stopy pro reakci na spory, souladu nebo regulační vyšetřování.",
+      "Pokud moonpacket rozumně podezřívá velkolepé zneužívání, spam, automatizované抢夺 (snatching), podvod, praní peněz, financování terorismu, sdílení zisků z hazardu, ilegální fundraising, obcházení sankcí, nebo jiné vysoce rizikové situace, může moonpacket okamžitě pozastavit, zmrazit nebo přizpůsobit akci a rozhodnout se vrátit nevyžádané zůstatky, odmítnout distribuci nebo předat podrobnosti regulačním/soudním orgánům; takové akce nepředstavují porušení smlouvy ze strany moonpacket a moonpacket nenese odpovědnost za jakékoli odškodnění, nápravu nebo jiné závazky."
+    ],
+    "abuse": [
+      "moonpacket výslovně uvádí: Nemáme žádnou povinnost a nemůžeme zaručit, že 'jakýkoli účet nutně odpovídá jedné ověřitelné fyzické osobě'. Také nemůžeme zaručit absenci více sdílených účtů, jedné fyzické osoby, která vlastní více účtů, fiktivních účtů nebo automatizovaných skriptů/botů, které získávají red packet.",
+      "Uživatelé (včetně iniciátorů a účastníků) jasně chápou a souhlasí: Situace zmíněné výše mohou ovlivnit výsledky alokace aktiv, pořadí rozdělení nebo dostupné částky; jakékoli nepřesnosti, nesrovnalosti nebo spory způsobené vícero účty, fiktivními účty, skripty, BOTy nebo jinými nepravidelnými operacemi nepředstavují porušení smlouvy ze strany moonpacket a moonpacket nenese žádnou odpovědnost za odškodnění, náhradu nebo jakoukoli jinou odpovědnost.",
+      "Aby udržel zabezpečení systému a dodržoval předpisy, může moonpacket používat automatizované detekce, AI/modely, černé/šedé seznamy, omezování rychlosti, fingerprinting zařízení, hodnocení IP/ASN a další mechanismy kontrolu rizik v přiměřeném rozsahu a může: (a) zmrazit, pozastavit, blokovat nebo omezit používání konkrétních účtů, skupin, IP, zařízení nebo činností; (b) požadovat doplňující informace nebo dokončit KYC/AML; (c) zpožďovat nebo odmítat zpracování zákaznických služeb, výběry, vrácení peněz nebo odblokování; (d) předat podezřelé nezákonné nebo vysoce rizikové situace úřadům nebo soudním orgánům.",
+      "moonpacket nemá žádnou povinnost odhalit svou vnitřní logiku rozhodovacího procesu kontrolu rizik, technické detaily nebo úplné základy auditu. Jakékoli kroky podniknuté na základě výše zmíněné kontroly rizik, souladu nebo požadavků regulačních orgánů nepředstavují porušení smlouvy ze strany moonpacket a moonpacket nenese žádnou odpovědnost za odškodnění, náhradu nebo jakékoli jiné povinnosti.",
+      "Spory o vlastnictví účtu (např. žádost o 'převod zůstatku, protože jiný účet je vlastně můj'): moonpacket uznává pouze původní účet, původní propojený e-mail a původní propojenou adresu peněženky jako oprávněné vlastníky; moonpacket nemá žádnou povinnost převádět jakýkoli zůstatek z off-chain záznamu, práva na výběr nebo jiné výhody konkrétního účtu na jiný účet/e-mail/peněženku.",
+      "Pokud se účet nepřihlásí po osmnácti (18) po sobě jdoucích měsících od posledního přihlášení, moonpacket zablokuje zůstatek Off-chain záznamu, který nebyl vybrán, z bezpečnostních, dodatečných a rizikových důvodů, a již nebude poskytovat vrácení, výběry ani jiné formy náhrady. Tato akce neznamená porušení smlouvy ze strany moonpacket a moonpacket nenese žádnou odpovědnost, náhradu nebo jiné závazky."
+    ],
+    "ip": [
+      "Práva duševního vlastnictví a další práva této služby a jejího obsahu (včetně, ale nikoli omezeno na: kód, design, loga, ochranné známky, obrázky, text, statistické prezentace, žebříčky, marketingové materiály, dokumenty a souhrny dat) vlastní moonpacket nebo její legitimní licencátoři.",
+      "Nemůžete kopírovat, šířit, měnit, distribuovat, pronajímat, provádět reverzní inženýrství nebo jinak využívat výše uvedený obsah jakýmkoli způsobem pro komerční nebo nekomerční účely bez předchozího písemného povolení od moonpacket.",
+      "Prohlašujete, že jste získali potřebná povolení nebo právní práva pro jakýkoli obsah zaslaný, nahraný, nahlášený nebo jinak poskytnutý této službě (např. názvy skupin, přezdívky, avatary, popisy, komentáře, výsledky událostí, distribuční částky, data žebříčků, ilustrační snímky, meme, zpětnou vazbu, záznamy chatu atd., kolektivně nazývané „uživatelský obsah“)."
+    ],
+    "thirdparty": [
+      "Tato služba může integrovat, spoléhat se nebo odkazovat na třetí strany (například platformu Telegram, blockchainové uzly, poskytovatele KYC/AML, platební nebo směnné kanály, externí systémy úloh, cloudové poskytovatele atd.). Tyto třetí strany fungují nezávisle a jsou vázány svými příslušnými podmínkami, zásadami ochrany osobních údajů a omezeními dostupnosti.",
+      "moonpacket nezaručuje nepřetržitou existenci, včasnost, přesnost, dostupnost, legálnost nebo bezpečnost jakýchkoli služeb třetích stran; ani nezaručuje, že tyto třetí strany neblokují, nezpomalují, nezpožďují, nemění politiky nebo nenarušují služby.",
+      "Zpoždění, selhání, úpravy, přerušení nebo nesrovnalosti v datech způsobené třetími stranami, dostupností sítě, přetížením blockchainu, selháním uzlů, blokováním, zpomalováním, změnami politiky, údržbou systémů nebo jinými příčinami nezpůsobenými moonpacket nepředstavují porušení smlouvy ze strany moonpacket a moonpacket nenese odpovědnost za jakékoli škody, kompenzace nebo povinnosti za porušení smlouvy.",
+      "Pokud změny v politikách nebo prostředích třetích stran požadují, aby moonpacket upravil, pozastavil nebo zastavil určité funkce, může moonpacket oznámit nebo vysvětlit úpravy v rozumném rozsahu, a takové úpravy budou platné, a moonpacket nebude odpovědný za kompenzaci."
+    ],
+    "dataPrivacy": [
+      "moonpacket bude shromažďovat, používat, uchovávat, zpracovávat a sdílet vaše údaje v souladu s Obchodními podmínkami ochrany osobních údajů.",
+      "Vzhledem k veřejné, nevratné a sledovatelné povaze blockchainových dat mohou být některé informace zrekonstruovány nebo spojeny s vaší identitou nebo adresou peněženky třetími stranami; měli byste si uvědomit a nést toto veřejné riziko sami.",
+      "Výslovně souhlasíte, že moonpacket může v přiměřených mezích uchovat, prozkoumat, analyzovat, zmrazit a poskytnout nezbytné informace (včetně, ale nikoli výlučně, Off-chain záznamů, on-chain důkazů, KYC/AML dat, záznamů aktivit/skupin/chatů, činností distribuce a výběru) uvedeným autoritám nebo jejich autorizovaným subjektům na základě protifraudního, protiměnově-praní, boje proti financování terorismu, dodržování sankcí, daňových zpráv, auditů soulad nebo oprávněných žádostí od autoritativních/soudních orgánů.",
+      "Spolupráce moonpacket s regulačními nebo soudními orgány je zákonná nebo v souladu a nepředstavuje porušení nebo zásah proti vám; moonpacket nenese odpovědnost za jakékoli škody nebo náklady vyplývající z těchto kooperativních akcí."
+    ],
+    "risk": [
+      "Uznáváte a souhlasíte s tím, že kryptoměny, blockchainové sítě a mechanismy interaktivního distribuce v reálném čase nesou vysokou míru nejistoty a technická rizika, včetně, ale nejen, volatility cen, selhání protokolů nebo uzlů, forků, rollbacků, zlovolných útoků, odmítnutí služeb, congestion networking, blokací, zúžení, zranitelností chytrých smluv, změn třetích stran v API, změn v regulačních politikách nebo zpoždění dat.",
+      "Blockchainové transakce jsou obecně nevratné, jakmile jsou odeslány a potvrzeny na řetězci; jakákoli zpoždění, selhání nebo nesrovnalosti vyplývající z nevratnosti, congested network, anomálií uzlů nebo omezení třetími stranami jsou vaše odpovědnost. moonpacket nenabízí záruky na ochranu kapitálu, zachování hodnoty, zajištění výnosu nebo dostupnost v reálném čase.",
+      "Of-chain záznamy slouží pouze k internímu znázornění zájmů systému; práva, která mohou být nakonec uplatněna, budou založena na skutečných převodech dokončených na řetězci. Před on-chain nemusí být majetek ještě přidělen k jedinečně identifikovatelné fyzické osobě a může podléhat pravidlům účasti, KYC/AML, opatřením zmrazení nebo revizím souladu.",
+      "moonpacket není banka, ani regulovaná platební instituce, ani investiční poradce, ani správce majetku, ani pojišťovna. moonpacket neposkytuje žádné investiční, daňové, právní nebo poradní služby v oblasti souladu; legálnost napříč hranicemi nebo jurisdikcemi, povinnosti hlášení daní a povinnosti souladu se sankcemi jsou vaší jedinou odpovědností posoudit a zajistit. Pokud máte obavy týkající se souladu, prosím, nepoužívejte tuto službu.",
+      "Aby se snížilo riziko, moonpacket doporučuje používat malé částky víckrát (jediná transakční částka by neměla překročit ekvivalent 100 USDT) a vyhýbat se dlouhodobému uchovávání velkých aktiv v of-chain záznamech.",
+      "Rozumíte a souhlasíte: moonpacket není vaše banka, důvěrník, zástupce, burza ani platební zprostředkovatel, správce aktiv, investiční poradce, broker ani opatrovník; moonpacket nemá žádnou povinnost (a výslovně popírá jakoukoli povinnost) uchovávat, spravovat, valorizovat, investovat, směňovat, chránit ani udržovat žádnou hodnotu, token, aktiva ani zájem pro vás.",
+      "Rozumíte a souhlasíte, že když převedete jakékoli kryptoměnové aktivum nebo token z vaší peněženky nebo účtu do této služby, může sama on-chain transakce podléhat nevratným síťovým poplatkům, poplatkům za plyn, poplatkům pro těžaře nebo jiným podobným nákladům; následně může být čistá částka, kterou nakonec systém jako 'připsanou' přijme a zaznamená, nižší než nominální částka, kterou jste zadali nebo která je zobrazena na rozhraní odesílatele. Tento rozdíl je účtován příslušnou on-chain sítí a infrastrukturou a nikoli moonpacket; moonpacket pouze uznává a zaznamenává skutečně úspěšně připsanou čistou částku, která bude jediným základem pro následné interní záznamy a vypořádání, a nepředstavuje žádné další nesrovnalosti, které jsou vám dluženy moonpacket."
+    ],
+    "disclaimer": [
+      "Tato služba je poskytována na základě 'tak, jak je' a 'jak je k dispozici'. V maximálním rozsahu povoleném zákonem moonpacket neposkytuje žádné výslovné ani odvozené záruky, prohlášení či garance ohledně této služby nebo jakékoli její části (včetně okamžité dostupnosti, přesnosti, nepřerušeného provozu, bezchybného výkonu, vhodnosti pro konkrétní účel, legality, souladu, bezpečnosti, nebo že je bez zásahu).",
+      "moonpacket neposkytuje žádné záruky ohledně zpoždění, chyb, přerušení, blokací nebo změn politik způsobených nebo týkajících se jakýchkoli služeb třetích stran (například plateformy Telegram, blockchainové uzly, poskytovatelé KYC/AML, platební nebo burzovní kanály, externí systémy úkolů, cloudoví poskytovatelé atd.), ani nenese odpovědnost za jejich použitelnost, legalitu, včasnost, dostupnost nebo bezpečnost.",
+      "moonpacket nenabízí žádné výslovné ani odvozené záruky, záruky či závazky ohledně konkrétní zpětné vazby, hodnocení, % úspěšnosti, poměrů, distribuce, množství, počtu odeslání, pravděpodobnosti výhry, oprávněnosti airdropu, směnitelnosti aktiv, konečné možné výběrnosti nebo tržní hodnoty; jakákoli čísla, procenta, odhady, simulace, žebříčky, velikosti odměnového fondu nebo popisy 'dostupných odměn' zobrazené v rozhraní nebo oznámeních jsou pouze pro referenční účely a nepředstavují záruky ani právně vynutitelná práva pro vás.",
+      "Chápete a akceptujete, že tato služba je interaktivní distribuční/mechanismus distribuce red packet internetového charakteru. Ačkoli se moonpacket může pokusit přiměřeně detekovat automatizované zneužívání, duplicitní účty, výměnu identit nebo jiné neférové chování, moonpacket nezaručuje a nemůže zaručit: (a) že každý účet odpovídá jedinečné fyzické osobě; (b) že každý příjemce splňuje vaše subjektivní hodnocení 'oprávněných příjemců'; nebo (c) že jakékoli výsledky přidělení splňují váš osobní smysl pro férovost nebo ekonomická očekávání. moonpacket nemá povinnost kompenzovat, redistribuovat, obnovit nebo získat aktiva od vás na základě vašeho tvrzení, že 'další mají více účtů, kteří chytají balíčky/roboti chytající balíčky', kromě jak vyžaduje zákon.",
+      "Když požadujete výběry, převody nebo on-chain jakékoli hodnoty, můžete nést další on-chain poplatky, poplatky za plyn, poplatky pro těžaře nebo jiné síťové náklady na vaší peněžence nebo určené síti. Tyto náklady mohou výrazně překročit nominální částku, kterou se pokoušíte vybrat během konkrétní síťové přeplněnosti. Tyto náklady jsou určovány vaším vlastním ekonomickým a rizikovým hodnocením a nejsou poplatky nebo provizemi moonpacket; kromě jak vyžaduje zákon, moonpacket nemá povinnost nést, předfinancovávat, subvencovat, snižovat, optimalizovat nebo refundovat takové náklady, ani jakoukoli povinnost zajistit, aby tyto náklady byly 'přiměřené' v poměru k nominální částce výběru, kterou se pokoušíte.",
+      "Tato služba má za cíl poskytnout technický, programově automatizovaný distribuční a interakční nástroj, který umožňuje uživatelům přidělovat nebo se zavázat distribuovat jejich vlastní aktiva pro gamifikaci nebo správu komunity. Kromě jak vyžaduje zákon tato služba nepředstavuje (ani by neměla být chápána jako) bankovní služby, vklady, důvěry, úschovu, fidušní investice, investiční poradenství, správu fondů, devizové nebo platební vyrovnávací služby, ani nepředstavuje půjčkové nebo financovací produkty."
+    ],
+    "liability": [
+      "Do maximální míry povolené zákonem moonpacket nenese odpovědnost za žádné nepřímé, náhodné, zvláštní, trestní, následné nebo derivativní škody (včetně, ale nikoli výlučně, ztráty zisku, ztráty příjmů, poškozené dobré vůle nebo pověsti, ztráty dat, příležitostních nákladů, daní nebo pokut, nebo nesplněné očekávané přínosy) vyplývající z jakéhokoli nároku založeného na smlouvě, deliktu, bezdůvodném obohacení, přísné odpovědnosti nebo jiné právní/zákonné teorii.",
+      "Zpoždění, selhání, omezené funkčnosti, nesrovnalosti v datech nebo přerušení způsobené službami třetích stran, síťovými připojeními, přetížením blockchainu, selháním uzlů, blokováním, zpožďováním, změnami politik, údržbou systému nebo jinými faktory, které nelze přičíst moonpacket, nepředstavují porušení ze strany moonpacket a moonpacket nenese odpovědnost za žádné škody, kompenzaci nebo jiné povinnosti v takových případech.",
+      "Transakční poplatky, náklady na on-chain plyn, poplatky třetích stran nebo podobné náklady nejsou zahrnuty v žádné oblasti refundace nebo kompenzace."
+    ],
+    "indemnity": [
+      "Pokud vy (včetně zahájitele a účastníků) porušíte tyto podmínky nebo jakékoli platné zákony, sankce, daňové povinnosti nebo požadavky na dodržování, nebo porušíte práva třetích stran, nebo se dopustíte podvodu, praní špinavých peněz, financování terorismu, zisky z hazardu, nezákonného fundraisingu, neoprávněného sběru osobních údajů, šíření škodlivého obsahu nebo jiných rizikových/zakázaných činností pomocí této služby, což povede k jakýmkoli nárokům, škodám, pokutám, odpovědnostem, vyšetřováním, žalobám nebo jiným výdajům (včetně přiměřených poplatků právníků) proti moonpacket a jeho dceřiným společnostem, ředitelům, zaměstnancům, partnerům, dodavatelům nebo orgánům dohledu/správy, souhlasíte s tím, že je budete bránit, odškodnit a chránit je v maximálním rozsahu povoleném zákonem.",
+      "Výše uvedené povinnosti odškodnění (pokud jsou použitelné) zahrnují, ale nejsou omezeny na: dotazy regulačních orgánů, žádosti o zmrazení nebo zabavení od daňových nebo finančních regulátorů, občanskoprávní nebo trestní řízení, správní pokuty, poplatky právníků a náklady na soudní řízení, stejně jako odpovědnost uvalenou nebo uplatněnou proti moonpacket v důsledku vašich činů (včetně údajných peněz praní, podvodů, financování terorismu, daňového podvodu, obcházení sankcí nebo neoprávněných finančních služeb).",
+      "Souhlasíte s tím, že povinnosti týkající se odškodnění, kompenzace, obrany a ochrany se vztahují nejen na moonpacket samotný, ale také na členy, manažery, ředitele, zaměstnance, konzultanty, dodavatele, vývojáře, provozní partnery, správce komunity, zástupce, nástupce, postoupené subjekty a jejich příslušné nástupce (dále jen „odškodňované osoby“). V maximálním rozsahu povoleném zákonem souhlasíte s tím, že odškodníte všechny odškodňované osoby za jakékoli nároky, dotazy, zmrazení, zabavení, pokuty, žaloby, rozsudky, vyrovnání, poplatky právníků a další výdaje vyplývající z vašeho použití této služby, zdrojů nebo destinací prostředků, činností distribuce červených obálek, transakcí nebo sporů s jinými uživateli, nebo nedodržení jakýchkoli zákonů (včetně, ale nikoli výlučně, prot money-laundering, sankcí, daňových a spotřebních daňových oznamovacích povinností)."
+    ],
+    "suspension": [
+      "moonpacket může na základě zabezpečení, souladu, řízení rizik nebo provozních potřeb neprodleně přijmout následující opatření v rozumném rozsahu bez individuálního oznámení: (a) omezit, zpoždění nebo odmítnout poskytnout část nebo všechny služby; (b) zmrazit, držet, omezit, upravit nebo zastavit účty, zůstatky, funkce nebo výběry; (c) blokovat konkrétní účty, skupiny, IP, zařízení nebo aktivity; (d) požadovat doplňující informace nebo dokončit KYC/AML. Výše uvedená opatření nepředstavují porušení smlouvy ze strany moonpacket a moonpacket nenese odpovědnost za jakékoli škody, kompenzace nebo jiné povinnosti.",
+      "Pokud moonpacket rozumně zjistí, že existují vysoce rizikové nebo ilegální okolnosti, jako je podvod, praní peněz, financování terorismu, obcházení sankcí, neautorizované finanční služby, nezákonné fundraisingy, profitování z hazardu, využívání slabin nebo poškozování stability platformy, může moonpacket pozastavit, zpozdit nebo odmítnout transakce, distribuce, výběry, refundace, odblokování nebo zpracování zákaznického servisu, a spolupracovat s vyšetřováním nebo pokyny od regulačních nebo soudních orgánů.",
+      "moonpacket má právo uchovávat záznamy o účtech, důkazy o transakcích, údaje KYC/AML a informace potřebné k auditům po rozumnou dobu. I když požádáte o smazání svého účtu nebo přestat používat službu, moonpacket může tyto údaje uchovávat podle zákonných, daňových, účetních a compliance požadavků, dokud nevyprší povinnost uchování před jejich smazáním nebo anonymizací.",
+      "Pokud jsou off-chain záznamy v rozporu s on-chain stavy, může moonpacket upravit nebo vrátit off-chain záznamy, aby odrážely to, co moonpacket rozumně určuje jako správný stav; nicméně, on-chain transakce nelze zrušit nebo vrátit zpět.",
+      "Bez ovlivnění obecného obsahu uvedeného výše, může moonpacket odmítnout, zpozdit, zrušit, zmrazit nebo trvale zadržet jakékoli hodnoty/odměny zobrazené jako 'čekající kredit', 'k vydělání', 'ještě na řetězci' nebo podobné označení na základě souladu, řízení rizik, podvodu nebo obav z zneužití, i když jste hodnotu viděli v rozhraní. Výslovně souhlasíte a nenávratně se vzdáváte jakýchkoli nároků na kompenzaci, úroky, výdělky, náklady na příležitosti, trestné škody nebo jiné žádosti týkající se takových nevyplacených hodnot vůči moonpacket, pokud příslušný zákon výslovně nezakazuje vzdání se takových žádostí.",
+      "Chápete a souhlasíte, že jakmile zašlete (nebo potvrdíte zaslání) jakýkoli red packet, odměnu, skupinové přidělení nebo jiné instrukce k distribuci v rozhraní, moonpacket považuje autorizaci přidělení pro příjemce/skupiny/podmínky uvedené v těchto instrukcích za nenávratnou a konečnou. Kromě vyšetřování podvodu, zneužívání, praní peněz, obcházení sankcí, daňového úniku nebo jiných obav o shodu, moonpacket nenese povinnost poskytovat mechanismy pro 'vracení', 'refundaci', 'zrušení', 'obnovu' nebo podobné akce, ani není povinen takové hodnoty na vaše jméno od ostatních uživatelů po dokončení distribuce vymáhat; takové akce nepředstavují porušení ze strany moonpacket a moonpacket nenese odpovědnost za jakékoli škody, kompenzaci nebo jiné povinnosti.",
+      "V případech platných zákonů, regulací proti praní peněz, sankcí, daňových výkazů, vyšetřování podvodu nebo varování o vysokém riziku, může moonpacket požadovat, abyste dokončili ověření identity (včetně, ale nikoli omezeno na, vládou vydané ID, selfies, porovnání obličejů nebo jiných biometických údajů atd.) a může vyžadovat dodatečné dokumenty nebo další verifikaci, pokud je to nutné. Pokud nesplníte požadované informace během rozumné doby, nebo pokud poskytnuté informace neprojdou rozumnými ověřovacími kontrolami, může moonpacket, podle svého uvážení, zpozdit, omezit, odmítnout nebo trvale zakázat jakékoli žádosti o výběr, extrakci, on-chain nebo vrácení; takové akce nepředstavují porušení smlouvy ze strany moonpacket a moonpacket nenese odpovědnost za jakékoli škody, kompenzaci nebo jiné povinnosti, a nenávratně se vzdáváte jakýchkoli nároků na škody, úroky nebo náklady na příležitosti týkající se takových zpoždění nebo zákazů, kromě případů, kdy to zakazuje zákon."
+    ],
+    "compliance": [
+      "Výslovně souhlasíte, že moonpacket může v souladu se svými povinnostmi dodržování předpisů, předpisy proti praní špinavých peněz/proti financování terorismu, sankcemi, daňovými povinnostmi nebo právními požadavky od dozorových/soudních orgánů uchovávat, zmrazovat, analyzovat a poskytovat nezbytné informace (včetně Off-chain záznamů, on-chain stop, KYC/AML dat, záznamů o skupinách/chatkách/událostech, distribuci a chování při výběru) autorizovaným jednotkám nebo jejich jmenovaným poskytovatelům souladu.",
+      "Taková spolupráce neznamená porušení smlouvy nebo porušení ze strany moonpacket a moonpacket nenese žádnou odpovědnost, náhradu nebo jiné závazky."
+    ],
+    "forceMajeure": [
+      "V případě přírodních katastrof, válek, nepokojů, vládních nařízení, sankcí, nových zákonů nebo regulací, výpadků elektrického proudu, přerušení komunikace nebo sítě, selhání dodavatelů nebo cloudové infrastruktury, incidentů na úrovni blockchain protokolu, zlovolných útoků, epidemií, pracovních sporů nebo jiných příčin nezávislých na moonpacket, vedoucích ke zpoždění nebo neschopnosti kterékoli strany plně nebo částečně splnit závazky podle těchto podmínek, postižená strana může požadovat osvobození od odpovědnosti za taková zpoždění nebo neplnění; nicméně strana by měla i nadále vyvíjet rozumné úsilí o zmírnění dopadu a obnovení co nejdříve."
+    ],
+    "highRisk": [
+      "Zakázané používání této služby zahrnuje jakékoli nezákonné, vysoce rizikové nebo sankcionované účely, včetně, ale nikoli omezeno na podvody, praní špinavých peněz, financování terorismu, zisky z hazardu, nezákonné fundraising, neautorizované finanční služby, obcházení sankcí, nebo jakékoliv jiné regulacemi zakázané jednání.",
+      "Zahájitel by měl potvrdit svou jurisdikci nebo platnou právní oblast týkající se distribuce červených obálek, odměn, propagačních prostředků, airdropů, podílení se na zisku nebo podobných distribucí a zajistit, že se nejedná o nezákonné fundraisingové aktivity, neoprávněné finanční služby, nezákonné zisky z hazardu nebo jiné činnosti vyžadující reportování/povolení.",
+      "Účastníci by měli potvrdit, že příjem, držení, výběr nebo převod aktiv vyhovuje zákonům platným v jejich lokalitě a nezahrnuje nezákonný příjem, porušení sankcí, daňové oznamovací povinnosti nebo jiná regulační omezení.",
+      "moonpacket neposkytuje žádné právní záruky týkající se legality přeshraničního nebo mezijurisdikčního používání této služby, ani nezaručuje, že tuto službu můžete legálně používat v jakékoli konkrétní oblasti.",
+      "Prohlašujete a zaručujete, že nepodléháte mezinárodním sankcím, exportním kontrolám, protiteroristickým opatřením nebo podobným omezením a tuto službu nepoužíváte jménem takových subjektů. Neměli byste tuto službu používat k pomocí, usnadnění nebo pokusu vyhnout se jakýmkoli sankcím, zmrazením, zabavením, konfiskacím, daňovým auditům, zákrokům orgánů činných v trestním řízení nebo soudním řízením. moonpacket si vyhrazuje právo odmítnout, omezit nebo ukončit všechny nebo části služeb, nebo zpožďovat, omezovat nebo zamítat jakékoli žádosti o výběr, převod nebo výměnu bez předchozího upozornění; takové akce nepředstavují porušení ze strany moonpacket a moonpacket nenese odpovědnost za žádné škody, odškodnění nebo jiné povinnosti."
+    ],
+    "tax": [
+      "Jste odpovědní za zpracování jakýchkoli daňových povinností, výkazů, plateb a souvisejících nákladů vznikajících z používání této služby v souladu s platnými zákony; moonpacket neposkytuje daňové poradenství, ani nenese odpovědnost za výkazy nebo zadržení plateb, pokud to není zákonně vyžadováno."
+    ],
+    "accuracy": [
+      "Žebříčky, statistiky, výsledky událostí, tipy nebo informace na palubní desce poskytované touto službou se mohou lišit od skutečného stavu z důvodu zpoždění synchronizace, závislosti na třetích stranách, dočasných omezení nebo údržby systému; vše je stále podmíněno skutečnými výsledky transakcí na řetězci nebo konečnými záznamy vyrovnání v rámci moonpacket.",
+      "moonpacket může opravit jakékoli očividné chyby, selhání systému nebo výsledky, které jsou očividně nespravedlivé v zobrazení, a může vrátit Off-chain záznamy v přiměřeném rozsahu, aby je sladila s přesným stavem, jak to rozumně určí moonpacket; nicméně transakce na řetězci nelze zrušit nebo otočit."
+    ],
+    "law": [
+      "Tyto podmínky, jakož i všechny vztahy mezi vámi a moonpacket vyplývající z nebo související s touto službou (včetně, ale nikoli výlučně, distribucí aktivit, zpracováním aktiv, mechanismy žebříčku/odměn, zmrazením/přerušením účtu, zastavením nebo ukončením služby, úpravami záznamů Off-chain, uchováváním dat, spoluprací s orgány činnými v trestním řízení, jakýmikoli oznámeními, prohlášeními, marketingem, zásahy zákaznické podpory atd.), budou řízeny zákony Japonska bez ohledu na jeho zásady soukromého mezinárodního práva nebo konfliktu práv."
+    ],
+    "disputes": [
+      "Jakékoli spory, kontroverze, žádosti, soudní řízení, opravné prostředky nebo řízení vyplývající z této služby nebo těchto podmínek budou výhradně předloženy Okresnímu soudu v Tokiu jako soudu prvního stupně. Neodvolatelně se vzdáváte jakýchkoli práv na uplatnění soudní pravomoci jiného soudu, rozhodčího institutu nebo soudního obvodu, který by mohl být pohodlnější nebo vhodnější, a nemůžete tvrdit, že moonpacket bude podléhat pravomoci soudu, kde se nacházíte.",
+      "Souhlasíte, že moonpacket může, v souladu se svými povinnostmi týkajícími se dodržování předpisů, protiměnově-pracovních financí, sankcí, daní nebo oprávněných žádostí od regulačních/soudních orgánů, uchovat, zmrazit, analyzovat a poskytnout nezbytné informace (včetně Off-chain záznamů, on-chain důkazů, KYC/AML dat, záznamů aktivit/skupin/chatů, činností distribuce a výběrových akcí) autorizovaným jednotkám nebo jejich autorizovaným poskytovatelům; taková spolupráce nepředstavuje porušení nebo zásah moonpacket a moonpacket nebude nést žádnou kompenzaci, náhradu nebo jiné odpovědnosti za to."
+    ],
+    "contact": [
+      "Pro záležitosti týkající se této smlouvy prosím kontaktujte moonpacket prostřednictvím zákaznického servisu, bota nebo kontaktních kanálů uvedených v rozhraní."
+    ],
+    "changes": [
+      "moonpacket může kdykoliv revidovat tyto podmínky a související politiky na základě technických, řízení rizik, dodržování předpisů nebo obchodních úvah. Revize vstoupí v platnost publikací a bude považována za nejnovější platnou verzi. Pokračováním v přístupu nebo používání této služby po publikaci se považujete, že jste souhlasili s aktualizovaným obsahem; pokud nesouhlasíte, vaší jedinou nápravou je okamžitě přestat používat tuto službu."
+    ],
+    "serviceChanges": {
+      "title": "Úpravy služeb a aktualizace podmínek",
+      "body": [
+        "moonpacket může podle svého uvážení upravit, lokalizovat, přizpůsobit, pozastavit, omezit, aktualizovat nebo ukončit celou nebo část této služby (včetně, ale nikoli pouze, metody výpočtu red packetů/odměn, chladících časů, podmínek distribuce, pravidel žebříčku, poplatků za zpracování, dostupných funkcí, rozhraní, API, plugin integrací, prahů aktivit atd.), a může kdykoli vzít všechny nebo část svých služeb offline; moonpacket není povinen trvale udržovat žádné specifické služby nebo funkce.",
+        "moonpacket může odmítnout nebo pozastavit služby pro konkrétní uživatele nebo skupiny na základě řízení rizik, přezkumu souladu, technických nebo obchodních důvodů, nebo omezit jejich funkce a oprávnění (včetně zmrazení, pozastavení, blokování, zabránění připojení nebo blokování konkrétních chat skupin nebo účtů) bez individuálního oznámení. Kromě případů vyžadovaných zákonem není moonpacket odpovědný za žádné škody, ztráty nebo náklady vzniklé jakýmikoľiv úpravami, pozastavením nebo odmítnutím poskytování této služby."
+      ]
+    },
+    "userContent": {
+      "title": "Autorizace pro obsah uživatele a veřejné zobrazení",
+      "body": [
+        "Chápete a souhlasíte: Jakýkoli obsah, data, jména, přezdívky, názvy skupin, avatary skupin, popisy skupin, informace o chatovacích místnostech, údaje o žebříčkách, příspěvky, celkové částky red packet, záznamy o šťastných losech, zprávy, odpovědi, meme, nálepky, text nebo jiné informace (souhrnně nazývané 'Obsah uživatele'), které poskytnete, nahrajete, nahlásíte nebo jinak zpřístupníte moonpacket během používání této služby, mohou být zobrazeny, seřazeny, hodnoceny, agregovány, oznámeny, ilustrovány screenshoty, reprodukovány, distribuovány, veřejně sdělovány, veřejně zobrazovány, upravovány a použity pro marketingové a provozní vysvětlení (např. prezentace populárních skupin, žebříčky distribuce red packet, šťastní příjemci, hodnocení výsledků akcí atd.) v interních nebo veřejně viditelných oblastech moonpacket.",
+        "Pokud moonpacket rozumně podezřívá, že konkrétní obsah uživatele může porušovat zákony, narušovat práva třetích stran, zahrnovat podvod/praní peněz/financování terorismu/profitování z hazardu/ilegální fundraisingy/neautorizované shromažďování osobních údajů a další vysoce rizikové chování, může moonpacket odstranit, skrýt, omezit zobrazení, stáhnout nebo blokovat takový obsah, a může zmrazit, pozastavit nebo ukončit přístup k relevantním účtům nebo skupinám a může poskytnout nezbytné informace administrátorům skupin, poskytovatelům platforem, regulačním orgánům nebo soudním subjektům. moonpacket nenese odpovědnost za jakékoli škody, ztráty zisků, poškození pověsti nebo jiné nároky vzniklé z takových akcí."
+      ]
+    },
+    "liabilityCap": {
+      "title": "Omezení odpovědnosti a strop pro kompenzaci",
+      "body": [
+        "Do maximální míry povolené zákonem je celková odpovědnost moonpacket za jakékoli nároky, škody či závazky vyplývající z vašeho užívání této služby omezena na (A) celkové poplatky, které jste skutečně zaplatili moonpacket a které moonpacket potvrdil během posledních třiceti (30) dnů v souvislosti s tímto požadavkem, nebo (B) ekvivalent padesáti (50) dolarů, podle toho, co je nižší. Toto omezení je vaší jedinou a výlučnou nápravou, i když tato náprava nekompenzuje vaše škody.",
+        "Toto omezení se vztahuje pouze do míry, kterou zákon vyžaduje, aby moonpacket nesl odpovědnost, a představuje vaši jedinou a výlučnou nápravu; nad tímto povinným rámcem moonpacket neuznává ani nezaručuje žádnou odpovědnost za spory nebo nároky."
+      ]
+    },
+    "governingLaw": {
+      "title": "Platné právo a řešení sporů.",
+      "body": [
+        "Tyto podmínky a všechny vztahy vznikající z nebo související s touto službou mezi vámi a moonpacket se řídí právem Japonska a budou vykládány v souladu s tím, ale nezahrnují uplatnění jeho konfliktu právních zásad.",
+        "Jakékoli spory, nároky, žaloby, opravné prostředky nebo řízení vznikající z nebo související s touto službou nebo těmito podmínkami podléhají výlučné jurisdikci Okresního soudu v Tokiu v Japonsku jako prvního stupně. Neodvolatelně se vzdáváte jakýchkoli práv tvrdit, že jakýkoli jiný soud nebo jurisdikce je pohodlnější nebo vhodnější a netvrdíte, že moonpacket podléhá jurisdikci vašich místních soudů.",
+        "moonpacket, v souladu se svými povinnostmi, protidrogovým a proti financování terorismu, sankcemi, daňovými nebo právními autoritami oprávněnými požadovat, může uchovávat, zmrazit, analyzovat a poskytovat potřebné informace (včetně off-chain záznamů, on-chain důkazů, KYC/AML dat, skupin/rozkaz/check aktivit a distribuce a výběrových aktivit) oprávněným subjektům nebo jejich dodavatelům v oblasti souladu; takové akce nepředstavují porušení smlouvy nebo porušení ze strany moonpacket, který nebude odpovědný za jakékoli škody nebo náklady vzniklé z takových akcí.",
+        "Vy a moonpacket se dohodnete, že žádné nároky nemohou být uplatněny nebo se zúčastnit prostřednictvím hromadných žalob, skupinových akcí, kolektivních akcí, společných akcí nebo podobných řízení; neodvolatelně se vzdáváte svých práv být žalobcem, členem, agentem nebo zástupcem v takových řízeních, kromě případů, kdy to zakazuje zákon.",
+        "Pokud bude jakékoli ustanovení těchto podmínek považováno za neplatné, nezákonné nebo nevymahatelné příslušným soudem, zbývající ustanovení zůstanou v plné platnosti a účinnosti v maximálním rozsahu povoleném zákonem (oddělitelnost).",
+        "Tyto podmínky tvoří úplnou dohodu mezi vámi a moonpacket ohledně této služby a nahrazují jakékoli předchozí ústní nebo písemné komunikace, oznámení, marketingové popisy, příspěvky komunity, odpovědi na podporu nebo sliby (pokud nějaké) mezi stranami. Pokud není výslovně uvedeno písemně moonpacket, žádná jiná vyjádření, FAQ, marketingové materiály, chatové záznamy nebo verbální vysvětlení nepředstavují záruku nebo záruku závaznou pro moonpacket v právním smyslu.",
+        "moonpacket může, bez vašeho předchozího souhlasu, postoupit, převést, delegovat nebo jinak mít dceřiné společnosti, dodavatele, postupitele, provozní nástupce nebo jiné třetí strany, které zpracovávají nebo plní všechny nebo některé z těchto podmínek nebo jeho práva a povinnosti, a takové třetí strany mohou pokračovat, upravit nebo ukončit službu za podmínek, které jsou v podstatě podobné; nemůžete postoupit nebo převést žádná práva nebo povinnosti podle těchto podmínek bez předchozího písemného souhlasu moonpacket.",
+        "Pokud není zákonem vyžadováno jinak, nevyužití moonpacket jakéhokoli práva, opravného prostředku nebo nároku uděleného těmito podmínkami v konkrétním čase, nebo jeho neprovedení okamžitého uplatnění takových práv, nebude považováno za vzdání se tohoto práva, ani to neovlivní schopnost moonpacket uplatnit nebo vykonat toto právo v budoucnu.",
+        "Ustanovení, která by podle své povahy měla přežít zrušení těchto podmínek, včetně, ale nikoli omezeno na závazky související s poplatky a zpracovatelskými náklady, výhrady, omezení odpovědnosti, stropy odpovědnosti, daňové povinnosti, ustanovení o duševním vlastnictví, zákazy, povinnosti dodržování a spolupráce, ustanovení o platném právu a příslušnosti, jakož i odpovídající povinnosti náhrady škody, zůstanou účinné a závazné pro vás po ukončení používání této služby nebo po zrušení těchto podmínek z jakéhokoli důvodu."
+      ]
+    },
+    "appendix": [
+      "\"Nezvratné\": Odkazuje na transakce na řetězci, které, jakmile jsou potvrzeny (na řetězci), obvykle nelze odvolat, získat zpět ani smazat, a jejich záznamy lze trvale ověřit na veřejných blockchainových prozkoumávacích nástrojích.",
+      "\"Nedohledatelné\": Odkazuje na slib dárku učiněný neurčeným účastníkům, který nabývá účinnosti, jakmile emitent potvrdí podmínky distribuce a odešle ho, a nemůže být libovolně odvolán, zrušen nebo požadován na zastavení během události, ani nemůže být požadováno jeho vrácení na základě \"lítosti\"; to je jiný úroveň konceptu než \"nezvratné\" transakce na řetězci.",
+      "\"V přiměřeném rozsahu\": Odkazuje na komerčně rozumné akce prováděné moonpacket za účelem zajištění provozní bezpečnosti, požadavků na dodržování předpisů, opatření proti praní špinavých peněz/proti financování terorismu, dodržování sankcí, daňovou shodu, ochranu uživatelů nebo cíle řízení rizik v rámci právních, regulačních závazků a dostupných zdrojů, včetně, ale nejen: zmrazení, omezení, zpoždění, úpravy, zadržení, spolupráce s orgány nebo odmítnutí poskytovat určité funkce."
+    ]
+  }
+}

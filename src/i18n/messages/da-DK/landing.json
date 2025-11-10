@@ -1,0 +1,15 @@
+{
+  "hero": {
+    "headline": "moonpacket tager afsted mod månen!",
+    "subheadline": "Telegram TON, meme, USDT red packet grab｜Den bedste red packet-bot til meme-projekter og Telegram-gruppeadministratorer for at tiltrække nye brugere og øge engagementet.",
+    "cta_primary": "Aktiver moonpacket",
+    "cta_secondary": "Hvordan man integrerer"
+  },
+  "metrics": {
+    "title": "Tokens og statistikker",
+    "connected_groups": "Forbundne grupper",
+    "total_packets_sent": "red packet sendt",
+    "total_claimed": "I alt indsamlet beløb (USDT)",
+    "data_stale": "Data kan være forældede"
+  }
+}

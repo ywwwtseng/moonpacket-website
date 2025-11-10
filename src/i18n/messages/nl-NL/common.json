@@ -1,0 +1,377 @@
+{
+  "site": {
+    "title": "moonpacket — eenvoudige, snelle en veilige crypto red packets",
+    "description": "Verzend red packets met cryptocurrency en toon prijzen en indicatoren op SEO-vriendelijke statische pagina's."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "Over",
+    "pricing": "Prijzen",
+    "team": "Team",
+    "blog": "Blog",
+    "faq": "Veelgestelde Vragen",
+    "contact": "Neem Contact Op",
+    "careers": "Werving",
+    "claim": "Claim Rode Packet",
+    "send": "Stuur Rode Packet",
+    "api": "API Documentatie"
+  },
+  "hero": {
+    "title": "moonpacket stijgt de lucht in!",
+    "subtitle": "Telegram TON, meme, USDT red packet grijpen｜Een red packet-bot ontworpen voor meme coin-projecten en Telegram-groep eigenaren om gebruikersacquisitie en betrokkenheid te vergroten.",
+    "desc": "Een red packet-bot ontworpen voor meme coin-projecten en Telegram-groep eigenaren om gebruikersacquisitie en betrokkenheid te vergroten.",
+    "ctaPrimaryLabel": "Activeer moonpacket",
+    "ctaPrimaryHref": "https://t.me/MoonPackageDevBot",
+    "ctaSecondaryLabel": "Hoe te integreren",
+    "ctaSecondaryHref": "/zh-TW/integratie"
+  },
+  "features": {
+    "f1": "Snelle Setup",
+    "f2": "Wereldwijde Lokalisatie",
+    "f3": "Gedecentraliseerde Beveiliging"
+  },
+  "metrics": {
+    "heading": "Realtime Indicatoren",
+    "price_btc": "BTC Prijs",
+    "total_sent": "Totaal Aantal Verzonden Rode Pakketten",
+    "total_claimed_amount": "Totaal Aantal Geclaimde (USDT)",
+    "title": "moonpacket Gegevens",
+    "groups": "Groep",
+    "groupsLinkLabel": "Aangesloten red packet-groepen",
+    "sent": "Verzonden",
+    "claimed": "Geclaimd (USDT)",
+    "sort": {
+      "latest": "Laatste",
+      "oldest": "Oudste",
+      "most": "Maximale Deelnemers",
+      "least": "Minimale Deelnemers"
+    }
+  },
+  "cta": {
+    "primary": "Aan de slag",
+    "secondary": "Meer Informatie",
+    "banner": "Klaar om je community actiever te maken?"
+  },
+  "footer": {
+    "rights": "Alle Rechten Voorbehouden.",
+    "privacy": "Privacyrechten",
+    "terms": "Dienstvoorwaarden",
+    "social": {
+      "telegram_group": "Telegram Groep",
+      "telegram_channel": "Telegram Kanaal",
+      "x": "X",
+      "youtube": "YouTube"
+    }
+  },
+  "features_desc": {
+    "f1": "Snelle Start met Minimaal Aantal Stappen",
+    "f2": "Ingebouwde 34 Talen en RTL Ondersteuning",
+    "f3": "Gedecentraliseerd met Privacy in Gedachte"
+  },
+  "sections": {
+    "features_heading": "Kenmerken",
+    "features_subtitle": "Je kunt ontvangen",
+    "tokens_heading": "Tokens en statistieken",
+    "testimonials_heading": "Wat gebruikers zeggen",
+    "pricing_heading": "Plannen en Prijzen",
+    "waterfall_title": "Realtime red packet records"
+  },
+  "tokens": {
+    "columns": {
+      "token": "Token",
+      "price": "Prijs",
+      "h24": "24 uur",
+      "d7": "7 dagen",
+      "market_cap": "Marktkapitalisatie"
+    }
+  },
+  "testimonials": {
+    "q1": "Meertalige lancering is zeer snel en eenvoudig.",
+    "a1": "Jane, Product Manager",
+    "q2": "Bijna geen JS vereist, en SEO-vriendelijk.",
+    "a2": "Mike, SEO",
+    "q3": "Toegankelijkheid en lokalisatie-instellingen zijn vrij uitgebreid.",
+    "a3": "Sara, Designer"
+  },
+  "pricing": {
+    "starter": "Aan de slag",
+    "pro": "Professioneel",
+    "enterprise": "Enterprise",
+    "price_free": "Gratis",
+    "price_19": "€19",
+    "price_contact": "Neem contact op",
+    "bullets": {
+      "starter": {
+        "0": "Basisfuncties",
+        "1": "Gemeenschapsupport"
+      },
+      "pro": {
+        "0": "Basisplan",
+        "1": "Geavanceerde Lokalisatie"
+      },
+      "enterprise": {
+        "0": "SLA en Ondersteuning",
+        "1": "Aangepaste Integratie"
+      }
+    }
+  },
+  "form": {
+    "your_email": "Je E-mail",
+    "message": "Bericht",
+    "send": "Verzenden"
+  },
+  "errors": {
+    "not_found": "Pagina Niet Gevonden",
+    "stale": "Gegevens tijdelijk niet beschikbaar"
+  },
+  "claim": {
+    "title": "Over het Ontvangen van een red packet",
+    "faq": {
+      "section_1": "Start en Geschiktheid",
+      "section_2": "Evenementregels en Eerlijkheid",
+      "section_3": "Claimproces en Taken",
+      "section_4": "Bedragen, Saldi en Opnames",
+      "section_5": "Risicobeheer en Beperkingen",
+      "section_6": "Tijdigheid en Meldingen",
+      "section_7": "Meertaligheid en Regionale Verschillen",
+      "section_8": "Apparaten en Compatibiliteit",
+      "section_9": "Privacy en Veiligheid",
+      "section_10": "Klantenservice en Klachten",
+      "section_11": "Andere Spellen en Informatie",
+      "q1": "Hoe kan ik me registreren?",
+      "a1": "Gebruik de link om onze bot te activeren voor automatische registratie van ervaringen. moonpacket stelt groepsbezitters in staat om in hun groepen te mounten. Spelers kunnen red packets pakken, niet alleen in onze officiële groep, maar ook in alle groepen die aan de moonpacket red packet bot zijn gebonden.",
+      "q2": "Wat moet ik installeren of uitschakelen?",
+      "a2": "Geen installatie van aanvullende applicaties is vereist; het wordt aanbevolen om de nieuwste versie van Telegram te gebruiken. Als je de WebApp in de systeembrowser opent, zorg er dan voor dat cookies/opslag niet zijn geblokkeerd.",
+      "q3": "Wie kan deelnemen?",
+      "a3": "Over het algemeen zijn alle Telegram-gebruikers in aanmerking om deel te nemen; echter, het API-ontwerp van elke groep is anders, en u moet voldoen aan de regels van die groep of kanaal. Bepaalde regio's kunnen internetbeperkingen hebben, of sommige evenementen kunnen regionale/leeftijdslimieten stellen, en het systeem zal automatisch ineligible deelnemers identificeren en voorkomen dat ze claimen.",
+      "q4": "Kan ik claimen met meerdere accounts of apparaten?",
+      "a4": "Nee. Het systeem voorkomt dat gebruikers herhaaldelijk claimen door gebruik te maken van het Telegram-account + gekoppelde Gmail, verificatiecode, unieke walletadres, en abnormale scans op de achtergrond; overtredingen kunnen risicobeheer activeren en leiden tot opschorting van het account.",
+      "q5": "Worden red packets willekeurig of gelijkmatig verdeeld?",
+      "a5": "Projectactiviteiten van groepen of kanalen kunnen kiezen voor 'random', 'evenwichtige verdeling' of 'aangewezen'. De regels van elke groep zijn verschillend, raadpleeg de markeringen in de beschrijvingsinformatie van elke groep.",
+      "q6": "Hoe zorgen jullie voor eerlijkheid? Kan ik mijn resultaten van de red packets daar controleren?",
+      "a6": "moonpacket biedt alleen red packets; het red packet-systeem fungeert als een aanvullend bot-hulpmiddel, zonder investerings- of zakelijke banden met exploitanten van verschillende platforms. Daarom is het waarborgen van absolute eerlijkheid in distributie de enige manier om aan ieders behoeften te voldoen. Bovendien wordt er gedurende een bepaalde periode een auditrecord op de serverzijde bewaard (algoritme en zaad); gebruikers kunnen hun claimresultaten op de bot controleren nadat de red packet-claimactiviteit is afgelopen, en dit resultaat kan ook worden opgevraagd nadat de Telegram miniapp is gelanceerd.",
+      "q7": "Hoeveel red packets kan elke persoon claimen?",
+      "a7": "Afhankelijk van de evenementinstellingen die door de projectpartij zijn ontworpen. Sommige zijn eenmalig, terwijl andere dagelijkse limieten hebben, en als er een 'meerdere keren per persoon' limiet is, zal het systeem dit ook automatisch beperken en een waarschuwing geven wanneer de limiet is bereikt.",
+      "q8": "Zal het evenement vroeg eindigen of worden uitgesteld?",
+      "a8": "Als de aandelen zijn geclaimd of zijn vervallen, eindigt het; of als de organisator opschort of beëindigt vanwege abnormale risico's, zal de red packet-pagina in real-time worden gesynchroniseerd.",
+      "q9": "Waarom kan ik niet claimen nadat ik op de knop heb gedrukt?",
+      "a9": "Veel voorkomende redenen: geclaimd/task niet voltooid. In een paar gevallen kunnen projecten worden gepauzeerd of beëindigd vanwege risico's. Vanwege de tijdvertraging in informatie-updates tussen groepen, is het mogelijk dat deze niet onmiddellijk wordt weerspiegeld; let alstublieft op de laatste status van red packet-informatie op de evenementpagina die door de groep is geplaatst.",
+      "q10": "Wat is taakontgrendeling?",
+      "a10": "Je moet aan specifieke voorwaarden voldoen (zoals het volgen van het kanaal, deelnemen aan de groep, het doorgeven van het wachtwoord, externe taken) om te kunnen claimen. Na voltooiing, keer terug naar de knop van de red packet informatie post om 'red packet te claimen'.",
+      "q11": "Ik heb de taak duidelijk voltooid, waarom staat er dat het niet is geslaagd?",
+      "a11": "Er kunnen synchronisatietra vertragingen zijn tussen verschillende API's op Telegram; als het niet onmiddellijk lukt, wacht dan even. Als je blijft falen, is het waarschijnlijk een probleem met de API-provider en raden we aan om het te rapporteren aan het project dat de red packet taak heeft uitgegeven.",
+      "q12": "Waar kan ik de passphrase verkrijgen? Wat als ik deze verkeerd heb ingevoerd?",
+      "a12": "Het wachtwoord wordt meestal aangekondigd door het project in berichten, live-uitzendingen of video's op x; je kunt het opnieuw proberen als je het verkeerd hebt ingevoerd, maar meerdere onjuiste pogingen kunnen leiden tot rate limiting.",
+      "q13": "Hoe verifieer ik externe taken (zoals website registratie/trading)?",
+      "a13": "moonpacket biedt API voor externe projecten om te bevestigen of gebruikers taken hebben voltooid. Wanneer gebruikers red packets claimen, wordt een verzoek naar de API gestuurd die het verificatieresultaat retourneert; als het aan de voorwaarden voldoet, wordt het ontgrendeld; als het nog niet is teruggekomen, kun je wachten en later opnieuw proberen.",
+      "q14": "Waar kan ik het ontvangen bedrag controleren?",
+      "a14": "Succesvolle claims worden via de Telegram bot verzonden en een red packet claimrecord is beschikbaar in de mini-app, zodat je op elk moment geschiedenis en beschikbare opneembare saldo kunt bekijken.",
+      "q15": "Welke activa worden ondersteund?",
+      "a15": "Op basis van de activiteitinstellingen zijn red packets momenteel verdeeld in hoofdkanten USDT/SOL/ETH/TON en de tokens die door de groepsbezitter zijn uitgegeven. De pagina zal de activa-eenheden en wisselkoersen (indien van toepassing) aangeven.",
+      "q16": "Welke informatie moet worden gekoppeld voor opname? Hoe lang duurt het?",
+      "a16": "Je moet je portemonnee-adres en basisidentificatie-informatie verstrekken voor veiligheidsdoeleinden; de aankomsttijd is meestal T+0 tot T+2 werkdagen. Het kan worden uitgebreid tijdens abnormale risicobeheersing.",
+      "q17": "Wie draagt de transactiekosten/Gas?",
+      "a17": "Elke on-chain bewerking vereist een gasvergoeding, die door de blockchain zelf wordt in rekening gebracht, en moonpacket brengt geen extra kosten in rekening.",
+      "q18": "Kan ik mijn saldo naar vrienden overmaken of samenvoegen?",
+      "a18": "Geen methode voor 'overdragen/samenvoegen' is voorzien.",
+      "q19": "Waarom werd het als verdacht of onderschept beschouwd?",
+      "a19": "Mogelijke redenen omvatten meerdere accounts op hetzelfde apparaat, abnormale proxies/VPN's, een te hoge frequentie van het pakken van red packets in meerdere groepen, zwartgelijsten regio's/ASN, enz. Je kunt de /report berichtinhoud naar de bot sturen; dit is een eenrichtingsantwoordkanaal en de officiële reserveert zich het recht voor om geen uitleg te geven of te reageren op accountverbanning.",
+      "q20": "Moet ik KYC-verificatie ondergaan (verificatiecode)?",
+      "a20": "In hoog-risicosituaties zal verificatie worden gebaseerd op de informatie die door gebruikers wordt verstrekt; zorg ervoor dat correcte beveiligingsinformatie is ingevuld bij opname; als onjuiste informatie niet wordt verstrekt, slaag je niet voor de biometrische en document KYC.",
+      "q21": "Wat moet ik doen als mijn account beperkt is?",
+      "a21": "Beperkingen zijn meestal tijdelijke beschermende maatregelen. Stuur de /report berichtinhoud naar de bot. Vragen van verifiers die niet zijn ingevuld met beveiligingsinformatie zullen niet worden verwerkt; als de situatie normaal is na voltooiing van de verificatie, zullen we dit afhandelen.",
+      "q22": "Wanneer beginnen en eindigen de red packet evenementen?",
+      "a22": "Elk project dat red packets uitgeeft heeft verschillende voorwaarden, let op de tijd en resterende quotums van de red packet informatie; je kunt Telegram-meldingen inschakelen of specifieke meldingsgeluiden instellen om tijdige waarschuwingen te ontvangen voor het pakken van red packets.",
+      "q23": "Kan ik meldingen voor het ontvangen of voltooien van opnames in-/uitschakelen?",
+      "a23": "Dit zijn je instellingen op Telegram, geen instellingen van moonpacket; je kunt meldingen aanpassen in je Telegram-instellingen.",
+      "q24": "Waarom kan ik bepaalde opnamemethoden of functies niet zien?",
+      "a24": "Beleid in bepaalde regio's zijn niet van toepassing, en het systeem zal automatisch terugtrekkingen verbergen of voorkomen, wat aangeeft dat je niet kunt deelnemen aan de activiteit van het pakken van red packets, aangezien deze regio momenteel niet wordt ondersteund.",
+      "q25": "Hoeveel decimalen zal het digitale formaat weergeven?",
+      "a25": "De website past automatisch gelokaliseerde duizendtallen en decimalen toe op basis van je taal.",
+      "q26": "Is het beschikbaar op iOS, Android en desktop Telegram?",
+      "a26": "Ja, het wordt aanbevolen om de nieuwste versie van Telegram te gebruiken. Als je onleesbare situaties tegenkomt, controleer dan of je de officiële client gebruikt, of update de app, of klik om de pagina opnieuw te laden in de drie stippen rechtsboven op de mini-apppagina.",
+      "q27": "Zal het veranderen van apparaten invloed hebben op het ontvangen?",
+      "a27": "Het zal de records niet beïnvloeden, maar als er herhaalde bewerkingen op meerdere apparaten in korte tijd worden uitgevoerd, kan dit risicobeheersing triggeren.",
+      "q28": "Zal het gebruik van een VPN/proxy enige gevolgen hebben?",
+      "a28": "Als u een hoog-risico proxy gebruikt, kan deze onderschept worden. We raden aan de proxy tijdelijk uit te schakelen of over te schakelen naar een schone netwerkomgeving en het opnieuw te proberen.",
+      "q29": "Welke gegevens zullen worden verzameld?",
+      "a29": "Volg het principe van minimalisatie: verzamel alleen de gegevens die nodig zijn voor distributie/opname/risicobeheer (zoals persoonlijke beveiligingsvragen, walletadressen, e-mail, Telegram ID). Wanneer noodzakelijke authenticatie vereist is, verifiëren we via een derde partij verificatieplatform, dat geen privégegevens van gebruikers opslaat behalve voor beveiligingsinformatie.",
+      "q30": "Welke maatregelen zijn er om de veiligheid van de fondsen te waarborgen?",
+      "a30": "Alle kritieke operaties vereisen een tweede verificatie; hoge risico-opnames kunnen handmatige controle activeren.",
+      "q31": "Kan ik mijn account of gegevens verwijderen?",
+      "a31": "U kunt een verzoek om toegang tot of verwijdering van gegevens indienen volgens het proces. Zodra het account is verwijderd, kunt u niet meer inloggen, maar worden transactiegegevens onder nalevingsvereisten bewaard.",
+      "q32": "Wie moet ik contacteren als ik een probleem tegenkom?",
+      "a32": "U kunt ons contacteren door informatie in te dienen/te rapporteren via de bot. Het verstrekken van foutcodes en screenshots kan het proces versnellen.",
+      "q33": "Hoe lang duurt het om een reactie te ontvangen voor een klacht?",
+      "a33": "Over het algemeen worden reacties binnen 1-3 werkdagen gegeven; dringende geldgerelateerde zaken zullen voorrang krijgen.",
+      "q34": "Kan ik deelnemen aan activiteiten in meerdere groepen?",
+      "a34": "Ja; elke activiteit heeft onafhankelijke regels, let op de limieten en geldigheidsperiode van elk evenement.",
+      "q35": "Komt er een leaderboard of badges?",
+      "a35": "Sommige activiteiten kunnen ranglijsten/badges en loterijen hebben; raadpleeg de activiteitpagina voor regels en beloningen."
+    }
+  },
+  "send": {
+    "title": "Veelgestelde Vragen (FAQ Gedetailleerde Versie) — Het Verzenden van Red Packets (Organisator)",
+    "hero": {
+      "api_demo_label": "API Demonstratie",
+      "api_get": "GET [api_url]?api_key=[api_key]&user_id=[user_id]",
+      "response_label": "Terug:",
+      "json": {
+        "0": "{",
+        "1": "\"data\": {",
+        "2": "\"level\": 100,",
+        "3": "\"status\": \"active\",",
+        "4": "\"is_blacklist\": false",
+        "5": "}",
+        "6": "}"
+      },
+      "title": "Nieuwe gebruikers werven, activiteit verhogen",
+      "lead": "De projectpartij kan specifieke voorwaarden instellen:",
+      "points": {
+        "0": "• Sluit je aan bij de groep/volg het kanaal",
+        "1": "• Gebruik de wachtwoordzin correct",
+        "2": "• Aangepaste API-implementatie"
+      },
+      "note": "Alleen gebruikers die aan de voorwaarden voldoen, kunnen red packets ontvangen"
+    },
+    "faq": {
+      "section_1": "Start en Instellingen",
+      "section_2": "Publicatieregels en Eerlijkeheid",
+      "section_3": "Taken en Voorwaarden",
+      "section_4": "Activa, Blootstelling en Afwikkeling",
+      "q1": "Hoe te beginnen?",
+      "a1": "Voeg de moonpacket-bot toe aan je Telegram-groep of kanaal en stel deze in als administrator. Zorg ervoor dat je minimaal de permissies voor: posten, bewerken/verwijderen van eigen berichten inschakelt. Keer na het voltooien terug naar de moonpacket 'Stuur red packet'-pagina, en je ziet de gekoppelde groepen/kanaals in de 'Verstuur Naar'-lijst.",
+      "q2": "Waar moet ik op letten voordat ik het verstuur?",
+      "a2": "Stort eerst de activa die je wilt uitgeven (bijvoorbeeld, stort 10 USDT voor testen). Je kunt mainstream tokens (USDT/TON, enz.) of je eigen meme-munten versturen. Mainstream tokens worden bovendien in de homepage-feed weergegeven, terwijl meme-munten alleen binnen jouw community worden getoond.",
+      "q3": "Kan ik kiezen waar ik het naartoe stuur?",
+      "a3": "In 'Verzenddoelen', controleer de gekoppelde groepen/kanaals om naar een enkele of meerdere groepen tegelijkertijd te verzenden. Als je ze niet in de lijst ziet, bevestig dan of de bot een administrator is van de groep/kanaal en de juiste permissies heeft.",
+      "q4": "Welke distributiemodellen zijn beschikbaar?",
+      "a4": "Je kunt kiezen voor een willekeurig (geluk) of vast bedrag (gelijke verdeling). Beide kunnen het totaalbedrag, het aantal aandelen en de maximale per persoon instellen, en kunnen een geldigheidsperiode of geplande vrijgave toevoegen.",
+      "q5": "Kan het in één keer of in batches worden verzonden?",
+      "a5": "Ja. Je kunt een eenmalige volledige vrijgave of batchvrijgave binnen een bepaalde periode instellen; countdown en preview-berichten worden ook ondersteund.",
+      "q6": "Wat gebeurt er als het saldo onvoldoende is?",
+      "a6": "Het systeem is gebaseerd op je beschikbare saldo. Als het saldo onvoldoende is, zal er een foutmelding worden verzonden met het verzoek om op te laden om overbesteding te voorkomen.",
+      "q7": "Hoe wordt eerlijkheid gegarandeerd?",
+      "a7": "De distributie wordt aan de serverzijde uitgevoerd en behoudt auditrecords (algoritme en zaad, operationele logboeken). Regels, aandelen, limieten en eindresultaten worden openbaar weergegeven op de evenementpagina voor traceerbaarheid.",
+      "q8": "Kan ik vereisen dat men zich bij een groep voegt of een kanaal volgt om het te ontvangen?",
+      "a8": "Ja. Je kunt de ingebouwde voorwaarde 'Moet bepaalde groep/juiste kanaal volgen' inschakelen. De voorwaarde is dat je bot zich in die groep/kanaal bevindt en de permissies heeft om te posten en eigen berichten te bewerken/verwijderen voor verificatie van de lidstatus.",
+      "q9": "Wat is een wachtwoordzin? Voor welke scenario's is het geschikt?",
+      "a9": "Spelers moeten het wachtwoord verkrijgen via externe kanalen en kunnen het claimen na het correct invoeren op de pagina. Veelvoorkomende praktijken zijn: het 6-cijferige wachtwoord splitsen in lange YouTube-video's om volledige weergave te stimuleren; hints naar het wachtwoord in X.com (Twitter) berichten of Threads om interactie te bevorderen; het wachtwoord alleen mondeling aankondigen tijdens livestreams om deelnemers te begeleiden; speciale wachtwoorden in privé/bbetaalde groepen om ervoor te zorgen dat voordelen alleen aan kernleden worden gegeven.",
+      "q10": "Kan ik mijn eigen API gebruiken om geschiktheid te bepalen?",
+      "a10": "Ja. moonpacket zal de alleen-lezen API die je hebt opgegeven aanroepen voor verificatie voordat gebruikers claimen. De backend hoeft alleen api_url en api_key in te stellen (domeinpermissie kan optioneel worden geconfigureerd).",
+      "q11": "Wat is het blootstellingsverschil tussen mainstream munten en meme-munten?",
+      "a11": "Mainstream munten (USDT/TON, enz.) worden in de groep weergegeven en ook in de homepage-feeds voor hogere blootstelling; meme-munten worden alleen in jouw groep weergegeven.",
+      "q12": "Hoe te voorkomen dat er vals gespeeld wordt en bulkmachines gebruikt worden?",
+      "a12": "Inclusief gedragsfrequentie en apparaat/IP-detectie, unieke binding van accounts en portemonnees, retriever verificatiecode, AI-risicobeheer eerste beoordeling; indien nodig, zullen er derden biometrische + gezichts- + identiteitsverificatie uitvoeren.",
+      "q13": "Waar kan ik mijn verzonden records en het aantal ontvangers bekijken?",
+      "a13": "Controleer 'Red Packets Die Ik Heb Verzonden' op je persoonlijke homepage om het aantal claimanten, resterende aandelen en het totaal verbruikte bedrag voor elke sessie te zien; indien ingeschakeld, kun je ook rapporten downloaden."
+    }
+  },
+  "groups_directory": {
+    "latest_tab": "Laatste red packet-groepen",
+    "hot_tab": "Populaire red packet-groepen",
+    "search_placeholder": "Zoekwoorden voor aangesloten groepen"
+  },
+  "a11y": {
+    "skip_to_main": "Spring naar Hoofdinhoud",
+    "language_menu": "Taalmenu",
+    "language": "Taal"
+  },
+  "waterfall": {
+    "sent_from": "Verzendgroep:",
+    "claimed": "Opvragen",
+    "total": "Totaalbedrag",
+    "progress": "Opgevraagd"
+  },
+  "terms": {
+    "title": "Gebruikersvoorwaarden",
+    "version": "v1.0.0",
+    "updated": "5 oktober 2025 15:00 GMT+0800 (Taipei Standaardtijd) :00:",
+    "owner": "moonpacket-core",
+    "sections": {
+      "scope": "Toepassingsgebied en Contractvorming",
+      "definitions": "Definitie",
+      "eligibility": "Kwalificaties en Accounts",
+      "services": "Dienstinhoud",
+      "wallet": "Cloud Wallet en Fondsen",
+      "fees": "Kosten en Facturatie",
+      "rules": "Activiteitsregels en Billijkheid",
+      "restrictions": "Anti-Bot en Gebruik Beperkingen",
+      "ip": "Inhoud en Intellectuele Eigendomsrechten",
+      "third_party": "Diensten van Derden",
+      "data": "Gegevens en privacy",
+      "risks": "Risicobezorging",
+      "disclaimer": "Disclaimer",
+      "liability": "Beperkingen van Aansprakelijkheid",
+      "indemnity": "Compensatie",
+      "termination": "Opschorting, Beëindiging en Verwijdering",
+      "force_majeure": "Overmacht",
+      "high_risk": "Verboden Hoge-Risico Gebruik",
+      "tax": "Belastingen en Rapportage",
+      "third_party_services": "Diensten van Derden en Relatie-openbaringen",
+      "wallet_assets": "Wallet en Assets openbaarmakingen",
+      "accuracy": "Nauwkeurigheid van inhoud en gegevens",
+      "governing_law": "Toepasselijk Recht en Geschiloplossing",
+      "contact": "Contactinformatie"
+    }
+  },
+  "privacy": {
+    "title": "Privacybeleid",
+    "version": "v1.1.0",
+    "updated": "5 oktober 2025, zondag 15:00:00 GMT+0800 (Taipei Standaardtijd)",
+    "owner": "moonpacket-core",
+    "sections": {
+      "intro": "Inleiding",
+      "definitions": "Definities",
+      "scope": "Toepassingsgebied",
+      "data_collection": "De gegevens die we verzamelen",
+      "data_usage": "Ons gebruik",
+      "legal_basis": "Regulerende basis",
+      "cookies": "Cookies en lokale opslag",
+      "data_sharing": "Ontvangers van gegevensdeling",
+      "cross_border": "Grensoverschrijdende overdracht",
+      "retention": "Bewaarperiode",
+      "security": "Beveiliging",
+      "blockchain": "Beschrijving van blockchain-functies",
+      "telegram": "Verklaring van het Telegram-platform",
+      "minors": "Regelgeving met betrekking tot minderjarigen",
+      "rights": "Jouw rechten en hoe je deze kunt uitoefenen",
+      "faq": "Veelgestelde vragen (Privacy en Beveiliging)",
+      "updates": "Bijwerkingsvoorwaarden",
+      "contact": "Contactinformatie"
+    },
+    "faq": {
+      "q1": "Welke gegevens verzamelen we?",
+      "a1": "We zullen de nodige informatie verstrekken voor het uitgeven en ontvangen van red packets, taakverificatie, cloudwallet, en opnames, waaronder basisinformatie over Telegram, apparaats- en netwerkmatrixgegevens, interactie-evenementen, en KYC- en wallet-informatie wanneer vereist.",
+      "q2": "Zijn mijn fondsen veilig?",
+      "a2": "Fondsen en operationele rekeningen zijn gescheiden, gevoelige operaties vereisen twee-factor-authenticatie, en alle financiële gebeurtenissen worden gelogd; hoog-risico-opnames worden handmatig beoordeeld.",
+      "q3": "Kan ik mijn gegevens verwijderen?",
+      "a3": "Je kunt de verwijdering of beperking van je gegevens aanvragen volgens de wet; boekhoudkundige of geschilgerelateerde gegevens die wettelijk moeten worden bewaard, vallen niet onder deze beperking en zullen daarna worden verwijderd of geanonimiseerd.",
+      "q4": "Regionale beperkingen en zichtbare inhoud komen niet overeen?",
+      "a4": "Volgens de compliance-beleid zijn sommige functies of opname-methoden mogelijk niet beschikbaar vanwege regionale beperkingen, en het systeem zal automatisch niet-toepasbare opties verbergen.",
+      "q5": "Waarom werd het als verdacht beschouwd?",
+      "a5": "Er kunnen problemen optreden door proxy/VPN, ongebruikelijke frequentie, of gelijktijdige inlogpogingen van meerdere accounts; je kunt het later opnieuw proberen of het beroepstraject voor beoordeling ondergaan."
+    }
+  },
+  "roadmap": {
+    "accept": "Acceptatiecriteria",
+    "bucket": {
+      "progress": "Vooruitgang"
+    },
+    "lanes": {
+      "build": "Product bouwen",
+      "growth": "Groei",
+      "token": "moonini token",
+      "trust": "Vertrouwen, Naleving en Beveiliging"
+    },
+    "progressLabel": "Vooruitgang",
+    "status": {
+      "live": "Live",
+      "planned": "Gepland",
+      "research": "In Onderzoek",
+      "shipping": "In Ontwikkeling"
+    },
+    "title": "Productroutekaart",
+    "updated": "Bijwerken (Tokens worden uitgedeeld nadat de voortgangsbalk vol is)"
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "title": "moonpacket — red packets de crypto fáceis, seguros e rápidos",
+  "description": "moonpacket robot de red packet encriptado | Suporta USDT, TON, SOL, ETH. Envie red packets facilmente, receba instantaneamente, de forma segura e não custodial, perfeito para o crescimento da comunidade no Telegram e aumento do envolvimento.",
+  "nav": {
+    "home": "Início",
+    "about": "Sobre",
+    "pricing": "Preços",
+    "team": "Equipa",
+    "blog": "Blog",
+    "faq": "Perguntas Frequentes",
+    "contact": "Contacte-nos",
+    "careers": "Carreiras",
+    "claim": "Reivindicar red packet",
+    "send": "Enviar red packet",
+    "api": "Documentação da API"
+  },
+  "hero": {
+    "title": "Red packets de criptomoeda, disponíveis para todos",
+    "subtitle": "Melhore a experiência da sua comunidade com serviços simples e globais.",
+    "desc": "O melhor bot de red packet para projetos de token meme e gestores de grupos do Telegram para adquirir novos utilizadores e aumentar o envolvimento.",
+    "ctaPrimaryLabel": "Lançar moonpacket",
+    "ctaPrimaryHref": "https://t.me/MoonPackageDevBot",
+    "ctaSecondaryLabel": "Como Conectar",
+    "ctaSecondaryHref": "/zh-TW/integration",
+    "lead": "Telegram TON, meme, red packets USDT | O melhor bot de red packet para projetos de token meme e gestores de grupos do Telegram para adquirir novos utilizadores e aumentar o envolvimento.",
+    "cta_primary": "Ativar moonpacket Agora",
+    "cta_secondary": "Como Integrar com Grupos",
+    "headline_line1": "moonpacket",
+    "headline_line2": "Comece, aponte para a lua.",
+    "tagline": "Telegram TON, meme, e red packets USDT para marketing e retenção comunitária. Um bot de red packet de grupo projetado para administradores para aumentar o envolvimento, atrair novos membros e incentivar a interação."
+  },
+  "features": {
+    "f1": "Registro rápido",
+    "f2": "Localização global",
+    "f3": "Segurança não custodial",
+    "title": "Características principais",
+    "items": "__TODO_TRANSLATE_zh-CN__"
+  },
+  "sections": {
+    "features_heading": "Destaques de Funcionalidades",
+    "features_subtitle": "Você Pode Obter",
+    "tokens_heading": "Tokens e Estatísticas",
+    "testimonials_heading": "Avaliações de Utilizadores",
+    "pricing_heading": "Planos e Preços",
+    "waterfall_title": "cascata de red packet"
+  },
+  "footer": {
+    "rights": "",
+    "privacy": "Política de privacidade",
+    "terms": "Termos de Serviço",
+    "social": {
+      "telegram_group": "Grupo Telegram",
+      "telegram_channel": "Canal Telegram",
+      "x": "X",
+      "youtube": "YouTube"
+    },
+    "copyright": "Todos os direitos reservados."
+  },
+  "a11y": {
+    "skip_to_main": "Saltar para o conteúdo principal",
+    "language_menu": "Abrir menu de idiomas",
+    "language": "Idioma"
+  },
+  "metrics": {
+    "heading": "Indicadores em Tempo Real",
+    "price_btc": "Preço BTC",
+    "total_sent": "Total Enviado",
+    "total_claimed_amount": "Total Recebido (USDT)",
+    "title": "Tokens e Estatísticas",
+    "groups": "Grupos Conectados",
+    "groupsLinkLabel": "Grupos de red packet Conectados",
+    "sent": "Red Packets Enviados",
+    "claimed": "Montante Total Reclamado",
+    "sort": {
+      "latest": "Último",
+      "oldest": "Mais Antigo",
+      "most": "Participantes Máximos",
+      "least": "Participantes Mínimos"
+    }
+  },
+  "errors": {
+    "stale": "Os dados podem estar desatualizados",
+    "not_found": "Página não encontrada",
+    "not_found_desc": "Desculpe, não conseguimos encontrar esta página, ou ela foi removida."
+  },
+  "pricing": {
+    "starter": "Plano Básico",
+    "pro": "Serviços Profissionais",
+    "enterprise": "Plano Empresarial",
+    "price_free": "Gratuito",
+    "price_19": "19€",
+    "price_contact": "Contacte-nos",
+    "sla_support": "SLA e Suporte",
+    "bullets": {
+      "starter": {
+        "0": "Funcionalidades Básicas",
+        "1": "Suporte à Comunidade"
+      },
+      "pro": {
+        "0": "Inclui o Plano Básico",
+        "1": "Localização Avançada"
+      },
+      "enterprise": {
+        "0": "SLA e Suporte",
+        "1": "Integração Personalizada"
+      }
+    }
+  },
+  "story": {
+    "belief_title": "🌕 A energia da lua e a crença nos red packets",
+    "disclaimer_title": "⚠️ Isenção de responsabilidade",
+    "future_title": "💫 Aplicações futuras",
+    "schedule_title": "Regras de liberação de tokens",
+    "secrets_title": "🌸 O seu segredo",
+    "title": "🌕 A história de moonini"
+  },
+  "waterfall": {
+    "claimed": "Reclamar",
+    "progress": "Reclamado",
+    "sent_from": "Enviando grupo:",
+    "total": "Valor total"
+  },
+  "seo": {
+    "og": {
+      "image": "/images/og-default.png",
+      "type": "website"
+    },
+    "routes": {
+      "claim": {
+        "description": "A funcionalidade de red packet do moonpacket suporta vários tokens, incluindo SOL e USDT, e permite enviar os seus próprios tokens meme. Uma ferramenta poderosa para atrair novos utilizadores e aumentar o envolvimento em grupos do Telegram.",
+        "title": "Red Packet Telegram mini APP — moonpacket"
+      },
+      "privacy": {
+        "description": "A Política de Privacidade do moonpacket explica como coletamos, usamos e protegemos os seus dados pessoais.",
+        "title": "Política de Privacidade — moonpacket"
+      },
+      "send": {
+        "description": "Utilize o moonpacket para enviar red packets, definir condições de tarefas e integrar APIs para atrair efetivamente novos utilizadores e aumentar o envolvimento da comunidade de utilizadores valiosos.",
+        "title": "Enviar red packet — moonpacket"
+      },
+      "terms": {
+        "description": "Termos de Serviço do moonpacket, diretrizes de uso e declarações legais.",
+        "title": "Termos de Serviço — moonpacket"
+      }
+    },
+    "site": {
+      "description": "Bot Telegram de red packet de Criptomoeda moonpacket | Suporta USDT, TON, SOL, ETH, DOGE. Também pode enviar red packets de tokens meme, ideal para atrair novos utilizadores, criar um ambiente animado e aumentar o engajamento nas comunidades do Telegram.",
+      "site_name": "moonpacket",
+      "title": "moonpacket — red packets de criptomoeda token meme, carteira de red packets dedicada"
+    }
+  }
+}

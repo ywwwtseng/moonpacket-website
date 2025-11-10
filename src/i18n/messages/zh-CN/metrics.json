@@ -1,0 +1,17 @@
+{
+  "title": "moonpacket 数据总览",
+  "subtitle": "即时统计与排行榜",
+  "latest": "最新",
+  "top_groups": "热门群组",
+  "total_sent": "累计发送金额",
+  "total_claimed": "已领取总额（USDT）",
+  "participants": "参与人数",
+  "avg_packet": "平均每包金额",
+  "sort": {
+    "label": "排序",
+    "latest": "最新",
+    "oldest": "最旧",
+    "most": "人数最多",
+    "least": "人数最少"
+  }
+}

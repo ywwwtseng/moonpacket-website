@@ -1,0 +1,17 @@
+---
+interface Props {
+  as?: 'span' | 'h1' | 'h2' | 'div';
+  text?: string;
+  size?: 'hero' | 'h1' | 'h2' | 'nav';
+  tone?: 'primary' | 'navy' | 'gold' | 'gradient' | 'on-dark';
+  class?: string;
+  ariaLabel?: string;
+}
+const { as = 'span', text = 'moonpacket', size = 'nav', tone = 'navy', class: className = '', ariaLabel } = Astro.props as Props;
+const Tag = as as any;
+---
+<Tag class={`brand-word font-brand ${className}`} data-size={size} data-tone={tone} aria-label={ariaLabel}>
+  {String(text).toLowerCase()}
+</Tag>
+
+

@@ -1,0 +1,82 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import { computeCanonical } from '@/utils/head';
+import { getLocalesForBuild, defaultLocale } from '@/i18n/locales.config';
+import { LOCALE_ORDER } from '@/config/locales';
+
+export async function getStaticPaths() {
+  const locales = getLocalesForBuild();
+  return locales.map((l) => ({ params: { lang: l.code } }));
+}
+
+const { lang } = Astro.params as { lang: string };
+const messages = await import(`@/i18n/loadMessages`).then(m => m.loadAllMessages(lang as any)).catch(async () => {
+  const fallback = await import(`@/i18n/loadMessages`).then(m => m.loadAllMessages(defaultLocale));
+  return fallback;
+});
+const canonical = computeCanonical(Astro.url, (Astro.site && Astro.site.toString()) || undefined);
+---
+<BaseLayout lang={lang} title={messages.site?.title || 'Groups Directory'} description={messages.site?.description || 'Send crypto red packets'} canonicalUrl={canonical} allLocales={LOCALE_ORDER}>
+  <main class="mx-auto max-w-6xl px-4 py-10">
+    <h1 class="text-2xl font-semibold mb-4">{(messages.metrics && messages.metrics.title) || 'moonpacket Metrics'}</h1>
+    <div class="mb-4">
+      <label for="sort" class="mr-2">{messages.metrics?.sort?.label || 'Sort'}</label>
+      <select id="sort" class="px-2 py-1 rounded border border-black/10 bg-white">
+        <option value="latest">{(messages.metrics && messages.metrics.sort && messages.metrics.sort.latest) || 'Latest'}</option>
+        <option value="oldest">{(messages.metrics && messages.metrics.sort && messages.metrics.sort.oldest) || 'Oldest'}</option>
+        <option value="most">{(messages.metrics && messages.metrics.sort && messages.metrics.sort.most) || 'Most Users'}</option>
+        <option value="least">{(messages.metrics && messages.metrics.sort && messages.metrics.sort.least) || 'Least Users'}</option>
+      </select>
+    </div>
+    <ul id="groups-list" class="space-y-3"></ul>
+
+    <script is:inline define:vars={{ groupsI18N: JSON.stringify(messages.groups || {}) }}>
+      // DYNAMIC: uses placeholder API at /data/groups.json; ready to swap to real endpoint later
+      var html = document.documentElement;
+      var BASE = (html && html.getAttribute && html.getAttribute('data-base')) || '/';
+      var SRC = BASE.replace(/\/$/, '/') + 'data/groups.json';
+      var I18N_GROUPS = (typeof groupsI18N === 'string') ? JSON.parse(groupsI18N) : (groupsI18N || {});
+      const list = document.getElementById('groups-list');
+      const select = document.getElementById('sort');
+
+      async function load() {
+        try {
+          const res = await fetch(SRC, { cache: 'no-store' });
+          if (!res.ok) return;
+          const { groups } = await res.json();
+          render(groups);
+        } catch {}
+      }
+
+      function render(items) {
+        const mode = (select.value || 'latest');
+        const sorted = [...items];
+        if (mode === 'latest') sorted.sort((a,b)=> new Date(b.created_at)-new Date(a.created_at));
+        if (mode === 'oldest') sorted.sort((a,b)=> new Date(a.created_at)-new Date(b.created_at));
+        if (mode === 'most')   sorted.sort((a,b)=> (b.members||0)-(a.members||0));
+        if (mode === 'least')  sorted.sort((a,b)=> (a.members||0)-(b.members||0));
+        list.innerHTML = '';
+        sorted.forEach(g => {
+          const li = document.createElement('li');
+          li.className = 'p-4 rounded-lg bg-white ring-1 ring-black/5 flex items-center justify-between';
+          li.innerHTML = `
+            <div>
+              <a href="${g.link}" target="_blank" rel="noopener" class="font-semibold underline-offset-2 hover:underline">${g.name}</a>
+              <div class="text-xs text-textSubtle">${new Date(g.created_at).toLocaleString()}</div>
+            </div>
+            <div class="text-sm text-textSubtle">
+              <span>${I18N_GROUPS.card?.members || 'Members'}: </span>
+              <span class="num font-semibold">${new Intl.NumberFormat().format(g.members||0)}</span>
+            </div>
+          `;
+          list.appendChild(li);
+        });
+      }
+
+      select.addEventListener('change', load);
+      load();
+    </script>
+  </main>
+</BaseLayout>
+
+

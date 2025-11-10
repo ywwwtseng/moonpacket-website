@@ -1,0 +1,15 @@
+{
+  "hero": {
+    "headline": "moonpacket이 달로 날아오르고 있습니다!",
+    "subheadline": "텔레그램 TON, meme, USDT 레드패킷 획득｜meme 프로젝트와 텔레그램 그룹 관리자가 새로운 사용자를 유치하고 참여도를 높이기 위한 최고의 레드패킷 봇입니다.",
+    "cta_primary": "moonpacket 활성화",
+    "cta_secondary": "통합 방법"
+  },
+  "metrics": {
+    "title": "토큰 및 통계",
+    "connected_groups": "연결된 그룹",
+    "total_packets_sent": "레드패킷 전송됨",
+    "total_claimed": "총 수집 금액 (USDT)",
+    "data_stale": "데이터가 오래되었을 수 있습니다"
+  }
+}

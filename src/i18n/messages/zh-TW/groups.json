@@ -1,0 +1,57 @@
+{
+  "tabs": {
+    "latest": "最新",
+    "hot": "熱門"
+  },
+  "search": {
+    "placeholder": "搜尋群組…",
+    "label": "搜尋群組"
+  },
+  "card": {
+    "ownerLabel": "擁有者：",
+    "members": "成員",
+    "totalSent": "累計發送數量",
+    "sent": "本期發送",
+    "unnamed": "未命名群組"
+  },
+  "pagination": {
+    "prev": "上一頁",
+    "next": "下一頁",
+    "pageInfo": "{{count}} 個群組（第 {{page}} / {{pages}} 頁）"
+  },
+  "cta": {
+    "launch": "啟動 moonpacket"
+  },
+  "searchLabel": "搜尋群組",
+  "searchPlaceholder": "請輸入關鍵字搜尋群組…",
+  "empty": "暫無群組",
+  "pager": {
+    "groups": "個群組數",
+    "pageOf": "（第 {page} / {pages} 頁）",
+    "prev": "上一頁",
+    "next": "下一頁"
+  },
+  "marquee": {
+    "fallback": [
+      "💰 John 在《Game Guild A》發出 100 USDT 紅包！",
+      "🎯 Lisa 領取了 3.5 USDT，手氣王！",
+      "🔥 群主 Ken 充值了 2000 USDT",
+      "📢 系統升級完成，新增對 SOL 的支持！",
+      "🥇 今日手氣最佳：@Mina（累積 28.3 USDT）"
+    ],
+    "templates": {
+      "red_packet_sent": "{user} 在《{group}》發出 {amount} {ccy} 紅包！",
+      "red_packet_claimed": "{user} 領取了 {amount} {ccy}，手氣王！",
+      "top_up": "群主 {user} 充值了 {amount} {ccy}",
+      "system_upgrade": "📢 系統升級完成，新增 {ccy} 支持！",
+      "daily_winner": "🥇 今日手氣最佳：{user}（累積 {amount} {ccy}）"
+    }
+  },
+  "group": {
+    "unnamed": "未命名群組",
+    "owner": "群主：{owner}",
+    "members": "人員清單",
+    "totalSent": "發送總額",
+    "sent": "已送出數量"
+  }
+}

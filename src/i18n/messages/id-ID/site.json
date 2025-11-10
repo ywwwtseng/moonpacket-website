@@ -1,0 +1,152 @@
+{
+  "title": "moonpacket — angpao kripto yang mudah, aman, dan cepat",
+  "description": "robot angpao terenkripsi moonpacket | Mendukung USDT, TON, SOL, ETH. Kirim angpao dengan mudah, terima instan, aman non-kustodial, sempurna untuk pertumbuhan komunitas Telegram dan meningkatkan keterlibatan.",
+  "nav": {
+    "home": "Beranda",
+    "about": "Tentang",
+    "pricing": "Harga",
+    "team": "Tim",
+    "blog": "Blog",
+    "faq": "Pertanyaan yang Sering Diajukan",
+    "contact": "Hubungi Kami",
+    "careers": "Karir",
+    "claim": "Klaim angpao",
+    "send": "Kirim angpao",
+    "api": "Dokumentasi API"
+  },
+  "hero": {
+    "title": "angpao cryptocurrency, tersedia untuk semua orang",
+    "subtitle": "Tingkatkan pengalaman komunitas Anda dengan layanan global yang sederhana.",
+    "desc": "Bot angpao terbaik untuk proyek token meme dan pemilik grup Telegram untuk mendapatkan pengguna baru dan meningkatkan keterlibatan.",
+    "ctaPrimaryLabel": "Luncurkan moonpacket",
+    "ctaPrimaryHref": "https://t.me/MoonPackageDevBot",
+    "ctaSecondaryLabel": "Cara Menghubungkan",
+    "ctaSecondaryHref": "/zh-TW/integration",
+    "lead": "angpao Telegram TON, meme, USDT | Bot angpao terbaik untuk proyek token meme dan pemilik grup Telegram untuk mendapatkan pengguna baru dan meningkatkan keterlibatan.",
+    "cta_primary": "Aktifkan moonpacket Sekarang",
+    "cta_secondary": "Cara Mengintegrasikan dengan Grup",
+    "headline_line1": "moonpacket",
+    "headline_line2": "Mulai sekarang, capai bulan.",
+    "tagline": "angpao Telegram TON, meme, dan USDT untuk pemasaran komunitas dan retensi. Bot angpao grup yang dirancang untuk administrator meningkatkan keterlibatan, menarik anggota baru, dan mendorong interaksi."
+  },
+  "features": {
+    "f1": "Pendaftaran cepat",
+    "f2": "Lokalisasi global",
+    "f3": "Keamanan non-kustodial",
+    "title": "Fitur inti",
+    "items": "__TODO_TRANSLATE_zh-CN__"
+  },
+  "sections": {
+    "features_heading": "Sorotan Fitur",
+    "features_subtitle": "Anda Dapat Mendapatkan",
+    "tokens_heading": "Token dan Statistik",
+    "testimonials_heading": "Ulasan Pengguna",
+    "pricing_heading": "Rencana dan Harga",
+    "waterfall_title": "air terjun angpao"
+  },
+  "footer": {
+    "rights": "",
+    "privacy": "Kebijakan privasi",
+    "terms": "Syarat Layanan",
+    "social": {
+      "telegram_group": "Grup Telegram",
+      "telegram_channel": "Saluran Telegram",
+      "x": "X",
+      "youtube": "YouTube"
+    },
+    "copyright": "Hak cipta."
+  },
+  "a11y": {
+    "skip_to_main": "Lanjutkan ke konten utama",
+    "language_menu": "Buka menu bahasa",
+    "language": "Bahasa"
+  },
+  "metrics": {
+    "heading": "Indikator Real-time",
+    "price_btc": "Harga BTC",
+    "total_sent": "Total Jumlah Dikirim",
+    "total_claimed_amount": "Total Jumlah Diterima (USDT)",
+    "title": "Token dan Statistik",
+    "groups": "Grup Terhubung",
+    "groupsLinkLabel": "Grup angpao Terhubung",
+    "sent": "angpao Terkirim",
+    "claimed": "Total Jumlah Diklaim",
+    "sort": {
+      "latest": "Terbaru",
+      "oldest": "Terlama",
+      "most": "Peserta Maksimum",
+      "least": "Peserta Minimum"
+    }
+  },
+  "errors": {
+    "stale": "Data mungkin sudah usang",
+    "not_found": "Halaman tidak ditemukan",
+    "not_found_desc": "Maaf, kami tidak dapat menemukan halaman ini, atau halaman ini telah dihapus."
+  },
+  "pricing": {
+    "starter": "Paket Dasar",
+    "pro": "Layanan Profesional",
+    "enterprise": "Paket Perusahaan",
+    "price_free": "Gratis",
+    "price_19": "$19",
+    "price_contact": "Hubungi Kami",
+    "sla_support": "SLA dan Dukungan",
+    "bullets": {
+      "starter": {
+        "0": "Fitur Dasar",
+        "1": "Dukungan Komunitas"
+      },
+      "pro": {
+        "0": "Termasuk Paket Dasar",
+        "1": "Lokalization Lanjutan"
+      },
+      "enterprise": {
+        "0": "SLA dan Dukungan",
+        "1": "Integrasi Kustom"
+      }
+    }
+  },
+  "story": {
+    "belief_title": "🌕 Energi bulan dan keyakinan pada angpao",
+    "disclaimer_title": "⚠️ Penafian",
+    "future_title": "💫 Aplikasi di Masa Depan",
+    "schedule_title": "Aturan rilis token",
+    "secrets_title": "🌸 Rahasianya",
+    "title": "🌕 Kisah moonini"
+  },
+  "waterfall": {
+    "claimed": "Klaim",
+    "progress": "Telah Diklik",
+    "sent_from": "Mengirim grup:",
+    "total": "Jumlah total"
+  },
+  "seo": {
+    "og": {
+      "image": "/images/og-default.png",
+      "type": "website"
+    },
+    "routes": {
+      "claim": {
+        "description": "fitur angpao moonpacket mendukung berbagai token, termasuk SOL dan USDT, dan memungkinkan Anda untuk mendistribusikan token meme Anda sendiri, menjadikannya alat yang hebat untuk menarik anggota baru dan meningkatkan aktivitas di grup Telegram.",
+        "title": "Aplikasi mini Telegram angpao — moonpacket"
+      },
+      "privacy": {
+        "description": "Kebijakan Privasi moonpacket menjelaskan bagaimana kami mengumpulkan, menggunakan, dan melindungi informasi pribadi Anda.",
+        "title": "Kebijakan Privasi — moonpacket"
+      },
+      "send": {
+        "description": "Gunakan moonpacket untuk mengirim angpao, menetapkan syarat tugas, dan integrasi API untuk menarik pengguna baru secara efektif dan meningkatkan keterlibatan komunitas pengguna yang berharga.",
+        "title": "Kirim angpao — moonpacket"
+      },
+      "terms": {
+        "description": "Syarat Layanan moonpacket, pedoman penggunaan, dan pernyataan hukum.",
+        "title": "Syarat Layanan — moonpacket"
+      }
+    },
+    "site": {
+      "description": "Bot Telegram angpao Cryptocurrency moonpacket | Mendukung USDT, TON, SOL, ETH, DOGE. Anda juga dapat mengirim angpao token meme Anda sendiri, ideal untuk menarik pengguna baru, menciptakan suasana yang hidup, dan meningkatkan keterlibatan di komunitas Telegram.",
+      "site_name": "moonpacket",
+      "title": "moonpacket — angpao cryptocurrency token meme, dompet angpao yang didedikasikan"
+    }
+  }
+}

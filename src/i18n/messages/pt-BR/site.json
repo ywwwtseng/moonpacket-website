@@ -1,0 +1,152 @@
+{
+  "title": "moonpacket — Pacotes Vermelhos de criptomoeda fáceis, seguros e rápidos",
+  "description": "moonpacket robô de pacote vermelho criptografado | Suporta USDT, TON, SOL, ETH. Envie pacotes vermelhos facilmente, receba instantaneamente, de forma segura e não custodiada, perfeito para o crescimento da comunidade no Telegram e aumento do engajamento.",
+  "nav": {
+    "home": "Início",
+    "about": "Sobre",
+    "pricing": "Preços",
+    "team": "Equipe",
+    "blog": "Blog",
+    "faq": "Perguntas Frequentes",
+    "contact": "Fale Conosco",
+    "careers": "Carreiras",
+    "claim": "Reclamar Pacote Vermelho",
+    "send": "Enviar Pacote Vermelho",
+    "api": "Documentação da API"
+  },
+  "hero": {
+    "title": "Pacotes vermelhos de criptomoedas, disponíveis para todos",
+    "subtitle": "Melhore a experiência da sua comunidade com serviços simples e globais.",
+    "desc": "O melhor bot de pacote vermelho para projetos de tokens meme e proprietários de grupos do Telegram para adquirir novos usuários e aumentar o engajamento.",
+    "ctaPrimaryLabel": "Lançar moonpacket",
+    "ctaPrimaryHref": "https://t.me/MoonPackageDevBot",
+    "ctaSecondaryLabel": "Como Conectar",
+    "ctaSecondaryHref": "/zh-TW/integration",
+    "lead": "Pacotes vermelhos de Telegram TON, meme, USDT | O melhor bot de pacote vermelho para projetos de tokens meme e proprietários de grupos do Telegram para adquirir novos usuários e aumentar o engajamento.",
+    "cta_primary": "Ative o moonpacket Agora",
+    "cta_secondary": "Como Integrar com Grupos",
+    "headline_line1": "moonpacket",
+    "headline_line2": "Comece, mire na lua.",
+    "tagline": "Pacotes vermelhos de Telegram TON, meme e USDT para marketing e retenção de comunidade. Um bot de pacote vermelho projetado para administradores aumentarem o engajamento, atrair novos membros e incentivar a interação."
+  },
+  "features": {
+    "f1": "Registro rápido",
+    "f2": "Localização global",
+    "f3": "Segurança não custodiada",
+    "title": "Recursos principais",
+    "items": "__TODO_TRANSLATE_zh-CN__"
+  },
+  "sections": {
+    "features_heading": "Destaques dos Recursos",
+    "features_subtitle": "Você Pode Obter",
+    "tokens_heading": "Tokens e Estatísticas",
+    "testimonials_heading": "Avaliações de Usuários",
+    "pricing_heading": "Planos e Preços",
+    "waterfall_title": "Pacote Vermelho"
+  },
+  "footer": {
+    "rights": "",
+    "privacy": "Política de privacidade",
+    "terms": "Termos de Serviço",
+    "social": {
+      "telegram_group": "Grupo do Telegram",
+      "telegram_channel": "Canal do Telegram",
+      "x": "X",
+      "youtube": "YouTube"
+    },
+    "copyright": "Direitos autorais."
+  },
+  "a11y": {
+    "skip_to_main": "Pular para o conteúdo principal",
+    "language_menu": "Abrir menu de idioma",
+    "language": "Idioma"
+  },
+  "metrics": {
+    "heading": "Indicadores em Tempo Real",
+    "price_btc": "Preço do BTC",
+    "total_sent": "Total Enviado",
+    "total_claimed_amount": "Total Recebido (USDT)",
+    "title": "Tokens e Estatísticas",
+    "groups": "Grupos Conectados",
+    "groupsLinkLabel": "Grupos de Pacote Vermelho Conectados",
+    "sent": "Pacotes Vermelhos Enviados",
+    "claimed": "Valor Total Reivindicado",
+    "sort": {
+      "latest": "Último",
+      "oldest": "Mais Antigo",
+      "most": "Participantes Máximos",
+      "least": "Participantes Mínimos"
+    }
+  },
+  "errors": {
+    "stale": "Os dados podem estar desatualizados",
+    "not_found": "Página não encontrada",
+    "not_found_desc": "Desculpe, não conseguimos encontrar esta página, ou ela foi removida."
+  },
+  "pricing": {
+    "starter": "Plano Básico",
+    "pro": "Serviços Profissionais",
+    "enterprise": "Plano Empresarial",
+    "price_free": "Grátis",
+    "price_19": "R$19",
+    "price_contact": "Entre em Contato",
+    "sla_support": "SLA e Suporte",
+    "bullets": {
+      "starter": {
+        "0": "Recursos Básicos",
+        "1": "Suporte Comunitário"
+      },
+      "pro": {
+        "0": "Inclui Plano Básico",
+        "1": "Localização Avançada"
+      },
+      "enterprise": {
+        "0": "SLA e Suporte",
+        "1": "Integração Personalizada"
+      }
+    }
+  },
+  "story": {
+    "belief_title": "🌕 A energia da lua e a crença nos Pacotes Vermelhos",
+    "disclaimer_title": "⚠️ Aviso legal",
+    "future_title": "💫 Aplicações futuras",
+    "schedule_title": "Regras de liberação de tokens",
+    "secrets_title": "🌸 Seu segredo",
+    "title": "🌕 A história do moonini"
+  },
+  "waterfall": {
+    "claimed": "Reclamar",
+    "progress": "Reclamado",
+    "sent_from": "Enviando grupo:",
+    "total": "Valor total"
+  },
+  "seo": {
+    "og": {
+      "image": "/images/og-default.png",
+      "type": "website"
+    },
+    "routes": {
+      "claim": {
+        "description": "O recurso de pacote vermelho do moonpacket suporta vários tokens, incluindo SOL e USDT, e permite o envio dos seus próprios tokens meme. Uma ferramenta poderosa para atrair novos usuários e aumentar o engajamento em grupos do Telegram.",
+        "title": "Mini APP do Pacote Vermelho do Telegram — moonpacket"
+      },
+      "privacy": {
+        "description": "A Política de Privacidade do moonpacket explica como coletamos, usamos e protegemos seus dados pessoais.",
+        "title": "Política de Privacidade — moonpacket"
+      },
+      "send": {
+        "description": "Use moonpacket para enviar pacotes vermelhos, definir condições de tarefa e integrações de API para atrair novos usuários e melhorar o engajamento da comunidade de usuários valiosos.",
+        "title": "Enviar Pacote Vermelho — moonpacket"
+      },
+      "terms": {
+        "description": "Os Termos de Serviço do moonpacket, diretrizes de uso e declarações legais.",
+        "title": "Termos de Serviço — moonpacket"
+      }
+    },
+    "site": {
+      "description": "moonpacket Bot do Telegram de Pacote Vermelho de Criptomoeda | Suporta USDT, TON, SOL, ETH, DOGE. Você também pode enviar Pacotes Vermelhos de seu próprio token meme, ideal para atrair novos usuários, criar uma atmosfera animada e aumentar o engajamento em comunidades do Telegram.",
+      "site_name": "moonpacket",
+      "title": "moonpacket — pacotes vermelhos de criptomoeda de token meme, carteira dedicada para pacotes vermelhos"
+    }
+  }
+}

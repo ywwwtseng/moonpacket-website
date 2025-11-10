@@ -1,0 +1,456 @@
+{
+  "privacyTitle": "Adatvédelmi irányelvek",
+  "termsTitle": "Felhasználói Megállapodás",
+  "version": "Verzió",
+  "updated": "Frissítés",
+  "owner": "Tulajdonos",
+  "sections": {
+    "scope": "Hatály és Szerződéskötés",
+    "definitions": "Magas kockázatú és tiltot használatok",
+    "eligibility": "Szellemi tulajdonjogok",
+    "services": "Szolgáltatási Tartalom és Működési Modell",
+    "wallet": "Felhő Tárca, Ajándék Kötelezettség és Alap Zárolás",
+    "fees": "Díjak és költségek",
+    "rules": "Tevékenységi Szabályok és Méltányosság",
+    "restrictions": "Botok Elleni, Abuzálás Ellenőrzése és Fiók Korlátozások",
+    "ip": "Szerzői Jogi Jogok",
+    "third_party": "Harmadik Fél Szolgáltatások és Külső Függőségek",
+    "data": "Alkalmazhatóság és fiók",
+    "risks": "Kockázati Nyilatkozat",
+    "disclaimer": "Károkozás",
+    "liability": "Felelősség Korlátozása",
+    "indemnity": "Kártalanítás",
+    "termination": "Felfüggesztés, Befagyasztás, Megszüntetés és Adatmegőrzés",
+    "force_majeure": "Vis maior",
+    "high_risk": "Magas Kockázatú és Tilos Használatok",
+    "tax": "Adózás és Jelentés",
+    "accuracy": "A tartalom és az adatok pontossága",
+    "governing_law": "Irányadó jog és vitás kérdések rendezése",
+    "contact": "Elérhetőségi mód",
+    "changes": "Terms Changes",
+    "intro": "",
+    "data_collection": "Díjak és költségek",
+    "data_usage": "Irányadó jog és vitás kérdések rendezése",
+    "legal_basis": "",
+    "cookies": "Definíciók",
+    "data_sharing": "Vis maior",
+    "cross_border": "Nyilatkozat",
+    "retention": "",
+    "security": "",
+    "minors": "",
+    "rights": "",
+    "faq": "",
+    "updates": "",
+    "contact_info": "Adat, adatvédelem és megfelelőségi együttműködés"
+  },
+  "contact": {
+    "title": "Kapcsolattartási módszer",
+    "privacy": "Adatvédelmi levél",
+    "security": "Biztonsági jelentés",
+    "support": "Ügyfélszolgálati robot"
+  },
+  "privacy": {
+    "version": "v1.0.0",
+    "updated": "automatikus",
+    "owner": "moonpacket csapat",
+    "version_label": "Verzió",
+    "updated_label": "Frissítés",
+    "owner_label": "Tulajdonos",
+    "data_sources": "Az adatok forrása",
+    "notice": {
+      "disclaimer_binding": "Az alábbi feltételek fordítást jelentenek, és csak tájékoztató jellegűek. A hivatalosan kötelező érvényű változat az eredeti angol szöveg. Ha bármilyen eltérés van a nyelvi verziók és az angol verzió között, az angol verzió az irányadó."
+    },
+    "intro": [
+      "Ez a adatvédelmi politika (a továbbiakban: 'ez a politika') leírja, hogyan gyűjtjük, használjuk, tároljuk és védjük meg a személyes adatait és használati adatokat, amikor a moonpacket által nyújtott szolgáltatásokat veszi igénybe, beleértve a Telegram Mini App-t, botot és weboldalt (együttesen: 'a szolgáltatás'). Kérjük, olvassa el teljes terjedelmében a használat előtt; a szolgáltatás használatának megkezdésével Ön elfogadja ezt a politikát.",
+      "A szolgáltatás fő funkciója a 'közösségi növekedés és red packet interakció', és szükséges funkciókat biztosíthat a felhő pénztárcákkal, tranzakciókkal vagy visszaváltásokkal kapcsolatban a megfelelési követelmények keretében. Ez a politika csak az adatok feldolgozására vonatkozik; a használati szabályzatok, felelősségi korlátok, kockázatlügyek és nyilatkozatok tekintetében kérjük, hivatkozzon az 'Általános Szerződési Feltételek'-re.",
+      "A moonpacket (a továbbiakban: 'moonpacket' vagy 'a szolgáltatás') az a szervezet és adminisztrátor, amely a szolgáltatás működésével kapcsolatos személyes és használati adatokat gyűjt, használ, tárol és dolgoz fel, a feldolgozást kizárólag technikai és operatív célokra végezve; a moonpacket nem bank, vagyonkezelő, letéti, befektetési tanácsadó, kifizetési közvetítő vagy eszközkezelő, és nem vállal semmilyen fiduciáris, letéti, megőrzési, befektetési vagy garanciás kötelezettséget az említett adatok feldolgozása miatt."
+    ],
+    "definitions": [
+      "moonpacket: E projekt által nyújtott alkalmazásszolgáltatások, beleértve a letölthető webalkalmazásokat és mobilalkalmazásokat, valamint (de nem kizárólag) a Telegram Mini App-ot, botokat, felhő pénztárcákat és kapcsolódó funkcionális modulokat.",
+      "Személyes adat: Olyan információ, amely közvetlenül vagy közvetve azonosíthat egy természetes személyt, például (ha alkalmazható) kapcsolatfelvételi információ, Telegram UID, felhő pénztárca cím (ha az egyén azonosítására alkalmas), eszköz és hálózati azonosítók.",
+      "Használati adat: Az fiókokkal vagy eszközökkel kapcsolatos események nyilvántartásai és interakciók (pl. red packetek küldése/átvétele, hibák és teljesítmény naplók, anti-bot jelek)."
+    ],
+    "scope": [
+      "Ezek a feltételek vonatkoznak a moonpacket által biztosított összes funkció használatára, beleértve (de nem kizárólag) a csoportok/csatornák csatlakozását vagy kezelését, red packet küldését vagy fogadását, eseményeken való részvételt, felhőtárcák és pontok összekapcsolását vagy használatát, valamint API/Webhook integrációkat.",
+      "A moonpacket két fő használati esetet támogat: red packet küldők és red packet fogadók. A küldőknek hozzá kell adniuk a botot a saját vagy általuk kezelt csoportokhoz/csatornákhoz, és meg kell adniuk a szükséges engedélyeket; ha az engedélyek nem engedélyezettek, vagy nem elegendőek, a funkció nem garantálható. A címzettek nem rendelkeznek a szükséges hálózati azonosítókon és csoportinterakciók során történt eseményeken kívüli magáninformációkkal."
+    ],
+    "dataCollected": [
+      "Fiók és Identitás: Telegram UID, felhasználónév, avatar, nyelvi beállítások, csoporttag-identitás és jogosultságok; ha szükséges, kormány által kiadott azonosító adatok, szelfik vagy arcfelismerési eredmények, lakóhely nyilatkozat, KYC/AML ellenőrzési információk és egyeztetési eredmények csak a megfelelés, pénzmosás elleni védelem, terrorizmus finanszírozása elleni küzdelem, szankcióknak való megfelelés, adózási jelentés, csalásvizsgálat vagy kockázatkezelési célok végett kerülnek gyűjtésre és megőrzésre.",
+      "Használati események: Red packetek küldése/átvétele, parancsok és interakciók nyilvántartásai, eseményeken való részvétel, API/Webhook-ból származó események, hibák és teljesítmény naplók; anti-bot és kockázatkezelési jelek (például szokatlan gyakoriság, eszköz vagy hálózati jellemzők).",
+      "Ügyletek és Eszközök: Felhő pénztárca kapcsolódó címek, egyenlegek vagy tranzakciós összefoglalók (csak a funkcionálás mértékéig szükséges); az on-chain tranzakciók nyilvánosan ellenőrizhetők, de visszafordíthatatlanok és megváltoztathatatlanok. Az említett információk tartalmazhatnak Off-chain nyilvántartásokat (például belső könyveléssel jelölt egyenlegek, folyamatban lévő elosztásra váró összegek vagy zárolt állapot), amelyek csupán belső rendszerszámlázási és elosztási utasítások céljából kerülnek nyújtásra, és nem minősülnek a moonpacket letéti, bizalmi, előleg, delegated pénzgazdálkodási, kifizetések gyűjtésének és kifizetéseknek, befektetési kezelési, vagy megőrzési kötelezettségeinek.",
+      "Technikai és Eszközinformáció: Eszközmodell, operációs rendszer, böngésző vagy alkalmazás verzió, hálózati cím (IP/ASN) és körülbelüli régió, süti és helyi tárolási címkék (ha vannak).",
+      "Kapcsolattartási információ: E-mail cím vagy az Ön által aktívan megadott ügyféltámogatási chat tartalom (ha van)."
+    ],
+    "sources": [
+      "Az adatok, amelyeket aktívan megadtál a regisztráció, kötés, interakció vagy ügyfélszolgálattal folytatott kommunikáció során.",
+      "Események és technikai adatok automatikusan rögzítve a rendszer által a szolgáltatás használata során.",
+      "Harmadik féltől származó összehasonlító vagy ellenőrzési eredmények, amelyeket jogszerűen szereztek be a megfelelőség vagy a szolgáltatás szükségessége érdekében (például KYC/AML szolgáltatók)."
+    ],
+    "purposes": [
+      "A szolgáltatás működtetéséhez és karbantartásához nyújtott funkciók közé tartozik: személyazonosság-ellenőrzés, jogosultság-ellenőrzés, aktiválási és kezelési modulok (red packet, pontok, felhő pénztárca), hibaelhárítás és biztonsági monitorozás.",
+      "Kockázatkezelés és megfelelés: Visszaélések, csalások, pénzmosás, terrorizmusfinanszírozás, szankciókkal való kijátszás, adóelkerülés, illegális adománygyűjtés, jogosulatlan pénzügyi szolgáltatások, bevételmegosztási manipuláció vagy egyéb rendellenes tevékenységek észlelése, megelőzése és vizsgálata; KYC/AML ellenőrzések és személyazonosság-ellenőrzések végrehajtása (beleértve a kormány által kiadott azonosítót, szelfiket és biometrikus ellenőrzéseket), kockázati osztályozás és adó- és szankció-áttekintés. Szükség esetén ez magában foglalhatja tranzakciók, kifizetések, visszatérítések, pénzfelvételek vagy jég alól való felszabadítás visszatartását, felfüggesztését, késleltetését, korlátozását vagy megtagadását. Ezek az intézkedések nem minősülnek a moonpacket által elkövetett szerződésszegésnek vagy jogsértésnek, és a moonpacket nem felel semmilyen kártalanításért, kártérítésért vagy egyéb kötelezettségért.",
+      "Adatfeldolgozás és termékoptimalizálás: Statisztikai használati trendek, tapasztalat és teljesítmény javítása, A/B tesztelés végrehajtása és csalásmegelőző modellek képzése (minimalizálási és anonimizálási módszerek alkalmazásával).",
+      "Szabályozási megfelelés és jogok érvényesítése: Együttműködés jogi kérésekkel a szabályozások, hatóságok vagy bíróságok részéről, vagy jogi jogok gyakorlása, megerősítése vagy védelme. A moonpacket saját belátása szerint a vonatkozó adatokat átadhatja szabályozó hatóságoknak, igazságügyi testületeknek, adó- vagy szankciós hatóságoknak, választottbíróságoknak vagy végrehajtó ügynökségeknek, vagy azon általuk megbízott compliant szolgáltatóknak, jogi, szabályozási, adó-, szankciós, pénzmosás elleni, terrorizmusfinanszírozás elleni, csalásvizsgálati vagy egyéb megfelelési igények alapján; ilyen átadás nem minősül a moonpacket által elkövetett szerződésszegésnek vagy jogsértésnek, és a moonpacket nem felel semmilyen kártalanításért, kártérítésért vagy egyéb kötelezettségért.",
+      "Kommunikáció és értesítés: Fontos változások, eseményértesítések vagy szükséges szolgáltatási információk biztosítása; marketing üzenetek csak hozzájárulással vagy törvény által engedélyezett módon lesznek küldve."
+    ],
+    "legalBases": [
+      "Szerződések teljesítéséhez vagy szolgáltatások nyújtásához szükséges (pl. red packet/pont folyamatok, kockázatkezelés ellenőrzése és esemény nyilvántartás).",
+      "Jogi kötelezettségek betartása (pl. KYC/AML, szankciók, audit és megőrzési kötelezettségek).",
+      "Jogos érdekek (pl. visszaélések észlelése, a rendszer biztonságának és a szolgáltatás elérhetőségének biztosítása, termékek és élmények javítása). Ebben az esetben kiegyensúlyozó teszteket hajtunk végre, és alkalmazzuk az anonimizálási vagy minimalizálási intézkedéseket.",
+      "Az ön hozzájárulása (pl. marketing üzenetek, nem fontos sütik, és visszavonható választások)."
+    ],
+    "cookies": [
+      "Szükséges sütik és helyi tárolás: A bejelentkezési státusz, nyelvválasztás, anti-bot intézkedések és biztonsági kontrollok fenntartásához használják; egyes funkciók nem működhetnek megfelelően, ha le vannak tiltva.",
+      "Elemzés vagy preferencia: Csak jogi engedély vagy az Ön beleegyezése esetén engedélyezett; a sütiket a böngészőbeállításaidban bármikor törölheti vagy korlátozhatja."
+    ],
+    "wallet": [
+      "Ha a felhő pénztárcát ez a szolgáltatás vagy egy partner biztosítja, akkor csak a legszükségesebb tranzakciós adatokat és nyugtákat dolgozza fel és őrzi meg a red packet, pontok, vagy szükséges átváltási folyamatok befejezése után.",
+      "A láncon lévő adatok nyilvánosak és visszafordíthatatlanok; kérjük, óvatosan járjon el. Az blockchain jellemzőkből adódó megváltoztathatatlan, állandóan nyilvános természet és adatkapcsolatok ezen szolgáltatás irányítása alatt állnak."
+    ],
+    "antiFraud": [
+      "A visszaélések és csalások megelőzése érdekében értékelhetjük az interakciók gyakoriságát, az eszköz vagy hálózati jellemzőket, a földrajzi elhelyezkedést, a viselkedési mintákat és a fekete-listás jeleket; a funkcionalitás felfüggesztése vagy korlátozása, valamint további ellenőrzések szükségessé válhatnak.",
+      "Megfelelőségi és biztonsági okokból fenntartjuk a jogot, hogy releváns mutatókat vagy audit eredményeket osszunk meg megbízható csalásmegelőző vagy megfelelőségi szolgáltatókkal ésszerű keretek között.",
+      "A fent említett célok érdekében a moonpacket saját belátása szerint felfüggesztheti, késleltetheti, korlátozhatja vagy megtagadhatja bizonyos funkcionalitásokat, és kiegészítő ellenőrzéseket (beleértve a KYC/AML auditokat, kormány által kiadott azonosítót, szelfiket vagy biometrikus összehasonlításokat) kérhet, vagy szükséges jelzőket vagy audit eredményeket oszthat meg megbízható csalásmegelőző, megfelelőségi, adó- vagy szankciós szolgáltatókkal; ilyen intézkedések nem minősülnek a moonpacket általi szerződésszegésnek vagy jogsértésnek, és a moonpacket nem vonható felelősségre semmilyen kárért, kártalanításért vagy egyéb kötelezettségekért."
+    ],
+    "sharing": [
+      "Feldolgozók vagy harmadik féltől származó szolgáltatók, beleértve a felhő alapú tárhelyet, naplózást és megfigyelést, elemzést, anti-bot és megfelelőségi szolgáltatókat, minimalizált és szerződéses korlátozások mellett végzik műveleteiket.",
+      "A partnerek és közösségi menedzserek megosztják a szükséges információkat az aktív tevékenységeid, red packetek vagy közösségi irányítási forgatókönyvek alapján, a tevékenységi szabályok szerint.",
+      "Szükséges adatokat fogunk közzétenni hatóságoknak, bíróságoknak vagy jogosultaknak, a jogi eljárásoknak megfelelően, ahogy azt a törvény megköveteli vagy jogok érvényesítése érdekében.",
+      "A moonpacket megőrizheti, elemezheti, továbbíthatja, nyilvánosságra hozhatja és biztosíthatja a szükséges információkat (beleértve a láncon kívüli nyilvántartásokat, láncon belüli bizonyítékokat, KYC/AML adatokat, csoport/chat/tevékenységi nyilvántartásokat és elosztási/levonási magatartásokat) hatóságoknak, bíróságoknak, rendvédelmi vagy adóegységeknek, szankciós és szabályozási egységeknek, vagy azok által megbízott compliance szolgáltatóknak a megfelelőségi ellenőrzések, KYC/AML auditok, személyazonosság-ellenőrzések (beleértve a kormány által kiadott személyazonosító okmányokat és biometrikus összehasonlításokat), pénzmosás elleni fellépés, terrorizmus finanszírozás elleni küzdelem, szankciók betartása, adózási megfelelőség, csalásvizsgálatok, visszaélés-érzékelés, pénzügyi auditok és az elosztások és levonások nyomon követése érdekében, ésszerű kereskedelmi keretek között. Ilyen feldolgozás, továbbítás és nyilvánosságra hozás nem minősül a moonpacket általi megszegésnek vagy jogellenességnek, és a moonpacket nem felelős semmiféle kártérítésért, kártalanításért vagy egyéb kötelezettségekért."
+    ],
+    "crossBorder": [
+      "A szolgáltatás felhőarchitektúrája, globális működési modell, kockázatkezelés, pénzmosás elleni védelem (AML), terrorizmus finanszírozásának megakadályozása, szankcióknak való megfelelés, adózási együttműködés, csalás megelőzés, ellenőrzési megőrzés, ügyféltámogatás és rendszerkarbantartási szükségletek alapján az Ön adatait (beleértve a személyes adatokat, használati adatokat, Off-chain nyilvántartásokat, KYC/AML ellenőrzési eredményeket, és kockázatkezelési és visszavonási nyilvántartásokat) feldolgozhatják, tárolhatják vagy továbbíthatják az Ön joghatóságán kívül, és hozzáférhetnek partnerek, felhőinfrastruktúra-szolgáltatók, megfelelőségi és kockázatkezelési szolgáltatók, vagy hatósági/ bírói/adó/szankciós/szabályozási hatóságok (vagy azok felhatalmazott szervezetei) az említett célok szükségletei szerint.",
+      "A moonpacket értékelni fogja a címzettek információbiztonsági és megfelelőségi kötelezettségeit, kereskedelmi ésszerűségen és szükségleteken belül, és csökkenteni fogja az illetéktelen hozzáférés vagy visszaélés kockázatait szerződésekkel, technikai és szervezeti intézkedésekkel; azonban Ön megérti és egyetértene azzal, hogy bármilyen határokon átnyúló átadás, felhőhosztolás, vagy harmadik fél általi feldolgozás a hálózati és szabályozási környezetek által érintett lehet, és nem tudunk abszolút biztonságot vagy rendelkezésre állást garantálni. Az említett határokon átnyúló feldolgozás és átadás nem minősül a moonpacket részéről megsértésnek vagy jogsértésnek, és a moonpacket nem felelős semmilyen kárért, kártérítésért vagy egyéb felelősségért."
+    ],
+    "retention": [
+      "Az adatokat a gyűjtési célok teljesítéséhez szükséges ideig megőrizzük, és a törvény vagy az auditori kötelezettségek által előírt nyilvántartásokat megőrizzük (pl. számviteli és megfelelőségi naplók).",
+      "Amint a cél megvalósul, vagy a tárolási időszak lejár, az adatokat töröljük vagy anonimizált módon dolgozzuk fel; a láncon lévő adatok nem esnek ezen korlátozás alá, mivel módosíthatatlanok.",
+      "Még akkor is, ha kérvényezed a fiók deaktíválását, adataid törlését vagy a szolgáltatás használatának leállítását, a moonpacket megőrzi, felfüggeszti, elemzi vagy biztosítja a fent említett adatokat, ahogy a törvények, szabályozások, adók, szankciók, pénzmosás elleni, terrorizmusfinanszírozás elleni, csalásvizsgálati, auditőrzési, számviteli ellenőrzési vagy egyéb megfelelési kötelezettségek előírják vagy engedélyezik. Ezt a megőrzést és feldolgozást a moonpacket nem minősíti szerződésszegésnek vagy jogsértésnek, és a moonpacket semmilyen kártalanításért, kártérítésért vagy egyéb kötelezettségért nem felel."
+    ],
+    "security": [
+      "Ésszerű és arányos technikai és menedzsment intézkedéseket alkalmazunk, beleértve a hozzáférés-ellenőrzést, az átvitel és statikus titkosítást (ahol alkalmazható), az engedélyek szegmentálását, audit naplókat és a legszükségesebb személyi hozzáférési elveket.",
+      "Bár a moonpacket technikai és menedzsment intézkedéseket hozott az illetéktelen hozzáférés, használat, nyilvánosságra hozatal, módosítás vagy megsemmisítés kockázatának csökkentése érdekében, megérted és egyetértesz azzal, hogy bármilyen átvitel, tárolás vagy harmadik féltől származó integráció bizonyos kockázatokat hordozhat. A moonpacket nem vállal kifejezett vagy vélelmezett garanciát az adatok biztonságára, integritására, elérhetőségére, megszakítás nélküli hozzáférésére vagy zavarásaira. Ilyen kockázatok vagy károk nem minősülnek a moonpacket általi megszegésnek vagy jogellenességnek, és a moonpacket nem felelős semmiféle kártérítésért, kártalanításért vagy egyéb kötelezettségekért."
+    ],
+    "minors": [
+      "Ez a szolgáltatás nem vonatkozik 13 évesnél fiatalabb vagy a joghatóságodban kiskorú határ alatt lévő egyénekre. Ha kiskorú vagy, kérjük, használd ezt a szolgáltatást a törvényes képviselőd hozzájárulásával, vagy tartózkodj a szolgáltatás használatától."
+    ],
+    "rights": [
+      "A különféle területeken alkalmazandó jogszabályok alapján jogod van megkérdőjelezni vagy áttekinteni a személyes adataidat, kérni másolatokat, helyesbíteni, korlátozni a feldolgozást, törölni, adathordozhatóságot kérni, és visszavonni a hozzájárulást, de nem ellentétben a moonpacket jogi kötelezettségeivel, hogy megőrizzük, felfüggesszük, elemezzük, auditáljuk, együttműködjünk a szabályozó/igazságügyi/adó/szankciós/szabályozási hatóságok követelményeivel, vagy a KYC/AML/terrorizmusfinanszírozás/szankció-megfelelés/adójelentés/csalásvizsgálat/visszaélés észlelésével, vagy a moonpacket jogos érdekeivel.",
+      "Ha szeretnéd érvényesíteni a fent említett jogokat vagy magánéleti aggályokat felvetni, kérjük, lépj kapcsolatba a moonpacket-tel a 'Kapcsolati információk' használatával. A biztonság érdekében a moonpacket kérheti, hogy végezd el a személyazonosság-ellenőrzést (beleértve, de nem kizárólag, a KYC/AML ellenőrzésekhez szükséges információk megadását, a kormány által kiadott azonosítót, szelfiket vagy biometrikus ellenőrzési eredményeket), hogy megerősíthessék, hogy a kérvényező az adat alany vagy egy meghatalmazott képviselő.",
+      "A moonpacket saját belátása szerint teljesen vagy részlegesen megtagadhatja, késleltetheti, korlátozhatja vagy kérheti ezen kérelmek javítását a jogi vagy megfelelőségi kötelezettségek, legitim érdekek vagy kockázatkezelési célok keretein belül; ilyen megtagadások, késlekedések, korlátozások vagy javítási kérelmek nem minősülnek a moonpacket által elkövetett megszegésnek vagy jogsértésnek, és a moonpacket nem felelős semmiféle kártérítésért, kártalanításért vagy egyéb felelősségért."
+    ],
+    "faq": [
+      "Miért van szükség a megfelelés és kockázatkezelés információira? Ez szükséges red packet-ek biztosításához, a visszaélések megelőzéséhez és a biztonságos működés garantálásához, valamint a vonatkozó jogszabályok vagy platform politikák betartásához.",
+      "Elutasíthatom bizonyos információk megadását? A szolgáltatás biztonságát és jogi kötelezettségeit nem érintve, választhatja a nem alapvető elemek letiltását, de ez egyes funkciók elérhetetlenségéhez vezethet.",
+      "Törölhetők a blockchain adatok? A láncon lévő nyilvántartások visszafordíthatatlanok és nyilvánosak, és nem tudjuk módosítani vagy törölni azokat az Ön nevében."
+    ],
+    "updates": [
+      "Ezek a feltételek frissíthetők a szolgáltatás beállításai vagy jogi változások alapján; a jelentős változásokat belső üzenetek vagy oldalsó bejelentések jelzik; a frissített verzió a bejelentéstől vagy a feltételekben megadott hatályba lépési dátumtól lép érvénybe."
+    ],
+    "contact": [
+      "Ha kérdéseid vannak az adatvédelemről vagy az adatbiztonságról, kérjük, lépj kapcsolatba velünk a weboldalon található kapcsolattartási módszereken (adatvédelmi levél/biztonsági jelentés/ügyfélszolgálat); ésszerű időn belül válaszolni fogunk."
+    ],
+    "controller": [
+      "Adatkezelő: moonpacket csapat (kis csapat működése).",
+      "Kapcsolatablak (Adatvédelem): Kérjük, lépjen kapcsolatba velünk a 'Kapcsolattartási Módszerek' oldalon keresztül elérhető adatvédelmi Help_bot-on."
+    ],
+    "jurisdictions": [
+      "Megfelelünk az alkalmazandó személyes adatvédelmi szabályozásoknak; ha eltérések vannak a szabályozások között különböző joghatóságokban, olyan intézkedéseket teszünk, amelyek a lehető legjobban védik a felhasználókat, a jog által biztosított keretek között.",
+      "Ha további jogokra vagy eljárásokra van szüksége bizonyos joghatóságokra vonatkozóan, kérjük, lépjen kapcsolatba a kapcsolattartó csatornákon, és a lehetőségeinkhez mérten segítünk."
+    ],
+    "dsrProcess": [
+      "Önnek joga van, hogy tájékoztatást kérjen, átnézze, másolatot kérjen, helyesbítést, törlést, feldolgozás korlátozását, adatmobilitást és a beleegyezés visszavonását gyakorolja a személyes adatokkal kapcsolatban (az alkalmazandó jogszabályoknak és technológiai megvalósíthatóságnak megfelelően).",
+      "Folyamat: Kérelem benyújtása → Személyazonosság ellenőrzése → Elfogadás és értékelés → Válasz ésszerű időn belül (tipikusan 30 napon belül; bármilyen meghosszabbítást külön értesítünk).",
+      "Ha a kérelem harmadik felekre vagy láncon elkerülhetetlen adatokra vonatkozik, azt nem lehet közvetlenül feldolgozni. Magyarázatokat vagy megvalósítható alternatívákat biztosítunk.",
+      "Ha aggályai vannak az eredményekkel kapcsolatban, kérjük, lépjen kapcsolatba velünk ismét a megadott csatornákon; emellett panaszt is benyújthat az illetékes hatóságokhoz helyi jogszabályok alapján (ha alkalmazható)."
+    ],
+    "breach": [
+      "Ha gyanús személyes adatincidens kerül észlelésre, követni fogjuk a belső eljárásainkat a fokozatos feldolgozás és vészhelyzeti válasz érdekében, beleértve a blokkolást vagy mérséklést, auditálást és bizonyítékok dokumentálását.",
+      "Ha jogilag kötelező vagy szükséges, ésszerű időn belül értesítjük a illetékes hatóságot és a potenciálisan érintett felhasználókat; az értesítések tartalma és időzítése az incidens szintjétől és a nyomozás előrehaladásától függ.",
+      "Ezután felül fogjuk vizsgálni és folyamatosan javítani fogjuk az ellenőrzési intézkedéseket és a személyzet képzését (elérhető erőforrások keretein belül)."
+    ],
+    "cookiesDetail": [
+      "Szükséges sütik: A bejelentkezés, nyelvi beállítások, anti-bot intézkedések és biztonság fenntartásához használják; a letiltás befolyásolhatja a szolgáltatás elérhetőségét.",
+      "Preferencia/Elemzés/Marketing sütik: Csak jogi engedély vagy az Ön beleegyezése esetén engedélyezett; a preferenciákat bármikor módosíthatja vagy visszavonhatja.",
+      "Ha alkalmazható, egy egyszerű süti választási lehetőséget fogunk biztosítani; a böngésző beállításaiban is kezelheti vagy törölheti őket."
+    ],
+    "consent": [
+      "Nem lényeges feldolgozás esetén (pl. marketing vagy specifikus analitikai nyomkövetés) előzetes hozzájárulást kérünk, és biztosítunk módot a visszavonásra, amennyiben ez jogilag lehetséges és megvalósítható.",
+      "A hozzájárulás visszavonása nem befolyásolja a visszavonás előtti feldolgozás jogszerűségét; bizonyos funkcionalitások korlátozva lehetnek ennek következtében."
+    ],
+    "lawfulMatrix": {
+      "headers": [
+        "Adatkategória",
+        "Feldolgozási cél",
+        "Jogi alap",
+        "Megőrzési időszak"
+      ],
+      "rows": [
+        {
+          "cat": "帳號/身分（Telegram UID、暱稱、語言、群組權限）",
+          "purpose": "提供與維運服務（紅包、權限驗證、防刷）",
+          "basis": "履行契約、合法利益",
+          "retention": "帳號存續期間＋必要稽核留存"
+        },
+        {
+          "cat": "合規資料（KYC/AML 結果）",
+          "purpose": "法遵審查與防詐欺",
+          "basis": "法定義務",
+          "retention": "依法令或監理要求（一般為多年期）"
+        },
+        {
+          "cat": "使用事件與日誌（互動、錯誤、效能）",
+          "purpose": "故障排除、資安與產品優化",
+          "basis": "合法利益",
+          "retention": "依安全與營運需要的合理期限"
+        },
+        {
+          "cat": "交易與雲端錢包摘要",
+          "purpose": "完成紅包/積分/兌換流程",
+          "basis": "履行契約、合法利益",
+          "retention": "目的達成後最小化留存；鏈上紀錄不在此限"
+        },
+        {
+          "cat": "Cookie/本地儲存（必要）",
+          "purpose": "登入狀態、語言、防刷標記",
+          "basis": "履行契約、合法利益",
+          "retention": "依裝置與瀏覽器生命周期"
+        },
+        {
+          "cat": "Cookie/像素（非必要）",
+          "purpose": "偏好/分析/行銷（如啟用）",
+          "basis": "同意",
+          "retention": "依工具供應商政策或您撤回為止"
+        }
+      ]
+    },
+    "automated": [
+      "Ez a szolgáltatás automatizált elemzési és kockázatkezelési modelleket használ a visszaélések vagy rendellenes viselkedések észlelésére; általában nem tekinthető olyan tisztán automatizált döntésnek, amely jelentősen befolyásolja az egyének jogi helyzetét vagy hasonlókat.",
+      "Ha korlátozó intézkedéseket hoznak a megfelelőség vagy a biztonsági kockázatkezelési szükségletek miatt (pl. funkcionalitások felfüggesztése), lehetőségeket biztosítunk fellebbezésre és manuális felülvizsgálatra, ameddig az erőforrások és a biztonság ezt lehetővé teszi."
+    ],
+    "subprocessors": {
+      "note": "Együttműködhetünk szerződésileg kötött alvállalkozókkal (például felhő, megfigyelés, anti-bot/KYC, e-mail stb.); a lista frissíthető a szolgáltatás beállításainak megfelelően, kérjük, hogy a hivatalos weboldalon tájékozódj a bejelentésekről."
+    },
+    "note": [
+      "Megjegyzés: Ez a záradék célja, hogy világosan bemutassa az adatfeldolgozási és védelmi gyakorlatokat. Mivel a moonpacket egy kis csapat, a tényleges intézkedések a törvények, a kockázati szintek és az erőforrások rendelkezésre állása alapján lesznek módosítva; ha bármilyen kötelező szabályozás van, a törvény érvényes."
+    ],
+    "telegramPermissions": [
+      "A robot műveletei csoportokban/csatornákban csak azoknak az engedélyeknek a keretein belül hajthatók végre, amelyeket megadtál (pl. üzenetek olvasása, küldés, törlés, rögzítés, csatlakozás linkellenőrzésekhez stb., a tényleges szükségletek függvényében).",
+      "Ha a funkciók nem elérhetők vagy abnormálisan működnek a megfelelő engedélyek, platformkorlátozások vagy harmadik fél beállítások hiánya miatt, a moonpacket nem garantálja, hogy a funkció normálisan fog működni."
+    ],
+    "groupDataMinimization": [
+      "Csoport/csatorna kontextusokban csak a szolgáltatás nyújtásához szükséges minimális adatokat dolgozzuk fel, például felhasználói hálózati azonosítókat (UID), interakciós/esemény nyilvántartásokat és a visszaélések megelőzéséhez szükséges indikátorokat; nem gyűjtünk aktívan vagy hozunk létre személyes profilokat a csoporttagokról.",
+      "Megfelelés (KYC/AML/ szankciók) vagy biztonsági célok érdekében, ha ki kell bővítenünk a feldolgozás körét, a jog által előírt minimálás és anonimizálás elveit követjük."
+    ],
+    "analytics": [
+      "A termék teljesítményének értékeléséhez, a visszaélések megelőzéséhez és az üzleti eredmények értékeléséhez feldolgozhatjuk a használati adatokat de-identifikált vagy aggregált módon, és ésszerű keretek között harmadik féltől származó elemző/követő eszközöket vezethetünk be a forgalom figyelésére és a hozzájárulás elemzésére.",
+      "Nem értékesítjük a személyes adataidat; kérjük, hivatkozz az ezen megállapodásban szereplő CPRA-val és egyéb szabályozásokkal kapcsolatos magyarázatokra és lehetőségekre, ha az alkalmazandó jogi keret meghatároz bizonyos fogalmakat a 'értékesítés/megosztás' kapcsán.",
+      "Ha a helyi jogszabályok előzetes hozzájárulást követelnek meg vagy opt-out lehetőséget biztosítanak, releváns választási lehetőségeket kínálunk, amennyire csak lehetséges."
+    ],
+    "saleShareStatement": [
+      "Személyes adataidat nem értékesítjük; harmadik féltől származó elemzők és reklámtechnológiák csak anonim vagy aggregált formában lesznek feldolgozva, amikor jogilag engedélyezett vagy szükséges beleegyezéssel rendelkezünk."
+    ]
+  },
+  "terms": {
+    "version": "v1.0.0",
+    "updated": "automatikus",
+    "version_label": "Verzió",
+    "updated_label": "Frissítés",
+    "owner_label": "Tulajdonos",
+    "appendix_title": "Melléklet | Meghatározások és Magyarázatok",
+    "notice": {
+      "disclaimer_binding": "Az alábbi feltételek fordított verzióként csak tájékoztató jellegűek; a hivatalos, jogilag kötelező verzió az angol eredeti. A nyelvi verziók és az angol verzió közötti eltérések esetén az angol verzió az irányadó."
+    },
+    "owner": "A moonpacket csapat (a továbbiakban: 'moonpacket') egy márka és szolgáltatásnév, amely kísérleti online interaktív funkciókat és marketing/közösségi növekedési eszközöket biztosít. A moonpacket nem bank, bizalomkezelő, letéti intézmény, tőzsde, befektetési tanácsadó, bróker vagy bármilyen szabályozott pénzügyi intézmény; a törvény által előírt eseteken kívül a moonpacket nem tartozik a felhasználók felé semmilyen fiduciaris kötelezettséggel, bizalmi kötelezettséggel, eszközkezelési kötelezettséggel vagy hozamgaranciával.",
+    "intro": [
+      "Ezek a Felhasználói Feltételek (a továbbiakban: „ezek a Feltételek”) egy jogilag kötelező érvényű megállapodást képeznek Ön (a továbbiakban: „Ön” vagy „Felhasználó”) és a moonpacket között (a továbbiakban: „moonpacket”, „ez a szolgáltatás” vagy „mi”) a moonpacket által nyújtott szolgáltatásokhoz való hozzáférésével vagy használatával kapcsolatban.",
+      "Ez a szolgáltatás magában foglalja, de nem korlátozódik: weboldalak, letölthető alkalmazások, Telegram Mini App, botok, felhő tárcák, red packet/jutalom elosztási modulok, eseménykezelő interfészek és kapcsolódó statisztikai/rangsorolási funkciók (a továbbiakban együttesen: „ez a szolgáltatás”).",
+      "Ha olyan gombokra kattint, mint a „Kezdés”, „Elfogadom”, „Küldés” vagy ehhez hasonló hozzájárulás-megadásra irányuló műveletek az interfészben, vagy ha valóban elkezdi használni ezt a szolgáltatást, úgy tekintik, hogy elolvasta, megértette, és visszavonhatatlanul egyetértett az összes tartalommal, amelyet ezek a Feltételek tartalmaznak; ha nem ért egyet, kérjük, azonnal hagyja abba e szolgáltatás használatát.",
+      "Különböző tevékenységek, promóciós együttműködések vagy üzleti programok további feltételeket vagy aktivitási szabályokat biztosíthatnak; az ilyen további feltételek e Feltételek részének minősülnek; e Feltételek és a további feltételek ütközése esetén a további feltételek külön tevékenység keretein belül érvényesek, míg a fennmaradó részt továbbra is a Feltételek szabályozzák.",
+      "Ezek a Feltételek több nyelven is elérhetők az olvasás megkönnyítése érdekében. Ha bármely fordított verzió és az angol verzió közötti tartalom, értelmezés vagy hatás esetén eltérések vagy ellentmondások merülnek fel, az angol verzió élvez elsőbbséget, és végleges érvényű verzióként kell tekinteni; más nyelvű verziók nem minősülnek a moonpacket számára további kötelezettségek megteremtésének.",
+      "Ön megerősíti és szavatolja, hogy a szolgáltatás használatára vonatkozó döntése nem alapul semmilyen 'garantált hozamok', 'tőke-visszaállítás', 'nyereségmegosztás', 'befektetési tanácsadás' vagy más juttatási kötelezettségek ígérgyein; a moonpacket nem biztosított és nem fog biztosítani garanciákat vagy jogilag kötelező érvényű kötelezettségeket a jövőbeli bevételek, jutalmak, árak, rangsorok vagy beváltható értékek tekintetében."
+    ],
+    "definitions": [
+      "A 'red packet' küldője vagy 'kezdeményezője' azok, akik létrehozzák, finanszírozzák vagy elosztják a red packet/jutalmak/jövedelemmegosztás/reklámköltségek keretében ezen szolgáltatáson belül, beleértve az egyéni felhasználókat, csoportadminisztrátorokat, projektpartnereket vagy azok ügynökeit.",
+      "A 'red packet' vevője vagy 'résztvevője' azon személyek, akik az aktivitási szabályok szerint kölcsönhatásba lépnek, végrehajtják a feladatokat, vagy megpróbálnak befogadni/már kaptak red packet-et vagy jutalmakat.",
+      "Az 'aktivitás' a kezdeményező által meghatározott elosztási mechanizmust jelenti, beleértve, de nem kizárólag az egyenlő elosztást, véletlenszerű 'szerencsét', kijelölt feladatok feloldását, jelszó beszerzést, időzített beszerzéseket, korlátozott kvóta/idő elosztást stb.",
+      "Az 'Off-chain nyilvántartások' a moonpacket rendszeren belüli belső könyvelést, egyenleg jelzőket és jogi attribúciós jelzőket jelentik (pl. 'elosztásra vár', 'allokált', 'visszavonásra elérhető'). Az Off-chain nyilvántartások tisztán rendszer szintű jelzések, és nem tükrözik az eszközök valós idejű átvitelét a blokkláncon, és nem minősülnek végleges jogi bizonyítékoknak az eszközök tulajdonjogáról; a tényleges on-chain tranzakciók előnyben részesülnek.",
+      "A 'cloud wallet' a moonpacket vagy partnerei által biztosított letéti vagy féleltározó tárca/észlelési folyamatot jelenti, amely a feltöltési eszközök fogadására, kiosztható egyenlegek jelzésére és a későbbi visszavonások támogatására szolgál. A cloud wallet-ok nem banki számlák, letéti számlák, betéti számlák, sem biztosítással kapcsolatos alanyok, és nem kínálnak tőke megőrzési garanciát.",
+      "A 'díjak' a blokklánc tranzakciókhoz szükséges hálózati erőforrás költségeit jelentik (például gáz), harmadik fél szolgáltatásainak vagy kifizetési csatornáinak költségeit, és (ha alkalmazható) a moonpacket által egyes szolgáltatásokra vagy tevékenységekre felszámolt platformdíjakat. A díjak viselése a felhasználókat terheli; ha felmerülnek, nem visszatéríthetők.",
+      "A 'KYC/AML' a személyazonosság ellenőrzésének (Tudd ki az ügyfeled), pénzmosás ellenes (Anti-Money Laundering), terrorizmus finanszírozás ellenes, szankciók áttekintése, csalás megelőzés, adó- és megfelelőségi auditok stb. folyamatait jelentik."
+    ],
+    "eligibility": [
+      "Kijelenti és garantálja, hogy jogilag jogosult, és teljes kapacitással rendelkezik a szolgáltatás használatára az Ön joghatóságán belül; kiskorúaknak vagy korlátozott képességű egyéneknek meg kell szerezniük a szükséges hozzájárulást a helyi jogszabályok szerint.",
+      "Ez a szolgáltatás 'próbálja ki, mielőtt elkötelezné magát' modellt alkalmaz; azonban, mielőtt kivonást kérne, egyenleget átutalna tevékenységek között, vagy bármely tényleges eszközkezelést végezne, a moonpacketnek joga van megkövetelni, hogy kötelezze el magát az e-mail címével, telefonszámával és kriptovaluta pénztárca címével, és (ha alkalmazható) teljesítse a KYC/AML ellenőrzést."
+    ],
+    "accounts": [
+      "Ha megtagadja, késlelteti, vagy nem teljesíti a fent említett ellenőrzést, a moonpacket saját belátása szerint késleltetheti, korlátozhatja vagy megtagadhatja bármilyen kivonási, visszatérítési, feloldási vagy visszatérítési kérést; az ilyen késések, korlátozások vagy megtagadások nem képeznek szerződésszegést a moonpacket részéről, és a moonpacket nem visel kártérítési, kártalanítási vagy egyéb felelősséget.",
+      "Megfelelően védenie kell minden ellenőrzési elemet, mint például a Telegram fiókját, a felhő tárca hozzáférési adatait, bejelentkezési tokenjeit, aláírási kulcsait, eszközeit és jelszavait. A phishing, malware, eszköz kölcsönzés, hitelesítési adatok kiszivárgása, gyenge jelszavak, vagy jogosított harmadik fél cselekvéseiből eredő következmények Önt terhelik."
+    ],
+    "service": [
+      "A szolgáltatás által nyújtott lehetőségek tartalmazzák, de nem korlátozódnak a következőkre: (a) tevékenységek/red packet létrehozása és finanszírozása; (b) tevékenységi szabályok beállítása (összeg, kvóta, egyéni korlátok, érvényességi időtartam, elosztási algoritmusok, feladatfeltételek, jelszavak, ütemezett开启 (megnyitás)抢 (zsákmányolás) stb.); (c) résztvevők tevékenységi feltételeknek való megfelelőségének ellenőrzése; (d) megjelölni, elosztani és zárolni assignálható összegeket az Off-chain nyilvántartásokban; (e) lehetővé tenni a jogosult résztvevők számára, hogy tényleges on-chain kivonásokat indítsanak a beváltáskor; (f) ranglisták, statisztikák és teljesítmény kimutatások generálása.",
+      "A működési folyamat a következő: miután az kezdeményező feltölti az eszközöket a megadott moonpacket címre, az ekvivalens összeget 'eszközök elérhetők az elosztáshoz ebben a tevékenységben' jelzéssel látják el az Off-chain nyilvántartásokban; a tevékenységi időszak alatt a rendszer csak az Off-chain-ben jelöli vagy osztja fel az összegeket anélkül, hogy azonnali, egyéni, tranzakción alapuló közvetlen on-chain átutalásokat garantálna bármely egyes felhasználó pénztárcájához; csak akkor, ha a jogosult résztvevők beváltják és átmennek a technikai és megfelelőségi ellenőrzéseken, a moonpacket kiválthatja a tényleges on-chain átutalásokat.",
+      "A felhasználók kifejezetten egyetértenek azzal, hogy az Off-chain nyilvántartások kizárólag a moonpacket belső könyvelésére és érdekérvényesítésére szolgálnak, és nem jelentenek jogi végső tulajdonjogot az eszközök felett; a véglegesen igényelhető jogok az alapján határozottak meg, hogy mi történt a ténylegesen lezárult on-chain tranzakciók során."
+    ],
+    "features": [
+      "A moonpacket bármikor módosíthat, felfüggeszthet, korlátozhat vagy megszüntethet bizonyos funkciókat vagy tevékenységi típusokat biztonsági, működési vagy megfelelőségi okokból; amennyiben a módosítás ésszerű technikai, kockázati, megfelelőségi vagy kereskedelmi megfontolásokon alapul, az ilyen helyzetek nem minősülnek a moonpacket jogsértésének, amely így semmilyen kárpótlást vagy egyéb felelősséget nem vállal.",
+      "A moonpacket határozottan ajánlja a szolgáltatás használatát kis összeggel, többször; minden egyes újratöltés vagy elosztási összeg nem haladhatja meg a 100 USDT megfelelőjét, és tanácsos nem nagy mennyiségű eszközt felhalmozni az Off-chain nyilvántartásokban hosszú időn keresztül."
+    ],
+    "cloudWallet": [
+      "Amikor a kibocsátó megerősíti az esemény feltételeit (teljes összeg, terjesztési szabályok, érvényességi időszak és költségek stb.) a felületen, és benyújtja, ez ígéretet jelent egy ajándékra a meg nem határozott résztvevők számára. Ez az ígéret a benyújtás pillanatában lép hatályba, és „nem visszavonható és nem visszafordítható” jellegű; a kibocsátó nem kérheti a leállítást, mondván, hogy \"megváltoztatta a véleményét\" vagy \"nem ismer meg bizonyos résztvevőt.\"",
+      "A fent említett ajándékígéret teljesítése érdekében a moonpacket lezárhatja a megfelelő összeget (eszköz lezárás) az off-chain rekordokban, és \"pending distribution\"-nak jelölheti. Ez a zárolás szükséges a kibocsátó ígéretének teljesítéséhez, és nem a moonpacket önkényes elkobzása vagy kisajátítása.",
+      "Az esemény időtartama alatt a kibocsátó nem kérheti a vállalt összeg korai kivonását, sem a vagyont nem célozhatja meg újra.",
+      "Eseményhatáridő után: (a) Azok a részesedések, amelyeket a résztvevők igényeltek (vagy megindították a kivonási eljárásokat), valamint a terjesztéshez kapcsolódó költségek nem igényelhetők vissza; (b) Azok a egyenlegek, amelyek a határidőig nem kerültek igénylésre, a moonpacket visszaadhatja az eredeti töltő vagy küldő címre, vagy a moonpacket által ésszerűnek ítélt eredeti címre, szükséges költségek levonásával, amennyiben technikai és megfelelőségi feltételek megengedik.",
+      "Bármely visszatérítési, feloldási, kivonási vagy egyenleg visszatérítési folyamat során a moonpacket először megkövetelheti a KYC/AML befejezését; ha a felhasználó megtagadja, késlelteti, vagy nem teljesíti, a moonpacket saját belátása szerint késleltetheti, korlátozhatja vagy megtagadhatja a feldolgozást; az ilyen késleltetések, korlátozások vagy megtagadások nem képeznek szerződésszegést a moonpacket részéről, és a moonpacket nem visel kártérítési, kártalanítási vagy egyéb felelősséget.",
+      "A blokklánc tranzakciók általában visszafordíthatatlanok, nyilvánosan ellenőrizhetőek és megváltoztathatatlanok; a moonpacket nem tudja visszamenőlegesen törölni, visszavonni vagy \"visszatekerni\" azokat a tranzakciókat, amelyek már a láncon voltak, és ezzel kapcsolatos felelősséget sem vállal.",
+      "Minden olyan érték, pont, egyenleg, jutalom vagy egyéb jelzés, amely még nem volt a láncon, csupán ideiglenes nyilvántartások és elosztási jelzések a rendszerben, és nem jelenti, hogy ezek az eszközök a moonpacket által birtokoltak, megbízottak vagy védettek, és nem jelenti, hogy a moonpacketnek van szállítási kötelezettsége, értékvédelmi kötelezettsége, kamatkötelezettsége vagy kárpótlási kötelezettsége irányodban. A moonpacket dönthet úgy, hogy késlelteti, visszautasítja, vagy már nem bocsát ki ilyen értékeket kockázatkezelése, KYC/AML, szankciós kötelezettségei, adó- vagy egyéb megfelelőségi követelmények alapján; ezek a döntések nem minősülnek a moonpacket szerződésszegésének, és a moonpacket nem vállal kártalanítást, kártérítést vagy egyéb felelősségeket.",
+      "A blokklánc tranzakciós díjak csökkentése és a csoportos elosztás/red packet elosztás funkciók biztosítása érdekében a moonpacket ideiglenesen rögzítheti és megjelenítheti a disztribúcióra visszakereshető egyenleged vagy függőben lévő allokációs összegeid belső adatbázis (off-chain) értékeivel. Ezek az értékek csupán kényelmi jelzések a rendszer belső elszámolásához és elosztásához, és nem képezik a bizalmi, letéti, betéti, diszkrecionális pénzgazdálkodási, beszedési és kifizetési, befektetéskezelési vagy egyéb szabályozott pénzügyi tevékenységeket. Hacsak ezek az értékek ténylegesen nem landolnak a láncon, ténylegesen nem kerülnek kifizetésre, és nyilvánosan nem ellenőrizhetők, a moonpacket nem vállal semmiféle kötelezettséget a visszatérítésükre, értékvédelemre vagy kamatkötelezettségekre, és ezek az értékek nem garantáltan visszavehetőek bármely meghatározott időpontban, áron vagy hálózati költséggel."
+    ],
+    "fees": [
+      "Az olyan folyamatok, mint az aktivitás létrehozása, elosztása, ellenőrzése, kivonás és on-chain átutalás kezelési díjakat vonhatnak maguk után. A kezelési díjak típusát és mértékét az interfészen látható módon, az aktivitási szabályok, elszámolási oldalak, együttműködési megállapodások vagy egyéb explicit eszközök szerint kell rögzíteni.",
+      "A kezelési díjakat a felhasználónak kell viselnie, és a küldés, elosztás, kivonás vagy kapcsolódó műveletek során vonják le; egyszeri kifizetett költség nem visszatéríthető. Még ha a moonpacket is segít a visszatérítésekben vagy az egyenlegek visszatérítésében a szolgáltatás tényezői miatt, az ilyen visszatérítések vagy visszatérítések csak az eredeti pénznemben, az eredeti címre történik, kizárva az esetlegesen felmerült kezelési díjakat vagy on-chain gázköltségeket.",
+      "Ha a felhasználó nem nyújtja be a moonpacket által kért ésszerű megfelelőségi információkat (például KYC/AML), a moonpacket saját belátása szerint késleltetheti, korlátozhatja vagy megtagadhatja bármilyen visszatérítést, egyenleg-visszaadás, kivonás vagy feloldás iránti kérelmet; ilyen késlekedések, korlátozások vagy elutasítások nem minősülnek a moonpacket jogsértésének, amely így semmilyen kárpótlást vagy egyéb felelősséget nem vállal.",
+      "Amikor a felhasználó dönt a specifikus red packet elosztás, csoportos elosztás, promóciós elosztás vagy hasonló funkciók használatáról, a rendszer automatikusan figyelembe veszi és megjeleníti a rendszer díjak bizonyos százalékát (például körülbelül 2% a moonpacket jutalmazására a szolgáltatás működtetéséhez), és/vagy a közösségi műveletek jutalmának bizonyos százalékát (például körülbelül 3% visszatérítése a közösségi vezetőknek a közösségi műveletek támogatására). A fenti funkciók használatával Ön felhatalmazza a rendszert arra, hogy ezeket a díjakat a megjelenített százalékok szerint kiszámolja és elossza. Törvény által nem tiltott esetben a moonpacketnek jogában áll ezeket a százalékokat, feltételeket vagy jutalmazási modelleket ésszerű határokon belül módosítani további értesítés nélkül."
+    ],
+    "rules": [
+      "A kezdeményező köteles az aktivitási szabályokat igaz módon és világosan meghatározni (beleértve a teljes összeget, kvótát, egyéni limiteket, érvényességi időtartamot, feltételes korlátozásokat, elosztási algoritmusokat stb.), és nem vonzhat résztvevőket hamis vagy megtévesztő eszközökkel.",
+      "A moonpacket végrehajtja és rögzíti az elosztási algoritmusokat, feladatellenőrzést és díjak eredményeit a szerveroldalon, és szükséges auditnyomokat tart fenn a vitákra, megfelelőségi vagy szabályozási vizsgálatokra válaszul.",
+      "Ha a moonpacket ésszerű gyanúja szerint nagyszabású visszaélés, spam, automatizált抢夺 (zsákmányolás), csalás, pénzmosás, terrorizmus finanszírozás, szerencsejáték nyereménymegosztás, illegális adománygyűjtés, szankciók megkerülése, vagy egyéb magas kockázatú helyzetek állnak fenn, a moonpacket azonnal felfüggesztheti, befagyaszthatja vagy módosíthatja a tevékenységet, és dönthet arról, hogy visszatéríti a meg nem igényelt egyenlegeket, visszautasítja a kifizetéseket, vagy átadja az adatokat a szabályozó/jogi hatóságoknak; ezek a lépések nem minősülnek a moonpacket által kötött szerződés megszegésének, és a moonpacket nem felel semmiféle kártérítésért, jogorvoslatért vagy egyéb felelősségért."
+    ],
+    "abuse": [
+      "A moonpacket kifejezetten kijelenti: Nincs kötelezettségünk, és nem tudjuk garantálni, hogy 'bármely fiók szükségszerűen egyetlen, igazolható természetes személyhez tartozik'. Szintén nem tudjuk garantálni, hogy nincs több megosztott fiók, egyetlen természetes személy, aki több fiókkal rendelkezik, vagy ál-fiókok, illetve automatizált szkriptek/botok, amelyek red packeteket foglalnak el.",
+      "A felhasználók (beleértve az kezdeményezőket és a résztvevőket) világosan értik és egyetértenek: A fent említett helyzetek befolyásolhatják az eszközallokációs eredményeket, a kiadási sorrendet vagy a rendelkezésre álló összegeket; a több fiók, ál-fiókok, szkriptek, botok vagy más szabálytalan működések által okozott egyenlőtlenségek, eltérések vagy viták nem képeznek szerződésszegést a moonpacket részéről, és a moonpacketnek nincs felelőssége a kártérítésért, visszatérítésért vagy bármilyen egyéb kötelezettségért.",
+      "A rendszerbiztonság és a megfelelőség fenntartása érdekében a moonpacket automatikus észlelést, AI/modelleket, fekete/szürke listákat, sebességkorlátozást, eszközazonosítást, IP/ASN kockázatértékelést és egyéb kockázatkezelési mechanizmusokat használhat ésszerű korlátok között, és ennek keretében: (a) felfüggesztheti, blokkolhatja vagy korlátozhatja bizonyos fiókok, csoportok, IP-k, eszközök vagy tevékenységek használatát; (b) kiegészítő információt kérhet vagy a KYC/AML eljárást teljesíttetheti; (c) késleltetheti vagy megtagadhatja az ügyfélszolgálati feldolgozást, a kivonásokat, a visszatérítéseket vagy a feloldást; (d) a gyanús illegális vagy magas kockázatú helyzeteket az illetékes hatóságokhoz vagy bírósági szervekhez irányíthatja.",
+      "A moonpacketnek nincs kötelezettsége feltárni belső kockázatkezelési döntéslogikáját, technikai részleteit vagy a teljes audit alapját. A fent említett kockázatkezelés, megfelelőség vagy szabályozó hatóságok által kért intézkedések nem képeznek szerződésszegést a moonpacket részéről, és a moonpacketnek nincs felelőssége a kártérítésért, visszatérítésért vagy bármilyen egyéb kötelezettségért.",
+      "A fiók tulajdonjogainak vitái (pl. amikor azt állítják, hogy 'egy másik fiók valójában az enyém, kérlek, transferálj át a megmaradt egyenleget'): a moonpacket csak az eredeti fiókot, az eredetileg összekapcsolt e-mailcímet és az eredetileg összekapcsolt tárca címet ismeri el jogosultként; a moonpacketnek nincs kötelezettsége áttranszferálni semmilyen off-chain rekord egyenleget, kivonási jogokat vagy más előnyöket egy másik fiók/e-mail/tárca számára.",
+      "Ha egy fiók tizennyolc (18) egymást követő hónapig nem jelentkezik be az utolsó bejelentkezését követően, a moonpacket a biztonság, megfelelőség és kockázatkezelési szempontok miatt befagyasztja a ki nem vett off-chain rekord egyenleget, és nem biztosít visszatérítést, kivonásokat vagy bármilyen egyéb típusú visszatérítést. Ez a lépés nem képez szerződésszegést a moonpacket részéről, és a moonpacket nem visel kártérítési, kártalanítási vagy egyéb felelősséget."
+    ],
+    "ip": [
+      "A szolgáltatás és annak tartalmának szellemi tulajdonjogai és egyéb jogai (beleértve, de nem kizárólag: kód, dizájn, logók, védjegyek, képek, szöveg, statisztikai bemutatók, rangsorok, marketing anyagok, dokumentumok, és adatgyűjtések) a moonpacket vagy annak jogos szerződő felei birtokában vannak.",
+      "Ön nem másolhatja, sugározhatja, módosíthatja, terjesztheti, bérelheti, visszafejtheti vagy hasznosíthatja a fent említett tartalmat semmilyen módon kereskedelmi vagy nem kereskedelmi célokra a moonpacket előzetes írásbeli engedélye nélkül.",
+      "Megerősíted, hogy megszerezted a szükséges engedélyeket vagy jogokat bármely, a szolgáltatásnak benyújtott, feltöltött, bejelentett vagy más módon biztosított tartalomhoz (pl. csoportnevek, becenevek, avatárok, leírások, megjegyzések, eseményeredmények, elosztási összegek, rangsorolási adatok, illusztráló képernyőfelvételek, meme, visszajelzések, chat feljegyzések stb., összefoglalóan „Felhasználói Tartalom”)."
+    ],
+    "thirdparty": [
+      "Ez a szolgáltatás integrálhat, támaszkodhat vagy kapcsolódhat harmadik felekhez (például a Telegram platformhoz, blokklánc csomópontokhoz, KYC/AML szolgáltatókhoz, kifizetési vagy tőzsdei csatornákhoz, külső feladat rendszerekhez, felhőszolgáltatókhoz stb.). Ezek a harmadik felek függetlenül működnek, és a saját feltételeikkel, adatvédelmi irányelveikkel és elérhetőségi korlátaikkal rendelkeznek.",
+      "A moonpacket nem garantálja a harmadik fél szolgáltatások folyamatos létezését, időszerűségét, pontosságát, elérhetőségét, jogszerűségét vagy biztonságát; valamint nem garantálja, hogy ezek a harmadik felek nem blokkolják, lassítják, késlekednek, változtatnak a politikákon vagy zavarják a szolgáltatásokat.",
+      "Harmadik fél szolgáltatások, hálózati kapcsolódás, blokklánc torlódás, csomópontok hibája, blokkolás, lassítás, politikaváltozások, rendszerkarbantartás vagy más okok által okozott késlekedések, hibák, módosítások, megszakítások vagy adateltérések nem minősülnek a moonpacket által kötött szerződés megszegésének, és a moonpacket nem felel semmiféle kárért, kártérítésért vagy szerződésszegési kötelezettségért.",
+      "Ha harmadik felek politikái vagy környezeti tényezők következtében a moonpacket-nek módosítania, felfüggesztenie vagy leállítania kell bizonyos funkciókat, a moonpacket ésszerű keretek között bejelentheti vagy magyarázhatja a módosításokat, és ezek a módosítások érvényben maradnak, a moonpacket nem felel a kártérítésért."
+    ],
+    "dataPrivacy": [
+      "A moonpacket a magánélet védelmi irányelveivel összhangban gyűjti, használja, megőrzi, feldolgozza és megosztja adataidat.",
+      "A blokklánc adatok nyilvános, visszafordíthatatlan és nyomon követhető jellege miatt egyes információk harmadik felek által rekonstruálhatóak vagy összekapcsolhatóak a személyazonosságoddal vagy a tárcacímeddel; ezt a nyilvános kockázatot neked kell megértened és vállalnod.",
+      "Kifejezetten egyetértesz azzal, hogy a moonpacket, ésszerű határokon belül, megőrizheti, átnézheti, elemezheti, befagyaszthatja és szükséges információt szolgáltathat (beleértve, de nem kizárólag az Off-chain nyilvántartásokat, on-chain bizonyítékokat, KYC/AML adatokat, csoport/chat/tevékenységi naplókat, elosztási és visszavételi cselekményeket) a fent említett hatóságoknak vagy azok erre jogosult entitásainak, pénzmosás elleni, csalás elleni, terrorizmus finanszírozás ellenes, szankciós megfelelőségi, adóbejelentési, megfelelőségi auditok vagy a hatóságok/jogi szervek ésszerű kérdései alapján.",
+      "A moonpacket együttműködése a szabályozó vagy jogi hatóságokkal törvény vagy megfelelőség által szükséges, és nem minősül a jogod ellen vétlennek vagy jogsértésnek; a moonpacket nem vállal felelősséget a ilyen együttműködő intézkedésekből eredő károkért vagy költségekért."
+    ],
+    "risk": [
+      "Megérti és elfogadja, hogy a kriptovaluták, blokklánc hálózatok és a valós idejű interaktív terjesztési mechanizmusok magas szintű bizonytalanságot és technikai kockázatokat hordoznak, ideértve, de nem korlátozva áringadozásokra, protokoll- vagy csomópont hibákra, forkokra, visszagörgetésekre, rosszindulatú támadásokra, szolgáltatásmegtagadásra, hálózati torlódásra, blokkolásra, korlátozásra, okos szerződések sebezhetőségére, harmadik fél API-változásaira, szabályozási politikai változásokra vagy adatkiadási késésekre.",
+      "A blokklánc tranzakciók általában visszavonhatatlanok, miután benyújtották és megerősítették a láncon; bármely késés, hiba vagy eltérés a visszavonhatatlanság, hálózati torlódás, csomópont anomáliák vagy harmadik fél korlátozásai miatt a Te felelősséged. A moonpacket nem nyújt tőkevédelmi, értékmegőrző, hozamgarancia, vagy valós idejű elérhetőségi garanciát.",
+      "Az Off-chain nyilvántartások csak belső rendszerérdekelt képviselet céljából készülnek; a végül érvényesíthető jogok az aktuális láncon végrehajtott átutalásokon alapulnak. Láncon kívül az eszköz még nem lehet egyértelműen azonosítható természetes személyhez rendelve, és részt vehet a részvételi szabályok, KYC/AML, befagyasztási intézkedések vagy megfelelőségi felülvizsgálatok alatt.",
+      "A moonpacket nem bank, nem szabályozott kifizetési intézmény, nem befektetési tanácsadó, nem eszközkezelő, nem biztosító. A moonpacket nem biztosít befektetési, adó, jogi, vagy megfelelőségi tanácsot; a határokon vagy joghatóságokon átnyúló jogszerűség, adóbevallási kötelezettségek, és szankcióknak való megfelelési kötelezettségek a Te egyedüli felelősséged, hogy értékeld és ellásd. Ha aggályaid vannak a megfelelőséggel kapcsolatban, kérjük, ne használd ezt a szolgáltatást.",
+      "A kockázatok csökkentése érdekében a moonpacket kis összegű tranzakciók többszöri használatát javasolja (egyetlen tranzakció összege ne haladja meg a 100 USDT egyenértékét) és kerülni kell a nagy eszközök hosszú távú tárolását az Off-chain nyilvántartásokban.",
+      "Megérted és egyetértesz: a moonpacket nem a bankod, bizalmi kezelőd, ügynököd, tőzsdéd vagy kifizetési közvetítőd, eszközkezelőd, befektetési tanácsadód, brókered vagy letéti intézményed; a moonpacketnek nincs kötelezettsége (és kifejezetten elutasít minden kötelezettséget) az érték, token, eszköz vagy érdekeltség megőrzésére, kezelésére, növelésére, befektetésére, átváltására, védelmére vagy fenntartására.",
+      "Megérted és egyetértesz, hogy amikor bármilyen kriptoeszközt vagy tokent áthelyezel a pénztárcádból vagy fiókodból erre a szolgáltatásra, a láncon történő tranzakció maga visszavonhatatlan hálózati díjakat, gázdíjakat, bányászati díjakat vagy egyéb hasonló költségeket vonhat maga után; ennek következtében a rendszer által végül 'jóváírt' nettó összeg kevesebb lehet, mint a névleges összeg, amelyet beírtál vagy amelyet a küldő felület mutatott. E különbséget a megfelelő láncon belüli hálózat és infrastruktúra számítja fel, és nem a moonpacket gyűjti be; a moonpacket csak az aktuálisan sikeresen jóváírt nettó összeget ismeri el és rögzíti, amely a jövőbeli belső nyilvántartások és elszámolások egyedüli alapját képezi, és nem képez más eltéréseket, amelyeket a moonpacket tartozna neked."
+    ],
+    "disclaimer": [
+      "Ez a szolgáltatás 'ahogy van' és 'ahogy elérhető' alapon kerül nyújtásra. A törvény által megengedett legnagyobb mértékben a moonpacket nem vállal kifejezett vagy hallgatólagos garanciát, képviseletet vagy ígéreteket ezen szolgáltatásról vagy annak bármely részéről (beleértve a azonnali elérhetőséget, pontosságot, megszakítás nélküli működést, hibamentes teljesítményt, meghatározott célra való alkalmasságot, jogszerűséget, megfelelőséget, biztonságot vagy a zavaroktól való mentességet).",
+      "A moonpacket nem vállal garanciát késedelmek, hibák, megszakítások, blokkolások vagy bármely harmadik fél szolgáltatások (például Telegram platform, blokklánc csomópontok, KYC/AML szolgáltatók, kifizetési vagy csere csatornák, külső feladat rendszerek, felhő szolgáltatók stb.) által okozott vagy érintett késlekedésekre, hibákra, alkalmazhatóságokra, jogszerűségre, időbeliségre, elérhetőségre vagy biztonságra sem vállal felelősséget.",
+      "A moonpacket nem nyújt kifejezett vagy hallgatólagos garanciákat, ígéreteket vagy kötelezettségeket a specifikus visszajelzésekkel, rangsorokkal, csökkenési arányokkal, allokációs arányokkal, elosztási mennyiségekkel, küldések számával, nyerési valószínűségekkel, airdrop jogosultságokkal, eszközök cserélhetőségével, végső kivonhatósággal vagy piaci értékkel kapcsolatban; a felületen vagy bejelentésekben megjelenített számok, százalékok, becslések, szimulációk, ranglisták, jutalompools méretei vagy 'elérhető jutalmak' leírásai csupán tájékoztató jellegűek, és nem minősülnek garanciáknak vagy jogilag érvényesíthető jogoknak irányodban.",
+      "Megérti és elfogadja, hogy ez a szolgáltatás egy interaktív elosztási/red packet elosztási mechanizmus az internet természetén. Bár a moonpacket ésszerűen próbálhatja detektálni az automatizált visszaéléseket, a duplikált fiókokat, az identitásváltást vagy más tiszátlan magatartásokat, a moonpacket nem garantálja és nem tudja garantálni: (a) hogy minden fiók egy egyedi természetes személyhez tartozik; (b) hogy minden fogadó megfelel az Ön szubjektív 'jogosult címzettek' értékelésének; vagy (c) hogy bármely kiosztási eredmény megfelel a személyes méltányosság vagy gazdasági várakozása szerint. A moonpacketnek nincs kötelezettsége kártalanítani, újraelosztani, visszakövetelni, vagy visszaszerezni a tőkéjét az Ön 'másoknak több fiókjuk van, akik csomagokat/visszaigénylő robotok csomagjait szerzik' állítása miatt, kivéve, ha az törvény kötelezően előírja.",
+      "Amikor kivonásokat, átutalásokat vagy on-chain értékekkel kapcsolatos kéréseket tesz, lehet, hogy további on-chain díjakat, gázdíjakat, bányászati díjakat vagy más hálózati költségeket kell viselnie a pénztárcájában vagy a megadott hálózaton. Ezek a költségek jelentősen meghaladhatják azt az összeget, amelyet megpróbál kivonni a konkrét hálózati torlódás alatt. Ezeket a költségeket az Ön gazdasági és kockázati értékelése határozza meg, és nem képeznek szolgáltatási díjat vagy jutalékot a moonpacket részéről; kivéve, ha törvény írja elő, a moonpacketnek nincs kötelezettsége viselni, előre fizetni, támogatni, kedvezményt adni, optimalizálni vagy visszatéríteni ezen költségeket, sem pedig biztosítani, hogy azok 'ésszerűek' legyenek az Ön által megpróbált nominális kivonási összeghez képest.",
+      "Ez a szolgáltatás egy technikai, programozott automatikus elosztási és interakciós eszközként jött létre, lehetővé téve a felhasználók számára, hogy saját eszközeiket az eszközgamifikálás vagy közösségi menedzsment céljából eloszthassák vagy kötelezhessék azokat. Kivéve, ha törvény írja elő, ez a szolgáltatás nem minősül (és nem is kell így érteni) banki szolgáltatásoknak, betéteknek, bizalmaknak, őrzésnek, fiduciárius befektetéseknek, befektetési tanácsadásnak, alapkezelésnek, deviza- vagy kifizetési szolgáltatásoknak, sem pedig kölcsön- vagy finanszírozási termékeknek."
+    ],
+    "liability": [
+      "A törvény által megengedett maximális mértékben a moonpacket nem vállal felelősséget semmilyen közvetett, véletlenszerű, különleges, büntető, következményes vagy származtatott kárért (beleértve, de nem korlátozva a nyereség, a bevétel, a jó hírnév vagy hírnevet elvesztésére, adatvesztésre, lehetőségi költségekre, adókra vagy bírságokra, illetve a várt előnyök elmaradására) amely bármilyen követelésből ered, függetlenül attól, hogy az szerződésen, deliktumon, jogtalan gazdagodáson, szigorú felelősségen vagy más jogi/egyenértékű elméleten alapul.",
+      "A harmadik fél szolgáltatásai, hálózati kapcsolatok, blokklánc torlódás, csomópont hibák, blokkolás, korlátozás, szabályzatváltozások, rendszerkarbantartás vagy egyéb, a moonpacketre nem hárítható tényezők által okozott késések, hibák, korlátozott funkcionalitás, adateltérések vagy megszakítások nem képezik a moonpacket szerződésszegését, és a moonpacket nem vállal felelősséget semmilyen kárért, kártérítésért vagy egyéb kötelezettségért ilyen esetekben.",
+      "A tranzakciós díjak, láncon belüli gázköltségek, harmadik fél díjai vagy hasonló költségek nem tartoznak visszatérítés vagy kártérítés terjedelmébe."
+    ],
+    "indemnity": [
+      "Ha Ön (beleértve a kezdeményezőt és a résztvevőket) megsérti ezeket a feltételeket vagy bármely alkalmazandó törvényt, szankciót, adókötelezettséget vagy megfelelőségi követelményt, vagy harmadik fél jogait sérti, vagy csalásban, pénzmosásban, terrorizmus finanszírozásában, szerencsejáték nyereségében, illegális pénzgyűjtésben, jogosulatlan személyes adatok gyűjtésében, rosszindulatú tartalom terjesztésében vagy más, magas kockázatú/tiltott tevékenységekben vesz részt, amelyek bármilyen követelményt, kárt, bírságot, kötelezettséget, nyomozást, jogi pert vagy egyéb költségeket (beleértve a ésszerű ügyvédi díjakat) eredményeznek a moonpacket és annak leányvállalatai, igazgatói, alkalmazottai, partnerei, beszállítói vagy megfelelőségi/jogi felügyeleti entitások ellen, Ön beleegyezik abba, hogy megvédje, kártalanítsa és mentesítse őket a törvény által megengedett legteljesebb mértékben.",
+      "A fent említett kártalanítási kötelezettségek (ha alkalmazható) magukban foglalják, de nem korlátozódnak: szabályozó hatóságokból érkező érdeklődés, adó- vagy pénzügyi szabályozóktól érkező lefoglalási vagy elkobzási kérések, polgári vagy büntetőeljárások, közigazgatási bírságok, ügyvédi díjak, és a jogi költségek, valamint a moonpacket-re Ön által gyakorolt vagy igényelt kötelezettségek, amelyeket az Ön tranzakciói (beleértve a feltételezett pénzmosást, csalást, terrorizmus finanszírozását, adócsalást, szankciós elkerülést, vagy jogosulatlan pénzügyi szolgáltatásokat).",
+      "Ön elfogadja, hogy a kártalanítási, kártérítési, védelmi és mentesítési kötelezettségek nemcsak a moonpacket-re vonatkoznak, hanem a moonpacket tagjaira, vezetőire, alkalmazottaira, tanácsadóira, vállalkozóira, fejlesztőire, operatív partnereire, közösségi menedzsereire, ügynökeire, utódaira, megbízottaira, és azok utódaira (együttesen „kártalanítottak”-ként hivatkozva). A törvény által megengedett legteljesebb mértékben Ön beleegyezik abba, hogy kártalanítja az összes kártalanítottat bármely követeléssel, érdeklődéssel, lefoglalással, elkobzással, bírsággal, perrel, ítélettel, egyezséggel, ügyvédi díjjal, és egyéb költségekkel, amelyek az Ön e szolgáltatás használatából, a források vagy a források céljából, red packet elosztási tevékenységekből, más felhasználókkal való tranzakciókból vagy vitákból, vagy bármely törvény betartásának elmulasztásából adódnak (beleértve, de nem kizárólag a pénzmosás, szankciók, adó- és fogyasztási adó bejelentési kötelezettségeket)."
+    ],
+    "suspension": [
+      "A moonpacket biztonság, megfelelőség, kockázatkezelés vagy működési szükségletek alapján indokolt mértékben, egyéni értesítés nélkül a következő intézkedéseket hozhatja: (a) a szolgáltatások részleges vagy teljes korlátozása, késleltetése vagy megtagadása; (b) fiókok, egyenlegek, funkciók vagy kivonások befagyasztása, visszatartása, korlátozása, módosítása vagy leállítása; (c) konkrét fiókok, csoportok, IP-címek, eszközök vagy tevékenységek blokkolása; (d) kiegészítő információk kérése vagy KYC/AML ellenőrzés befejezése. A fenti intézkedések a moonpacket által kötött szerződés megszegésének nem minősülnek, és a moonpacket nem vállal felelősséget semmiféle kárért, kártérítésért vagy egyéb kötelezettségért.",
+      "Ha a moonpacket ésszerűen megállapítja, hogy magas kockázatú vagy illegális körülmények, például csalás, pénzmosás, terrorizmus finanszírozás, szankciók megkerülése, jogosulatlan pénzügyi szolgáltatások, illegális adománygyűjtés, szerencsejáték nyereménymegosztás, kiskapuk kihasználása, vagy a platform stabilitásának károsítása állnak fenn, a moonpacket felfüggesztheti, késleltetheti vagy megtagadhatja a tranzakciókat, elosztásokat, kivonásokat, visszatérítéseket, feloldásokat vagy ügyfélszolgálati feldolgozást, és együttműködhet a szabályozó vagy jogi hatóságok vizsgálataival vagy utasításaival.",
+      "A moonpacket jogosult megőrizni a számlák, tranzakciós bizonyítékok, KYC/AML adatok, és auditálási célokra szükséges információk nyilvántartásait ésszerű ideig. Még ha kérik is az Ön számlájának törlését, vagy a szolgáltatás leállítását, a moonpacket jogi, adózási, könyvelési és megfelelőségi követelmények miatt továbbra is megőrizheti ezeket az adatokat, amíg a megőrzési kötelezettség le nem jár, mielőtt törli vagy anonimizálja.",
+      "Ha az Off-chain nyilvántartások nem összhangban állnak az on-chain állapotokkal, a moonpacket módosíthatja vagy visszaállíthatja az Off-chain nyilvántartásokat, hogy tükrözzék, amit a moonpacket ésszerűen helyesnek ítél; azonban az on-chain tranzakciók nem mondhatók le vagy állíthatók vissza.",
+      "Anélkül, hogy befolyásolnák a fent említett általános tartalmat, a moonpacket megtagadhatja, késleltetheti, érvénytelenítheti, befagyaszthatja vagy véglegesen visszatarthat bármilyen 'függőben lévő jóváírás', 'keresett', 'még nem on-chain', vagy hasonló jelölésű értéket/jutalmat, a megfelelőség, kockázatkezelés, csalás vagy visszaélés aggályai alapján, még ha az értéket látta is a felületen. Ön kifejezetten egyetértene és véglegesen lemond bármilyen kártérítési, kamat-, hozam-, lehetőségköltség-, büntető kár iránti igényéről a moonpacket ellen az ilyen kifizetetlen értékekkel kapcsolatban, hacsak a vonatkozó törvény kifejezetten nem tiltja az ilyen igények lemondását.",
+      "Megérti és egyetért azzal, hogy miután bármilyen red packetet, jutalmat, csoportelosztást, vagy egyéb elosztási utasítást a felületen benyújt, a moonpacket a címzettek/csoportok/feltételeknek az ilyen utasításokban való elosztásának jogosultságát véglegesen visszavonhatatlannak tekinti. A csalás, visszaélés, pénzmosás, szankciók megkerülése, adóelkerülés vagy egyéb megfelelőségi préoccupációk vizsgálatain kívül a moonpacket nem kötelezhető 'visszavonási', 'visszatérítési', 'lemondási', 'helyreállítási' vagy hasonló intézkedések biztosítására, és nem kötelezhető arra, hogy az elosztás befejezése után az ilyen értékeket más felhasználóktól visszaigényelje; ezek a lépések nem minősülnek a moonpacket által kötött szerződés megszegésének, és a moonpacket nem felel semmiféle kárért, kártérítésért vagy egyéb felelősségért.",
+      "Felkérheti a moonpacket-et, hogy a vonatkozó törvények, pénzmosás elleni szabályozások, szankciók, adóbevallások, csalásvizsgálatok vagy magas kockázatú figyelmeztetések esetén végezze el az Ön azonosítási ellenőrzését (beleértve, de nem korlátozódva a kormány által kiadott azonosító, selfies, arcfelismerés vagy egyéb biometrikus összehasonlítás stb.) és kérheti a szükséges további dokumentumokat vagy további ellenőrzéseket, ha szükséges. Ha Ön ésszerű időn belül nem biztosítja a szükséges információkat, vagy ha a megadott információk nem felelnek meg a ésszerű ellenőrzési eljárásoknak, a moonpacket a saját mérlegelése alapján késleltetheti, korlátozhatja, megtagadhatja vagy véglegesen megtilthatja a bármilyen kivonási, kinyerési, on-chain vagy beváltási kérelmeket; ezek a lépések nem minősülnek a moonpacket által kötött szerződés megszegésének, és a moonpacket nem vállal felelősséget semmiféle kárért, kártérítésért vagy egyéb kötelezettségért, Ön pedig véglegesen lemond bármilyen kárigényről, kamatról vagy lehetőségköltségről az ilyen késlekedések vagy tilalmak vonatkozásában, kivéve, ahol törvényileg tilos."
+    ],
+    "compliance": [
+      "Kifejezetten egyetértesz azzal, hogy a moonpacket a megfelelőségi kötelezettségeinek, pénzmosás ellenes/terrorizmus finanszírozás elleni szabályozásoknak, szankcióknak, adókötelezettségeknek vagy a felügyelő/jogi hatóságok jogi követelményeinek megfelelően megőrizheti, befagyaszthatja, elemezheti és szükséges információt szolgáltathat (beleértve az Off-chain nyilvántartásokat, on-chain nyomokat, KYC/AML adatokat, csoport/chat/esemény nyilvántartásokat, elosztási és visszavételi viselkedéseket) az arra jogosult egységeknek vagy azok megbízott megfelelőségi szolgáltatóinak.",
+      "Ez az együttműködés nem minősül szerződésszegésnek vagy jogsértésnek a moonpacket részéről, és a moonpacket nem vállal kártalanítást, kártérítést vagy egyéb felelősségeket."
+    ],
+    "forceMajeure": [
+      "Természeti katasztrófák, háborúk, lázadások, kormányzati megbízások, szankciók, új törvények vagy szabályozói követelmények, áramkimaradások, kommunikációs vagy hálózati megszakadások, beszállítói vagy felhőinfrastruktúra hibák, blokklánc protokoll szintű események, rosszindulatú támadások, járványok, munkavállalói viták vagy a moonpacketnek nem felróható egyéb okok következtében, amelyek a felek késlekedését vagy képtelenségét eredményezik a jelen feltételek szerinti kötelezettségek teljesítésében, az érintett fél mentesül a felelősség alól az ilyen késlekedések vagy nem teljesítések miatt; ugyanakkor az érintett fél köteles ésszerű erőfeszítéseket tenni a hatások mérséklésére, és a lehető leghamarabb helyreállítani."
+    ],
+    "highRisk": [
+      "A szolgáltatás tiltotta felhasználásai közé tartozik bármely illegális, magas kockázatú vagy szankcionált cél, beleértve, de nem kizárólag a csalást, pénzmosást, terrorizmus finanszírozását, szerencsejátékból származó nyereséget, illegális pénzgyűjtést, jogosulatlan pénzügyi szolgáltatásokat, szankciók elkerülését, vagy bármely más szabályozás által tiltott magatartást.",
+      "A kezdeményezőnek meg kell erősítenie a joghatóságát vagy az alkalmazandó jogi területét a red packet-ek, jutalmak, promóciós alapok, airdropok, profitmegosztás vagy hasonló elosztások tekintetében, és biztosítania kell, hogy ezek ne képezzék illegális forrásgyűjtést, jogosulatlan pénzügyi szolgáltatásokat, illegális szerencsejáték-nyereséget vagy más jelentési/engedélyezési kötelezettség alá eső tevékenységeket.",
+      "A résztvevőknek meg kell erősíteniük, hogy az eszközök fogadása, birtoklása, kifizetése vagy átutalása összhangban van az ő helyükre alkalmazható törvényekkel, és nem jár illegális jövedelemmel, szankciós jogsértésekkel, adóbejelentési kötelezettségekkel, vagy más szabályozási korlátozásokkal.",
+      "A moonpacket nem nyújt jogi garanciákat a szolgáltatás határokon átnyúló vagy joghatóságok közötti használatának törvényességéről, és nem garantálja, hogy Ön jogszerűen használhatja a szolgáltatást bármely meghatározott régióban.",
+      "Ön nyilatkozik és szavatolja, hogy nem áll nemzetközi szankciók, exportellenőrzések, terrorizmus ellenes intézkedések vagy hasonló korlátozások hatálya alatt, és nem használja ezt a szolgáltatást ilyen entitások nevében. Ön nem használhatja ezt a szolgáltatást szankciók, lefoglalások, elkobzások, adóellenőrzések, jogi végrehajtási intézkedések vagy bírósági eljárások elkerülésére, elősegítésére vagy kísérletére. A moonpacket fenntartja a jogot, hogy megtagadja, korlátozza vagy megszüntesse a szolgáltatások teljes vagy részleges igénybevételét, vagy késlekedjen, korlátozza vagy megtagadja bármely kifizetés, átutalás vagy beváltási kérelem teljesítését előzetes értesítés nélkül; ilyen intézkedések nem minősülnek a moonpacket általi szerződésszegésnek, és a moonpacket nem felelős semmilyen kárért, kártérítésért vagy egyéb kötelezettségért."
+    ],
+    "tax": [
+      "Ön felelős a szolgáltatás használatából eredő adókötelezettségek, bevallások, kifizetések és kapcsolódó költségek kezeléséért a vonatkozó törvények alapján; a moonpacket nem nyújt adótanácsadást, és nem felelős a bevallásokért vagy a levonásokért, hacsak jogilag meg nem követelt."
+    ],
+    "accuracy": [
+      "A ranglisták, statisztikák, események kimenete, tippek vagy a szolgáltatás által biztosított műszerfal információk eltérhetnek a valós állapottól szinkronizálási késedelmek, harmadik fél függőségek, ideiglenes korlátozások vagy rendszerkarbantartás miatt; minden továbbra is a valós on-chain tranzakciós eredmények vagy a moonpacket keretein belül végleges elszámolásokra vonatkozik.",
+      "A moonpacket kijavítja a nyilvánvaló hibákat, rendszerhibákat vagy a megjelenítés során nyilvánvalóan igazságtalan eredményeket, és ésszerű keretek között visszagörgetheti az off-chain rekordokat, hogy azokat a moonpacket által ésszerűen meghatározott pontos állapotnak megfelelően igazítsa; azonban az on-chain tranzakciók nem törölhetők vagy forgalomvisszavonhatóak."
+    ],
+    "law": [
+      "Ezeket a feltételeket, valamint Ön és a moonpacket közötti, a szolgáltatással kapcsolatos vagy abból eredő összes kapcsolatot (beleértve, de nem korlátozva az aktivitási elosztásokra, eszközkezelésre, rangsorolási/jutalmazási mechanizmusokra, fiók felfüggesztésekre, a szolgáltatás leállítására vagy megszüntetésére, Off-chain nyilvántartások kiigazítására, adatok megőrzésére, együttműködésre a jogi hatóságokkal, bármilyen bejelentésre, nyilatkozatra, marketingre, ügyféltámogatási beavatkozásokra stb.) Japán törvényei irányadóak, figyelmen kívül hagyva a nemzetközi magánjog vagy konfliktusokra vonatkozó elveit."
+    ],
+    "disputes": [
+      "Bármilyen vitás ügy, ügyviteli problémák, kérések, perek, jogorvoslatok vagy eljárások, amelyek ezen szolgáltatásból vagy e feltételekből erednek, kizárólag a Tokiói Kerületi Bíróság elé terjeszthetők első fokon. Ön visszavonhatatlanul lemond bármely jogáról, hogy más bíróság, választottbírósági intézmény vagy bírósági kerület illetékességére hivatkozzon, amely talán kényelmesebb vagy megfelelőbb, és nem állíthatja, hogy a moonpacket a helyi bíróság illetékessége alá tartozik.",
+      "Elfogadja, hogy a moonpacket a megfelelőségi kötelezettségei, pénzmosás elleni/terrorizmus finanszírozása elleni intézkedések, szankciók, adóügyi, vagy a szabályozó/jogosulatlan hatóságoktól érkező legális kérések keretében megőrzi, befagyasztja, elemzi és szükséges adatokat (beleértve az Off-chain nyilvántartásokat, on-chain bizonyítékokat, KYC/AML adatokat, csoport/chat/tevékenységi naplókat, elosztási és kivonási műveleteket) adhat át a jogosult egységeknek vagy azok engedélyezett megfelelőségi szolgáltatóinak; ez az együttműködés nem jelenti a moonpacket szerződés megszegését vagy jogsértését, és a moonpacket nem vállal kárpótlást, visszatérítést, vagy egyéb felelősségeket ezért."
+    ],
+    "contact": [
+      "A megállapodással kapcsolatos ügyekben kérjük, lépj kapcsolatba a moonpacket-tel a vásárlói szolgáltató boton vagy a felületen feltüntetett kapcsolattartó csatornákon keresztül. Adatvédelem vagy magánélet védelmével kapcsolatos kérelmek esetén lépj kapcsolatba a Adatvédelmi Nyilatkozatban megadott kapcsolattartó ablakon keresztül."
+    ],
+    "changes": [
+      "A moonpacket bármikor módosíthatja ezeket a feltételeket és a kapcsolódó irányelveket technikai, kockázatkezelési, megfelelőségi vagy üzleti megfontolások alapján. A módosított verzió a közzétételkor lép hatályba, és a legújabb érvényes verziónak minősül. Ha a közzétételt követően továbbra is hozzáfér vagy használja ezt a szolgáltatást, úgy tekintjük, hogy egyetért a frissített tartalommal; ha nem ért egyet, az egyetlen jogorvoslata azonnal leállítani a szolgáltatás használatát."
+    ],
+    "serviceChanges": {
+      "title": "Szolgáltatásmódosítások és feltételfrissítések",
+      "body": [
+        "A moonpacket egyedüli mérlegelése alapján módosíthatja, lokalizálhatja, módosíthatja, felfüggesztheti, korlátozhatja, frissítheti vagy leállíthatja a szolgáltatás teljes vagy részleges részét (beleértve, de nem korlátozódva a red packet/jutalmak számítási módjára, hűtési időkre, elosztási feltételekre, ranglista szabályokra, kezelési díjakra, elérhető funkciókra, interfészekre, API-kra, beépülő modulok integrációira, tevékenységi küszöbökre stb.), és bármikor leállíthatja a szolgáltatások egy vagy több részét; a moonpacket nincs kötelezve, hogy bármely konkrét szolgáltatást vagy funkciót véglegesen fenntartson.",
+        "A moonpacket megtagadhatja vagy felfüggesztheti a szolgáltatásokat bizonyos felhasználók vagy csoportok számára kockázatkezelés, megfelelőségi felülvizsgálat, technikai vagy üzleti szempontok alapján, vagy korlátozhatja a funkcióikat és engedélyeiket (beleértve a befagyasztást, felfüggesztést, blokkolást, kapcsolatok megakadályozását, vagy bizonyos csevegőcsoportok vagy fiókok blokkolását) egyéni értesítés nélkül. Az törvény által nem megkövetelt esetek kivételével a moonpacket nem felel semmiféle kárért, veszteségért vagy költségért, amely a szolgáltatás nyújtásának módosításából, felfüggesztéséből vagy megtagadásából ered."
+      ]
+    },
+    "userContent": {
+      "title": "Felhasználói tartalom és nyilvános megjelenítési engedélyezés",
+      "body": [
+        "Megérti és egyetért: Bármilyen tartalom, adat, név, becenév, csoportnév, csoportikon, csoportleírás, chat szoba információ, rangsor adatok, hozzájárulási összeg, összes red packet összeg, szerencsés sorsolások nyilvántartása, üzenetek, válaszok, meme, matricák, szöveg vagy egyéb információ (kollektíven 'Felhasználói Tartalom' néven) amelyet Ön biztosít, feltölt, jelent, vagy más módon elérhetővé tesz a moonpacket számára ezen szolgáltatás használata során, megjeleníthető, rendezhető, rangsorolható, összegyűjthető, bejelenthető, képernyőképekkel illusztrálható, reprodukálható, terjeszthető, nyilvánosan továbbítható, nyilvánosan megjeleníthető, alkalmazható, és marketing és operatív magyarázatokhoz használható (pl. népszerű csoportok bemutatása, red packet elosztási rangsorok, szerencsés nyertesek, esemény végeredmény értékelések stb.) a moonpacket belső vagy nyilvánosan látható területein.",
+        "Ha a moonpacket ésszerűen gyanítja, hogy a konkrét felhasználói tartalom megsértheti a törvényeket, harmadik fél jogait sértő, csalással/pénzmosással/terrorizmus finanszírozásával/szerencsejáték bónuszokkal/illegális adománygyűjtéssel/engedély nélküli személyes adatgyűjtéssel és más, magas kockázatú magatartásokkal kapcsolatos, a moonpacket eltávolíthatja, elrejtheti, korlátozhatja a megjelenítést, eltávolíthatja vagy blokkolhatja az ilyen tartalmakat, és befagyaszthatja, felfüggesztheti vagy megszüntetheti a megfelelő fiókokhoz vagy csoportokhoz való hozzáférést, és szükséges információt adhat a csoport adminisztrátorainak, a platform szolgáltatóknak, a szabályozó hatóságoknak vagy bírósági szerveknek. A moonpacket nem vállal felelősséget semmilyen kárért, profitveszteségért, hírnévkárosodásért vagy egyéb követelésekért, amelyek ebből a cselekedetből erednek."
+      ]
+    },
+    "liabilityCap": {
+      "title": "A felelősség korlátozása és kártérítési korlát",
+      "body": [
+        "A törvény által megengedett maximális mértékben a moonpacket összesített felelőssége bármely követelésekért, károkért vagy kötelezettségekért, amelyek ebből a szolgáltatásból erednek, korlátozódik (A) a moonpacketnak az elmúlt harminc (30) napon belül ténylegesen kifizetett összes díjára, amelyet a moonpacket megerősített a kérés kapcsolatában, vagy (B) ötven (50) dollár egyenértékére, attól függően, hogy melyik az alacsonyabb. Ez a határ a Te egyedüli és kizárólagos jogorvoslatod, még akkor is, ha ez a jogorvoslat nem kompenzálja a káraidat.",
+        "A fenti határ csak abban az esetben érvényes, ha a jog előírja, hogy a moonpacket felelősséget vállaljon, és a Te egyedüli és kizárólagos jogorvoslatod; ezen a kötelező kereten túl a moonpacket nem ismeri el vagy garantálja a felelősséget vitákra vagy követelésekre."
+      ]
+    },
+    "governingLaw": {
+      "title": "Irányadó törvények és vitás ügyek rendezése.",
+      "body": [
+        "Ezek a feltételek, valamint minden, Ön és a moonpacket közötti, vagy e szolgáltatással kapcsolatos jogviszony Japán törvényei irányadóak, és ennek megfelelően értelmezendők, de nem terjednek ki a jogi eljárásai elveinek alkalmazására.",
+        "Bármilyen vitás ügy, követelés, per, jogorvoslat vagy eljárás, amelyek ezen szolgáltatásból vagy e feltételekből erednek, a Tokiói Kerületi Bíróság kizárólagos illetékessége alá tartoznak Japánban első fokon. Ön visszavonhatatlanul lemond arról, hogy bármely más bíróság vagy joghatóság kényelmesebb vagy megfelelőbb lenne, és nem állíthatja, hogy a moonpacket a helyi bíróságok joghatósága alá tartozik.",
+        "A moonpacket, megfelelve kötelezettségeinek, pénzmosás elleni/terrorizmus finanszírozása elleni intézkedéseknek, szankcióknak, adóügyi vagy jogi hatóságok legitim kéréseinek, megőrizheti, befagyaszthatja, elemezheti és szükséges adatokat (beleértve az Off-chain nyilvántartásokat, on-chain bizonyítékokat, KYC/AML adatokat, csoport/chat/tevékenységi nyilvántartásokat, és illetve az elosztási és kivonási tevékenységeket) adhat át jogosult egységeknek vagy megfelelőségi szolgáltatóiknak; ezek a lépések nem jelentik a moonpacket szerződésszegését vagy jogsértését, amely így nem felelős semmilyen kárért vagy költségért, amely az ilyen lépésekből ered.",
+        "Ön és a moonpacket egyetértenek abban, hogy semmilyen követelés nem tehető vagy nem vehető részt csoportos pereken, kollektív pereken, együttes pereken vagy hasonló eljárásokban; Ön visszavonhatatlanul lemond a jogairól, hogy felperes, tag, ügynök vagy képviselő legyen az ilyen eljárásokban, kivéve, ha azt a törvény tiltja.",
+        "Ha ezen feltételek bármely rendelkezése érvénytelennek, jogellenesnek vagy végrehajthatatlannak minősül egy illetékes bíróság által, a fennmaradó rendelkezések továbbra is érvényben maradnak és hatályosak a jog által megengedett maximális mértékben (elbírálhatóság).",
+        "Ezek a feltételek alkotják a moonpacket és Ön közötti teljes megállapodást e szolgáltatásról, és felülírják minden korábbi szóbeli vagy írásbeli kommunikációt, bejelentést, marketing leírást, közösségi bejegyzést, támogatási választ vagy ígéretet (ha van ilyen) a felek között. Kivéve, ha a moonpacket kifejezetten írásban nyilatkozik, más nyilatkozatok, GYIK, marketing anyagok, chat feljegyzések vagy szóbeli magyarázatok nem képeznek jogi értelemben kötelező garanciát vagy ígéretet a moonpacket részéről.",
+        "A moonpacket előzetes hozzájárulása nélkül átruházhatja, átadhatja, delegálhatja, vagy más módon hagyhatja, hogy leányvállalatok, szerződött partnerek, megbízottak, működési utódok, vagy más harmadik felek feldolgozzák vagy teljesítsék ezen feltételek teljes vagy részleges részét, és ezek a harmadik felek folytathatják, módosíthatják, vagy megszüntethetik a szolgáltatást lényegében hasonló feltételek mellett; Ön nem ruházhatja át vagy adhatja át e feltételek szerinti jogait vagy kötelezettségeit a moonpacket előzetes írásbeli hozzájárulása nélkül.",
+        "Ha a törvény másként nem írja elő, a moonpacket azon jogának, jogorvoslatának vagy követelésének a gyakorlására való mulasztása, amelyet ezen feltételek biztosítanak, bármely konkrét időpontban, vagy ezek azonnali gyakorlásának elmulasztása nem minősül ezen jog lemondásának, és nem befolyásolja a moonpacket jövőbeli jog-érvényesítési képességét.",
+        "Azok a rendelkezések, amelyek természetükből adódóan túlélhetik e feltételek megszüntetését, beleértve, de nem kizárólag a díjakkal és kezelési költségekkel kapcsolatos kötelezettségeket, nyilatkozatokat, felelősségkorlátozásokat, kártalanítási határokat, adókötelezettségeket, szellemi tulajdonra vonatkozó klauzulákat, tilalmakat, megfelelőségi és együttműködési kötelezettségeket, irányadó jogra és joghatóságra vonatkozó klauzulákat, valamint az alkalmazandó kártalanítási kötelezettségeket, hatályosak és kötelező érvényűek maradnak az Ön számára, miután Ön megszünteti a szolgáltatás használatát, vagy ezen feltételek bármilyen okból történő megszüntetésekor."
+      ]
+    },
+    "appendix": [
+      "\"Visszafordíthatatlan\": Olyan on-chain tranzakciókra utal, amelyek, miután megerősítették őket (on-chain), általában nem visszavonhatóak, visszaállíthatóak vagy törölhetőek, és nyilvános blokklánc felfedezőkön véglegesen ellenőrizhetők.",
+      "\"Nem visszavonható\": Azok ígérete, amelyet meg nem határozott résztvevőknek tett a kibocsátó, és amely hatályba lép, amikor a kibocsátó megerősíti a terjesztési feltételeket és elindítja, és nem lehet önkényesen visszavonni, lemondani, vagy megállítani az esemény alatt, sem kérni a visszatérítést az \"megbántam\" indokkal; ez egy másik szintű koncepció, mint a \"visszafordíthatatlan\" on-chain tranzakciók.",
+      "\"Ésszerű keretek között\": A moonpacket által a működési biztonság, megfelelőségi követelmények, pénzmosás elleni/intézkedések biztosítása, adószabályok betartása, felhasználóvédelem vagy kockázatkezelési célok érdekében tett kereskedelmi ésszerű intézkedések, a jogi és szabályozási kötelezettségekből és elérhető forrásokból adódó korlátok között, beleértve, de nem kizárólag: befagyasztás, korlátozás, késleltetés, kiigazítás, megőrzés, hatóságokkal való együttműködés, vagy bizonyos funkciók biztosításának megtagadása."
+    ]
+  }
+}

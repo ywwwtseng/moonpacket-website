@@ -1,0 +1,48 @@
+{
+  "title": "Produktvei",
+  "updated": "Oppdatering (tokens begynner distribusjon etter at fremdriftslinjen er full)",
+  "bucket": {
+    "progress": "Fremdrift"
+  },
+  "status": {
+    "shipping": "I utvikling",
+    "planned": "Planlagt",
+    "research": "I forskning",
+    "live": "Lansert"
+  },
+  "accept": "Akseptkriterier",
+  "lanes": {
+    "build": "Utvikle produkter",
+    "trust": "Tillit, etterlevelse og sikkerhet",
+    "growth": "Vekst",
+    "token": "Risiko- og samsvarskontroll"
+  },
+  "progressLabel": "Fremdrift",
+  "phase": {
+    "open-beta": {
+      "title": "Åpen Beta lansering (intern fellesskaps red packet)",
+      "desc": "Pilot innen fellesskapet, betinget åpen samfunnsintegrasjon; Test grunnleggende distribusjon/innløsning og brukeropplevelse",
+      "accept": "Klare regler, smidig innløsning, nøkkelfunnels er brukbare"
+    },
+    "multi-chain": {
+      "title": "Kontinuerlig optimalisering: Multi-chain + Poengmekanisme + Anti-bot",
+      "desc": "Utvidelse til multi-chain støtte utover Solana; Poengberegning og visualisering; Anti-bot strategi og A/B testing",
+      "accept": "Multi-chain eiendomsidentifikasjon er korrekt; Poeng og risikokontroll fungerer normalt"
+    },
+    "compliance": {
+      "title": "Risiko kontroll og etterlevelse",
+      "desc": "KYC/AML, revisjon og sikkerhetsmekanismer; Anomali vurderingsprosess.",
+      "accept": "Aktiver KYC når nødvendig; AML-regelverk kan revideres; Robuste sikkerhetslogger"
+    },
+    "growth-integration": {
+      "title": "Vekst: Samfunnsintegrasjon + API/Webhook + Økosystem samarbeid",
+      "desc": "Integrasjonsveiledning, Event Webhook, Query API; Partnerintegrasjonsprosess",
+      "accept": "Integrasjonsveiledning godkjent; Webhook/Query API er stabil"
+    },
+    "token-moonini": {
+      "title": "Poeng kan innløses for tokens: moonini",
+      "desc": "Fullføring av moonini token distribusjon og utvekslingsmekanisme",
+      "accept": "Regler for å konvertere poeng til tokens implementert; Risikokontroll/overholdelse sjekker bestått"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "hero": {
+    "headline": "moonpacket gaat de lucht in!",
+    "subheadline": "Telegram TON, meme, USDT red packet actie｜De beste red packet bot voor meme-projecten en Telegram-groepbeheerders om nieuwe gebruikers aan te trekken en betrokkenheid te verhogen.",
+    "cta_primary": "Activeer moonpacket",
+    "cta_secondary": "Hoe te Integreren"
+  },
+  "metrics": {
+    "title": "Tokens en Statistieken",
+    "connected_groups": "Verbonden Groepen",
+    "total_packets_sent": "red packet verzonden",
+    "total_claimed": "Totaal Bedrag Verzameld (USDT)",
+    "data_stale": "Gegevens kunnen verouderd zijn"
+  }
+}

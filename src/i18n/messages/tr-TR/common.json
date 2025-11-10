@@ -1,0 +1,377 @@
+{
+  "site": {
+    "title": "moonpacket — basit, hızlı ve güvenli kripto red paketleri",
+    "description": "Kripto para kullanarak red paketleri gönderin ve fiyatları ve göstergeleri SEO dostu statik sayfalarda görüntüleyin."
+  },
+  "nav": {
+    "home": "Ana Sayfa",
+    "about": "Hakkında",
+    "pricing": "Fiyatlandırma",
+    "team": "Ekip",
+    "blog": "Blog",
+    "faq": "Sık Sorulan Sorular",
+    "contact": "İletişim",
+    "careers": "İşe Alım",
+    "claim": "Kırmızı Paketi Talep Et",
+    "send": "Kırmızı Paket Gönder",
+    "api": "API Dokümantasyonu"
+  },
+  "hero": {
+    "title": "moonpacket aya fırlıyor!",
+    "subtitle": "Telegram TON, meme, USDT red packet kapmaca｜Kullanıcı kazanımını ve etkileşimi artırmak için meme coin projeleri ve Telegram grup sahipleri için tasarlanmış bir red packet botu.",
+    "desc": "Kullanıcı kazanımını ve etkileşimi artırmak için meme coin projeleri ve Telegram grup sahipleri için tasarlanmış bir red packet botu.",
+    "ctaPrimaryLabel": "moonpacket'ı aktif hale getir",
+    "ctaPrimaryHref": "https://t.me/MoonPackageDevBot",
+    "ctaSecondaryLabel": "Nasıl Entegre Edilir",
+    "ctaSecondaryHref": "/zh-TW/integration"
+  },
+  "features": {
+    "f1": "Hızlı Kurulum",
+    "f2": "Küresel Yerelleştirme",
+    "f3": "Merkeziyetsiz Güvenlik"
+  },
+  "metrics": {
+    "heading": "Gerçek Zamanlı Göstergeler",
+    "price_btc": "BTC Fiyatı",
+    "total_sent": "Gönderilen Toplam Kırmızı Paket Sayısı",
+    "total_claimed_amount": "Toplam Talep Edilen Miktar (USDT)",
+    "title": "moonpacket Verisi",
+    "groups": "Grup",
+    "groupsLinkLabel": "Katıldığınız red packet Grupları",
+    "sent": "Gönderildi",
+    "claimed": "Talep Edildi (USDT)",
+    "sort": {
+      "latest": "Son",
+      "oldest": "En Yaşlı",
+      "most": "Maksimum Katılımcılar",
+      "least": "Minimum Katılımcılar"
+    }
+  },
+  "cta": {
+    "primary": "Başlayın",
+    "secondary": "Daha Fazla Bilgi Edinin",
+    "banner": "Topluluğunuzu daha aktif hale getirmeye hazır mısınız?"
+  },
+  "footer": {
+    "rights": "Tüm Hakları Saklıdır.",
+    "privacy": "Gizlilik Hakları",
+    "terms": "Hizmet Şartları",
+    "social": {
+      "telegram_group": "Telegram Grubu",
+      "telegram_channel": "Telegram Kanalı",
+      "x": "X",
+      "youtube": "YouTube"
+    }
+  },
+  "features_desc": {
+    "f1": "Minimum Adımlarla Hızlı Başlangıç",
+    "f2": "34 Yerel Dil ve RTL Desteği Dahil",
+    "f3": "Gizliliği Gözeten Merkeziyetsiz"
+  },
+  "sections": {
+    "features_heading": "Özellik Vurguları",
+    "features_subtitle": "Alabilirsiniz",
+    "tokens_heading": "Tokenlar ve istatistikler",
+    "testimonials_heading": "Kullanıcıların söyledikleri",
+    "pricing_heading": "Planlar ve Fiyatlandırma",
+    "waterfall_title": "Gerçek zamanlı red packet kayıtları"
+  },
+  "tokens": {
+    "columns": {
+      "token": "Token",
+      "price": "Fiyat",
+      "h24": "24 saat",
+      "d7": "7 gün",
+      "market_cap": "Piyasa Değeri"
+    }
+  },
+  "testimonials": {
+    "q1": "Çok dilli lansman çok hızlı ve basit.",
+    "a1": "Jane, Ürün Yöneticisi",
+    "q2": "Neredeyse hiç JS gerekmiyor ve SEO dostu.",
+    "a2": "Mike, SEO",
+    "q3": "Erişilebilirlik ve yerelleştirme varsayılanları oldukça kapsamlıdır.",
+    "a3": "Sara, Tasarımcı"
+  },
+  "pricing": {
+    "starter": "Başlarken",
+    "pro": "Profesyonel",
+    "enterprise": "Kurumsal",
+    "price_free": "Ücretsiz",
+    "price_19": "$19",
+    "price_contact": "Bizimle İletişime Geçin",
+    "bullets": {
+      "starter": {
+        "0": "Temel Özellikler",
+        "1": "Topluluk Desteği"
+      },
+      "pro": {
+        "0": "Temel Plan",
+        "1": "Gelişmiş Yerelleştirme"
+      },
+      "enterprise": {
+        "0": "SLA ve Destek",
+        "1": "Özel Entegrasyon"
+      }
+    }
+  },
+  "form": {
+    "your_email": "E-posta Adresiniz",
+    "message": "Mesaj",
+    "send": "Gönder"
+  },
+  "errors": {
+    "not_found": "Sayfa Bulunamadı",
+    "stale": "Veri geçici olarak kullanılamıyor"
+  },
+  "claim": {
+    "title": "Kırmızı Paket Alım Hakkında",
+    "faq": {
+      "section_1": "Başlangıç ve Uygunluk",
+      "section_2": "Etkinlik Kuralları ve Adalet",
+      "section_3": "Talep Süreci ve Görevler",
+      "section_4": "Tutarlar, Bakiyeler ve Çekimler",
+      "section_5": "Risk Kontrolü ve Kısıtlamalar",
+      "section_6": "Zamanlama ve Bildirimler",
+      "section_7": "Çok Dilli ve Bölgesel Farklılıklar",
+      "section_8": "Cihazlar ve Uyumluluk",
+      "section_9": "Gizlilik ve Güvenlik",
+      "section_10": "Müşteri Hizmetleri ve Şikayetler",
+      "section_11": "Diğer Oyunlar ve Bilgi",
+      "q1": "Nasıl kayıt olabilirim?",
+      "a1": "Bağlantıyı kullanarak botumuzu otomatik deneyim kaydı için etkinleştirin. moonpacket, grup sahiplerinin gruplarına entegre etmelerine olanak tanır. Oyuncular, resmi grup dışında moonpacket kırmızı paket botuna bağlı tüm gruplarda da kırmızı paket alabilirler.",
+      "q2": "Ne yüklemem veya devre dışı bırakmam gerekiyor?",
+      "a2": "Ekstra uygulamalar yüklemenize gerek yoktur; en son Telegram sürümünü kullanmanız önerilir. Sistem tarayıcısında WebApp'i açıyorsanız, lütfen çerezlerin/depolamanın engellenmediğinden emin olun.",
+      "q3": "Kimler katılabilir?",
+      "a3": "Genelde tüm Telegram kullanıcıları katılma hakkına sahiptir; ancak her grubun API tasarımı farklıdır ve o grup veya kanalın kurallarına uymalısınız. Belirli bölgelerin internet kısıtlamaları olabilir veya bazı etkinlikler bölgesel/yaş sınırlamaları belirleyebilir ve sistem, uygun olmayan katılımcıları otomatik olarak belirleyip tazminat talebinde bulunmalarını engelleyecektir.",
+      "q4": "Birden fazla hesap veya cihazla talep edebilir miyim?",
+      "a4": "Hayır. Sistem, kullanıcıların tekrar taleplerde bulunmasını engelleyecek ve Telegram hesabı + bağlı Gmail, doğrulama kodu, benzersiz cüzdan adresi ve arka planda anormal taramalar kullanacaktır; ihlaller risk kontrolünü tetikleyebilir ve hesap askıya alınabilir.",
+      "q5": "Kırmızı paketler rastgele mi yoksa eşit mi dağıtılıyor?",
+      "a5": "Grup veya kanal proje etkinlikleri 'rastgele', 'eşit dağılım' veya 'belirtilen' seçeneklerini seçebilir. Her grubun kuralları farklıdır, lütfen her grubun etkinlik açıklama bilgilerindeki işaretlere bakın.",
+      "q6": "Adalet nasıl sağlanıyor? Kırmızı paket sonuçlarımı orada kontrol edebilir miyim?",
+      "a6": "moonpacket yalnızca red packet sağlar; red packet sistemi, çeşitli platform operatörleri ile yatırım veya ticaret ilişkisi bulunmayan yardımcı bir bot aracıdır. Bu nedenle, dağıtımda mutlak adalet sağlamak herkesin ihtiyaçlarını karşılamak için tek yoldur. Ayrıca, belirli bir süre boyunca sunucu tarafında bir denetim kaydı tutulmaktadır (algoritma ve tohum); kullanıcılar red packet talep etkinliği sona erdikten sonra bot üzerinde talep sonuçlarını kontrol edebilir ve bu sonuç Telegram mini uygulaması başlatıldıktan sonra da sorgulanabilir.",
+      "q7": "Her kişi kaç tane kırmızı paket talep edebilir?",
+      "a7": "Proje tarafı tarafından tasarlanan etkinlik ayarlarına bağlıdır. Bazıları tek seferliktir, bazıları günlük limitlere sahiptir ve 'kişibaşına birden fazla kez' limiti varsa, sistem otomatik olarak kısıtlar ve limitin ulaştığında uyarı verir.",
+      "q8": "Etkinlik erken mi bitecek yoksa ertelenecek mi?",
+      "a8": "Paylar tükendiğinde veya süresi dolduğunda sona erecektir; ya da organizatör anormal riskler nedeniyle askıya alır veya sonlandırırsa, red packet sayfası gerçek zamanlı olarak senkronize edilecektir.",
+      "q9": "Butona bastıktan sonra neden talep edemiyorum?",
+      "a9": "Ortak nedenler: tükendi/tamamlanmamış görev. Bazı durumlarda projeler riskler nedeniyle durdurulabilir veya sonlandırılabilir. Gruplar arasındaki bilgi güncellemelerinde zaman farkı olabileceğinden hemen yansımayabilir; lütfen grubun etkinlik sayfasında red packet bilgilerin en son durumuna dikkat edin.",
+      "q10": "Görev kilidini açma nedir?",
+      "a10": "Talep etmek için belirli koşulları (kanalı takip etmek, gruba katılmak, şifreyi geçmek, harici görevler gibi) tamamlamanız gerekmektedir. Tamamladıktan sonra, kırmızı paket bilgisi gönderisinin butonuna geri dönerek 'kırmızı paketi talep et' seçeneğine tıklayın.",
+      "q11": "Görevi net bir şekilde tamamladım, neden geçmedi olarak görünüyor?",
+      "a11": "Telegram'daki farklı API'lar arasında senkronizasyon gecikmeleri olabilir; hemen geçmezse, lütfen bir süre bekleyin. Eğer geçmeye devam edemezseniz, API sağlayıcısında bir sorun olabilir ve kırmızı paket görevini düzenleyen projeye rapor etmenizi öneririz.",
+      "q12": "Geçiş kelimesini nereden alabilirim? Yanlış girersem ne olur?",
+      "a12": "Şifre genellikle projeler tarafından gönderilerde, canlı yayınlarda veya x üzerindeki videolarda duyurulmaktadır; eğer yanlış girerseniz yeniden deneyebilirsiniz, ancak çok sayıda yanlış deneme oran sınırlamasına neden olabilir.",
+      "q13": "Dışsal görevleri (örneğin, web sitesi kaydı/ticareti) nasıl doğrularım?",
+      "a13": "moonpacket, kullanıcıların görevleri tamamlayıp tamamlamadığını doğrulamak için harici projelere API sağlar. Kullanıcılar kırmızı paketleri talep ettiğinde, şartları karşılarsa açılacak bir doğrulama sonucu döndüren bir API isteği gönderilir; henüz dönmemişse, bekleyebilir ve daha sonra yeniden deneyebilirsiniz.",
+      "q14": "Aldığım miktarı nereden kontrol edebilirim?",
+      "a14": "Başarılı talepler Telegram botu üzerinden iletilecek ve bir kırmızı paket talep kaydı mini uygulamada görüntülenebilir, böylece herhangi bir zamanda tarihçenizi ve mevcut çekilebilir bakiyenizi görebilirsiniz.",
+      "q15": "Hangi varlıklar destekleniyor?",
+      "a15": "Aktivite ayarlarına dayanarak, kırmızı paketler şu anda ana USDT/SOL/ETH/TON ve grup sahibi tarafından verilen token'lara ayrılmıştır. Sayfa, varlık birimlerini ve döviz kurlarını (varsa) belirtecektir.",
+      "q16": "Çekim için hangi bilgilerin bağlanması gerekiyor? Ne kadar sürer?",
+      "a16": "Güvenlik amacıyla cüzdan adresinizi ve temel kimlik bilgilerinizi sağlamanız gerekmektedir; varış süresi genellikle T+0'dan T+2 çalışma günü arasındadır. Anormal risk kontrolü sırasında bu süre uzayabilir.",
+      "q17": "İşlem ücreti/Gas'ı kim öder?",
+      "a17": "Her zincir üzerindeki işlem bir gaz ücreti gerektirir; bu ücret blockchain tarafından alınır ve moonpacket ekstra ücret talep etmez.",
+      "q18": "Bakiyemi arkadaşlarıma transfer edebilir miyim yoksa birleştirebilir miyim?",
+      "a18": "Aktarma/birleştirme' yöntemi sağlanmamıştır.",
+      "q19": "Neden şüpheli veya engellenmiş olarak değerlendirildi?",
+      "a19": "Olası nedenler arasında aynı cihazda birden fazla hesap, anormal proxy/VPN'ler, birçok grupta kırmızı paket alımında aşırı yüksek frekans, kara liste bölgeleri/ASN vb. yer almaktadır. /report mesaj içeriğini botuna gönderebilirsiniz; bu, tek yönlü bir yanıt kanalındır ve resmi, hesap yasaklarıyla ilgili açıklama yapma veya yanıt verme hakkını saklı tutar.",
+      "q20": "KYC doğrulamasından (doğrulama kodu) geçmem gerekiyor mu?",
+      "a20": "Yüksek riskli durumlarda, doğrulama kullanıcılar tarafından sağlanan bilgilere dayanarak yapılacaktır; lütfen çekim esnasında doğru güvenlik bilgilerini doldurduğunuzdan emin olun; yanlış bilgi verilmemesi durumunda biyometrik ve belge KYC'sini geçemezsiniz.",
+      "q21": "Hesabım kısıtlanırsa ne yapmalıyım?",
+      "a21": "Kısıtlamalar genellikle geçici koruyucu önlemlerdir. /report mesaj içeriğini botuna göndermenizi istiyoruz. Güvenlik bilgilerini doldurmamış doğrulayıcılar tarafından oluşturulan sorular işleme alınmayacaktır; doğrulama tamamlandıktan sonra durum normalleşirse, konuyu ele alacağız.",
+      "q22": "Her red packet etkinliği ne zaman başlar ve biter?",
+      "a22": "Kırmızı paket veren her projede farklı koşullar bulunmaktadır, lütfen kırmızı paket bilgilerini takip ederken zaman ve kalan kotalara dikkat edin; kırmızı paketleri almak için zamanında bildirim almak üzere Telegram bildirimlerini etkinleştirebilir veya özel bildirim sesleri ayarlayabilirsiniz.",
+      "q23": "Çekim alırken veya tamamlandığında bildirimleri açıp kapatabilir miyim?",
+      "a23": "Bu, Telegram'daki ayarınızdır, moonpacket ayarı değildir; Telegram ayarlarınızda bildirimleri ayarlayabilirsiniz.",
+      "q24": "Neden belirli çekim yöntemlerini veya özelliklerini göremiyorum?",
+      "a24": "Bazı bölgelerdeki politikalar uygulanamaz, sistem otomatik olarak gizleyecek veya çekimleri engelleyecek, bu da o bölgenin şu anda katılıma destek vermediği anlamına gelir.",
+      "q25": "Dijital format kaç ondalık basamak gösterecek?",
+      "a25": "Web sitesi, dilinize göre yerelleştirilmiş binlik ayırıcılar ve ondalık yerleri otomatik olarak uygulayacaktır.",
+      "q26": "iOS, Android ve masaüstü Telegram'da kullanılabilir mi?",
+      "a26": "Evet, en son Telegram sürümünü kullanmanız önerilir. Okunamaz durumlarla karşılaşırsanız, lütfen resmi istemcinin kullanılıp kullanılmadığını kontrol edin veya uygulamanızı güncelleyin, ya da mini uygulama sayfasının sağ üst köşesindeki üç nokta ile sayfayı yeniden yüklemek için tıklayın.",
+      "q27": "Cihaz değiştirmek alma işlemini etkiler mi?",
+      "a27": "Kayıtları etkilemeyecek, ancak kısa bir süre içinde birden fazla cihazda tekrar eden işlemler risk kontrolünü tetikleyebilir.",
+      "q28": "VPN/proxy kullanmanın herhangi bir etkisi olacak mı?",
+      "a28": "Yüksek riskli bir proxy kullanıyorsanız, yakalanabilir. Proxy'yi geçici olarak devre dışı bırakmanızı veya temiz bir ağ ortamına geçmenizi ve tekrar denemenizi öneririz.",
+      "q29": "Hangi veriler toplanacak?",
+      "a29": "Minimum veri toplama ilkesine uyun: yalnızca dağıtım/çekim/risk kontrolü için gerekli verileri toplayın (kişisel güvenlik soruları, cüzdan adresleri, e-posta, Telegram ID gibi). Gerekli kimlik doğrulaması gerektiğinde, kullanıcıların özel verilerini saklamayan bir üçüncü taraf doğrulama platformu üzerinden doğrulama yapacağız.",
+      "q30": "Fon güvenliğini sağlamak için hangi önlemler var?",
+      "a30": "Tüm kritik işlemler ikinci bir doğrulama gerektirecektir; yüksek riskli çekimler manuel incelemeyi tetikleyebilir.",
+      "q31": "Hesabımı veya verilerimi silebilir miyim?",
+      "a31": "Hesap silindiğinde artık giriş yapamazsınız, ancak işlem verileri yasal gereklilikler doğrultusunda saklanacaktır; veri erişim veya silme talebinde bulunabilirsiniz.",
+      "q32": "Bir sorunla karşılaştığımda kiminle iletişime geçmeliyim?",
+      "a32": "Hata kodları ve ekran görüntüleri sağlamak, süreci hızlandırabilir; bot aracılığıyla bilgi göndererek bizimle iletişime geçebilirsiniz.",
+      "q33": "Şikayet için yanıt almak ne kadar sürer?",
+      "a33": "Genel olarak, yanıtlar 1-3 iş günü içinde verilir; acil fonla ilgili durumlar önceliklidir.",
+      "q34": "Birden fazla grupta etkinliklere katılabilir miyim?",
+      "a34": "Evet; her etkinliğin bağımsız kuralları vardır, lütfen her olayın sınırlarına ve geçerlilik süresine dikkat edin.",
+      "q35": "Bir liderlik tablosu veya rozetler olacak mı?",
+      "a35": "Bazı etkinliklerde sıralamalar/rozetler ve çekilişler olabilir; kurallar ve ödüller için etkinlik sayfasına bakın."
+    }
+  },
+  "send": {
+    "title": "Sıkça Sorulan Sorular (SSS Ayrıntılı Versiyonu) — Red Paketleri Gönderme (Organizatör)",
+    "hero": {
+      "api_demo_label": "API Demonstrasyonu",
+      "api_get": "GET [api_url]?api_key=[api_key]&user_id=[user_id]",
+      "response_label": "Dönüş:",
+      "json": {
+        "0": "{",
+        "1": "\"data\": {",
+        "2": "\"level\": 100,",
+        "3": "\"status\": \"active\",",
+        "4": "\"is_blacklist\": false",
+        "5": "}",
+        "6": "}"
+      },
+      "title": "Yeni kullanıcılar edinin, etkinliği artırın",
+      "lead": "Proje tarafı belirli koşulları ayarlayabilir:",
+      "points": {
+        "0": "• Gruba katılın/kanalı takip edin",
+        "1": "• Şifreyi doğru bir şekilde kullanın",
+        "2": "• Özel API uygulaması"
+      },
+      "note": "Yalnızca koşulları karşılayan kullanıcılar red paketleri alabilir"
+    },
+    "faq": {
+      "section_1": "Başla ve Ayarlar",
+      "section_2": "Yayınlama Kuralları ve Adalet",
+      "section_3": "Görevler ve Koşullar",
+      "section_4": "Varlıklar, Maruz Kalma ve İflas",
+      "q1": "Nasıl başlayabilirim?",
+      "a1": "Lütfen moonpacket botunu Telegram grubunuza veya kanalınıza ekleyin ve yönetici olarak ayarlayın. En azından: gönderim, kendi gönderilerini düzenleme/silme izinlerini etkinleştirdiğinizden emin olun. Tamamladıktan sonra, moonpacket 'red packet Gönder' sayfasına dönün ve 'Gönder' listesinde bağlı grupları/kanalları göreceksiniz.",
+      "q2": "Gönderim yapmadan önce nelere dikkat etmeliyim?",
+      "a2": "Lütfen önce göndermek istediğiniz varlıkları yatırın (örneğin, denemek için 10 USDT yatırın). Ana akım tokenları (USDT/TON vb.) veya kendi meme coinlerinizi gönderebilirsiniz. Ana akım tokenlar, ana sayfa akışında ayrıca görünecektir, meme coinler ise yalnızca topluluğunuz içinde gösterilecektir.",
+      "q3": "Nereye göndereceğimi seçebilir miyim?",
+      "a3": "Gönderim Hedefleri' kısmında, aynı anda tek veya çoklu gruplara göndermek için bağlı grupları/kanalları kontrol edin. Eğer listede görmüyorsanız, lütfen botun grup/kanalın yöneticisi olduğunu ve gerekli izinlere sahip olduğunu doğrulayın.",
+      "q4": "Hangi dağıtım modelleri mevcut?",
+      "a4": "Rastgele (şans) veya sabit miktar (eşit dağıtım) seçebilirsiniz. Her ikisi de toplam miktarı, pay sayısını ve kişi başı sınırı ayarlayabilir ve geçerlilik süresi veya planlı yayın ekleyebilirsiniz.",
+      "q5": "Hepsini bir seferde mi yoksa partiler halinde mi gönderebilirim?",
+      "a5": "Evet. Belirli bir süre içinde bir defaya mahsus tam salınım veya toplu salınım ayarlayabilirsiniz; geri sayım ve önizleme mesajları da desteklenmektedir.",
+      "q6": "Bakiye yetersizse ne olur?",
+      "a6": "Sistem, mevcut bakiyenize dayanmaktadır. Eğer bakiye yetersizse, aşırı harcamayı önlemek için sizi bakiye yüklemeye davet eden bir hata bildirimi gönderilecektir.",
+      "q7": "Adalet nasıl sağlanıyor?",
+      "a7": "Dağıtım, sunucu tarafında gerçekleştirilir ve denetim kayıtlarını tutar (algoritma ve tohum, işlem günlüğü). Kurallar, paylar, sınırlar ve nihai sonuçlar, izlenebilirlik için etkinlik sayfasında kamuya açık olarak gösterilecektir.",
+      "q8": "Almak için bir gruba katılmayı veya bir kanalı takip etmeyi talep edebilir miyim?",
+      "a8": "Evet. 'Belirli bir gruba katılma/belirli bir kanalı takip etme' yerleşik şartını etkinleştirebilirsiniz. Ön koşul, botunuzun o grup/kanalda bulunması ve üye durumunu doğrulamak için gönderi yapma ve kendi gönderilerini düzenleme/silme izinlerine sahip olmasıdır.",
+      "q9": "Geçiş ifadesi nedir? Hangi senaryolar için uygundur?",
+      "a9": "Oyuncular, şifreyi dış kanallardan elde etmelidir ve doğru olarak girdiğinde talep edebilir. Yaygın uygulamalar arasında: tam izleme teşviki için 6 haneli şifreyi uzun YouTube videolarında bölmek; X.com (Twitter) paylaşımlarında veya Threads'de şifreyi ipucu olarak vermek; katılımcıları yönlendirmek için şifreyi yalnızca canlı yayınlarda sözlü olarak duyurmak; yararların yalnızca temel üyelere verilmesini sağlamak için özel/ücretli gruplarda özel şifreler vermek bulunmaktadır.",
+      "q10": "Kendi API'mi uygunluğu belirlemek için kullanabilir miyim?",
+      "a10": "Evet. moonpacket, kullanıcılar talep etmeden önce doğrulama için sağladığınız okunabilir API'yi çağıracaktır. Arka uç sadece api_url ve api_key ayarlamak zorundadır (alan izinleri isteğe bağlı olarak yapılandırılabilir).",
+      "q11": "Ana akım coinler ile meme coinler arasındaki görünürlük farkı nedir?",
+      "a11": "Ana akım coinler (USDT/TON vb.) grup içinde ve ayrıca ana sayfa akışında daha yüksek görünürlük için gösterilecektir; meme coinler yalnızca kendi grubunuzda gösterilecektir.",
+      "q12": "Sahteciliği ve toplu makineleri nasıl önlerim?",
+      "a12": "Davranış sıklığı ve cihaz/IP tespiti, hesaplar ve cüzdanlar için benzersiz bağlama, çekim doğrulama kodu, AI risk kontrolü ilk incelemesi dahil; gerekirse, üçüncü taraf biyometrik + yüz + kimlik doğrulama yapılacaktır.",
+      "q13": "Gönderdiğim kayıtları ve alıcı sayısını nereden görebilirim?",
+      "a13": "Lütfen kişisel ana sayfanızdaki 'Gönderdiğim Red Paketleri' kısmını kontrol ederek her oturum için talep edenlerin sayısını, kalan payları ve toplam tüketilen miktarı görün; etkinleştirildiyse, raporları da indirebilirsiniz."
+    }
+  },
+  "groups_directory": {
+    "latest_tab": "Son red packet Grupları",
+    "hot_tab": "Popüler red packet Grupları",
+    "search_placeholder": "Katıldığınız gruplar için anahtar kelimeleri arayın"
+  },
+  "a11y": {
+    "skip_to_main": "Ana İçeriğe Atlama",
+    "language_menu": "Dil Menüsü",
+    "language": "Dil"
+  },
+  "waterfall": {
+    "sent_from": "Gönderim Grubu:",
+    "claimed": "Talep Et",
+    "total": "Toplam Tutar",
+    "progress": "Talep Edildi"
+  },
+  "terms": {
+    "title": "Kullanıcı Şartları",
+    "version": "v1.0.0",
+    "updated": "5 Ekim 2025 15:00:00 GMT+0800 (Taipei Standart Saati)",
+    "owner": "moonpacket-core",
+    "sections": {
+      "scope": "Uygulama Kapsamı ve Sözleşme Oluşumu",
+      "definitions": "Tanım",
+      "eligibility": "Nitelikler ve Hesaplar",
+      "services": "Hizmet İçeriği",
+      "wallet": "Bulut Cüzdanı ve Fonlar",
+      "fees": "Ücretler ve Faturalama",
+      "rules": "Etkinlik Kuralları ve Adillik",
+      "restrictions": "Anti-Bot ve Kullanım Kısıtlamaları",
+      "ip": "İçerik ve Fikri Mülkiyet Hakları",
+      "third_party": "Üçüncü Şahıs Hizmetleri",
+      "data": "Veri ve gizlilik",
+      "risks": "Risk Açıklaması",
+      "disclaimer": "Feragatname",
+      "liability": "Sorumluluğun Sınırlandırılması",
+      "indemnity": "Tazminat",
+      "termination": "Asılma, Fesih ve Silme",
+      "force_majeure": "Mücbir Sebep",
+      "high_risk": "Yasaklı Yüksek Riskli Kullanımlar",
+      "tax": "Vergiler ve Raporlama",
+      "third_party_services": "Üçüncü Şahıs Hizmetleri ve İlişki Açıklamaları",
+      "wallet_assets": "Cüzdan ve Varlık Açıklamaları",
+      "accuracy": "İçerik ve verilerin doğruluğu",
+      "governing_law": "Geçerli Hukuk ve Uyuşmazlık Çözümü",
+      "contact": "İletişim bilgileri"
+    }
+  },
+  "privacy": {
+    "title": "Gizlilik Politikası",
+    "version": "v1.1.0",
+    "updated": "5 Ekim 2025, Pazar 15:00:00 GMT+0800 (Taipei Standart Zamanı)",
+    "owner": "moonpacket-core",
+    "sections": {
+      "intro": "Giriş",
+      "definitions": "Tanımlar",
+      "scope": "Uygulama kapsamı",
+      "data_collection": "Topladığımız veriler",
+      "data_usage": "Kullanımımız",
+      "legal_basis": "Düzenleyici dayanak",
+      "cookies": "Çerezler ve yerel depolama",
+      "data_sharing": "Veri paylaşım alıcıları",
+      "cross_border": "Sınır ötesi transfer",
+      "retention": "Saklama süresi",
+      "security": "Güvenlik",
+      "blockchain": "Blok zinciri özelliklerinin tanımı",
+      "telegram": "Telegram platform beyanı",
+      "minors": "Çocuklarla ilgili düzenlemeler",
+      "rights": "Haklarınız ve bunları nasıl kullanacağınız",
+      "faq": "Sıkça Sorulan Sorular (Gizlilik ve Güvenlik)",
+      "updates": "Şartlar Güncellemesi",
+      "contact": "İletişim bilgileri"
+    },
+    "faq": {
+      "q1": "Hangi verileri topluyoruz?",
+      "a1": "red packet gönderimi ve alımı, görev doğrulaması, bulut cüzdanı ve para çekme işlemleri için gerekli bilgileri sağlayacağız; gereken durumlarda Telegram bilgileri, cihaz ve ağ ölçümleri, etkileşim olayları ile KYC ve cüzdan bilgileri dahil olacaktır.",
+      "q2": "Fonlarım güvende mi?",
+      "a2": "Fonlar ve operasyon hesapları ayrıdır, hassas işlemler iki faktörlü kimlik doğrulama gerektirir ve tüm finansal olaylar kaydedilecektir; yüksek riskli para çekme işlemleri manuel olarak incelenecektir.",
+      "q3": "Verilerimi silebilir miyim?",
+      "a3": "Yasaya uygun olarak verilerinizi silme veya kısıtlama talep edebilirsiniz; yasalarca saklanması gereken muhasebe veya uyuşmazlıkla ilgili veriler bu kısıtlamaya tabi değildir ve daha sonra silinecek veya anonim hale getirilecektir.",
+      "q4": "Bölge kısıtlamaları ve görünen içerik eşleşmiyor mu?",
+      "a4": "Uyum politikalarına göre, bazı özellikler veya para çekme yöntemleri bölgesel kısıtlamalar nedeniyle mevcut olmayabilir ve sistem, uygulanabilir olmayan seçenekleri otomatik olarak gizleyecektir.",
+      "q5": "Neden şüpheli olarak değerlendirildi?",
+      "a5": "Proxy/VPN, alışılmadık sıklık veya birden fazla hesapla aynı anda giriş yapılması nedeniyle sorunlar ortaya çıkabilir; daha sonra tekrar deneyebilir veya inceleme için itiraz sürecine girebilirsiniz."
+    }
+  },
+  "roadmap": {
+    "accept": "Kabul Kriterleri",
+    "bucket": {
+      "progress": "İlerleme"
+    },
+    "lanes": {
+      "build": "Ürün Oluştur",
+      "growth": "Büyüme",
+      "token": "moonini token",
+      "trust": "Güven, Uyum ve Güvenlik"
+    },
+    "progressLabel": "Durum",
+    "status": {
+      "live": "Canlı",
+      "planned": "Planlı",
+      "research": "Araştırma Aşamasında",
+      "shipping": "Geliştirme Aşamasında"
+    },
+    "title": "Ürün Yol Haritası",
+    "updated": "Güncelleme (Token'lar ilerleme çubuğu dolduktan sonra dağıtılacaktır)"
+  }
+}

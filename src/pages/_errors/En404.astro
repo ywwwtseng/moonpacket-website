@@ -1,0 +1,57 @@
+---
+const redirectTo = '/en-US/';
+const seconds = 3;
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Page Not Found · moonpacket</title>
+    <meta name="robots" content="noindex,nofollow" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script is:inline define:vars={{ seconds, redirectTo }}>
+      let left = seconds;
+      const target = redirectTo;
+      function tick(){
+        const el = document.getElementById('count');
+        if (el) el.textContent = String(left);
+        if (left-- <= 0) location.replace(target);
+        else setTimeout(tick, 1000);
+      }
+      setTimeout(tick, 1000);
+    </script>
+    <style>
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      body { font-family: 'Inter', system-ui, sans-serif; background: #0b1220; color: #e6edf3; }
+      .wrap{min-height:100dvh;display:grid;place-items:center;padding:2rem}
+      .card{max-width:42rem;width:100%;padding:2rem;border-radius:1rem;background:rgba(255,255,255,.06);backdrop-filter:saturate(1.2) blur(6px);box-shadow:0 8px 30px rgba(0,0,0,.2)}
+      h1{margin:0 0 .5rem;font-size:1.75rem; font-weight: 600; }
+      p{opacity:.85;line-height:1.7; margin-bottom: 0.75rem; }
+      .actions{display:flex;gap:.75rem;margin-top:1.25rem;flex-wrap:wrap}
+      .btn{padding:.6rem .9rem;border-radius:.75rem;border:1px solid rgba(255,255,255,.15);text-decoration:none; font-size: 0.95rem; display: inline-flex; align-items: center; transition: all 0.2s;}
+      .btn:hover { opacity: 0.8; transform: translateY(-1px); }
+      .btn.primary{background:#E32521;color:#fff;border:none}
+      #count { font-weight: 600; color: #FFBA00; }
+      @media(prefers-color-scheme:light){
+        body { background: #ffffff; color: #0c1e3a; }
+        .card{background:#fff;box-shadow:0 8px 30px rgba(0,0,0,.06); border: 1px solid #e5e7eb;}
+        .btn{border-color:#e5e7eb}
+        .btn.primary{background:#E32521;color:#fff}
+      }
+    </style>
+  </head>
+  <body>
+    <main class="wrap">
+      <section class="card">
+        <h1>404 · Page Not Found</h1>
+        <p>Sorry, the page doesn't exist or is not ready yet.</p>
+        <p>Auto redirect to English home in <span id="count">{seconds}</span>s.</p>
+        <div class="actions">
+          <a class="btn" href="javascript:history.back()">Go Back</a>
+          <a class="btn primary" href={redirectTo}>Go to English Home</a>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
+

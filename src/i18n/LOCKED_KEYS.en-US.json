@@ -1,0 +1,18 @@
+{
+  "privacy": [
+    "sections",
+    "legal_basis",
+    "retention",
+    "security",
+    "rights",
+    "appeals",
+    "liability"
+  ],
+  "claim": [
+    "faq"
+  ],
+  "send": [
+    "faq"
+  ]
+}
+

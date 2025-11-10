@@ -1,0 +1,101 @@
+{
+  "illustration_alt": "moonini abraça a ilustração",
+  "title": "🌕 A História de moonini",
+  "origin": [
+    "Um dia, um meteoro vermelho caiu no lado distante da lua,",
+    "A luz da lua irrompeu na colisão, transformando-se em um chuveiro de luz prata-branca.",
+    "Daquele 'meteoro de Pacote Vermelho' piscante,",
+    "Um pequeno coelho da lua brilhante nasceu — moonini.",
+    "",
+    "moonini usa um emblema de lua dourada amarela no peito.",
+    "Ele pode sentir cada Pacote Vermelho enviado da Terra.",
+    "Não importa o valor, é a energia mais pura e acolhedora.",
+    "Sim, moonini cresce graças à energia dos Pacotes Vermelhos de todos.",
+    "",
+    "Essas energias se transformaram em credenciais de Pacote Vermelho nascidas na cadeia Solana —",
+    "Essa é a origem do Token $moonini."
+  ],
+  "secrets_title": "🌸 Seu Segredo",
+  "secrets_intro": "Cada vez que você enviar um pacote vermelho, moonini registrará uma entrada de energia na lua:",
+  "secrets_flow": "Envie pacote vermelho → Produza valor correspondente de energia (convertido em valor USDT) → Acumule para 10 → Atinga o valor mínimo resgatável de $moonini.",
+  "secrets_halving": [
+    "Na fase inicial (Fase 1), moonini retornará geralmente na melhor razão de 1:1 para o remetente do pacote vermelho. Para manter a equidade e reduzir o risco de wash/ping-pong, introduziremos o conceito de energia efetiva.",
+    "Quando os totais enviados e retirados da comunidade atingirem o limite de halving definido pelo sistema, o primeiro halving ocorrerá; depois disso, alcançar metade do valor da fase anterior acionará outro halving."
+  ],
+  "schedule_title": "Regras de Liberação de Token",
+  "schedule_headers": [
+    "Estágio",
+    "Limite de Emissão",
+    "Taxa de Saída (energia produzida por 1 USDT acumulado)",
+    "Descrição"
+  ],
+  "schedule_rows": [
+    [
+      "Phase 1",
+      "0 ~ 4.5 billion",
+      "1.0 $MOONINI / USDT",
+      "Initial period, energy overflow."
+    ],
+    [
+      "Phase 2",
+      "4.5B ~ 6.75B",
+      "0.5 $MOONINI / USDT",
+      "First halving."
+    ],
+    [
+      "Phase 3",
+      "6.75B ~ 7.875B",
+      "0.25 $MOONINI / USDT",
+      "Stabilization period."
+    ],
+    [
+      "Phase 4",
+      "7.875B ~ 8.4375B",
+      "0.125 $MOONINI / USDT",
+      "Scarcity period."
+    ],
+    [
+      "Phase 5",
+      "8.4375B ~ 8.71875B",
+      "0.0625 $MOONINI / USDT",
+      "Late mining phase."
+    ],
+    [
+      "Phase 6",
+      "8.71875B ~ 9B",
+      "0.03125 $MOONINI / USDT",
+      "Crystallization period (final phase)."
+    ]
+  ],
+  "cap_note": [
+    "Quando a circulação total atingir 9 bilhões, moonini irá parar de emitir mais.",
+    "Os 1 bilhão restantes (10% do suprimento total),",
+    "Reservado pelo oficial para recompensas futuras da comunidade e uso do pool de energia de colaboração."
+  ],
+  "belief_title": "🌕 A energia da lua e a crença nos Pacotes Vermelhos",
+  "belief_paragraphs": [
+    "moonini ama todos dispostos a 'compartilhar'.",
+    "Ele acredita que os Pacotes Vermelhos não são apenas dinheiro, mas uma troca de bênçãos e energia.",
+    "Toda vez que você enviar um Pacote Vermelho, completar uma tarefa ou entrar na comunidade moonpacket,",
+    "você terá a chance de receber um retorno da lua — $moonini caído aleatoriamente.",
+    "",
+    "Essa é a luz que o universo devolve a você após espalhar alegria."
+  ],
+  "future_title": "💫 Aplicações futuras",
+  "future_intro": "Atualmente, $moonini não está aberto para nenhum cenário oficial de aplicação, mas foi projetado como um credencial de recompensa e energia para o futuro mundo do Pacote Vermelho, possivelmente a ser usado para:",
+  "future_list": [
+    "✅ Descontos em taxas de transação de Pacote Vermelho",
+    "🎁 Vouchers/descontos de resgate de comerciantes",
+    "🌐 Airdrops de eventos e recompensas de tarefas da comunidade"
+  ],
+  "disclaimer_title": "⚠️ Declaração",
+  "disclaimer_paragraphs": [
+    "O oficial não garante qualquer valor de troca em fiat para $moonini.",
+    "Você pode pensar nisso como pontos bônus de uma pessoa generosa.",
+    "Simbolizando todos dispostos a compartilhar felicidade e espalhar energia."
+  ],
+  "closing": [
+    "moonini — o coelho da lua nascido da energia do Pacote Vermelho.",
+    "Toda benção é um raio de luz para seu crescimento."
+  ]
+}

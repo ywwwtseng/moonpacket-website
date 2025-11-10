@@ -1,0 +1,377 @@
+{
+  "site": {
+    "title": "moonpacket — jednoduché, rychlé a zabezpečené kryptoměnové červené obálky",
+    "description": "Odesílejte červené obálky pomocí kryptoměn a zobrazujte ceny a ukazatele na SEO přátelských statických stránkách."
+  },
+  "nav": {
+    "home": "Domů",
+    "about": "O nás",
+    "pricing": "Ceny",
+    "team": "Tým",
+    "blog": "Blog",
+    "faq": "Často kladené otázky",
+    "contact": "Kontaktujte nás",
+    "careers": "Nábor",
+    "claim": "Nárokovat red packet",
+    "send": "Odeslat red packet",
+    "api": "Dokumentace API"
+  },
+  "hero": {
+    "title": "moonpacket vzlétá na měsíc!",
+    "subtitle": "Telegram TON, meme, red packet USDT grab｜Bot pro red packet navržený pro projekty meme coin a vlastníky Telegramových skupin pro zlepšení získávání a zapojení uživatelů.",
+    "desc": "Bot pro red packet navržený pro projekty meme coin a vlastníky Telegramových skupin pro zlepšení získávání a zapojení uživatelů.",
+    "ctaPrimaryLabel": "Aktivujte moonpacket",
+    "ctaPrimaryHref": "https://t.me/MoonPackageDevBot",
+    "ctaSecondaryLabel": "Jak integrovat",
+    "ctaSecondaryHref": "/zh-TW/integration"
+  },
+  "features": {
+    "f1": "Rychlé nastavení",
+    "f2": "Globální lokalizace",
+    "f3": "Decentralizovaná bezpečnost"
+  },
+  "metrics": {
+    "heading": "Indikátory v reálném čase",
+    "price_btc": "Cena BTC",
+    "total_sent": "Celkový počet odeslaných red packetů",
+    "total_claimed_amount": "Celková částka vyplacená (USDT)",
+    "title": "moonpacket Data",
+    "groups": "Skupina",
+    "groupsLinkLabel": "Připojené skupiny red packet",
+    "sent": "Odesláno",
+    "claimed": "Uplatněno (USDT)",
+    "sort": {
+      "latest": "Nejnovější",
+      "oldest": "Nejstarší",
+      "most": "Maximální počet účastníků",
+      "least": "Minimální počet účastníků"
+    }
+  },
+  "cta": {
+    "primary": "Začít",
+    "secondary": "Další informace",
+    "banner": "Jste připraveni zaktivovat svou komunitu?"
+  },
+  "footer": {
+    "rights": "Všechna práva vyhrazena.",
+    "privacy": "Práva na ochranu soukromí",
+    "terms": "Podmínky služby",
+    "social": {
+      "telegram_group": "Telegramová skupina",
+      "telegram_channel": "Telegramový kanál",
+      "x": "X",
+      "youtube": "YouTube"
+    }
+  },
+  "features_desc": {
+    "f1": "Rychlý start s minimálními kroky",
+    "f2": "Vestavěno v 34 jazycích a podpora RTL",
+    "f3": "Decentralizované s ohledem na soukromí"
+  },
+  "sections": {
+    "features_heading": "Hlavní funkce",
+    "features_subtitle": "Můžete obdržet",
+    "tokens_heading": "Tokeny a statistiky",
+    "testimonials_heading": "Co říkají uživatelé",
+    "pricing_heading": "Plány a ceny",
+    "waterfall_title": "Záznamy o red paketech v reálném čase"
+  },
+  "tokens": {
+    "columns": {
+      "token": "Token",
+      "price": "Cena",
+      "h24": "24 hodin",
+      "d7": "7 dní",
+      "market_cap": "Tržní kapitalizace"
+    }
+  },
+  "testimonials": {
+    "q1": "Vícejazyčné spuštění je velmi rychlé a jednoduché.",
+    "a1": "Jane, produktová manažerka",
+    "q2": "Téměř žádný JS není vyžadován a je přátelský k SEO.",
+    "a2": "Mike, SEO",
+    "q3": "Funkce přístupnosti a lokalizace jsou poměrně rozsáhlé.",
+    "a3": "Sara, designérka"
+  },
+  "pricing": {
+    "starter": "Jak začít",
+    "pro": "Profesionální",
+    "enterprise": "Podniková verze",
+    "price_free": "Zdarma",
+    "price_19": "19 USD",
+    "price_contact": "Kontaktujte nás",
+    "bullets": {
+      "starter": {
+        "0": "Základní funkce",
+        "1": "Podpora komunity"
+      },
+      "pro": {
+        "0": "Základní plán",
+        "1": "Pokročilá lokalizace"
+      },
+      "enterprise": {
+        "0": "SLA a podpora",
+        "1": "Vlastní integrace"
+      }
+    }
+  },
+  "form": {
+    "your_email": "Váš e-mail",
+    "message": "Zpráva",
+    "send": "Odeslat"
+  },
+  "errors": {
+    "not_found": "Stránka nebyla nalezena",
+    "stale": "Data dočasně nedostupná"
+  },
+  "claim": {
+    "title": "O přijetí červeného balíčku",
+    "faq": {
+      "section_1": "Začátek a způsobilost",
+      "section_2": "Pravidla akce a spravedlnost",
+      "section_3": "Proces nárokování a úkoly",
+      "section_4": "Částky, zůstatky a výběry",
+      "section_5": "Rizikový management a omezení",
+      "section_6": "Včasnost a oznámení",
+      "section_7": "Vícejazyčné a regionální rozdíly",
+      "section_8": "Zařízení a kompatibilita",
+      "section_9": "Ochrana soukromí a bezpečnost",
+      "section_10": "Zákaznický servis a stížnosti",
+      "section_11": "Ostatní hry a informace",
+      "q1": "Jak se zaregistrovat?",
+      "a1": "Použijte odkaz k aktivaci našeho bota pro automatickou registraci zážitků. moonpacket umožňuje majitelům skupin připojit se do svých skupin. Hráči mohou chytat red packets nejen v naší oficiální skupině, ale také ve všech skupinách spojených s moonpacket red packet botem.",
+      "q2": "Co musím nainstalovat nebo zakázat?",
+      "a2": "Není třeba instalovat další aplikace; doporučuje se používat nejnovější verzi Telegramu. Pokud otevřete WebApp v systémovém prohlížeči, ujistěte se, že cookies/úložiště nejsou blokovány.",
+      "q3": "Kdo se může zúčastnit?",
+      "a3": "Obecně platí, že všichni uživatelé Telegramu mají nárok na účast; každá skupina však má jiný design API a musíte dodržovat pravidla té konkrétní skupiny nebo kanálu. Některé oblasti mohou mít internetová omezení nebo některé akce mohou mít regionální/věkové limity a systém automaticky určí nepravocné účastníky a zabrání jim v nároku.",
+      "q4": "Mohu si nárokovat s více účty nebo zařízeními?",
+      "a4": "Ne. Systém zabraňuje uživatelům v opakovaném nároku pomocí účtu Telegram + svázaného Gmailu, ověřovacího kódu, unikátní adresy peněženky a abnormálních skenů na pozadí; porušení může vyvolat rizikovou kontrolu a vést k pozastavení účtu.",
+      "q5": "Jsou red packety distribuovány náhodně nebo rovnoměrně?",
+      "a5": "Projektové aktivity skupiny nebo kanálu mohou zvolit 'náhodně', 'rovnoměrně', nebo 'určeně'. Pravidla každé skupiny jsou různá, prosím, odkazujte se na označení v popisných informacích o aktivitě každé skupiny.",
+      "q6": "Jak zajišťujete spravedlnost? Mohu si tam zkontrolovat výsledky red packetů?",
+      "a6": "moonpacket pouze poskytuje red pakety; systém red paketů působí jako pomocný nástroj bota, bez investičního nebo obchodního spojení s operátory různých platforem. Proto je zajištění absolutní spravedlnosti v distribuci jediným způsobem, jak vyhovět potřebám všech. Navíc je na serverové straně uchován auditní záznam na určité období (algoritmus a semeno); uživatelé mohou zkontrolovat své výsledky nároku na botovi po skončení aktivity nároku na red packet a tento výsledek lze také dotazovat po spuštění miniapplikace Telegram.",
+      "q7": "Kolik red packetů si může každý člověk nárokovat?",
+      "a7": "Závisí to na nastavení události navrženém projektovou stranou. Některé jsou jednorázové, zatímco jiné mají denní limity, a pokud existuje limit 'vícenásobně na osobu', systém to automaticky omezí a upozorní, když je limit dosažen.",
+      "q8": "Skončí akce brzy, nebo bude odložena?",
+      "a8": "Pokud jsou akcie vybrány nebo vypršely, skončí to; nebo pokud organizátor pozastaví nebo ukončí z důvodu abnormálních rizik, stránka red packet bude synchronizována v reálném čase.",
+      "q9": "Proč si nemohu nárokovat po stisknutí tlačítka?",
+      "a9": "Běžné důvody: vyžádáno/taska nebyla dokončena. V některých případech mohou projekty být pozastaveny nebo ukončeny z důvodu rizik. Vzhledem k časovému prodlení v aktualizace informací mezi skupinami to nemusí být okamžitě zřejmé; prosím, věnujte pozornost nejnovějšímu stavu informací o red paketech na stránce akce zveřejněné skupinou.",
+      "q10": "Co je odemykání úloh?",
+      "a10": "Musíte splnit stanovené podmínky (například sledování kanálu, připojení do skupiny, zadání hesla, externí úkoly), abyste si mohli nárokovat. Po dokončení se vraťte k tlačítku v příspěvku o red packet a 'nárokovat red packet'.",
+      "q11": "Úplně jsem úlohu dokončil, proč se zobrazuje jako neprošlá?",
+      "a11": "Mezi různými API na Telegramu může docházet k zpožděním synchronizace; pokud nedojde k okamžitému přijetí, prosím, počkejte chvíli. Pokud se vám stále nedaří projít, může být problém u poskytovatele API, doporučujeme ho nahlásit projektu, který vydal úkol red packet.",
+      "q12": "Kde mohu získat heslo? Co když jsem ho zadal nesprávně?",
+      "a12": "Heslo bývá obvykle oznámeno projektem v příspěvcích, živých přenosech nebo videích na x; můžete to zkusit znovu, pokud bylo zadáno nesprávně, ale opakované nesprávné pokusy mohou spustit omezení frekvence.",
+      "q13": "Jak ověřit externí úkoly (například registrace na webové stránce/obchodování)?",
+      "a13": "moonpacket poskytuje API pro externí projekty, aby potvrdily, zda uživatelé splnili úkoly. Když uživatelé nárokují red packets, odešle se požadavek na API, které vrátí výsledek ověření; pokud splňuje podmínky, je odemčen; pokud ještě nedorazilo, můžete počkat a restartovat později.",
+      "q14": "Kde mohu zkontrolovat přijatou částku?",
+      "a14": "Úspěšné nároky budou odeslány prostřednictvím Telegram bota a záznam nároku na red packet bude k dispozici v mini aplikaci, což vám umožní kdykoli zobrazit historii a dostupný zůstatek k výběru.",
+      "q15": "Jaké aktiva jsou podporována?",
+      "a15": "Na základě nastavení aktivity jsou red packets aktuálně rozděleny na hlavní USDT/SOL/ETH/TON a tokeny vydané majitelem skupiny. Stránka zobrazí měnové jednotky a směnné kurzy (pokud existují).",
+      "q16": "Jaké informace musí být připojeny pro výběr? Jak dlouho to trvá?",
+      "a16": "Musíte poskytnout adresu své peněženky a základní identifikační informace pro bezpečnostní účely; doba příjezdu obvykle činí T+0 až T+2 pracovní dny. Může být prodloužena během abnormálního rizikového řízení.",
+      "q17": "Kdo nese poplatek za transakci/Gas?",
+      "a17": "Každá on-chain operace vyžaduje poplatek za plyn, který je vybírán samotným blockchainem a moonpacket si neúčtuje nic navíc.",
+      "q18": "Mohu převést svůj zůstatek přátelům nebo ho sloučit?",
+      "a18": "Žádná metoda 'přenosu/sloučení' není poskytována.",
+      "q19": "Proč byl považován za podezřelý nebo zadržený?",
+      "a19": "Možné důvody zahrnují více účtů na stejném zařízení, abnormální proxy/VPN, příliš vysokou frekvenci chytání red packets v několika skupinách, oblasti/ASN na černé listině atd. Můžete poslat obsah zprávy /report botovi; tento kanál je jednosměrný a oficiální si vyhrazuje právo nevysvětlovat ani neodpovídat ohledně zákazů účtů.",
+      "q20": "Musím projít KYC ověřením (ověřovací kód)?",
+      "a20": "V situacích s vysokým rizikem bude ověření založeno na informacích poskytnutých uživateli; ujistěte se, že při výběru jsou vyplněny správné bezpečnostní informace; pokud nejsou poskytnuty správné informace, neprojdete biometrickým a dokumentovým KYC.",
+      "q21": "Co mám dělat, pokud je můj účet omezen?",
+      "a21": "Omezení jsou obvykle dočasná ochranná opatření. Prosím, pošlete obsah zprávy /report botovi. Dotazy vznesené ověřovateli, kteří nevyplnili bezpečnostní informace, nebudou zpracovány; pokud je po dokončení ověření situace normální, postaráme se o to.",
+      "q22": "Kdy začínají a končí jednotlivé akce s red packet?",
+      "a22": "Každý projekt vydávající red packets má jiné podmínky, prosím, věnujte pozornost času a zbývajícím kvótám informací o red packets; můžete aktivovat oznámení Telegramu nebo nastavit konkrétní zvuky upozornění, abyste dostávali včasná upozornění na chytání red packets.",
+      "q23": "Mohu zapnout nebo vypnout oznámení o příjmu nebo dokončení výběrů?",
+      "a23": "Toto je vaše nastavení v Telegramu, nikoli nastavení moonpacket; můžete upravit oznámení ve svých nastaveních Telegramu.",
+      "q24": "Proč nemohu vidět určité metody výběru nebo funkce?",
+      "a24": "Politiky v určitých regionech nejsou použitelné a systém automaticky skryje nebo zabrání výběrům, což naznačuje, že se nemůžete zúčastnit aktivity chytání red packets, protože tento region aktuálně nepodporuje.",
+      "q25": "Kolik desetinných míst bude digitální formát zobrazovat?",
+      "a25": "Webová stránka automaticky použije lokalizované oddělovače tisíců a desetinná místa podle vašeho jazyka.",
+      "q26": "Je to k dispozici na iOS, Androidu a desktopovém Telegramu?",
+      "a26": "Ano, doporučuje se používat nejnovější verzi Telegramu. Pokud narazíte na nečitelnou situaci, prosím, zkontrolujte, zda používáte oficiální klient, nebo aktualizujte aplikaci, nebo klikněte na znovu načíst stránku v třech tečkách v pravém horním rohu stránky mini aplikace.",
+      "q27": "Ovlivní změna zařízení příjem?",
+      "a27": "Nedotkne se to záznamů, ale pokud se opakované operace provádějí na několika zařízeních v krátkém čase, může to vyvolat rizikové řízení.",
+      "q28": "Bude mít použití VPN/proxy nějaké účinky?",
+      "a28": "Pokud používáte vysoce rizikový proxy server, může být zachycen. Doporučujeme dočasně proxy zakázat nebo přepnout na čisté síťové prostředí a zkusit to znovu.",
+      "q29": "Jaká data budou shromažďována?",
+      "a29": "Dodržujte princip minimalizace: shromažďujte pouze data nezbytná pro distribuci/výběr/rizikovou kontrolu (například osobní bezpečnostní otázky, adresy peněženek, e-mail, Telegram ID). Kdykoli je vyžadováno potřebné ověření, ověříme prostřednictvím třetí strany, která neukládá soukromá data uživatelů kromě bezpečnostních informací.",
+      "q30": "Jaká opatření jsou zavedena pro zajištění zabezpečení fondů?",
+      "a30": "Všechny kritické operace vyžadují druhé ověření; vysoce rizikové výběry mohou vyvolat manuální kontrolu.",
+      "q31": "Mohu smazat svůj účet nebo data?",
+      "a31": "Můžete podat žádost o přístup k datům nebo o jejich odstranění podle postupu. Jakmile bude účet smazán, již se nebudete moci přihlásit, ale údaje o transakcích budou uchovány podle požadavků na dodržování.",
+      "q32": "Na koho se mám obrátit, pokud narazím na problém?",
+      "a32": "Můžete nás kontaktovat odesláním/ohlášením informací prostřednictvím bota. Poskytování chybových kódů a snímků obrazovky může urychlit zpracování.",
+      "q33": "Jak dlouho potrvá, než obdržím odpověď na stížnost?",
+      "a33": "Obecně platí, že odpovědi jsou poskytovány do 1-3 pracovních dnů; naléhavé případy související s prostředky budou prioritizovány.",
+      "q34": "Mohu se účastnit aktivit napříč několika skupinami?",
+      "a34": "Ano; každá akce má nezávislá pravidla, prosím, věnujte pozornost limitům a platnosti každé akce.",
+      "q35": "Bude existovat žebříček nebo odznaky?",
+      "a35": "Některé akce mohou mít žebříčky/odznaky a loterie; pro pravidla a odměny se odkazujte na stránku akce."
+    }
+  },
+  "send": {
+    "title": "Často kladené otázky (Detailní verze FAQ) — Odesílání červených obálek (Organizátor)",
+    "hero": {
+      "api_demo_label": "Demonstrační API",
+      "api_get": "GET [api_url]?api_key=[api_key]&user_id=[user_id]",
+      "response_label": "Vrátit:",
+      "json": {
+        "0": "{",
+        "1": "\"data\": {",
+        "2": "\"level\": 100,",
+        "3": "\"status\": \"active\",",
+        "4": "\"is_blacklist\": false",
+        "5": "}",
+        "6": "}"
+      },
+      "title": "Získat nové uživatele, zvýšit aktivitu",
+      "lead": "Strana projektu může stanovit specifické podmínky:",
+      "points": {
+        "0": "• Připojte se do skupiny/sledujte kanál",
+        "1": "• Správně použijte frázi",
+        "2": "• Vlastní implementace API"
+      },
+      "note": "Pouze uživatelé, kteří splňují podmínky, mohou přijímat červené obálky"
+    },
+    "faq": {
+      "section_1": "Start a nastavení",
+      "section_2": "Pravidla publikování a spravedlnost",
+      "section_3": "Úkoly a podmínky",
+      "section_4": "Aktiva, expozice a vyrovnání",
+      "q1": "Jak začít?",
+      "a1": "Prosím, přidejte bota moonpacket do své Telegram skupiny nebo kanálu a nastavte ho jako administrátora. Ujistěte se, že máte povolené minimálně: příspěvky, úpravy/mazání vlastních příspěvků.",
+      "q2": "Na co bych si měl dát pozor před odesláním?",
+      "a2": "Prosím, nejprve vložte aktiva, která chcete vydat (například vložte 10 USDT pro testování). Můžete posílat hlavní tokeny (USDT/TON, atd.) nebo své vlastní meme mince. Hlavní tokeny se navíc zobrazí ve feedu na domovské stránce, zatímco meme mince jsou zobrazeny pouze uvnitř vaší komunity.",
+      "q3": "Mohu si vybrat, kam to poslat?",
+      "a3": "V 'Cílech odeslání' zkontrolujte propojené skupiny/kanály, na které chcete poslat jednorázově nebo na více skupin zároveň. Pokud je nevidíte v seznamu, ujistěte se, že bot je administrátorem skupiny/kanálu a má nezbytná oprávnění.",
+      "q4": "Jaké distribuční modely jsou k dispozici?",
+      "a4": "Můžete si vybrat náhodnou (štěstí) nebo pevnou částku (rovnoměrné rozdělení). Obě možnosti mohou nastavit celkovou částku, počet podílů a strop na osobu a mohou přidat platnost nebo plánované uvolnění.",
+      "q5": "Lze to poslat najednou nebo po dávkách?",
+      "a5": "Ano. Můžete nastavit jednorázové úplné uvolnění nebo dávkové uvolnění v určeném období; také se podporují odpočty a náhledové zprávy.",
+      "q6": "Co se stane, pokud je zůstatek nedostatečný?",
+      "a6": "Systém je založen na vašem dostupném zůstatku. Pokud je zůstatek nedostatečný, bude zaslána výzva k selhání, aby vás požádala o doplnění, abyste se vyhnuli překročení výdajů.",
+      "q7": "Jak je zajištěna spravedlnost?",
+      "a7": "Distribuce se provádí na serverové straně a uchovává auditní záznamy (algoritmus a seed, provozní protokoly). Pravidla, podíly, limity a konečné výsledky budou veřejně zobrazeny na stránce události pro sledovatelnost.",
+      "q8": "Mohu požadovat připojení do skupiny nebo sledování kanálu, abych to obdržel?",
+      "a8": "Ano. Můžete povolit vestavěnou podmínku 'Musíte se připojit k určité skupině/sledovat určitý kanál'. Předpokladem je, že váš bot je v té skupině/kanálu a má oprávnění k publikování a úpravě/mazání vlastních příspěvků pro ověření stavu členství.",
+      "q9": "Co je to fráze pro přístup? Na jaké scénáře se hodí?",
+      "a9": "Hráči musí získat heslo prostřednictvím externích kanálů a mohou si ho nárokovat po jeho správném zadání na stránce. Běžné praktiky zahrnují: rozdělení 6-místného hesla v dlouhých YouTube videích, aby se podpořilo jeho kompletní zhlédnutí; naznačování hesla v příspěvcích na X.com (Twitter) nebo v Threads pro zvýšení interakce; oznamování hesla pouze slovně během živých přenosů pro vedení návštěvníků; speciální hesla v soukromých/placených skupinách k zajištění výhod pouze pro klíčové členy.",
+      "q10": "Mohu použít své vlastní API pro určení způsobilosti?",
+      "a10": "Ano. moonpacket zavolá API pro pouze čtení, které jste poskytli pro ověření před tím, než uživatelé nárokují. Backend potřebuje pouze nastavit api_url a api_key (povolení domény může být volitelně konfigurováno).",
+      "q11": "Jaký je rozdíl ve viditelnosti mezi hlavními kryptoměnami a meme mincemi?",
+      "a11": "Hlavní kryptoměny (USDT/TON, atd.) budou zobrazeny ve skupině i ve feedu na domovské stránce pro větší viditelnost; meme mince budou zobrazeny pouze ve vaší skupině.",
+      "q12": "Jak zabránit podvodům a hromadným strojům?",
+      "a12": "Zahrnuje frekvenci chování a detekci zařízení/IP, unikátní propojení účtů a peněženek, ověřovací kód pro výběr, počáteční revizi rizik pomocí AI; pokud bude potřeba, proběhne třetí stranou biometrická + obličejová + identifikační verifikace.",
+      "q13": "Kde mohu zobrazit své odeslané záznamy a počet příjemců?",
+      "a13": "Prosím, zkontrolujte 'Red Pakety, které jsem poslal' na své osobní domovské stránce, abyste viděli počet nárokovatelů, zbývající podíly a celkovou spotřebovanou částku pro každou seanci; pokud je povoleno, můžete také stahovat zprávy."
+    }
+  },
+  "groups_directory": {
+    "latest_tab": "Nejnovější skupiny red packet",
+    "hot_tab": "Populární skupiny red packet",
+    "search_placeholder": "Hledat klíčová slova pro připojené skupiny"
+  },
+  "a11y": {
+    "skip_to_main": "Přejít na hlavní obsah",
+    "language_menu": "Jazykové menu",
+    "language": "Jazyk"
+  },
+  "waterfall": {
+    "sent_from": "Odesílací skupina:",
+    "claimed": "Uplatnit",
+    "total": "Celková částka",
+    "progress": "Uplatněno"
+  },
+  "terms": {
+    "title": "Podmínky užívání",
+    "version": "v1.0.0",
+    "updated": "5. října 2025 15:00 GMT+0800 (Tchaj-pej) :00:",
+    "owner": "moonpacket-core",
+    "sections": {
+      "scope": "Rozsah použitelnosti a uzavření smlouvy",
+      "definitions": "Definice",
+      "eligibility": "Kvalifikace a účty",
+      "services": "Obsah služeb",
+      "wallet": "Cloudová peněženka a prostředky",
+      "fees": "Poplatky a fakturace",
+      "rules": "Pravidla aktivity a spravedlnosti",
+      "restrictions": "Omezení anti-botů a používání",
+      "ip": "Obsah a práva duševního vlastnictví",
+      "third_party": "Služby třetích stran",
+      "data": "Data a soukromí",
+      "risks": "Zveřejnění rizik",
+      "disclaimer": "Zřeknutí se odpovědnosti",
+      "liability": "Omezení odpovědnosti",
+      "indemnity": "Náhrada škody",
+      "termination": "Pozastavení, ukončení a odstranění",
+      "force_majeure": "Vyšší moc",
+      "high_risk": "Zakázané vysoce rizikové použití",
+      "tax": "Daně a vykazování",
+      "third_party_services": "Zveřejnění služeb třetích stran a vztahů",
+      "wallet_assets": "Zveřejnění peněženky a aktiv",
+      "accuracy": "Přesnost obsahu a dat",
+      "governing_law": "Použitelné právo a řešení sporů",
+      "contact": "Kontaktní informace"
+    }
+  },
+  "privacy": {
+    "title": "Zásady ochrany soukromí",
+    "version": "v1.1.0",
+    "updated": "5. října 2025, neděle 15:00:00 GMT+0800 (Tajpejský standardní čas)",
+    "owner": "moonpacket-core",
+    "sections": {
+      "intro": "Úvod",
+      "definitions": "Definice",
+      "scope": "Rozsah aplikace",
+      "data_collection": "Údaje, které shromažďujeme",
+      "data_usage": "Naše použití",
+      "legal_basis": "Regulační základ",
+      "cookies": "Soubory cookie a místní úložiště",
+      "data_sharing": "Příjemci sdílení údajů",
+      "cross_border": "Mezinárodní převod",
+      "retention": "Doba uchovávání",
+      "security": "Bezpečnost",
+      "blockchain": "Popis funkcí blockchainu",
+      "telegram": "Prohlášení platformy Telegram",
+      "minors": "Nařízení týkající se nezletilých",
+      "rights": "Vaše práva a jak je uplatnit",
+      "faq": "Často kladené otázky (Ochrana soukromí a bezpečnost)",
+      "updates": "Aktualizace podmínek",
+      "contact": "Kontaktní informace"
+    },
+    "faq": {
+      "q1": "Jaká data shromažďujeme?",
+      "a1": "Poskytneme potřebné informace pro vydávání a přijímání red packetů, ověřování úkolů, cloudovou peněženku a výběry, včetně základních informací o Telegramu, metrik zařízení a sítě, interakčních událostech a informacích o KYC a peněžence, pokud to bude vyžadováno.",
+      "q2": "Jsou moje prostředky v bezpečí?",
+      "a2": "Účty s prostředky a provozní účty jsou odděleny, citlivé operace vyžadují dvoufaktorovou autentizaci a všechny finanční události budou zaznamenány; výběry s vysokým rizikem budou manuálně posouzeny.",
+      "q3": "Mohu smazat své údaje?",
+      "a3": "Můžete požádat o vymazání nebo omezení svých údajů v souladu se zákonem; údaje související s účetnictvím nebo spory, které musí být podle zákona uchovávány, nejsou tímto omezením dotčeny a budou po té vymazány nebo anonymizovány.",
+      "q4": "Omezení oblasti a viditelný obsah se neshodují?",
+      "a4": "Podle politiky souladu mohou být některé funkce nebo metody výběru nedostupné z důvodu regionálních omezení, a systém automaticky skryje neaplikovatelné možnosti.",
+      "q5": "Proč to bylo považováno za podezřelé?",
+      "a5": "Problémy mohou vzniknout kvůli proxy/VPN, neobvyklé frekvenci nebo současnému přihlášení z více účtů; můžete to zkusit znovu později nebo podstoupit proces odvolání k posouzení."
+    }
+  },
+  "roadmap": {
+    "accept": "Kritéria přijetí",
+    "bucket": {
+      "progress": "Pokrok"
+    },
+    "lanes": {
+      "build": "Vytvořit produkt",
+      "growth": "Růst",
+      "token": "moonini token",
+      "trust": "Důvěra, dodržování předpisů a bezpečnost"
+    },
+    "progressLabel": "Stav",
+    "status": {
+      "live": "Živě",
+      "planned": "Plánováno",
+      "research": "Ve výzkumu",
+      "shipping": "Ve vývoji"
+    },
+    "title": "Plán produktů",
+    "updated": "Aktualizace (tokeny budou rozděleny po dokončení progress baru)"
+  }
+}

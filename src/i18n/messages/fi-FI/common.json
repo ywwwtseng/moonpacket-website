@@ -1,0 +1,377 @@
+{
+  "site": {
+    "title": "moonpacket — yksinkertaiset, nopeat ja turvalliset kryptovaluutta red packetit",
+    "description": "Lähetä red packetteja kryptovaluutalla ja näytä hinnat ja indikaattorit SEO-ystävällisillä staattisilla sivuilla."
+  },
+  "nav": {
+    "home": "Koti",
+    "about": "Tietoa",
+    "pricing": "Hinnoittelu",
+    "team": "Tiimi",
+    "blog": "Blogi",
+    "faq": "Usein kysytyt kysymykset",
+    "contact": "Ota meihin yhteyttä",
+    "careers": "Rekrytointi",
+    "claim": "Vaahtoa red packet",
+    "send": "Lähetä red packet",
+    "api": "API-dokumentaatio"
+  },
+  "hero": {
+    "title": "moonpacket lentää kuuhun!",
+    "subtitle": "Telegram TON, meme, USDT red packet -kiinnitys｜red packet -botti, joka on suunniteltu meme-krypto projekteille ja Telegram-ryhmän omistajille käyttäjähankinnan ja sitoutumisen parantamiseksi.",
+    "desc": "red packet -botti, joka on suunniteltu meme-krypto projekteille ja Telegram-ryhmän omistajille käyttäjähankinnan ja sitoutumisen parantamiseksi.",
+    "ctaPrimaryLabel": "Aktivoi moonpacket",
+    "ctaPrimaryHref": "https://t.me/MoonPackageDevBot",
+    "ctaSecondaryLabel": "Kuinka integroida",
+    "ctaSecondaryHref": "/zh-TW/integration"
+  },
+  "features": {
+    "f1": "Nopea asennus",
+    "f2": "Globaali lokalisointi",
+    "f3": "Keskitetty turvallisuus"
+  },
+  "metrics": {
+    "heading": "Reaaliaikaiset indikaattorit",
+    "price_btc": "BTC-hinta",
+    "total_sent": "Yhteensä lähetettyjä red packet -paketteja",
+    "total_claimed_amount": "Yhteensä vaadittu määrä (USDT)",
+    "title": "moonpacket-data",
+    "groups": "Ryhmä",
+    "groupsLinkLabel": "Liittyneet red packet -ryhmät",
+    "sent": "Lähetetty",
+    "claimed": "Vaatimukset (USDT)",
+    "sort": {
+      "latest": "Uusimmat",
+      "oldest": "Vanhin",
+      "most": "Maksimi osallistujat",
+      "least": "Minimi osallistujat"
+    }
+  },
+  "cta": {
+    "primary": "Aloita",
+    "secondary": "Lue lisää",
+    "banner": "Valmis aktivoimaan yhteisösi?"
+  },
+  "footer": {
+    "rights": "Kaikki oikeudet pidätetään.",
+    "privacy": "Yksityisyydensuojan oikeudet",
+    "terms": "Käyttöehdot",
+    "social": {
+      "telegram_group": "Telegram-ryhmä",
+      "telegram_channel": "Telegram-kanava",
+      "x": "X",
+      "youtube": "YouTube"
+    }
+  },
+  "features_desc": {
+    "f1": "Nopea aloitus minimivaiheilla",
+    "f2": "Sisäänrakennetut 34 kieltä ja RTL-tuki",
+    "f3": "Keskitetty ilman yksityisyyttä mielessä"
+  },
+  "sections": {
+    "features_heading": "Ominaisuudet",
+    "features_subtitle": "Voit vastaanottaa",
+    "tokens_heading": "Tokenit ja tilastot",
+    "testimonials_heading": "Mitä käyttäjät sanovat",
+    "pricing_heading": "Suunnitelmat ja hinnoittelu",
+    "waterfall_title": "Reaaliaikaiset red packet -tiedot"
+  },
+  "tokens": {
+    "columns": {
+      "token": "Token",
+      "price": "Hinta",
+      "h24": "24 tuntia",
+      "d7": "7 päivää",
+      "market_cap": "Markkina-arvo"
+    }
+  },
+  "testimonials": {
+    "q1": "Monikielinen julkaisu on hyvin nopeaa ja yksinkertaista.",
+    "a1": "Jane, Tuotepäällikkö",
+    "q2": "Melkein ei vaadita JS:ää, ja SEO-yhteensopiva.",
+    "a2": "Mike, SEO",
+    "q3": "Saavutettavuus ja lokalisoinnin oletusasetukset ovat melko kattavia.",
+    "a3": "Sara, Suunnittelija"
+  },
+  "pricing": {
+    "starter": "Aloittaminen",
+    "pro": "Ammattilainen",
+    "enterprise": "Yritys",
+    "price_free": "Ilmainen",
+    "price_19": "19 $",
+    "price_contact": "Ota yhteyttä",
+    "bullets": {
+      "starter": {
+        "0": "Perusominaisuudet",
+        "1": "Yhteisötuki"
+      },
+      "pro": {
+        "0": "Peruspaketti",
+        "1": "Kehittynyt lokalisointi"
+      },
+      "enterprise": {
+        "0": "SLA ja tuki",
+        "1": "Mukautettu integraatio"
+      }
+    }
+  },
+  "form": {
+    "your_email": "Sähköpostisi",
+    "message": "Viesti",
+    "send": "Lähetä"
+  },
+  "errors": {
+    "not_found": "Sivua ei löydy",
+    "stale": "Data tilapäisesti saatavilla"
+  },
+  "claim": {
+    "title": "Tietoa punapaketin vastaanottamisesta",
+    "faq": {
+      "section_1": "Aloita ja kelpoisuus",
+      "section_2": "Tapahtuman säännöt ja oikeudenmukaisuus",
+      "section_3": "Lunastusprosessi ja tehtävät",
+      "section_4": "Määrät, saldot ja nostot",
+      "section_5": "Riskinhallinta ja rajoitukset",
+      "section_6": "Aikataulut ja ilmoitukset",
+      "section_7": "Monikielisyys ja alueelliset erot",
+      "section_8": "Laitteet ja yhteensopivuus",
+      "section_9": "Yksityisyys ja turvallisuus",
+      "section_10": "Asiakaspalvelu ja valitukset",
+      "section_11": "Muut pelit ja tiedot",
+      "q1": "Kuinka rekisteröityä?",
+      "a1": "Käytä linkkiä aktivoidaksesi bottimme automaattista kokemustietojen rekisteröintiä varten. moonpacket sallii ryhmän omistajille liittää ryhmät heidän ryhmiinsä. Pelaajat voivat napata red packet -lahjoja ei vain virallisessa ryhmässämme vaan myös kaikissa ryhmissä, jotka ovat sidottu moonpacket red packet -bottiin.",
+      "q2": "Mitä minun tarvitsee asentaa tai poistaa käytöstä?",
+      "a2": "Lisäsovellusten asennusta ei vaadita; suositellaan käytettäväksi Telegramin uusinta versiota. Jos avaat WebAppin järjestelmän selaimessa, varmista, ettei evästeitä/ tallennustilaa estä.",
+      "q3": "Kuka voi osallistua?",
+      "a3": "Yleisesti ottaen kaikki Telegram-käyttäjät ovat oikeutettuja osallistumaan; kuitenkin jokaisen ryhmän API-suunnittelu on erilainen, ja sinun on noudatettava kyseisen ryhmän tai kanavan sääntöjä. Tietyillä alueilla voi olla internetrajoituksia, tai jotkin tapahtumat voivat asettaa alueellisia/ikärajoja, ja järjestelmä määrittää automaattisesti oikeudettomat osallistujat ja estää heitä vaatimasta.",
+      "q4": "Voinko lunastaa useilla tileillä tai laitteilla?",
+      "a4": "Ei. Järjestelmä estää käyttäjiä vaatimasta toistuvasti Telegram-tilin + sidotun Gmailin, vahvistuskoodin, ainutlaatuisen lompakko-osoitteen ja epänormaalit skannaukset taustalla; rikkomukset voivat laukaista riskinhallinnan ja johtaa tilin keskeyttämiseen.",
+      "q5": "Jaetaanko punaisia tapauksia sattumanvaraisesti vai tasaisesti?",
+      "a5": "Ryhmän tai kanavan projektitoiminnot voivat valita 'satunnainen', 'tasajako' tai 'nimetty'. Jokaisen ryhmän säännöt ovat erilaiset, katso merkintöjä kunkin ryhmän aktiviteettikuvaustiedoista.",
+      "q6": "Miten varmistatte oikeudenmukaisuuden? Voinko tarkistaa punaisen paketin tulokseni siellä?",
+      "a6": "moonpacket tarjoaa vain red packet -lahjoja; red packet -järjestelmä toimii apu-bottityökaluna, jolla ei ole investointi- tai liiketoimintayhteyttä eri alustojen operaattoreihin. Siksi ehdoton oikeudenmukkuus jakelussa on ainoa tapa täyttää kaikkien tarpeet. Lisäksi palvelimen puolella säilytetään tarkastusrekisteri tietyn ajan (algoritmi ja siemen); käyttäjät voivat tarkistaa vaatimustuloksensa botista red packet -vaatimustoiminnan päätyttyä, ja tätä tulosta voidaan myös kysyä Telegram-minisovelluksen käynnistämisen jälkeen.",
+      "q7": "Kuinka monta punaista pakettia kukin henkilö voi lunastaa?",
+      "a7": "Riippuu tapahtumasuunnitelmista, jotka projekti on laatinut. Jotkut ovat kertakäyttöisiä, kun taas toisilla on päivittäisiä rajoja, ja jos on 'useita kertoja per henkilö' -rajoitus, järjestelmä myös automaattisesti rajoittaa sitä ja ilmoittaa, kun raja saavutetaan.",
+      "q8": "Päättyykö tapahtuma aikaisin vai siirtyykö se?",
+      "a8": "Jos osakkeet on vaadittu loppuun tai ne ovat vanhentuneet, se päättyy; tai jos järjestäjä keskeyttää tai lopettaa poikkeuksellisten riskien vuoksi, red packet -sivu synkronoituu reaaliajassa.",
+      "q9": "Miksi en voi lunastaa napauttamisen jälkeen?",
+      "a9": "Yleisimmät syyt: vaadittu loppuun/tehtävä ei ole suoritettu. Joissakin tapauksissa projektit voivat olla keskeytettynä tai lopetettuina riskien vuoksi. Tietojen päivityksessä ryhmien välillä voi olla viivettä, eikä se välttämättä näy heti; kiinnitä huomiota red packet -tietojen viimeiseen tilaan tapahtumasivulla, jonka ryhmä on julkaissut.",
+      "q10": "Mitä on tehtävän avaaminen?",
+      "a10": "Sinun on suoritettava tietyt ehdot (kuten kanavan seuraaminen, ryhmään liittyminen, salasanan syöttäminen, ulkoiset tehtävät), jotta voit vaatia. Suoritettuasi palaa red packet -tiedot viestin painikkeeseen 'vaadi red packet'.",
+      "q11": "Suoritin tehtävän selkeästi, miksi se näyttää niin, ettei se ole hyväksytty?",
+      "a11": "Eri API:den välillä voi olla synkronointiviiveitä Telegramissa; jos et pääse läpi heti, odota hetki. Jos jatkat epäonnistumista, se voi todennäköisesti johtua API-palveluntarjoajan ongelmasta, ja suosittelemme raportoimaan siitä projektille, joka antoi red packet -tehtävän.",
+      "q12": "Mistä voin hankkia salasanan? Entä jos syötin sen väärin?",
+      "a12": "Salasana ilmoitetaan yleensä projektissa viesteissä, suorissa lähetyksissä tai videoissa x:ssä; voit yrittää uudelleen, jos syötät sen väärin, mutta useat väärät yritykset voivat laukaista käyttörajoituksen.",
+      "q13": "Kuinka vahvistaa ulkoisia tehtäviä (kuten verkkosivuston rekisteröinti/kaupankäynti)?",
+      "a13": "moonpacket tarjoaa API:n ulkoprojekteille vahvistamaan, ovatko käyttäjät suorittaneet tehtävät. Kun käyttäjät vaativat red packet -lahjoja, pyyntö lähetetään API:lle, joka palauttaa vahvistustuloksen; jos se täyttää ehdot, se avataan; jos se ei ole vielä palautunut, voit odottaa ja käynnistää myöhemmin uudelleen.",
+      "q14": "Missä voin tarkistaa vastaanotetun summan?",
+      "a14": "Onnistuneet vaatimukset lähetetään Telegram-botin kautta ja red packet -vaatimustiedot ovat saatavilla mini-sovelluksessa, mikä mahdollistaa historian ja käytettävissä olevan nostotilin tarkastelun milloin tahansa.",
+      "q15": "Mitä omaisuuksia tuetaan?",
+      "a15": "Toiminnan asetusten perusteella red packet -lahjat on tällä hetkellä jaettu pääasiassa USDT/SOL/ETH/TON sekä ryhmän omistajan liikkeeseenlaskemiin tokeneihin. Sivulla ilmoitetaan omaisuusyksiköt ja vaihtokurssit (jos sellaisia on).",
+      "q16": "Mitä tietoja tarvitsee sitoa nostamista varten? Kuinka kauan se kestää?",
+      "a16": "Sinun on annettava lompakkosi osoite ja perusidentiteettitiedot turvallisuussyistä; saapumisaika on yleensä T+0 - T+2 työpäivää. Se voi pidentyä poikkeuksellisessa riskivalvonnassa.",
+      "q17": "Kuka maksaa transaktiomaksun/Gasin?",
+      "a17": "Jokainen on-chain-toiminto vaatii kaasumaksun, jonka blockchain itse perii, eikä moonpacket veloita ylimääräistä.",
+      "q18": "Voinko siirtää saldoani ystäville tai yhdistää sen?",
+      "a18": "Siirto/ yhdistäminen' -menetelmää ei ole saatavilla.",
+      "q19": "Miksi se katsottiin epäilyttäväksi tai pysäytettiin?",
+      "a19": "Mahdolliset syyt sisältävät useita tilejä samalla laitteella, epätavalliset proxy- tai VPN-yhteydet, liian korkean taajuuden red packet -lahjojen nappaamisessa useissa ryhmissä, mustaluettelon alueet/ASN jne. Voit lähettää /report-viestin sisällön botille; tämä on yksisuuntainen vastauskanava, ja virallinen taho pidättää oikeuden olla selittämättä tai vastaamatta tileihin liittyviin kieltoihin.",
+      "q20": "Tarvitsenko KYC-vahvistuksen (vahvistuskoodi)?",
+      "a20": "Korkean riskin tilanteissa varmennus perustuu käyttäjien antamiin tietoihin; varmista, että oikeat turvallisuustiedot on täytetty nostettaessa; jos virheellisiä tietoja ei anneta, et pääse läpi biometrisestä ja asiakirjakyystä.",
+      "q21": "Mitä minun pitäisi tehdä, jos tiliäni rajoitetaan?",
+      "a21": "Rajoitukset ovat yleensä tilapäisiä suojatoimia. Lähetä /report-viestin sisältö botille. Vahvistajilta, jotka eivät ole täyttäneet turvallisuustietoja, esitettyjä kysymyksiä ei käsitellä; jos tilanne on normaali vahvistuksen jälkeen, käsittelemme sen.",
+      "q22": "Milloin jokainen red packet -tapahtuma alkaa ja päättyy?",
+      "a22": "Jokaisella red packet -lahjoja jakavalla projektilla on erilaisia ehtoja, kiinnitä huomiota red packet -tietojen aikarajoihin ja jäljellä oleviin kiintiöihin; voit ottaa käyttöön Telegram-ilmoitukset tai asettaa erityiset ilmoitussoundit saadaksesi ajankohtaisia hälytyksiä red packet -lahjojen nappaamiseen.",
+      "q23": "Voinko ottaa tai poistaa ilmoitukset vastaanottamisesta tai nostojen suorittamisesta?",
+      "a23": "Tämä on sinun asetuksesi Telegramissa, ei moonpacket-asetus; voit säätää ilmoituksia Telegram-asetuksissasi.",
+      "q24": "Miksi en näe tiettyjä nosto- tai ominaisuusvaihtoehtoja?",
+      "a24": "Tiettyjen alueiden säännöt eivät ole voimassa, ja järjestelmä piilottaa automaattisesti tai estää nostot, mikä tarkoittaa, että et voi osallistua red packet -lahjojen nappaamiseen, koska tämä alue ei tällä hetkellä tue sitä.",
+      "q25": "Kuinka monta desimaalipaikkaa digitaalinen formaatti näyttää?",
+      "a25": "Verkkosivusto soveltaa automaattisesti paikallisia tuhaterottimia ja desimaalipaikkoja kielen perusteella.",
+      "q26": "Onko se saatavilla iOS:ssä, Androidissa ja työpöydän Telegramissa?",
+      "a26": "Kyllä, suositellaan käytettäväksi Telegramin uusinta versiota. Jos kohtaat luettavissa olevia ongelmia, tarkista, käytätkö virallista asiakasta, tai päivitä sovellus, tai napsauta lataa sivu uudelleen mini-sovelluksen oikeassa yläkulmassa olevista kolmesta pisteestä.",
+      "q27": "Vaikuttaako laitteiden vaihtaminen vastaanottamiseen?",
+      "a27": "Se ei vaikuta tietoihin, mutta jos useita toimintoja suoritetaan useilla laitteilla lyhyessä ajassa, se voi laukaista riskivalvonnan.",
+      "q28": "Vaikuttaako VPN:n/proxyn käyttö mitenkään?",
+      "a28": "Jos käytät korkean riskin proxyä, se saattaa tulla siepatuksi. Suosittelemme väliaikaisesti pois päältä kytkemistä proxyltä tai vaihtamista puhtaaseen verkkoympäristöön ja kokeilemista uudelleen.",
+      "q29": "Mitä tietoja kerätään?",
+      "a29": "Noudata minimoinnin periaatetta: kerää vain tiedot, jotka ovat tarpeellisia jakeluun/nostoon/riskinhallintaan (kuten henkilökohtaiset turvallisuuskysymykset, lompakko-osoitteet, sähköposti, Telegram ID). Kun vaaditaan tarvittavaa todennusta, vahvistamme kolmannen osapuolen vahvistusalustalla, joka ei tallenna käyttäjän yksityisiä tietoja lukuun ottamatta turvallisuustietoja.",
+      "q30": "Mitä toimenpiteitä on käytössä varojen turvallisuuden varmistamiseksi?",
+      "a30": "Kaikki kriittiset toiminnot vaativat toisen vahvistuksen; korkean riskin nostot voivat laukaista manuaalisen tarkastuksen.",
+      "q31": "Voinko poistaa tilini tai tietoni?",
+      "a31": "Voit lähettää tietopyynnön tai poistopyynnön prosessin mukaisesti. Kun tili on poistettu, et voi enää kirjautua sisään, mutta tapahtumatietoja säilytetään vaatimusten mukaisesti.",
+      "q32": "Kenelle minun pitäisi ottaa yhteyttä, jos kohtaan ongelman?",
+      "a32": "Voit ottaa meihin yhteyttä lähettämällä/ilmoittamalla tietoja botin kautta. Virhekoodeja ja kuvakaappauksia antamalla voimme nopeuttaa käsittelyä.",
+      "q33": "Kuinka kauan kestää saada vastaus valitukseen?",
+      "a33": "Yleensä vastaukset annetaan 1-3 arkipäivän sisällä; kiireelliset rahaehtoiset tapaukset käsitellään etusijalla.",
+      "q34": "Voinko osallistua toimintoihin useissa ryhmissä?",
+      "a34": "Kyllä; kunkin aktiviteetin säännöillä on itsenäiset säännöt, kiinnitä huomiota kunkin tapahtuman rajoituksiin ja voimassaoloaikaan.",
+      "q35": "Onko olemassa kilpailijat tai palkintoja?",
+      "a35": "Joissakin aktiviteeteissa voi olla palkintolistoja/merkkejä ja arvontoja; tarkista aktiviteettisivulta säännöt ja palkinnot."
+    }
+  },
+  "send": {
+    "title": "Usein kysytyt kysymykset (FAQ Yksityiskohtainen versio) — Red packetien lähettäminen (Järjestäjä)",
+    "hero": {
+      "api_demo_label": "API-näyttö",
+      "api_get": "GET [api_url]?api_key=[api_key]&user_id=[user_id]",
+      "response_label": "Palauta:",
+      "json": {
+        "0": "{",
+        "1": "\"data\": {",
+        "2": "\"level\": 100,",
+        "3": "\"status\": \"active\",",
+        "4": "\"is_blacklist\": false",
+        "5": "}",
+        "6": "}"
+      },
+      "title": "Hanki uusia käyttäjiä, lisää aktiviteettia",
+      "lead": "Projektin osapuoli voi asettaa erityiset ehdot:",
+      "points": {
+        "0": "• Liity ryhmään/seuraa kanavaa",
+        "1": "• Käytä salauslausetta oikein",
+        "2": "• Mukautettu API-toteutus"
+      },
+      "note": "Vain käyttäjät, jotka täyttävät ehdot, voivat vastaanottaa red packetteja"
+    },
+    "faq": {
+      "section_1": "Aloita ja Asetukset",
+      "section_2": "Julkaisusäännöt ja Oikeudenmukaisuus",
+      "section_3": "Tehtävät ja Ehdot",
+      "section_4": "Varat, Altistuminen ja Selvitys",
+      "q1": "Kuinka aloittaa?",
+      "a1": "Lisää moonpacket-botti Telegram-ryhmääsi tai -kanavaasi ja aseta se ylläpitäjäksi. Varmista, että olet sallinut vähintään: julkaisuoikeuden, oman julkaisun muokkaamisen/poistamisen oikeudet. Kun tämä on tehty, palaa moonpacket 'Lähetä red packet' -sivulle, ja näet sidotut ryhmät/kanavat 'Lähetettävät' -listalla.",
+      "q2": "Mihin minun pitäisi kiinnittää huomiota ennen lähettämistä?",
+      "a2": "Talleta ensin varat, joita haluat jakaa (esimerkiksi talleta 10 USDT testaukseen). Voit lähettää päävaluuttoja (USDT/TON ym.) tai omia meme-valuuttojasi. Päävaluutat näkyvät lisäksi etusivun syötteessä, kun taas meme-valuutat näytetään vain yhteisössäsi.",
+      "q3": "Voinko valita, minne sen lähetän?",
+      "a3": "Lähettäjätavoitteissa' tarkista sidotut ryhmät/kanavat lähettääksesi yhdelle tai useammalle ryhmälle samanaikaisesti. Jos et näe niitä listassa, varmista, että botti on ryhmän/kanavan ylläpitäjä ja sillä on tarvittavat oikeudet.",
+      "q4": "Mitä jakelumalleja on saatavilla?",
+      "a4": "Voit valita satunnaisen (onni) tai kiinteän summan (tasainen jako). Molemmat voivat määrittää kokonaismäärän, osuuksien määrän ja henkilökohtaisen kattorajan, ja niihin voi lisätä voimassaolon tai ajoitetun julkaisun.",
+      "q5": "Voiko sen lähettää kerralla vai erissä?",
+      "a5": "Kyllä. Voit asettaa kertaluonteisen täyden julkaisun tai jakelun tietyn ajanjakson sisällä; laskenta ja esikatseluilmoitukset ovat myös tuettuja.",
+      "q6": "Mitä tapahtuu, jos saldo on riittämätön?",
+      "a6": "Järjestelmä perustuu saatavilla olevaan saldoosi. Jos saldo on riittämätön, lähettää järjestelmä virheilmoituksen pyytäen täyttämään tilin ylivelkaantumisen välttämiseksi.",
+      "q7": "Miten oikeudenmukaisuus varmistetaan?",
+      "a7": "Jakelu toteutetaan palvelinpuolella ja säilyttää tarkastushistoriat (algoritmi ja siemen, toimintalokit). Säännöt, osat, rajat ja lopulliset tulokset näytetään avoimesti tapahtumasivulla jäljitettävyyden varmistamiseksi.",
+      "q8": "Voinko vaatia ryhmään liittymistä tai kanavan seuraamista sen saamiseksi?",
+      "a8": "Kyllä. Voit aktivoida sisäänrakennetun ehdon 'On pakko liittyä tiettyyn ryhmään/seuraamaan tiettyä kanavaa'. Ehtona on, että bottisi on kyseisessä ryhmässä/kanavassa ja sillä on oikeudet julkaista ja muokata/poistaa omia julkaisujaan varmistaakseen jäsenstatuksen.",
+      "q9": "Mikä on salasanalaus? Missä tilanteissa se on sopiva?",
+      "a9": "Pelaajien on hankittava salasana ulkoisten kanavien kautta ja he voivat lunastaa sen syöttämällä sen oikein sivulle. Yleisiä käytäntöjä ovat: 6-numeroinen salasana jakaminen pitkillä YouTube-videoilla täydellisen katsomisen kannustamiseksi; salasanan vihjaaminen X.com:in (Twitter) julkaisuissa tai Threadsissa vuorovaikutuksen lisäämiseksi; salasanan vain suullinen ilmoittaminen livelähetyksissä ohjata osallistujat; omistetut salasanat yksityisissä/ maksullisissa ryhmissä varmistamaan, että edut annetaan vain ydinjäsenille.",
+      "q10": "Voinko käyttää omaa API:ta selvittääkseni kelpoisuuden?",
+      "a10": "Kyllä. moonpacket kutsuu antamaasi vain-luku API:ta varmistaakseen ennen kuin käyttäjät lunastavat. Taustajärjestelmä tarvitsee vain asettaa api_url ja api_key (domain-oikeudet voidaan konfiguroida valinnaisesti).",
+      "q11": "Mikä on näkyvyysero päävaluuttojen ja meme-valuuttojen välillä?",
+      "a11": "Päävaluutat (USDT/TON ym.) näytetään ryhmässä ja myös etusivun syötteessä suuremman näkyvyyden saavuttamiseksi; meme-valuutat näytetään vain omassa ryhmässäsi.",
+      "q12": "Kuinka estää petoksia ja suuria koneita?",
+      "a12": "Sisältäen käyttäytymisfrequentin ja laite/IP-tunnistuksen, ainutkertainen tili- ja lompakkosidonta, noston varmennuskoodi, AI-riskinhallinnan alkuperäisen arvion; tarvittaessa käytetään kolmannen osapuolen biometristä + kasvon- + henkilöllisyystarkistusta.",
+      "q13": "Mistä voin katsella lähettämääni tietoja ja vastaanottajien määrää?",
+      "a13": "Tarkista 'Lähettämät Red Packetit' henkilökohtaiselta etusivultasi nähdäksesi lunastajien määrän, jäljellä olevat osat ja kulutetun kokonaissumman jokaiselle istunnolle; jos mahdollista, voit myös ladata raportteja."
+    }
+  },
+  "groups_directory": {
+    "latest_tab": "Uusimmat red packet -ryhmät",
+    "hot_tab": "Suositut red packet -ryhmät",
+    "search_placeholder": "Hae avainsanoja liittyneistä ryhmistä"
+  },
+  "a11y": {
+    "skip_to_main": "Siirry pääsisältöön",
+    "language_menu": "Kielivalikko",
+    "language": "Kieli"
+  },
+  "waterfall": {
+    "sent_from": "Lähettää ryhmä:",
+    "claimed": "Vaadi",
+    "total": "Yhteensä",
+    "progress": "Vaadittu"
+  },
+  "terms": {
+    "title": "Käyttäjäehdot",
+    "version": "v1.0.0",
+    "updated": "5. lokakuuta 2025 15:00 GMT+0800 (Taipei Standard Time) :00:",
+    "owner": "moonpacket-core",
+    "sections": {
+      "scope": "Käytön soveltamisala ja sopimuksen muodostaminen",
+      "definitions": "Määritelmä",
+      "eligibility": "Pätevyys ja tilit",
+      "services": "Palvelun sisältö",
+      "wallet": "Pilvipalvelulompakko ja varat",
+      "fees": "Palkkiot ja laskutus",
+      "rules": "Toimintasäännöt ja oikeudenmukaisuus",
+      "restrictions": "Anti-botti ja käyttörajoitukset",
+      "ip": "Sisältö ja immateriaalioikeudet",
+      "third_party": "Kolmansien osapuolien palvelut",
+      "data": "Tiedot ja yksityisyys",
+      "risks": "Riskin paljastaminen",
+      "disclaimer": "Vastuuvapauslauseke",
+      "liability": "Vastuuvapauslauseke",
+      "indemnity": "Korvaukset",
+      "termination": "Keskeytys, päättäminen ja poistaminen",
+      "force_majeure": "Ylivoimainen este",
+      "high_risk": "Kielletyt korkean riskin käytöt",
+      "tax": "Verot ja raportointi",
+      "third_party_services": "Kolmansien osapuolien palvelut ja suhteiden paljastukset",
+      "wallet_assets": "Lompakko ja omaisuuden paljastukset",
+      "accuracy": "Sisällön ja tietojen tarkkuus",
+      "governing_law": "Säätelevä laki ja riitojen ratkaisu",
+      "contact": "Yhteystiedot"
+    }
+  },
+  "privacy": {
+    "title": "Tietosuojakäytäntö",
+    "version": "v1.1.0",
+    "updated": "5. lokakuuta 2025, sunnuntai klo 15:00:00 GMT+0800 (Taipei Standard Time)",
+    "owner": "moonpacket-core",
+    "sections": {
+      "intro": "Johdanto",
+      "definitions": "Määritelmät",
+      "scope": "Soveltamisala",
+      "data_collection": "Keräämämme tiedot",
+      "data_usage": "Käyttömme",
+      "legal_basis": "Sääntelyperuste",
+      "cookies": "Evästeet ja paikallinen tallennus",
+      "data_sharing": "Tietojen jakajat",
+      "cross_border": "Rajat ylittävä siirto",
+      "retention": "S säilytysaika",
+      "security": "Turvallisuus",
+      "blockchain": "Kuvauksen lohkoketjun ominaisuuksista",
+      "telegram": "Telegram-alustan lausunto",
+      "minors": "Alakäyttäjiin liittyvät säädökset",
+      "rights": "Oikeutesi ja niiden käyttäminen",
+      "faq": "Usein kysytyt kysymykset (Yksityisyys ja turvallisuus)",
+      "updates": "Ehtojen päivitys",
+      "contact": "Yhteystiedot"
+    },
+    "faq": {
+      "q1": "Mitä tietoja keräämme?",
+      "a1": "Tarjoamme tarvittavat tiedot punaisen paketin lähettämiseen ja vastaanottamiseen, tehtävien vahvistamiseen, pilvipenkin ja nostojen osalta, mukaan lukien perus Telegram-tiedot, laite- ja verkkomittarit, vuorovaikutustapahtumat sekä KYC- ja lompakkotiedot tarvittaessa.",
+      "q2": "Onko varani turvassa?",
+      "a2": "Varat ja toiminta-tilit on eristetty, arkaluonteiset toiminnot edellyttävät kaksivaiheista todennusta, ja kaikki taloudelliset tapahtumat tallennetaan; korkean riskin nostot tarkastetaan manuaalisesti.",
+      "q3": "Voinko poistaa tietoni?",
+      "a3": "Voit pyytää tietojesi poistamista tai rajoittamista lain mukaan; lain mukaan säilytettävät kirjanpito- tai riidanratkaisudatat eivät ole tämän rajoituksen alaisia ja ne poistetaan tai anonymisoidaan sen jälkeen.",
+      "q4": "Alueelliset rajoitukset ja näkyvä sisältö eivät täsmää?",
+      "a4": "Vaatiiko vaatimustenmukaisuuskäytännöistä johtuen jotkin ominaisuudet tai nostomenetelmät voimaan alueellisten rajoitteiden vuoksi, ja järjestelmä piilottaa automaattisesti soveltumattomat vaihtoehdot.",
+      "q5": "Miksi se arvioitiin epäilyttäväksi?",
+      "a5": "Ongelmia saattaa ilmetä proxy/VPN:n, epätavallisen taajuuden tai samanaikaisten kirjautumisten vuoksi useista tileistä; voit kokeilla uudelleen myöhemmin tai käydä valitusprosessin läpi tarkastettavaksi."
+    }
+  },
+  "roadmap": {
+    "accept": "Hyväksymiskriteerit",
+    "bucket": {
+      "progress": "Eteneminen"
+    },
+    "lanes": {
+      "build": "Rakenna tuote",
+      "growth": "Kasvu",
+      "token": "moonini token",
+      "trust": "Luottamus, sää compliance ja turvallisuus"
+    },
+    "progressLabel": "Tila",
+    "status": {
+      "live": "Verkossa",
+      "planned": "Suunniteltu",
+      "research": "Tutkimuksessa",
+      "shipping": "Kehityksessä"
+    },
+    "title": "Tuoteroadmap",
+    "updated": "Päivitys (Tokenit jaetaan, kun etenemispalkki on täynnä)"
+  }
+}

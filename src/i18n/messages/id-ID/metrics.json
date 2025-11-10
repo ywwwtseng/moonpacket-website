@@ -1,0 +1,17 @@
+{
+  "title": "Ikhtisar Data moonpacket",
+  "subtitle": "Statistik dan Papan Peringkat Waktu Nyata",
+  "latest": "Terbaru",
+  "top_groups": "Grup Populer",
+  "total_sent": "Jumlah Total Dikirim",
+  "total_claimed": "Jumlah Total Diklaim (USDT)",
+  "participants": "Jumlah Peserta",
+  "avg_packet": "Rata-Rata Jumlah Per Paket",
+  "sort": {
+    "label": "Urutkan Berdasarkan",
+    "latest": "Terbaru",
+    "oldest": "Terlama",
+    "most": "Peserta Maksimum",
+    "least": "Peserta Minimum"
+  }
+}

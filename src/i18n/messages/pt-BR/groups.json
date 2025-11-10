@@ -1,0 +1,57 @@
+{
+  "tabs": {
+    "latest": "Últimos",
+    "hot": "Popular"
+  },
+  "search": {
+    "placeholder": "Buscar Grupos…",
+    "label": "Buscar Grupos"
+  },
+  "card": {
+    "ownerLabel": "Proprietário:",
+    "members": "Membros",
+    "totalSent": "Total Enviado",
+    "sent": "Envio Atual",
+    "unnamed": "Grupo Sem Nome"
+  },
+  "pagination": {
+    "prev": "Página Anterior",
+    "next": "Próxima Página",
+    "pageInfo": "{{count}} grupos (Página {{page}} / {{pages}})"
+  },
+  "cta": {
+    "launch": "Ativar moonpacket"
+  },
+  "empty": "Nenhum Grupo Disponível",
+  "group": {
+    "members": "Lista de Membros",
+    "owner": "Proprietário do Grupo: {owner}",
+    "sent": "Valor Enviado",
+    "totalSent": "Valor Total Enviado",
+    "unnamed": "Grupo Sem Nome"
+  },
+  "marquee": {
+    "fallback": [
+      "💰 John enviou um Pacote Vermelho de 100 USDT no 'Game Guild A'!",
+      "🎯 Lisa resgatou 3,5 USDT, vencedora sortuda!",
+      "🔥 O Proprietário do Grupo Ken recarregou 2000 USDT",
+      "📢 Atualização do sistema concluída, suporte adicionado para SOL!",
+      "🥇 O vencedor sortudo de hoje: @Mina (total 28,3 USDT)"
+    ],
+    "templates": {
+      "daily_winner": "🥇 O vencedor sortudo de hoje: {user} (total {amount} {ccy})",
+      "red_packet_claimed": "{user} resgatou {amount} {ccy}, vencedor sortudo!",
+      "red_packet_sent": "{user} enviou um Pacote Vermelho de {amount} {ccy} em '{group}'!",
+      "system_upgrade": "📢 Atualização do sistema concluída, suporte adicionado para {ccy}!",
+      "top_up": "O Proprietário do Grupo {user} recarregou {amount} {ccy}"
+    }
+  },
+  "pager": {
+    "groups": "Número de Grupos",
+    "next": "Próxima Página",
+    "pageOf": "(Página {page} / {pages})",
+    "prev": "Página Anterior"
+  },
+  "searchLabel": "Buscar Grupos",
+  "searchPlaceholder": "Por favor, insira palavras-chave para buscar grupos…"
+}

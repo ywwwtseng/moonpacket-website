@@ -1,0 +1,251 @@
+---
+/**
+ * 🔒 FROZEN COMPONENT - DO NOT MODIFY STRUCTURE OR TEXT CONTENT
+ * Owner: Yves
+ * Only allowed changes:
+ * 1) move hardcoded text into i18n messages (zh-TW first)
+ * 2) replace inline links with LINKS from src/config/links.ts
+ */
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import { computeCanonical } from '@/utils/head';
+import HeroTextAnimated from '@/components/HeroTextAnimated.astro';
+import RedPacketAnimation from '@/islands/RedPacketAnimation';
+import Section from '@/components/Section.astro';
+import Brandify from '@/components/Brandify.astro';
+import { brandify } from '@/lib/brandify';
+import { getLocalesForBuild, defaultLocale } from '@/i18n/locales.config';
+import { LOCALE_ORDER } from '@/config/locales';
+import { CTA_LINKS } from '@/config/app';
+import { externals as links } from '@/config/links';
+import { linesArray } from '@/utils/normalize';
+
+export async function getStaticPaths() {
+  const locales = getLocalesForBuild();
+  return locales.map((l) => ({ params: { lang: l.code } }));
+}
+
+const { lang } = Astro.params as { lang: string };
+const messages = await import(`@/i18n/loadMessages`).then(m => m.loadAllMessages(lang as any)).catch(async () => {
+  const fallback = await import(`@/i18n/loadMessages`).then(m => m.loadAllMessages(defaultLocale));
+  return fallback;
+});
+
+// 完整性檢查：計算預期段落數
+const termsSections = messages.legal?.terms || {};
+const expectedParagraphs = Object.values(termsSections).reduce((total, section) => {
+  return total + (Array.isArray(section) ? section.length : 0);
+}, 0);
+console.info("[legal-check] terms paragraphs:", {expected: expectedParagraphs, sections: Object.keys(termsSections).length});
+
+// 品牌化标题
+const termsTitle = brandify(messages.legal?.termsTitle || messages.footer?.terms || 'moonpacket 使用者條款（Terms of Service）');
+const privacyTitle = brandify(messages.legal?.privacyTitle || messages.footer?.privacy || 'moonpacket 隱私權條款（Privacy Policy）');
+const termsPageTitle = messages.legal?.termsTitle || messages.footer?.terms || 'moonpacket 使用者條款（Terms of Service）';
+
+// 品牌化hero文本（用于set:html，不用于组件属性）
+const heroTitleRaw = messages.site?.hero?.title || '';
+const heroTitleHTML = brandify(heroTitleRaw);
+const ctaPrimaryLabelRaw = messages.site?.hero?.ctaPrimaryLabel || '';
+
+const canonical = computeCanonical(Astro.url, (Astro.site && Astro.site.toString()) || undefined);
+
+// 物件/字串/陣列 皆轉為字串陣列（支援 CSV 導出 {"0":"..."} 結構）
+function toLines(value: any): string[] {
+  try {
+    if (!value) return [];
+    if (Array.isArray(value)) return value.filter(Boolean).map(String);
+    if (typeof value === 'string') return value.replace(/\\n/g,'\n').split(/\r?\n/).map(s=>s.trim()).filter(Boolean);
+    if (typeof value === 'object') return Object.keys(value).sort((a,b)=>Number(a)-Number(b)).map(k=>String(value[k])).filter(Boolean);
+    return [];
+  } catch { return []; }
+}
+---
+<BaseLayout lang={lang} title={termsPageTitle} description={messages.site?.description || ''} canonicalUrl={canonical} allLocales={LOCALE_ORDER}>
+  <main id="main-content">
+    <section id="hero" class="relative mx-auto max-w-6xl px-4 py-6 overflow-visible">
+      <div class="pointer-events-none absolute inset-0 z-[5]">
+        <astro-island>
+          <RedPacketAnimation client:visible />
+        </astro-island>
+      </div>
+      <div class="relative z-10 grid grid-cols-1 md:grid-cols-5 gap-6 items-center">
+        <div class="md:col-span-4">
+          <HeroTextAnimated
+            title={messages.site?.hero?.title || ''}
+            subtitle={messages.site?.hero?.subtitle || ''}
+            withBackground={false}
+            ctaPrimaryLabel={messages.site?.hero?.ctaPrimaryLabel || ''}
+            ctaPrimaryHref={CTA_LINKS.mainBot}
+            ctaSecondaryLabel={messages.site?.hero?.ctaSecondaryLabel || ''}
+            ctaSecondaryHref={`/${lang}/send/#about-send`}
+          />
+        </div>
+        <div class="hidden md:block md:col-span-1"></div>
+      </div>
+    </section>
+
+    <div id="about-terms"></div>
+    <Section class="py-10">
+      <h2 class="text-xl font-semibold" set:html={termsTitle}></h2>
+      <div class="grid grid-cols-1 gap-4">
+        <!-- Legal Disclaimer (non-en-US only: zh-TW and future languages) -->
+        {(lang !== 'en-US' && messages.legal?.terms?.notice?.disclaimer_binding) && (
+          <div class="mb-4 max-w-screen-lg w-full rounded-lg border border-white/20 bg-white/5 px-4 py-3 text-[13px] leading-relaxed text-textSubtle flex flex-row flex-wrap items-start">
+            <span class="inline-flex items-center justify-center rounded-full bg-[#ff6a00] px-2 py-0.5 text-[10px] font-semibold leading-none text-black mr-2">Legal</span>
+            <p class="flex-1">{messages.legal.terms.notice.disclaimer_binding}</p>
+          </div>
+        )}
+        <div class="rounded-xl bg-white shadow-sm ring-1 ring-black/5 p-5">
+          <div class="text-base text-textSubtle leading-relaxed space-y-5 legal-prose">
+            <p><strong>{messages.legal?.terms?.version_label || '版本'}</strong>: {(messages.terms && messages.terms.version) || 'v1.0.0'}　<strong>{messages.legal?.terms?.updated_label || '更新'}</strong>: {(messages.terms && messages.terms.updated) || '2025-10-05'}　<strong>{messages.legal?.terms?.owner_label || 'Owner'}</strong>: <Brandify text={(messages.terms && messages.terms.owner) || 'moonpacket-core'} /></p>
+            <blockquote class="border-l-2 pl-3"><Brandify text={messages.legal?.terms?.intro?.[0] || '本使用者條款（以下稱「本條款」）係您（以下稱「您」或「使用者」）與 <strong>moonpacket</strong>（以下稱「我們」或「本公司」）之間，就您使用 moonpacket 所提供之 Telegram Mini App、機器人（Bot）及網站等服務（以下合稱「本服務」）所訂立。請在使用前詳讀；您開始使用即視為同意受本條款拘束。'} /></blockquote>
+
+            <h3 class="text-base font-semibold">1) {messages.legal?.sections?.scope || '適用範圍與契約成立'}</h3>
+            <ol class="list-decimal pl-5 space-y-1">
+              {toLines(messages.legal?.terms?.intro).map(item => <li set:html={brandify(item)} />)}
+            </ol>
+
+            <h3 class="text-base font-semibold">2) {messages.legal?.sections?.definitions || '定義'}</h3>
+            <ul class="list-disc pl-5">
+              {toLines(messages.legal?.terms?.definitions).map(item => <li set:html={brandify(item)} />)}
+            </ul>
+
+            <h3 class="text-base font-semibold">3) {messages.legal?.sections?.eligibility || '資格與帳號'}</h3>
+            <ol class="list-decimal pl-5 space-y-1">
+              {toLines(messages.legal?.terms?.eligibility).map(item => <li set:html={brandify(item)} />)}
+              {toLines(messages.legal?.terms?.accounts).map(item => <li set:html={brandify(item)} />)}
+            </ol>
+
+            <h3 class="text-base font-semibold">4) {messages.legal?.sections?.services || '服務內容'}</h3>
+            <ol class="list-decimal pl-5 space-y-1">
+              {toLines(messages.legal?.terms?.service).map(item => <li set:html={brandify(item)} />)}
+              {toLines(messages.legal?.terms?.features).map(item => <li set:html={brandify(item)} />)}
+            </ol>
+
+            <h3 class="text-base font-semibold">5) {messages.legal?.sections?.wallet || '雲端錢包與資金'}</h3>
+            <ol class="list-decimal pl-5 space-y-1">
+              {toLines(messages.legal?.terms?.cloudWallet).map(item => <li set:html={brandify(item)} />)}
+            </ol>
+
+            <h3 class="text-base font-semibold">6) {messages.legal?.sections?.fees || '手續費與計費'}</h3>
+            <ol class="list-decimal pl-5 space-y-1">
+              {toLines(messages.legal?.terms?.fees).map(item => <li set:html={brandify(item)} />)}
+            </ol>
+
+            <h3 class="text-base font-semibold">7) {messages.legal?.sections?.rules || '活動規則與公平'}</h3>
+            <ol class="list-decimal pl-5 space-y-1">
+              {toLines(messages.legal?.terms?.rules).map(item => <li set:html={brandify(item)} />)}
+            </ol>
+
+            <h3 class="text-base font-semibold">8) {messages.legal?.sections?.restrictions || '防刷與使用限制'}</h3>
+            <ol class="list-decimal pl-5 space-y-1">
+              {toLines(messages.legal?.terms?.abuse).map(item => <li set:html={brandify(item)} />)}
+            </ol>
+
+            <h3 class="text-base font-semibold">9) {messages.legal?.sections?.ip || '內容與智慧財產權'}</h3>
+            <ol class="list-decimal pl-5 space-y-1">
+              {toLines(messages.legal?.terms?.ip).map(item => <li set:html={brandify(item)} />)}
+            </ol>
+
+            <h3 class="text-base font-semibold">10) {messages.legal?.sections?.third_party || '第三方服務'}</h3>
+            <ol class="list-decimal pl-5 space-y-1">
+              {toLines(messages.legal?.terms?.thirdparty).map(item => <li set:html={brandify(item)} />)}
+            </ol>
+
+            <h3 class="text-base font-semibold">11) {messages.legal?.sections?.data || '資料與隱私'}</h3>
+            <ol class="list-decimal pl-5 space-y-1">
+              {toLines(messages.legal?.terms?.dataPrivacy).map(item => <li set:html={brandify(item)} />)}
+            </ol>
+
+            <h3 class="text-base font-semibold">12) {messages.legal?.sections?.risks || '風險揭露'}</h3>
+            <ol class="list-decimal pl-5 space-y-1">
+              {toLines(messages.legal?.terms?.risk).map(item => <li set:html={brandify(item)} />)}
+            </ol>
+
+            <h3 class="text-base font-semibold">13) {messages.legal?.sections?.disclaimer || '免責聲明'}</h3>
+            <ol class="list-decimal pl-5 space-y-1">
+              {toLines(messages.legal?.terms?.disclaimer).map(item => <li set:html={brandify(item)} />)}
+            </ol>
+
+            <h3 class="text-base font-semibold">14) {messages.legal?.sections?.liability || '責任限制'}</h3>
+            <ol class="list-decimal pl-5 space-y-1">
+              {toLines(messages.legal?.terms?.liability).map(item => <li set:html={brandify(item)} />)}
+            </ol>
+
+            <h3 class="text-base font-semibold">15) {messages.legal?.sections?.indemnity || '賠償'}</h3>
+            <ol class="list-decimal pl-5 space-y-1">
+              {toLines(messages.legal?.terms?.indemnity).map(item => <li set:html={brandify(item)} />)}
+            </ol>
+
+            <h3 class="text-base font-semibold">16) {messages.legal?.sections?.termination || '暫停、終止與刪除'}</h3>
+            <ol class="list-decimal pl-5 space-y-1">
+              {toLines(messages.legal?.terms?.suspension).map(item => <li set:html={brandify(item)} />)}
+              {toLines(messages.legal?.terms?.compliance).map(item => <li set:html={brandify(item)} />)}
+            </ol>
+
+            <h3 class="text-base font-semibold">17) {messages.legal?.sections?.force_majeure || '不可抗力'}</h3>
+            <ol class="list-decimal pl-5 space-y-1">
+              {toLines(messages.legal?.terms?.forceMajeure).map(item => <li set:html={brandify(item)} />)}
+            </ol>
+
+            <h3 class="text-base font-semibold">18) {messages.legal?.sections?.high_risk || '高風險用途禁止'}</h3>
+            <ol class="list-decimal pl-5 space-y-1">
+              {toLines(messages.legal?.terms?.highRisk).map(item => <li set:html={brandify(item)} />)}
+            </ol>
+
+            <h3 class="text-base font-semibold">19) {messages.legal?.sections?.tax || '稅務與申報'}</h3>
+            <ol class="list-decimal pl-5 space-y-1">
+              {toLines(messages.legal?.terms?.tax).map(item => <li set:html={brandify(item)} />)}
+            </ol>
+
+            <h3 class="text-base font-semibold">20) {messages.legal?.sections?.accuracy || '內容與資料正確性'}</h3>
+            <ol class="list-decimal pl-5 space-y-1">
+              {toLines(messages.legal?.terms?.accuracy).map(item => <li set:html={brandify(item)} />)}
+            </ol>
+
+            <h3 class="text-base font-semibold">21) {messages.legal?.sections?.governing_law || '準據法與爭議處理'}</h3>
+            <ol class="list-decimal pl-5 space-y-1">
+              {toLines(messages.legal?.terms?.law).map(item => <li set:html={brandify(item)} />)}
+              {toLines(messages.legal?.terms?.disputes).map(item => <li set:html={brandify(item)} />)}
+            </ol>
+
+            <h3 class="text-base font-semibold">22) {messages.legal?.sections?.contact || '聯絡方式'}</h3>
+            <ol class="list-decimal pl-5 space-y-1">
+              {toLines(messages.legal?.terms?.contact).map(item => <li set:html={brandify(item)} />)}
+            </ol>
+
+            <h3 class="text-base font-semibold">23) {messages.legal?.sections?.changes || '條款變更'}</h3>
+            <ol class="list-decimal pl-5 space-y-1">
+              {toLines(messages.legal?.terms?.changes).map(item => <li set:html={brandify(item)} />)}
+            </ol>
+
+            <h3 class="text-base font-semibold">24) {messages.legal?.terms?.serviceChanges?.title || '服務調整與條款更新'}</h3>
+            <ol class="list-decimal pl-5 space-y-1">
+              {toLines(messages.legal?.terms?.serviceChanges?.body).map(item => <li set:html={brandify(item)} />)}
+            </ol>
+
+            <h3 class="text-base font-semibold">25) {messages.legal?.terms?.userContent?.title || '使用者內容與公開展示授權'}</h3>
+            <ol class="list-decimal pl-5 space-y-1">
+              {toLines(messages.legal?.terms?.userContent?.body).map(item => <li set:html={brandify(item)} />)}
+            </ol>
+
+            <h3 class="text-base font-semibold">26) {messages.legal?.terms?.liabilityCap?.title || '責任限制與賠償上限'}</h3>
+            <ol class="list-decimal pl-5 space-y-1">
+              {toLines(messages.legal?.terms?.liabilityCap?.body).map(item => <li set:html={brandify(item)} />)}
+            </ol>
+
+            <h3 class="text-base font-semibold">27) {messages.legal?.terms?.governingLaw?.title || '適用法律與爭議解決'}</h3>
+            <ol class="list-decimal pl-5 space-y-1">
+              {toLines(messages.legal?.terms?.governingLaw?.body).map(item => <li set:html={brandify(item)} />)}
+            </ol>
+
+            <h3 class="text-base font-semibold">{messages.legal?.terms?.appendix_title || '附錄｜定義與解釋'}</h3>
+            <ul class="list-disc pl-5">
+              {toLines(messages.legal?.terms?.appendix).map(item => <li set:html={brandify(item)} />)}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </Section>
+  </main>
+</BaseLayout>

@@ -1,0 +1,377 @@
+{
+  "site": {
+    "title": "moonpacket — angpao crypto yang sederhana, cepat, dan aman",
+    "description": "Kirim angpao menggunakan cryptocurrency, dan tampilkan harga serta indikator di halaman statis yang ramah SEO."
+  },
+  "nav": {
+    "home": "Beranda",
+    "about": "Tentang",
+    "pricing": "Harga",
+    "team": "Tim",
+    "blog": "Blog",
+    "faq": "Pertanyaan yang Sering Diajukan",
+    "contact": "Hubungi Kami",
+    "careers": "Rekrutmen",
+    "claim": "Klaim angpao",
+    "send": "Kirim angpao",
+    "api": "Dokumentasi API"
+  },
+  "hero": {
+    "title": "moonpacket lepas landas ke bulan!",
+    "subtitle": "Telegram TON, meme, USDT ambil angpao｜Bot angpao yang dirancang untuk proyek koin meme dan pemilik grup Telegram untuk meningkatkan akuisisi dan keterlibatan pengguna.",
+    "desc": "Bot angpao yang dirancang untuk proyek koin meme dan pemilik grup Telegram untuk meningkatkan akuisisi dan keterlibatan pengguna.",
+    "ctaPrimaryLabel": "Aktifkan moonpacket",
+    "ctaPrimaryHref": "https://t.me/MoonPackageDevBot",
+    "ctaSecondaryLabel": "Cara Mengintegrasikan",
+    "ctaSecondaryHref": "/zh-TW/integration"
+  },
+  "features": {
+    "f1": "Pengaturan Cepat",
+    "f2": "Lokalisasi Global",
+    "f3": "Keamanan Desentralisasi"
+  },
+  "metrics": {
+    "heading": "Indikator Real-time",
+    "price_btc": "Harga BTC",
+    "total_sent": "Total Jumlah angpao Dikirim",
+    "total_claimed_amount": "Total Jumlah D klaim (USDT)",
+    "title": "Data moonpacket",
+    "groups": "Grup",
+    "groupsLinkLabel": "Grup angpao yang Bergabung",
+    "sent": "Terkirim",
+    "claimed": "Diklaim (USDT)",
+    "sort": {
+      "latest": "Terbaru",
+      "oldest": "Tertua",
+      "most": "Peserta Maksimal",
+      "least": "Peserta Minimal"
+    }
+  },
+  "cta": {
+    "primary": "Mulai",
+    "secondary": "Pelajari Selengkapnya",
+    "banner": "Siap untuk membuat komunitas Anda lebih aktif?"
+  },
+  "footer": {
+    "rights": "Semua Hak Dilindungi.",
+    "privacy": "Hak Privasi",
+    "terms": "Syarat Layanan",
+    "social": {
+      "telegram_group": "Grup Telegram",
+      "telegram_channel": "Saluran Telegram",
+      "x": "X",
+      "youtube": "YouTube"
+    }
+  },
+  "features_desc": {
+    "f1": "Mulai Cepat dengan Langkah Minimal",
+    "f2": "Dukungan 34 Bahasa dan RTL Bawaan",
+    "f3": "Desentralisasi dengan Privasi dalam Pikiran"
+  },
+  "sections": {
+    "features_heading": "Sorotan Fitur",
+    "features_subtitle": "Anda dapat menerima",
+    "tokens_heading": "Token dan statistik",
+    "testimonials_heading": "Apa kata pengguna",
+    "pricing_heading": "Rencana dan Harga",
+    "waterfall_title": "Rekaman angpao waktu nyata"
+  },
+  "tokens": {
+    "columns": {
+      "token": "Token",
+      "price": "Harga",
+      "h24": "24 jam",
+      "d7": "7 hari",
+      "market_cap": "Kapitalisasi Pasar"
+    }
+  },
+  "testimonials": {
+    "q1": "Peluncuran multibahasa sangat cepat dan sederhana.",
+    "a1": "Jane, Manajer Produk",
+    "q2": "Hampir tidak memerlukan JS, dan ramah SEO.",
+    "a2": "Mike, SEO",
+    "q3": "Aksesibilitas dan pengaturan lokal cukup komprehensif.",
+    "a3": "Sara, Desainer"
+  },
+  "pricing": {
+    "starter": "Memulai",
+    "pro": "Profesional",
+    "enterprise": "Perusahaan",
+    "price_free": "Gratis",
+    "price_19": "$19",
+    "price_contact": "Hubungi Kami",
+    "bullets": {
+      "starter": {
+        "0": "Fitur Dasar",
+        "1": "Dukungan Komunitas"
+      },
+      "pro": {
+        "0": "Paket Dasar",
+        "1": "Lokalisasi Lanjutan"
+      },
+      "enterprise": {
+        "0": "SLA dan Dukungan",
+        "1": "Integrasi Kustom"
+      }
+    }
+  },
+  "form": {
+    "your_email": "Email Anda",
+    "message": "Pesan",
+    "send": "Kirim"
+  },
+  "errors": {
+    "not_found": "Halaman Tidak Ditemukan",
+    "stale": "Data tidak tersedia sementara"
+  },
+  "claim": {
+    "title": "Tentang Menerima angpao",
+    "faq": {
+      "section_1": "Mulai dan Kelayakan",
+      "section_2": "Aturan Acara dan Keadilan",
+      "section_3": "Proses Klaim dan Tugas",
+      "section_4": "Jumlah, Saldo, dan Penarikan",
+      "section_5": "Pengendalian Risiko dan Pembatasan",
+      "section_6": "Ketepatan Waktu dan Pemberitahuan",
+      "section_7": "Multibahasa dan Perbedaan Regional",
+      "section_8": "Perangkat dan Kompatibilitas",
+      "section_9": "Privasi dan Keamanan",
+      "section_10": "Layanan Pelanggan dan Keluhan",
+      "section_11": "Permainan dan Informasi Lainnya",
+      "q1": "Bagaimana cara mendaftar?",
+      "a1": "Gunakan tautan untuk mengaktifkan bot kami untuk pendaftaran pengalaman otomatis. moonpacket memungkinkan pemilik grup untuk memasang di grup mereka. Pemain dapat mengambil angpao tidak hanya di grup resmi kami tetapi juga di semua grup yang terikat pada bot angpao moonpacket.",
+      "q2": "Apa yang perlu saya instal atau nonaktifkan?",
+      "a2": "Tidak diperlukan instalasi aplikasi tambahan; disarankan untuk menggunakan versi terbaru dari Telegram. Jika Anda membuka WebApp di browser sistem, silakan pastikan bahwa cookie/storage tidak diblokir.",
+      "q3": "Siapa yang dapat berpartisipasi?",
+      "a3": "Secara umum, semua pengguna Telegram memenuhi syarat untuk berpartisipasi; namun, desain API setiap grup berbeda, dan Anda harus mematuhi peraturan grup atau saluran tersebut. Beberapa wilayah mungkin memiliki batasan internet, atau beberapa acara mungkin menetapkan batasan wilayah/usia, dan sistem secara otomatis akan menentukan peserta yang tidak memenuhi syarat dan mencegah mereka untuk mengklaim.",
+      "q4": "Bisakah saya klaim dengan beberapa akun atau perangkat?",
+      "a4": "Tidak. Sistem akan mencegah pengguna mengklaim berulang kali dengan menggunakan akun Telegram + Gmail terikat, kode verifikasi, alamat dompet unik, dan pemindaian abnormal di latar belakang; pelanggaran dapat memicu kontrol risiko dan menyebabkan penangguhan akun.",
+      "q5": "Apakah angpao dibagikan secara acak atau merata?",
+      "a5": "Aktivitas proyek grup atau saluran dapat memilih 'acak', 'distribusi merata', atau 'ditunjuk'. Aturan setiap grup berbeda, harap rujuk pada penandaan dalam informasi deskripsi aktivitas masing-masing grup.",
+      "q6": "Bagaimana Anda memastikan keadilan? Bisakah saya memeriksa hasil angpao saya di sana?",
+      "a6": "moonpacket hanya menyediakan angpao; sistem angpao bertindak sebagai alat bot bantu, tanpa investasi atau afiliasi bisnis dengan operator berbagai platform. Oleh karena itu, memastikan keadilan absolut dalam distribusi adalah satu-satunya cara untuk memenuhi kebutuhan semua orang. Selain itu, ada catatan audit yang disimpan di sisi server untuk jangka waktu tertentu (algoritma dan benih); pengguna dapat memeriksa hasil klaim mereka di bot setelah aktivitas klaim angpao selesai, dan hasil ini juga dapat diperiksa setelah meluncurkan miniapp Telegram.",
+      "q7": "Berapa banyak angpao yang dapat diklaim setiap orang?",
+      "a7": "Tergantung pada pengaturan acara yang dirancang oleh pihak proyek. Beberapa bersifat sekali saja, sementara yang lain memiliki batas harian, dan jika ada batas 'beberapa kali per orang', sistem juga akan secara otomatis membatasinya dan memberi tahu saat batas telah tercapai.",
+      "q8": "Apakah acara akan berakhir lebih awal atau ditunda?",
+      "a8": "Jika saham telah diklaim habis atau kedaluwarsa, itu akan berakhir; atau jika penyelenggara menangguhkan atau menghentikan karena risiko abnormal, halaman angpao akan disinkronkan secara real-time.",
+      "q9": "Mengapa saya tidak bisa klaim setelah menekan tombol?",
+      "a9": "Alasan umum: telah diklaim/tugas tidak diselesaikan. Dalam beberapa kasus, proyek dapat ditangguhkan atau dihentikan karena risiko. Karena keterlambatan informasi antara grup, mungkin tidak langsung terlihat; harap perhatikan status terbaru informasi angpao di halaman acara yang diposting oleh grup.",
+      "q10": "Apa itu pembukaan tugas?",
+      "a10": "Anda harus memenuhi syarat yang ditentukan (seperti mengikuti saluran, bergabung dengan grup, memasukkan kata sandi, tugas eksternal) untuk mengklaim. Setelah menyelesaikan, kembali ke tombol informasi angpao untuk 'klaim angpao'.",
+      "q11": "Saya jelas menyelesaikan tugas, mengapa ditampilkan sebagai tidak lolos?",
+      "a11": "Mungkin ada keterlambatan sinkronisasi antara API yang berbeda di Telegram; jika tidak lulus langsung, silakan tunggu sebentar. Jika Anda terus gagal, kemungkinan ada masalah dengan penyedia API, dan kami sarankan melaporkannya kepada proyek yang mengeluarkan tugas angpao.",
+      "q12": "Di mana saya dapat memperoleh passphrase? Apa yang terjadi jika saya memasukkannya dengan salah?",
+      "a12": "Kata sandi biasanya diumumkan oleh proyek dalam pos, siaran langsung, atau video di x; Anda dapat mencoba kembali jika salah memasukkan, tetapi beberapa percobaan yang salah dapat memicu pembatasan frekuensi.",
+      "q13": "Bagaimana cara memverifikasi tugas eksternal (seperti pendaftaran/trading situs web)?",
+      "a13": "moonpacket menyediakan API untuk proyek eksternal untuk mengonfirmasi apakah pengguna telah menyelesaikan tugas. Ketika pengguna mengklaim angpao, permintaan dikirim ke API yang mengembalikan hasil verifikasi; jika memenuhi syarat, akan terbuka; jika belum dikembalikan, Anda dapat menunggu dan memulai ulang nanti.",
+      "q14": "Di mana saya bisa memeriksa jumlah yang diterima?",
+      "a14": "Klaim yang berhasil akan dikirim melalui bot Telegram dan catatan klaim angpao akan tersedia di aplikasi mini, memungkinkan Anda untuk melihat riwayat dan saldo yang dapat ditarik kapan saja.",
+      "q15": "Aset apa saja yang didukung?",
+      "a15": "Berdasarkan pengaturan aktivitas, angpao saat ini dibagi menjadi utama USDT/SOL/ETH/TON dan token yang diterbitkan oleh pemilik grup. Halaman akan menunjukkan unit aset dan nilai tukar (jika ada).",
+      "q16": "Informasi apa yang perlu diikat untuk penarikan? Berapa lama waktu yang dibutuhkan?",
+      "a16": "Anda perlu menyediakan alamat dompet dan informasi identitas dasar untuk tujuan keamanan; waktu kedatangan biasanya T+0 hingga T+2 hari kerja. Ini bisa diperpanjang selama kontrol risiko yang tidak normal.",
+      "q17": "Siapa yang menanggung biaya transaksi/Gas?",
+      "a17": "Setiap operasi on-chain memerlukan biaya gas, yang dikenakan oleh blockchain itu sendiri, dan moonpacket tidak mengenakan biaya tambahan.",
+      "q18": "Bisakah saya mentransfer saldo saya ke teman atau menggabungkannya?",
+      "a18": "Tidak ada metode 'mentransfer/menggabungkan' yang disediakan.",
+      "q19": "Mengapa dianggap mencurigakan atau terhalang?",
+      "a19": "Alasan yang mungkin termasuk beberapa akun di perangkat yang sama, proxy/VPN yang tidak normal, frekuensi yang terlalu tinggi dalam mengambil angpao di beberapa grup, daerah/ASN yang diblacklist, dll. Anda dapat mengirim konten pesan /report ke bot; ini adalah saluran balasan searah, dan resmi berhak untuk tidak menjelaskan atau menanggapi mengenai larangan akun.",
+      "q20": "Apakah saya perlu menjalani verifikasi KYC (kode verifikasi)?",
+      "a20": "Dalam situasi berisiko tinggi, verifikasi akan berdasarkan informasi yang diberikan oleh pengguna; harap pastikan bahwa informasi keamanan yang benar diisi saat menarik; jika informasi yang salah tidak diberikan, Anda tidak akan lulus KYC biometrik dan dokumen.",
+      "q21": "Apa yang harus saya lakukan jika akun saya dibatasi?",
+      "a21": "Larangan biasanya merupakan langkah perlindungan sementara. Silakan kirim konten pesan /report ke bot. Pertanyaan yang diajukan oleh verifier yang belum menyelesaikan pengisian informasi keamanan tidak akan diproses; jika situasinya normal setelah penyelesaian verifikasi, kami akan menanganinya.",
+      "q22": "Kapan setiap acara angpao dimulai dan berakhir?",
+      "a22": "Setiap proyek yang menerbitkan angpao memiliki syarat yang berbeda, silakan perhatikan waktu dan kuota tersisa dari informasi angpao; Anda dapat mengaktifkan notifikasi Telegram atau mengatur suara notifikasi tertentu untuk menerima peringatan tepat waktu saat mengambil angpao.",
+      "q23": "Bisakah saya mengaktifkan atau menonaktifkan notifikasi untuk menerima atau menyelesaikan penarikan?",
+      "a23": "Ini adalah pengaturan Anda di Telegram, bukan pengaturan moonpacket; Anda dapat menyesuaikan notifikasi di pengaturan Telegram Anda.",
+      "q24": "Mengapa saya tidak bisa melihat metode atau fitur penarikan tertentu?",
+      "a24": "Kebijakan di beberapa wilayah tidak berlaku, dan sistem akan secara otomatis menyembunyikan atau mencegah penarikan, menunjukkan bahwa Anda tidak dapat berpartisipasi dalam aktivitas pengambilan angpao, karena wilayah ini saat ini tidak mendukungnya.",
+      "q25": "Berapa banyak tempat desimal yang akan ditampilkan dalam format digital?",
+      "a25": "Situs web akan secara otomatis menerapkan pemisah ribuan dan tempat desimal yang dilokalisasi berdasarkan bahasa Anda.",
+      "q26": "Apakah tersedia di iOS, Android, dan desktop Telegram?",
+      "a26": "Ya, disarankan untuk menggunakan versi terbaru dari Telegram. Jika Anda mengalami situasi yang tidak terbaca, harap periksa apakah Anda menggunakan klien resmi, atau memperbarui aplikasi, atau klik untuk memuat ulang halaman di tiga titik di sudut kanan atas halaman aplikasi mini.",
+      "q27": "Apakah mengubah perangkat akan mempengaruhi penerimaan?",
+      "a27": "Itu tidak akan mempengaruhi catatan, tetapi jika operasi berulang dilakukan di beberapa perangkat dalam waktu singkat, itu mungkin akan memicu kontrol risiko.",
+      "q28": "Apakah menggunakan VPN/proksi akan memberikan efek?",
+      "a28": "Jika Anda menggunakan proxy berisiko tinggi, mungkin dapat disadap. Kami sarankan untuk sementara menonaktifkan proxy atau beralih ke lingkungan jaringan yang bersih dan mencoba lagi.",
+      "q29": "Data apa yang akan dikumpulkan?",
+      "a29": "Ikuti prinsip minimisasi: hanya kumpulkan data yang diperlukan untuk distribusi/penarikan/kontrol risiko (seperti pertanyaan keamanan pribadi, alamat dompet, email, ID Telegram). Ketika autentikasi yang diperlukan, kami akan memverifikasi melalui platform verifikasi pihak ketiga, yang tidak menyimpan data pribadi pengguna kecuali informasi keamanan.",
+      "q30": "Langkah-langkah apa yang diterapkan untuk memastikan keamanan dana?",
+      "a30": "Semua operasi kritis akan memerlukan verifikasi kedua; penarikan berisiko tinggi dapat memicu tinjauan manual.",
+      "q31": "Bisakah saya menghapus akun atau data saya?",
+      "a31": "Anda dapat mengajukan permintaan akses atau penghapusan data sesuai dengan proses. Setelah akun dihapus, Anda tidak akan dapat masuk kembali, tetapi data transaksi akan disimpan sesuai dengan persyaratan kepatuhan.",
+      "q32": "Siapa yang harus saya hubungi jika saya menghadapi masalah?",
+      "a32": "Anda dapat menghubungi kami dengan mengirimkan/melaporkan informasi melalui bot. Menyediakan kode kesalahan dan tangkapan layar dapat mempercepat pemrosesan.",
+      "q33": "Berapa lama waktu yang dibutuhkan untuk menerima balasan atas keluhan?",
+      "a33": "Secara umum, tanggapan diberikan dalam 1-3 hari kerja; kasus yang terkait dengan dana mendesak akan diprioritaskan.",
+      "q34": "Bisakah saya berpartisipasi dalam kegiatan di beberapa grup?",
+      "a34": "Ya; setiap aktivitas memiliki aturan independen, harap perhatikan batasan dan periode validitas masing-masing acara.",
+      "q35": "Apakah akan ada papan peringkat atau lencana?",
+      "a35": "Beberapa aktivitas mungkin memiliki papan peringkat/lencana dan undian; lihat halaman aktivitas untuk aturan dan hadiah."
+    }
+  },
+  "send": {
+    "title": "Pertanyaan yang Sering Diajukan (FAQ Versi Rinci) — Mengirim angpao (Pengatur)",
+    "hero": {
+      "api_demo_label": "Demonstrasi API",
+      "api_get": "GET [api_url]?api_key=[api_key]&user_id=[user_id]",
+      "response_label": "Kembali:",
+      "json": {
+        "0": "{",
+        "1": "\"data\": {",
+        "2": "\"level\": 100,",
+        "3": "\"status\": \"active\",",
+        "4": "\"is_blacklist\": false",
+        "5": "}",
+        "6": "}"
+      },
+      "title": "Peroleh pengguna baru, tingkatkan aktivitas",
+      "lead": "Pihak proyek dapat menetapkan syarat tertentu:",
+      "points": {
+        "0": "• Bergabunglah dengan grup/ikuti saluran",
+        "1": "• Menggunakan frase kunci dengan benar",
+        "2": "• Implementasi API kustom"
+      },
+      "note": "Hanya pengguna yang memenuhi syarat yang dapat menerima angpao"
+    },
+    "faq": {
+      "section_1": "Mulai dan Pengaturan",
+      "section_2": "Aturan Penerbitan dan Keadilan",
+      "section_3": "Tugas dan Ketentuan",
+      "section_4": "Aset, Paparan, dan Penyelesaian",
+      "q1": "Bagaimana cara memulai?",
+      "a1": "Silakan tambahkan bot moonpacket ke grup atau saluran Telegram Anda dan atur sebagai administrator. Pastikan untuk mengaktifkan setidaknya: izin untuk memposting, mengedit/menghapus postingan sendiri. Setelah selesai, kembali ke halaman 'Kirim angpao' moonpacket, dan Anda akan melihat grup/saluran yang terikat dalam daftar 'Kirim Ke'.",
+      "q2": "Apa yang harus saya perhatikan sebelum mengirim?",
+      "a2": "Silakan setorkan aset yang ingin Anda terbitkan terlebih dahulu (misalnya, setorkan 10 USDT untuk pengujian). Anda dapat mengirim token mainstream (USDT/TON, dll.) atau koin meme Anda sendiri. Token mainstream akan muncul tambahan di umpan halaman utama, sementara koin meme hanya ditampilkan di komunitas Anda.",
+      "q3": "Bisakah saya memilih tempat untuk mengirimnya?",
+      "a3": "Di 'Target Kirim', periksa grup/saluran yang terikat untuk mengirim ke satu atau beberapa grup sekaligus. Jika Anda tidak melihatnya dalam daftar, silakan konfirmasi bahwa bot adalah administrator grup/saluran dan memiliki izin yang diperlukan.",
+      "q4": "Model distribusi apa yang tersedia?",
+      "a4": "Anda dapat memilih jumlah acak (keberuntungan) atau jumlah tetap (distribusi sama). Keduanya dapat mengatur jumlah total, jumlah saham, dan batas per orang, serta dapat menambahkan periode validitas atau rilis terjadwal.",
+      "q5": "Bisakah ini dikirim sekaligus atau dalam batch?",
+      "a5": "Ya. Anda dapat mengatur rilis penuh sekali atau rilis batch dalam periode yang ditentukan; penghitung mundur dan pesan pratinjau juga didukung.",
+      "q6": "Apa yang terjadi jika saldo tidak mencukupi?",
+      "a6": "Sistem ini berdasarkan saldo Anda yang tersedia. Jika saldo tidak mencukupi, pesan kegagalan akan dikirim meminta Anda untuk mengisi ulang untuk menghindari pengeluaran berlebih.",
+      "q7": "Bagaimana keadilan dijamin?",
+      "a7": "Distribusi dilakukan di sisi server dan mempertahankan catatan audit (algoritma dan benih, log operasi). Aturan, saham, batas, dan hasil akhir akan ditampilkan secara terbuka di halaman acara untuk penelusuran.",
+      "q8": "Bisakah saya meminta untuk bergabung dengan grup atau mengikuti saluran untuk menerima?",
+      "a8": "Ya. Anda dapat mengaktifkan kondisi bawaan 'Harus bergabung dengan grup tertentu/mengikuti saluran tertentu'. Premisnya adalah bot Anda berada di grup/saluran tersebut dan memiliki izin untuk memposting serta mengedit/menghapus postingan sendiri untuk memverifikasi status anggota.",
+      "q9": "Apa itu frasa sandi? Dalam skenario apa itu cocok?",
+      "a9": "Pemain perlu mendapatkan kata sandi melalui saluran eksternal dan dapat mengklaimnya setelah memasukkannya dengan benar di halaman. Praktik umum termasuk: membagi kata sandi 6 digit dalam video YouTube yang panjang untuk mendorong pemutaran penuh; mengisyaratkan kata sandi dalam posting X.com (Twitter) atau Threads untuk meningkatkan interaksi; hanya mengumumkan kata sandi secara lisan selama siaran langsung untuk membimbing peserta; kata sandi khusus di grup pribadi/berbayar untuk memastikan manfaat hanya diberikan kepada anggota inti.",
+      "q10": "Bisakah saya menggunakan API saya sendiri untuk menentukan kelayakan?",
+      "a10": "Ya. moonpacket akan memanggil API read-only yang Anda sediakan untuk verifikasi sebelum pengguna mengklaim. Backend hanya perlu mengatur api_url dan api_key (izin domain dapat dikonfigurasi secara opsional).",
+      "q11": "Apa perbedaan eksposur antara koin mainstream dan koin meme?",
+      "a11": "Koin mainstream (USDT/TON, dll.) akan ditampilkan di grup dan juga di umpan halaman utama untuk eksposur yang lebih tinggi; koin meme akan hanya ditampilkan di grup Anda.",
+      "q12": "Bagaimana cara mencegah kecurangan dan mesin massal?",
+      "a12": "Termasuk frekuensi perilaku dan deteksi perangkat/IP, pengikatan unik akun dan dompet, kode verifikasi penarikan, tinjauan awal kontrol risiko AI; jika perlu, akan ada verifikasi biometrik + wajah + identifikasi pihak ketiga.",
+      "q13": "Di mana saya bisa melihat catatan yang telah saya kirim dan jumlah penerima?",
+      "a13": "Silakan periksa 'angpao yang Saya Kirim' di halaman pribadi Anda untuk melihat jumlah penerima, sisa saham, dan total jumlah yang dikonsumsi untuk setiap sesi; jika diaktifkan, Anda juga dapat mengunduh laporan."
+    }
+  },
+  "groups_directory": {
+    "latest_tab": "Grup angpao Terbaru",
+    "hot_tab": "Grup angpao Populer",
+    "search_placeholder": "Cari kata kunci untuk grup yang bergabung"
+  },
+  "a11y": {
+    "skip_to_main": "Lompat ke Konten Utama",
+    "language_menu": "Menu Bahasa",
+    "language": "Bahasa"
+  },
+  "waterfall": {
+    "sent_from": "Mengirim Grup:",
+    "claimed": "Klaim",
+    "total": "Total Jumlah",
+    "progress": "Sudah Diklaim"
+  },
+  "terms": {
+    "title": "Ketentuan Pengguna",
+    "version": "v1.0.0",
+    "updated": "5 Oktober 2025 15:00:00 GMT+0800 (Waktu Standar Taipei)",
+    "owner": "moonpacket-core",
+    "sections": {
+      "scope": "Ruang Lingkup Aplikasi dan Pembentukan Kontrak",
+      "definitions": "Definisi",
+      "eligibility": "Kualifikasi dan Akun",
+      "services": "Konten Layanan",
+      "wallet": "Dompet Cloud dan Dana",
+      "fees": "Biaya dan Penagihan",
+      "rules": "Aturan Aktivitas dan Keadilan",
+      "restrictions": "Larangan Bot dan Pembatasan Penggunaan",
+      "ip": "Hak Konten dan Kekayaan Intelektual",
+      "third_party": "Layanan Pihak Ketiga",
+      "data": "Data dan privasi",
+      "risks": "Pengungkapan Risiko",
+      "disclaimer": "Pernyataan penolakan",
+      "liability": "Batasan Tanggung Jawab",
+      "indemnity": "Kompensasi",
+      "termination": "Penangguhan, Penghentian, dan Penghapusan",
+      "force_majeure": "Keadaan Kahar",
+      "high_risk": "Penggunaan Berisiko Tinggi yang Dilarang",
+      "tax": "Pajak dan Pelaporan",
+      "third_party_services": "Pengungkapan Layanan Pihak Ketiga dan Hubungan",
+      "wallet_assets": "Pengungkapan Dompet dan Aset",
+      "accuracy": "Akurasi konten dan data",
+      "governing_law": "Hukum yang Mengatur dan Penyelesaian Sengketa",
+      "contact": "Informasi kontak"
+    }
+  },
+  "privacy": {
+    "title": "Kebijakan Privasi",
+    "version": "v1.1.0",
+    "updated": "5 Oktober 2025, Minggu 15:00:00 GMT+0800 (Waktu Standar Taipei)",
+    "owner": "moonpacket-core",
+    "sections": {
+      "intro": "Pengenalan",
+      "definitions": "Definisi",
+      "scope": "Ruang lingkup aplikasi",
+      "data_collection": "Data yang kami kumpulkan",
+      "data_usage": "Penggunaan kami",
+      "legal_basis": "Dasar regulasi",
+      "cookies": "Cookies dan penyimpanan lokal",
+      "data_sharing": "Penerima berbagi data",
+      "cross_border": "Transfer lintas batas",
+      "retention": "Jangka waktu penyimpanan",
+      "security": "Keamanan",
+      "blockchain": "Deskripsi fitur blockchain",
+      "telegram": "Pernyataan platform Telegram",
+      "minors": "Regulasi terkait anak",
+      "rights": "Hak Anda dan cara melaksanakannya",
+      "faq": "Pertanyaan yang Sering Diajukan (Privasi dan Keamanan)",
+      "updates": "Pembaruan Syarat",
+      "contact": "Informasi kontak"
+    },
+    "faq": {
+      "q1": "Data apa yang kami kumpulkan?",
+      "a1": "Kami akan menyediakan informasi yang diperlukan untuk penerbitan dan penerimaan angpao, verifikasi tugas, dompet awan, dan penarikan, termasuk informasi dasar Telegram, metrik perangkat dan jaringan, peristiwa interaksi, serta informasi KYC dan dompet saat diperlukan.",
+      "q2": "Apakah dana saya aman?",
+      "a2": "Rekening dana dan operasional dipisahkan, operasi sensitif memerlukan autentikasi dua faktor, dan semua peristiwa keuangan akan dicatat; penarikan berisiko tinggi akan ditinjau secara manual.",
+      "q3": "Bisakah saya menghapus data saya?",
+      "a3": "Anda dapat meminta penghapusan atau pembatasan data Anda sesuai dengan hukum; data akuntansi atau data terkait sengketa yang harus disimpan menurut hukum tidak tunduk pada pembatasan ini dan akan dihapus atau dianonimkan setelahnya.",
+      "q4": "Pembatasan wilayah dan konten yang terlihat tidak cocok?",
+      "a4": "Menurut kebijakan kepatuhan, beberapa fitur atau metode penarikan mungkin tidak tersedia karena pembatasan regional, dan sistem akan secara otomatis menyembunyikan opsi yang tidak berlaku.",
+      "q5": "Mengapa dianggap mencurigakan?",
+      "a5": "Masalah mungkin timbul akibat proxy/VPN, frekuensi yang tidak biasa, atau login bersamaan dari beberapa akun; Anda dapat mencoba lagi nanti atau menjalani proses banding untuk ditinjau."
+    }
+  },
+  "roadmap": {
+    "accept": "Kriteria Penerimaan",
+    "bucket": {
+      "progress": "Progres"
+    },
+    "lanes": {
+      "build": "Bangun Produk",
+      "growth": "Pertumbuhan",
+      "token": "token moonini",
+      "trust": "Kepercayaan, Kepatuhan, dan Keamanan"
+    },
+    "progressLabel": "Status",
+    "status": {
+      "live": "Langsung",
+      "planned": "Direncanakan",
+      "research": "Dalam Penelitian",
+      "shipping": "Dalam Pengembangan"
+    },
+    "title": "Peta Jalan Produk",
+    "updated": "Pembaruan (Token akan didistribusikan setelah batang progres penuh)"
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "title": "",
+  "hero": {
+    "api_demo_label": "API-demo",
+    "api_get": "https://t.me/MoonPackageDevBot",
+    "response_label": "Vastaus:",
+    "json": "{ \"data\": { \"level\": 100, \"status\": \"active\", \"is_blacklist\": false } } {, \"data\": {, \"level\": 100,, \"status\": \"active\",, \"is_blacklist\": false, }",
+    "title": "Houkuttele uusia käyttäjiä, lisää aktiivisuutta",
+    "lead": "Projektin osapuoli voi asettaa erityiset ehdot:",
+    "points": {
+      "0": "",
+      "1": "",
+      "2": ""
+    },
+    "note": "Ehdot täyttävät käyttäjät voivat lunastaa red packetin",
+    "subtitle": "Luo mukautettu red packet -tapahtuma yhteisöllesi",
+    "desc": "Helppo asetukset, nopea lanseeraus, aktivoi yhteisösi!",
+    "ctaPrimaryLabel": "Aloita nyt",
+    "ctaPrimaryHref": "https://t.me/MoonPackageDevBot",
+    "ctaSecondaryLabel": "Katso esimerkki",
+    "ctaSecondaryHref": "/zh-TW/claim/",
+    "api_demo_code": "{\n\"data\": {\n\"level\": {\n\"gt\": 99\n},\n\"status\": {\n\"eq\": \"active\"\n},\n\"is_blacklist\": {\n\"eq\": false\n}\n}\n}",
+    "api_demo_title": "GET [api_url]?api_key=[api_key]&user_id=[user_id]",
+    "use_cases_items": {
+      "0": "Projektin osapuoli voi asettaa tehtäväehdot:",
+      "1": "Liity ryhmään / Seuraa kanavaa",
+      "2": "Oikea salauslause",
+      "3": "Projektin osapuolen mukautettu API",
+      "4": "Vain käyttäjät, jotka täyttävät ehdot, voivat vaatia, lähetä punainen paketti arvokkaille käyttäjille."
+    },
+    "use_cases_title": "Vetreä uusia käyttäjiä・Lisää toimintaa"
+  },
+  "faq": {
+    "section_1": "Aloitus ja asetukset.",
+    "q1": "Miten aloittaa?",
+    "a1": "Lisää moonpacket Robotti Telegram-ryhmääsi tai kanavallesi ja määritä se ylläpitäjäksi.",
+    "q2": "Mitkä valmistelut ovat tarpeen ennen lähettämistä?",
+    "a2": "Ole hyvä ja talleta ensin jaettavat varat (esimerkiksi talleta 10 USDT testaamista varten).",
+    "section_2": "2) Lähetysprosessi",
+    "q3": "Voinko valita minne sen lähetän?",
+    "a3": "Valitse 'Lähetys kohteet' -osiosta sidotut ryhmät tai kanavat, joihin haluat lähettää yhdelle tai useammalle ryhmälle samanaikaisesti.",
+    "tip": "Vinkki: Punaiset paketit sopivat jääkappausvuorovaikutuksiin. Voit vastata punaisen paketin julkaisuun selittääksesi peli-teeman, jonka haluat järjestää.",
+    "section_3": "3) Teknisiä ongelmia",
+    "section_4": "Data ja analyysi",
+    "section_5": "Tekninen tuki ja ylläpito",
+    "q4": "Voiko jakomenetelmää räätälöidä?",
+    "a4": "Tukee sekä satunnaista että keskimääräistä jakelumoodia.",
+    "q5": "Voit viestiä suoraan viralliselle asiakaspalvelurobotille @moonini_helper_bot.",
+    "a5": "Jokaisella API-avaimella voidaan kutsua enintään 60 kertaa minuutissa.",
+    "q6": "Kuinka käsitellä virheitä?",
+    "a6": "API palauttaa yksityiskohtaiset virhekoodit ja virheilmoitukset.",
+    "q7": "Kuinka seurata aktiivisuuden tehoa?",
+    "a7": "Tarjoaa reaaliaikaisen tietonäytön:",
+    "q8": "Miten transaktiomaksut lasketaan?",
+    "a8": "• Alustan palvelumaksu: 2-5% (säädetään toiminnan mukaan)",
+    "q9": "Kuinka varmistaa rahojen turvallisuus?",
+    "a9": "• Hajautettu arkkitehtuuri, ei tarpeita hallussapitovaroille",
+    "q10": "Miten jäävät rahat käsitellään tapahtuman jälkeen?",
+    "a10": "• Vaatimattomat red packetit palautetaan automaattisesti lompakkoosi.",
+    "q11": "Voiko useita tapahtumia järjestää samaan aikaan?",
+    "a11": "Kyllä, mutta suosittelemme sinua:",
+    "q12": "Miten käsitellään käyttäjien valituksia?",
+    "a12": "• Tarjoa erityinen asiakaspalvelukanava",
+    "q13": "Onko teknistä tukea saatavilla?",
+    "a13": "• 24/7 tekninen tuki",
+    "q14": "Miten optimoin tapahtuman tehokkuuden?",
+    "a14": "• Säädä aktiivisuustrategiaa tietojen perusteella",
+    "q9_passcode": "Mikä on salasanafraasi? Millaisissa tilanteissa se on sopiva?",
+    "a9_passcode": "Pelaajien on saatava salainen lause ulkoisista kanavista ja palattava tälle sivulle syöttämään se oikein lunastamista varten. Yleiset käytännöt:",
+    "passcode_scenarios": {
+      "0": "Pilkkokaa 6-numeroista salaista lausetta YouTuben pitkillä videoilla kannustamaan täydelliseen katseluun.",
+      "1": "Julkaisut X.com:ssa (Twitter) tai Threads-verkossa vihjaavat salaisesta lauseesta vuorovaikutuksen lisäämiseksi.",
+      "2": "Jaa salainen lauseke vain suullisesti livenä virallisissa lähetyksissä ohjataksesi osallistujia.",
+      "3": "Yksityiset/ maksulliset ryhmät tarjoavat eksklusiivisia salaisia lausekkeita varmistaakseen, että edut annetaan vain ydinasukkaille."
+    },
+    "q10_api": "Voinko käyttää omaa API:ta määrittääkseni osallistujan kelpoisuuden?",
+    "a10_api": "Kyllä. moonpacket kutsuu annettua vain-luku API:a vahvistusta varten ennen kuin käyttäjä vaatii sitä. Aseta vain api_url ja api_key (valinnaiset domain-asetukset käytettävissä) taustajärjestelmään.",
+    "api_condition_title": "Ehtojen ilmoitus (ilman user_id)",
+    "api_response_label": "Palauta:",
+    "api_operators_label": "Operaattori:",
+    "api_operators_desc": "eq (voi vastata mihin tahansa tyyppiin), gt/lt/gte/lte (on oltava numeerisia)",
+    "api_user_query_title": "Käyttäjän kysely (mukaan lukien user_id)",
+    "api_logic_desc": "moonpacket käyttää 'Ehtojen ilmoitus' -kriteeriä vertaamaan 'Käyttäjän kyselyn' todellista arvoa; jos se täsmää, se hyväksytään, jos ei, sitä ei voi lunastaa.",
+    "api_security_title": "Turvallisuussuositukset",
+    "api_security_desc": "Käytä vain luku -päätepisteitä, aktivoi api_key ja salli verkkotunnusrajoitukset; ylirajaisissa tapauksissa suositellaan Cloudflare Workersin käyttöä siirtoon ja kaistan rajoittamiseen.",
+    "q12_antibot": "Miten estetään huijaaminen ja bottitoiminta?",
+    "a12_antibot_items": {
+      "0": "Käyttäytymisen taajuus ja laitteen/IP:n tunnistus",
+      "1": "Tili sidottu yksilöllisesti lompakkoon",
+      "2": "Nostovahvistuskoodi",
+      "3": "AI riskitason esikatselu; voi suorittaa kolmannen osapuolen biometrisen tunnistuksen, kasvojentunnistuksen ja asiakirjavahvistuksen tarpeen mukaan"
+    },
+    "q13_records": "Mistähän voin tarkistaa lähetettyjen viestieni tiedot ja vastaanottajien määrän?",
+    "a13_records": "Tarkista 'Lähettämäni Red Packetit' henkilökohtaiselta etusivultasi nähdäksesi vaatimustentekijöiden määrän, jäljellä olevat summat ja kokonaismenot jokaiselle istunnolle; jos käytössä, raportteja voidaan myös ladata.",
+    "q1_body": {
+      "0": "Tämä on työkalu, joka auttaa projektitiimejä, ryhmän omistajia tai yhteisömanageria jakamaan red paketteja nopeasti Telegram-ryhmissä.\nTarkoituksenaan on erityisesti meme-kolikoiden jakaminen yhteisön jäsenten kannustamiseksi,\npääkäyttötarkoitukset ovat: aktiivisuuden edistäminen, uusien jäsenten houkutteleminen ja mainoskampanjoiden toteuttaminen.\nVoit jakaa red paketteja sekä omilla liikkeeseenlaskemillasi meme-kolikoillasi että myös valtavirran tokeneilla kuten USDT, TRX, SOL ja muilla.\nmoonpacketin kautta voit vaatia käyttäjiä suorittamaan yksinkertaisia tehtäviä ja määrittämään edelleen API:n kautta, mikä mahdollistaa ryhmän omistajille 'jakosääntöjen räätälöinnin' ja 'vaatimusten asettamisen', vahvistaen omalla API:llaan.",
+      "1": "Vinkki: moonpacketin red pakettien jakaminen auttaa sinua löytämään todella arvokkaita yhteisön jäseniä. Voit asettaa vaatimuksia jokaiselle red paketille, tarjoten pelaajille erilaisia tehtäviä suoritettavaksi."
+    },
+    "q1_title": "1) Mikä on moonpacketin red paketti -toiminto?",
+    "q2_body": {
+      "0": "Tervetuloviesti uusille jäsenille liittymisen jälkeen (perustehtävien suorittaminen)",
+      "1": "Reaaliaikainen vuorovaikutus suorissa lähetyksissä / AMA:ssa / tapahtumissa (vain tapahtumaan keskittyneet jäsenet voivat vastaanottaa salastrategian ja oikeutuksen red pakettiin)",
+      "2": "Sisäryhmän markkinointikampanjat, arpajaiset, iskulauseet, pelitasot, latausalennukset (esim. vain pelaajat, jotka saavuttavat tietyn tason pelissä tai lataavat tietyn summan, ovat oikeutettuja saamaan)",
+      "3": "Palkkiot ystävien kutsumisesta liittymään ryhmään",
+      "4": "Rajoitetun ajan tarjoukset, aikarajatapahtumat (päivittäiset kirjautumistavoitteet)",
+      "5": "\"Ristiinryhmän punainen paketti\": Jätä punaisia paketteja muihin ryhmiin (jos ryhmän omistaja sallii), edistääksesi keskinäistä julkisuutta ja yhteisön yhteistyötä."
+    },
+    "q2_title": "2) Milloin punaisen paketin ominaisuutta on sopivaa käyttää?",
+    "q3_body": {
+      "0": "Kaikki on-chain-toimitukset aiheuttavat kaasumaksun. Kaasumaksu veloitetaan itse lohkoketjulta, eikä se ole lisämaksu meiltä.",
+      "1": "Kun talletat tokeneita punaisen paketin altaaseen, kaasumaksu vähennetään immediately. Todellinen summa, joka menee altaaseen, voi olla hieman pienempi kuin ilmoitettu summa (tai lisäkaasumaksu saatetaan veloittaa siirron yhteydessä). Tämä on normaali on-chain-vähennys.",
+      "2": "Kun jaat punaisen paketin 'omassa ryhmässäsi', järjestelmä veloittaa automaattisesti 2 % alustan maksun jakamisen yhteydessä, joka vähennetään suoraan.",
+      "3": "Ristiinryhmän punaisilla paketeilla (punaisen paketin edistämisestä jonkun toisen ryhmässä) on lisäsääntöjä:",
+      "4": "Ensinnäkin, ryhmän omistajan, joka vastaanottaa edistämisen, on asetettava lupa, ja pääasiallisia tokeneita on käytettävä. Ristiinryhmän punaiset paketit eivät hyväksy itse luotuja meme-kolikoita, ja järjestelmässä on vähimmäisraja ristiinryhmän punaisille paketeille. Jos raja jää alle, punaista pakettia ei voi perustaa. Varmista, että summasi on riittävä ennen lähettämistä."
+    },
+    "q3_title": "3) Punaisen paketin lähettämisen kustannukset ja rajat",
+    "q4_body": {
+      "0": "Havaitsemme aktiivisesti väärinkäyttökäyttäytymistä (kuten petoksia, rahanpesua, robottitaktiikoita, roskapostiviestintää jne.). Jos katsotaan, että riskit ovat suuret, tili tai varat voivat siirtyä 'tarkastettavaksi'-tilaan: nostot voivat viivästyä ja tiliä saatetaan tilapäisesti estää. Tämä suojaa kaikkia käyttäjävaroja ja noudattaa sääntelyvaatimuksia.",
+      "1": "Tämä on alustan riskivalvonta- ja vaatimustenmukaisuusmekanismi. Perustuen sisäiseen riskivalvontaan, vaatimustenmukaisuusvaatimuksiin tai kolmansien osapuolten tutkimuksiin voimme keskeyttää, rajoittaa, viivästyttää tai evätä tiettyjä nostoja tai siirtoja.",
+      "2": "Jos uskot, että tämä on väärinymmärrys, voit jättää valituksen virallisen asiakaspalvelubotin kautta."
+    },
+    "q4_title": "4) Turvallisuus, riskivalvonta ja tilitilanne",
+    "q5_body": {
+      "0": "Voit lähettää viestin viralliselle asiakaspalvelubotille suoraan @moonini_helper_bot.",
+      "1": "Ole hyvä ja syötä komento /setlang keskustelussa (esim. /setlang zh-TW tai /setlang en-US) vaihtaaksesi asiakaspalvelukieltä.",
+      "2": "Kun raportoet ongelmasta, ole hyvä ja anna:",
+      "3": "Asiakaspalvelu tarkistaa vain on-chain-tiedot ja tapahtumatiedot. Emme kysy sinulta alkuperäisten kuvien lähettämistä tai lompakon yksityisten avainten, muistilappujen tai täydellisten siemenlauseiden antamista, emmekä pyydä sinua siirtämään varoja 'vahvistusta' varten. Virallinen asiakaspalvelu ei myös proaktiivisesti lähetä sinulle viestejä varojen pyytämiseksi.",
+      "4": "Voit myös käyttää itsepalvelu kysely-API:a tarkistaaksesi tilasi, kuten onko tilisi voimassa, onko se estolistalla tai onko se tarkastettavana. Tässä esimerkki: jos vastaus näyttää sinut is_blacklist: true tai status: \"hold\", se tarkoittaa, että tili on riskivalvontakatselmuksessa, ja nostot tai jakamiset voivat olla keskeytettyjä. Jos tätä toimintoa ei ole käytettävissä testausjakson aikana, jätä valitus asiakaspalvelubotin kautta ja anna tapahtuman hash, niin kiihdytämme käsittelyä on-chain-toimien perusteella."
+    },
+    "q5_title": "5) Asiakaspalvelu ja itsepalvelukyselyt",
+    "q6_body": {
+      "0": "Tarjoamme API-mekanismin ryhmän omistajille tehtäväolosuhteiden ja lunastus sääntöjen mukauttamiseen.",
+      "1": "Mikä on salasana? Milloin sitä tulisi käyttää? Esimerkiksi, kun haluat pyytää lisää käyttäjiä vierailemaan TikTokissasi tai YouTubessasi tai liittymään yksityiseen ryhmääsi, voit piilottaa salasanan videoihin tai viesteihin. Käyttäjien on hankittava salasana määrätyltä paikalta lunastaakseen red packetin sen syötettyään.",
+      "2": "Mikä on API:n käsite? Kuinka kelpoisuus määritellään?",
+      "3": "API-asetusten käyttöliittymässä meidän on ensin ilmoitettava API:lle ehdot, joita kutsutaan 'ehdokseksi' (ilman user_id):\nEsimerkki: Palauta joukko kynnysvaatimuksia, kuten taso, tila, onko mustalla listalla jne.\nmoonpacket pitää tätä ehtojoukkoa perustasona.",
+      "4": "Seuraavaksi, kun käyttäjä haluaa vastaanottaa red packetin, API:n on annettava:\n'Käyttäjäkysely' (mukaan lukien user_id).\nEsimerkki: Palauta kyseisen käyttäjän todellinen arvo. Alusta vertaa 'Käyttäjäkyselyn' tuloksia aiemmin asetettuihin 'ehdokseksi' kynnysarvoihin; jos ne ovat samat, hyväksytään; jos eivät, hylätään.",
+      "5": "Turvallisuussuositus: Pyydämme, että tarjoat vain vain luku -päätepisteitä ja otat käyttöön api_key yhdessä verkkotunnuksen valkoisen listan rajoitusten kanssa; jos tarvitaan ristiinverkkotoimintoja, voit käyttää Cloudflare Workers -työkaluja välittäjänä ja toteuttaa nopeusrajoittamisen.",
+      "6": "Voidaanko toimintaa sääntöjä muuttaa kesken kaiken?",
+      "7": "Käyttöehtoja ei voida muuttaa kesken kaiken. Toivomme, että kaikki tämän järjestelmän käyttäjät voivat ylläpitää keskinäistä luottamusta. Jos projekti lupaa antaa red packet -suuria, mutta muuttaa pelin kelpoisuusehtoja kesken kaiken niin, ettei sitä voida lunastaa, se vahingoittaa pelaajien luottamusta. Jos myöntäjä muuttaa API:a sääntöjen muuttamiseksi, ja useat pelaajat ilmoittavat siitä, pidätämme oikeuden keskeyttää tai jäädyttää tilejä vahvistamisen jälkeen muutospäiväkirjan kautta. Siksi pyydämme, että välitätte muutoksista API:lla kesken pelin, sillä se voi johtaa tilin estämiseen.",
+      "8": "Jos olet huolissasi vääristä asetuksista, oikea lähestymistapa on:",
+      "9": "Voit ensin luoda oman testiryhmän, antaa itsellesi testired packet -paketteja testiryhmässä, ja kun ongelmia ei ole vahvistettu, voit jakaa virallisessa yhteisössä. Red packetien perussääntö on: et voi keskeyttää kesken, etkä voi suoraan muuttaa sääntöjä käynnissä olevalle toiminnalle. Jokainen kierros on suoritettava ja ratkaistava alkuperäisten lupauksien mukaisesti, ennen kuin uusia sääntöjä voidaan käyttää seuraavalla kierroksella."
+    },
+    "q6_title": "6) Toimintasäännöt, kelpoisuuden hallinta ja ei kesken sääntömuutoksia",
+    "q7_body": {
+      "0": "Olemme tällä hetkellä vielä beta-toimintavaiheessa, ja optimoimme vähitellen datan ohjauspaneelia, mukaan lukien osallistujien määrä, lunastettujen red packetien määrä, lunastussuhde jne. Projektiluoji voivat myös upottaa seurantaindikaattoreita API-asetuksiinsa.",
+      "1": "Lunastamaton red packet palautuu automaattisesti lompakkoosi. Jos et saa palautusta 3 päivän kuluessa toiminnan päättymisestä, voit tiedustella asiakaspalvelusta käsittelyä varten.",
+      "2": "On suositeltavaa, ettei suoriteta liian monta toimintoa samanaikaisesti samassa ryhmässä, jotta vältetään konflikteja. Käyttäjät saattavat myös hämmentyä; on parasta toteuttaa toimenpiteitä lineaarisesti, yksi kerrallaan tai yksi päivässä, ja varmistaa riittävät varat kunkin toiminnan suorittamiseksi.",
+      "3": "Suosittelemme sääntöjen mukauttamista datan perusteella; voit hyödyntää API:a A/B-testauksessa, viitata aikaisempiin onnistuneisiin tapauksiin ja kerätä jatkuvasti jäsenpalautetta pelin optimoimiseksi.",
+      "4": "Petosten ja väärinkäytösten torjunta:",
+      "5": "Avoimen beeta-toiminta testauksen aikana optimoimme käyttäjien huijaamiseen liittyviä ongelmia. Järjestelmän oikeudenmukaisuuden varmistamiseksi estämme erityisesti käyttäjiä, jotka yrittävät käyttää boteja red packetien saamiseen. Paras ennaltaehkäisymenetelmä on antaa käyttäjien asettaa omat API:nsä ja ehdot sekä rajoittaa lunastusten määrää, mikä nostaa kynnystä niille, jotka haluavat huijata. Poikkeustilanteissa, älä epäröi ottaa yhteyttä asiakaspalveluumme palautetta varten."
+    },
+    "q7_title": "7) Seuraa suorituskykyä, optimoi ja estä petoksia",
+    "section_title": "Usein kysytyt kysymykset (Yksityiskohtainen FAQ) — Lähetä punainen paketti"
+  },
+  "features": {
+    "f1": "Nopea asennus",
+    "f2": "Erilaiset pelityylit",
+    "f3": "Reaaliaikainen data",
+    "f4": "Turvallinen ja luotettava"
+  },
+  "features_desc": {
+    "f1": "Suorita asennus 3 minuutissa aloittaaksesi punaisen paketin aktiviteetin",
+    "f2": "Tukee satunnaisia, keskimääräisiä ja määriteltyjä jakomenetelmiä",
+    "f3": "Näe vastaanottotiedot ja käyttäjäpalautteet heti",
+    "f4": "Hajautettu suunnittelu varmistaa varojen turvallisuuden"
+  },
+  "cta_button_prefix": "Ota käyttöön nyt",
+  "cta_button_suffix": "Robotti",
+  "cta_launch_bot": "Ota moonpacket Robotti käyttöön nyt",
+  "footer_tip": "Vinkki: Punaiset paketit sopivat jääkappausvuorovaikutuksiin. Voit vastata punaisen paketin julkaisuun selittääksesi peli-teeman, jonka haluat järjestää."
+}

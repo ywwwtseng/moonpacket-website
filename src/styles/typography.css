@@ -1,0 +1,111 @@
+/* Typography system: Sora (brand/headings), Inter (body), IBM Plex Sans (numerals)
+   Binance fonts are NOT bundled; add only with explicit license later. */
+
+/* Typography system: Sora (brand/headings), Inter (body), IBM Plex Sans (numerals)
+   Binance fonts are NOT bundled; add only with explicit license later. */
+
+/* Commented out local font references to avoid 404 errors - using Google Fonts instead */
+/*
+@font-face {
+  font-family: 'Sora';
+  src: url('/fonts/Sora-Variable.woff2') format('woff2-variations'),
+       url('/fonts/IBM_Plex_Sans,Inter,Sora/Sora/Sora-VariableFont_wght.ttf') format('truetype');
+  font-weight: 200 800;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('/fonts/Inter/Inter-VariableFont_opsz,wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'IBM Plex Sans';
+  src: url('/fonts/IBM_Plex_Sans,Inter/IBM_Plex_Sans/IBMPlexSans-VariableFont_wdth,wght.ttf') format('truetype');
+  font-weight: 100 700;
+  font-display: swap;
+}
+*/
+
+:root{
+  --fz-hero: clamp(3rem, 8vw, 7rem);
+  --fz-h1: clamp(2.25rem, 5.5vw, 4rem);
+  --fz-h2: clamp(1.75rem, 4vw, 3rem);
+  --fz-h3: clamp(1.25rem, 2.5vw, 2rem);
+  --fz-body: 1rem;
+  /* Navigation & controls */
+  --fz-nav: clamp(0.95rem, 1.2vw, 1.1rem);
+  --fz-btn: clamp(0.95rem, 1.2vw, 1.05rem);
+  --lh-tight: 1.1; 
+  --lh-title: 1.15; 
+  --lh-body: 1.5;
+}
+
+/* Brand mark typography - standardized wordmark styling */
+.brand-mark {
+  font-family: "Sora", system-ui, sans-serif;
+  font-weight: 800;
+  letter-spacing: -0.04em;
+  line-height: 1.05;
+}
+
+.brand-word{ 
+  font-family: 'Sora', var(--tw-font-sans);
+  text-transform: lowercase; 
+  font-weight: 700;
+  letter-spacing: -0.01em; 
+  line-height: var(--lh-title);
+}
+.brand-word[data-size="hero"]{ font-size: var(--fz-hero) }
+.brand-word[data-size="h1"]{ font-size: var(--fz-h1) }
+.brand-word[data-size="h2"]{ font-size: var(--fz-h2) }
+.brand-word[data-size="nav"]{ font-size: 1em; font-weight: 700; letter-spacing: .01em }
+.brand-word[data-tone="primary"]{ color:#E32521 }
+.brand-word[data-tone="navy"]{ color:#0C1E3A }
+.brand-word[data-tone="gold"]{ color:#FFBA00 }
+.brand-word[data-tone="skin"]{ color: var(--text, #000000) }
+.brand-word[data-tone="gradient"]{ background:linear-gradient(90deg,#E32521 0%,#FFBA00 100%); -webkit-background-clip:text; background-clip:text; color:transparent }
+.brand-word[data-tone="on-dark"]{ color:#fff; text-shadow:0 0 .5px rgba(0,0,0,.4),0 0 1px rgba(0,0,0,.25) }
+html[dir="rtl"] .brand-word{ letter-spacing:0 }
+
+.num,.price{
+  font-family:'IBM Plex Sans','Inter','system-ui','sans-serif';
+  font-variant-numeric: tabular-nums lining-nums;
+  font-feature-settings: 'tnum' 1,'lnum' 1,'zero' 1;
+  font-weight: 700; /* 全站數字粗體 */
+  font-variation-settings: 'wght' 700;
+  letter-spacing: -0.01em; /* 視覺更厚實、且更省寬度 */
+  color:#16A34A; /* 預設上升綠 */
+}
+/* 統一顏色為上升綠，保持向下兼容現有類名 */
+.rise{ color:#16A34A }
+.fall{ color:#16A34A }
+.num-right{ text-align:end }
+
+/* Navigation and button text helpers for consistent sizing */
+.nav-link{ font-size: var(--fz-nav); font-weight: 600; letter-spacing: .01em; }
+.btn-text{ font-size: var(--fz-btn); font-weight: 600; letter-spacing: .01em; }
+
+/* Locale-specific stacks */
+:lang(zh-TW){ font-family: 'Noto Sans TC','Inter',system-ui,sans-serif }
+:lang(zh-CN){ font-family: 'Noto Sans SC','Inter',system-ui,sans-serif }
+:lang(ja){ font-family: 'Noto Sans JP','Inter',system-ui,sans-serif }
+:lang(ko){ font-family: 'Noto Sans KR','Inter',system-ui,sans-serif }
+[dir="rtl"]{ font-family: 'Vazirmatn','Inter',system-ui,sans-serif }
+
+/* Accessible button kit (AA contrast) */
+.btn{ display:inline-flex; align-items:center; justify-content:center; gap:.5rem; padding:.625rem 1rem; border-radius:.5rem; font-weight:600; line-height:1; text-decoration:none; transition:transform .06s ease, background-color .15s ease, color .15s ease, box-shadow .15s ease; }
+.btn:active{ transform:translateY(1px); }
+.btn:focus-visible{ outline:2px solid transparent; box-shadow:0 0 0 3px rgba(0,0,0,.15), 0 0 0 5px var(--color-gold); }
+
+/* Primary: white on red (#E32521) → AA large/normal */
+.btn-primary{ background:var(--color-primary); color:#fff; border:2px solid var(--color-primary); }
+.btn-primary:hover{ background:var(--color-primary-dark); border-color:var(--color-primary-dark); }
+.btn-primary:disabled{ opacity:.6; cursor:not-allowed; }
+
+/* Outline: navy for maximum contrast on light background */
+.btn-outline{ background:#fff; color:var(--color-navy); border:2px solid var(--color-navy); }
+.btn-outline:hover{ background:var(--color-navy); color:#fff; }
+.btn-outline:disabled{ opacity:.6; cursor:not-allowed; }
+
+

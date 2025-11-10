@@ -1,0 +1,57 @@
+{
+  "tabs": {
+    "latest": "Legfrissebb",
+    "hot": "Népszerű"
+  },
+  "search": {
+    "placeholder": "Csoportok keresése…",
+    "label": "Csoportok keresése"
+  },
+  "card": {
+    "ownerLabel": "Tulajdonos:",
+    "members": "Tagok",
+    "totalSent": "Összes Küldött",
+    "sent": "Jelenlegi küldés",
+    "unnamed": "Névtelen Csoport"
+  },
+  "pagination": {
+    "prev": "Előző oldal",
+    "next": "Következő oldal",
+    "pageInfo": "{{count}} csoport (Oldal {{page}} / {{pages}})"
+  },
+  "cta": {
+    "launch": "Aktiváld a moonpacket-et"
+  },
+  "empty": "Nincs elérhető csoport",
+  "group": {
+    "members": "Tagsági Lista",
+    "owner": "Csoport Tulajdonos: {owner}",
+    "sent": "Küldött Összeg",
+    "totalSent": "Összes Küldött Összeg",
+    "unnamed": "Névtelen Csoport"
+  },
+  "marquee": {
+    "fallback": [
+      "💰 John 100 USDT red packet-et küldött a 'Game Guild A'-ban!",
+      "🎯 Lisa 3.5 USDT-t igényelt, szerencsés nyertes!",
+      "🔥 Csoport Tulajdonos Ken 2000 USDT-t töltött fel",
+      "📢 Rendszerfrissítés befejeződött, hozzáadva a SOL támogatását!",
+      "🥇 Mai szerencsés nyertes: @Mina (összesen 28.3 USDT)"
+    ],
+    "templates": {
+      "daily_winner": "🥇 Mai szerencsés nyertes: {user} (összesen {amount} {ccy})",
+      "red_packet_claimed": "{user} {amount} {ccy} igényelt, szerencsés nyertes!",
+      "red_packet_sent": "{user} {amount} {ccy} red packet-et küldött a '{group}'-ban!",
+      "system_upgrade": "📢 Rendszerfrissítés befejeződött, hozzáadva a {ccy} támogatását!",
+      "top_up": "Csoport Tulajdonos {user} {amount} {ccy} összeget töltött fel"
+    }
+  },
+  "pager": {
+    "groups": "Csoportok Száma",
+    "next": "Következő oldal",
+    "pageOf": "(Oldal {page} / {pages})",
+    "prev": "Előző oldal"
+  },
+  "searchLabel": "Csoportok keresése",
+  "searchPlaceholder": "Kérjük, adjon meg kulcsszavakat a csoportok kereséséhez…"
+}

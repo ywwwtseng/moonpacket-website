@@ -1,0 +1,377 @@
+{
+  "site": {
+    "title": "moonpacket — red packet-uri cripto simple, rapide și sigure",
+    "description": "Trimite red packet-uri folosind criptomonede și afișează prețurile și indicatorii pe pagini statice prietenoase cu SEO."
+  },
+  "nav": {
+    "home": "Acasă",
+    "about": "Despre",
+    "pricing": "Prețuri",
+    "team": "Echipă",
+    "blog": "Blog",
+    "faq": "Întrebări Frecvente",
+    "contact": "Contactează-ne",
+    "careers": "Recrutare",
+    "claim": "Solicită red packet",
+    "send": "Trimite red packet",
+    "api": "Documentația API"
+  },
+  "hero": {
+    "title": "moonpacket decolează spre lună!",
+    "subtitle": "Telegram TON, meme, USDT red packet grab｜Un bot de red packet creat pentru proiecte de monede meme și proprietarii de grupuri Telegram pentru a îmbunătăți dobândirea și implicarea utilizatorilor.",
+    "desc": "Un bot de red packet creat pentru proiecte de monede meme și proprietarii de grupuri Telegram pentru a îmbunătăți dobândirea și implicarea utilizatorilor.",
+    "ctaPrimaryLabel": "Activează moonpacket",
+    "ctaPrimaryHref": "https://t.me/MoonPackageDevBot",
+    "ctaSecondaryLabel": "Cum să integrezi",
+    "ctaSecondaryHref": "/zh-TW/integration"
+  },
+  "features": {
+    "f1": "Configurare rapidă",
+    "f2": "Localizare globală",
+    "f3": "Securitate descentralizată"
+  },
+  "metrics": {
+    "heading": "Indicatori în timp real",
+    "price_btc": "Preț BTC",
+    "total_sent": "Numărul Total de Red Packets Trimise",
+    "total_claimed_amount": "Suma Totală Solicitată (USDT)",
+    "title": "moonpacket data",
+    "groups": "Grup",
+    "groupsLinkLabel": "Grupuri de red packet alăturate",
+    "sent": "Trimis",
+    "claimed": "Cerat (USDT)",
+    "sort": {
+      "latest": "Cele mai recente",
+      "oldest": "Cel mai vechi",
+      "most": "Număr Maxim de Participanți",
+      "least": "Număr Minim de Participanți"
+    }
+  },
+  "cta": {
+    "primary": "Începe",
+    "secondary": "Află mai multe",
+    "banner": "Ești gata să faci comunitatea ta mai activă?"
+  },
+  "footer": {
+    "rights": "Toate drepturile rezervate.",
+    "privacy": "Drepturile la confidențialitate",
+    "terms": "Termeni de Serviciu",
+    "social": {
+      "telegram_group": "Grup Telegram",
+      "telegram_channel": "Canal Telegram",
+      "x": "X",
+      "youtube": "YouTube"
+    }
+  },
+  "features_desc": {
+    "f1": "Întâmpinare rapidă cu pași minimi",
+    "f2": "Suport încorporat pentru 34 de limbi și RTL",
+    "f3": "Decentralizat cu confidențialitatea în minte"
+  },
+  "sections": {
+    "features_heading": "Aspecte Cheie ale Funcționalităților",
+    "features_subtitle": "Poți primi",
+    "tokens_heading": "Token-uri și statistici",
+    "testimonials_heading": "Ce spun utilizatorii",
+    "pricing_heading": "Planuri și Prețuri",
+    "waterfall_title": "Înregistrări în timp real pentru red packet"
+  },
+  "tokens": {
+    "columns": {
+      "token": "Token",
+      "price": "Preț",
+      "h24": "24 de ore",
+      "d7": "7 zile",
+      "market_cap": "Capitalizare de piață"
+    }
+  },
+  "testimonials": {
+    "q1": "Lansarea multilinguală este foarte rapidă și simplă.",
+    "a1": "Jane, Manager de produs",
+    "q2": "Aproape nu este necesar JS și este prietenos cu SEO.",
+    "a2": "Mike, SEO",
+    "q3": "Accesibilitatea și localizarea implicite sunt destul de cuprinzătoare.",
+    "a3": "Sara, Designer"
+  },
+  "pricing": {
+    "starter": "Începere",
+    "pro": "Profesional",
+    "enterprise": "Întreprindere",
+    "price_free": "Gratuit",
+    "price_19": "19 $",
+    "price_contact": "Contactați-ne",
+    "bullets": {
+      "starter": {
+        "0": "Funcții de bază",
+        "1": "Suport comunitate"
+      },
+      "pro": {
+        "0": "Plan de bază",
+        "1": "Localizare avansată"
+      },
+      "enterprise": {
+        "0": "SLA și Suport",
+        "1": "Integrare Personalizată"
+      }
+    }
+  },
+  "form": {
+    "your_email": "Adresa ta de email",
+    "message": "Mesaj",
+    "send": "Trimite"
+  },
+  "errors": {
+    "not_found": "Pagina nu a fost găsită",
+    "stale": "Date temporar indisponibile"
+  },
+  "claim": {
+    "title": "Informații despre primirea red packet",
+    "faq": {
+      "section_1": "Începere și Eligibilitate",
+      "section_2": "Regulile Evenimentului și Echitatea",
+      "section_3": "Procesul de Revendicare și Sarcini",
+      "section_4": "Sume, Solduri și Retrageri",
+      "section_5": "Controlul Riscurilor și Restricții",
+      "section_6": "Punctualitate și Notificări",
+      "section_7": "Diferențe Multilinguale și Regionale",
+      "section_8": "Dispozitive și Compatibilitate",
+      "section_9": "Confidențialitate și Securitate",
+      "section_10": "Serviciu Clienți și Reclamații",
+      "section_11": "Alte Jocuri și Informații",
+      "q1": "Cum să mă înregistrez?",
+      "a1": "Folosește linkul pentru a activa botul nostru pentru înregistrarea automată a experienței. moonpacket permite proprietarilor de grupuri să mount-eze în grupurile lor. Jucătorii pot lua red packet-uri nu doar în grupul nostru oficial, ci și în toate grupurile legate de botul de red packet moonpacket.",
+      "q2": "Ce trebuie să instalez sau să dezactivez?",
+      "a2": "Nu este necesară instalarea de aplicații suplimentare; se recomandă utilizarea celei mai recente versiuni de Telegram. Dacă deschizi WebApp-ul în browserul sistemului, te rugăm să te asiguri că cookies/stocarea nu sunt blocate.",
+      "q3": "Cine poate participa?",
+      "a3": "În general, toți utilizatorii Telegram sunt eligibili să participe; totuși, designul API-ului fiecărui grup este diferit și trebuie să respectați reglementările acelui grup sau canal. Anumite regiuni pot avea restricții de internet, sau unele evenimente pot impune limite regionale/pe vârstă, iar sistemul va determina automat participanții neeligibili și îi va împiedica să revendice.",
+      "q4": "Pot reclama cu mai multe conturi sau dispozitive?",
+      "a4": "Nu. Sistemul va preveni utilizatorii de a revendica repetat, folosind contul Telegram + Gmail legat, codul de verificare, adresa de portofel unică și scanările anormale în fundal; încălcările pot declanșa controlul riscurilor și pot duce la suspendarea contului.",
+      "q5": "red packet-urile sunt distribuite aleatoriu sau uniform?",
+      "a5": "Activitățile de grup sau canal pot alege 'aleatoriu', 'distribuție uniformă' sau 'designat'. Regulile fiecărui grup sunt diferite, vă rugăm să consultați marcajele din informațiile descrierii activității fiecărui grup.",
+      "q6": "Cum asigurați echitatea? Pot verifica rezultatele red packet-urilor acolo?",
+      "a6": "moonpacket oferă doar red packets; sistemul de red packet acționează ca un instrument auxiliar pentru bot, fără investiții sau afilieri comerciale cu operatorii diverselor platforme. Prin urmare, asigurarea unei distribuții absolut corecte este singura modalitate de a satisface nevoile tuturor. În plus, există un registru de audit păstrat pe partea serverului pentru o anumită perioadă (algoritm și sămânță); utilizatorii pot verifica rezultatele revendicării lor pe bot după încheierea activității de revendicare a red packet-ului, iar acest rezultat poate fi de asemenea consultat după lansarea miniapp-ului Telegram.",
+      "q7": "Câte red packet-uri poate revendica fiecare persoană?",
+      "a7": "Depinde de setările evenimentului conceput de partea proiectului. Unele sunt unice, în timp ce altele au limite zilnice, iar dacă există o limită de 'multiple times per person', sistemul o va restricționa automat și va alerta când limita este atinsă.",
+      "q8": "Se va încheia evenimentul mai devreme sau va fi amânat?",
+      "a8": "Dacă acțiunile au fost revendicate sau au expirat, se va încheia; sau dacă organizatorul suspendă sau terminate din cauza riscurilor anormale, pagina red packet-ului va fi sincronizată în timp real.",
+      "q9": "De ce nu pot revendica după ce am apăsat butonul?",
+      "a9": "Motive comune: revendicate/cere nereușită. În câteva cazuri, proiectele pot fi suspendate sau terminate din cauza riscurilor. Datorită decalajului de timp în actualizările informațiilor între grupuri, acesta poate să nu fie reflectat imediat; vă rugăm să fiți atenți la cea mai recentă stare a informațiilor despre red packet pe pagina evenimentului postată de grup.",
+      "q10": "Ce este deblocarea sarcinilor?",
+      "a10": "Trebuie să îndeplinești condițiile specificate (cum ar fi urmărirea canalului, aderarea la grup, trecerea parolei, sarcini externe) pentru a revendica. După finalizare, revino la butonul din postarea de informații despre red packet pentru a 'revendica red packet'.",
+      "q11": "Am finalizat clar sarcina, de ce apare ca nereușită?",
+      "a11": "Pot exista întârzieri de sincronizare între diferite API pe Telegram; dacă nu se finalizează imediat, te rugăm să aștepți un moment. Dacă continui să nu reușești, este probabil o problemă cu furnizorul API, și îți recomandăm să o raportezi proiectului care a emis sarcina de red packet.",
+      "q12": "Unde pot obține fraza secretă? Ce fac dacă am introdus-o greșit?",
+      "a12": "Parola este de obicei anunțată de proiect în postări, transmisiuni live sau videoclipuri pe x; poți încerca din nou dacă ai introdus-o greșit, dar mai multe încercări greșite pot declanșa limitarea ratei.",
+      "q13": "Cum să verific sarcinile externe (cum ar fi înregistrarea pe site/tranzacționare)?",
+      "a13": "moonpacket oferă API pentru proiecte externe pentru a confirma dacă utilizatorii au finalizat sarcinile. Când utilizatorii revendică red packet-uri, se trimite o solicitare către API care returnează rezultatul verficării; dacă îndeplinește condițiile, este deblocat; dacă nu a returnat încă, poți aștepta și relua mai târziu.",
+      "q14": "Unde pot verifica suma primită?",
+      "a14": "Revendicările reușite vor fi trimise prin botul Telegram și un record de revendicare a red packet-ului va fi disponibil în mini aplicație, permițându-ți să vizualizezi istoricul și soldul disponibil retranșabil în orice moment.",
+      "q15": "Ce active sunt acceptate?",
+      "a15": "Pe baza setărilor de activitate, red packet-urile sunt împărțite în prezent în principalele USDT/SOL/ETH/TON și token-urile emise de proprietarul grupului. Pagina va indica unitățile de active și ratele de schimb (dacă există).",
+      "q16": "Ce informații trebuie legate pentru retragere? Cât durează?",
+      "a16": "Trebuie să oferi adresa portofelului tău și informații de bază despre identitate pentru motive de securitate; timpul de sosire este de obicei T+0 până la T+2 zile lucrătoare. Acesta poate fi prelungit în timpul controlului de risc anormal.",
+      "q17": "Cine suportă taxa de tranzacție/Gas?",
+      "a17": "Fiecare operațiune pe blockchain necesită o taxă de gaz, care este percepută de blockchain-ul însuși, iar moonpacket nu percepe taxe suplimentare.",
+      "q18": "Pot transfera soldul către prieteni sau să-l combin?",
+      "a18": "Nicio metodă de 'transferare/fuzionare' nu este furnizată.",
+      "q19": "De ce a fost considerat suspect sau interceptat?",
+      "a19": "Posibilele motive includ multiple conturi pe același dispozitiv, proxy-uri/VPN-uri anormale, frecvența prea mare de revendicare a red packet-urilor în multiple grupuri, regiuni/ASN-uri pe lista neagră, etc. Poți trimite conținutul mesajului /report botului; acesta este un canal de răspuns unidirecțional, iar oficialii își rezervă dreptul de a nu explica sau răspunde cu privire la interdicțiile conturilor.",
+      "q20": "Trebuie să trec prin verificarea KYC (codul de verificare)?",
+      "a20": "În situații de risc ridicat, verificarea se va baza pe informațiile furnizate de utilizatori; te rugăm să te asiguri că informațiile corecte de securitate sunt completate la retragere; dacă informațiile greșite nu sunt furnizate, nu vei trece KYC biometric și documentar.",
+      "q21": "Ce ar trebui să fac dacă contul meu este restricționat?",
+      "a21": "Restricțiile sunt de obicei măsuri temporare de protecție. Te rugăm să trimiti conținutul mesajului /report botului. Întrebările ridicate de verificatori care nu au completat informațiile de securitate nu vor fi procesate; dacă situația este normală după finalizarea verificării, ne vom ocupa de aceasta.",
+      "q22": "Când începe și se termină fiecare eveniment red packet?",
+      "a22": "Fiecare proiect care emite red packet-uri are condiții diferite, te rugăm să acorzi atenție timpului și cotelor rămase ale informațiilor despre red packet; poți activa notificările Telegram sau seta sunete de notificare specifice pentru a primi alerte la timp pentru a revendica red packet-uri.",
+      "q23": "Pot activa sau dezactiva notificările pentru primirea sau finalizarea retragerilor?",
+      "a23": "Aceasta este setarea ta pe Telegram, nu o setare moonpacket; poți ajusta notificările în setările tale Telegram.",
+      "q24": "De ce nu pot vedea anumite metode sau funcții de retragere?",
+      "a24": "Politicile din anumite regiuni nu sunt aplicabile, iar sistemul va ascunde automat sau va împiedica retragerile, indicând că nu poți participa la activitatea de revendicare a red packet-urilor, deoarece această regiune nu o suportă în prezent.",
+      "q25": "Câte zecimale va afișa formatul digital?",
+      "a25": "Website-ul va aplica automat separatorii de mii și zecimile localizate în funcție de limba ta.",
+      "q26": "Este disponibil pe iOS, Android și desktop Telegram?",
+      "a26": "Da, se recomandă utilizarea celei mai recente versiuni de Telegram. Dacă te confrunți cu situații ilizibile, te rugăm să verifici dacă folosești clientul oficial, sau să actualización aplicația, sau să dai click pentru a reîncărca pagina în cele trei puncte din colțul din dreapta sus al paginii mini aplicației.",
+      "q27": "Schimbarea dispozitivelor va afecta primirea?",
+      "a27": "Nu va afecta înregistrările, dar dacă se efectuează operațiuni repetate pe mai multe dispozitive într-un timp scurt, ar putea declanșa controlul de risc.",
+      "q28": "Va avea vreun efect utilizarea unui VPN/proxy?",
+      "a28": "Dacă utilizați un proxy cu risc ridicat, acesta poate fi interceptat. Recomandăm dezactivarea temporară a proxy-ului sau schimbarea în mediu de rețea curat și încercarea din nou.",
+      "q29": "Ce date vor fi colectate?",
+      "a29": "Urmați principiul minimizării: colectați doar datele necesare pentru distribuție/retragere/controlul riscurilor (cum ar fi întrebările personale de securitate, adresele de portofel, emailul, ID-ul Telegram). Când sunt necesare autentificări, vom verifica printr-o platformă de verificare terță, care nu stochează datele personale ale utilizatorului, cu excepția informațiilor de securitate.",
+      "q30": "Ce măsuri sunt în vigoare pentru a asigura securitatea fondurilor?",
+      "a30": "Toate operațiunile critice vor necesita o a doua verificare; retragerile cu risc ridicat pot declanșa o revizuire manuală.",
+      "q31": "Pot șterge contul sau datele mele?",
+      "a31": "Puteți trimite o solicitare de acces sau ștergere a datelor conform procesului. Odată ce contul este șters, nu veți mai putea să vă conectați, dar datele tranzacțiilor vor fi păstrate sub reglementările de conformitate.",
+      "q32": "Pe cine ar trebui să contactez dacă întâmpin o problemă?",
+      "a32": "Puteți să ne contactați trimițând/raportând informații prin bot. Furnizarea codurilor de eroare și a capturilor de ecran poate grăbi procesarea.",
+      "q33": "Cât timp va dura să primesc un răspuns la o reclamație?",
+      "a33": "În general, răspunsurile sunt furnizate în termen de 1-3 zile lucrătoare; cazurile urgente legate de fonduri vor fi prioritizate.",
+      "q34": "Pot participa la activități în mai multe grupuri?",
+      "a34": "Da; fiecare activitate are reguli independente, vă rugăm să fiți atenți la limitele și perioada de valabilitate a fiecărui eveniment.",
+      "q35": "Va exista un clasament sau insigne?",
+      "a35": "Unele activități pot avea clasamente/distincții și loterii; consultați pagina activității pentru reguli și recompense."
+    }
+  },
+  "send": {
+    "title": "Întrebări frecvente (Versiunea detaliată FAQ) — Trimiterea red packet-urilor (Organizator)",
+    "hero": {
+      "api_demo_label": "Demonstrație API",
+      "api_get": "GET [api_url]?api_key=[api_key]&user_id=[user_id]",
+      "response_label": "Returnați:",
+      "json": {
+        "0": "{",
+        "1": "\"data\": {",
+        "2": "\"level\": 100,",
+        "3": "\"status\": \"active\",",
+        "4": "\"is_blacklist\": false",
+        "5": "}",
+        "6": "}"
+      },
+      "title": "Aduceți utilizatori noi, creșteți activitatea",
+      "lead": "Partidul proiectului poate stabili condiții specifice:",
+      "points": {
+        "0": "• Alătură-te grupului/urmărește canalul",
+        "1": "• Utilizează corect parola de acces",
+        "2": "• Implementare API personalizată"
+      },
+      "note": "Numai utilizatorii care îndeplinesc condițiile pot primi red packet-uri"
+    },
+    "faq": {
+      "section_1": "Începe și Setări",
+      "section_2": "Reguli de Publicare și Echitate",
+      "section_3": "Sarcini și Condiții",
+      "section_4": "Active, Expunere și Reglementare",
+      "q1": "Cum să încep?",
+      "a1": "Vă rugăm să adăugați botul moonpacket în grupul sau canalul dumneavoastră Telegram și să-l setați ca administrator. Asigurați-vă că activați cel puțin: permisiune de a posta, modifica/șterge propriile postări. După finalizare, reveniți la pagina 'Trimite red packet' a moonpacket, și veți vedea grupurile/canalele legate în lista 'Trimite către'.",
+      "q2": "La ce ar trebui să fiu atent înainte de a trimite?",
+      "a2": "Vă rugăm să depuneți mai întâi activele pe care doriți să le emiteți (de exemplu, depuneți 10 USDT pentru testare). Puteți trimite token-uri de mainstream (USDT/TON, etc.) sau propriile monede meme. Token-urile de mainstream vor apărea suplimentar în fluxul de pe pagina principală, în timp ce monedele meme sunt afișate doar în comunitatea dumneavoastră.",
+      "q3": "Pot alege unde să trimit?",
+      "a3": "În 'Ținte de Trimitere', verificați grupurile/canalele legate pentru a trimite la un singur sau mai multe grupuri simultan. Dacă nu le vedeți în listă, vă rugăm să confirmați că botul este administrator al grupului/canalului și are permisiunile necesare.",
+      "q4": "Ce modele de distribuție sunt disponibile?",
+      "a4": "Puteți alege o sumă aleatorie (noroc) sau o sumă fixă (distribuție egală). Ambele pot seta suma totală, numărul de acțiuni și plafonul pe persoană, și pot adăuga perioada de valabilitate sau lansarea planificată.",
+      "q5": "Poate fi trimis totul deodată sau în loturi?",
+      "a5": "Da. Puteți seta o eliberare completă unică sau o eliberare în lot într-o perioadă specificată; se acceptă și un contor de timp și mesaje de previzualizare.",
+      "q6": "Ce se întâmplă dacă soldul este insuficient?",
+      "a6": "Sistemul se bazează pe soldul disponibil. Dacă soldul este insuficient, va fi trimis un mesaj de eroare solicitându-vă să faceți o reîncărcare pentru a evita depășirea cheltuielilor.",
+      "q7": "Cum se asigură echitatea?",
+      "a7": "Distribuția se execută pe partea server-ului și păstrează înregistrări de audit (algoritm și seed, jurnale de operare). Regulile, acțiunile, limitele și rezultatele finale vor fi afișate public pe pagina evenimentului pentru trasabilitate.",
+      "q8": "Pot solicita să mă alătur unui grup sau să urmăresc un canal pentru a-l primi?",
+      "a8": "Da. Puteți activa condiția încorporată 'Trebuie să vă alăturați unui anumit grup/să urmăriți un anumit canal'. Premisa este că botul vostru se află în acel grup/canal și are permisiunile de a posta și a modifica/șterge propriile postări pentru a verifica statutul membrilor.",
+      "q9": "Ce este o frază de acces? În ce scenarii este potrivită?",
+      "a9": "Jucătorii trebuie să obțină parola prin canale externe și pot să o revendice după ce o introduc corect pe pagină. Practicile comune includ: împărțirea parolei de 6 cifre în videoclipuri lungi pe YouTube pentru a încuraja vizionarea completă; sugerarea parolei în postările de pe X.com (Twitter) sau Threads pentru a îmbunătăți interacțiunea; anunțarea doar verbal a parolei în timpul transmisiunilor live pentru a ghida participanții; parole dedicate în grupuri private/contra cost pentru a se asigura că beneficiile sunt oferite doar membrilor de bază.",
+      "q10": "Pot folosi propria API pentru a determina eligibilitatea?",
+      "a10": "Da. moonpacket va apela API-ul de citire pe care l-ați furnizat pentru verificare înainte ca utilizatorii să revendice. Backend-ul trebuie să seteze doar api_url și api_key (permisiunea domeniului poate fi configurată opțional).",
+      "q11": "Care este diferența de expunere între monedele de mainstream și monedele meme?",
+      "a11": "Monedele de mainstream (USDT/TON, etc.) vor fi afișate în grup și, de asemenea, în fluxul de pe pagina principală pentru o expunere mai mare; monedele meme vor fi afișate doar în grupul dumneavoastră.",
+      "q12": "Cum să prevenim înșelătoria și mașinile în masă?",
+      "a12": "Incluzând frecvența comportamentului și detectarea dispozitivului/IP, legarea unică a conturilor și wallet-urilor, codul de verificare a retragerii, revizuirea inițială a riscurilor AI; dacă este necesar, va exista verificarea biometrică + facială + de identificare de către terți.",
+      "q13": "Unde pot vizualiza înregistrările trimise și numărul de destinatari?",
+      "a13": "Vă rugăm să verificați 'Red Packets pe care le-am trimis' pe pagina personală pentru a vedea numărul de solicitanți, acțiunile rămase și suma totală consumată pentru fiecare sesiune; dacă este activat, puteți, de asemenea, descărca rapoarte."
+    }
+  },
+  "groups_directory": {
+    "latest_tab": "Cele mai recente grupuri de red packet",
+    "hot_tab": "Grupuri populare de red packet",
+    "search_placeholder": "Caută cuvinte cheie pentru grupurile la care te-ai alăturat"
+  },
+  "a11y": {
+    "skip_to_main": "Sari la conținutul principal",
+    "language_menu": "Meniu limbă",
+    "language": "Limba"
+  },
+  "waterfall": {
+    "sent_from": "Trimitere Grup:",
+    "claimed": "Solicită",
+    "total": "Suma totală",
+    "progress": "Solicitat"
+  },
+  "terms": {
+    "title": "Termeni pentru utilizatori",
+    "version": "v1.0.0",
+    "updated": "5 octombrie 2025 15:00:00 GMT+0800 (Timp Standard Taipei)",
+    "owner": "moonpacket-core",
+    "sections": {
+      "scope": "Domeniul de aplicare și formarea contractului",
+      "definitions": "Definiție",
+      "eligibility": "Calificări și Conturi",
+      "services": "Conținutul serviciului",
+      "wallet": "Portofel în cloud și fonduri",
+      "fees": "Taxe și Facturare",
+      "rules": "Regulile de activitate și corectitudinea",
+      "restrictions": "Restricții Anti-Bot și de utilizare",
+      "ip": "Drepturi de autor și proprietate intelectuală",
+      "third_party": "Servicii terțe",
+      "data": "Date și confidențialitate",
+      "risks": "Declarația de risc",
+      "disclaimer": "Declinare de responsabilitate",
+      "liability": "Limitarea răspunderii",
+      "indemnity": "Compensație",
+      "termination": "Suspendare, reziliere și ștergere",
+      "force_majeure": "Forță Majoră",
+      "high_risk": "Utilizări interzise de înalt risc",
+      "tax": "Impozite și raportare",
+      "third_party_services": "Servicii terțe și Declarații de relație",
+      "wallet_assets": "Declarații de portofel și active",
+      "accuracy": "Precizia conținutului și datelor",
+      "governing_law": "Legea aplicabilă și Rezolvarea disputelor",
+      "contact": "Informații de contact"
+    }
+  },
+  "privacy": {
+    "title": "Politica de Confidențialitate",
+    "version": "v1.1.0",
+    "updated": "5 octombrie 2025, duminică 15:00:00 GMT+0800 (Ora Standard Taipei)",
+    "owner": "moonpacket-core",
+    "sections": {
+      "intro": "Introducere",
+      "definitions": "Definiții",
+      "scope": "Domeniul de aplicare",
+      "data_collection": "Datele pe care le colectăm",
+      "data_usage": "Utilizarea noastră",
+      "legal_basis": "Baza de reglementare",
+      "cookies": "Cookie-uri și stocare locală",
+      "data_sharing": "Destinatarii partajării datelor",
+      "cross_border": "Transfer transfrontalier",
+      "retention": "Perioada de păstrare",
+      "security": "Securitate",
+      "blockchain": "Descrierea caracteristicilor blockchain",
+      "telegram": "Declarația platformei Telegram",
+      "minors": "Reguli legate de minori",
+      "rights": "Drepturile tale și modul de a le exercita",
+      "faq": "Întrebări frecvente (Confidențialitate și Securitate)",
+      "updates": "Actualizare Termeni",
+      "contact": "Informații de contact"
+    },
+    "faq": {
+      "q1": "Ce date colectăm?",
+      "a1": "Vă vom oferi informațiile necesare pentru emiterea și primirea red packet, verificarea sarcinilor, portofelul cloud și retrageri, inclusiv informații de bază despre Telegram, metrici de dispozitiv și rețea, evenimente de interacțiune și informații KYC și despre portofel atunci când este necesar.",
+      "q2": "Sunt fondurile mele în siguranță?",
+      "a2": "Fondurile și conturile de operare sunt separate, operațiunile sensibile necesită autentificare în doi pași, iar toate evenimentele financiare vor fi înregistrate; retragerile de înalt risc vor fi revizuite manual.",
+      "q3": "Pot șterge datele mele?",
+      "a3": "Puteți solicita ștergerea sau restricționarea datelor dvs. conform legii; datele contabile sau cele legate de dispute care trebuie păstrate conform legii nu sunt supuse acestei restricții și vor fi șterse sau anonimizate ulterior.",
+      "q4": "Restricții de regiune și conținutul vizibil nu se potrivesc?",
+      "a4": "Conform politicilor de conformitate, unele funcții sau metode de retragere pot să nu fie disponibile din cauza restricțiilor regionale, iar sistemul va ascunde automat opțiunile nerelevante.",
+      "q5": "De ce a fost considerat suspect?",
+      "a5": "Pot apărea probleme din cauza proxy/VPN, frecvenței neobișnuite sau conectărilor simultane din conturi multiple; puteți încerca din nou mai târziu sau să urmați procesul de apel pentru revizuire."
+    }
+  },
+  "roadmap": {
+    "accept": "Criterii de Acceptare",
+    "bucket": {
+      "progress": "Progres"
+    },
+    "lanes": {
+      "build": "Construiește Produs",
+      "growth": "Creștere",
+      "token": "moonini token",
+      "trust": "Încredere, Conformitate și Securitate"
+    },
+    "progressLabel": "Progres",
+    "status": {
+      "live": "Activ",
+      "planned": "Planificat",
+      "research": "În Cercetare",
+      "shipping": "În Dezvoltare"
+    },
+    "title": "Planul Produsului",
+    "updated": "Actualizare (Tokenii vor fi distribuiți după ce bara de progres este completă)"
+  }
+}

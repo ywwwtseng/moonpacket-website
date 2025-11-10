@@ -1,0 +1,61 @@
+{
+  "updated": "auto",
+  "lanes": {
+    "build":  { "color": "#E32521" },
+    "trust":  { "color": "#FFBA00" },
+    "growth": { "color": "#0C1E3A" },
+    "token":  { "color": "#E32521" }
+  },
+  "buckets": [
+    {
+      "title": "進程",
+      "items": [
+        {
+          "lane": "build",
+          "phaseKey": "open-beta",
+          "titleKey": "roadmap.phase.open-beta.title",
+          "descKey": "roadmap.phase.open-beta.desc",
+          "acceptKey": "roadmap.phase.open-beta.accept",
+          "status": "shipping",
+          "progress": 70
+        },
+        {
+          "lane": "build",
+          "phaseKey": "multi-chain",
+          "titleKey": "roadmap.phase.multi-chain.title",
+          "descKey": "roadmap.phase.multi-chain.desc",
+          "acceptKey": "roadmap.phase.multi-chain.accept",
+          "status": "planned",
+          "progress": 30
+        },
+        {
+          "lane": "trust",
+          "phaseKey": "compliance",
+          "titleKey": "roadmap.phase.compliance.title",
+          "descKey": "roadmap.phase.compliance.desc",
+          "acceptKey": "roadmap.phase.compliance.accept",
+          "status": "planned",
+          "progress": 20
+        },
+        {
+          "lane": "growth",
+          "phaseKey": "growth-integration",
+          "titleKey": "roadmap.phase.growth-integration.title",
+          "descKey": "roadmap.phase.growth-integration.desc",
+          "acceptKey": "roadmap.phase.growth-integration.accept",
+          "status": "planned",
+          "progress": 25
+        },
+        {
+          "lane": "token",
+          "phaseKey": "token-moonini",
+          "titleKey": "roadmap.phase.token-moonini.title",
+          "descKey": "roadmap.phase.token-moonini.desc",
+          "acceptKey": "roadmap.phase.token-moonini.accept",
+          "status": "research",
+          "progress": 10
+        }
+      ]
+    }
+  ]
+}

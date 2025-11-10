@@ -1,0 +1,27 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import { computeCanonical } from '@/utils/head';
+import { getLocalesForBuild, defaultLocale } from '@/i18n/locales.config';
+import { LOCALE_ORDER } from '@/config/locales';
+
+export async function getStaticPaths() {
+  // Placeholder route generation; in real site, read from content collections
+  const locales = getLocalesForBuild();
+  const slugs = ['post-hello'];
+  return locales.flatMap((l) => slugs.map((slug) => ({ params: { lang: l.code, slug } })));
+}
+
+const { lang, slug } = Astro.params as { lang: string; slug: string };
+const t = await import(`@/i18n/messages/${lang}/common.json`).catch(async () => import(`@/i18n/messages/${defaultLocale}/common.json`));
+const messages = (t as any).default;
+const canonical = computeCanonical(Astro.url, (Astro.site && Astro.site.toString()) || undefined);
+---
+<BaseLayout lang={lang} title={`${messages.site.title} — ${slug}`} description={messages.site.description} canonicalUrl={canonical} allLocales={LOCALE_ORDER}>
+  
+  <main id="main-content" class="mx-auto max-w-3xl px-4 py-12 prose">
+    <h1>{slug}</h1>
+    <p class="text-textSubtle">Localized article placeholder.</p>
+  </main>
+</BaseLayout>
+
+

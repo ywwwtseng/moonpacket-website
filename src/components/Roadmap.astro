@@ -1,0 +1,156 @@
+---
+interface Props {
+  roadmapMessages: any;
+}
+
+const { roadmapMessages } = Astro.props;
+if (!roadmapMessages) {
+  console.error('[Roadmap] roadmapMessages prop is required');
+}
+
+import data from "../../public/data/roadmap.json";
+
+// lane configuration - use i18n for labels
+const lanes = data.lanes ?? {};
+const lanesI18n: Record<string, { label: string; color: string }> = {};
+for (const key in lanes) {
+  lanesI18n[key] = {
+    label: roadmapMessages?.lanes?.[key] || '',
+    color: lanes[key]?.color || "#334155"
+  };
+}
+
+const bucket = (data.buckets && data.buckets[0]) ?? { title: roadmapMessages?.bucket?.progress || '', items: [] };
+
+// utility: local date string (yyyy-mm-dd)
+function localDateStr(d = new Date()){
+  const y = d.getFullYear();
+  const m = String(d.getMonth()+1).padStart(2,"0");
+  const day = String(d.getDate()).padStart(2,"0");
+  return `${y}-${m}-${day}`;
+}
+
+// utility: clamp value between 0..100
+const clamp = (n,min=0,max=100)=>Math.max(min,Math.min(max,n ?? 0));
+
+// utility: derive status from progress (<25 research, <50 planned, <75 shipping, ≥75 live)
+function statusFromProgress(p){
+  if (p < 25) return "research";
+  if (p < 50) return "planned";
+  if (p < 75) return "shipping";
+  return "live";
+}
+
+// display update date string
+const updatedText = (data.updated === "auto" || !data.updated)
+  ? localDateStr()
+  : String(data.updated);
+
+// Replace {date} placeholder in updated string
+const updatedLabelRaw = roadmapMessages?.updated || '';
+const updatedLabelFinal = updatedLabelRaw.includes('{date}')
+  ? updatedLabelRaw.replace('{date}', updatedText)
+  : `${updatedLabelRaw}：${updatedText}`;
+---
+
+<section aria-labelledby="roadmap-title" class="mx-auto max-w-5xl px-4 py-16">
+  <header class="mb-8">
+    <h2 id="roadmap-title" class="text-3xl font-semibold tracking-tight">{roadmapMessages?.title || ''}</h2>
+    <p class="opacity-70 text-sm" set:html={updatedLabelFinal}></p>
+  </header>
+
+  <section class="timeline-block" aria-label={roadmapMessages?.bucket?.progress || ''}>
+    <ol class="relative border-s border-white/10 ms-4 space-y-6">
+      {bucket.items.map((it) => {
+        const p = clamp(it.progress);
+        const auto = it.auto !== false; // default auto
+        const st = auto ? statusFromProgress(p) : (it.status ?? statusFromProgress(p));
+        const laneColor = lanes[it.lane]?.color || "#334155";
+        
+        // Get i18n values from roadmapMessages - NO fallback
+        const title = roadmapMessages?.phase?.[it.phaseKey]?.title || '';
+        const desc = roadmapMessages?.phase?.[it.phaseKey]?.desc || '';
+        const accept = roadmapMessages?.phase?.[it.phaseKey]?.accept || '';
+        const status = roadmapMessages?.status?.[st] || '';
+        const laneLabel = lanesI18n[it.lane]?.label || '';
+        const progressLabel = roadmapMessages?.progressLabel || '';
+        return (
+          <li class="ms-6 reveal">
+            <span class="dot" style={`background:${laneColor}`}></span>
+            <article class="card">
+              <div class="flex items-center justify-between gap-3">
+                <h3 class="text-lg font-semibold">{title}</h3>
+                <span class={`badge status-${st}`}>{status}</span>
+              </div>
+              <p class="mt-1 text-sm opacity-80">{desc}</p>
+              <p class="mt-2 text-xs opacity-70">{roadmapMessages?.accept || ''}：{accept}</p>
+
+              <div class="mt-4 flex items-center gap-3">
+                <span class="lane-tag"
+                  style={`background:${laneColor}22;border-color:${laneColor}55`}>
+                  {laneLabel}
+                </span>
+
+                {/* progress bar: SSR visible; CSS animates from 0 to --p */}
+                <div class="progress"
+                     role="progressbar"
+                     aria-label={progressLabel || title || 'progress'}
+                     aria-valuemin="0" aria-valuemax="100" aria-valuenow={p}
+                     aria-valuetext={`${progressLabel} ${p}%，${status}`}
+                     style={`--p:${p}%`}>
+                  <div class="bar"></div>
+                  <span class="pct">{progressLabel} {p}%</span>
+                </div>
+              </div>
+            </article>
+          </li>
+        );
+      })}
+    </ol>
+  </section>
+</section>
+
+<style>
+  .timeline-block ol{counter-reset: step}
+  .dot{
+    position:absolute;left:-9px;top:.75rem;width:.75rem;height:.75rem;border-radius:9999px;
+    box-shadow:0 0 0 4px rgba(255,255,255,.06);
+  }
+  [dir="rtl"] .dot{
+    left:auto;right:-9px;
+  }
+  .card{
+    background:linear-gradient(180deg,rgba(255,255,255,.03),rgba(255,255,255,.02));
+    border:1px solid rgba(255,255,255,.06);
+    border-radius:1rem;padding:1rem 1.125rem
+  }
+  .badge{
+    display:inline-flex;align-items:center;gap:.375rem;
+    border:1px solid rgba(255,255,255,.12);border-radius:.5rem;
+    padding:.25rem .5rem;font-size:.75rem
+  }
+  .status-live{ background:rgba(22,163,74,.15); border-color:rgba(22,163,74,.35) }
+  .status-shipping{ background:rgba(59,130,246,.15); border-color:rgba(59,130,246,.35) }
+  .status-planned{ background:rgba(234,179,8,.15); border-color:rgba(234,179,8,.35) }
+  .status-research{ background:rgba(148,163,184,.12); border-color:rgba(148,163,184,.28) }
+
+  .lane-tag{
+    display:inline-block;padding:.25rem .5rem;border-radius:.5rem;font-size:.75rem;
+    border:1px solid rgba(255,255,255,.12)
+  }
+
+  /* progress bar: SSR shows percentage; animation only when motion enabled */
+  .progress{ position:relative; flex:1; height:.5rem; background:rgba(148,163,184,.15); border-radius:9999px; overflow:hidden; }
+  .progress .bar{ height:100%; width:var(--p); background:linear-gradient(90deg,#E32521,#FFBA00); border-radius:9999px; transform-origin:left }
+  [dir="rtl"] .progress .bar{ transform-origin:right }
+  .progress .pct{ position:absolute; right:.5rem; top:-1.25rem; font-size:.75rem; opacity:.75 }
+  [dir="rtl"] .progress .pct{ right:auto; left:.5rem }
+
+  @media (prefers-reduced-motion: no-preference){
+    .reveal{ opacity:0; transform: translateY(8px); animation: rise .6s ease forwards; }
+    .reveal:nth-child(2){ animation-delay: .04s } .reveal:nth-child(3){ animation-delay: .08s }
+    @keyframes rise{ to{ opacity:1; transform:none } }
+    .progress .bar{ animation: grow .8s ease forwards }
+    @keyframes grow{ from{ width:0 } to{ width:var(--p) } }
+  }
+</style>

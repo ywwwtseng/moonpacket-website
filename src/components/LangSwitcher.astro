@@ -1,0 +1,117 @@
+---
+import { publicLocales as locales, defaultLocale } from '@/i18n/locales.config';
+const { current, basePath = '/' } = Astro.props as { current: string; basePath?: string };
+
+// 载入当前语言的消息
+const messages = await import(`@/i18n/loadMessages`).then(m => m.loadAllMessages(current as any)).catch(async () => {
+  const fallback = await import(`@/i18n/loadMessages`).then(m => m.loadAllMessages(defaultLocale));
+  return fallback;
+});
+---
+<div class="relative text-sm text-textSubtle flex items-center gap-2">
+  <!-- Mobile: only globe button -->
+  <button id="lang-toggle" type="button" class="block sm:hidden rounded border border-black/10 bg-white px-2 py-1">
+    <img src={`${basePath}icons/globe.svg`} alt="" width="18" height="18" class="opacity-80 globe-icon" aria-hidden="true" />
+    <span class="sr-only">{messages.site?.a11y?.language_menu || 'Language menu'}</span>
+  </button>
+
+  <div id="lang-menu" class="hidden sm:hidden absolute right-0 top-full mt-2 w-56 rounded border border-black/10 bg-white shadow-lg max-h-[50vh] overflow-auto z-50">
+    <ul class="py-1">
+      {locales.map((l) => (
+        <li>
+          <button type="button" class={`w-full px-3 py-2 hover:bg-black/5 ${l.code === current ? 'font-semibold' : ''}`} data-code={l.code}>
+            {l.name}
+          </button>
+        </li>
+      ))}
+    </ul>
+  </div>
+
+  <!-- Desktop: globe + native select -->
+  <div class="hidden sm:flex items-center gap-2">
+    <img src={`${basePath}icons/globe.svg`} alt="" aria-hidden="true" width="18" height="18" class="opacity-80 globe-icon" />
+    <label for="lang-select" class="sr-only">{messages.site?.a11y?.language || 'Language'}</label>
+    <select id="lang-select" class="px-2 py-1 rounded border border-black/10 bg-white">
+      {locales.map((l) => (
+        <option value={l.code} selected={l.code === current}>
+          {l.name}
+        </option>
+      ))}
+    </select>
+  </div>
+
+  <script is:inline define:vars={{ basePath }}>
+    (function(){
+      var base = (typeof basePath === 'string' && basePath) ? basePath : '/';
+
+      // Desktop select
+      var sel = document.getElementById('lang-select');
+      if (sel) {
+        sel.addEventListener('change', function(){
+          var v = sel.value; if (!v) return;
+          var href = (base || '/') + v + '/';
+          location.href = href.replace(/\/+/, '/');
+        });
+      }
+
+      // Mobile dropdown
+      var toggle = document.getElementById('lang-toggle');
+      var menu = document.getElementById('lang-menu');
+      function closeMenu(){ if (menu) menu.classList.add('hidden'); }
+      function openMenu(){ if (menu) menu.classList.remove('hidden'); }
+      if (toggle && menu) {
+        toggle.setAttribute('aria-expanded', 'false');
+        toggle.addEventListener('click', function(e){
+          e.preventDefault(); e.stopPropagation();
+          if (menu.classList.contains('hidden')) { openMenu(); menu.style.display='block'; toggle.setAttribute('aria-expanded','true'); }
+          else { closeMenu(); menu.style.display='none'; toggle.setAttribute('aria-expanded','false'); }
+        });
+        menu.addEventListener('click', function(e){
+          var t = e.target || e.srcElement;
+          while (t && t !== menu && !t.getAttribute('data-code')) { t = t.parentNode; }
+          if (t && t.getAttribute && t.getAttribute('data-code')) {
+            var code = t.getAttribute('data-code');
+            var href = (base || '/') + code + '/';
+            location.href = href.replace(/\/+/, '/');
+          }
+        });
+        document.addEventListener('click', function(e){
+          var t = e.target || e.srcElement;
+          if (!menu.contains(t) && t !== toggle) closeMenu();
+        });
+        document.addEventListener('keydown', function(e){ if (e.key === 'Escape') closeMenu(); });
+      }
+    })();
+  </script>
+  
+  <style>
+    /* 地球圖標主題適配 */
+    .globe-icon {
+      filter: none;
+      transition: filter 0.2s ease;
+      stroke: currentColor;
+    }
+    
+    /* 夜間模式：適中偏亮的對比度和亮度 */
+    @media (prefers-color-scheme: dark) {
+      .globe-icon {
+        filter: brightness(3.5) contrast(3.5) invert(0.5) drop-shadow(0 0 3px rgba(255,255,255,0.6));
+        opacity: 1 !important;
+      }
+    }
+    
+    /* 如果頁面有 dark 類，也應用夜間模式樣式 */
+    :global(.dark) .globe-icon {
+      filter: brightness(3.5) contrast(3.5) invert(0.5) drop-shadow(0 0 3px rgba(255,255,255,0.6));
+      opacity: 1 !important;
+    }
+    
+    /* 檢查是否有 data-theme="dark" 屬性 */
+    :global([data-theme="dark"]) .globe-icon {
+      filter: brightness(3.5) contrast(3.5) invert(0.5) drop-shadow(0 0 3px rgba(255,255,255,0.6));
+      opacity: 1 !important;
+    }
+  </style>
+</div>
+
+

@@ -1,0 +1,48 @@
+{
+  "title": "Tuote- ja kehityssuunnitelma",
+  "updated": "Päivitys (tokenit alkavat jakautua, kun edistymispalkki on täynnä)",
+  "bucket": {
+    "progress": "Edistyminen"
+  },
+  "status": {
+    "shipping": "Kehityksessä",
+    "planned": "Suunniteltu",
+    "research": "Tutkimuksessa",
+    "live": "Julkaistu"
+  },
+  "accept": "Hyväksymiskriteerit",
+  "lanes": {
+    "build": "Kehitetyt tuotteet",
+    "trust": "Luottamus, vaatimustenmukaisuus ja turvallisuus",
+    "growth": "Kasvu",
+    "token": "moonini token"
+  },
+  "progressLabel": "Edistyminen",
+  "phase": {
+    "open-beta": {
+      "title": "Avoin Beta lanseeraus (sisäinen yhteisön red packet)",
+      "desc": "Pilotti yhteisössä, ehdollinen avoin yhteisöintegraatio; Testaa perusjakelua/vaatimista ja käyttäjäkokemusta",
+      "accept": "Selkeät säännöt, sujuva vaatiminen, avainkanavat ovat käytettävissä"
+    },
+    "multi-chain": {
+      "title": "Jatkuva optimointi: Moniketju + Pisteiden mekanismi + Anti-botti",
+      "desc": "Laajennus moniketjutuelle Solanan ulkopuolelle; Pisteiden laskenta ja visualisointi; Anti-botti-strategia ja A/B-testit",
+      "accept": "Moniketjuisen omaisuuden tunnistus on oikein; Pisteet ja riskivalvonta toimivat normaalisti"
+    },
+    "compliance": {
+      "title": "Riski- ja vaatimustenmukaisuusvalvonta",
+      "desc": "KYC/AML, tarkastus- ja turvallisuusmekanismit; poikkeavien tarkastusten prosessi.",
+      "accept": "Ota KYC käyttöön tarvittaessa; AML-säännöt ovat tarkastettavissa; vahvat turvallisuuspäivitykset"
+    },
+    "growth-integration": {
+      "title": "Kasvu: Yhteisöintegraatio + API/Webhook + Ekosysteemiyhteistyö",
+      "desc": "Integrointiohje, Tapahtuma Webhook, Kysely API; Kumppani-integraatioprosessi",
+      "accept": "Integrointiohje hyväksytty; Webhook/Kysely-API on vakaa"
+    },
+    "token-moonini": {
+      "title": "Pisteet vaihdettavissa tokeneiksi: moonini",
+      "desc": "moonini tokenin jakelun ja vaihto mekanismin valmistuminen",
+      "accept": "Säännöt pisteiden vaihtamiseksi tokeneiksi toteutettu; Riskivalvonta/vaatimustenmukaisuus tarkastukset hyväksytty"
+    }
+  }
+}

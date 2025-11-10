@@ -1,0 +1,26 @@
+---
+import { clsx } from 'clsx';
+
+interface Props {
+  title: string;
+  value: string;
+  icon?: string;
+  staleLabel?: string;
+  ['data-api-src']?: string;
+  ['data-api-path']?: string;
+  class?: string;
+}
+const { title, value, icon, staleLabel = 'stale', class: className, ...dataAttrs } = Astro.props as Props & Record<string, string>;
+---
+<div
+  class={clsx('rounded-xl bg-white shadow-sm ring-1 ring-black/5 p-4 flex flex-col gap-1 min-h-[88px] justify-between', className)}
+  {...dataAttrs}
+>
+  <!-- SSR fallback value comes from placeholders.json at build time.
+       Later, replace data-api-src with your live endpoint (CORS allowed) -->
+  <div class="text-xs text-textSubtle tracking-wide">{title}</div>
+  <div class="text-2xl font-semibold num price num-right" data-metric>{value}</div>
+  <div class="text-[11px] text-textSubtle/80" data-stale hidden>{staleLabel}</div>
+</div>
+
+

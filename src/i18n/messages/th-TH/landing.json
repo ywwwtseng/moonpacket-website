@@ -1,0 +1,15 @@
+{
+  "hero": {
+    "headline": "moonpacket กำลังจะขึ้นไปยังดวงจันทร์!",
+    "subheadline": "Telegram TON, meme, อั่งเปา｜บอทอั่งเปาที่ดีที่สุดสำหรับโครงการ meme และผู้ดูแลกลุ่ม Telegram เพื่อดึงดูดผู้ใช้ใหม่และเพิ่มการมีส่วนร่วม.",
+    "cta_primary": "เปิดใช้งาน moonpacket",
+    "cta_secondary": "วิธีการรวมเข้ากับ"
+  },
+  "metrics": {
+    "title": "โทเค็นและสถิติ",
+    "connected_groups": "กลุ่มที่เชื่อมต่อ",
+    "total_packets_sent": "ส่งอั่งเปาแล้ว",
+    "total_claimed": "จำนวนรวมที่เก็บรวบรวม (USDT)",
+    "data_stale": "ข้อมูลอาจล้าสมัย"
+  }
+}

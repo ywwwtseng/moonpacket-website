@@ -1,0 +1,152 @@
+{
+  "title": "moonpacket — lì xì crypto dễ dàng, an toàn và nhanh chóng",
+  "description": "robot lì xì mã hóa moonpacket | Hỗ trợ USDT, TON, SOL, ETH. Dễ dàng gửi lì xì, nhận ngay lập tức, an toàn không lưu ký, hoàn hảo cho việc phát triển cộng đồng Telegram và tăng cường tham gia.",
+  "nav": {
+    "home": "Trang Chủ",
+    "about": "Giới Thiệu",
+    "pricing": "Bảng Giá",
+    "team": "Đội ngũ",
+    "blog": "Blog",
+    "faq": "Câu Hỏi Thường Gặp",
+    "contact": "Liên Hệ Chúng Tôi",
+    "careers": "Cơ Hội Nghề Nghiệp",
+    "claim": "Nhận Lì Xì",
+    "send": "Gửi Lì Xì",
+    "api": "Tài Liệu API"
+  },
+  "hero": {
+    "title": "Lì xì tiền điện tử, có sẵn cho mọi người",
+    "subtitle": "Tăng cường trải nghiệm cộng đồng của bạn với dịch vụ toàn cầu đơn giản.",
+    "desc": "Bot lì xì tốt nhất cho các dự án token meme và chủ sở hữu nhóm Telegram để thu hút người dùng mới và tăng cường tương tác.",
+    "ctaPrimaryLabel": "Khởi chạy moonpacket",
+    "ctaPrimaryHref": "https://t.me/MoonPackageDevBot",
+    "ctaSecondaryLabel": "Cách kết nối",
+    "ctaSecondaryHref": "/zh-TW/integration",
+    "lead": "Telegram TON, meme, lì xì USDT | Bot lì xì tốt nhất cho các dự án token meme và chủ sở hữu nhóm Telegram để thu hút người dùng mới và tăng cường tương tác.",
+    "cta_primary": "Kích hoạt moonpacket ngay",
+    "cta_secondary": "Cách tích hợp với các nhóm",
+    "headline_line1": "moonpacket",
+    "headline_line2": "Bắt đầu, nhắm tới mặt trăng.",
+    "tagline": "Telegram TON, meme, và lì xì USDT cho tiếp thị cộng đồng và giữ chân người dùng. Bot lì xì nhóm được thiết kế cho quản trị viên để tăng cường tương tác, thu hút thành viên mới và khuyến khích giao tiếp."
+  },
+  "features": {
+    "f1": "Đăng ký nhanh",
+    "f2": "Địa phương hóa toàn cầu",
+    "f3": "Bảo mật không lưu ký",
+    "title": "Các tính năng chính",
+    "items": "__TODO_TRANSLATE_zh-CN__"
+  },
+  "sections": {
+    "features_heading": "Những Điểm Nổi Bật",
+    "features_subtitle": "Bạn Có Thể Nhận",
+    "tokens_heading": "Token và Thống kê",
+    "testimonials_heading": "Đánh giá của người dùng",
+    "pricing_heading": "Kế hoạch và Giá cả",
+    "waterfall_title": "thác lì xì"
+  },
+  "footer": {
+    "rights": "",
+    "privacy": "Chính sách bảo mật",
+    "terms": "Điều khoản dịch vụ",
+    "social": {
+      "telegram_group": "Nhóm Telegram",
+      "telegram_channel": "Kênh Telegram",
+      "x": "X",
+      "youtube": "YouTube"
+    },
+    "copyright": "Bản quyền."
+  },
+  "a11y": {
+    "skip_to_main": "Bỏ qua nội dung chính",
+    "language_menu": "Mở menu ngôn ngữ",
+    "language": "Ngôn ngữ"
+  },
+  "metrics": {
+    "heading": "Chỉ báo Thời gian Thực",
+    "price_btc": "Giá BTC",
+    "total_sent": "Tổng Số Tiền Đã Gửi",
+    "total_claimed_amount": "Tổng Số Tiền Nhận (USDT)",
+    "title": "Token và Thống Kê",
+    "groups": "Nhóm đã kết nối",
+    "groupsLinkLabel": "Nhóm Lì xì đã kết nối",
+    "sent": "Lì xì Đã Gửi",
+    "claimed": "Tổng số tiền đã được yêu cầu",
+    "sort": {
+      "latest": "Mới nhất",
+      "oldest": "Cũ Nhất",
+      "most": "Số Người Tham Gia Tối Đa",
+      "least": "Số Người Tham Gia Tối Thiểu"
+    }
+  },
+  "errors": {
+    "stale": "Dữ liệu có thể đã lỗi thời",
+    "not_found": "Không tìm thấy trang",
+    "not_found_desc": "Xin lỗi, chúng tôi không thể tìm thấy trang này, hoặc nó đã bị xóa."
+  },
+  "pricing": {
+    "starter": "Kế hoạch Cơ bản",
+    "pro": "Dịch vụ Chuyên nghiệp",
+    "enterprise": "Kế hoạch Doanh nghiệp",
+    "price_free": "Miễn phí",
+    "price_19": "$19",
+    "price_contact": "Liên hệ với chúng tôi",
+    "sla_support": "SLA và Hỗ trợ",
+    "bullets": {
+      "starter": {
+        "0": "Các Tính năng Cơ bản",
+        "1": "Hỗ trợ Cộng đồng"
+      },
+      "pro": {
+        "0": "Bao gồm Kế hoạch Cơ bản",
+        "1": "Địa phương hóa Nâng cao"
+      },
+      "enterprise": {
+        "0": "SLA và Hỗ trợ",
+        "1": "Tích hợp Tùy chỉnh"
+      }
+    }
+  },
+  "story": {
+    "belief_title": "🌕 Năng lượng của mặt trăng và niềm tin vào lì xì",
+    "disclaimer_title": "⚠️ Tuyên bố từ chối trách nhiệm",
+    "future_title": "💫 Các ứng dụng trong tương lai",
+    "schedule_title": "Quy tắc phát hành token",
+    "secrets_title": "🌸 Bí mật của anh ấy",
+    "title": "🌕 Câu chuyện về moonini"
+  },
+  "waterfall": {
+    "claimed": "Nhận",
+    "progress": "Đã nhận",
+    "sent_from": "Nhóm gửi:",
+    "total": "Tổng số tiền"
+  },
+  "seo": {
+    "og": {
+      "image": "/images/og-default.png",
+      "type": "website"
+    },
+    "routes": {
+      "claim": {
+        "description": "Tính năng lì xì của moonpacket hỗ trợ nhiều loại token bao gồm SOL và USDT, và cho phép gửi các token meme của riêng bạn. Một công cụ mạnh mẽ để thu hút người dùng mới và tăng cường sự tương tác trong các nhóm Telegram.",
+        "title": "Ứng dụng Mini Lì Xì Telegram — moonpacket"
+      },
+      "privacy": {
+        "description": "Chính sách Bảo mật của moonpacket giải thích cách chúng tôi thu thập, sử dụng và bảo vệ dữ liệu cá nhân của bạn.",
+        "title": "Chính sách Bảo mật — moonpacket"
+      },
+      "send": {
+        "description": "Sử dụng moonpacket để gửi lì xì, thiết lập điều kiện nhiệm vụ và tích hợp API để thu hút hiệu quả người dùng mới và nâng cao sự tương tác của cộng đồng người dùng giá trị.",
+        "title": "Gửi Lì Xì — moonpacket"
+      },
+      "terms": {
+        "description": "Điều khoản dịch vụ, hướng dẫn sử dụng và tuyên bố pháp lý của moonpacket.",
+        "title": "Điều khoản dịch vụ — moonpacket"
+      }
+    },
+    "site": {
+      "description": "Bot Telegram Lì Xì Tiền Điện Tử moonpacket | Hỗ trợ USDT, TON, SOL, ETH, DOGE. Bạn cũng có thể gửi lì xì token meme của riêng mình, lý tưởng để thu hút người dùng mới, tạo bầu không khí sôi động và tăng cường tương tác trong các cộng đồng Telegram.",
+      "site_name": "moonpacket",
+      "title": "moonpacket — lì xì token tiền điện tử meme, ví lì xì chuyên dụng"
+    }
+  }
+}

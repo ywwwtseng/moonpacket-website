@@ -1,0 +1,398 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import { computeCanonical } from '@/utils/head';
+import GroupsHero from '@/components/GroupsHero.astro';
+import Section from '@/components/Section.astro';
+import { getLocalesForBuild, defaultLocale } from '@/i18n/locales.config';
+import { LOCALE_ORDER } from '@/config/locales';
+import { CTA_LINKS } from '@/config/app';
+import { DATA_ENDPOINTS } from '@/config/data';
+import { buildFaqVM } from '@/utils/faq-vm';
+import { brandify } from '@/lib/brandify';
+import { bodyWithoutRepeatedHeading, htmlWithLineBreaks, normalizeTitleLike } from '@/utils/text';
+import { dropLeadingDupFromBodyHtml } from '@/utils/dup';
+import { generateFaqJsonLd } from '@/utils/faq-jsonld';
+
+export async function getStaticPaths() {
+  const locales = getLocalesForBuild();
+  return locales.map((l) => ({ params: { lang: l.code } }));
+}
+
+// 1. 語系
+const { lang } = Astro.params;
+const isEN = lang === 'en-US';
+
+// 2. i18n messages
+const messages = await import('@/i18n/loadMessages')
+  .then((m) => m.loadAllMessages(lang as any))
+  .catch(async () => {
+    const fallback = await import('@/i18n/loadMessages').then((m) =>
+      m.loadAllMessages(defaultLocale),
+    );
+    return fallback;
+  });
+
+const claimMessages = messages.claim || {};
+const canonical = computeCanonical(Astro.url, (Astro.site && Astro.site.toString()) || undefined);
+
+// SEO metadata from i18n
+const seoTitle = messages.site?.seo?.routes?.claim?.title || claimMessages?.section_title || '';
+const seoDescription =
+  messages.site?.seo?.routes?.claim?.description || messages.site?.description || '';
+
+// 3. 跑馬燈：從 API 獲取真實數據
+interface ApiEvent {
+  id: string;
+  type: string;
+  message: string;
+}
+
+interface TickerEvent {
+  type: 'SEND' | 'CLAIM' | 'TOP_UP' | 'UPGRADE' | 'JACKPOT';
+  actor?: string;
+  group?: string;
+  amount?: number;
+  unit?: string;
+  feature?: string;
+}
+
+// 轉換 API 事件為 TickerEvent 格式
+function transformApiEvent(apiEvent: ApiEvent): TickerEvent | null {
+  try {
+    // 解析 message JSON 字符串
+    const messageData = JSON.parse(apiEvent.message);
+    const { name, chat, amount, symbol } = messageData;
+
+    // 根據 type 映射
+    if (apiEvent.type === 'gift_sent') {
+      return {
+        type: 'SEND',
+        actor: name || '',
+        group: chat || '',
+        amount: amount ? Number(amount) : undefined,
+        unit: symbol || '',
+      };
+    }
+    if (apiEvent.type === 'gift_claimed') {
+      return {
+        type: 'CLAIM',
+        actor: name || '',
+        amount: amount ? Number(amount) : undefined,
+        unit: symbol || '',
+      };
+    }
+    if (apiEvent.type === 'deposit') {
+      return {
+        type: 'TOP_UP',
+        actor: name || '',
+        amount: amount ? Number(amount) : undefined,
+        unit: symbol || '',
+      };
+    }
+    // 可以添加其他類型的映射
+    return null;
+  } catch (err) {
+    console.warn('[claim.astro] Failed to parse event:', apiEvent, err);
+    return null;
+  }
+}
+
+// 從 API 獲取事件數據
+let tickerEvents: TickerEvent[] = [];
+try {
+  const eventsUrl = DATA_ENDPOINTS.events || '';
+  if (eventsUrl) {
+    const response = await fetch(eventsUrl, {
+      cache: 'no-store',
+    });
+    if (response.ok) {
+      const data = await response.json();
+      const rawEvents = (data && data.data) || [];
+      const transformed = rawEvents
+        .map((ev: ApiEvent) => transformApiEvent(ev))
+        .filter((ev: TickerEvent | null): ev is TickerEvent => ev !== null)
+        .slice(0, 20); // 限制最多 20 條
+      tickerEvents = transformed;
+    }
+  }
+} catch (err) {
+  // API 失敗時使用空數組，不顯示跑馬燈
+  console.warn('[claim.astro] Failed to fetch events:', err);
+  tickerEvents = [];
+}
+
+// 4. 群組資料：從 API 獲取真實數據
+interface ApiGroup {
+  id: string;
+  name: string;
+  owner_username: string;
+  member_count: number;
+  total_send_usdt: string;
+  current_send_usdt: string;
+  username: string;
+}
+
+interface ApiGroupsResponse {
+  data: ApiGroup[];
+  page: number;
+  total: number;
+}
+
+interface GroupCardData {
+  name: string;
+  owner: string;
+  members: number;
+  totalSent: string;
+  periodSent: string;
+  link: string;
+}
+
+// 轉換 API 群組數據為組件期望的格式
+function transformApiGroup(apiGroup: ApiGroup): GroupCardData {
+  return {
+    name: apiGroup.name || '',
+    owner: apiGroup.owner_username ? `@${apiGroup.owner_username}` : '',
+    members: apiGroup.member_count || 0,
+    totalSent: apiGroup.total_send_usdt
+      ? new Intl.NumberFormat('en-US').format(Number(apiGroup.total_send_usdt))
+      : '0',
+    periodSent: apiGroup.current_send_usdt
+      ? new Intl.NumberFormat('en-US').format(Number(apiGroup.current_send_usdt))
+      : '0',
+    link: apiGroup.username ? `https://t.me/${apiGroup.username}` : '',
+  };
+}
+
+// 從 API 獲取群組數據
+async function fetchGroups(
+  type: 'latest' | 'hot',
+  page: number = 1,
+  q?: string,
+): Promise<GroupCardData[]> {
+  try {
+    const chatsUrl = DATA_ENDPOINTS.chats || '';
+    if (!chatsUrl) {
+      return [];
+    }
+    const params = new URLSearchParams({
+      page: String(page),
+      type: type,
+    });
+    if (q) {
+      params.set('q', q);
+    }
+    const response = await fetch(`${chatsUrl}?${params.toString()}`, {
+      cache: 'no-store',
+    });
+    if (response.ok) {
+      const data: ApiGroupsResponse = await response.json();
+      return (data.data || []).map(transformApiGroup);
+    }
+  } catch (err) {
+    console.warn(`[claim.astro] Failed to fetch ${type} groups:`, err);
+  }
+  return [];
+}
+
+// 獲取初始數據（第一頁的 latest 和 hot）
+let latestGroupsData: GroupCardData[] = [];
+let hotGroupsData: GroupCardData[] = [];
+
+try {
+  [latestGroupsData, hotGroupsData] = await Promise.all([
+    fetchGroups('latest', 1),
+    fetchGroups('hot', 1),
+  ]);
+} catch (err) {
+  console.warn('[claim.astro] Failed to fetch initial groups data:', err);
+  // 如果 API 失敗，使用空數組
+  latestGroupsData = [];
+  hotGroupsData = [];
+}
+
+// client-side 會自己做分頁，所以這裡只定義常數
+const ITEMS_PER_PAGE = 9;
+
+// Helper for brandifying content (consistent with privacy/terms pages)
+const html = (s?: string) => brandify(s ?? '');
+
+// FAQ 段落處理：保留換行、去除重複標題、應用品牌化
+function renderFaqParagraph(raw: string, title?: string): string {
+  if (!raw) return '';
+
+  // 1. 去除首行重複標題（若存在）
+  let cleaned = raw;
+  if (title) {
+    const t = normalizeTitleLike(title);
+    const lines = raw.split(/\r?\n/);
+    if (lines.length > 0) {
+      const firstLine = lines[0];
+      const f = normalizeTitleLike(firstLine);
+      if (t && f && t === f) {
+        // 刪除第一行
+        cleaned = lines.slice(1).join('\n');
+      }
+    }
+  }
+
+  // 2. 先保留品牌字上色
+  const marked = brandify(cleaned);
+
+  // 3. 使用 dropLeadingDupFromBodyHtml 再次去重（處理已 brandify 的內容）
+  const deduped = title ? dropLeadingDupFromBodyHtml(marked, title) : marked;
+
+  // 4. 如果內容已經包含 <br> 或 <br/>，說明是處理過的 HTML，直接返回
+  if (deduped.includes('<br')) {
+    return deduped;
+  }
+
+  // 5. 否則應用 htmlWithLineBreaks 將換行符轉為 <br/>
+  return htmlWithLineBreaks(deduped);
+}
+
+// Build FAQ view-model: supports both flat (qN/aN) and structured (sections) formats
+const faqVM = buildFaqVM(claimMessages?.faq || {});
+// Use structured format if sections exist, otherwise use flat format
+const useStructured =
+  faqVM.sections.length > 0 &&
+  (faqVM.sections[0].items?.length > 0 || claimMessages?.faq?.sections?.length > 0);
+const faqOrder = ['q1', 'q2', 'q3', 'q4', 'q5', 'q6', 'q7', 'q8', 'q9', 'q10', 'q11'];
+
+// Generate FAQ JSON-LD structured data
+const allFaqItems = faqVM.sections.flatMap((sec) => sec.items);
+const faqJsonLd = allFaqItems.length > 0 ? generateFaqJsonLd(allFaqItems) : '';
+
+// 兼容 object/string/array：將 FAQ 內容標準化為字串陣列（支援 CSV 物件鍵 0..n）
+function toLines(value: any): string[] {
+  try {
+    if (!value) return [];
+    if (Array.isArray(value)) return value.filter(Boolean).map(String);
+    if (typeof value === 'string') {
+      return value
+        .replace(/\\n/g, '\n')
+        .split(/\r?\n/)
+        .map((s) => s.trim())
+        .filter(Boolean);
+    }
+    if (typeof value === 'object') {
+      const arr = Object.keys(value)
+        .sort((a, b) => Number(a) - Number(b))
+        .map((k) => value[k]);
+      return arr.filter(Boolean).map(String);
+    }
+    return [];
+  } catch {
+    return [];
+  }
+}
+---
+
+<BaseLayout
+  lang={lang}
+  title={seoTitle}
+  description={seoDescription}
+  canonicalUrl={canonical}
+  faqJsonLd={faqJsonLd}
+  allLocales={LOCALE_ORDER}
+>
+  <main id="main-content">
+    <h1 class="sr-only">{claimMessages?.section_title}</h1>
+
+    <GroupsHero
+      botUrl={CTA_LINKS.mainBot}
+      lang={lang}
+      claimMessages={claimMessages}
+      tickerEvents={tickerEvents}
+      latestGroupsData={latestGroupsData}
+      hotGroupsData={hotGroupsData}
+      itemsPerPage={ITEMS_PER_PAGE}
+      chatsApiUrl={DATA_ENDPOINTS.chats || ''}
+    />
+
+    <!-- FAQ / About Claiming Red Packets -->
+    <div id="about-claim"></div>
+    <Section title={claimMessages?.section_title} class="py-10">
+      <div class="grid grid-cols-1 gap-4">
+        {
+          useStructured
+            ? // New structured format with sections
+              faqVM.sections.map((sec) => (
+                <section class="faq-section">
+                  {sec.title && (
+                    <h3 class="text-base font-semibold mb-2" set:html={brandify(sec.title)} />
+                  )}
+                  {sec.items.map((it) => (
+                    <div class="rounded-xl bg-white shadow-sm ring-1 ring-black/5 p-5 mb-4">
+                      <h3 class="text-base font-semibold mb-2" set:html={brandify(it.title)} />
+                      <div class="space-y-3 text-base leading-6">
+                        {toLines(it.body).map((line: string) => (
+                          <p
+                            class="leading-relaxed"
+                            set:html={renderFaqParagraph(line, it.title)}
+                          />
+                        ))}
+                      </div>
+                    </div>
+                  ))}
+                </section>
+              ))
+            : // Fallback to old flat format
+              faqOrder.map((key) => (
+                <div class="rounded-xl bg-white shadow-sm ring-1 ring-black/5 p-5">
+                  <h3 class="text-base font-semibold mb-2">
+                    {claimMessages?.faq?.[`${key}_title`]}
+                  </h3>
+                  <div class="space-y-3 text-base leading-6">
+                    {toLines(claimMessages?.faq?.[`${key}_body`]).map((line: string) => (
+                      <p
+                        class="leading-relaxed"
+                        set:html={renderFaqParagraph(
+                          line,
+                          claimMessages?.faq?.[`${key}_title`] || '',
+                        )}
+                      />
+                    ))}
+                  </div>
+                </div>
+              ))
+        }
+      </div>
+    </Section>
+
+    <!-- FAQ 結構化資料 (SEO) -->
+    <script
+      type="application/ld+json"
+      set:html={JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: [
+          {
+            '@type': 'Question',
+            name: claimMessages?.faq?.q1_title,
+            acceptedAnswer: { '@type': 'Answer', text: claimMessages?.faq?.q1_body?.[0] },
+          },
+          {
+            '@type': 'Question',
+            name: claimMessages?.faq?.q2_title,
+            acceptedAnswer: { '@type': 'Answer', text: claimMessages?.faq?.q2_body?.[0] },
+          },
+          {
+            '@type': 'Question',
+            name: claimMessages?.faq?.q3_title,
+            acceptedAnswer: { '@type': 'Answer', text: claimMessages?.faq?.q3_body?.[0] },
+          },
+          {
+            '@type': 'Question',
+            name: claimMessages?.faq?.q4_title,
+            acceptedAnswer: { '@type': 'Answer', text: claimMessages?.faq?.q4_body?.[0] },
+          },
+          {
+            '@type': 'Question',
+            name: claimMessages?.faq?.q5_title,
+            acceptedAnswer: { '@type': 'Answer', text: claimMessages?.faq?.q5_body?.[0] },
+          },
+        ],
+      })}
+    />
+  </main>
+</BaseLayout>

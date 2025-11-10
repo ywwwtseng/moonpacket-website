@@ -1,0 +1,171 @@
+{
+  "title": "",
+  "hero": {
+    "api_demo_label": "API Demo",
+    "api_get": "https://t.me/MoonPackageDevBot",
+    "response_label": "Phản hồi:",
+    "json": "{ \"data\": { \"level\": 100, \"status\": \"active\", \"is_blacklist\": false } } {, \"data\": {, \"level\": 100,, \"status\": \"active\",, \"is_blacklist\": false, }",
+    "title": "Hấp dẫn người dùng mới, tăng hoạt động",
+    "lead": "Bên dự án có thể đặt các điều kiện cụ thể:",
+    "points": {
+      "0": "",
+      "1": "",
+      "2": ""
+    },
+    "note": "Người dùng đáp ứng điều kiện có thể nhận lì xì",
+    "subtitle": "Tạo sự kiện lì xì tùy chỉnh cho cộng đồng của bạn",
+    "desc": "Cài đặt dễ dàng, khởi động nhanh, kích hoạt cộng đồng của bạn!",
+    "ctaPrimaryLabel": "Bắt đầu ngay",
+    "ctaPrimaryHref": "https://t.me/MoonPackageDevBot",
+    "ctaSecondaryLabel": "Xem ví dụ",
+    "ctaSecondaryHref": "/zh-TW/claim/",
+    "api_demo_code": "{\n\"data\": {\n\"level\": {\n\"gt\": 99\n},\n\"status\": {\n\"eq\": \"active\"\n},\n\"is_blacklist\": {\n\"eq\": false\n}\n}\n}",
+    "api_demo_title": "GET [api_url]?api_key=[api_key]&user_id=[user_id]",
+    "use_cases_items": {
+      "0": "Bên dự án có thể đặt điều kiện nhiệm vụ:",
+      "1": "Tham gia nhóm / Theo dõi kênh",
+      "2": "Câu lệnh đúng",
+      "3": "API tùy chỉnh của dự án",
+      "4": "Chỉ người dùng đáp ứng điều kiện mới có thể yêu cầu, gửi lì xì cho người dùng có giá trị."
+    },
+    "use_cases_title": "Thu hút người dùng mới・Tăng cường hoạt động"
+  },
+  "faq": {
+    "section_1": "Bắt đầu và cài đặt.",
+    "q1": "Làm thế nào để bắt đầu?",
+    "a1": "Thêm Robot moonpacket vào nhóm hoặc kênh Telegram của bạn và đặt nó làm quản trị viên.",
+    "q2": "Những chuẩn bị nào cần thiết trước khi gửi?",
+    "a2": "Vui lòng gửi tài sản bạn muốn phân phối trước (ví dụ, gửi 10 USDT để thử nghiệm).",
+    "section_2": "2) Quy trình Gửi tiền",
+    "q3": "Tôi có thể chọn nơi gửi không?",
+    "a3": "Chọn các nhóm hoặc kênh đã liên kết trong 'Mục Tiêu Gửi' để gửi đến một hoặc nhiều nhóm cùng một lúc.",
+    "tip": "Mẹo: Gửi lì xì phù hợp cho các tương tác bắt đầu. Bạn có thể phản hồi bài đăng lì xì để giải thích chủ đề trò chơi mà bạn muốn tổ chức.",
+    "section_3": "3) Các Vấn đề Kỹ thuật",
+    "section_4": "Dữ liệu và Phân tích",
+    "section_5": "Hỗ trợ Kỹ thuật và Bảo trì",
+    "q4": "Phương pháp phân bổ có thể được tùy chỉnh không?",
+    "a4": "Hỗ trợ cả chế độ phân phối ngẫu nhiên và chế độ phân phối trung bình.",
+    "q5": "Bạn có thể nhắn tin trực tiếp cho robot dịch vụ khách hàng chính thức @moonini_helper_bot.",
+    "a5": "Mỗi khóa API có thể được gọi tối đa 60 lần mỗi phút.",
+    "q6": "Làm thế nào để xử lý lỗi?",
+    "a6": "API sẽ trả về các mã lỗi chi tiết và thông điệp lỗi.",
+    "q7": "Làm thế nào để theo dõi hiệu quả hoạt động?",
+    "a7": "Cung cấp bảng điều khiển dữ liệu thời gian thực:",
+    "q8": "Phí giao dịch được tính như thế nào?",
+    "a8": "• Phí dịch vụ nền tảng: 2-5% (được điều chỉnh dựa trên quy mô hoạt động)",
+    "q9": "Làm thế nào để đảm bảo an toàn quỹ?",
+    "a9": "• Kiến trúc phi tập trung, không cần quỹ lưu ký",
+    "q10": "Tôi nên làm gì với số tiền còn lại sau khi sự kiện kết thúc?",
+    "a10": "• Các lì xì chưa được nhận sẽ tự động được trả về ví của bạn.",
+    "q11": "Có thể tổ chức nhiều sự kiện cùng một lúc không?",
+    "a11": "Có, nhưng chúng tôi khuyên bạn:",
+    "q12": "Cách xử lý khiếu nại của người dùng?",
+    "a12": "• Cung cấp một kênh dịch vụ khách hàng chuyên dụng",
+    "q13": "Có hỗ trợ kỹ thuật không?",
+    "a13": "• Hỗ trợ kỹ thuật 24/7",
+    "q14": "Cách tối ưu hiệu quả sự kiện?",
+    "a14": "• Điều chỉnh chiến lược hoạt động dựa trên dữ liệu",
+    "q9_passcode": "Mật khẩu là gì? Nó phù hợp trong những tình huống nào?",
+    "a9_passcode": "Người chơi phải lấy cụm từ bí mật từ các kênh bên ngoài và quay lại trang này để nhập chính xác để yêu cầu. Các thực hành phổ biến:",
+    "passcode_scenarios": {
+      "0": "Chia nhỏ cụm từ bí mật 6 chữ số trong video dài trên YouTube để khuyến khích xem đầy đủ.",
+      "1": "Bài đăng trên X.com (Twitter) hoặc Threads gợi ý về cụm từ bí mật để tăng cường tương tác.",
+      "2": "Chia sẻ cụm từ bí mật chỉ bằng miệng trong các buổi trực tiếp để hướng dẫn khán giả tham dự.",
+      "3": "Các nhóm riêng/tính phí cung cấp cụm từ bí mật độc quyền để đảm bảo lợi ích chỉ được dành cho các thành viên cốt lõi."
+    },
+    "q10_api": "Tôi có thể sử dụng API của mình để xác định khả năng tham gia không?",
+    "a10_api": "Có. moonpacket sẽ gọi API chỉ đọc được cung cấp để xác thực trước khi người dùng nhận. Chỉ cần thiết lập api_url và api_key (có thể có các thiết lập miền tùy chọn) ở backend.",
+    "api_condition_title": "Khai báo điều kiện (không có user_id)",
+    "api_response_label": "Trả về:",
+    "api_operators_label": "Toán tử:",
+    "api_operators_desc": "eq (có thể khớp với bất kỳ loại nào), gt/lt/gte/lte (phải là số)",
+    "api_user_query_title": "Yêu cầu của người dùng (bao gồm user_id)",
+    "api_logic_desc": "moonpacket sử dụng 'Khai báo điều kiện' như một ngưỡng để so sánh với giá trị thực tế của 'Yêu cầu của người dùng'; nếu khớp, nó sẽ qua, nếu không, không thể yêu cầu.",
+    "api_security_title": "Khuyến nghị về bảo mật",
+    "api_security_desc": "Sử dụng các điểm cuối chỉ đọc, kích hoạt api_key và cho phép giới hạn miền; để giao diện chéo miền, đề xuất sử dụng Cloudflare Workers để chuyển tiếp và giới hạn tỷ lệ.",
+    "q12_antibot": "Cách ngăn chặn gian lận và hoạt động của bot?",
+    "a12_antibot_items": {
+      "0": "Tần suất hành vi và phát hiện thiết bị/IP",
+      "1": "Tài khoản được liên kết duy nhất với ví",
+      "2": "Mã xác minh rút tiền",
+      "3": "Kiểm tra sơ bộ quản lý rủi ro AI; có thể thực hiện xác thực sinh trắc học của bên thứ ba, nhận dạng khuôn mặt và xác minh tài liệu nếu cần thiết"
+    },
+    "q13_records": "Tôi có thể kiểm tra các bản ghi của tin nhắn đã gửi và số lượng người nhận ở đâu?",
+    "a13_records": "Vui lòng kiểm tra 'Các Lì Xì Tôi Đã Gửi' trên trang chính cá nhân của bạn để xem số lượng người nhận, số tiền còn lại và tổng số đã tiêu cho mỗi phiên; nếu được kích hoạt, các báo cáo cũng có thể được tải xuống.",
+    "q1_body": {
+      "0": "Đây là một công cụ giúp các nhóm dự án, chủ sở hữu nhóm hoặc quản lý cộng đồng nhanh chóng phân phát lì xì trong các nhóm Telegram.\nNhắm cụ thể vào việc phân phối coin meme để khuyến khích các thành viên trong cộng đồng,\nnhững sử dụng chính bao gồm: kích thích hoạt động, thu hút thành viên mới và tiến hành các hoạt động quảng bá.\nBạn có thể sử dụng không chỉ các coin meme mà bạn phát hành để phân phát lì xì mà còn các token chủ đạo như USDT, TRX, SOL, và những cái khác.\nThông qua moonpacket, bạn có thể yêu cầu người dùng hoàn thành các nhiệm vụ đơn giản, và cấu hình thêm qua API, cho phép chủ sở hữu nhóm 'tuỳ chỉnh quy tắc phân phối' và 'thiết lập điều kiện nhận', xác thực bằng API của chính họ.",
+      "1": "Mẹo: Phân phát lì xì moonpacket cho phép bạn khám phá các thành viên có giá trị thực sự trong cộng đồng. Bạn có thể thiết lập điều kiện nhận trong mỗi lì xì, cung cấp cho người chơi các nhiệm vụ khác nhau để hoàn thành."
+    },
+    "q1_title": "1) Tính năng lì xì của moonpacket là gì?",
+    "q2_body": {
+      "0": "Tin nhắn chào mừng cho các thành viên mới sau khi tham gia (đáp ứng các nhiệm vụ tham gia cơ bản)",
+      "1": "Tương tác thời gian thực trong các buổi phát sóng trực tiếp / AMA / sự kiện (chỉ những thành viên tập trung vào sự kiện mới nhận được mật khẩu và đủ điều kiện nhận lì xì)",
+      "2": "Các chương trình quảng bá tiếp thị trong nhóm, xổ số, nhiệm vụ khẩu hiệu, nâng cấp trò chơi, hoàn tiền nạp (ví dụ: chỉ những người chơi đạt được một mức độ nhất định trong trò chơi hoặc nạp một số tiền nhất định mới đủ điều kiện nhận)",
+      "3": "Phần thưởng cho việc mời bạn bè tham gia nhóm",
+      "4": "Chương trình khuyến mãi giới hạn thời gian, sự kiện đếm ngược (nhiệm vụ điểm danh hàng ngày)",
+      "5": "\"Lì xì xuyên nhóm\": Đổ lì xì vào các nhóm khác (nếu chủ sở hữu nhóm cho phép), nhằm thúc đẩy quảng bá lẫn nhau và hợp tác cộng đồng."
+    },
+    "q2_title": "2) Khi nào phù hợp để sử dụng tính năng lì xì?",
+    "q3_body": {
+      "0": "Tất cả các giao dịch trên chuỗi đều bị tính phí gas. Phí gas do blockchain tính và không phải phí thêm từ chúng tôi.",
+      "1": "Khi bạn gửi token vào pool lì xì, phí gas sẽ được trừ ngay lập tức trên chuỗi. Số tiền thực sự vào pool có thể thấp hơn một chút so với số tiền danh nghĩa bạn đã nhập (hoặc có thể bị tính phí gas thêm khi chuyển). Đây là khấu trừ trên chuỗi bình thường.",
+      "2": "Khi phát lì xì trong 'nhóm của bạn', hệ thống sẽ tự động tính phí nền tảng 2% vào thời điểm phân phối, phí này sẽ được trừ trực tiếp.",
+      "3": "Lì xì giữa các nhóm (quảng bá một lì xì trong nhóm của người khác) có thêm quy định:",
+      "4": "Đầu tiên, chủ nhóm nhận quảng bá phải thiết lập quyền hạn và phải sử dụng các token chính thống. Lì xì giữa các nhóm không chấp nhận các đồng meme tự tạo, và hệ thống có ngưỡng tối thiểu cho số tiền lì xì giữa các nhóm. Nếu dưới ngưỡng, lì xì không thể được thiết lập. Vui lòng xác nhận số tiền của bạn đủ trước khi gửi."
+    },
+    "q3_title": "3) Chi phí và ngưỡng gửi lì xì",
+    "q4_body": {
+      "0": "Chúng tôi sẽ chủ động phát hiện các hành vi lạm dụng (chẳng hạn như lừa đảo, rửa tiền, chiến thuật robot, tương tác spam, v.v.). Nếu bị coi là rủi ro cao, tài khoản hoặc tài sản có thể bị chuyển vào trạng thái 'đang xem xét': việc rút tiền có thể bị trì hoãn, và tài khoản có thể bị đen tạm thời. Đây là để bảo vệ tài sản của người dùng và tuân thủ yêu cầu quy định.",
+      "1": "Đây là cơ chế kiểm soát rủi ro và tuân thủ của nền tảng. Dựa trên việc kiểm soát rủi ro nội bộ, yêu cầu tuân thủ, hoặc điều tra của bên thứ ba, chúng tôi có thể đình chỉ, hạn chế, trì hoãn hoặc từ chối các giao dịch rút tiền hoặc chuyển cụ thể.",
+      "2": "Nếu bạn tin rằng đây là một sự đánh giá sai lầm, bạn có thể gửi đơn kháng cáo thông qua bot dịch vụ khách hàng chính thức."
+    },
+    "q4_title": "4) Bảo mật, Kiểm soát rủi ro và Trạng thái tài khoản",
+    "q5_body": {
+      "0": "Bạn có thể nhắn tin trực tiếp cho bot dịch vụ khách hàng chính thức @moonini_helper_bot.",
+      "1": "Vui lòng nhập lệnh /setlang trong cuộc trò chuyện (ví dụ: /setlang zh-TW hoặc /setlang en-US) để chuyển đổi ngôn ngữ dịch vụ khách hàng.",
+      "2": "Khi báo cáo vấn đề, vui lòng cung cấp:",
+      "3": "Dịch vụ khách hàng sẽ chỉ kiểm tra dữ liệu trên chuỗi và hồ sơ giao dịch. Chúng tôi sẽ không yêu cầu bạn gửi hình gốc hoặc cung cấp khóa riêng ví, cụm từ ghi nhớ, hoặc cụm từ seed đầy đủ, cũng như sẽ không yêu cầu bạn chuyển tiền để 'xác minh'. Dịch vụ khách hàng chính thức sẽ không nhắn tin chủ động để yêu cầu tài sản.",
+      "4": "Bạn cũng có thể sử dụng API tra cứu tự phục vụ để kiểm tra trạng thái của mình, chẳng hạn như xem tài khoản của bạn có hợp lệ, có bị đen hay không, hoặc có đang bị xem xét không. Đây là một ví dụ: nếu phản hồi cho thấy bạn là is_blacklist: true hoặc status: \"hold\", điều đó có nghĩa là tài khoản đang trong đánh giá kiểm soát rủi ro, và việc rút tiền hoặc phân phối có thể bị tạm ngừng. Nếu chức năng này không khả dụng trong thời gian thử nghiệm, vui lòng gửi đơn kháng cáo thông qua bot dịch vụ khách hàng và cung cấp mã giao dịch, chúng tôi sẽ đẩy nhanh xử lý dựa trên bằng chứng trên chuỗi."
+    },
+    "q5_title": "5) Dịch vụ khách hàng và tra cứu tự phục vụ",
+    "q6_body": {
+      "0": "Chúng tôi cung cấp cơ chế API cho các chủ nhóm tùy chỉnh điều kiện nhiệm vụ và quy tắc đổi thưởng.",
+      "1": "Mật khẩu là gì? Khi nào nên sử dụng? Ví dụ, khi bạn muốn yêu cầu nhiều người dùng hơn tham gia TikTok hoặc YouTube của bạn, hoặc tham gia nhóm riêng tư của bạn, bạn có thể ẩn mật khẩu trong video hoặc tin nhắn. Người dùng cần phải lấy mật khẩu tại vị trí quy định để nhận lì xì sau khi nhập vào.",
+      "2": "Khái niệm API là gì? Làm thế nào để xác định đủ điều kiện?",
+      "3": "Trong giao diện cài đặt API, trước tiên chúng ta cần thông báo cho API về các điều kiện, được gọi là 'khai báo điều kiện' (không bao gồm user_id).\nVí dụ: Trả về một tập hợp các điều kiện ngưỡng, chẳng hạn như cấp độ, trạng thái, có nằm trong danh sách đen hay không, v.v.\nmoonpacket sẽ coi tập hợp các điều kiện này là ngưỡng cơ bản.",
+      "4": "Tiếp theo, khi người dùng muốn nhận lì xì, API cần cung cấp:\n'Tra cứu Người dùng' (bao gồm user_id).\nVí dụ: Trả về giá trị thực tế của người dùng đó. Nền tảng sẽ so sánh kết quả của 'Tra cứu Người dùng' với ngưỡng 'khai báo điều kiện' đã thiết lập trước đó; nếu nó khớp, nó được phê duyệt; nếu không, nó bị từ chối.",
+      "5": "Khuyến nghị an toàn: Vui lòng chỉ cung cấp các điểm cuối chỉ đọc và kích hoạt api_key cùng với các hạn chế danh sách trắng miền; nếu cần hoạt động chéo miền, bạn có thể sử dụng Cloudflare Workers làm cầu nối và thực hiện giới hạn tỷ lệ.",
+      "6": "Có thể sửa đổi quy tắc hoạt động giữa chừng không?",
+      "7": "Không thể sửa đổi giữa chừng. Chúng tôi hy vọng tất cả người dùng của hệ thống này có thể duy trì sự tin tưởng lẫn nhau. Nếu một bên dự án hứa hẹn phát hành lì xì nhưng thay đổi tiêu chí tham gia giữa chừng, khiến việc nhận không thể thực hiện được, điều này sẽ làm mất lòng tin của người chơi. Nếu người phát hành sửa đổi API để thay đổi quy tắc và nhiều người chơi báo cáo điều này, chúng tôi sẽ giữ quyền đình chỉ hoặc đóng băng các tài khoản sau khi xác nhận qua nhật ký thay đổi. Do đó, xin tuyệt đối tránh thay đổi quy tắc trò chơi giữa chừng, vì điều này có thể dẫn đến việc cấm tài khoản.",
+      "8": "Nếu bạn lo lắng về việc cài đặt không chính xác, cách đúng là:",
+      "9": "Bạn có thể tạo một nhóm thử nghiệm, phát hành lì xì thử nghiệm cho chính mình trong nhóm thử nghiệm, và khi đã xác nhận không có vấn đề gì, hãy tiến hành phát hành trong cộng đồng chính thức. Quy tắc cơ bản cho lì xì là: bạn không thể yêu cầu dừng giữa chừng, cũng không thể thay đổi trực tiếp quy tắc cho một hoạt động đang diễn ra. Mỗi vòng phải được hoàn thành và giải quyết theo cam kết ban đầu trước khi các quy tắc mới có thể được áp dụng trong vòng tiếp theo."
+    },
+    "q6_title": "6) Quy tắc hoạt động, kiểm soát đủ điều kiện và không thay đổi quy tắc giữa chừng",
+    "q7_body": {
+      "0": "Hiện tại chúng tôi vẫn đang trong giai đoạn vận hành Beta và sẽ dần tối ưu hóa bảng điều khiển dữ liệu, bao gồm số lượng người tham gia, số lượng lì xì được nhận, tỷ lệ nhận, v.v. Các bên dự án cũng có thể nhúng các chỉ số theo dõi trong cài đặt API của họ.",
+      "1": "Các lì xì không được nhận sẽ tự động được hoàn lại vào ví của bạn. Nếu bạn không nhận được hoàn trả trong vòng 3 ngày sau khi hoạt động kết thúc, bạn có thể hỏi dịch vụ khách hàng để được xử lý.",
+      "2": "Không nên thực hiện quá nhiều hoạt động đồng thời trong cùng một nhóm để tránh xung đột. Người dùng cũng có thể bị nhầm lẫn; tốt nhất là thực hiện các hoạt động một cách tuần tự, một lần tại một thời điểm hoặc một lần mỗi ngày, và đảm bảo có đủ quỹ để hoàn thành mỗi hoạt động.",
+      "3": "Khuyến nghị điều chỉnh quy tắc dựa trên dữ liệu; bạn có thể sử dụng API cho thử nghiệm A/B, tham khảo các trường hợp thành công trước đây và thường xuyên thu thập phản hồi từ thành viên để dần tối ưu hóa cách chơi.",
+      "4": "Chống gian lận và lạm dụng:",
+      "5": "Trong thời gian thử nghiệm beta mở, chúng tôi đang tối ưu hóa các vấn đề gian lận người dùng. Để đảm bảo tính công bằng của hệ thống, chúng tôi sẽ chặn cụ thể những người dùng cố gắng sử dụng bot để tranh giành lì xì. Phương pháp phòng ngừa tốt nhất là cho phép người dùng thiết lập API và điều kiện của riêng họ và hạn chế số lần nhận, điều này sẽ nâng cao ngưỡng đối với những người thích gian lận. Trong trường hợp có tình huống bất thường, xin vui lòng liên hệ với dịch vụ khách hàng của chúng tôi để phản hồi."
+    },
+    "q7_title": "7) Theo dõi hiệu suất, tối ưu hóa và ngăn ngừa gian lận",
+    "section_title": "Câu hỏi Thường gặp (FAQ Chi tiết) — Gửi Lì Xì"
+  },
+  "features": {
+    "f1": "Cài đặt Nhanh",
+    "f2": "Nhiều Phong cách Chơi",
+    "f3": "Dữ liệu Thời gian Thực",
+    "f4": "An toàn và Đáng tin cậy"
+  },
+  "features_desc": {
+    "f1": "Hoàn tất thiết lập trong 3 phút để bắt đầu hoạt động lì xì",
+    "f2": "Hỗ trợ các phương pháp phân bổ ngẫu nhiên, trung bình và chỉ định",
+    "f3": "Xem nhanh dữ liệu nhận được và phản hồi từ người dùng",
+    "f4": "Thiết kế phi tập trung đảm bảo an toàn quỹ"
+  },
+  "cta_button_prefix": "Kích hoạt ngay",
+  "cta_button_suffix": "Robot",
+  "cta_launch_bot": "Kích hoạt Robot moonpacket ngay",
+  "footer_tip": "Mẹo: Gửi lì xì phù hợp cho các tương tác bắt đầu. Bạn có thể phản hồi bài đăng lì xì để giải thích chủ đề trò chơi mà bạn muốn tổ chức."
+}

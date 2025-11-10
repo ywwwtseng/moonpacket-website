@@ -1,0 +1,48 @@
+---
+interface Props {
+  lang?: string;
+}
+
+const { lang } = Astro.props as Props;
+import { listLocalesWithStatus } from '@/config/locales';
+import { buildLocaleUrl } from '@/utils/locale-url';
+import { LOCALE_ORDER } from '@/config/locales';
+
+const items = await listLocalesWithStatus();
+
+// Get current lang from props, params, or default to en-US
+const current = lang || Astro.params.lang || 'en-US';
+
+// Build URL with proper trailing slash handling
+function hrefFor(code:string) {
+  const supportedCodes = LOCALE_ORDER as readonly string[];
+  return buildLocaleUrl(code, Astro.url, supportedCodes);
+}
+---
+
+<nav aria-label="Language" class="lang-menu">
+  <details>
+    <summary>🌐 {items.find(i=>i.code===current)?.nativeName ?? current}</summary>
+    <ul>
+      {items.map(i => (
+        <li>
+          {i.ready
+            ? <a href={hrefFor(i.code)} aria-current={i.code===current ? 'true':'false'}>
+                {i.nativeName} <small>({i.englishName})</small>
+              </a>
+            : <span class="disabled">{i.nativeName} <small>({i.englishName})</small></span>
+          }
+        </li>
+      ))}
+    </ul>
+  </details>
+</nav>
+
+<style>
+.lang-menu details{ cursor:pointer }
+.lang-menu ul{ list-style:none; margin:0; padding:.5rem 0 }
+.lang-menu li{ padding:.25rem .5rem }
+.lang-menu a[aria-current="true"]{ font-weight:600; text-decoration:underline }
+.lang-menu .disabled{ opacity:.45; cursor:not-allowed }
+</style>
+

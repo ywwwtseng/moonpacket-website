@@ -1,0 +1,152 @@
+{
+  "title": "moonpacket — nemme, sikre og hurtige kryptoredpakker",
+  "description": "moonpacket krypteret red packet robot | Understøtter USDT, TON, SOL, ETH. Send red packets nemt, modtag øjeblikkeligt, sikkert non-custodial, perfekt til Telegram fællesskabsvækst og øget engagement.",
+  "nav": {
+    "home": "Hjem",
+    "about": "Om",
+    "pricing": "Priser",
+    "team": "Team",
+    "blog": "Blog",
+    "faq": "Ofte Stillede Spørgsmål",
+    "contact": "Kontakt Os",
+    "careers": "Karriere",
+    "claim": "Hæv red packet",
+    "send": "Red Packet",
+    "api": "API Dokumentation"
+  },
+  "hero": {
+    "title": "Kryptovaluta red packets, tilgængelige for alle",
+    "subtitle": "Forbedr din samfundsoplevelse med enkle, globale tjenester.",
+    "desc": "Den bedste red packet-bot til meme-tokenprojekter og ejere af Telegram-grupper for at tiltrække nye brugere og øge engagementet.",
+    "ctaPrimaryLabel": "Start moonpacket",
+    "ctaPrimaryHref": "https://t.me/MoonPackageDevBot",
+    "ctaSecondaryLabel": "Sådan oprettes forbindelse",
+    "ctaSecondaryHref": "/zh-TW/integration",
+    "lead": "Telegram TON, meme, USDT red packets | Den bedste red packet-bot til meme-tokenprojekter og ejere af Telegram-grupper for at tiltrække nye brugere og øge engagementet.",
+    "cta_primary": "Aktivér moonpacket nu",
+    "cta_secondary": "Sådan integreres med grupper",
+    "headline_line1": "moonpacket",
+    "headline_line2": "Kom i gang, sigt mod månen.",
+    "tagline": "Telegram TON, meme og USDT red packets til community-markedsføring og fastholdelse. En gruppe red packet-bot designet til administratorer for at øge engagementet, tiltrække nye medlemmer og opmuntre til interaktion."
+  },
+  "features": {
+    "f1": "Hurtig registrering",
+    "f2": "Global lokalization",
+    "f3": "Non-custodial sikkerhed",
+    "title": "Kernefunktioner",
+    "items": "__TODO_TRANSLATE_zh-CN__"
+  },
+  "sections": {
+    "features_heading": "Funktioner i fokus",
+    "features_subtitle": "Du kan få",
+    "tokens_heading": "Tokens og statistikker",
+    "testimonials_heading": "Brugeranmeldelser",
+    "pricing_heading": "Planer og priser",
+    "waterfall_title": "Red Packet Vandfald"
+  },
+  "footer": {
+    "rights": "",
+    "privacy": "Privatlivspolitik",
+    "terms": "Servicevilkår",
+    "social": {
+      "telegram_group": "Telegram gruppe",
+      "telegram_channel": "Telegram kanal",
+      "x": "X",
+      "youtube": "YouTube"
+    },
+    "copyright": "Ophavsret."
+  },
+  "a11y": {
+    "skip_to_main": "Spring til hovedindhold",
+    "language_menu": "Åbn sprogmenuen",
+    "language": "Sprog"
+  },
+  "metrics": {
+    "heading": "Real-time indikatorer",
+    "price_btc": "BTC-pris",
+    "total_sent": "Samlet Sendt Beløb",
+    "total_claimed_amount": "Samlet Modtaget Beløb (USDT)",
+    "title": "Tokens og Statistikker",
+    "groups": "Forbundne grupper",
+    "groupsLinkLabel": "Forbundne red packet-grupper",
+    "sent": "Sendte red packets",
+    "claimed": "Samlet beløb hævet",
+    "sort": {
+      "latest": "Seneste",
+      "oldest": "Ældste",
+      "most": "Maksimum Deltagere",
+      "least": "Minimum Deltagere"
+    }
+  },
+  "errors": {
+    "stale": "Data kan være forældet",
+    "not_found": "Siden blev ikke fundet",
+    "not_found_desc": "Beklager, vi kunne ikke finde denne side, eller den er blevet fjernet."
+  },
+  "pricing": {
+    "starter": "Basisplan",
+    "pro": "Professionelle tjenester",
+    "enterprise": "Virksomhedsplan",
+    "price_free": "Gratis",
+    "price_19": "$19",
+    "price_contact": "Kontakt os",
+    "sla_support": "SLA og support",
+    "bullets": {
+      "starter": {
+        "0": "Basisfunktioner",
+        "1": "Fællesskabsstøtte"
+      },
+      "pro": {
+        "0": "Inkluderer Basisplan",
+        "1": "Avanceret lokalisering"
+      },
+      "enterprise": {
+        "0": "SLA og Support",
+        "1": "Egen integration"
+      }
+    }
+  },
+  "story": {
+    "belief_title": "🌕 Månens energi og troen på red packets",
+    "disclaimer_title": "⚠️ Ansvarsfraskrivelse",
+    "future_title": "💫 Fremtidige applikationer",
+    "schedule_title": "Token frigivelsesregler",
+    "secrets_title": "🌸 Hans hemmelighed",
+    "title": "🌕 Historien om moonini"
+  },
+  "waterfall": {
+    "claimed": "Krav",
+    "progress": "Kravt",
+    "sent_from": "Sender gruppe:",
+    "total": "Samlet beløb"
+  },
+  "seo": {
+    "og": {
+      "image": "/images/og-default.png",
+      "type": "website"
+    },
+    "routes": {
+      "claim": {
+        "description": "moonpacket's red packet-funktion understøtter forskellige tokens, herunder SOL og USDT, og giver mulighed for at sende dine egne meme-tokens. Et kraftfuldt værktøj til at tiltrække nye brugere og øge engagementet i Telegram-grupper.",
+        "title": "Red Packet Telegram mini APP — moonpacket"
+      },
+      "privacy": {
+        "description": "moonpacket's privatlivspolitik forklarer, hvordan vi indsamler, bruger og beskytter dine personlige data.",
+        "title": "Privatlivspolitik — moonpacket"
+      },
+      "send": {
+        "description": "Brug moonpacket til at sende red packets, sætte opgavebetingelser og API-integrationer for effektivt at tiltrække nye brugere og forbedre fællesskabsengagementet af værdifulde brugere.",
+        "title": "Send Red Packet — moonpacket"
+      },
+      "terms": {
+        "description": "moonpacket's servicevilkår, brugsretningslinjer og juridiske erklæringer.",
+        "title": "Vilkår for service — moonpacket"
+      }
+    },
+    "site": {
+      "description": "moonpacket Cryptocurrency red packet Telegram Bot | Understøtter USDT, TON, SOL, ETH, DOGE. Du kan også sende dine egne meme token red packets, ideelle til at tiltrække nye brugere, skabe en livlig atmosfære og øge engagementet i Telegram-fællesskaber.",
+      "site_name": "moonpacket",
+      "title": "moonpacket — meme token kryptovaluta red packets, dedikeret red packet wallet"
+    }
+  }
+}

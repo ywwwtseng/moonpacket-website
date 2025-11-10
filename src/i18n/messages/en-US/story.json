@@ -1,0 +1,101 @@
+{
+  "illustration_alt": "moonini embraces illustration",
+  "title": "🌕 The Story of moonini",
+  "origin": [
+    "One day, a red meteor fell on the far side of the moon,",
+    "Moonlight burst upon impact, transforming into a silver-white shower of light.",
+    "From that flickering red 'red packet meteorite',",
+    "A glowing little moon rabbit was born — moonini.",
+    "",
+    "moonini wears a gold-yellow moon badge on his chest.",
+    "He can feel every heartfelt red packet sent from Earth.",
+    "No matter the amount, it is the purest warm energy.",
+    "Yes, moonini grows thanks to everyone's red packet energy.",
+    "",
+    "These energies transformed into red packet credentials born on the Solana chain —",
+    "That is the origin of the $moonini Token."
+  ],
+  "secrets_title": "🌸 His Secret",
+  "secrets_intro": "Each time you send a red packet, moonini will record an energy entry on the moon:",
+  "secrets_flow": "Send red packet → Produce corresponding energy value (converted to USDT value) → Accumulate to 10 → Reach the minimum redeemable $moonini value.",
+  "secrets_halving": [
+    "In the initial phase (Phase 1), moonini will generally return in the best 1:1 ratio to the sender of the red packet. To maintain fairness and reduce the risk of wash/ping-pong, we will introduce the concept of effective energy.",
+    "When the total sent and withdrawn amounts from the community reach the system's set halving threshold, the first halving will occur; thereafter, reaching half of the previous stage's amount will trigger another halving."
+  ],
+  "schedule_title": "Token Release Rules",
+  "schedule_headers": [
+    "Stage",
+    "Issue Limit",
+    "Output Ratio (energy produced per 1 USDT accumulated)",
+    "Description"
+  ],
+  "schedule_rows": [
+    [
+      "Phase 1",
+      "0 ~ 4.5 billion",
+      "1.0 $MOONINI / USDT",
+      "Initial period, energy overflow."
+    ],
+    [
+      "Phase 2",
+      "4.5B ~ 6.75B",
+      "0.5 $MOONINI / USDT",
+      "First halving."
+    ],
+    [
+      "Phase 3",
+      "6.75B ~ 7.875B",
+      "0.25 $MOONINI / USDT",
+      "Stabilization period."
+    ],
+    [
+      "Phase 4",
+      "7.875B ~ 8.4375B",
+      "0.125 $MOONINI / USDT",
+      "Scarcity period."
+    ],
+    [
+      "Phase 5",
+      "8.4375B ~ 8.71875B",
+      "0.0625 $MOONINI / USDT",
+      "Late mining phase."
+    ],
+    [
+      "Phase 6",
+      "8.71875B ~ 9B",
+      "0.03125 $MOONINI / USDT",
+      "Crystallization period (final phase)."
+    ]
+  ],
+  "cap_note": [
+    "When the total circulation reaches 9 billion, moonini will stop issuing more.",
+    "The remaining 1 billion (10% of the total supply),",
+    "Reserved by the official for future community rewards and collaboration energy pool use."
+  ],
+  "belief_title": "🌕 The energy of the moon and the belief in red packets",
+  "belief_paragraphs": [
+    "moonini loves everyone willing to 'share'.",
+    "He believes that red packets are not just money, but an exchange of blessings and energy.",
+    "Every time you send a red packet, complete a task, or join the moonpacket community,",
+    "you will have the chance to receive a return from the moon — randomly dropped $moonini.",
+    "",
+    "That is the light the universe gives back to you after spreading joy."
+  ],
+  "future_title": "💫 Future applications",
+  "future_intro": "Currently, $moonini is not open for any official application scenarios, but it is designed as a reward and energy credential for the future red packet world, possibly to be used for:",
+  "future_list": [
+    "✅ Red packet transaction fee discounts",
+    "🎁 Merchant vouchers/redemption discounts",
+    "🌐 Event airdrops and community task rewards"
+  ],
+  "disclaimer_title": "⚠️ Declaration",
+  "disclaimer_paragraphs": [
+    "The official does not guarantee any fiat exchange value for $moonini.",
+    "You can think of it as a generous person's bonus points.",
+    "Symbolizing everyone willing to share happiness and spread energy."
+  ],
+  "closing": [
+    "moonini — the moon rabbit born from red packet energy.",
+    "Every blessing is a ray of light for his growth."
+  ]
+}

@@ -1,0 +1,52 @@
+# name: moonpacket core rules
+# scope: always
+# description: Safe rules for Cursor in this repo. Enforce "scan-first, edit-second", no unsolicited file creation, and Astro/i18n/SEO constraints.
+
+*PRIMARY OBJECTIVE
+- Work within the existing project. Prefer modifying existing files. Never create new files unless the prompt includes the explicit tag: [ALLOW_NEW_FILE].
+- Always print a short PLAN before editing, listing files and reasons. If more than 8 files would change, STOP and ask for approval.
+
+*SCAN-FIRST CHECKLIST (run before any edit)
+1) Locate target files that match the task (glob search). List exact paths.
+2) Show existing exports, public APIs, and i18n keys you will touch.
+3) Confirm "externals/site externals" for outbound links. Do not hardcode links inside pages.
+4) If a file already implements the feature, MODIFY it; do not create a duplicate.
+
+*EDIT RULES
+- Keep routing, data schemas, and animations unchanged unless task explicitly says otherwise.
+- Preserve formatting, comments, and license headers.
+- Respect module boundaries and import paths.
+
+*ASTRO RULES
+- Do NOT pass components/HTML fragments as props in .astro. Pass strings and render with `set:html` or handle in child component.
+- Avoid `.slice/.splice/idx< N` that truncates legal/privacy content. Remove `line-clamp-*/max-h-*/overflow-hidden/truncate` from legal content containers.
+- When brand-styling the word "moonpacket", do it at render time (e.g., helper + `set:html`) — do not inject HTML into i18n JSON.
+
+*I18N RULES
+- Never hardcode CJK/English text in .astro/.tsx; use i18n keys under `src/i18n/messages/<locale>/**`.
+- If a key is missing: add it ONLY in the current locale file and leave placeholders in other locales; print a TODO list. No auto-creation of 30+ files unless explicitly asked.
+- Numeric & date display MUST use `Intl.NumberFormat/DateTimeFormat` with locale = current `lang`.
+
+*LEGAL PAGES
+- Render ALL paragraphs from arrays; do not clamp, slice, or collapse sections.
+- Contact block must use centralized config: prefer `site.externals.telegram.supportBot`, fallback `config/externals.ts`.
+- Never add tracking or external links inline; read them from externals config.
+
+*LINKS/CONFIG
+- Centralize all outbound links (Telegram 群/頻道、support bot、X、YouTube、Docs) under `site.externals` or `config/externals.ts`. Pages only read from there.
+
+*FILE CREATION GUARD
+- Creating files is forbidden by default. Only proceed if the user prompt contains [ALLOW_NEW_FILE] and your PLAN lists:
+  - exact path, purpose, and imports
+  - how it integrates with existing code
+  - tests or usage example
+
+*TEST & SELF-CHECK
+- When changing rendering logic, add a dev log `console.info('[terms-check]', counts)` or a lightweight unit test if applicable.
+- Run a quick TypeScript check and lint if available; fix obvious errors you introduced.
+
+*COMMIT MESSAGE CONVENTION
+- Conventional Commits: feat/fix/docs/refactor/style/test/chore + scope. Eg: `fix(legal): render full ToS and unify contact link`.
+
+*WHEN YOU ARE UNSURE
+- STOP and print assumptions + minimal options. Do not proceed with destructive changes.

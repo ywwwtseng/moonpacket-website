@@ -1,0 +1,15 @@
+{
+  "hero": {
+    "headline": "moonpacket décolle vers la lune !",
+    "subheadline": "Telegram TON, meme, red packet USDT à saisir｜Le meilleur bot de red packet pour les projets meme et les admins de groupes Telegram pour attirer de nouveaux utilisateurs et renforcer l'engagement.",
+    "cta_primary": "Activer moonpacket",
+    "cta_secondary": "Comment intégrer"
+  },
+  "metrics": {
+    "title": "Tokens et statistiques",
+    "connected_groups": "Groupes connectés",
+    "total_packets_sent": "red packet envoyé",
+    "total_claimed": "Montant total collecté (USDT)",
+    "data_stale": "Les données peuvent être obsolètes"
+  }
+}

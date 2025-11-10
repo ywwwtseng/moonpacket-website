@@ -1,0 +1,37 @@
+{
+  "langs": ["zh-TW", "zh-CN", "en-US"],
+  "protectedGlobs": [
+    "src/**/*.astro",
+    "src/components/**",
+    "src/lib/waterfall/**",
+    "src/styles/**"
+  ],
+  "protectedPaths": [
+    "site.hero.*",
+    "site.waterfall.*",
+    "site.marquee.*",
+    "site.animations.*",
+    "site.confetti.*",
+    "layout.*",
+    "ui.*"
+  ],
+  "legalPaths": [
+    "legal.*"
+  ],
+  "stringOnlyWhitelist": [
+    "site.**",
+    "claim.**",
+    "send.**",
+    "privacy.**",
+    "terms.**",
+    "legal.**",
+    "metrics.**",
+    "roadmap.**",
+    "story.**"
+  ],
+  "faqPaths": [
+    "claim.faq.*",
+    "send.faq.*"
+  ]
+}
+

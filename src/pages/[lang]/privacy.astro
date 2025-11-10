@@ -1,0 +1,209 @@
+---
+/**
+ * 🔒 FROZEN COMPONENT - DO NOT MODIFY STRUCTURE OR TEXT CONTENT
+ * Owner: Yves
+ * Only allowed changes:
+ * 1) move hardcoded text into i18n messages (zh-TW first)
+ * 2) replace inline links with LINKS from src/config/links.ts
+ */
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import { computeCanonical } from '@/utils/head';
+import HeroTextAnimated from '@/components/HeroTextAnimated.astro';
+import RedPacketAnimation from '@/islands/RedPacketAnimation';
+import Section from '@/components/Section.astro';
+import Brandify from '@/components/Brandify.astro';
+import { brandify } from '@/lib/brandify';
+import { htmlWithLineBreaks } from '@/utils/text';
+import { ensureArray } from '@/utils/normalize';
+
+// Helper: 保留換行為 <br/> 並品牌化（避免 RTL 段落被截斷）
+const toHTML = (s?: string) => htmlWithLineBreaks(brandify(s ?? ""));
+// 物件/字串/陣列 皆轉為字串陣列，支援 CSV 導出的 {"0":"..."}
+function toLines(value: any): string[] {
+  try {
+    if (!value) return [];
+    if (Array.isArray(value)) return value.filter(Boolean).map(String);
+    if (typeof value === 'string') {
+      return value.replace(/\\n/g, '\n').split(/\r?\n/).map(s => s.trim()).filter(Boolean);
+    }
+    if (typeof value === 'object') {
+      return Object.keys(value).sort((a,b)=>Number(a)-Number(b)).map(k=>String(value[k])).filter(Boolean);
+    }
+    return [];
+  } catch { return []; }
+}
+import { getLocalesForBuild, defaultLocale } from '@/i18n/locales.config';
+import { LOCALE_ORDER } from '@/config/locales';
+import { CTA_LINKS } from '@/config/app';
+import { externals as links } from '@/config/links';
+
+export async function getStaticPaths() {
+  const locales = getLocalesForBuild();
+  return locales.map((l) => ({ params: { lang: l.code } }));
+}
+
+const { lang } = Astro.params as { lang: string };
+const messages = await import(`@/i18n/loadMessages`).then(m => m.loadAllMessages(lang as any)).catch(async () => {
+  const fallback = await import(`@/i18n/loadMessages`).then(m => m.loadAllMessages(defaultLocale));
+  return fallback;
+});
+
+// 僅保留字串項目，避免 [object Object]
+const asStrings = (v: any) => ensureArray(v).filter((it: any): it is string => typeof it === 'string');
+
+// 完整性檢查：計算預期段落數
+const privacySections = messages.legal?.privacy || {};
+const expectedParagraphs = Object.values(privacySections).reduce((total, section) => {
+  return total + (Array.isArray(section) ? section.length : 0);
+}, 0);
+console.info("[legal-check] privacy paragraphs:", {expected: expectedParagraphs, sections: Object.keys(privacySections).length});
+
+// 品牌化标题
+const privacyTitle = brandify(messages.legal?.privacyTitle || messages.footer?.privacy || 'moonpacket 隱私權條款（Privacy Policy）');
+const privacyPageTitle = messages.legal?.privacyTitle || messages.footer?.privacy || 'moonpacket 隱私權條款（Privacy Policy）';
+
+// SEO metadata from i18n
+const seoTitle = messages.site?.seo?.routes?.privacy?.title || privacyPageTitle;
+const seoDescription = messages.site?.seo?.routes?.privacy?.description || messages.site?.description || '';
+
+const canonical = computeCanonical(Astro.url, (Astro.site && Astro.site.toString()) || undefined);
+---
+<BaseLayout lang={lang} title={seoTitle} description={seoDescription} canonicalUrl={canonical} allLocales={LOCALE_ORDER}>
+  <main id="main-content">
+    <section id="hero" class="relative mx-auto max-w-6xl px-4 py-6 overflow-visible">
+      <div class="pointer-events-none absolute inset-0 z-[5]">
+        <astro-island>
+          <RedPacketAnimation client:visible />
+        </astro-island>
+      </div>
+      <div class="relative z-10 grid grid-cols-1 md:grid-cols-5 gap-6 items-center">
+        <div class="md:col-span-4">
+          <HeroTextAnimated
+            title={messages.site?.hero?.title || ''}
+            subtitle={messages.site?.hero?.subtitle || ''}
+            withBackground={false}
+            ctaPrimaryLabel={messages.site?.hero?.ctaPrimaryLabel || ''}
+            ctaPrimaryHref={CTA_LINKS.mainBot}
+            ctaSecondaryLabel={messages.site?.hero?.ctaSecondaryLabel || ''}
+            ctaSecondaryHref={`/${lang}/send/#about-send`}
+          />
+        </div>
+        <div class="hidden md:block md:col-span-1"></div>
+      </div>
+    </section>
+
+    <div id="about-privacy"></div>
+    <Section class="py-10">
+      <h2 class="text-xl font-semibold" set:html={privacyTitle}></h2>
+      <div class="grid grid-cols-1 gap-4">
+        <!-- Legal Disclaimer (non-en-US only: zh-TW and future languages) -->
+        {(lang !== 'en-US' && messages.legal?.privacy?.notice?.disclaimer_binding) && (
+          <div class="mb-4 max-w-screen-lg w-full rounded-lg border border-white/20 bg-white/5 px-4 py-3 text-[13px] leading-relaxed text-textSubtle flex flex-row flex-wrap items-start">
+            <span class="inline-flex items-center justify-center rounded-full bg-[#ff6a00] px-2 py-0.5 text-[10px] font-semibold leading-none text-black mr-2">Legal</span>
+            <p class="flex-1">{messages.legal.privacy.notice.disclaimer_binding}</p>
+          </div>
+        )}
+        <div class="rounded-xl bg-white shadow-sm ring-1 ring-black/5 p-5">
+          <div class="text-base text-textSubtle leading-relaxed space-y-5 legal-prose">
+            <p><strong>{messages.legal?.privacy?.version_label || '版本'}</strong>：{(messages.privacy && messages.privacy.version) || 'v1.1.0'}　<strong>{messages.legal?.privacy?.updated_label || '更新'}</strong>：{(messages.privacy && messages.privacy.updated) || '2025-10-05'}　<strong>{messages.legal?.privacy?.owner_label || 'Owner'}</strong>：<Brandify text={(messages.privacy && messages.privacy.owner) || 'moonpacket-core'} /></p>
+
+            <h3 class="text-base font-semibold">{messages.common?.privacy?.sections?.intro || messages.legal?.sections?.intro || '簡介'}</h3>
+            <ol class="list-decimal pl-5 space-y-1">
+              {toLines(messages.legal?.privacy?.intro).map(item => <li set:html={toHTML(item)} />)}
+            </ol>
+
+            <h3 class="text-base font-semibold">{messages.common?.privacy?.sections?.definitions || messages.legal?.sections?.definitions || '定義'}</h3>
+            <ul class="list-disc pl-5">
+              {toLines(messages.legal?.privacy?.definitions).map(item => <li set:html={toHTML(item)} />)}
+            </ul>
+
+            <h3 class="text-base font-semibold">{messages.common?.privacy?.sections?.scope || messages.legal?.sections?.scope || '適用範圍'}</h3>
+            <ol class="list-decimal pl-5 space-y-1">
+              {toLines(messages.legal?.privacy?.scope).map(item => <li set:html={toHTML(item)} />)}
+            </ol>
+
+            <h3 class="text-base font-semibold">{messages.common?.privacy?.sections?.data_collection || messages.legal?.sections?.data_collection || '我們收集的資料'}</h3>
+            <ol class="list-decimal pl-5 space-y-1">
+              {toLines(messages.legal?.privacy?.dataCollected).map(item => <li set:html={toHTML(item)} />)}
+            </ol>
+
+            <h3 class="text-base font-semibold">{messages.legal?.privacy?.data_sources || '資料來源'}</h3>
+            <ul class="list-disc pl-5">
+              {toLines(messages.legal?.privacy?.sources).map(item => <li set:html={toHTML(item)} />)}
+            </ul>
+
+            <h3 class="text-base font-semibold">{messages.common?.privacy?.sections?.data_usage || messages.legal?.sections?.data_usage || '使用目的'}</h3>
+            <ol class="list-decimal pl-5 space-y-1">
+              {toLines(messages.legal?.privacy?.purposes).map(item => <li set:html={toHTML(item)} />)}
+            </ol>
+
+            <h3 class="text-base font-semibold">{messages.common?.privacy?.sections?.legal_basis || messages.legal?.sections?.legal_basis || '法規依據'}</h3>
+            <ol class="list-decimal pl-5 space-y-1">
+              {toLines(messages.legal?.privacy?.legalBases).map(item => <li set:html={toHTML(item)} />)}
+            </ol>
+
+            <h3 class="text-base font-semibold">{messages.common?.privacy?.sections?.cookies || messages.legal?.sections?.cookies || 'Cookie 與本地儲存'}</h3>
+            <ol class="list-decimal pl-5 space-y-1">
+              {toLines(messages.legal?.privacy?.cookies).map(item => <li set:html={toHTML(item)} />)}
+            </ol>
+
+            <h3 class="text-base font-semibold">{messages.legal?.sections?.wallet || '雲端錢包與區塊鏈'}</h3>
+            <ol class="list-decimal pl-5 space-y-1">
+              {toLines(messages.legal?.privacy?.wallet).map(item => <li set:html={toHTML(item)} />)}
+            </ol>
+
+            <h3 class="text-base font-semibold">{messages.legal?.sections?.restrictions || '防刷與風控'}</h3>
+            <ol class="list-decimal pl-5 space-y-1">
+              {toLines(messages.legal?.privacy?.antiFraud).map(item => <li set:html={toHTML(item)} />)}
+            </ol>
+
+            <h3 class="text-base font-semibold">{messages.common?.privacy?.sections?.data_sharing || messages.legal?.sections?.data_sharing || '資料分享對象'}</h3>
+            <ol class="list-decimal pl-5 space-y-1">
+              {toLines(messages.legal?.privacy?.sharing).map(item => <li set:html={toHTML(item)} />)}
+            </ol>
+
+            <h3 class="text-base font-semibold">{messages.common?.privacy?.sections?.cross_border || messages.legal?.sections?.cross_border || '跨境傳輸'}</h3>
+            <ol class="list-decimal pl-5 space-y-1">
+              {toLines(messages.legal?.privacy?.crossBorder).map(item => <li set:html={toHTML(item)} />)}
+            </ol>
+
+            <h3 class="text-base font-semibold">{messages.common?.privacy?.sections?.retention || messages.legal?.sections?.retention || '保存期間'}</h3>
+            <ol class="list-decimal pl-5 space-y-1">
+              {toLines(messages.legal?.privacy?.retention).map(item => <li set:html={toHTML(item)} />)}
+            </ol>
+
+            <h3 class="text-base font-semibold">{messages.common?.privacy?.sections?.security || messages.legal?.sections?.security || '安全性'}</h3>
+            <ol class="list-decimal pl-5 space-y-1">
+              {toLines(messages.legal?.privacy?.security).map(item => <li set:html={toHTML(item)} />)}
+            </ol>
+
+            <h3 class="text-base font-semibold">{messages.common?.privacy?.sections?.minors || messages.legal?.sections?.minors || '未成年人'}</h3>
+            <ol class="list-decimal pl-5 space-y-1">
+              {toLines(messages.legal?.privacy?.minors).map(item => <li set:html={toHTML(item)} />)}
+            </ol>
+
+            <h3 class="text-base font-semibold">{messages.common?.privacy?.sections?.rights || messages.legal?.sections?.rights || '您的權利與行使'}</h3>
+            <ol class="list-decimal pl-5 space-y-1">
+              {toLines(messages.legal?.privacy?.rights).map(item => <li set:html={toHTML(item)} />)}
+            </ol>
+
+            <h3 class="text-base font-semibold">{messages.common?.privacy?.sections?.faq || messages.legal?.sections?.faq || '常見問答（隱私與安全）'}</h3>
+            <ol class="list-decimal pl-5 space-y-1">
+              {toLines(messages.legal?.privacy?.faq).map(item => <li set:html={toHTML(item)} />)}
+            </ol>
+
+            <h3 class="text-base font-semibold">{messages.common?.privacy?.sections?.updates || messages.legal?.sections?.updates || '條款更新'}</h3>
+            <ol class="list-decimal pl-5 space-y-1">
+              {toLines(messages.legal?.privacy?.updates).map(item => <li set:html={toHTML(item)} />)}
+            </ol>
+
+            <h3 class="text-base font-semibold">{messages.common?.privacy?.sections?.contact || messages.legal?.sections?.contact_info || '聯絡方式'}</h3>
+            <ol class="list-decimal pl-5 space-y-1">
+              <li><a class="link" href={links.telegram?.supportBot} target="_blank" rel="noopener">{messages.legal?.contact?.support || '客服機器人'}</a></li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </Section>
+  </main>
+</BaseLayout>

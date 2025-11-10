@@ -1,0 +1,17 @@
+{
+  "title": "moonpacketデータ概要",
+  "subtitle": "リアルタイム統計とリーダーボード",
+  "latest": "最新",
+  "top_groups": "人気グループ",
+  "total_sent": "送金合計額",
+  "total_claimed": "請求総額 (USDT)",
+  "participants": "参加者",
+  "avg_packet": "パケットあたりの平均金額",
+  "sort": {
+    "label": "並べ替え",
+    "latest": "最新",
+    "oldest": "最古",
+    "most": "参加者が最も多い",
+    "least": "参加者が最も少ない"
+  }
+}

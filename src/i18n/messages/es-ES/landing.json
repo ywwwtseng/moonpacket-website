@@ -1,0 +1,15 @@
+{
+  "hero": {
+    "headline": "¡moonpacket está despegando hacia la luna!",
+    "subheadline": "Telegram TON, meme, USDT Sobre rojo grab｜El mejor bot de Sobre rojo para proyectos meme y administradores de grupos de Telegram para atraer nuevos usuarios y mejorar la participación.",
+    "cta_primary": "Activar moonpacket",
+    "cta_secondary": "Cómo Integrar"
+  },
+  "metrics": {
+    "title": "Tokens y Estadísticas",
+    "connected_groups": "Grupos Conectados",
+    "total_packets_sent": "Sobre rojo enviado",
+    "total_claimed": "Cantidad Total Recogida (USDT)",
+    "data_stale": "Los datos pueden estar desactualizados"
+  }
+}

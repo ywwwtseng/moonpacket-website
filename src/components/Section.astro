@@ -1,0 +1,12 @@
+---
+const { title, subtitle, class: className } = Astro.props as { title?: string; subtitle?: string; class?: string };
+---
+<section class={`mx-auto max-w-6xl px-4 py-12 ${className || ''}`}>
+  {title && <h2 class="text-xl font-semibold">{title}</h2>}
+  {subtitle && <p class="text-textSubtle mt-1">{subtitle}</p>}
+  <div class="mt-6">
+    <slot />
+  </div>
+</section>
+
+

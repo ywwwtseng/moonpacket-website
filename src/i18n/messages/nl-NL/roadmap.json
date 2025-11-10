@@ -1,0 +1,48 @@
+{
+  "title": "Product road-map",
+  "updated": "Update (tokens beginnen distributie na het voltooien van de voortgangsbalk)",
+  "bucket": {
+    "progress": "Vooruitgang"
+  },
+  "status": {
+    "shipping": "In ontwikkeling",
+    "planned": "Gepland",
+    "research": "In onderzoek",
+    "live": "Gelanceerd"
+  },
+  "accept": "Acceptatiecriteria",
+  "lanes": {
+    "build": "Producten ontwikkelen",
+    "trust": "Vertrouwen, Naleving en Beveiliging",
+    "growth": "Groei",
+    "token": "Risicobeheersing en Compliance"
+  },
+  "progressLabel": "Vooruitgang",
+  "phase": {
+    "open-beta": {
+      "title": "Open Beta lancering (interne gemeenschap red packet)",
+      "desc": "Pilot binnen de gemeenschap, voorwaardelijke openstelling van gemeenschapsintegratie; Test basisdistributie/claimen en gebruikerservaring",
+      "accept": "Duidelijke regels, soepel claimen, belangrijke funnels zijn bruikbaar"
+    },
+    "multi-chain": {
+      "title": "Continue optimalisatie: Multi-chain + Puntenmechanisme + Anti-bot",
+      "desc": "Uitbreiding naar ondersteuning van meerdere chains buiten Solana; Puntenberekening en visualisatie; Anti-bot strategie en A/B testen",
+      "accept": "Multi-chain activ identificatie is correct; Punten en risicobeheersing functioneren normaal"
+    },
+    "compliance": {
+      "title": "Risicobeheersing en Naleving",
+      "desc": "KYC/AML, Auditing en Beveiling Mechanismen; Anomalie Controle Proces.",
+      "accept": "Schakel KYC in wanneer nodig; AML-regelgeving is controleerbaar; Robuuste beveiligingslogs"
+    },
+    "growth-integration": {
+      "title": "Groei: Gemeenschapsintegratie + API/Webhook + Ecosysteem samenwerking",
+      "desc": "Integratiegids, Event Webhook, Query API; Partnerintegratieproces",
+      "accept": "Integratiegids goedgekeurd; Webhook/Query API is stabiel"
+    },
+    "token-moonini": {
+      "title": "Punten in te wisselen voor tokens: moonini",
+      "desc": "Voltooiing van moonini token distributie en uitwisselingsmechanisme",
+      "accept": "Regels voor het omzetten van punten in tokens geïmplementeerd; Risicobeheer/naleving controles doorstaan"
+    }
+  }
+}

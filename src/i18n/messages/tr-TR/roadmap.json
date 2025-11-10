@@ -1,0 +1,48 @@
+{
+  "title": "Ürün yol haritası",
+  "updated": "Güncelleme (tokenler ilerleme çubuğu tamamlandıktan sonra dağıtıma başlar)",
+  "bucket": {
+    "progress": "İlerleme"
+  },
+  "status": {
+    "shipping": "Geliştirmekte",
+    "planned": "Planlandı",
+    "research": "Araştırmada",
+    "live": "Başlatıldı"
+  },
+  "accept": "Kabul Kriterleri",
+  "lanes": {
+    "build": "Geliştirilen Ürünler",
+    "trust": "Güven, Uyum ve Güvenlik",
+    "growth": "Büyüme",
+    "token": "moonini token"
+  },
+  "progressLabel": "İlerleme",
+  "phase": {
+    "open-beta": {
+      "title": "Açık Beta lansmanı (iç topluluk red paketi)",
+      "desc": "Topluluk içinde pilot uygulama, koşullu topluluk entegrasyonu aç; Temel dağıtım/talep ve kullanıcı deneyimini test et",
+      "accept": "Açık kurallar, sorunsuz talep, ana huniler kullanılabilir"
+    },
+    "multi-chain": {
+      "title": "Sürekli optimizasyon: Çok zincirli + Puan mekanizması + Bot karşıtı",
+      "desc": "Solana'nın ötesinde çok zincirli destek genişlemesi; Puan hesaplama ve görselleştirme; Bot karşıtı strateji ve A/B testi",
+      "accept": "Çok zincirli varlık tanımlaması doğru; Puanlar ve risk kontrolü normal çalışıyor"
+    },
+    "compliance": {
+      "title": "Risk Kontrolü ve Uyum",
+      "desc": "KYC/AML, Denetim ve Güvenlik Mekanizmaları; Anormal İnceleme Süreci.",
+      "accept": "Gerekirse KYC'yi etkinleştir; AML kuralları denetlenebilir; güçlü güvenlik kayıtları"
+    },
+    "growth-integration": {
+      "title": "Büyüme: Topluluk entegrasyonu + API/Webhook + Ekosistem iş birliği",
+      "desc": "Entegrasyon kılavuzu, Olay Webhook'u, Sorgu API'si; Ortak entegrasyon süreci",
+      "accept": "Entegrasyon kılavuzu onaylandı; Webhook/Sorgu API'si stabil"
+    },
+    "token-moonini": {
+      "title": "Token için alınabilir puanlar: moonini",
+      "desc": "moonini token dağıtımı ve değişim mekanizmasının tamamlanması",
+      "accept": "Puanların token'lara dönüştürülmesi kuralları uygulandı; Risk kontrolü/uyum kontrolleri geçti"
+    }
+  }
+}

@@ -1,0 +1,49 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+# Max file size (bytes). 50MB default; adjust via MAX_SIZE env
+MAX_SIZE=${MAX_SIZE:-52428800}
+
+# Forbidden tracked paths (globs)
+BLOCK_PATTERNS=(
+  'dist/**' 'build/**' '.next/**' '.turbo/**' 'node_modules/**'
+  '*.zip' '*.tar' '*.gz' '*.7z' '*.mp4' '*.mov' '*.avi' '*.mkv'
+)
+
+# Files staged for commit
+STAGED=$(git diff --cached --name-only --diff-filter=AM || true)
+[ -z "$STAGED" ] && exit 0
+
+fail=false
+
+# 1) Size gate
+while IFS= read -r f; do
+  [ -z "$f" ] && continue
+  if [ -f "$f" ]; then
+    sz=$(wc -c < "$f" | tr -d ' ')
+    if [ "$sz" -ge "$MAX_SIZE" ]; then
+      echo "[pre-commit] Blocked large file (>= $MAX_SIZE bytes): $f ($sz bytes)" >&2
+      fail=true
+    fi
+  fi
+done <<< "$STAGED"
+
+# 2) Pattern gate
+for pat in "${BLOCK_PATTERNS[@]}"; do
+  if git check-ignore -q "$pat" 2>/dev/null; then :; fi
+  for f in $STAGED; do
+    case "$f" in
+      $pat)
+        echo "[pre-commit] Blocked disallowed path by pattern '$pat': $f" >&2
+        fail=true
+        ;;
+    esac
+  done
+done
+
+if [ "$fail" = true ]; then
+  echo "\nTip: add to .gitignore or use git lfs for large binaries." >&2
+  exit 1
+fi
+
+exit 0

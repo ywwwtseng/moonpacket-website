@@ -1,0 +1,152 @@
+{
+  "title": "moonpacket — easy, safe, and fast crypto red packets",
+  "description": "moonpacket encrypted red packet robot | Supports USDT, TON, SOL, ETH. Easily send red packets, receive instantly, securely non-custodial, perfect for Telegram community growth and increasing engagement.",
+  "nav": {
+    "claim": "Claim Red Packet",
+    "send": "Send Red Packet",
+    "about": "About",
+    "api": "API Documentation",
+    "blog": "Blog",
+    "careers": "Careers",
+    "contact": "Contact Us",
+    "faq": "Frequently Asked Questions",
+    "home": "Home",
+    "pricing": "Pricing",
+    "team": "Team"
+  },
+  "hero": {
+    "headline_line1": "moonpacket",
+    "headline_line2": "Get started, aim for the moon.",
+    "tagline": "Telegram TON, meme, and USDT red packets for community marketing and retention. A group red packet bot designed for administrators to increase engagement, attract new members, and encourage interaction.",
+    "cta_primary": "Activate moonpacket Now",
+    "cta_secondary": "How to Integrate with Groups",
+    "ctaPrimaryHref": "https://t.me/MoonPackageDevBot",
+    "ctaPrimaryLabel": "Launch moonpacket",
+    "ctaSecondaryHref": "/zh-TW/integration",
+    "ctaSecondaryLabel": "How to Connect",
+    "desc": "The best red packet bot for meme token projects and Telegram group owners to acquire new users and increase engagement.",
+    "lead": "Telegram TON, meme, USDT red packets | The best red packet bot for meme token projects and Telegram group owners to acquire new users and increase engagement.",
+    "subtitle": "Enhance your community experience with simple, global services.",
+    "title": "Cryptocurrency red packets, available for everyone"
+  },
+  "features": {
+    "title": "Core features",
+    "items": "__TODO_TRANSLATE_zh-CN__",
+    "f1": "Quick registration",
+    "f2": "Global localization",
+    "f3": "Non-custodial security"
+  },
+  "sections": {
+    "waterfall_title": "red packet waterfall",
+    "features_heading": "Feature Highlights",
+    "features_subtitle": "You Can Get",
+    "pricing_heading": "Plans and Pricing",
+    "testimonials_heading": "User Reviews",
+    "tokens_heading": "Tokens and Statistics"
+  },
+  "footer": {
+    "copyright": "Copyright.",
+    "privacy": "Privacy policy",
+    "terms": "Terms of Service",
+    "social": {
+      "telegram_group": "Telegram group",
+      "telegram_channel": "Telegram channel",
+      "x": "X",
+      "youtube": "YouTube"
+    },
+    "rights": ""
+  },
+  "a11y": {
+    "skip_to_main": "Skip to main content",
+    "language_menu": "Open language menu",
+    "language": "Language"
+  },
+  "metrics": {
+    "title": "Tokens and Statistics",
+    "groups": "Connected Groups",
+    "sent": "Red Packets Sent",
+    "claimed": "Total Amount Claimed",
+    "groupsLinkLabel": "Connected Red Packet Groups",
+    "heading": "Real-time Indicators",
+    "price_btc": "BTC Price",
+    "sort": {
+      "latest": "Latest",
+      "least": "Minimum Participants",
+      "most": "Maximum Participants",
+      "oldest": "Oldest"
+    },
+    "total_claimed_amount": "Total Amount Received (USDT)",
+    "total_sent": "Total Amount Sent"
+  },
+  "errors": {
+    "stale": "Data may be outdated",
+    "not_found": "Page not found",
+    "not_found_desc": "Sorry, we couldn't find this page, or it has been removed."
+  },
+  "story": {
+    "title": "🌕 The story of moonini",
+    "secrets_title": "🌸 His secret",
+    "schedule_title": "Token release rules",
+    "belief_title": "🌕 The energy of the moon and the belief in red packets",
+    "future_title": "💫 Future applications",
+    "disclaimer_title": "⚠️ Disclaimer"
+  },
+  "waterfall": {
+    "sent_from": "Sending group:",
+    "claimed": "Claim",
+    "total": "Total amount",
+    "progress": "Claimed"
+  },
+  "pricing": {
+    "starter": "Basic Plan",
+    "pro": "Professional Services",
+    "enterprise": "Enterprise Plan",
+    "price_free": "Free",
+    "price_19": "$19",
+    "price_contact": "Contact Us",
+    "sla_support": "SLA and Support",
+    "bullets": {
+      "starter": {
+        "0": "Basic Features",
+        "1": "Community Support"
+      },
+      "pro": {
+        "0": "Includes Basic Plan",
+        "1": "Advanced Localization"
+      },
+      "enterprise": {
+        "0": "SLA and Support",
+        "1": "Custom Integration"
+      }
+    }
+  },
+  "seo": {
+    "site": {
+      "title": "moonpacket — easy, safe, and fast crypto red packets",
+      "description": "moonpacket encrypted red packet robot | Supports USDT, TON, SOL, ETH. Easily send red packets, receive instantly, securely non-custodial, perfect for Telegram community growth and increasing engagement.",
+      "site_name": "moonpacket"
+    },
+    "routes": {
+      "claim": {
+        "title": "Claim Red Packet — moonpacket",
+        "description": "moonpacket red packet claiming feature supporting multiple tokens. View latest groups and red packet information."
+      },
+      "send": {
+        "title": "Send Red Packet — moonpacket",
+        "description": "Send red packets with moonpacket. Set task conditions, API integration, easily attract new users and boost community engagement."
+      },
+      "privacy": {
+        "title": "Privacy Policy — moonpacket",
+        "description": "moonpacket privacy policy explaining how we collect, use and protect your personal data."
+      },
+      "terms": {
+        "title": "Terms of Service — moonpacket",
+        "description": "moonpacket terms of service, usage guidelines and legal notices."
+      }
+    },
+    "og": {
+      "image": "/images/og-default.png",
+      "type": "website"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "title": "moonpacket Podsumowanie Danych",
+  "subtitle": "Statystyki w Czasie Rzeczywistym i Tablica Wyników",
+  "latest": "Najnowsze",
+  "top_groups": "Popularne Grupy",
+  "total_sent": "Łączna Kwota Wysłana",
+  "total_claimed": "Łączna Kwota Odebrana (USDT)",
+  "participants": "Liczba Uczestników",
+  "avg_packet": "Średnia Kwota na Pakiet",
+  "sort": {
+    "label": "Sortuj Według",
+    "latest": "Najnowsze",
+    "oldest": "Najstarsze",
+    "most": "Maksymalna Liczba Uczestników",
+    "least": "Minimalna Liczba Uczestników"
+  }
+}

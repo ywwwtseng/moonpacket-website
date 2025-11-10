@@ -1,0 +1,252 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import { computeCanonical } from '@/utils/head';
+import Section from '@/components/Section.astro';
+import { getLocalesForBuild, defaultLocale } from '@/i18n/locales.config';
+import { LOCALE_ORDER } from '@/config/locales';
+import { CTA_LINKS } from '@/config/app';
+import { buildFaqVM } from '@/utils/faq-vm';
+import { brandify } from '@/lib/brandify';
+import { bodyWithoutRepeatedHeading, htmlWithLineBreaks, normalizeTitleLike } from '@/utils/text';
+import { dropLeadingDupFromBodyHtml } from '@/utils/dup';
+import { generateFaqJsonLd } from '@/utils/faq-jsonld';
+import { linesArray } from '@/utils/normalize';
+import { isRTL } from '@/i18n/rtl';
+
+export async function getStaticPaths() {
+  const locales = getLocalesForBuild();
+  return locales.map((l) => ({ params: { lang: l.code } }));
+}
+
+const { lang } = Astro.params as { lang: string };
+const messages = await import(`@/i18n/loadMessages`).then(m => m.loadAllMessages(lang as any)).catch(async () => {
+  const fallback = await import(`@/i18n/loadMessages`).then(m => m.loadAllMessages(defaultLocale));
+  return fallback;
+});
+const canonical = computeCanonical(Astro.url, (Astro.site && Astro.site.toString()) || undefined);
+
+const sendMessages = messages.send || {};
+
+// RTL detection
+const rtl = isRTL(lang);
+
+// Normalize use cases items to array (supports array|string|object{0..n})
+const useCaseItems = toLines(sendMessages?.hero?.use_cases_items);
+
+// SEO metadata from i18n
+const seoTitle = messages.site?.seo?.routes?.send?.title || sendMessages?.title || '';
+const seoDescription = messages.site?.seo?.routes?.send?.description || messages.site?.description || '';
+
+// Build FAQ view-model: supports both flat (qN/aN) and structured (sections) formats
+const faqVM = buildFaqVM(sendMessages?.faq || {});
+// Fallback to old structure if sections not available
+const useStructured = faqVM.sections.length > 0 && faqVM.sections[0].items.length > 0;
+
+// Generate FAQ JSON-LD structured data
+const allFaqItems = faqVM.sections.flatMap(sec => sec.items);
+const faqJsonLd = allFaqItems.length > 0 ? generateFaqJsonLd(allFaqItems) : '';
+
+// Helper for brandifying content (consistent with privacy/terms pages)
+const html = (s?: string) => brandify(s ?? "");
+
+// 兼容 object/string/array：將 FAQ 內容標準化為字串陣列
+function toLines(value: any): string[] {
+  try {
+    if (!value) return [];
+    if (Array.isArray(value)) return value.filter(Boolean).map(String);
+    if (typeof value === 'string') return value.replace(/\\n/g,'\n').split(/\r?\n/).map(s=>s.trim()).filter(Boolean);
+    if (typeof value === 'object') return Object.keys(value).sort((a,b)=>Number(a)-Number(b)).map(k=>String(value[k])).filter(Boolean);
+    return [];
+  } catch { return []; }
+}
+
+// FAQ 段落處理：保留換行、去除重複標題、應用品牌化
+function renderFaqParagraph(raw: string, title?: string): string {
+  if (!raw) return '';
+
+  // 1. 去除首行重複標題（若存在）
+  let cleaned = raw;
+  if (title) {
+    const t = normalizeTitleLike(title);
+    const lines = raw.split(/\r?\n/);
+    if (lines.length > 0) {
+      const firstLine = lines[0];
+      const f = normalizeTitleLike(firstLine);
+      if (t && f && t === f) {
+        // 刪除第一行
+        cleaned = lines.slice(1).join('\n');
+      }
+    }
+  }
+
+  // 2. 先保留品牌字上色
+  const marked = brandify(cleaned);
+
+  // 3. 使用 dropLeadingDupFromBodyHtml 再次去重（處理已 brandify 的內容）
+  const deduped = title ? dropLeadingDupFromBodyHtml(marked, title) : marked;
+
+  // 4. 如果內容已經包含 <br> 或 <br/>，說明是處理過的 HTML，直接返回
+  if (deduped.includes('<br')) {
+    return deduped;
+  }
+
+  // 5. 否則應用 htmlWithLineBreaks 將換行符轉為 <br/>
+  return htmlWithLineBreaks(deduped);
+}
+
+// TODO(api):
+// We use static content below just to render the layout before backend wiring.
+// Do NOT delete the structure. Do NOT simplify text.
+// IMPORTANT:
+// - Never mix languages. zh-TW page must render only zh-TW strings,
+//   en-US page must render only en-US strings.
+// - No fallback like "|| 'English default'". If missing, use ''.
+---
+<!-- LOCKED: 版式沿用「領紅包」頁，FAQ 卡片單列 -->
+<BaseLayout lang={lang} title={seoTitle} description={seoDescription} canonicalUrl={canonical} faqJsonLd={faqJsonLd} allLocales={LOCALE_ORDER}>
+  <main id="main-content">
+    <section id="hero" class="mx-auto max-w-6xl px-4 py-6">
+      <h1 class="sr-only">{sendMessages?.title || ''}</h1>
+      <div class={`flex flex-col md:flex-row ${rtl ? 'md:flex-row-reverse' : ''} gap-6 items-stretch`}>
+        <div class="basis-full md:basis-3/5">
+          <div class={`rounded-2xl ring-1 ring-black/5 bg-[#0C1E3A] text-[#D1FAE5] p-4 md:p-6 flex flex-col md:min-h-[320px] ${rtl ? 'text-right' : ''}`}>
+            <pre id="api-demo-box" class={`font-mono font-semibold text-[13px] md:text-[16px] leading-6 whitespace-pre-wrap break-words flex-1 overflow-auto ${rtl ? 'text-right' : ''}`}></pre>
+            <script define:vars={{ apiDemoTitle: sendMessages?.hero?.api_demo_title || '', apiDemoCode: sendMessages?.hero?.api_demo_code || '' }}>
+              (function () {
+                // 逐字显示的文本，多行，照这个格式保留换行缩排
+                const apiTitle = typeof apiDemoTitle !== 'undefined' && apiDemoTitle ? apiDemoTitle : '';
+                const apiCodeRaw = typeof apiDemoCode !== 'undefined' && apiDemoCode ? apiDemoCode : '';
+                // JSON 字符串中的 \n 在 JavaScript 中已经是换行符，但如果在 JSON 中存储为 "\\n" 字符串则需替换
+                const apiCode = apiCodeRaw.replace(/\\n/g, '\n').replace(/\\"/g, '"');
+                var fullText = [
+                  apiTitle,
+                  apiCode
+                ].filter(Boolean).join('\n');
+
+                var box = document.getElementById('api-demo-box');
+                if (!box) return;
+
+                var i = 0;
+                function tick() {
+                  if (i <= fullText.length) {
+                    box.textContent = fullText.slice(0, i);
+                    i++;
+                    window.requestAnimationFrame(function () {
+                      setTimeout(tick, 30); // 打字速度
+                    });
+                  }
+                }
+                tick();
+              })();
+            </script>
+          </div>
+        </div>
+        <div class="basis-full md:basis-2/5">
+          <div class={`rounded-2xl ring-1 ring-black/5 bg-white p-5 md:p-6 md:min-h-[320px] flex flex-col ${rtl ? 'text-right' : ''}`}>
+            <h2 class="text-2xl md:text-3xl font-semibold tracking-tight mb-4">{sendMessages?.hero?.use_cases_title || ''}</h2>
+            <ul class="text-base md:text-lg space-y-2 break-words">
+              {useCaseItems.map((line) => (
+                <li>{line}</li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div id="about-send"></div>
+    <Section title={sendMessages?.faq?.section_title || ''} class="py-10">
+      <div class="grid grid-cols-1 gap-4">
+        {useStructured ? (
+          // New structured format with sections
+          faqVM.sections.map((sec, secIdx) => (
+            <section class="faq-section">
+              {sec.title && <h2 class="text-xl font-semibold mb-4" set:html={brandify(sec.title)}></h2>}
+              {sec.items.map((it, itemIdx) => {
+                // Q1 special layout with image
+                const isFirst = secIdx === 0 && itemIdx === 0;
+                return (
+                  <div class="rounded-xl bg-white shadow-sm ring-1 ring-black/5 p-5">
+                    <h3 class="text-base font-semibold mb-2" set:html={brandify(it.title)}></h3>
+                    {isFirst ? (
+                      <div class={`flex flex-col ${rtl ? 'md:flex-row-reverse' : 'md:flex-row'} gap-4 items-start`}>
+                        <div class={`basis-full md:basis-3/5 space-y-3 text-base leading-6 ${rtl ? 'md:order-2' : 'md:order-1'}`}>
+                          {toLines(it.body).map((line) => (
+                            <p set:html={renderFaqParagraph(line, it.title)}></p>
+                          ))}
+                        </div>
+                        <div class={`relative basis-full md:basis-2/5 ${rtl ? 'md:order-1' : 'md:order-2'}`}>
+                          <div class={`hidden md:block pointer-events-none absolute bottom-0 ${rtl ? 'left-[8px] lg:left-[16px] justify-start' : 'right-[8px] lg:right-[16px] justify-end'} flex items-end overflow-visible`}>
+                            <img src={`${import.meta.env.BASE_URL}images/figure/Heart%20Hands.png`} alt="" role="presentation" draggable="false" class={`select-none block h-[220px] sm:h-[260px] md:h-[300px] lg:h-[340px] object-contain drop-shadow-xl scale-[1.5] translate-y-[8px] ${rtl ? 'origin-bottom-left' : 'origin-bottom-right'}`} />
+                          </div>
+                          <div class="md:h-[260px] lg:h-[300px]"></div>
+                        </div>
+                      </div>
+                    ) : (
+                      <div class={`space-y-3 text-base leading-6 ${itemIdx >= 5 ? 'whitespace-pre-line' : ''}`}>
+                        {toLines(it.body).map((line) => (
+                          <p set:html={renderFaqParagraph(line, it.title)}></p>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+                );
+              })}
+            </section>
+          ))
+        ) : (
+          // Fallback to old flat format
+          <>
+            <!-- Q1: 含兔兔插圖 -->
+            <div class="rounded-xl bg-white shadow-sm ring-1 ring-black/5 p-5">
+              <h3 class="text-base font-semibold mb-2" set:html={brandify(sendMessages?.faq?.q1_title || '')}></h3>
+              <div class={`flex flex-col ${rtl ? 'md:flex-row-reverse' : 'md:flex-row'} gap-4 items-start`}>
+                <div class={`basis-full md:basis-3/5 space-y-3 text-base leading-6 ${rtl ? 'md:order-2' : 'md:order-1'}`}>
+                  {toLines(sendMessages?.faq?.q1_body).map((para) => (
+                    <p set:html={renderFaqParagraph(para, sendMessages?.faq?.q1_title || '')}></p>
+                  ))}
+                </div>
+                <div class={`relative basis-full md:basis-2/5 ${rtl ? 'md:order-1' : 'md:order-2'}`}>
+                  <div class={`hidden md:block pointer-events-none absolute bottom-0 ${rtl ? 'left-[8px] lg:left-[16px] justify-start' : 'right-[8px] lg:right-[16px] justify-end'} flex items-end overflow-visible`}>
+                    <img src={`${import.meta.env.BASE_URL}images/figure/Heart%20Hands.png`} alt="" role="presentation" draggable="false" class={`select-none block h-[220px] sm:h-[260px] md:h-[300px] lg:h-[340px] object-contain drop-shadow-xl scale-[1.5] translate-y-[8px] ${rtl ? 'origin-bottom-left' : 'origin-bottom-right'}`} />
+                  </div>
+                  <div class="md:h-[260px] lg:h-[300px]"></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Q2-Q7 -->
+            {['q2','q3','q4','q5','q6','q7'].map((key) => (
+              <div class="rounded-xl bg-white shadow-sm ring-1 ring-black/5 p-5">
+                <h3 class="text-base font-semibold mb-2" set:html={brandify(sendMessages?.faq?.[`${key}_title`] || '')}></h3>
+                <div class={`space-y-3 text-base leading-6 ${key >= 'q6' ? 'whitespace-pre-line' : ''}`}> 
+                  {toLines(sendMessages?.faq?.[`${key}_body`]).map((para) => (
+                    <p set:html={renderFaqParagraph(para, sendMessages?.faq?.[`${key}_title`] || '')}></p>
+                  ))}
+                </div>
+              </div>
+            ))}
+          </>
+        )}
+      </div>
+    </Section>
+
+    <div class="mx-auto max-w-6xl px-4 pb-6 pt-4 text-center">
+      <a 
+        href={CTA_LINKS.mainBot} 
+        class="btn btn-primary"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        {sendMessages?.cta_button_prefix || ''}
+        <span class="brand-mark">moonpacket</span>
+        {sendMessages?.cta_button_suffix || ''}
+      </a>
+      {sendMessages?.footer_tip && (
+        <p class="mt-4 text-sm text-textSubtle" set:html={brandify(sendMessages.footer_tip)}></p>
+      )}
+    </div>
+  </main>
+</BaseLayout>
+
+

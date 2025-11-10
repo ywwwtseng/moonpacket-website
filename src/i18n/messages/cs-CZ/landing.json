@@ -1,0 +1,15 @@
+{
+  "hero": {
+    "headline": "moonpacket vzlétá k měsíci!",
+    "subheadline": "Telegram TON, meme, USDT red packet grab｜Nejlepší red packet bot pro meme projekty a administrátory Telegram skupin pro přitahování nových uživatelů a zvyšování angažovanosti.",
+    "cta_primary": "Aktivovat moonpacket",
+    "cta_secondary": "Jak integrovat"
+  },
+  "metrics": {
+    "title": "Tokeny a statistiky",
+    "connected_groups": "Připojené skupiny",
+    "total_packets_sent": "Odeslaná červená obálka",
+    "total_claimed": "Celková částka vybraná (USDT)",
+    "data_stale": "Data mohou být zastaralá"
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "privacyTitle": "Gizlilik Politikası",
+  "termsTitle": "Kullanıcı Sözleşmesi",
+  "version": "Sürüm",
+  "updated": "Güncelle",
+  "owner": "Sahip",
+  "sections": {
+    "scope": "Kapsam ve Sözleşme Oluşumu",
+    "definitions": "Yüksek Riskli ve Yasaklı Kullanımlar",
+    "eligibility": "Fikri Mülkiyet Hakları",
+    "services": "Hizmet İçeriği ve İşletim Modeli",
+    "wallet": "Bulut Cüzdan, Hediye Taahhüdü ve Fon Kilitleme",
+    "fees": "Ücretler ve Masraflar",
+    "rules": "Aktivite Kuralları ve Adalet",
+    "restrictions": "Bot Karşıtı, Suistimal Kontrolü ve Hesap Kısıtlamaları",
+    "ip": "Fikri Mülkiyet Hakları",
+    "third_party": "Üçüncü Taraf Hizmetler ve Dışa Bağımlılık",
+    "data": "Uygunluk ve Hesap",
+    "risks": "Risk Açıklaması",
+    "disclaimer": "Tazminat",
+    "liability": "Sorumluluk Limiti",
+    "indemnity": "Tazminat",
+    "termination": "Askıya Alma, Dondurma, Fesih ve Veri Saklama",
+    "force_majeure": "Mücbir Sebep",
+    "high_risk": "Yüksek Riskli ve Yasaklı Kullanımlar",
+    "tax": "Vergilendirme ve Raporlama",
+    "accuracy": "İçerik ve verilerin doğruluğu",
+    "governing_law": "Geçerli Hukuk ve Uyuşmazlık Çözümü",
+    "contact": "İletişim Yöntemi",
+    "changes": "Terms Changes",
+    "intro": "",
+    "data_collection": "Ücretler ve Masraflar",
+    "data_usage": "Geçerli Hukuk ve Uyuşmazlık Çözümü",
+    "legal_basis": "",
+    "cookies": "Tanımlar",
+    "data_sharing": "Mücbir Sebep",
+    "cross_border": "Feragatname",
+    "retention": "",
+    "security": "",
+    "minors": "",
+    "rights": "",
+    "faq": "",
+    "updates": "",
+    "contact_info": "Veri, Gizlilik ve Uyum İşbirliği"
+  },
+  "contact": {
+    "title": "İletişim yöntemi",
+    "privacy": "Gizlilik posta kutusu",
+    "security": "Güvenlik raporu",
+    "support": "Müşteri hizmetleri robotu"
+  },
+  "privacy": {
+    "version": "v1.0.0",
+    "updated": "oto",
+    "owner": "moonpacket ekibi",
+    "version_label": "Versiyon",
+    "updated_label": "Güncelle",
+    "owner_label": "Sahip",
+    "data_sources": "Veri Kaynağı",
+    "notice": {
+      "disclaimer_binding": "Aşağıdaki terimler bir çeviridir ve yalnızca referans içindir. Resmi bağlayıcı versiyon, orijinal İngilizce metnidir. Dil versiyonları ile İngilizce versiyon arasında herhangi bir tutarsızlık durumunda, İngilizce versiyon geçerli olacaktır."
+    },
+    "intro": [
+      "Bu gizlilik politikası (bundan sonra 'bu politika' olarak anılacaktır), moonpacket tarafından sağlanan hizmetleri kullandığınızda kişisel bilgilerinizi ve kullanım verilerinizi nasıl topladığımızı, kullandığımızı, sakladığımızı ve koruduğumuzu açıklar; lütfen kullanımdan önce tamamen okuyun; hizmeti kullanmaya başlayarak bu politikayı kabul edersiniz.",
+      "Bu hizmetin temel işlevi 'topluluk büyümesi ve red paket etkileşimi' olup, uyum gereksinimleri doğrultusunda bulut cüzdanlar, işlemler veya geri ödemeler ile ilgili gerekli özellikleri sunabilir. Bu politika yalnızca veri işlemenin yönetimini kapsar; kullanım düzenlemeleri, sorumluluk sınırlamaları, risk açıklamaları ve feragatnameler için 'Kullanım Şartları'na başvurun.",
+      "moonpacket (bundan sonra 'moonpacket' veya 'hizmet' olarak anılacaktır) bu hizmetin işletimi ile ilgili kişisel ve kullanım verilerini toplayan, kullanan, saklayan ve işleyen müessese ve yöneticidir; moonpacket verileri yalnızca teknik ve operasyonel amaçlar için işlemekte olup, bir banka, güven, koruyucu, yatırım danışmanı, ödeme aracısı veya varlık yöneticisi değildir ve söz konusu verilerin işlenmesi nedeniyle herhangi bir güvence, korunma veya yatırım yükümlülüğü üstlenmez."
+    ],
+    "definitions": [
+      "moonpacket: Bu projenin sunduğu uygulama hizmetlerine atıfta bulunur, bunlar indirilebilir web uygulamaları ve mobil uygulamaları içerir ve (ancak bunlarla sınırlı olmamak üzere) Telegram Mini Uygulaması, botlar, bulut cüzdanlar ve ilgili işlevsel modülleri kapsar.",
+      "Kişisel Veri: Doğrudan veya dolaylı olarak bir gerçek kişiyi tanımlayabilen bilgiler, (uygun olması durumunda) iletişim bilgileri, Telegram UID, bulut cüzdan adresi (bir bireyi tanımlayabiliyorsa), cihaz ve ağ tanımlayıcıları gibi.",
+      "Kullanım Verisi: Hesaplar veya cihazlarla ilgili etkinlik kayıtları ve etkileşimler (örneğin, kırmızı paket gönderme/alma, hata ve performans logları, bot önleme sinyalleri)."
+    ],
+    "scope": [
+      "Bu terimler, moonpacket tarafından sağlanan tüm işlevlerinizi kullanmaya ilişkin olarak geçerlidir; (ama bunlarla sınırlı olmamak üzere) gruplara/kanallara katılma veya yönetme, red packet gönderme veya alma, etkinliklere katılma, bulut cüzdanlar ve puanlar ile bağlantı kurma veya kullanma ve API/Webhook aracılığıyla entegrasyonlar dahil.",
+      "moonpacket, red packet gönderenler ve red packet alanlar olmak üzere iki ana kullanım senaryosunu desteklemektedir. Gönderenlerin, sahip oldukları veya yönettikleri gruplara/kanallara botu eklemesi ve gerekli izinleri vermesi gerekmektedir; yetkisiz veya izinler yetersizse, işlevsellik garanti edilemez. Alıcılar, grup etkileşimleri sırasında yalnızca gerekli ağ tanımlayıcıları ve kullanım olayları dışında özel bilgileri kaydetmezler."
+    ],
+    "dataCollected": [
+      "Hesap ve Kimlik: Telegram UID, kullanıcı adı, avatar, dil ayarları, grup üyesi kimliği ve izinleri; gerekirse, devlet tarafından verilmiş kimlik verileri, selfie veya yüz biyometrik eşleştirme sonuçları, ikamet beyanı, KYC/AML denetim bilgileri ve eşleştirme sonuçları yalnızca uyum, kara para aklamanın önlenmesi, terör finansmanıyla mücadele, yaptırımlara uyum, vergi raporlaması, dolandırıcılık soruşturması veya risk yönetimi amacıyla toplanacak ve saklanacaktır.",
+      "Kullanım Olayları: Kırmızı paket gönderme/alma, komut ve etkileşim kayıtları, etkinlik katılımı, API/Webhook'tan gelen etkinlikler, hata ve performans logları; bot önleme ve risk kontrol sinyalleri (anormal sıklık, cihaz veya ağ özellikleri gibi).",
+      "İşlemler ve Varlıklar: Bulut cüzdanına ait adresler, bakiyeler veya işlem özetleri (yalnızca işlevsellik için gerekli ölçüde); on-chain işlemler halka açık olarak doğrulanabilir, ancak geri alınamaz ve değiştirilemez. Yukarıda belirtilen bilgiler, yalnızca iç sistem uzlaşması ve tahsis talimatları için sağlanan Off-chain kayıtları (örneğin, iç muhasebe ile işaretlenmiş bakiyeler, dağıtım bekleyen tutarlar veya kilitli durum) içerebilir ve bunlar moonpacket'in güvenliği, güvencesi, yatırımı, vekalet finansmanı, ödeme toplama ve ödeme, yatırım yönetimi veya saklama yükümlülüklerini oluşturmaz.",
+      "Teknik ve Cihaz Bilgileri: Cihaz modeli, işletim sistemi, tarayıcı veya uygulama sürümü, ağ adresi (IP/ASN) ve yaklaşık bölge, çerez ve yerel depolama etiketleri (varsa).",
+      "İletişim Bilgileri: Aktif olarak sağladığınız e-posta veya müşteri destek sohbet içeriği (varsa)."
+    ],
+    "sources": [
+      "Kaydolma, bağlama, etkileşime geçme veya müşteri hizmetleri ile iletişim sırasında aktif olarak sağladığınız veriler.",
+      "Hizmeti kullanmanız sırasında sistem tarafından otomatik olarak kaydedilen olaylar ve teknik veriler.",
+      "Uyum veya hizmet gereksinimi için yasal olarak elde edilen üçüncü taraf karşılaştırma veya doğrulama sonuçları (örneğin KYC/AML hizmet sağlayıcıları)."
+    ],
+    "purposes": [
+      "Bu hizmetin işletimi ve bakımı için sağlanan işlevler arasında: kimlik doğrulama, izin doğrulaması, aktivasyon ve yönetim modülleri (red packet, puanlar, bulut cüzdan), arıza giderme ve güvenlik izleme bulunmaktadır.",
+      "Risk yönetimi ve uyumluluk: Suistimali, dolandırıcılığı, kara para aklamayı, terörizmin finansmanını, yaptırım ihlallerini, vergi kaçakçılığını, yasadışı fon toplama, yetkisiz finansal hizmetler, gelir paylaşımı manipülasyonu veya diğer anormal faaliyetleri tespit etmek, önlemek ve araştırmak; KYC/AML denetimleri ve kimlik doğrulama (hükümet tarafından verilmiş kimlikler, selfie'ler ve biyometrik doğrulama dahil) yapmak, risk değerlendirmesi ve vergi ile yaptırım incelemesi gerçekleştirmek. Gerekirse, işlemleri, dağıtımları, iadeleri, para çekimleri veya serbest bırakmaları tutma, dondurma, geciktirme, sınırlama veya reddetme işlemleri içerebilir. Bu tür eylemler, moonpacket tarafından bir ihlal veya ihlal olarak kabul edilmez ve moonpacket, herhangi bir tazminat, zarar, ya da diğer sorumluluklar için hesabını vermez.",
+      "Veri analizi ve ürün optimizasyonu: İstatistiksel kullanım eğilimleri, deneyimi ve performansı iyileştirmek, A/B testi yapmak ve dolandırıcılık önleme modelleri eğitmek (minimizasyon ve kimlik gizleme yöntemlerini kullanarak).",
+      "Regülasyonlara uyum ve hakların beyanı: Düzenlemeler, otoriteler veya mahkemelerden gelen yasal taleplerle işbirliği yapmak veya yasal hakları kullanmak, tesis etmek veya savunmak. moonpacket, yasal, düzenleyici, vergi, yaptırım, kara para aklama, terörizmin finansmanı, dolandırıcılık araştırmaları veya diğer uyum ihtiyaçlarına dayalı olarak düzenleyici otoriteler, yargı organları, vergi veya yaptırım otoriteleri, tahkim veya icra ajansları, ya da kendilerine yetki verilmiş uyum hizmeti sağlayıcılarına ilgili verileri kendi takdirine bağlı olarak verebilir; böyle bir sağlama, moonpacket tarafından bir ihlal veya ihlal olarak kabul edilmez ve moonpacket, herhangi bir tazminat, zarar veya diğer sorumluluklar için hesap vermez.",
+      "İletişim ve bildirim: Size önemli değişiklikler, etkinlik bildirimleri veya gerekli hizmet bilgilerini sağlamak; pazarlama mesajları yalnızca onay ile veya yasal olarak izin verildiği şekilde gönderilecektir."
+    ],
+    "legalBases": [
+      "Yasal yükümlülüklere uymak (örn. KYC/AML, yaptırımlar, denetim ve saklama yükümlülükleri).",
+      "Meşru çıkarlar (örn. kötüye kullanımı tespit etme, sistem güvenliği ve hizmetin mevcut olmasını sağlama, ürün ve deneyimleri iyileştirme). Bu durumda, dengeleme testleri uygulayacağız ve kimlik gizleme veya minimize etme önlemleri alacağız.",
+      "Onayınız (örn. pazarlama mesajları alma, önemsiz çerezler ve geri alınabilir tercihler).",
+      ""
+    ],
+    "cookies": [
+      "Gerekli Çerezler ve Yerel Depolama: Giriş durumunu, dil seçimini, bot önleme tedbirlerini ve güvenlik kontrollerini sürdürmek için kullanılır; devre dışı bırakıldığında bazı özellikler düzgün çalışmayabilir.",
+      "Analiz veya Tercih: Yalnızca yasal olarak izin verilmesi veya rızanızla etkinleştirilir; bunu tarayıcı ayarlarınızdan kaldırabilir veya kısıtlayabilirsiniz."
+    ],
+    "wallet": [
+      "Eğer bulut cüzdan bu hizmet veya bir ortak tarafından sağlanıyorsa, yalnızca red paket, puan veya gerekli takas işlemlerini tamamlarken gerekli minimum işlem verilerini ve makbuzları işler ve saklar.",
+      "Blok zinciri verileri kamuya açık ve geri döndürülemezdir; lütfen dikkatli işlem yapın. Değiştirilemez, kalıcı olarak kamuya açık doğası ve blok zinciri özelliklerinden kaynaklanan veri ilişkileri, bu hizmetin kontrolünün dışındadır."
+    ],
+    "antiFraud": [
+      "Suistimali ve dolandırıcılığı önlemek için etkileşim sıklığını, cihaz veya ağ özelliklerini, coğrafi konumu, davranış kalıplarını ve kara liste sinyallerini değerlendirebiliriz; işlevsellik askıya alınabilir veya kısıtlanabilir ve gerektiğinde ek doğrulama talep edilebilir.",
+      "Uygunluk ve güvenlik nedenleriyle, makul sınırlar içinde güvenilir dolandırıcılık önleme veya uyum hizmet sağlayıcıları ile ilgili göstergeleri veya denetim sonuçlarını paylaşma hakkını saklı tutarız.",
+      "Yukarıda belirtilen amaçlar doğrultusunda, moonpacket kendi takdirine bağlı olarak belirli işlevleri askıya alabilir, geciktirebilir, sınırlayabilir veya reddedebilir ve gerekli verilere ya da denetim sonuçlarına güvenilir dolandırıcılık, uyum, vergi veya yaptırım hizmet sağlayıcıları ile paylaşabilir; bu tür eylemler moonpacket tarafından bir ihlal veya ihlal olarak sayılmaz ve moonpacket herhangi bir zarar, tazminat veya diğer sorumluluklardan sorumlu değildir."
+    ],
+    "sharing": [
+      "İşlemler, bulut barındırma, günlükleme ve izleme, analiz, anti-bot ve uyum hizmet sağlayıcıları dahil olmak üzere üçüncü taraf sağlayıcılar minimize edilmiş ve sözleşmeye dayalı kısıtlamalar altında gerçekleştirilir.",
+      "Ortaklar ve topluluk yöneticileri, katıldığınız belirli aktiviteler, red paketleri veya topluluk yönetimi senaryolarına dayanarak gerekli bilgileri paylaşacaktır.",
+      "Yasal prosedürlere uygun olarak, gerektiğinde yetkililere, mahkemelere veya hak sahiplerine gerekli verileri açıklayacağız.",
+      "moonpacket, gerekli bilgileri (blok zinciri dışı kayıtlar, blok zinciri içi kanıtlar, KYC/AML verileri, grup/chat/aktifite kayıtları ve dağıtım ile çekim davranışları dahil) yetkililere, mahkemelere, kanun uygulayıcı kurumlara veya vergi birimlerine, yaptırım ve düzenleyici birimlere veya onların yetkili uyum hizmet sağlayıcılarına uyum incelemeleri, KYC/AML denetimleri, kimlik doğrulama (hükümet tarafından verilen kimlik ve biyometrik karşılaştırmalar dahil), kara para aklamayı önleme, terör finansmanı ile mücadele, yaptırımlara uyum, vergi uyumu, dolandırıcılık soruşturmaları, istismar tespiti, mali denetimler ve dağıtım ile çekimleri takip etme amacıyla işleyebilir, analiz edebilir, iletebilir, açıklayabilir ve sağlayabilir. Bu işlemler, iletim ve ifşa, moonpacket tarafından bir ihlal veya haksız fiil olarak değerlendirilmez ve moonpacket herhangi bir tazminat, tazminat veya diğer sorumluluklardan sorumlu değildir."
+    ],
+    "crossBorder": [
+      "Bu hizmetin bulut mimarisi, küresel operasyon modeli, risk yönetimi, Kara Para Aklamanın Önlenmesi (AML), terör finansmanıyla mücadele, yaptırımlara uyum, vergi işbirliği, dolandırıcılık önleme, denetim saklama, müşteri desteği ve sistem bakım ihtiyaçları temelinde, verileriniz (kişisel veriler, kullanım verileri, Off-chain kayıtlar, KYC/AML denetim sonuçları ve risk kontrolü ile geri çekilme kayıtları dahil) yargı alanınız dışında işlenebilir, saklanabilir veya iletilebilir ve yukarıdaki amaçlar için gerektiğinde ortaklar, bulut altyapı sağlayıcıları, uyum ve risk yönetimi hizmet sağlayıcıları veya yetkili/yargısal/vergi/yaptırım/denetleyici otoriteler (veya onların yetkilendirilmiş kuruluşları) tarafından erişilebilir.",
+      "moonpacket, alıcıların bilgi güvenliği ve uyum yükümlülüklerini, ticari olarak makul ve gerekli sınırlamalar içinde değerlendirecek ve yetkisiz erişim veya kötüye kullanma risklerini sözleşmeler, teknik ve organizasyonel önlemler aracılığıyla azaltacaktır; ancak, her türlü sınır ötesi transfer, bulut barındırma veya üçüncü taraf işlemenin ağ ve düzenleyici ortamlar tarafından etkilenebileceğini anlıyor ve kabul ediyorsunuz ve mutlak güvenlik veya kullanılabilirlik garantisi veremiyoruz. Yukarıda belirtilen sınır ötesi işleme ve transfer, moonpacket'in bir ihlali veya tecavüzü olarak kabul edilmez ve moonpacket, herhangi bir zarar, tazminat veya diğer yükümlülüklerden sorumlu olmayacaktır."
+    ],
+    "retention": [
+      "Veri toplama amaçlarını yerine getirmek için gerekli süre boyunca verileri saklayacak ve yasal veya denetim yükümlülükleri gereği gerekli kayıtları tutacağız (örneğin, muhasebe ve uyumluluk günlükleri).",
+      "Amaç gerçekleştirildiğinde veya saklama süresi sona erdiğinde, verileri sileriz veya kimlik gizli bir şekilde işleriz; on-chain verilerinin değiştirilemez olması nedeniyle bu sınırlama geçerli değildir.",
+      "Hesabınızı devre dışı bırakma, verilerinizi silme veya bu hizmeti kullanmayı durdurma talebiniz olsa bile, moonpacket yasalar, düzenlemeler, vergi, yaptırımlar, kara para aklama, terörizmin finansmanı, dolandırıcılık araştırmaları, denetim saklama, muhasebe doğrulaması veya diğer uyum yükümlülüklerine göre gerekirse veya izin verildiği şekilde yukarıda belirtilen verileri tutabilir, dondurabilir, analiz edebilir veya sağlayabilir. Bu tür saklama ve işleme, moonpacket tarafından bir ihlal veya ihlal olarak kabul edilmez ve moonpacket, herhangi bir tazminat, zarar veya diğer sorumluluklar için hesap vermez."
+    ],
+    "security": [
+      "Makul ve orantılı teknik ve yönetim önlemleri, erişim kontrolü, iletim ve statik şifreleme (uygun olduğu durumlarda), izin ayrımı, denetim günlükleri ve minimum gerekli personel erişim ilkelerini içermektedir.",
+      "moonpacket, yetkisiz erişim, kullanım, ifşa, değişiklik veya yok etme riskini azaltmak için teknik ve yönetimsel önlemler almış olsa da, herhangi bir iletim, depolama veya üçüncü taraf entegrasyonunun belirli riskler taşıyabileceğini anlıyor ve kabul ediyorsunuz. moonpacket, veri güvenliği, bütünlüğü, kullanılabilirliği, kesintisiz erişim veya müdahale konusunda açık veya zımni hiçbir garanti vermemektedir. Bu tür riskler veya zararlar, moonpacket tarafından bir ihlal veya haksız fiil olarak değerlendirilmez ve moonpacket herhangi bir tazminat, tazminat veya diğer sorumluluklardan sorumlu değildir."
+    ],
+    "minors": [
+      "Bu hizmet, 13 yaşından küçük bireyler veya yargı alanınızdaki reşit olmayan eşik altında bulunan kişiler için tasarlanmamıştır. Eğer bir reşit olmayan iseniz, lütfen bu hizmeti yasal vasi onayı ile kullanın veya bu hizmetten kaçının."
+    ],
+    "rights": [
+      "Çeşitli bölgelerde geçerli yasalara göre, kişisel verilerinizi sorgulama veya gözden geçirme, kopyalarını talep etme, düzeltme, işleme sınırlama, silme, veri taşınabilirliği ve rızanızı geri alma haklarına sahipsiniz, ancak moonpacket'in yasal yükümlülükleri ile çelişmediği sürece.",
+      "Eğer yukarıda belirtilen haklarınızı kullanmak veya gizlilik ile ilgili endişelerinizi dile getirmek istiyorsanız, lütfen 'İletişim Bilgileri'ni kullanarak moonpacket ile iletişime geçin. Güvenliği sağlamak için, moonpacket sizden kimlik doğrulama işlemini tamamlamanızı (KYC/AML denetimleri için gereken bilgileri verme, hükümet tarafından verilmiş kimlik, selfie veya biyometrik doğrulama sonuçları dahil) isteyebilir; talep eden kişinin veri sahibi veya yetkili temsilcisi olduğunu doğrulamak için.",
+      "moonpacket, yasal veya uyum yükümlülükleri, meşru çıkar gereksinimleri veya risk yönetimi amaçları kapsamındaki bu talepleri tamamen veya kısmen reddetme, geciktirme, sınırlama veya düzeltme talep etme hakkını saklı tutar; bu tür reddetmeler, gecikmeler, sınırlamalar veya düzeltme talepleri moonpacket tarafından bir ihlal veya ihlal olarak kabul edilmez ve moonpacket, herhangi bir tazminat, zarar veya diğer sorumluluklar için hesap vermez."
+    ],
+    "faq": [
+      "Neden uyum ve risk kontrol bilgilerine ihtiyacımız var? Bu, red paketleri sağlamanın, kötüye kullanımı önlemenin ve güvenli operasyonları garanti etmenin yanı sıra ilgili yasalar ve platform politikalarına uymanız için gereklidir.",
+      "Belirli bilgileri sağlamayı reddedebilir miyim? Hizmet güvenliğini ve yasal yükümlülükleri etkilemeden, önemsiz öğeleri devre dışı bırakmayı seçebilirsiniz, ancak bu bazı özelliklerin kullanılamamasına neden olabilir.",
+      "Blok zincir verileri silinebilir mi? Zincir üzerindeki kayıtlar geri alınamaz ve kamudur, bunları sizin adınıza değiştiremeyiz veya silemeyiz."
+    ],
+    "updates": [
+      "Bu koşullar, hizmet ayarlamaları veya yasal değişikliklerle güncellenebilir; önemli değişiklikler iç mesajlar veya sayfa bildirimi aracılığıyla belirtilecektir; güncellenmiş versiyon, bildirimden veya koşullarda belirtilen yürürlük tarihinden itibaren geçerlilik kazanır."
+    ],
+    "contact": [
+      "Gizlilik veya veri güvenliği ile ilgili sorularınız varsa, lütfen sayfadaki iletişim yöntemleri aracılığıyla bize ulaşın (gizlilik posta kutusu/güvenlik raporu/müşteri hizmetleri); makul bir süre içinde cevaplayacağız."
+    ],
+    "controller": [
+      "Veri Kontrolörü: moonpacket ekibi (küçük takım operasyonları).",
+      "İletişim Penceresi (Gizlilik): 'İletişim Yöntemleri' sayfasında yer alan gizlilik Help_bot aracılığıyla bizimle iletişime geçin."
+    ],
+    "jurisdictions": [
+      "Geçerli kişisel verilerin korunmasına ilişkin düzenlemelere uymaktayız; farklı yargı alanlarında düzenlemelerde çatışmalar varsa, yasanın öngördüğü sınırlar içinde kullanıcılar için daha koruyucu ve uygulanabilir eylemler alacağız.",
+      "Belirli yargı alanları için ek haklar veya prosedürlere ihtiyacınız varsa, lütfen iletişim kanalları aracılığıyla ulaşın, size makul ölçüde yardımcı olacağız."
+    ],
+    "dsrProcess": [
+      "Kişisel verilerle ilgili olarak sorgulama, inceleme, kopya talep etme, düzeltilmesi, silinmesi, işlenmesinin kısıtlanması, veri taşınabilirliği ve rızanın geri çekilmesi haklarını kullanma hakkına sahipsiniz (uygun yasalara ve teknolojik uygulanabilirliğe tabi olarak).",
+      "İşlem: Talep gönder → Kimlik doğrulama → Kabul ve değerlendirme → Makul bir süre içinde yanıt (genellikle 30 gün içinde; herhangi bir uzatma ayrı olarak bildirilecektir).",
+      "Talep üçüncü şahısları veya zincir üzerinde geri alınamaz verileri içeriyorsa, doğrudan işlenmeyebilir. Açıklamalar veya uygulanabilir alternatifler sunacağız.",
+      "Sonuçlarla ilgili endişeleriniz varsa, lütfen sağlanan kanallar aracılığıyla bizimle tekrar iletişime geçin; ayrıca yerel yasalara dayanarak yetkililere şikayette bulunabilirsiniz (uygulanabilir ise)."
+    ],
+    "breach": [
+      "Şüpheli bir kişisel veri olayı tespit edilirse, engelleme veya hafifletme, denetim yapma ve kanıt belgeleme dahil olmak üzere kademeli işlem ve acil müdahale için iç prosedürleri takip edeceğiz.",
+      "Yasal olarak gerekli veya gerekli olduğunda, yetkili makamı ve potansiyel olarak etkilenen kullanıcıları makul bir süre içinde bilgilendireceğiz; bildirimlerin içeriği ve zamanlaması olayın seviyesi ve soruşturma ilerlemesine bağlı olacaktır.",
+      "Sonrasında kontrol önlemleri ve personel eğitimini gözden geçirecek ve sürekli olarak geliştireceğiz (mevcut kaynaklar dahilinde)."
+    ],
+    "cookiesDetail": [
+      "Gerekli Çerezler: Giriş, dil ayarları, bot önleme tedbirleri ve güvenlik sağlamak için kullanılır; devre dışı bırakılması hizmetin kullanılabilirliğini etkileyebilir.",
+      "Tercih/Analiz/Pazarlama Çerezleri: Yalnızca yasal olarak izin verilmesi veya rızanızla etkinleştirilir; istediğiniz zaman tercihlerinizi ayarlayabilir veya geri çekebilirsiniz.",
+      "Geçerli olması halinde, basit bir çerez seçeneği sunacağız; bunları ayrıca tarayıcı ayarlarınızdan yönetebilir veya kaldırabilirsiniz."
+    ],
+    "consent": [
+      "Gerekli olmayan işlemler için (örneğin, pazarlama veya belirli analitik izleme) önceden onay alacağız ve geri çekme imkanı sağlayacağız, kanuna uygun ve mümkün olduğunda.",
+      "Onayı geri çekmek, geri çekmeden önceki işlemlerin yasallığını etkilemez; bazı işlevler sonuç olarak kısıtlanabilir."
+    ],
+    "lawfulMatrix": {
+      "headers": [
+        "Veri Kategorisi",
+        "İşleme Amacı",
+        "Hukuki Temel",
+        "Saklama Süresi"
+      ],
+      "rows": [
+        {
+          "cat": "帳號/身分（Telegram UID、暱稱、語言、群組權限）",
+          "purpose": "提供與維運服務（紅包、權限驗證、防刷）",
+          "basis": "履行契約、合法利益",
+          "retention": "帳號存續期間＋必要稽核留存"
+        },
+        {
+          "cat": "合規資料（KYC/AML 結果）",
+          "purpose": "法遵審查與防詐欺",
+          "basis": "法定義務",
+          "retention": "依法令或監理要求（一般為多年期）"
+        },
+        {
+          "cat": "使用事件與日誌（互動、錯誤、效能）",
+          "purpose": "故障排除、資安與產品優化",
+          "basis": "合法利益",
+          "retention": "依安全與營運需要的合理期限"
+        },
+        {
+          "cat": "交易與雲端錢包摘要",
+          "purpose": "完成紅包/積分/兌換流程",
+          "basis": "履行契約、合法利益",
+          "retention": "目的達成後最小化留存；鏈上紀錄不在此限"
+        },
+        {
+          "cat": "Cookie/本地儲存（必要）",
+          "purpose": "登入狀態、語言、防刷標記",
+          "basis": "履行契約、合法利益",
+          "retention": "依裝置與瀏覽器生命周期"
+        },
+        {
+          "cat": "Cookie/像素（非必要）",
+          "purpose": "偏好/分析/行銷（如啟用）",
+          "basis": "同意",
+          "retention": "依工具供應商政策或您撤回為止"
+        }
+      ]
+    },
+    "automated": [
+      "Bu hizmet, suistimali veya anormal davranışları tespit etmek için otomatik analiz ve risk kontrol modellerini kullanmaktadır; genel olarak, bireyler üzerinde yasal olarak veya benzer şekilde önemli ölçüde etkileyen tamamen otomatik kararlar oluşturmaz.",
+      "Uygunluk veya güvenlik risk kontrol ihtiyaçları nedeniyle kısıtlayıcı önlemler alındığında (örneğin, işlevselliğin askıya alınması), kaynaklar ve güvenlik izin verdiği sürece itiraz ve manuel inceleme fırsatları sağlayacağız."
+    ],
+    "subprocessors": {
+      "note": "Sözleşme ile bağlı alt işlemcilerle (bulut, izleme, anti-bot/KYC, e-posta vb. gibi) işbirliği yapabiliriz; liste, hizmet ayarlamalarına göre güncellenebilir, lütfen duyurular için resmi web sitesine bakın."
+    },
+    "note": [
+      "Not: Bu madde, veri işleme ve koruma uygulamalarını açık bir şekilde bildirmeyi amaçlamaktadır. moonpacket küçük bir ekip olduğu için, gerçek önlemler, yasalar, risk seviyeleri ve kaynak mevcutluğuna göre ayarlanacaktır; eğer herhangi bir zorunlu düzenleme varsa, yasa geçerli olacaktır."
+    ],
+    "telegramPermissions": [
+      "Robotun gruplardaki/kanalardaki işlemleri, verdiğiniz izinler dahilinde yalnızca gerçekleştirilir (örneğin, okuma, gönderme, silme, mesajları sabitleme, bağış bağlantılarını kontrol etme gibi, gerçek ihtiyaçlara bağlı olarak).",
+      "Özellikler kullanılamıyorsa veya yetersiz izinler, platform kısıtlamaları veya üçüncü taraf ayarları nedeniyle anormal çalışıyorsa, moonpacket özelliğin normal şekilde çalışacağına dair garanti vermez."
+    ],
+    "groupDataMinimization": [
+      "Grup/kanal bağlamlarında, hizmeti sağlamak için gerekli en az veriyi işleriz; bu kullanıcı ağ tanımlayıcıları (UID), etkileşim/olay kayıtları ve kötüye kullanımı önlemek için gereken göstergeleri içerir; grup üyelerinin kişisel profillerini aktif olarak toplamaz veya oluşturmayız.",
+      "Uygunluk (KYC/AML/yaptırımlar) veya güvenlik amaçları için, işlem kapsamını genişletmemiz gerekirse, yasanın gerektirdiği şekilde minimize etme ve kimlik gizleme ilkelerine uyacağız."
+    ],
+    "analytics": [
+      "Ürün performansını değerlendirmek, suistimali önlemek ve operasyonel sonuçları değerlendirmek için, kullanım verilerini tanımlanmamış veya birleştirilmiş bir şekilde işleyebiliriz ve trafik izleme ve atıf analizi için makul sınırlar içinde üçüncü taraf analiz/izleme araçlarını tanıtabiliriz.",
+      "Kişisel verilerinizi satmayacağız; 'satış/paylaşım' için mümkün olan yargı alanı özel tanımları varsa, bu anlaşmadaki CPRA ve diğer düzenlemelere ilişkin açıklamalara ve seçeneklere bakınız.",
+      "Yerel yasalar önceden onay gerektiriyorsa veya bir çıkış seçeneği sunuyorsa, mümkün olduğunca ilgili seçimleri sunacağız."
+    ],
+    "saleShareStatement": [
+      "Kişisel verilerinizi karşılık olarak satmıyoruz; herhangi bir üçüncü taraf analiz ve reklam teknolojisi yalnızca yasal olarak izin verildiğinde veya gerekli onay ile kimlik gizli veya toplu bir şekilde işlenecektir."
+    ]
+  },
+  "terms": {
+    "version": "v1.0.0",
+    "updated": "oto",
+    "version_label": "Sürüm",
+    "updated_label": "Güncelle",
+    "owner_label": "Sahibi",
+    "appendix_title": "Ek | Tanımlar ve Açıklamalar",
+    "notice": {
+      "disclaimer_binding": "Aşağıdaki terimler yalnızca referans amaçlı olarak sağlanmıştır; resmi, yasal bağlayıcılığı olan versiyon İngilizce orijinaldir. Dil versiyonları ile İngilizce versiyon arasında herhangi bir çelişki halinde, İngilizce versiyon geçerli olacaktır."
+    },
+    "owner": "moonpacket ekibi (bundan böyle 'moonpacket' olarak anılacaktır), deneysel çevrimiçi etkileşimli özellikler ve pazarlama/topluluk büyüme araçları sunan bir marka ve hizmet adıdır. moonpacket, bir banka, güven kuruluşu, saklama kurumu, borsa, yatırım danışmanı, aracılık, veya herhangi bir düzenlenmiş finansal kurum değildir; yasalar gerektirmedikçe, moonpacket kullanıcılarına herhangi bir güvenilirlik yükümlülüğü, güven yükümlülüğü, varlık saklama yükümlülüğü veya getiri garantisi vermez.",
+    "intro": [
+      "Bu Kullanıcı Şartları (bundan sonra “bu Şartlar” olarak anılacaktır) sizin (bundan sonra “siz” veya “Kullanıcı” olarak anılacaktır) ve moonpacket (bundan sonra “moonpacket”, “bu hizmet” veya “biz” olarak anılacaktır) arasında, moonpacket tarafından sağlanan hizmetlere erişiminiz veya kullanımınızla ilgili olarak bağlayıcı bir anlaşma teşkil eder.",
+      "Bu hizmet, web siteleri, indirilebilir uygulamalar, Telegram Mini Uygulaması, botlar, bulut cüzdanlar, kırmızı paket/ödül dağıtım modülleri, etkinlik yönetim arayüzleri ve ilgili istatistik/ranking işlevleri (bundan sonra topluca “bu hizmet” olarak anılacaktır) dahil ancak bunlarla sınırlı değildir.",
+      "Başla', 'Kabul et', 'Gönder' gibi düğmelere tıklayarak veya bu hizmeti kullanmaya başlayarak, bu Şartların tüm içeriklerine okuduğunuz, anladığınız ve geri dönüşü olmayan bir şekilde bağlı kalmayı kabul ettiğiniz kabul edilir; eğer kabul etmiyorsanız, lütfen hemen bu hizmeti kullanmayı durdurun.",
+      "Belirli faaliyetler, promosyon iş birlikleri veya kurumsal programlar ek şartlar veya etkinlik kuralları sağlayabilir; bu tür ek şartlar bu Şartların bir parçası olarak kabul edilir; bu Şartlarla çelişen herhangi bir durumda, ek şartlar belirli etkinlik kapsamında geçerli olacak, geri kalan kısımlar ise bu Şartlarla yönetilmeye devam edecektir.",
+      "Bu Şartlar, okuyabilme kolaylığı için birden fazla dilde sunulabilir. İçerik, yorumlama veya etki açısından herhangi bir çevrilmiş versiyon ile İngilizce versiyonu arasında tutarsızlık veya çelişki durumunda, İngilizce versiyon öncelikli olacak ve nihai geçerli versiyon olarak kabul edilecektir; diğer dil versiyonları, moonpacket için ek yükümlülükler yaratmış olarak kabul edilmeyecektir.",
+      "Bu hizmeti kullanma kararınızın herhangi bir 'garantili getiriler', 'sermaye geri kazanımı', 'kâr paylaşımı', 'yatırım tavsiyesi' veya diğer tazminat taahhütleri vaatlerine dayanmadığını onaylıyor ve taahhüt ediyorsunuz; moonpacket, gelecekteki gelir, ödüller, fiyatlar, sıralamalar veya geri alınabilir değerle ilgili herhangi bir garanti veya yasal bağlayıcılığı olmayacak ve sağlamayacaktır."
+    ],
+    "definitions": [
+      "red packet' göndericisi veya 'başlatıcısı', bu hizmet içinde red packet/ödül/gelir paylaşımı/pazarlama fonları oluşturan, finanse eden veya dağıtan kişileri ifade eder; bunlar bireysel kullanıcılar, grup yöneticileri, proje tarafları veya onların temsilcilerini içerir.",
+      "red packet' alıcısı veya 'katılımcısı', faaliyet kurallarına göre etkileşimde bulunan, görevleri tamamlayan veya red packet veya ödülleri alma girişiminde bulunan/alan kişileri ifade eder.",
+      "Faaliyet', başlatıcı tarafından belirlenen dağıtım mekanizmasını ifade eder; buna eşit dağıtım, rastgele 'şans', belirlenen görevlerin kilidini açma, şifre kapma, zaman sınırlı kapma, sınırlı kota/zaman dağıtımı vb. dahildir.",
+      "Off-chain kayıtları, moonpacket sistemi içindeki iç muhasebe, bakiye göstergeleri ve hak atıf göstergeleri anlamına gelir (örneğin, 'dağıtılacak', 'tahsis edilmiş', 'çekim için mevcut'). Off-chain kayıtları tamamen sistem düzeyinde göstergelerdir ve blok zincirindeki varlıkların anlık transferini yansıtmaz; varlık sahipliğinin nihai hukuki kanıtını oluşturmazlar; gerçek on-chain işlemleri esas alınır.",
+      "Cloud wallet', moonpacket veya ortakları tarafından sağlanan, recharge varlıklarını almak için kullanılan, tahsis edilebilir bakiyeleri gösteren ve sonraki çekimleri destekleyen bir saklama veya yarı saklama cüzdanı/varlık saklama sürecini ifade eder. Cloud wallet'lar banka hesapları, güven hesapları, mevduat hesapları veya sigorta kapsamındaki konular değildir ve herhangi bir sermaye koruma garantisi sunmamaktadır.",
+      "Ücretler', blok zinciri işlemleri için gereken ağ kaynaklarının maliyetlerini (örneğin, gaz), üçüncü taraf hizmetleri veya ödeme kanalı maliyetlerini ve (uygulanabilir olduğunda) moonpacket'in belirli hizmetler veya faaliyetler için talep ettiği platform ücretlerini ifade eder. Ücretler kullanıcılar tarafından karşılanır; bir kez ortaya çıktıklarında, iade edilmezler.",
+      "KYC/AML', kimlik doğrulama (Müşterinizi Tanıyın), kara para aklamayla mücadele, terörizmin finansmanıyla mücadele, yaptırım incelemesi, dolandırıcılığı önleme, vergi ve uyum denetimleri gibi süreçleri ifade eder."
+    ],
+    "eligibility": [
+      "Hizmeti kullanmak için yasal olarak nitelikli olduğunuzu ve yargı yetkiniz içinde tam kapasiteye sahip olduğunuzu beyan ve garanti edersiniz; reşit olmayanlar veya sınırlı kapasiteye sahip bireyler, yerel yasalar gereği gerekli onayı almalıdır.",
+      "Bu hizmet 'bağlamadan önce dene' modelini benimsemektedir; ancak bir çekim talep etmeden, faaliyetler arasında bakiye transferi yapmadan veya varlıkların gerçek tasfiyesi ile ilgili herhangi bir işlem yapmadan önce, moonpacket e-posta, telefon numarası ve kripto para cüzdan adresinizi bağlamanızı ve (varsa) KYC/AML doğrulamasını tamamlamanızı talep etme hakkına sahiptir."
+    ],
+    "accounts": [
+      "Eğer yukarıda belirtilen doğrulamayı kabul etmez, geciktirir veya geçemezseniz, moonpacket, kendi takdirine bağlı olarak, herhangi bir çekim, iade, çözme veya geri ödeme taleplerini geciktirebilir, kısıtlayabilir veya reddedebilir; bu tür gecikmeler, kısıtlamalar veya reddetmeler, moonpacket tarafından bir sözleşme ihlali sayılmaz ve moonpacket, herhangi bir tazminat, zararın tazmini veya diğer yükümlülükleri üstlenmez.",
+      "Telegram hesabınız, bulut cüzdan erişim kimlik bilgileri, giriş tokenları, imza anahtarları, cihazlar ve şifreler gibi tüm doğrulama unsurlarını düzgün bir şekilde korumalısınız. Phishing, kötü amaçlı yazılım, cihaz ödünç verme, kimlik bilgisi sızıntısı, zayıf şifreler veya yetkilendirilmiş üçüncü şahıs eylemlerinden kaynaklanan sonuçlar sizlerin sorumluluğundadır."
+    ],
+    "service": [
+      "Bu hizmet tarafından sunulan yetenekler şunlardır ama bunlarla sınırlı değildir: (a) etkinlikler/red paketleri oluşturma ve fonlama; (b) etkinlik kurallarını belirleme (toplam miktar, kota, bireysel limitler, geçerli süre, dağıtım algoritmaları, görev koşulları, şifreler, planlı açılış, kapma vb.); (c) katılımcıların etkinlik koşullarını karşılayıp karşılamadığını doğrulama; (d) atanan miktarları Off-chain kayıtlarında işaretleme, dağıtma ve kilitleme; (e) nitelikli katılımcıların talep üzerine gerçek on-chain çekimlerini tetiklemesine izin verme; (f) lider tabloları, istatistikler ve performans gösterimleri oluşturma.",
+      "İşlem süreci şu şekildedir: İnisiyatör belirtilen moonpacket adresine varlıkları şarj ettiğinde, karşılık gelen miktar 'bu etkinlikte dağıtım için mevcut varlıklar' olarak Off-chain kayıtlarında işaretlenecektir; etkinlik süresi boyunca, sistem yalnızca Off-chain'de miktarları işaretleyecek veya bölecek, herhangi bir bireyin cüzdanına doğrudan on-chain işlemler garanti edilmeyecektir; yalnızca nitelikli katılımcılar talep ettiğinde ve teknik ile uyum değerlendirmelerini geçtiğinde, moonpacket gerçek on-chain transferlerini başlatacaktır.",
+      "Kullanıcılar açıkça kabul eder: Off-chain kayıtları yalnızca moonpacket'in iç muhasebesi ve ilgileri göstermek içindir ve varlıkların yasal nihai mülkiyetini temsil etmez; nihai talep hakkı gerçek tamamlanmış on-chain transferlerine dayanır."
+    ],
+    "features": [
+      "moonpacket, güvenlik, operasyonel veya uyum ihtiyaçları için belirli işlevleri veya etkinlik türlerini herhangi bir zamanda ayarlama, askıya alma, sınırlandırma veya sonlandırma hakkına sahiptir; ayarlama, makul teknik, risk, uyum veya ticari değerlendirmelere dayanıyorsa, bu gibi durumlar moonpacket'in ihlali sayılmaz ve herhangi bir tazminat veya diğer sorumluluklardan sorumlu değildir.",
+      "moonpacket, bu hizmeti küçük miktarlarla birden fazla kez kullanmanızı şiddetle tavsiye eder; her yeniden yükleme veya dağıtım için miktar, 100 USDT eşdeğerini aşmamalıdır ve Off-chain kayıtlarında büyük miktarlarda varlık biriktirilmemesi önerilmektedir."
+    ],
+    "cloudWallet": [
+      "Yayıcı, etkinlik koşullarını (toplam miktar, dağıtım kuralları, geçerlilik süresi ve ücretler vb.) arayüzde onaylayıp gönderdiğinde, belirsiz katılımcılara bir hediye vaadini oluşturur. Bu vaad, gönderildiği anda yürürlüğe girer ve \"geri alınamaz ve geri döndürülemez\" bir niteliğe sahiptir; yayıcı \"fikrimi değiştirdim\" veya \"belirli bir katılımcıyı tanımıyorum\" diyerek durmasını talep edemez.",
+      "Yukarıda belirtilen hediye vaadini yerine getirmek için, moonpacket ilgili miktarı (varlık kilidi) Off-chain kayıtlarında kilitleyebilir ve bunu \"dağıtımda bekliyor\" olarak işaretleyebilir. Bu kilit, yayıcının vaadini yerine getirmek için gereklidir ve moonpacket tarafından keyfi bir el koyma veya tahsis değildir.",
+      "Etkinlik süresi boyunca, yayıcı taahhüt edilen miktarın erken çekim talebinde bulunamaz, ayrıca varlığı yeniden kullanmak için talepte bulunamaz.",
+      "Etkinlik son tarihinden sonra: (a) Katılımcılar tarafından talep edilen (veya çekim prosedürlerini tetikleyen) bölümler ile dağıtım için ortaya çıkan ücretler iade talep edilemez; (b) Son tarihe kadar talep edilmeyen bakiyeler, moonpacket tarafından ilk şarj veya gönderim adresine veya moonpacket tarafından makul görülen orijinal adrese, gerekli ücretler düşüldükten sonra geri döndürülebilir, teknik ve uyum koşulları izin verdiği takdirde.",
+      "Herhangi bir iade, çözme, çekim veya bakiye iade süreci için, moonpacket, önce KYC/AML tamamlanmasını isteyebilir; eğer kullanıcı reddeder, geciktirir veya geçemezse, moonpacket kendi takdirine bağlı olarak işleme geciktirebilir, kısıtlayabilir veya reddedebilir; bu tür gecikmeler, kısıtlamalar veya reddetmeler, moonpacket tarafından bir sözleşme ihlali sayılmaz ve moonpacket, herhangi bir tazminat, zararın tazmini veya diğer yükümlülükleri üstlenmez.",
+      "On-chain işlemler tipik olarak geri döndürülemez, kamuya açık olarak doğrulanabilir ve değiştirilemez; moonpacket, daha önce on-chain olan işlemleri geriye dönük olarak silemez, geri alamaz veya \"geri saramaz\" ve bu tür işlemlerle ilgili herhangi bir sorumluluk taşımaz.",
+      "Henüz on-chain olmayan herhangi bir değer, puan, bakiye, ödül veya diğer göstergeler, sistem içerisindeki geçici kayıtlar ve dağıtım işaretleridir ve bu varlıkların moonpacket tarafından tutulduğunu, emanet edildiğini veya korunduğunu temsil etmez; ayrıca moonpacket'in size karşı bir teslimat yükümlülüğü, değer koruma yükümlülüğü, faiz yükümlülüğü veya zarar tazmini yükümlülüğü yoktur. moonpacket, risk yönetimi, KYC/AML, yaptırım yükümlülükleri, vergi veya diğer uyum gereksinimlerine dayalı olarak bu değerleri geciktirme, reddetme veya daha fazla vermeme kararı alabilir; bu tür kararlar, moonpacket tarafından bir sözleşme ihlali sayılmaz ve moonpacket, herhangi bir tazminat, zararın tazmini veya diğer yükümlülükleri üstlenmez.",
+      "On-chain işlem ücretlerinden tasarruf sağlamak ve toplu dağıtım/red packet dağıtım işlevleri sunmak için, moonpacket, dağıtılabilir bakiyenizi veya bekleyen tahsis miktarlarını, dahili veritabanı (Off-chain) değerlerini kullanarak geçici olarak kaydedebilir ve görüntüleyebilir. Bu değerler, sistem içindeki iç uzlaşma ve dağıtım için yalnızca kolaylaştırıcı işaretlerdir ve güven, saklama, mevduat, yetkili finansal yönetim, tahsil ve ödeme, yatırım yönetimi veya diğer düzenlemelere tabi finansal faaliyetler oluşturmaz. Bu değerler, gerçekte on-chain'e geçene, gerçekte ödenene ve kamu zincirinde doğrulanabilir olana kadar moonpacket, bunların geri dönüşü, değer koruma veya faiz yükümlülükleri için hiçbir yükümlülük taşımaz ve bu değerlerin herhangi bir belirli zamanda, herhangi bir belirli fiyatta veya herhangi bir belirli ağ maliyetiyle geri çekilebilmesi garanti edilmez."
+    ],
+    "fees": [
+      "Etkinlik oluşturma, dağıtım, doğrulama, çekim ve on-chain transfer gibi işlemlerle ilgili işlem ücretleri alınabilir. İşlem ücretlerinin türleri ve oranları, arayüzde gösterildiği gibi, etkinlik kurallarına, hesaplaşma sayfalarına, işbirliği anlaşmalarına veya diğer açık yöntemlere göre olacaktır.",
+      "İşlem ücretleri kullanıcı tarafından karşılanacak ve gönderim, dağıtım, çekim veya ilgili işlemler sırasında düşülecektir; bir kez alındığında geri ödenemez. moonpacket, bu hizmetin neden olduğu faktörlerden dolayı geri ödemelerde veya bakiyelerin iadesinde yardım etse bile, bu tür geri ödemeler veya iadeler yalnızca orijinal para biriminde orijinal adrese geri yapılacaktır; alınan işlem ücretleri veya on-chain gaz maliyetleri hariçtir.",
+      "Kullanıcı, moonpacket'in talep ettiği makul uyum bilgilerini sağlamazsa (örneğin, KYC/AML), moonpacket tamamen takdirine bağlı olarak herhangi bir geri ödeme, bakiye iadesi, çekim veya serbest bırakma taleplerini geciktirme, sınırlandırma veya reddetme hakkına sahiptir; böyle gecikmeler, sınırlamalar veya reddetmeler, moonpacket'in ihlali sayılmaz ve herhangi bir tazminat veya diğer sorumluluklardan sorumlu olmayacaktır.",
+      "Belirli red paket dağıtımını, grup dağıtımını, promosyon dağıtımını veya benzeri işlevleri kullanmayı tercih ettiğinizde, sistem, belirli bir yüzdede sistem ücretlerini (örneğin, hizmet operasyonlarını sürdürmek için moonpacket'e yaklaşık %2), ve/veya topluluk operasyon ödüllerinin belirli bir yüzdesini (örneğin, topluluk operasyonlarını desteklemek için topluluk liderlerine yaklaşık %3 geri döner) otomatik olarak hesaplayabilir ve gösterebilir. Bu işlevleri kullanarak, sistemin bu ücretleri gösterilen yüzdelere göre hesaplayıp tahsis etmesini yetkilendirmiş olursunuz. Yasal olarak yasaklanmadıkça, moonpacket bu yüzdeleri, koşulları veya ödül modellerini makul bir aralıkta değiştirme hakkına sahiptir, ek bir bildirimde bulunmaksızın."
+    ],
+    "rules": [
+      "Başlatıcı, etkinlik kurallarını doğru ve net bir şekilde belirleme yükümlülüğündedir (toplam miktar, kota, bireysel sınırlar, geçerli süre, koşullu kısıtlamalar, dağıtım algoritmaları vb. dahil) ve yanıltıcı veya yanlış bilgilerle katılımı çekmemelidir.",
+      "moonpacket, dağıtım algoritmalarını, görev doğrulamasını ve ödül sonuçlarını sunucu tarafında gerçekleştirir ve anlaşmazlıklara, uyumluluğa veya düzenleyici soruşturmalara yanıt vermek için gerekli denetim izlerini ayırır.",
+      "Eğer moonpacket, büyük ölçekli kötüye kullanımı, spam, otomatik redde (kapma), dolandırıcılığı, kara para aklamayı, terörizmin finansmanını, kumar kazançları paylaşımını, yasadışı fon toplama, yaptırım ihlali veya diğer yüksek riskli durumları makul bir şekilde şüpheleniyorsa, moonpacket anında faaliyeti askıya alabilir, dondurabilir veya ayarlayabilir ve talep edilmemiş bakiyeleri iade etme, dağıtımı reddetme veya detayları düzenleyici/adalet otoritelerine teslim etme kararı verebilir; bu tür eylemler moonpacket tarafından sözleşmenin ihlali olarak kabul edilmez ve moonpacket herhangi bir tazminat, çözüm veya diğer yükümlülüklerden sorumlu değildir."
+    ],
+    "abuse": [
+      "moonpacket açıkça belirtmektedir: 'herhangi bir hesabın mutlaka tek, doğrulanabilir bir gerçek kişiye karşılık geldiği' konusunda hiçbir yükümlülüğümüz yoktur ve bunu garanti edemeyiz. Ayrıca birden fazla paylaşılan hesabın, bir gerçek kişinin birden fazla hesaba sahip olmasının, sahte hesapların veya otomatik script/botların red paketlerini ele geçirmesinin yokluğunu da garanti edemeyiz.",
+      "Kullanıcılar (başlatıcılar ve katılımcılar dahil) açıkça anlamakta ve kabul etmektedir: Yukarıda bahsedilen durumlar, varlık tahsis sonuçlarını, dağıtım sırasını veya mevcut miktarları etkileyebilir; birden fazla hesap, sahte hesaplar, scriptler, botlar veya diğer düzensiz işlemlerden kaynaklanan herhangi bir haksızlık, uyumsuzluk veya anlaşmazlık, moonpacket tarafından sözleşme ihlali sayılmayacak ve moonpacket'in tazminat, geri ödeme veya herhangi bir diğer sorumluluğu yoktur.",
+      "Sistem güvenliği ve uyumluluğunu sağlamak için, moonpacket makul sınırlar içinde otomatik tespit, AI/modeller, kara/gri listeler, oran sınırlaması, cihaz parmak izi, IP/ASN risk değerlendirmesi ve diğer risk kontrol mekanizmaları kullanabilir ve: (a) belirli hesapların, grupların, IP'lerin, cihazların veya aktivitelerin kullanılmasını dondurabilir, askıya alabilir, engelleyebilir veya kısıtlayabilir; (b) ek bilgi talep edebilir veya KYC/AML'yi tamamlayabilir; (c) müşteri hizmetleri işlemlerini, para çekme işlemlerini, geri ödemeleri veya dondurmayı geciktirebilir veya reddedebilir; (d) şüpheli yasadışı veya yüksek riskli durumları yetkililere veya yargı organlarına bildirebilir.",
+      "moonpacket'in iç risk kontrol karar mantığını, teknik ayrıntıları veya tam denetim temelini açıklama yükümlülüğü yoktur. Yukarıda belirtilen risk kontrolü, uyumluluk veya düzenleyici otorite talepleri doğrultusunda gerçekleştirilen herhangi bir eylem, moonpacket tarafından sözleşme ihlali sayılmayacak ve moonpacket'in tazminat, geri ödeme veya diğer sorumlulukları yoktur.",
+      "Hesap Sahipliği Anlaşmazlıkları (örneğin, 'diğer bir hesabın aslında benim, lütfen bakiyeyi aktarın' iddiaları): moonpacket yalnızca orijinal hesabı, ilk bağlı e-posta adresini ve ilk bağlı cüzdan adresini hak sahipleri olarak tanımaktadır; moonpacket'in belirli bir hesaba ait herhangi bir off-chain kayıt bakiyesini, çekim haklarını veya diğer faydaları başka bir hesaba/e-posta/adrese aktarma yükümlülüğü yoktur.",
+      "Bir hesap, son girişinden itibaren ardışık on sekiz (18) ay boyunca giriş yapmamışsa, moonpacket, güvenlik, uyum ve risk yönetimi nedenleriyle geri çekilmemiş Off-chain kayıt bakiyesini donduracak ve iade, çekim veya başka herhangi bir geri dönüş yöntemini sağlamayacaktır. Bu işlem, moonpacket tarafından bir sözleşme ihlali sayılmaz ve moonpacket, herhangi bir tazminat, zararın tazmini veya diğer yükümlülükleri üstlenmez."
+    ],
+    "ip": [
+      "Bu hizmetin ve içeriğinin (kod, tasarım, logolar, ticari markalar, görseller, metin, istatistiksel sunumlar, sıralamalar, pazarlama materyalleri, belgeler ve veri derlemeleri dahil ancak bunlarla sınırlı değildir) mülkiyet hakları ve diğer hakları moonpacket'e veya meşru lisans verenlerine aittir.",
+      "Yukarıda belirtilen içeriği ticari veya ticari olmayan amaçlarla, moonpacket'ten önceden yazılı izin almadan kopyalayamaz, yayınlayamaz, değiştiremez, dağıtamaz, kiralayamaz, tersine mühendislik yapamaz veya herhangi bir şekilde kullanamazsınız.",
+      "Bu hizmete sunulan, yüklenen, bildirilen veya başka bir şekilde sağlanan herhangi bir içeriğin (örneğin, grup adları, takma adlar, avatarlar, açıklamalar, yorumlar, etkinlik sonuçları, dağıtım miktarları, sıralama verileri, üzerinde açıklayıcı ekran görüntüleri, meme, geri bildirim, sohbet kayıtları vb., topluca 'Kullanıcı İçeriği' olarak anılacaktır) gerekli izinleri veya yasal hakları elde ettiğinizi beyan edersiniz."
+    ],
+    "thirdparty": [
+      "moonpacket, üçüncü taraf hizmetlerinin sürekliliğini, zamanlamasını, doğruluğunu, mevcudiyetini, yasallığını veya güvenliğini garanti etmez; ayrıca bu üçüncü tarafların hizmetleri engellemeyeceğini, sınırlamayacağını, geciktirmeyeceğini, politika değişiklikleri yapmayacağını veya hizmetleri kesintiye uğratmayacağını garanti etmez.",
+      "Üçüncü taraf hizmetleri, ağ bağlantısı, blockchain sıkışıklığı, düğüm arızaları, engelleme, sınırlama, politika değişiklikleri, sistem bakımı veya moonpacket'e atfedilemeyen diğer nedenlerden kaynaklanan gecikmeler, başarısızlıklar, değişiklikler, kesintiler veya veri tutarsızlıkları moonpacket tarafından bir sözleşme ihlali oluşturmaz ve moonpacket, herhangi bir zarar, tazminat veya sözleşme ihlali sorumlulukları için sorumluluk taşımaz.",
+      "Üçüncü taraf politikalarında veya ortamlarında meydana gelen değişiklikler, moonpacket'in belirli işlevsellikleri ayarlamasını, askıya almasını veya durdurmasını gerektiriyorsa, moonpacket makul bir kapsamda ayarlamaları duyurabilir veya açıklayabilir, ve bu tür ayarlamalar geçerli olacak olup, moonpacket tazminat yükümlülüğünde olmayacaktır.",
+      "Üçüncü taraf politikalarının veya çevredeki değişikliklerin moonpacket'in belirli özellikleri ayarlamasını, askıya almasını veya durdurmasını gerektirmesi durumunda, moonpacket makul bir sınır içinde duyuru yapabilir veya açıklama yapabilir ve bu tür ayarlamalar geçerli olacaktır, moonpacket'in tazminat açısından herhangi bir yükümlülüğü bulunmamaktadır."
+    ],
+    "dataPrivacy": [
+      "moonpacket, verilerinizi Gizlilik Politikasına uygun olarak toplayacak, kullanacak, saklayacak, işleyecek ve paylaşacaktır.",
+      "Blok zinciri verilerinin kamuya açık, geri alınamaz ve izlenebilir doğası nedeniyle, bazı bilgiler üçüncü şahisler tarafından yeniden yapılandırılabilir veya kimliğiniz veya cüzdan adresinizle ilişkilendirilebilir; bu kamu riskini kendi başınıza anlamanız ve taşımanız gerektiğini bilmelisiniz.",
+      "Açıkça kabul ediyorsunuz ki, moonpacket, makul sınırlar içinde, yukarıda belirtilen otoritelere veya onların yetkili birimlerine gerekli bilgileri (buna Off-chain kayıtları, on-chain kanıtları, KYC/AML verileri, grup/sohbet/faaliyet günlükleri, dağıtım ve çekim işlemleri dahil ancak bunlarla sınırlı olmamak üzere) saklama, inceleme, analiz etme, dondurma ve sağlama hakkına sahiptir; bu işlemler, dolandırıcılığı önleme, kara para aklamayla mücadele, terörizmin finansmanıyla mücadele, yaptırım uyumu, vergi raporlaması, uyum denetimleri veya yetkili/yargı organlarından gelen meşru talepler doğrultusunda gerçekleştirilmektedir.",
+      "moonpacket'in düzenleyici veya yargı mercileriyle işbirliği, yasal veya uyum gerekliliği nedeniyle zorunludur ve size karşı bir ihlal veya tecavüz oluşturmaz; moonpacket, bu işbirliği eylemlerinden kaynaklanan herhangi bir zarar veya ücretten sorumlu olmayacaktır."
+    ],
+    "risk": [
+      "Kripto para biriminin, blok zincir ağlarının ve gerçek zamanlı etkileşimli dağıtım mekanizmalarının yüksek belirsizlik ve teknik riskler taşıdığını kabul eder ve kabul edersiniz; bu riskler arasında ancak bunlarla sınırlı olmamak kaydıyla fiyat dalgalanması, protokol veya düğüm hataları, hard fork'lar, geri alma işlemleri, kötü niyetli saldırılar, hizmet reddi, ağ yoğunluğu, engelleme, kısıtlama, akıllı sözleşme güvenlik açıkları, üçüncü taraf API değişiklikleri, düzenleyici politika değişiklikleri veya veri gecikmeleri bulunmaktadır.",
+      "Blok zinciri işlemleri, genellikle bir kez gönderildikten ve onaylandıktan sonra geri alınamaz; geri alınamazlık, ağ yoğunluğu, düğüm anormallikleri veya üçüncü taraf kısıtlamaları nedeniyle yaşanan gecikmeler, hatalar veya çelişkiler sizin tarafınızdan karşılanacaktır. moonpacket, sermaye koruma, değer koruma, getiri garantisi veya gerçek zamanlı erişilebilirlik konusunda garanti vermez.",
+      "Off-chain kayıtları yalnızca iç sistemin çıkar temsilciliği içindir; nihayetinde talep edilebilecek haklar, tamamlanan gerçek on-chain transferlerine dayalı olacaktır. On-chain'den önce, varlık henüz benzersiz bir tanımlanabilir gerçek kişiye ait olmayabilir ve katılım kurallarına, KYC/AML, dondurma önlemlerine veya uyum incelemelerine tabi olabilir.",
+      "moonpacket, bir banka değildir, düzenlenmiş bir ödeme kurumu değildir, bir yatırım danışmanı değildir, bir varlık yöneticisi değildir, bir sigorta şirketi değildir. moonpacket, yatırım, vergi, hukuki veya uyum tavsiyesi vermez; sınır ötesi veya yargı alanlarında yasallık, vergi raporlama yükümlülükleri ve yaptırım uyumu yükümlülükleri, değerlendirip yerine getirmeniz gereken tek sorumluluğunuzdur. Uyum hakkında endişeleriniz varsa, lütfen bu hizmeti kullanmayın.",
+      "Riskleri azaltmak için, moonpacket küçük miktarları birden fazla kez kullanmayı (tek işlem miktarı 100 USDT eşdeğerini aşmamalıdır) ve Off-chain kayıtlarında büyük varlıkların uzun süreli saklanmasından kaçınmayı önermektedir.",
+      "Anlıyorsunuz ve kabul ediyorsunuz: moonpacket sizin bankanız, trustee'niz, aracınız, borsa veya ödeme aracı kurumunuz, varlık yöneticiniz, yatırım danışmanınız, aracınız veya saklayıcınız değildir; moonpacket'in sizin için herhangi bir değeri, token'i, varlığı veya çıkarı koruma, yönetme, artırma, yatırma, değiştirme, dönüştürme, koruma veya sürdürme yükümlülüğü yoktur (ve açıkça her türlü yükümlülüğü reddeder).",
+      "Herhangi bir kripto varlık veya token'ı cüzdanınızdan veya hesabınızdan bu hizmete transfer ettiğinizde, on-chain işlemi kendisi geri alınamaz ağ ücretleri, gaz ücretleri, madenci ücretleri veya diğer benzeri maliyetler getirebilir; sonuç olarak, sisteme 'kredi' olarak kaydedilen net tutar, girdiğiniz veya gönderen arayüzünde gösterilen nominal tutardan daha az olabilir. Bu fark ilgili on-chain ağ ve altyapı tarafından tahsil edilir ve moonpacket tarafından toplanmaz; moonpacket yalnızca başarılı bir şekilde kredi edilmiş net tutarı tanır ve kaydeder, bu da sonraki iç kayıtlar ve hesaplamalar için tek temel olacaktır ve başka herhangi bir çelişkiyi moonpacket'in size borçlu olduğu anlamına gelmez."
+    ],
+    "disclaimer": [
+      "Bu hizmet 'olduğu gibi' ve 'mevcut olduğu gibi' sağlanmaktadır. Yasa tarafından izin verilen en yüksek ölçüde, moonpacket bu hizmet veya herhangi bir parçası hakkında açık veya örtülü garantiler, teminatlar veya beyanda bulunmamaktadır (anlık erişilebilirlik, doğruluk, kesintisiz işletim, hatasız performans, belirli bir amaca uygunluk, yasallık, uyum, güvenlik veya müdahaleden arınmışlık da dahil olmak üzere).",
+      "moonpacket, herhangi bir üçüncü taraf hizmetinden (örneğin, Telegram platformu, blok zinciri düğümleri, KYC/AML sağlayıcıları, ödeme veya borsa kanalları, harici görev sistemleri, bulut sağlayıcıları vb.) kaynaklanan veya dahil olan gecikmeler, hatalar, kesintiler, blokajlar veya politika değişiklikleri hakkında hiçbir garanti vermez; bunların geçerliliği, yasallığı, zamanlaması, mevcudiyeti veya güvenliği konusunda da sorumluluk almaz.",
+      "moonpacket, belirli geri bildirimler, sıralamalar, çekiliş oranları, tahsis oranları, dağıtım miktarları, gönderim sayısı, kazanma olasılıkları, airdrop uygunluğu, varlık değiştirebilirliği, nihai çekilebilirlik veya piyasa değeri hakkında açık veya örtülü garantiler, taahhütler veya yükümlülükler sunmamaktadır; arayüzde veya duyurularda gösterilen rakamlar, yüzdeler, tahminler, simülasyonlar, liderlik tabloları, ödül havuzu büyüklükleri veya 'mevcut ödüller' tanımları yalnızca referans amaçlıdır ve sizin için garanti veya hukuki olarak uygulanabilir haklar teşkil etmez.",
+      "Bu hizmetin, internet niteliğinde etkileşimli bir dağıtım/red packet dağıtım mekanizması olduğunu anlıyor ve kabul ediyorsunuz. moonpacket otomatik kötüye kullanımı, kopya hesapları, kimlik değiştirmeyi veya diğer haksız davranışları makul bir şekilde tespit etmeye çalışsa da, moonpacket: (a) her hesabın benzersiz bir doğal kişiye denk geldiğini; (b) her alıcının sizin 'hak sahibi' olarak değerlendirdiğiniz kriterleri karşıladığını; veya (c) herhangi bir tahsis sonucunun kişisel adil algınıza veya ekonomik beklentilerinize uyduğunu garanti etmez ve garantileyemez. moonpacket, 'başkalarının birden fazla hesabı ile paket kapması/robotların paket kapması' iddianız nedeniyle herhangi bir tazminat, yeniden dağıtım, geri alma veya varlık kurtarma yükümlülüğüne sahip değildir; bunun haricinde, yasal olarak zorunlu olmadıkça.",
+      "Çekim, transfer veya on-chain değer taleplerinizde, cüzdanınızda veya belirlenen ağda ek on-chain ücretler, gaz ücretleri, madenci ücretleri veya diğer ağ maliyetlerini karşılamak durumunda kalabilirsiniz. Bu tür maliyetler, belirli ağ tıkanıklığı sırasında çekmeye çalıştığınız nominal tutarı önemli ölçüde aşabilir. Bu tür maliyetler, kendi ekonomik ve risk değerlendirmelerinize göre belirlenir ve moonpacket'in hizmet ücretleri veya komisyonları değildir; yalnızca yasal olarak gerekmedikçe, moonpacket'in bu tür maliyetleri karşılama, ön ödeme, sübvansiyon, indirim, optimize etme veya iade etme gibi bir yükümlülüğü yoktur, ayrıca bu maliyetlerin çekilmeye çalıştığınız nominal tutara 'makul' ölçüde orantılı olmasını sağlama yükümlülüğü de yoktur.",
+      "Bu hizmet, kullanıcıların kendi varlıklarını oyunlaştırma veya topluluk yönetimi amaçları için tahsis etmelerine veya dağıtım taahhütünde bulunmalarına olanak tanıyan teknik, programlı otomatik bir dağıtım ve etkileşim aracını sağlamayı amaçlamaktadır. Yasal olarak gerekmedikçe, bu hizmet, bankacılık hizmetleri, mevduatlar, güvenler, saklama, vekaleten yatırımlar, yatırım tavsiyesi, fon yönetimi, döviz veya ödeme uzlaşma hizmetleri olarak kabul edilmemektedir; ayrıca kredi veya finansman ürünleri olarak da tanımlanmamalıdır."
+    ],
+    "liability": [
+      "Yasal olarak izin verilen en geniş kapsamda, moonpacket, herhangi bir dolaylı, rastgele, özel, cezai, sonuç veya türev zararlardan (kâr kaybı, gelir kaybı, kötü niyet veya itibar kaybı, veri kaybı, fırsat maliyetleri, vergi veya ceza, veya beklenen faydaların gerçekleşmemesi dahil ancak bunlarla sınırlı değil) hiçbir şekilde sorumlu olmayacaktır.",
+      "Üçüncü taraf hizmetleri, ağ bağlantıları, blok zinciri yoğunluğu, düğüm arızaları, engelleme, yavaşlatma, politika değişiklikleri, sistem bakımı veya moonpacket'e atfedilemeyen diğer faktörler nedeniyle oluşan gecikmeler, başarısızlıklar, sınırlı işlevsellik, veri tutarsızlıkları veya kesintiler, moonpacket'in ihlali olarak kabul edilmeyecek ve bu gibi durumlarda moonpacket, herhangi bir zarar, tazminat veya diğer yükümlülüklerden sorumlu olmayacaktır.",
+      "İşlem ücretleri, zincir üzerindeki gaz maliyetleri, üçüncü taraf ücretleri veya benzeri maliyetler, herhangi bir geri ödeme veya tazminat kapsamına dahil edilmemiştir."
+    ],
+    "indemnity": [
+      "Eğer siz (başlatıcılar ve katılımcılar dahil) bu şartları veya herhangi bir geçerli yasa, yaptırım, vergi yükümlülükleri veya uyum gereksinimlerini ihlal ederseniz veya herhangi bir üçüncü şahsın haklarına saldırıda bulunursanız veya dolandırıcılık, kara para aklama, terörizmin finansmanı, kumar kazançları, yasadışı fon toplama, yetkisiz kişisel veri toplama, kötü niyetli içerik yayma veya bu hizmeti kullanarak diğer yüksek riskli/yasaklanan etkinliklere katılırsanız ve bunun sonucunda moonpacket ve iştiraklerine, yöneticilerine, çalışanlarına, ortaklarına, tedarikçilerine veya uyum/hukuksal denetim kuruluşlarına karşı herhangi bir talep, zarar, ceza, sorumluluk, soruşturma, dava veya diğer masraflar (makul avukat ücretleri dahil) söz konusu olursa, yasal olarak izin verilen en geniş kapsamda onları savunmayı, tazmin etmeyi ve zararsız tutmayı kabul edersiniz.",
+      "Yukarıda belirtilen tazminat yükümlülükleri (uygulanabiliyorsa) düzenleyici otoritelerden gelen sorguları, vergi veya finansal düzenleyicilerden gelen dondurmalara ya da el koyma taleplerini, adli veya ceza işlemlerini, idari cezaları, avukat ücretlerini ve dava masraflarını içerir ve bunlarla sınırlı değildir. moonpacket'e karşı eylemleriniz sebebiyle (iddia edilen kara para aklama, dolandırıcılık, terörizmi finanse etme, vergi kaçırma, yaptırım ihlali veya yetkisiz finansal hizmetler dahil) getirilen veya talep edilen yükümlülükleri içerir.",
+      "Tazminat, tazminat, savunma ve zararsız tutma yükümlülüklerinin yalnızca moonpacket'e değil, aynı zamanda moonpacket'in üyeleri, yöneticileri, direktörleri, çalışanları, danışmanları, yüklenicileri, geliştiricileri, operasyonel ortakları, topluluk yöneticileri, acenteleri, halefleri, devralanları ve onların haleflerine (topluca 'tazminat sahipleri' olarak anılacaktır) de uygulanacağını kabul edersiniz. Yasal olarak izin verilen en geniş ölçüde, bu hizmeti kullanımınızdan, fonların kaynak veya varış yerlerinden, kırmızı paket dağıtım faaliyetlerinden, diğer kullanıcılarla olan işlemlerden veya anlaşmazlıklardan veya herhangi bir yasaya (kara para aklamayı önleme, yaptırım, vergi ve tüketim vergisi raporlama yükümlülükleri dahil fakat bunlarla sınırlı olmamak üzere) uymama nedeniyle ortaya çıkan herhangi bir talep, soruşturma, dondurma, el koyma, ceza, dava, karar, uzlaşma, avukat ücreti ve diğer masraflar için tüm tazminat sahiplerini tazmin etmeyi kabul edersiniz."
+    ],
+    "suspension": [
+      "moonpacket, güvenlik, uyum, risk yönetimi veya operasyonel ihtiyaçlara dayanarak, makul bir kapsamda, bireysel bildirim vermeksizin hızlı bir şekilde aşağıdaki işlemleri gerçekleştirebilir: (a) hizmetlerin bir kısmını veya tamamını kısıtlamak, geciktirmek veya reddetmek; (b) hesapları, bakiyeleri, özellikleri veya çekimleri donmak, tutmak, sınırlamak, ayarlamak veya durdurmak; (c) belirli hesapları, grupları, IP'leri, cihazları veya faaliyetleri engellemek; (d) ek bilgi talep etmek veya KYC/AML'yi tamamlamak. Yukarıdaki önlemler, moonpacket tarafından bir sözleşme ihlali oluşturmaz ve moonpacket, herhangi bir zarar, tazminat veya diğer yükümlülükler için sorumluluk taşımaz.",
+      "Eğer moonpacket, dolandırıcılık, kara para aklama, terörizmin finansmanı, yaptırımlardan kaçınma, yetkisiz mali hizmetler, yasal olmayan fon toplama, kumar kar paylaşımı, açıklar kullanma veya platform stabilitesine zarar verme gibi yüksek riskli veya yasadışı durumlar bulunduğunu makul bir şekilde belirlerse, moonpacket işlemleri, dağıtımları, çekimleri, iadeleri, dondurmaları veya müşteri hizmetleri işlemlerini askıya alabilir, geciktirebilir veya reddedebilir ve düzenleyici veya yargı otoritelerinden gelen soruşturmalara veya direktiflere iş birliği yapabilir.",
+      "moonpacket, hesap kayıtlarını, işlem kanıtlarını, KYC/AML verilerini ve denetimler için gerekli bilgileri makul bir süre boyunca saklama hakkına sahiptir. Hesabınızı silmek veya hizmeti bırakmak için talepte bulunsanız bile, moonpacket yasal, vergi, muhasebe ve uyum gereklilikleri gereği söz konusu verileri saklayabilir ve saklama yükümlülüğü sona erene kadar silme veya anonimleştirme işlemi yapmayabilir.",
+      "Eğer Off-chain kayıtları on-chain durumları ile tutarsızsa, moonpacket Off-chain kayıtlarını düzeltmek veya geri almak için ayarlamalar yapabilir; ancak, on-chain işlemleri iptal etmek veya geri almak mümkün değildir.",
+      "Yukarıda belirtilen genel içeriği etkilemeden, moonpacket uyum, risk yönetimi, dolandırıcılık veya istismar endişeleri doğrultusunda 'bekleyen kredi', 'kazanılacak', 'henüz on-chain değil' veya benzeri tasniflerle gösterilen herhangi bir değer/ödülü reddetme, geciktirme, geçersiz kılma, dondurma veya kalıcı olarak tutma hakkını saklı tutar. Değeri arayüzde görseniz bile, herhangi bir tazminat, faiz, kazanç, fırsat maliyetleri, cezai zararlar veya moonpacket'e karşı böyle bir ödenmemiş değerle ilgili diğer taleplerden vazgeçersiniz.",
+      "Anladığınızı ve kabul ettiğinizi onaylıyorsunuz: Arayüzde herhangi bir kırmızı paket, ödül, grup tahsisi veya diğer dağıtım talimatlarını sunduktan (veya gönderimi onayladıktan) sonra, moonpacket bu talimatlarda belirtilen alıcılar/gruplar/koşullar için tahsis yetkilendirmesini geri alınamaz ve kesin olarak kabul edecektir. Dolandırıcılık, istismar, kara para aklama, yaptırımlardan kaçınma, vergi kaçırma gibi soruşturmalar dışında, moonpacket 'tersine çevirme', 'iadeler', 'iptal', 'iyileştirme' veya benzeri eylemler için mekanizmalar sağlama yükümlülüğünde değildir; bu tür eylemler moonpacket tarafından bir ihlal oluşturmaz ve moonpacket, herhangi bir zarar, tazminat veya diğer yükümlülüklerden sorumlu tutulamaz.",
+      "Uygulanabilir yasalar, kara para aklamaya karşı düzenlemeler, yaptırımlar, vergi raporlamaları, dolandırıcılık soruşturmaları veya yüksek riskli uyarılar durumlarında, moonpacket kimlik doğrulaması tamamlamanızı (hükümet tarafından verilen kimlik, selfie, yüz veya diğer biyometrik karşılaştırmalar gibi) talep edebilir ve gerekirse ek belgeler veya daha fazla doğrulama talep edebilir. Gerekli bilgileri makul bir süre içinde sağlamazsanız ya da sağlanan bilgiler makul doğrulama kontrollerinden geçemezse, moonpacket, kendi takdirine bağlı olarak, herhangi bir çekim, çıkarım, on-chain veya redemptiyon talebini geciktirebilir, kısıtlayabilir, reddedebilir veya kalıcı olarak yasaklayabilir; bu tür eylemler moonpacket tarafından bir sözleşme ihlali oluşturmaz ve moonpacket, herhangi bir zarar, tazminat veya diğer sorumluluklar için sorumluluk taşımaz ve böyle gecikmeler veya yasaklar ile ilgili olarak herhangi bir zarar, faiz veya fırsat maliyetleri talebinden vazgeçersiniz, yasal olarak yasaklanmadıkça."
+    ],
+    "compliance": [
+      "Açıkça kabul edersiniz ki, moonpacket, uyum yükümlülükleri, kara para aklamayı önleme/terörizmi finanse etme düzenlemeleri, yaptırımlar, vergi yükümlülükleri veya denetleyici/yasal otoritelerden gelen yasal gereklilikler doğrultusunda, gerekli bilgileri (Off-chain kayıtları, on-chain izleri, KYC/AML verileri, grup/sohbet/etkinlik kayıtları, dağıtım ve çekim davranışları dahil) yetkili birimlere veya onların atadığı uyum sağlayıcılara tutabilir, dondurabilir, analiz edebilir ve sağlayabilir.",
+      "Bu tür işbirliği, moonpacket tarafından bir sözleşme ihlali veya ihlal sayılmaz ve moonpacket, herhangi bir tazminat, zararın tazmini veya diğer yükümlülükleri üstlenmez."
+    ],
+    "forceMajeure": [
+      "Doğal afetler, savaşlar, isyanlar, devlet emirleri, yaptırımlar, yeni yasalar veya düzenleyici gereklilikler, elektrik kesintileri, iletişim veya ağ kesintileri, satıcı veya bulut altyapı hataları, blok zincir protokol katmanı olayları, kötü niyetli saldırılar, salgınlar, işçi anlaşmazlıkları veya moonpacket'e atfedilemeyecek diğer nedenler nedeniyle taraflardan birinin bu şartlar uyarınca tam veya kısmi yükümlülüklerini yerine getirememe durumu veya gecikme durumunda, etkilenen taraf bu tür gecikmeler veya yerine getirememe durumları için sorumluluktan muafiyet talep edebilir; ancak taraf yine de etkiyi hafifletmek ve mümkün olan en kısa sürede eski durumuna döndürmek için makul çabalar sarf etmek zorundadır."
+    ],
+    "highRisk": [
+      "Bu hizmetin yasaklı kullanımları arasında herhangi bir yasa dışı, yüksek riskli veya yaptırıma tabi amaçlar bulunmaktadır; bunlar arasında dolandırıcılık, kara para aklama, terörizmi finanse etme, kumar kazançları, yasa dışı bağış toplama, yetkisiz finansal hizmetler, yaptırımların atlatılması veya diğer düzenleyici yasaklı davranışlar yer almaktadır.",
+      "Başlatıcı, kırmızı paketlerin, ödüllerin, promosyon fonlarının, airdrop'ların, kar paylaşımının veya benzeri dağıtımların dağıtımı konusunda yargı yetkisini veya geçerli yasal alanını onaylamalı ve bunların yasadışı fon toplama, yetkisiz finansal hizmetler, yasadışı kumar kazançları veya diğer raporlanabilir/izin gerektiren etkinlikler oluşturmamasını sağlamalıdır.",
+      "Katılımcılar, varlık almak, tutmak, çekmek veya transfer etmek için, kendi konumlarına uygulanabilir yasalarla uyumlu olduğunu ve yasadışı gelir, yaptırım ihlalleri, vergi raporlama yükümlülükleri veya diğer düzenleyici kısıtlamalar içermediğini onaylamalıdır.",
+      "moonpacket, bu hizmetin sınır ötesi veya farklı yargı alanlarında kullanımıyla ilgili herhangi bir hukuki garanti sağlamaz ve bu hizmeti herhangi bir belirli bölgede yasal olarak kullanabileceğinizi garanti etmez.",
+      "Uluslararası yaptırımlara, ihracat kontrollerine, terörizmle mücadele önlemlerine veya benzeri kısıtlamalara tabi olmadığınızı beyan ve taahhüt edersiniz ve bu hizmeti böyle kuruluşlar adına kullanmamalısınız. Bu hizmeti, herhangi bir yaptırımı, dondurmayı, el koymayı, confiscations, vergi denetimlerini, kolluk kuvveti eylemlerini veya hukuksal süreçleri aşmaya yardımcı olmak, kolaylaştırmak veya bu konuda girişimlerde bulunmak için kullanmamalısınız. moonpacket, tüm veya bir kısmı hizmetleri reddetme, sınırlama veya sona erdirme veya herhangi bir çekim, transfer veya geri ödeme isteğini önceden bildirimde bulunmaksızın geciktirme, kısıtlama veya reddetme hakkını saklı tutar; bu tür eylemler moonpacket'in ihlali olarak kabul edilmez ve moonpacket, herhangi bir zarar, tazminat veya diğer yükümlülüklerden dolayı sorumlu değildir."
+    ],
+    "tax": [
+      "Bu hizmet, üçüncü taraflarla (Telegram platformu, blockchain düğümleri, KYC/AML sağlayıcıları, ödeme veya borsa kanalları, dış görev sistemleri, bulut sağlayıcıları vb. gibi) entegre olabilir, buna dayanabilir veya bağlantı kurabilir. Bu üçüncü taraflar bağımsız olarak faaliyet gösterir ve kendi şartlarına, gizlilik politikalarına ve ulaşılabilirlik sınırlamalarına tabidir."
+    ],
+    "accuracy": [
+      "Bu hizmet tarafından sağlanan sıralamalar, istatistikler, etkinlik sonuçları, ipuçları veya kontrol paneli bilgileri, senkronizasyon gecikmeleri, üçüncü taraf bağımlılıkları, geçici kısıtlamalar veya sistem bakımından dolayı gerçek durumdan farklılık gösterebilir; her şey hala moonpacket içindeki gerçek on-chain işlem sonuçlarına veya nihai uzlaşma kayıtlarına tabidir.",
+      "moonpacket, ekranlardaki herhangi bir belirgin hatayı, sistem arızasını veya açıkça haksız sonuçları düzeltebilir ve bunları moonpacket tarafından makul bir surette belirlenen doğru durumla uyumlu hale getirmek için Off-chain kayıtları geri alabilir; ancak on-chain işlemler iptal edilemez veya geri alınamaz."
+    ],
+    "law": [
+      "Bu Şartlar ve ayrıca siz ile moonpacket arasında bu hizmetten doğan veya ilgili tüm ilişkiler (etkinlik dağıtımları, varlık işlemleri, sıralama/ödül mekanizmaları, hesap dondurmaları/suspensions, hizmeti durdurma veya sona erdirme, Off-chain kayıt ayarlamaları, veri saklama, hukuki yetkililerle işbirliği, her türlü duyuru, beyan, pazarlama, müşteri destek müdahaleleri vb.) Japon yasalarına tabi olacak ve özel uluslararası hukuku veya hukuk çatışması ilkelerini dikkate almayacaktır."
+    ],
+    "disputes": [
+      "Bu hizmetten veya bu koşullardan kaynaklanan veya bunlarla ilgili her türlü ihtilaf, anlaşmazlık, talep, dava, çözüm veya işlemler sadece Tokyo Sulh Mahkemesi'ne birinci derece mahkeme olarak başvurulacaktır. Başka herhangi bir mahkemenin, tahkim kurumunun veya yargı bölgesinin yetkisini talep etmekten feragat ediyorsunuz; bu durum daha uygun veya uygun görünebilir ve moonpacket'in bulunduğunuz mahkemenin yetkisine tabi olamayacağı iddia edilemez.",
+      "moonpacket'in uyum yükümlülüklerine, kara para aklamayla mücadele/terör finansmanı, yaptırımlar, vergi veya düzenleyici/yargı otoritelerinden gelen meşru talepler doğrultusunda gerekli bilgileri (Off-chain kayıtları, on-chain kanıtlar, KYC/AML verileri, grup/sohbet/faaliyet günlükleri, dağıtım ve çekim işlemleri dahil) yetkili birimlere veya onların yetkili uyum sağlayıcılarına saklama, dondurma, analiz etme ve sağlama hakkına sahip olabileceğini kabul ediyorsunuz; bu tür işbirlikleri moonpacket'in bir ihlali veya tecavüzü olarak değerlendirilmez; ayrıca moonpacket bu durumdan dolayı herhangi bir tazminat, geri ödeme veya diğer sorumluluklar üstlenmeyecektir."
+    ],
+    "contact": [
+      "Bu anlaşmayla ilgili konular için lütfen moonpacket ile müşteri hizmetleri botu veya arayüzde gösterilen iletişim kanalları aracılığıyla iletişime geçin. Veri koruma veya gizlilik talepleri için lütfen Gizlilik Politikasında belirtilen iletişim penceresine ulaşın."
+    ],
+    "changes": [
+      "moonpacket, teknik, risk yönetimi, uyum veya iş nedenlerine bağlı olarak bu şartları ve ilgili politikaları herhangi bir zamanda revize edebilir. Revize edilmiş sürüm, yayımlandığında yürürlüğe girecek ve en güncel geçerli sürüm olarak kabul edilecektir. Yayınlandıktan sonra bu hizmete erişmeye veya kullanmaya devam ederek, güncellenmiş içeriği kabul etmiş sayılırsınız; kabul etmediğiniz takdirde, tek çareniz bu hizmeti derhal kullanmayı bırakmaktır."
+    ],
+    "serviceChanges": {
+      "title": "Hizmet ayarlamaları ve koşullar güncellemeleri",
+      "body": [
+        "moonpacket, tek taraflı takdirine bağlı olarak, bu hizmetin tamamını veya bir kısmını (kırmızı paketler/ödüller hesaplama yöntemi, bekletme süreleri, dağıtım koşulları, liderlik tablosu kuralları, işlem ücretleri, mevcut özellikler, arayüzler, API'ler, eklenti entegrasyonları, etkinlik eşiklerinin vb. dahil, ancak bunlarla sınırlı olmamak kaydıyla) değiştirebilir, yerelleştirebilir, ayarlayabilir, askıya alabilir, kısıtlayabilir, güncelleyebilir veya sonlandırabilir ve tüm ya da bir kısmını her an çevrimdışı alabilir; moonpacket belirli hizmetleri veya özellikleri kalıcı olarak sürdürme yükümlülüğü altında değildir.",
+        "moonpacket, belli kullanıcılar veya gruplara hizmet vermeyi reddetmek veya askıya almak amacıyla risk yönetimi, uyum incelemesi, teknik veya iş gerekçeleri ile işlevselliklerini ve izinlerini (buzlama, askıya alma, engelleme, bağlantıları önleme veya belirli sohbet gruplarını veya hesapları engelleme) sınırlayabilir. Yasal gereklilikler dışında, moonpacket bu hizmetin sağlanamamasının, ayarlamalarının, askıya alınmasının veya reddedilmesinin herhangi bir zarara, kayba veya maliyete ilişkin yükümlülüğü yoktur."
+      ]
+    },
+    "userContent": {
+      "title": "Kullanıcı içeriği ve genel gösterim yetkisi",
+      "body": [
+        "Bu hizmeti kullanırken moonpacket'e sağladığınız, yüklediğiniz, bildirdiğiniz veya başka bir şekilde erişilebilir hale getirdiğiniz herhangi bir içerik, veri, ad, takma ad, grup adı, grup avatarı, grup tanımı, sohbet odası bilgileri, sıralama verileri, katkı miktarı, Red Packet toplamı, şanslı ödül kayıtları, yorumlar, yanıtlar, meme, çıkartmalar, metin veya diğer bilgiler (toplu olarak 'Kullanıcı İçeriği' olarak anılacaktır) moonpacket tarafından bu hizmetin iç veya kamuya açık alanlarında görüntülenebilir, sıralanabilir, derecelendirilebilir, sayılabilir, duyurulabilir, ekran görüntüsü alınabilir, çoğaltılabilir, dağıtılabilir, halka açık olarak iletilebilir, kamuya açık olarak sergilenebilir, uyarlanabilir ve pazarlama ve operasyonel amaçlar için (örneğin, popüler grupları sergileme, Red Packet dağıtım sıralamaları, şanslı alıcılar, etkinlik başarı incelemeleri vb.) kullanılabilir.",
+        "moonpacket'in belirli kullanıcı içeriğinin yasaları ihlal edebileceğinden, üçüncü şahıs haklarını ihlal edebileceğinden, dolandırıcılık/para aklama/terör finansmanı/şans oyunu kazanç paylaşımı/yasa dışı bağış toplama/kişisel verilerin izinsiz toplanması ve diğer yüksek riskli davranışlarla ilgili olabileceğinden makul bir şekilde şüphelenmesi durumunda, moonpacket bu tür içeriği kaldırabilir, gizleyebilir, görüntülenmesini sınırlayabilir, yayından kaldırabilir veya engelleyebilir. Ayrıca ilgili hesaplara veya gruplara erişimi dondurabilir, askıya alabilir veya sonlandırabilir ve gerekli bilgileri grup yöneticilerine, platform sağlayıcılarına, düzenleyici otoritelere veya yargı organlarına sağlayabilir. moonpacket bu tür eylemlerden doğan herhangi bir zarardan, kâr kaybından, itibar zararından veya diğer taleplerden sorumluluk kabul etmez."
+      ]
+    },
+    "liabilityCap": {
+      "title": "Sorumluluk Sınırlaması ve Tazminat Tavanı",
+      "body": [
+        "Yasaların izin verdiği en üst düzeyde, moonpacket'in bu hizmeti kullanmanızdan kaynaklanan her türlü talep, zarar veya yükümlülükle ilgili toplam sorumluluğu, yalnızca (A) bu talep ile ilgili olarak sizin tarafınızdan moonpacket'e ödenen ve moonpacket tarafından son otuz (30) gün içinde onaylanan toplam ücretler, veya (B) elli (50) doların eşdeğeri ile sınırlı olacaktır; hangisi daha düşükse. Bu sınır, sizin tek ve münhasır tazminatınızdır, tazminatınız zararlarınızı karşılamasa bile.",
+        "Yukarıdaki sınır yalnızca moonpacket'in yükümlülük taşıması gerektiği ölçüde geçerlidir ve sizin tek ve münhasır tazminatınızdır; bu zorunlu kapsamın ötesinde, moonpacket herhangi bir anlaşmazlık veya talep için sorumluluğu kabul etmez veya garanti etmez."
+      ]
+    },
+    "governingLaw": {
+      "title": "Geçerli yasalar ve uyuşmazlık çözümü.",
+      "body": [
+        "Bu şartlar ve moonpacket ile sizin aranızdaki bu hizmetten doğan tüm ilişkiler, Japonya yasalarına tabidir ve buna göre yorumlanacaktır ancak çatışan hukuk ilkelerinin uygulanmasını içermeyecektir.",
+        "Bu hizmetten veya bu şartlardan doğan veya ilişkili herhangi bir uyuşmazlık, talep, dava, çözüm veya işlem, ilk olarak Japonya'daki Tokyo Bölge Mahkemesi'nin münhasır yargı yetkisine tabi olacaktır. Başka bir mahkeme veya yargı yerinin daha uygun veya uygun olduğunu iddia etme haklarından vazgeçersiniz ve moonpacket'in yerel mahkemelerinizin yargı yetkisine tabi olduğunu öne sürmeyeceksiniz.",
+        "moonpacket, yükümlülüklerini, kara para aklama/terörizmi finansmanı, yaptırımlar, vergi veya yasal otoritelerin meşru talepleri uyarınca gerekli bilgileri (Off-chain kayıtlar, on-chain kanıtlar, KYC/AML verileri, grup/görüşme/faaliyet kayıtları ve dağıtım ile çekim faaliyetleri dahil) yetkili kuruluşlara veya uyum tedarikçilerine tutma, dondurma, analiz etme ve sağlama hakkına sahiptir; bu tür eylemler moonpacket tarafından sözleşmenin ihlali veya ihlal olarak kabul edilmez ve bu tür eylemlerden doğan zararlardan veya maliyetlerden sorumlu değildir.",
+        "Siz ve moonpacket, herhangi bir iddianın veya sınıf eylemlerine, grup eylemlerine, toplu eylemlere, birleşik eylemlere veya benzeri işlemlere katılma hakkının olmadığı konusunda anlaşır; bu tür işlemlerde davacı, üye, temsilci veya vekil olma haklarınızdan feragat edersiniz, yasaların yasaklamadığı durumlar hariç.",
+        "Bu şartların herhangi bir hükmü, yetkili bir mahkeme tarafından geçersiz, yasa dışı veya uygulanamaz olarak kabul edilirse, kalan hükümler tam olarak yasaları izin verdiği ölçüde geçerli olmaya devam edecektir (ayırma).",
+        "Bu şartlar, sizin ve moonpacket arasındaki bu hizmet ile ilgili tam anlaşmayı oluşturmaktadır ve taraflar arasındaki daha önceki sözlü veya yazılı iletişimleri, duyuruları, pazarlama tanımlarını, topluluk paylaşımlarını, destek yanıtlarını veya vaatleri (varsa) geçersiz kılmaktadır. moonpacket tarafından yazılı olarak açıkça belirtilmediği sürece, başka beyanlar, SSS, pazarlama materyalleri, sohbet kayıtları veya sözlü açıklamalar, moonpacket'i hukuki anlamda bağlayıcı bir garanti veya taahhüt olarak oluşturmaz.",
+        "moonpacket, önceden onayınıza gerek duymadan, bu şartların veya hak ve yükümlülüklerinin tamamının veya bir kısmının yerine getirilmesi veya işlenmesi için yan kuruluşlar, yükleniciler, devralanlar, operasyonel halefler veya diğer üçüncü şahıslarla devretme, transfer etme, delegasyon yapma veya başka bir şekilde anlaşma yapabilir ve bu üçüncü şahıslar benzer koşullar altında hizmeti sürdürebilir, ayarlayabilir veya sonlandırabilir; moonpacket'in önceden yazılı onayı olmadan, bu şartlar uyarınca hiçbir hak veya yükümlülüğü devredemez veya transfer edemezsiniz.",
+        "Yasal olarak aksi gerektirilmediği sürece, moonpacket'in bu şartlarda verilen herhangi bir hakkı, çözümü veya talebi belirli bir zamanda kullanmaması veya bu hakları hemen kullanmaması, o hakkın feragat edildiği anlamına gelmez ve gelecekte o hakkı kullanma yeteneğini etkilemez.",
+        "Bu şartların sona ermesinden sonra da, doğası gereği hayatta kalması gereken hükümler, ücretler ve işlem masrafları ile ilgili yükümlülükler, feragatler, sorumluluk sınırlamaları, tazminat tavanları, vergi yükümlülükleri, fikri mülkiyet hükümleri, yasaklamalar, uyum ve işbirliği yükümlülükleri, yürürlükteki hukukun ve yargı yetkisinin hükümleri, yanı sıra geçerli tazminat yükümlülükleri gibi yükümlülükler, bu hizmeti kullanmayı bıraktıktan sonra veya bu şartların herhangi bir nedenle sona ermesi halinde sizden etkili ve bağlayıcı olmaya devam edecektir."
+      ]
+    },
+    "appendix": [
+      "\"Geri döndürülemez\": On-chain işlemleri ifade eder; bir kez onaylandığında (on-chain), genellikle geri alınamaz, kurtarılamaz veya silinemez ve kayıtları kamu blockchain keşiflerinde kalıcı olarak doğrulanabilir.",
+      "\"Geri alınamaz\": Dağıtım koşullarını onayladıktan sonra yayıcı tarafından belirsiz katılımcılara yapılan bir hediye vaadini ifade eder; bu, etkinlik sırasında keyfi olarak geri alınamaz veya durdurulamaz; bunu \"pişmanlık\" gerekçesiyle iade talep edemez; bu, \"geri döndürülemez\" on-chain işlemlerden farklı bir kavramdır.",
+      "\"Makul bir kapsama dahil\": moonpacket tarafından operasyonel güvenliği, uyum gereksinimlerini, kara para aklamayı önleme/terörizmi finanse etme, yaptırım uyumunu, vergi uyumunu, kullanıcı korumasını veya risk yönetimi hedeflerini sağlamak için, yasal, düzenleyici yükümlülükler ve mevcut kaynaklar dahilinde, ticari olarak makul eylemleri ifade eder; bunlar, dondurma, kısıtlama, geciktirme, ayarlama, tutma, yetkililerle iş birliği yapma veya belirli işlevleri sağlamamayı içerebilir."
+    ]
+  }
+}

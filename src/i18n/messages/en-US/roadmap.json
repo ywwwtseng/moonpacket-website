@@ -1,0 +1,48 @@
+{
+  "title": "Product roadmap",
+  "updated": "Update (tokens begin distribution after progress bar is full)",
+  "bucket": {
+    "progress": "Progress"
+  },
+  "status": {
+    "shipping": "In development",
+    "planned": "Planned",
+    "research": "In research",
+    "live": "Launched"
+  },
+  "accept": "Acceptance Criteria",
+  "lanes": {
+    "build": "Developed Products",
+    "trust": "Trust, Compliance, and Security",
+    "growth": "Growth",
+    "token": "moonini Token"
+  },
+  "progressLabel": "Progress",
+  "phase": {
+    "open-beta": {
+      "title": "Open Beta launch (internal community red packet)",
+      "desc": "Pilot within the community, conditionally open community integration; Test basic distribution/claiming and user experience",
+      "accept": "Clear rules, smooth claiming, key funnels are usable"
+    },
+    "multi-chain": {
+      "title": "Continuous optimization: Multi-chain + Points mechanism + Anti-bot",
+      "desc": "Extension to multi-chain support beyond Solana; Points calculation and visualization; Anti-bot strategy and A/B testing",
+      "accept": "Multi-chain asset identification is correct; Points and risk control are functioning normally"
+    },
+    "compliance": {
+      "title": "Risk Control and Compliance",
+      "desc": "KYC/AML, Audit and Security Mechanisms; Abnormal Review Process.",
+      "accept": "Enable KYC if necessary; AML rules are auditable; strong security logs"
+    },
+    "growth-integration": {
+      "title": "Growth: Community integration + API/Webhook + Ecosystem collaboration",
+      "desc": "Integration guide, Event Webhook, Query API; Partner integration process",
+      "accept": "Integration guide approved; Webhook/Query API is stable"
+    },
+    "token-moonini": {
+      "title": "Points redeemable for tokens: moonini",
+      "desc": "Completion of moonini token distribution and exchange mechanism",
+      "accept": "Rules for converting points into tokens implemented; Risk control/compliance checks passed"
+    }
+  }
+}

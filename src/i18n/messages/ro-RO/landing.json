@@ -1,0 +1,15 @@
+{
+  "hero": {
+    "headline": "moonpacket decolazează spre lună!",
+    "subheadline": "Telegram TON, meme, pachet roșu USDT｜Cel mai bun bot de pachet roșu pentru proiectele meme și administratorii grupurilor Telegram pentru a atrage utilizatori noi și a spori implicarea.",
+    "cta_primary": "Activează moonpacket",
+    "cta_secondary": "Cum să integrezi"
+  },
+  "metrics": {
+    "title": "Tokenuri și statistici",
+    "connected_groups": "Grupuri conectate",
+    "total_packets_sent": "Pachet roșu trimis",
+    "total_claimed": "Suma totală colectată (USDT)",
+    "data_stale": "Datele pot fi învechite"
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "title": "moonpacket — εύκολα, ασφαλή και γρήγορα κόκκινα πακέτα κρύπτο",
+  "description": "moonpacket encrypted red packet robot | Υποστηρίζει USDT, TON, SOL, ETH. Στείλτε εύκολα red packets, λάβετε άμεσα, ασφαλώς χωρίς φύλαξη, ιδανικό για ανάπτυξη κοινότητας Telegram και αύξηση συμμετοχής.",
+  "nav": {
+    "home": "Αρχική",
+    "about": "Σχετικά",
+    "pricing": "Τιμολόγηση",
+    "team": "Ομάδα",
+    "blog": "Ιστολόγιο",
+    "faq": "Συχνές Ερωτήσεις",
+    "contact": "Επικοινωνήστε μαζί μας",
+    "careers": "Καριέρες",
+    "claim": "Αίτημα red packet",
+    "send": "Στείλτε Κόκκινο Φάκελο",
+    "api": "Τεκμηρίωση API"
+  },
+  "hero": {
+    "title": "Cryptocurrency red packets, διαθέσιμα για όλους",
+    "subtitle": "Βελτιώστε την εμπειρία της κοινότητάς σας με απλές, παγκόσμιες υπηρεσίες.",
+    "lead": "Telegram TON, meme, USDT red packets | Ο καλύτερος bot red packet για έργα meme token και ιδιοκτήτες ομάδων Telegram για να αποκτήσουν νέους χρήστες και να αυξήσουν τη συμμετοχή.",
+    "cta_primary": "Ενεργοποίηση moonpacket Τώρα",
+    "cta_secondary": "Πώς να Ενσωματώσετε με Ομάδες",
+    "ctaPrimaryLabel": "Εκκίνηση moonpacket",
+    "ctaSecondaryLabel": "Πώς να Συνδεθείτε",
+    "ctaPrimaryHref": "https://t.me/MoonPackageDevBot",
+    "ctaSecondaryHref": "/zh-TW/integration",
+    "desc": "Ο καλύτερος bot red packet για έργα meme token και ιδιοκτήτες ομάδων Telegram για να αποκτήσουν νέους χρήστες και να αυξήσουν τη συμμετοχή.",
+    "headline_line1": "moonpacket",
+    "headline_line2": "Ξεκινήστε, στοχεύστε στο φεγγάρι.",
+    "tagline": "Telegram TON, meme, και USDT red packets για marketing και διατήρηση κοινότητας. Ένας bot red packet σχεδιασμένος για διαχειριστές για να αυξήσουν τη συμμετοχή, να προσελκύσουν νέα μέλη και να ενθαρρύνουν την αλληλεπίδραση."
+  },
+  "features": {
+    "f1": "Γρήγορη εγγραφή",
+    "f2": "Παγκόσμια τοπικοποίηση",
+    "f3": "Ασφάλεια χωρίς φύλαξη",
+    "title": "Κύριες δυνατότητες",
+    "items": "__TODO_TRANSLATE_zh-CN__"
+  },
+  "sections": {
+    "waterfall_title": "καταρράκτης κόκκινων πακέτων",
+    "features_heading": "Κορυφαία Χαρακτηριστικά",
+    "features_subtitle": "Μπορείτε να αποκτήσετε",
+    "pricing_heading": "Σχέδια και Τιμολόγηση",
+    "testimonials_heading": "Κριτικές Χρηστών",
+    "tokens_heading": "Tokens και Στατιστικά"
+  },
+  "footer": {
+    "rights": "",
+    "privacy": "Πολιτική απορρήτου",
+    "terms": "Όροι Παροχής Υπηρεσιών",
+    "social": {
+      "telegram_group": "Ομάδα Telegram",
+      "telegram_channel": "Κανάλι Telegram",
+      "x": "X",
+      "youtube": "YouTube"
+    },
+    "copyright": "Πνευματική ιδιοκτησία."
+  },
+  "a11y": {
+    "skip_to_main": "Μετάβαση στο κύριο περιεχόμενο",
+    "language_menu": "Άνοιγμα μενού γλώσσας",
+    "language": "Γλώσσα"
+  },
+  "metrics": {
+    "heading": "Δείκτες σε πραγματικό χρόνο",
+    "price_btc": "Τιμή BTC",
+    "total_sent": "Συνολικό Ποσό Αποσταλθέν",
+    "total_claimed_amount": "Συνολικό Ποσό Ληφθέν (USDT)",
+    "title": "Tokens και Στατιστικά",
+    "groups": "Συνδεδεμένες Ομάδες",
+    "sent": "Απεστάλη το Κόκκινο Πακέτο",
+    "claimed": "Συνολικό Ποσό Απαιτηθέν",
+    "groupsLinkLabel": "Συνδεδεμένες Ομάδες red packet",
+    "sort": {
+      "latest": "Τελευταία",
+      "least": "Ελάχιστοι Συμμετέχοντες",
+      "most": "Μέγιστοι Συμμετέχοντες",
+      "oldest": "Παλαιότερος"
+    }
+  },
+  "errors": {
+    "stale": "Δεδομένα μπορεί να είναι παλιά",
+    "not_found": "Η σελίδα δεν βρέθηκε",
+    "not_found_desc": "Λυπάμαι, δεν μπορέσαμε να βρούμε αυτή τη σελίδα, ή έχει διαγραφεί."
+  },
+  "pricing": {
+    "starter": "Βασικό Σχέδιο",
+    "pro": "Επαγγελματικές Υπηρεσίες",
+    "enterprise": "Σχέδιο Επιχείρησης",
+    "price_free": "Δωρεάν",
+    "price_19": "19 δολάρια",
+    "price_contact": "Επικοινωνήστε μαζί μας",
+    "sla_support": "SLA και Υποστήριξη",
+    "bullets": {
+      "starter": {
+        "0": "Βασικά Χαρακτηριστικά",
+        "1": "Υποστήριξη Κοινότητας"
+      },
+      "pro": {
+        "0": "Περιλαμβάνει Βασικό Σχέδιο",
+        "1": "Προχωρημένη Τοπικοποίηση"
+      },
+      "enterprise": {
+        "0": "SLA και Υποστήριξη",
+        "1": "Προσαρμοσμένη Ενσωμάτωση"
+      }
+    }
+  },
+  "story": {
+    "belief_title": "🌕 Η ενέργεια του φεγγαριού και η πίστη στα κόκκινα πακέτα",
+    "disclaimer_title": "⚠️ Αποποίηση ευθυνών",
+    "future_title": "💫 Μελλοντικές εφαρμογές",
+    "schedule_title": "Κανόνες απελευθέρωσης token",
+    "secrets_title": "🌸 Το μυστικό του",
+    "title": "🌕 Η ιστορία του moonini"
+  },
+  "waterfall": {
+    "claimed": "Αξίωση",
+    "progress": "Αξιώθηκε",
+    "sent_from": "Αποστολή ομάδας:",
+    "total": "Συνολικό ποσό"
+  },
+  "seo": {
+    "og": {
+      "image": "/images/og-default.png",
+      "type": "website"
+    },
+    "routes": {
+      "claim": {
+        "description": "Η δυνατότητα red packet του moonpacket υποστηρίζει πολλαπλά tokens, συμπεριλαμβανομένων των SOL και USDT, και μπορεί να διανείμει τα δικά σας meme tokens, κάνοντάς την ένα ισχυρό εργαλείο για την προσέλκυση νέων χρηστών και την αύξηση της δραστηριότητας σε ομάδες Telegram.",
+        "title": "Red Packet Telegram mini APP — moonpacket"
+      },
+      "privacy": {
+        "description": "Η Πολιτική Απορρήτου της moonpacket εξηγεί πώς συλλέγουμε, χρησιμοποιούμε και προστατεύουμε τα προσωπικά σας δεδομένα.",
+        "title": "Πολιτική Απορρήτου — moonpacket"
+      },
+      "send": {
+        "description": "Χρησιμοποιήστε το moonpacket για να στείλετε red packets, να ορίσετε προϋποθέσεις εργασιών και API integrations ώστε να προσελκύσετε αποτελεσματικά νέους χρήστες και να ενισχύσετε την εμπλοκή πολύτιμων χρηστών.",
+        "title": "Στείλτε red packet — moonpacket"
+      },
+      "terms": {
+        "description": "Όροι Χρήσης moonpacket, κατευθυντήριες γραμμές χρήσης και νομικές δηλώσεις.",
+        "title": "Όροι Χρήσης — moonpacket"
+      }
+    },
+    "site": {
+      "description": "moonpacket Cryptocurrency red packet Telegram Bot | Υποστηρίζει USDT, TON, SOL, ETH, DOGE. Μπορείτε επίσης να στείλετε red packets με το δικό σας meme token, ιδανικό για την προσέλκυση νέων χρηστών, τη δημιουργία ζωντανής ατμόσφαιρας και την αύξηση της εμπλοκής στις κοινότητες του Telegram.",
+      "site_name": "moonpacket",
+      "title": "moonpacket — red packets κρυπτονομισμάτων meme token, αφοσιωμένο πορτοφόλι red packet"
+    }
+  }
+}

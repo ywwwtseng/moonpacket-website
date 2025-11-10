@@ -1,0 +1,171 @@
+{
+  "title": "",
+  "hero": {
+    "api_demo_label": "Demonstração API",
+    "api_get": "https://t.me/MoonPackageDevBot",
+    "response_label": "Resposta:",
+    "json": "{ \"data\": { \"level\": 100, \"status\": \"active\", \"is_blacklist\": false } } {, \"data\": {, \"level\": 100,, \"status\": \"active\",, \"is_blacklist\": false, }",
+    "title": "Atraia novos usuários, aumente a atividade",
+    "lead": "A parte do projeto pode definir condições específicas:",
+    "points": {
+      "0": "",
+      "1": "",
+      "2": ""
+    },
+    "note": "Usuários que atenderem às condições podem reclamar o Pacote Vermelho",
+    "subtitle": "Crie um evento de Pacote Vermelho personalizado para sua comunidade",
+    "desc": "Configuração fácil, lançamento rápido, ative sua comunidade!",
+    "ctaPrimaryLabel": "Comece Agora",
+    "ctaPrimaryHref": "https://t.me/MoonPackageDevBot",
+    "ctaSecondaryLabel": "Ver Exemplo",
+    "ctaSecondaryHref": "/zh-TW/claim/",
+    "api_demo_code": "{\n\"data\": {\n\"level\": {\n\"gt\": 99\n},\n\"status\": {\n\"eq\": \"active\"\n},\n\"is_blacklist\": {\n\"eq\": false\n}\n}\n}",
+    "api_demo_title": "GET [api_url]?api_key=[api_key]&user_id=[user_id]",
+    "use_cases_items": {
+      "0": "A parte do projeto pode definir condições de tarefa:",
+      "1": "Junte-se ao grupo / Siga o canal",
+      "2": "Senha correta",
+      "3": "API personalizada da parte do projeto",
+      "4": "Somente usuários que atenderem às condições podem reclamar, envie o Pacote Vermelho para usuários valiosos."
+    },
+    "use_cases_title": "Atraia novos usuários・Aumente a atividade"
+  },
+  "faq": {
+    "section_1": "Começando e configurações.",
+    "q1": "Como começar?",
+    "a1": "Adicione o Robô moonpacket ao seu grupo ou canal do Telegram e configure-o como administrador.",
+    "q2": "Que preparativos são necessários antes de enviar?",
+    "a2": "Por favor, deposite os ativos que deseja distribuir primeiro (por exemplo, deposite 10 USDT para testes).",
+    "section_2": "2) Processo de Envio",
+    "q3": "Posso escolher onde enviar?",
+    "a3": "Selecione os grupos ou canais vinculados em 'Alvos de Envio' para enviar para um ou vários grupos simultaneamente.",
+    "tip": "Dica: Enviar pacotes vermelhos é adequado para interações de quebra-gelo. Você pode responder ao post do pacote vermelho para explicar o tema do jogo que deseja organizar.",
+    "section_3": "3) Problemas Técnicos",
+    "section_4": "Dados e Análise",
+    "section_5": "Suporte Técnico e Manutenção",
+    "q4": "O método de alocação pode ser personalizado?",
+    "a4": "Suporta modos de distribuição tanto aleatória quanto média.",
+    "q5": "Você pode enviar uma mensagem diretamente para o robô de atendimento ao cliente oficial @moonini_helper_bot.",
+    "a5": "Cada chave de API pode ser chamada até 60 vezes por minuto.",
+    "q6": "Como lidar com erros?",
+    "a6": "A API retornará códigos de erro detalhados e mensagens de erro.",
+    "q7": "Como monitorar a eficácia da atividade?",
+    "a7": "Fornecer dashboard de dados em tempo real:",
+    "q8": "Como são calculadas as taxas de transação?",
+    "a8": "• Taxa de serviço da plataforma: 2-5% (ajustada com base na escala de atividade)",
+    "q9": "Como garantir a segurança dos fundos?",
+    "a9": "• Arquitetura descentralizada, sem necessidade de fundos custodiados",
+    "q10": "O que fazer com os fundos restantes após o término do evento?",
+    "a10": "• Pacotes vermelhos não reclamados serão automaticamente retornados à sua carteira.",
+    "q11": "É possível realizar vários eventos ao mesmo tempo?",
+    "a11": "Sim, mas recomendamos que você:",
+    "q12": "Como lidar com reclamações de usuários?",
+    "a12": "• Forneça um canal de atendimento ao cliente dedicado",
+    "q13": "O suporte técnico está disponível?",
+    "a13": "• Suporte técnico 24/7",
+    "q14": "Como otimizar a eficácia do evento?",
+    "a14": "• Ajuste a estratégia de atividade com base nos dados",
+    "q9_passcode": "O que é uma frase-secreta? Em quais cenários é adequada?",
+    "a9_passcode": "Os jogadores devem obter a frase secreta de canais externos e retornar a esta página para inseri-la corretamente para reivindicar. Práticas comuns:",
+    "passcode_scenarios": {
+      "0": "Divida a frase secreta de 6 dígitos em vídeos longos do YouTube para incentivar a visualização completa.",
+      "1": "Postagens no X.com (Twitter) ou Threads sugerindo a frase secreta para aumentar a interação.",
+      "2": "Compartilhe a frase secreta apenas verbalmente durante transmissões ao vivo para guiar o público presente.",
+      "3": "Grupos privados/pagos oferecem frases secretas exclusivas para garantir que os benefícios sejam dados apenas aos membros principais."
+    },
+    "q10_api": "Posso usar minha própria API para determinar a elegibilidade dos participantes?",
+    "a10_api": "Sim. O moonpacket chamará a API de leitura fornecida para verificação antes que o usuário a reclame. Basta configurar o api_url e api_key (configurações de domínio opcionais disponíveis) no backend.",
+    "api_condition_title": "Declaração de condição (sem user_id)",
+    "api_response_label": "Retornar:",
+    "api_operators_label": "Operador:",
+    "api_operators_desc": "eq (pode corresponder a qualquer tipo), gt/lt/gte/lte (deve ser numérico)",
+    "api_user_query_title": "Consulta do Usuário (incluindo user_id)",
+    "api_logic_desc": "moonpacket utiliza a 'Declaração de condição' como um limite para comparar com o valor real da 'Consulta do Usuário'; se corresponder, é aprovada, caso contrário, não pode ser reivindicada.",
+    "api_security_title": "Recomendações de Segurança",
+    "api_security_desc": "Utilize endpoints somente leitura, habilite api_key e permita restrições de domínio; para cross-domain, é recomendado usar Cloudflare Workers para trânsito e limitação de taxa.",
+    "q12_antibot": "Como prevenir trapaças e atividades de bot?",
+    "a12_antibot_items": {
+      "0": "Frequência de comportamento e detecção de dispositivo/IP",
+      "1": "Conta unicamente vinculada à carteira",
+      "2": "Código de verificação de saque",
+      "3": "Revisão preliminar de controle de risco AI; pode realizar autenticação biométrica de terceiros, reconhecimento facial e verificação de documentos, se necessário"
+    },
+    "q13_records": "Onde posso verificar os registros das minhas mensagens enviadas e o número de destinatários?",
+    "a13_records": "Verifique 'Pacotes Vermelhos que Enviei' na sua página pessoal para visualizar o número de reclamantes, quantidades restantes e total gasto para cada sessão; se ativado, relatórios também podem ser baixados.",
+    "q1_body": {
+      "0": "Esta é uma ferramenta para ajudar equipes de projetos, proprietários de grupos ou gerentes de comunidade a distribuir rapidamente Pacotes Vermelhos em grupos do Telegram.\nEspecificamente voltada para a distribuição de moedas meme para incentivar membros da comunidade,\nos principais usos incluem: estimular atividade, atrair novos membros e realizar atividades promocionais.\nVocê pode usar não apenas suas moedas meme emitidas para distribuir Pacotes Vermelhos, mas também tokens convencionais como USDT, TRX, SOL, entre outros.\nAtravés do moonpacket, você pode exigir que os usuários completem tarefas simples e configurar ainda mais através da API, permitindo que os proprietários de grupos 'personalizem as regras de distribuição' e 'definam condições de reivindicação', verificando com sua própria API.",
+      "1": "Dica: Distribuir Pacotes Vermelhos do moonpacket permite que você descubra membros verdadeiramente valiosos da comunidade. Você pode definir condições de reivindicação em cada Pacote Vermelho, fornecendo aos jogadores diferentes tarefas a serem concluídas."
+    },
+    "q1_title": "1) O que é o recurso de Pacote Vermelho do moonpacket?",
+    "q2_body": {
+      "0": "Mensagem de boas-vindas para novos membros após a adesão (realizando as tarefas básicas de entrada)",
+      "1": "Interação em tempo real durante transmissões ao vivo / AMAs / eventos (apenas membros focados no evento podem receber a senha e qualificar-se para o Pacote Vermelho)",
+      "2": "Promoções de marketing dentro do grupo, loterias, tarefas de slogan, nível de jogo, reembolso de recargas (por exemplo, apenas jogadores que atingirem um certo nível no jogo ou recarregarem uma certa quantia são elegíveis para receber)",
+      "3": "Recompensas por convidar amigos para entrar no grupo",
+      "4": "Promoções por tempo limitado, eventos de contagem regressiva (tarefas diárias de check-in)",
+      "5": "\"Pacote Vermelho entre grupos\": Enviar pacotes vermelhos em outros grupos (se o proprietário do grupo permitir), para promover publicidade mútua e colaboração na comunidade."
+    },
+    "q2_title": "2) Quando é apropriado usar o recurso de Pacote Vermelho?",
+    "q3_body": {
+      "0": "Todas as operações on-chain incorrem em uma taxa de gás. A taxa de gás é cobrada pela blockchain e não uma taxa adicional nossa.",
+      "1": "Quando você deposita tokens no pool de Pacote Vermelho, uma taxa de gás será deduzida on-chain imediatamente. O valor real que entra no pool pode ser ligeiramente menor do que o valor nominal que você inseriu (ou uma taxa de gás adicional pode ser cobrada na transferência). Isso é uma dedução normal on-chain.",
+      "2": "Ao emitir um Pacote Vermelho em 'seu grupo', o sistema cobrará automaticamente uma taxa de plataforma de 2% no momento da distribuição, que será descontada diretamente.",
+      "3": "Pacotes Vermelhos intergrupos (promovendo um Pacote Vermelho no grupo de outra pessoa) têm regras adicionais:",
+      "4": "Primeiro, o proprietário do grupo que recebe a promoção deve definir a permissão, e tokens convencionais devem ser utilizados. Pacotes Vermelhos intergrupos não aceitam moedas meme criadas por usuários, e o sistema possui um limite mínimo para os valores dos pacotes intergrupos. Se estiver abaixo do limite, o Pacote Vermelho não poderá ser estabelecido. Por favor, confirme que seu valor é suficiente antes de enviar."
+    },
+    "q3_title": "3) Custo e limite para envio de Pacotes Vermelhos",
+    "q4_body": {
+      "0": "Detectaremos ativamente comportamentos abusivos (como fraudes, lavagem de dinheiro, táticas de robô, interações de spam, etc.). Se considerado de alto risco, a conta ou os ativos podem entrar em status de 'sob revisão': saques podem ser atrasados, e a conta pode ser temporariamente blacklistada. Isso é para proteger os ativos de todos os usuários e cumprir com os requisitos regulatórios.",
+      "1": "Este é o mecanismo de controle de risco e conformidade da plataforma. Com base no controle de risco interno, requisitos de conformidade ou investigações de terceiros, podemos suspender, restringir, atrasar ou negar saques ou transferências específicos.",
+      "2": "Se você acredita que isso é um erro de julgamento, pode enviar um recurso através do bot oficial de atendimento ao cliente."
+    },
+    "q4_title": "4) Segurança, Controle de Risco e Status da Conta",
+    "q5_body": {
+      "0": "Você pode enviar uma mensagem diretamente para o bot de atendimento ao cliente oficial @moonini_helper_bot.",
+      "1": "Por favor, insira o comando /setlang na conversa (por exemplo, /setlang zh-TW ou /setlang en-US) para mudar o idioma do atendimento ao cliente.",
+      "2": "Ao relatar um problema, por favor forneça:",
+      "3": "O atendimento ao cliente só verificará dados on-chain e registros de transação. Não pediremos que você envie imagens originais ou forneça chaves privadas da carteira, mnemônicos ou frases-semente completas, nem solicitaremos que você remeta fundos para 'verificação'. O atendimento ao cliente oficial não enviará mensagens proativamente para solicitar ativos.",
+      "4": "Você também pode usar a API de consulta de autoatendimento para verificar seu status, como se sua conta é válida, se está blacklistada ou se está sob revisão. Aqui está um exemplo: se a resposta mostrar que você está is_blacklist: true ou status: \"hold\", isso significa que a conta está sob revisão de controle de risco, e saques ou distribuições podem ser suspensos. Se essa função não estiver disponível durante o período de operação de teste, por favor, envie um recurso através do bot de atendimento ao cliente e forneça o hash da transação, e iremos agilizar o processamento com base nas evidências on-chain."
+    },
+    "q5_title": "5) Atendimento ao cliente e consulta de autoatendimento",
+    "q6_body": {
+      "0": "Fornecemos um mecanismo de API para os proprietários de grupos personalizarem as condições de tarefa e regras de resgate.",
+      "1": "O que é uma frase de acesso? Quando deve ser usada? Por exemplo, quando você quiser que mais usuários visitem seu TikTok ou YouTube, ou entrem em seu grupo privado, você pode esconder a frase de acesso em vídeos ou mensagens. Os usuários precisam obter a frase de acesso no local especificado para reivindicar o Pacote Vermelho após inseri-la.",
+      "2": "Qual é o conceito de API? Como a elegibilidade é determinada?",
+      "3": "Na interface de configurações da API, primeiro precisamos informar à API as condições, referidas como 'declaração de condição' (excluindo user_id).\nExemplo: Retornar um conjunto de condições de limite, como nível, status, se está na lista negra, etc.\nmoonpacket considerará esse conjunto de condições como o limite básico.",
+      "4": "Em seguida, quando o usuário deseja receber um Pacote Vermelho, a API precisa fornecer:\n'Consulta do Usuário' (incluindo user_id).\nExemplo: Retornar o valor real desse usuário. A plataforma comparará os resultados da 'Consulta do Usuário' com o limite de 'declaração de condição' previamente definido; se corresponder, é aprovado; se não, é rejeitado.",
+      "5": "Recomendação de Segurança: Por favor, forneça apenas endpoints somente leitura e habilite o api_key juntamente com restrições de lista branca de domínio; se operações跨域 (cross-domain) forem necessárias, você pode usar o Cloudflare Workers como um intermediário e implementar limitação de taxa.",
+      "6": "As regras da atividade podem ser modificadas no meio do caminho?",
+      "7": "Nenhuma modificação pode ser feita no meio do caminho. Esperamos que todos os usuários deste sistema possam manter a confiança mútua. Se uma parte do projeto promete emitir Pacotes Vermelhos, mas altera as qualificações do jogo no meio, impossibilitando a solicitação, isso prejudicará a confiança dos jogadores. Se o emissor modificar a API para alterar regras, e vários jogadores relatarem, reteremos o direito de suspender ou congelar contas ao confirmar através de logs de alterações. Portanto, por favor, evite absolutamente alterar as regras do jogo durante a API, pois isso pode levar a banimentos de contas.",
+      "8": "Se você está preocupado com configurações incorretas, a abordagem correta é:",
+      "9": "Você pode criar primeiro seu próprio grupo de teste, emitir Pacotes Vermelhos de teste para si mesmo no grupo de teste e, uma vez confirmado que não há problemas, proceder com a distribuição na comunidade oficial. A regra básica para Pacotes Vermelhos é: você não pode pedir a interrupção no meio, nem pode mudar regras diretamente para uma atividade em andamento. Cada rodada deve ser completada e liquidada de acordo com o compromisso original antes que novas regras possam ser usadas na próxima rodada."
+    },
+    "q6_title": "6) Regras da atividade, controle de elegibilidade e sem alterações de regras no meio do caminho",
+    "q7_body": {
+      "0": "Atualmente, ainda estamos na fase de operação Beta e otimizaríamos gradualmente o painel de dados, incluindo o número de participantes, número de Pacotes Vermelhos reivindicados, taxa de reivindicação, etc. As partes do projeto também podem incorporar indicadores de rastreamento em suas configurações de API.",
+      "1": "Pacotes Vermelhos não reivindicados serão retornados automaticamente para sua carteira. Se você não receber um reembolso dentro de 3 dias após o término da atividade, poderá consultar o serviço de atendimento ao cliente para processamento.",
+      "2": "É aconselhável não executar muitas atividades simultaneamente no mesmo grupo para evitar conflitos. Os usuários também podem ficar confusos; é melhor executar atividades linearmente, uma de cada vez ou uma por dia, e garantir fundos adequados para completar cada atividade.",
+      "3": "Recomenda-se ajustar as regras com base nos dados; você pode utilizar a API para testes A/B, referenciar casos de sucesso passados e coletar feedback dos membros regularmente para otimizar gradualmente o jogo.",
+      "4": "Anti-trapaça e abuso:",
+      "5": "Durante o período de teste da operação beta aberta, estamos otimizando problemas de trapaça dos usuários. Para garantir a justiça do sistema, bloquearemos especificamente usuários que tentem usar bots para agarrar Pacotes Vermelhos. O melhor método de prevenção é permitir que os usuários definam sua própria API e condições e restringir o número de reivindicações, o que aumentará o limite para aqueles que gostam de trapacear. Em caso de situações anormais, sinta-se à vontade para entrar em contato com nosso serviço de atendimento ao cliente para feedback."
+    },
+    "q7_title": "7) Acompanhar o desempenho, otimizar e prevenir fraudes",
+    "section_title": "Perguntas Frequentes (FAQ Detalhada) — Enviar Pacote Vermelho"
+  },
+  "features": {
+    "f1": "Configuração Rápida",
+    "f2": "Vários Estilos de Jogo",
+    "f3": "Dados em Tempo Real",
+    "f4": "Seguro e Confiável"
+  },
+  "features_desc": {
+    "f1": "Complete a configuração em 3 minutos para iniciar a atividade do pacote vermelho",
+    "f2": "Suporta métodos de alocação aleatória, média e especificada",
+    "f3": "Veja instantaneamente os dados de recebimento e o feedback dos usuários",
+    "f4": "Design descentralizado garante a segurança dos fundos"
+  },
+  "cta_button_prefix": "Ativar agora",
+  "cta_button_suffix": "Robô",
+  "cta_launch_bot": "Ativar o Robô moonpacket Agora",
+  "footer_tip": "Dica: Enviar pacotes vermelhos é adequado para interações de quebra-gelo. Você pode responder ao post do pacote vermelho para explicar o tema do jogo que deseja organizar."
+}

@@ -1,0 +1,66 @@
+# 產物 & 構建
+/dist/
+/build/
+/.out/
+/.out-static/
+/.next/
+/.nuxt/
+/.svelte-kit/
+/.angular/
+/.storybook-out/
+/coverage/
+/storybook-static/
+
+# 緩存 & 工具
+/.turbo/
+/.vite/
+/.cache/
+/.parcel-cache/
+/.esbuild/
+/.rollup.cache/
+/*.tsbuildinfo
+
+# 依賴 & 虛擬環境
+/node_modules/
+/.venv/
+/.env.*
+!.env.example
+
+# 測試產物
+/cypress/videos/
+/cypress/screenshots/
+/playwright-report/
+/test-output/
+
+# 平台/行動端
+/.expo/
+/android/app/build/
+/ios/build/
+/ios/Pods/
+*.xcworkspace/
+/DerivedData/
+
+# 其它大文件/二進制（按需保留）
+*.log
+*.map
+*.zip
+*.tar
+*.gz
+*.7z
+*.dmg
+*.pkg
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.pdf
+*.sqlite
+*.db
+
+# 說明
+# 如果倉庫已存在 .cursorignore，請將本清單與原條目做並集，避免覆蓋既有規則。

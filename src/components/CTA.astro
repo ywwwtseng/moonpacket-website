@@ -1,0 +1,10 @@
+---
+const { title, action, href } = Astro.props as { title: string; action: string; href: string };
+---
+<div class="p-6 rounded-2xl gradient-primary text-white flex items-center justify-between">
+  <div class="font-semibold">{title}</div>
+  <a href={href} class="px-4 py-2 rounded bg-white text-text font-semibold">{action}</a>
+  <!-- BASE_URL-respecting link: pass `${import.meta.env.BASE_URL}${lang}/...` from parent -->
+</div>
+
+

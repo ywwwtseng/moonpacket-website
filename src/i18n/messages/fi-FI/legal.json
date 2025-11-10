@@ -1,0 +1,456 @@
+{
+  "privacyTitle": "Tietosuojakäytäntö",
+  "termsTitle": "Käyttäjäsopimus",
+  "version": "Versio",
+  "updated": "Päivitä",
+  "owner": "Omistaja",
+  "sections": {
+    "scope": "Soveltamisala ja sopimuksen muodostaminen",
+    "definitions": "Korkean riskin ja kiellettyjen käyttötapojen",
+    "eligibility": "Immateriaalioikeudet",
+    "services": "Palvelun sisältö ja liiketoimintamalli",
+    "wallet": "Pilvilompakko, lahjakommittmentti ja varojen lukitseminen",
+    "fees": "Maksut ja kulut",
+    "rules": "Toimintasäännöt ja oikeudenmukaisuus",
+    "restrictions": "Anti-botti, väärinkäytön valvonta ja tilirajoitukset",
+    "ip": "Tekijänoikeudet",
+    "third_party": "Kolmannen osapuolen palvelut ja ulkoinen riippuvuus",
+    "data": "Kelpoisuus ja tili",
+    "risks": "Riskitiedotus",
+    "disclaimer": "Vakuuttaminen",
+    "liability": "Vastuun rajoitus",
+    "indemnity": "Vakuutus",
+    "termination": "Keskeyttäminen, jäädyttäminen, lopettaminen ja tietojen säilyttäminen",
+    "force_majeure": "Ylivoimainen este",
+    "high_risk": "Korkean riskin ja kielletyt käytöt",
+    "tax": "Verotus ja raportointi",
+    "accuracy": "Sisällön ja tietojen tarkkuus",
+    "governing_law": "Sovellettava laki ja riitojen ratkaisu",
+    "contact": "Yhteydenottotapa",
+    "changes": "Terms Changes",
+    "intro": "",
+    "data_collection": "Maksut ja kulut",
+    "data_usage": "Sovellettava laki ja riitojen ratkaisu",
+    "legal_basis": "",
+    "cookies": "Määritelmät",
+    "data_sharing": "Ylivoimainen este",
+    "cross_border": "Vastuuvapauslauseke",
+    "retention": "",
+    "security": "",
+    "minors": "",
+    "rights": "",
+    "faq": "",
+    "updates": "",
+    "contact_info": "Tieto, yksityisyys ja yhteistyö alalla"
+  },
+  "contact": {
+    "title": "Yhteydenottotapa",
+    "privacy": "Yksityisyysposti",
+    "security": "Turvallisuusraportti",
+    "support": "Asiakaspalvelurobotti"
+  },
+  "privacy": {
+    "version": "v1.0.0",
+    "updated": "auto",
+    "owner": "moonpacket-tiimi",
+    "version_label": "Versio",
+    "updated_label": "Päivitä",
+    "owner_label": "Omistaja",
+    "data_sources": "Tietojen lähde",
+    "notice": {
+      "disclaimer_binding": "Seuraavat ehdot ovat käännös ja vain viitteellisiä. Virallisesti sitova versio on alkuperäinen englanninkielinen teksti. Mikäli kieliversioiden ja englanninkielisen version välillä on eroja, englanninkielinen versio tulee määrääväksi."
+    },
+    "intro": [
+      "Tämä tietosuojakäytäntö (jäljempänä 'tämä käytäntö') kuvaa, kuinka keräämme, käytämme, säilytämme ja suojaamme henkilötietoja ja käyttödataasi käytettäessä moonpacketin tarjoamia palveluja, mukaan lukien Telegram Mini App, botti ja verkkosivusto (yhdessä 'palvelu'). Lue se kokonaan ennen käyttöä; aloittamalla palvelun käytön hyväksyt tämän käytännön.",
+      "Tämän palvelun ydinosa on 'yhteisön kasvu ja red paketti -vuorovaikutus', ja se voi tarjota tarvittavia ominaisuuksia, jotka liittyvät pilvitileihin, transaktioihin tai lunastuksiin vaatimustenmukaisuuden rajoissa. Tämä käytäntö ohjaa vain tietojen käsittelyä; käytön sääntöjen, vastuuvapausrajojen, riskilähetysten ja vastuuvapauslausekkeiden osalta viittaa 'Käyttöehtoihin.'",
+      "moonpacket (jäljempänä 'moonpacket' tai 'palvelu') on taho ja hallinnoija, joka kerää, käyttää, säilyttää ja käsittelee henkilötietoja ja käyttödataa liittyen tämän palvelun toimintaan, käsittelee tietoja ainoastaan teknisiin ja operatiivisiin tarkoituksiin; moonpacket ei ole pankki, luottamus, säilyttäjä, sijoitusneuvoja, maksuvälikkö tai varainhoitaja, eikä se ota mitään varatuksellisia, säilyttämiseen, säilyttämiseen, sijoittamiseen tai takuisiin liittyviä velvoitteita mainitun tietojen käsittelyn vuoksi."
+    ],
+    "definitions": [
+      "moonpacket: Viittaa tämän projektin tarjoamiin sovelluspalveluihin, mukaan lukien ladattavissa olevat verkkosovellukset ja mobiilisovellukset, ja sisältäen (mutta ei rajoittuen) Telegram Mini App, botit, pilwalletit ja niihin liittyvät toiminnalliset moduulit.",
+      "Henkilötiedot: Tiedot, jotka voivat suoraan tai epäsuorasti tunnistaa luonnollisen henkilön, kuten (mikäli sovellettavissa) yhteystiedot, Telegram UID, pilvipenni osoite (jos se voi tunnistaa yksilön), laite- ja verkkoidentifioijat.",
+      "Käyttötiedot: Tapahtumarekisterit ja vuorovaikutukset, jotka liittyvät tileihin tai laitteisiin (esim. red packetien lähettäminen/vastaanottaminen, virheet ja suorituskykylokit, botinesto-signaalit)."
+    ],
+    "scope": [
+      "Nämä ehdot koskevat moonpacketin tarjoamien kaikkien toimintojen käyttämistä, mukaan lukien (mutta ei rajoittuen) ryhmiin/kanaviin liittyminen tai hallinta, red pakettien lähettäminen tai vastaanottaminen, tapahtumiin osallistuminen, pilvilompakoiden ja pisteiden linkittäminen tai käyttö, sekä integraatiot API/Webhookin kautta.",
+      "moonpacket tukee kahta pääkäyttötapausta: red paketteja lähettäviä ja vastaanottavia. Lähettäjien on lisättävä botti omiin tai hallitsemiinsa ryhmiin/kanaviin ja myönnettävä tarvittavat oikeudet; jos oikeudet eivät ole riittävät tai on luvattomia toimia, toiminnallisuutta ei voida taata. Vastaanottajien yksityisiä tietoja ei kerätä tarpeellisten verkkoidentifikaattorien ja käyttötilanteiden ulkopuolella ryhmävuorovaikutusten aikana."
+    ],
+    "dataCollected": [
+      "Tili ja henkilöllisyys: Telegram UID, käyttäjänimi, profiilikuva, kieliasetukset, ryhmän jäsenyyden identiteetti ja käyttöoikeudet; tarvittaessa kerätään ja säilytetään valtion myöntämät henkilöllisyystodistusdata, selfiet tai kasvojen biometrinen yhteensovitus, asuinpaikan ilmoitus, KYC/AML-auditointitiedot ja yhteensovitus tulokset yksinomaan vaatimustenmukaisuus-, rahanpesun estämisen, terrorismin rahoittamisen torjunnan, pakotteiden noudattamisen, verotustietojen, petostutkimuksen tai riskienhallinnan tarkoituksiin.",
+      "Käyttötapahtumat: Red packetien lähettäminen/vastaanottaminen, komennot ja vuorovaikutusrekisterit, tapahtumien osallistuminen, API/Webhook-tapahtumat, virheet ja suorituskykylokit; botinesto- ja riskienhallintamerkit (kuten poikkeava taajuus, laite tai verkkotoimintatavat).",
+      "Transaktiot ja varat: Pilvipenniin liittyvät osoitteet, saldot tai transaktiosummat (vain siinä määrin kuin toiminnallisuus edellyttää); on-chain transaktioita voidaan todistaa julkisesti, mutta ne ovat palautumattomia ja muuttumattomia. Edellä mainittu tieto voi sisältää Off-chain-tietoja (kuten sisäiset kirjanpitomerkit, saldoja, jotka odottavat jakamista tai lukittuja tiloja), joita tarjotaan vain sisäiseen järjestelmäselvitykseen ja jakamisohjeisiin, eivätkä ne muodosta moonpacketin hallinta-, luottamus-, talletus-, valtuutettu rahoitusjohtaminen-, maksujen kerääminen ja maksaminen, investointihallinta- tai säilyttämisvelvoitteita.",
+      "Tekninen ja laiteinformaatio: Laitteen malli, käyttöjärjestelmä, selain- tai sovellusversio, verkkosoite (IP/ASN) ja arvioitu alue, eväste- ja paikallisen tallennuksen tunnisteet (jos on).",
+      "Yhteystiedot: Sähköposti tai asiakastuen chat-sisältö, jonka annat aktiivisesti (jos on)."
+    ],
+    "sources": [
+      "Tiedot, jotka annat aktiivisesti rekisteröinnin, sitomisen, vuorovaikutuksen tai asiakaspalvelun kanssa kommunikoinnin aikana.",
+      "Tapahtumat ja tekniset tiedot, jotka järjestelmä tallentaa automaattisesti palvelun käyttämisen aikana.",
+      "Kolmannen osapuolen vertailu- tai vahvistustulokset, jotka on laillisesti hankittu vaatimustenmukaisuuden tai palveluntarpeen vuoksi (kuten KYC/AML palveluntarjoajat)."
+    ],
+    "purposes": [
+      "Tämän palvelun käyttöä ja ylläpitoa varten tarjottuihin toimintoihin kuuluvat: henkilöllisyyden vahvistaminen, oikeudenmukaisuuden todennus, aktivointi- ja hallintamoduulit (red packet, pisteet, pilvipenkki), ongelmanratkaisu ja turvallisuuden valvonta.",
+      "Riskienhallinta ja vaatimustenmukaisuus: Hyväksikäytön, petoksen, rahanpesun, terrorismirahoituksen, pakotteiden kiertämisen, verovalvonnan, laittoman varainkeruun, valtuuttamattomien rahoituspalvelujen, tuottojen jakamisen manipuloinnin tai muiden epänormaalien toimintojen havaitseminen, estäminen ja tutkiminen; KYC/AML-tarkastusten ja henkilöllisyyden vahvistamisen (mukaan lukien viranomaisten myöntämät henkilöllisyystodistukset, selfie-kuvat ja biometristen vahvistusten käyttäminen), riskiluokitus sekä verotarkastukset ja pakotteet. Jos tarpeen, se voi tarkoittaa tapahtumien, jakelujen, palautusten, nostojen tai purkamisen säilyttämistä, jäädyttämistä, viivästyttämistä, rajoittamista tai kieltäytymistä. Näitä toimenpiteitä ei pidetä moonpacketin rikkomuksena eikä moonpacket ole vastuussa mistään korvauksista, vahingoista tai muista vastuista.",
+      "Tietoanalyysi ja tuoteoptimointi: Tilastolliset käyttötrendit, kokemuksen ja suorituskyvyn parantaminen, A/B-testauksen toteuttaminen ja petosten torjuntamallien kouluttaminen (käyttäen minimointi- ja anonymisointimenetelmiä).",
+      "Sääntelyvaatimusten noudattaminen ja oikeuksien puolustaminen: Yhteistyö sääntelyjen, viranomaisten tai oikeuden esittämien pyyntöjen kanssa, tai oikeuksien toteuttaminen, perustaminen tai puolustaminen. moonpacket voi oman harkintansa mukaan antaa asiaankuuluvia tietoja sääntelyviranomaisille, tuomioistuimille, veroviranomaisille, pakoteviranomaisille, välimies- tai toimeenpanoviranomaisille tai näiden valtuuttamille vaatimustenmukaisuuden palveluntarjoajille lainsäädännön, säädösten, verojen, pakotteiden, rahanpesun vastaisen lain, terrorismirahoituksen vastaisen lain, petostutkimuksen tai muiden vaatimustenmukaisuustarpeiden perusteella; tällainen tietojen luovutus ei muodostaa moonpacketin rikkomusta, eikä moonpacket ole vastuussa mistään korvauksista, vahingoista tai muista vastuista.",
+      "Viestintä ja ilmoitukset: Tärkeiden muutosten, tapahtumailmoitusten tai tarpeellisten palvelutietojen tarjoaminen; markkinointiviestejä lähetetään vain suostumuksella tai lain sallimalla tavalla."
+    ],
+    "legalBases": [
+      "Välttämätöntä sopimusten täytäntöönpanemiseksi tai palvelujen tarjoamiseksi (esim. red pakettien/pisteiden prosessien mahdollistaminen, riskinhallintavahvistus ja tapahtumarekisteröinnit).",
+      "Lain velvoitteiden noudattaminen (esim. KYC/AML, sanktiot, auditointi ja säilytysohjeet).",
+      "Legitiimit intressit (esimerkiksi hyväksikäytön havaitseminen, järjestelmän turvallisuuden ja palvelun saatavuuden varmistaminen, tuotteiden ja kokemusten parantaminen). Tässä tapauksessa toteutamme tasapainotestiä ja otamme käyttöön anonymisointi- tai minimointimenettelyjä.",
+      "Suostumuksesi (esimerkiksi markkinointiviestien vastaanottaminen, ei-välttämättömät evästeet ja peruutettavat valinnat)."
+    ],
+    "cookies": [
+      "Välttämättömät evästeet ja paikallinen tallennus: Käytetään kirjautumistilan, kielivalinnan, botinesto-keinojen ja turvallisuusohjeiden ylläpitämiseen; jotkin ominaisuudet eivät välttämättä toimi kunnolla, jos ne poistetaan käytöstä.",
+      "Analytiikka tai mieltymykset: Aktivoidaan vain, jos se on lain mukaan sallittua tai suostumuksellasi; voit poistaa tai rajoittaa niitä selainasetuksissasi."
+    ],
+    "wallet": [
+      "Jos pilvipankki on tämän palvelun tai kumppanin tarjoama, se käsittelee ja säilyttää vain vähimmäistarpeen mukaiset toimintatiedot ja kuitit punapussin, pisteiden tai muiden tarvittavien vaihtoprosessien suorittamisen aikana.",
+      "Ketjuun liittyvät tiedot ovat julkisia ja peruuttamattomia; toimithan varovaisesti. Muuttumattoman, pysyvästi julkisen luonteen ja lohkoketjun ominaisuuksista johtuvien tietoyhteyksien hallinta on tämän palvelun ulkopuolella."
+    ],
+    "antiFraud": [
+      "Väärinkäytösten ja petosten estämiseksi saatamme arvioida vuorovaikutuksen frekvenssin, laite- tai verkko-ominaisuudet, maantieteellisen sijainnin, käyttäytymismallit ja mustalistasignaalit; toiminnallisuus voidaan keskeyttää tai rajoittaa tarpeen mukaan ja lisävarmistuksia saatetaan vaatia.",
+      "Yhteensopivuuden ja turvallisuuden vuoksi pidätämme oikeuden jakaa asiaankuuluvia indikaattoreita tai tarkastusraportteja luotettavien petostenvastaisen tai sääntöjenmukaisuuteen liittyvän palveluntarjoajien kanssa kohtuullisissa rajoissa.",
+      "Edellä mainittuja tarkoituksia varten moonpacket voi yksinomaisella vastuullaan keskeyttää, viivästyttää, rajoittaa tai evätä tiettyjä toimintoja ja vaatia lisävarmistuksia (mukaan lukien KYC/AML-tarkastukset, valtion myöntämä henkilöllisyystodistus, selfie tai biometriset vertailut) tai jakaa tarvittavat indikaattorit tai tarkastusraportit luotettavien petosten, sääntöjenmukaisuuden, verotuksen tai pakotteiden palveluntarjoajien kanssa; tällaiset toimet eivät muodosta moonpacketin rikkomusta tai loukkausta, ja moonpacket ei ole vastuussa mahdollisista vahingoista, korvauksista tai muista vastuista."
+    ],
+    "sharing": [
+      "Käsittely- tai kolmannen osapuolen palveluntarjoajat, mukaan lukien pilvialustat, lokitus- ja valvontapalvelut, analytiikka, botinesto- ja vaatimustenmukaisuustarjoajat, suorittavat toimintoja minimoiduilla ja sopimuksellisilla rajoituksilla.",
+      "Kumppanit ja yhteisöhallitsijat jakavat tarvittavat tiedot niiden erityisten toimintojen, red pakettien tai yhteisöhallinta-skenaarioiden perusteella, joihin osallistut, toimintojen sääntöjen mukaisesti.",
+      "Paljastamme tarvittavat tiedot viranomaisille, tuomioistuimille tai oikeudenhaltijoille lain vaatimia menettelyjä noudattaen.",
+      "moonpacket voi säilyttää, analysoida, siirtää, paljastaa ja antaa tarvittavia tietoja (mukaan lukien off-chain tallenteet, on-chain todisteet, KYC/AML tiedot, ryhmä/chat/aktiviteettitiedot ja jakelu- ja nostokäyttäytyminen) viranomaisille, tuomioistuimille, lainvalvontaviranomaisille tai veroyksiköille, pakote- ja sääntelyyksiköille tai niiden valtuutetuille vaatimustenmukaisuuden palveluntarjoajille vaatimustenmukaisuustarkastuksia, KYC/AML tarkastuksia, henkilöllisyyden vahvistusta (mukaan lukien hallituksen myöntämä henkilökortti ja biometriset vertailut), rahanpesun estämistä, terrorismin rahoituksen torjumista, pakotteiden noudattamista, verovelvollisuutta, petostutkimuksia, väärinkäytön havaitsemista, taloudellisia tarkastuksia sekä jakelujen ja nostojen seuraamista kohtuullisessa kaupallisessa laajuudessa. Tällaiset käsittelyt, siirrot ja paljastukset eivät muodosta moonpacketin rikkomusta tai vahinkoa, ja moonpacket ei ole vastuussa mistään korvauksista, vahingonkorvauksista tai muista velvoitteista."
+    ],
+    "crossBorder": [
+      "Tämän palvelun pilviarkkitehtuurin, globaalin käyttömallin, riskienhallinnan, rahanpesun estämisen (AML), terrorismin rahoittamisen torjunnan, pakotteiden noudattamisen, verokooperation, petosten ehkäisyn, auditointiajan säilyttämisen, asiakastuen ja järjestelmän ylläpitotarpeiden perusteella tietojasi (mukaan lukien henkilötiedot, käyttötiedot, Off-chain-tiedot, KYC/AML-auditointitulokset ja riskienhallinta- ja nostotiedot) voidaan käsitellä, tallentaa tai siirtää arvioimatta ohi toimivaltaasi, ja niitä voivat käyttää kumppanit, pilvi-infrastruktuuripalvelujen tarjoajat, vaatimustenmukaisuus- ja riskienhallintapalvelujen tarjoajat tai viranomaiset/tuomioistuimet/veroviranomaiset/pakotesääntely/toimivaltaiset tahot (tai niiden valtuutetut tahot), tarpeen vaatiessa edellisiin tarkoituksiin.",
+      "moonpacket arvioi vastaanottajien tietoturva- ja vaatimustenmukaisuusvelvoitteita kohtuullisissa ja tarvittavissa rajoissa ja vähentää luvattoman pääsyn tai väärinkäytön riskejä sopimusten, teknisten ja organisatoristen toimenpiteiden avulla; ymmärrät kuitenkin ja hyväksyt, että mikä tahansa rajat ylittävä siirto, pilvi-isäntä tai kolmannen osapuolen käsittely saattaa olla alttiina verkko- ja sääntelyympäristöille, eikä se voi taata ehdotonta turvallisuutta tai saatavuutta. Edellä mainittu rajat ylittävä käsittely ja siirto eivät muodosta moonpacketin rikkomusta tai loukkausta, ja moonpacket ei ole vastuussa mistään vahingoista, korvauksista tai muista veloista."
+    ],
+    "retention": [
+      "Säilytämme tietoja niin kauan kuin on tarpeen keräustarkoitusten toteuttamiseksi ja pidämme tarvittavat asiakirjat lain tai tarkastusvelvoitteiden mukaisesti (esim. kirjanpito- ja vaatimustenmukaisuuslokit).",
+      "Kun tarkoitus on saavutettu tai säilytysaika on umpeutunut, poistamme tai käsittelemme tiedot anonymisoidulla tavalla; lohkoketjutiedot eivät kuulu tälle rajoitukselle niiden muuttumattomuuden vuoksi.",
+      "Vaikka pyytäisit tilisi deaktivoimista, tietojesi poistamista tai tämän palvelun käytön lopettamista, moonpacket voi säilyttää, jäädyttää, analysoida tai luovuttaa edellä mainittuja tietoja lain, säädösten, verojen, pakotteiden, rahanpesun vastaisen lain, terrorismirahoituksen vastaisen lain, petostutkimuksen, tarkastuksen säilyttämisen, kirjanpidon vahvistamisen tai muiden vaatimustenmukaisuuden velvoitteiden mukaisesti tai siltä osin kuin se on sallittua. Tällainen säilyttäminen ja käsittely eivät muodosta moonpacketin rikkomusta, eikä moonpacket ole vastuussa mistään korvauksista, vahingoista tai muista vastuista."
+    ],
+    "security": [
+      "Ota käyttöön kohtuulliset ja suhteelliset tekniset sekä hallinnolliset toimenpiteet, mukaan lukien pääsyn valvonta, siirto- ja staattinen salaus (soveltuvin osin), oikeuksien erottaminen, auditointilokit sekä vähimmäistarvehenkilöstön pääsyperiaatteet.",
+      "Vaikka moonpacket on ottanut teknisiä ja hallinnollisia toimenpiteitä vähentääkseen luvattoman pääsyn, käytön, tietojen paljastamisen, muutoksen tai tuhoamisen riskiä kohtuullisessa kaupallisessa laajuudessa, ymmärrät ja hyväksyt, että mikä tahansa siirto, tallennus tai kolmannen osapuolen integraatio voi sisältää tiettyjä riskejä. moonpacket ei anna erikseen tai välillisesti takuita tietoturvasta, eheydestä, saatavuudesta, keskeytymättömästä pääsystä tai häiriöistä. Tällaiset riskit tai vahingot eivät muodosta moonpacketin rikkomusta tai vahinkoa, ja moonpacket ei ole vastuussa mistään korvauksista, vahingonkorvauksista tai muista velvoitteista."
+    ],
+    "minors": [
+      "Tämä palvelu ei ole tarkoitettu alle 13-vuotiaille tai alaikäisen rajan alittaville henkilöille. Jos olet alaikäinen, käytä tätä palvelua laillisen huoltajasi suostumuksella tai pidä itsesi poissa tämän palvelun käytöstä."
+    ],
+    "rights": [
+      "Soveltuvien lakien mukaan eri alueilla sinulla on oikeus kysyä tai tarkistaa henkilötietojasi, pyytää kopioita, korjata, rajoittaa käsittelyä, poistaa, siirtää tietoja ja peruuttaa suostumus, mutta eivät ole ristiriidassa moonpacketin laillisten velvoitteiden kanssa säilyttää, jäädyttää, analysoida, tarkastaa, tehdä yhteistyötä sääntely-/tuomioistuin-/verovalvonta-/pakote-/säännöstöviranomaisen vaatimusten tai KYC/AML/terrorismirahoituksen vastaisen lain/pakotevaatimusten/veroilmoituksen/petostutkimuksen/hyväksikäytön havaitsemisen kanssa tai moonpacketin legitiimien etujen kanssa.",
+      "Jos haluat käyttää edellä mainittuja oikeuksia tai esitellä tietosuojahuolia, ota yhteyttä moonpacketiin käyttämällä 'Yhteystiedot'. Varmistaaksesi turvallisuuden, moonpacket voi pyytää sinua suorittamaan henkilöllisyyden vahvistamisen (mukaan lukien mutta ei rajoittuen KYC/AML-tarkastuksiin tarvittavien tietojen, viranomaisten myöntämän henkilöllisyystodistuksen, selfiekuvien tai biologisten vahvistustulosten tarjoaminen) varmistaakseen, että pyyntö on tiedon kohteena oleva tai valtuutettu edustaja.",
+      "moonpacket voi yksinomaisella päätöksellään täysin tai osittain kieltäytyä, viivästyttää, rajoittaa tai pyytää korjauksia tällaisiin pyyntöihin lain tai vaatimustenmukaisuuden velvoitteiden, oikeutettujen etujen vaatimusten tai riskienhallintatarkoitusten rajoissa; tällaiset kieltäytymiset, viivästykset, rajoitukset tai korjauspyynnöt eivät muodosta moonpacketin rikkomusta tai loukkausta, ja moonpacket ei ole vastuussa mistään korvauksista, vahingonkorvauksista tai muista vastuista."
+    ],
+    "faq": [
+      "Miksi tarvitsemme vaatimustenmukaisuus- ja riskihallintatietoja? Tämä on tarpeen red pakettien tarjoamiseksi, väärinkäytön estämiseksi ja turvallisten toimintojen varmistamiseksi, sekä soveltuvien lakien tai alustapolitiikkojen noudattamiseksi.",
+      "Voinko kieltäytyä antamasta tiettyjä tietoja? Ilman palvelun turvallisuuden ja laillisten velvoitteiden vaikuttamista voit valita, että et mahdollisesti anna ei-välttämättömiä tietoja, mutta tämä voi johtaa joidenkin ominaisuuksien olemattomuuteen.",
+      "Voiko lohkoketjutietoja poistaa? Lohkoketjun tietueet ovat peruuttamattomia ja julkisia, emmekä voi muuttaa tai poistaa niitä puolestasi."
+    ],
+    "updates": [
+      "Nämä ehdot voivat päivittyä palvelumuutosten tai lakimuutosten myötä; merkittävästä muutoksesta ilmoitetaan sisäisten viestien tai sivuilmoitusten kautta; päivitetty versio tulee voimaan ilmoituksen tai ehtojen ilmoitetun voimaantulopäivän mukaisesti."
+    ],
+    "contact": [
+      "Jos sinulla on kysymyksiä yksityisyydestä tai tietoturvasta, ota meihin yhteyttä sivun yhteydenottotapojen kautta (yksityisyysposti/turvallisuusraportti/asiakaspalvelu); vastaamme kohtuullisessa ajassa."
+    ],
+    "controller": [
+      "Tietojen käsittelijä: moonpacket-tiimi (pieni tiimitoiminta).",
+      "Yhteydenottokanava (tietosuoja): Ota meihin yhteyttä tietosuoja Help_botin kautta 'Yhteydenottomenetelmät' sivulla."
+    ],
+    "jurisdictions": [
+      "Noudatamme sovellettavia henkilötietojen suojaa koskevia sääntöjä; jos eri lainkäyttöalueilla on sääntelykonflikteja, toimimme käyttäjille suotuisimmalla ja käytännöllisimmällä tavalla lain sallimissa rajoissa.",
+      "Jos tarvitset lisäoikeuksia tai menettelyjä erityisille lainkäyttöalueille, ota yhteyttä annettujen kanavien kautta, niin autamme kohtuullisesti."
+    ],
+    "dsrProcess": [
+      "Sinulla on oikeus esittää tiedustelu, tarkistus, kopioiden pyytäminen, korjaaminen, poistaminen, käsittelyn rajoittaminen, tietojen siirrettävyys ja suostumuksen peruminen koskien henkilötietoja (sovelletuista laeista ja teknologisista mahdollisuuksista riippuen).",
+      "Prosessi: Lähetä pyyntö → Henkilöllisyyden vahvistaminen → Hyväksyntä ja arviointi → Vastaus kohtuullisessa ajassa (yleensä 30 päivän sisällä; mahdollisista jatkoajoista ilmoitetaan erikseen).",
+      "Jos pyyntö liittyy kolmansiin osapuoliin tai lohkoketjun peruuttamattomiin tietoihin, sitä ei välttämättä käsitellä suoraan. Annamme selityksiä tai mahdollisia vaihtoehtoja.",
+      "Jos sinulla on huolia tuloksista, ota meihin uudelleen yhteyttä annettuja kanavia pitkin; voit myös tehdä valituksen viranomaisille paikallisten lakien perusteella (mikäli sovellettavissa)."
+    ],
+    "breach": [
+      "Jos epäilty henkilökohtaisia tietoja koskeva tapaus havaitaan, seuraamme sisäisiä menettelyjä asteittaiselle käsittelylle ja hätätoimille, mukaan lukien estäminen tai lievittäminen, tarkastus ja asiakirjatodisteiden dokumentointi.",
+      "Jos laki niin vaatii tai on tarpeen, ilmoitamme toimivaltaiselle viranomaiselle ja mahdollisesti vaikuttaville käyttäjille kohtuullisessa ajassa; ilmoitusten sisältö ja ajoitus riippuvat tapahtuman tasosta ja selvityksen edistymisestä.",
+      "Käymme läpi ja parannamme jatkuvasti ohjausmenetelmiä ja henkilöstön koulutusta (saatavilla olevien resurssien puitteissa) sen jälkeen."
+    ],
+    "cookiesDetail": [
+      "Välttämättömät evästeet: Käytetään kirjautumisen, kieliasetusten, botinesto-keinojen ja turvallisuuden ylläpitämiseen; poistaminen käytöstä voi vaikuttaa palvelun saatavuuteen.",
+      "Mieltymys/Analytiikka/Markkinointievästeet: Aktivoidaan vain, jos se on lain mukaan sallittua tai suostumuksellasi; voit säätää tai peruuttaa mieltymyksiäsi milloin tahansa.",
+      "Jos tarpeellista, tarjoamme yksinkertaisen evästevalinta-option; voit myös hallita tai poistaa niitä selainasetuksissasi."
+    ],
+    "consent": [
+      "Ei-elintärkeän käsittelyn (esim. markkinointi tai erityinen analyysi seuranta) osalta hankimme ennakkosuostumuksen ja tarjoamme tavan peruuttaa, siellä missä lain mukaan on mahdollista ja kohtuullista.",
+      "Suostumuksen peruuttaminen ei vaikuta peruuttamista edeltävän käsittelyn laillisuuteen; jotkut toiminnot saattavat olla rajoitettuja seurauksena."
+    ],
+    "lawfulMatrix": {
+      "headers": [
+        "Tietoluokka",
+        "Käsittelytarkoitus",
+        "Oikeudellinen perusta",
+        "Säilytysaika"
+      ],
+      "rows": [
+        {
+          "cat": "帳號/身分（Telegram UID、暱稱、語言、群組權限）",
+          "purpose": "提供與維運服務（紅包、權限驗證、防刷）",
+          "basis": "履行契約、合法利益",
+          "retention": "帳號存續期間＋必要稽核留存"
+        },
+        {
+          "cat": "合規資料（KYC/AML 結果）",
+          "purpose": "法遵審查與防詐欺",
+          "basis": "法定義務",
+          "retention": "依法令或監理要求（一般為多年期）"
+        },
+        {
+          "cat": "使用事件與日誌（互動、錯誤、效能）",
+          "purpose": "故障排除、資安與產品優化",
+          "basis": "合法利益",
+          "retention": "依安全與營運需要的合理期限"
+        },
+        {
+          "cat": "交易與雲端錢包摘要",
+          "purpose": "完成紅包/積分/兌換流程",
+          "basis": "履行契約、合法利益",
+          "retention": "目的達成後最小化留存；鏈上紀錄不在此限"
+        },
+        {
+          "cat": "Cookie/本地儲存（必要）",
+          "purpose": "登入狀態、語言、防刷標記",
+          "basis": "履行契約、合法利益",
+          "retention": "依裝置與瀏覽器生命周期"
+        },
+        {
+          "cat": "Cookie/像素（非必要）",
+          "purpose": "偏好/分析/行銷（如啟用）",
+          "basis": "同意",
+          "retention": "依工具供應商政策或您撤回為止"
+        }
+      ]
+    },
+    "automated": [
+      "Tämä palvelu käyttää automatisoituja analyysi- ja riskinhallintamalleja väärinkäytösten tai poikkeavan käyttäytymisen havaitsemiseksi; yleensä se ei muodosta täysin automatisoituja päätöksiä, jotka merkittävästi vaikuttavat henkilöihin laillisesti tai samankaltaisesti.",
+      "Jos rajoittavia toimenpiteitä otetaan käyttöön johtuen sääntöjenmukaisuuden tai turvallisuusriskinhallinnan tarpeista (esim. toimintojen keskeyttäminen), tarjoamme mahdollisuuksia valituksiin ja manuaalisiin tarkastuksiin resurssien ja turvallisuuden mukaan."
+    ],
+    "subprocessors": {
+      "note": "Voimme tehdä yhteistyötä sopimuksellisesti sitoutettujen aliurakoitsijoiden kanssa (esimerkiksi pilvi, valvonta, botinesto/KYC, sähköposti jne.); luetteloa voidaan päivittää palvelun muutosten mukaan, katso viralliselta verkkosivustolta ilmoituksia."
+    },
+    "note": [
+      "Huom: Tämä lauseke pyrkii selkeästi paljastamaan tietojenkäsittelyn ja -suojan käytännöt. Koska moonpacket on pieni tiimi, todellisia toimenpiteitä säädetään lakien, riskitasojen ja resurssien saatavuuden mukaan; jos on olemassa pakollisia sääntöjä, laki tulee määrääväksi."
+    ],
+    "telegramPermissions": [
+      "Robotin toiminnot ryhmissä/kanavissa suoritetaan vain niissä oikeuksissa, jotka olet myöntänyt (esim. viestien lukeminen, lähettäminen, poistaminen, kiinnittäminen, liittymislinkin tarkastaminen jne. todellisten tarpeiden mukaan).",
+      "Jos toimintoja ei ole saatavilla tai ne toimivat epänormaalisti riittämättömien oikeuksien, alustan rajoitusten tai kolmannen osapuolen asetusten vuoksi, moonpacket ei takaa, että toiminto toimii normaalisti."
+    ],
+    "groupDataMinimization": [
+      "Ryhmä-/kanavayhteyksissä käsittelemme vain vähimmäistietoja, joita tarvitaan palvelun tarjoamiseksi, kuten käyttäjän verkkoidentifikaattorit (UID), vuorovaikutus/tapahtumarekisteröinnit ja väärinkäytön estämiseen tarvittavat indikaattorit; emme aktiivisesti kerää tai luo henkilöprofiileja ryhmän jäsenistä.",
+      "Vaatimustenmukaisuuden (KYC/AML/sanktiot) tai turvallisuuden vuoksi, jos meidän on laajennettava käsittelyn laajuutta, noudatamme lain edellyttämiä minimointija de-identifikaation periaatteita."
+    ],
+    "analytics": [
+      "Arvioidaksemme tuotteen suorituskykyä, estääksemme väärinkäytöksiä ja arvioidaksemme käyttödataa saatamme käsitellä tietoja nimetöntä tai koottua muotoa käyttäen ja ottaa käyttöön kolmannen osapuolen analyysi/ seuranta työkaluja kohtuullisissa rajoissa liikenteen valvontaa ja attribuorianalyysiä varten.",
+      "Emme myy henkilökohtaisia tietojasi; viittaatte tähän sopimukseen liittyviin CPRA:ta ja muihin sääntöihin liittyviin selityksiin ja vaihtoehtoihin, jos soveltava lainsäädäntö tarjoaa erityisiä määritelmiä 'myynnille/jakamiselle'.",
+      "Kun paikalliset lait vaativat ennakkosuostumusta tai tarjoavat mahdollisuuden kieltäytyä, tarjoamme asiaankuuluvat valinnat niin pitkälle kuin mahdollista."
+    ],
+    "saleShareStatement": [
+      "Emme myy henkilötietojasi harkinnan mukaan; kolmannen osapuolen analytiikka- ja mainontateknologioita käsitellään vain anonymisoituna tai koottuna, kun se on lain mukaan sallittua tai edellyttää tarpeellista suostumusta."
+    ]
+  },
+  "terms": {
+    "version": "v1.0.0",
+    "updated": "automaatti",
+    "version_label": "Versio",
+    "updated_label": "Päivitä",
+    "owner_label": "Omistaja",
+    "appendix_title": "Liite | Määritelmät ja selitykset",
+    "notice": {
+      "disclaimer_binding": "Seuraavat ehdot tarjotaan käännettynä versiona vain viittaukseksi; virallinen oikeudellisesti sitova versio on englanninkielinen alkuperäinen. Jos kieliversioiden ja englanninkielisen version välillä on eroja, englanninkielinen versio on ratkaiseva."
+    },
+    "owner": "moonpacket-tiimi (jäljempänä 'moonpacket') on brändi ja palvelunimi, joka tarjoaa kokeellisia verkko-interaktiivisia ominaisuuksia ja markkinointi/yhteisön kasvutyökaluja. moonpacket ei ole pankki, trusti, säilytyslaitos, vaihto, sijoitusneuvoja, välittäjä tai mikään säännelty rahoituslaitos; lain edellyttämää lukuun ottamatta moonpacket ei ole vastuussa mistään fidusiaarisesta velvoitteesta, luottamusvelvoitteesta, varojen säilytysvelvoitteesta tai tuottotakuusta käyttäjille.",
+    "intro": [
+      "Nämä Käyttäjäehdot (jäljempänä “nämä Ehdot”) muodostavat lainvoimaisen sopimuksen sinun (jäljempänä “sinä” tai “Käyttäjä”) ja moonpacketin (jäljempänä “moonpacket”, “tämä palvelu” tai “me”) välillä koskien pääsyäsi tai käyttöäsi moonpacketin tarjoamiin palveluihin.",
+      "Tämä palvelu sisältää, mutta ei rajoitu, verkkosivustoihin, ladattaviin sovelluksiin, Telegram Mini App -sovellukseen, boteihin, pilvitileihin, red packet/palkkiodistribuutiomoduleihin, tapahtumanhallintaliittymiin ja niihin liittyviin tilastoihin/ranking-toimintoihin (jäljempänä yhdessä “tämä palvelu”).",
+      "Napauttamalla painikkeita kuten “Aloita”, “Hyväksy”, “Lähetä” tai vastaavia suostumusmyöntämistoimia käyttöliittymässä tai aloittamalla tämän palvelun käyttöä, katsotaan, että olet lukenut, ymmärtänyt ja peruuttamattomasti hyväksynyt sitoutua näiden Ehtojen kaikkiin sisältöihin; jos et hyväksy, lopeta viipymättä tämän palvelun käyttö.",
+      "Erityiset toiminnot, promotioyhteistyöt tai yritysohjelmat voivat tarjota lisäehtoja tai toimintasääntöjä; tällaisia lisäehtoja pidetään osana näitä Ehtoja; jos nämä ehdot ovat ristiriidassa näiden Ehtojen kanssa, lisäehdot ovat etusijalla kyseisen toiminnan osalta, kun taas muu osa jatkaa näiden Ehtojen mukaisesti.",
+      "Nämä Ehdot voidaan antaa useilla kielillä lukemisen mukavuuden vuoksi. Jos käännetyn version ja englanninkielisen version välillä on epäjohdonmukaisuuksia tai ristiriitoja sisällössä, tulkinnassa tai vaikutuksessa, englanninkielinen versio on ensisijainen ja katsotaan lopulliseksi voimassaolevaksi versioksi; muiden kielellisten versioiden ei katsota aiheuttavan moonpacketille lisävelvoitteita.",
+      "Vahvistat ja vakuutat, että päätöksesi käyttää tätä palvelua ei perustu minkään 'takuu voittojen', 'pääoman palauttamisen', 'voittojen jakamisen', 'sijoitusneuvonnan' tai muiden korvausvelvoitteiden lupauksiin; moonpacket ei ole antanut eikä tule antamaan mitään takuita tai laillisesti sitovia sitoumuksia koskien mitään tulevia tuloja, palkkioita, hintoja, sijoituksia tai lunastettavaa arvoa."
+    ],
+    "definitions": [
+      "Red packetin lähettäjä tai 'aloittaja' viittaa niihin, jotka luovat, rahoittavat tai jakavat red packet-euroja/palkkioita/tulo-osuuksia/kollektiivisia varoja tämän palvelun sisällä, mukaan lukien yksittäiset käyttäjät, ryhmähallinnoijat, projektiosapuolet tai heidän edustajansa.",
+      "Red packetin vastaanottaja tai 'osallistuja' viittaa niihin, jotka vuorovaikuttavat toimintasääntöjen mukaan, suorittavat tehtäviä tai yrittävät vastaanottaa/oikeasti ovat vastaanottaneet red packet-euroja tai palkkioita.",
+      "Toiminta' viittaa jakelumekanismin asettamiseen aloittajan toimesta, mukaan lukien mutta ei rajoittuen tasaiseen jakeluun, satunnaiseen 'onnea', nimettyjen tehtävien avaamiseen, salasanan napannut, ajastettuihin nostokäyttäytymiseen, rajallisen kiintiön/aikajakeluun jne.",
+      "Off-chain-ennätyksillä' tarkoitetaan sisäistä kirjanpitoa, saldoindikaattoreita ja oikeuksien määrittelyindikaattoreita moonpacket-järjestelmässä (esim. 'jakaantava', 'jaettu', 'nostettavissa'). Off-chain-ennätykset ovat puhtaasti systeemitasoja indikaattoreita, eivätkä ne kuvaa varojen reaaliaikaista siirtoa lohkoketjussa, eivätkä ne muodosta lopullista laillista todistusta varallisuuden omistuksesta; todelliset lohkoketjutoimeksiannot ratkaisevat.",
+      "Pilvilompakalla' tarkoitetaan moonpacketin tai sen kumppanien tarjoamaa säilytyslompakkoa tai omaisuuden säilytysprosessia, jota käytetään latausvarojen vastaanottamiseen, osoittamaan jaettavia saldotavoitteita ja tukemaan myöhempiä nostoja. Pilvilompakat eivät ole pankkitilejä, luottotilejä, talletustilejä tai vakuutuskohteita, eikä niissä ole pääoman säilyttämisen takuuta.",
+      "Maksut' viittaavat lohkoketjutoimeksiin tarvittaviin verkkoresurssikustannuksiin (kuten kaasumaksut), kolmannen osapuolen palvelu- tai maksukanavakustannuksiin ja (mikäli sovellettavissa) moonpacketin perimiin alustoihin liittyviin maksuihin. Maksut maksavat käyttäjät; kun ne on aiheutunut, ne eivät ole palautettavia.",
+      "KYC/AML' viittaa henkilöllisyyden vahvistamisen (Know Your Customer), rahanpesun estämisen (Anti-Money Laundering), terrorismirahoituksen torjunnan, pakotteiden tarkastelun, petosten ehkäisyn, verotuksen ja sääntöjenmukaisuuden tarkastuksiin jne."
+    ],
+    "eligibility": [
+      "Julistat ja takaavat, että olet lainkäyttövaltasi mukaan laillisesti kelvollinen ja että sinulla on täysi kyky käyttää tätä palvelua; alaikäiset tai rajatulla kyvyllä varustetut henkilöt on saatava tarvittava suostumus paikallisten lakien mukaisesti.",
+      "Tämä palvelu käyttää 'kokeile ennen sitoutumista' -mallia; kuitenkin ennen kuin pyydät nostoja, siirtoja eri toimintojen välillä tai osallistut mihinkään varojen todelliseen hävittämiseen, moonpacketilla on oikeus vaatia sinua sitouttamaan sähköpostiosoitteesi, puhelinnumerosi ja kryptovaluuttalompakkosi osoite, ja (jos sovellettavaa) suorittamaan KYC/AML tarkistus."
+    ],
+    "accounts": [
+      "Jos kieltäydyt, viivytät tai et läpäise edellä mainittua vahvistusta, moonpacket voi, oman harkintansa mukaan, viivyttää, rajoittaa tai kieltäytyä mistä tahansa nostosta, palautuksesta, jään purkamisesta tai hyvityspyynnöistä; tällaiset viivytykset, rajoitukset tai kieltäytymiset eivät muodosta sopimusrikkomusta moonpacketilta, ja moonpacket ei kanna korvaus-, hyvitys- tai muita velvoitteita.",
+      "Sinun tulee turvata oikein kaikki vahvistuselementit, kuten Telegram-tilisi, pilvilompakkosi käyttöoikeustiedot, kirjautumistunnukset, allekirjoitusavaimet, laitteet ja salasanat. Kaikki seuraukset, jotka johtuvat phishingistä, haittaohjelmista, laitteiden lainaamisesta, tunnistetietojen vuotamisesta, heikoista salasanoista tai valtuutettujen kolmansien osapuolten toimista, ovat sinun vastuullasi."
+    ],
+    "service": [
+      "Tämän palvelun tarjoamat ominaisuudet sisältävät, mutta eivät rajoitu: (a) toimintojen/red packetien luominen ja rahoittaminen; (b) toimintojen sääntöjen asettaminen (kokonaismäärä, kiintiö, yksittäiset rajat, voimassaoloaika, jakelualgoritmit, tehtäväehdot, salasanat, aikataulutetut avaukset jne.); (c) osallistujien toimintaehtojen tarkistaminen; (d) merkitseminen, jakaminen ja lukitseminen jaettavissa oleville määrille Off-chain-tiedoissa; (e) sallitaan valtuutettujen osallistujien aktivoida oikeat on-chain-noustot lunastuksen yhteydessä; (f) leaderboardien, tilastojen ja suorituskykydemojen tuottaminen.",
+      "Toimintaprosessi on seuraava: kun aloitteentekijä lataa varoja määritettyyn moonpacket-osoitteeseen, vastaava määrä merkitään 'jakelussa oleviksi varoiksi' Off-chain-tiedoissa; toiminta-ajan aikana järjestelmä merkitsee tai jakaa summia vain Off-chain ilman, että se takaa välittömiä, yksittäisiä, transaktioita suoraan on-chain-siirtoihin minkään yksittäisen käyttäjän lompakkoon; vain kun valtuutetut osallistujat lunastavat ja läpäisevät tekniset ja vaatimustenmukaisuustarkastukset, moonpacket laukaisee varsinaiset on-chain-siirrot.",
+      "Käyttäjät hyväksyvät nimenomaisesti: Off-chain-tiedot ovat ainoastaan moonpacketin sisäistä kirjanpitoa ja intressin osoitusta eivätkä edusta laillista loppuomistusta varoista; loppuasiakkaan oikeudet perustuvat varsinaisiin suoritettuihin on-chain-siirtoihin."
+    ],
+    "features": [
+      "moonpacket voi säätää, keskeyttää, rajoittaa tai lopettaa tiettyjä toimintoja tai toimintatyyppejä milloin tahansa turvallisuuteen, operatiivisiin tai vaatimustenmukaisuustarpeisiin; niin kauan kuin säätö perustuu kohtuullisiin teknisiin, riskin, vaatimustenmukaisuuden tai kaupallisiin näkökohtiin, tällaiset tilanteet eivät muodosta moonpacketin rikkomusta, joka ei ole vastuussa mistään korvauksista tai muista velvoitteista.",
+      "moonpacket suosittelee lämpimästi tämän palvelun käyttöä pienissä määrissä useita kertoja; kunkin latauksen tai jakelun summa ei saisi ylittää 100 USDT:n vastinetta, ja on suositeltavaa olla keräämättä suuria määriä varoja Off-chain tiedoissa pitkiä aikoja."
+    ],
+    "cloudWallet": [
+      "Kun myöntäjä vahvistaa tapahtumaehdot (kokonaismäärä, jakelusäännöt, voimassaoloaika ja maksut jne.) käyttöliittymässä ja lähettää sen, se muodostaa lahjan lupauksen määrittelemättömille osallistujille. Tämä lupaus tulee voimaan heti, kun se on toimitettu, ja sillä on luonne olla \"ei voitavissa ja ei palaamaton\"; myöntäjä ei voi pyytää keskeyttämistä sanomalla \"muutin mieltäni\" tai \"en tunnista tiettyä osallistujaa.\"",
+      "Täyttääkseen edellä mainitun lahjan lupauksen, moonpacket voi lukita vastaavan määrän (varojen lukitus) off-chain-tallenteissa ja merkitä sen tilaan \"jakaminen odottaa.\" Tämä lukitus on tarpeellinen myöntäjän lupauksen täyttämiseksi, eikä se ole moonpacketin mielivaltainen takavarikointi tai omistaminen.",
+      "Tapahtuma-aikana myöntäjä ei voi pyytää sitoutuneen määrän ennenaikaista nostamista, eikä he voivat pyytää varojen kohdistamista uudelleen.",
+      "Tapahtuman määräajan jälkeen: (a) Osat, jotka on jo vaadittu osallistujilta (tai ovat käynnistäneet nostomenettelyt), sekä jakelusta aiheutuneet maksut eivät ole palautettavissa; (b) Saldot, joita ei ole vaadittu määräaikaan mennessä, moonpacket voi palauttaa jäljellä olevan määrän alkuperäiselle lataus- tai lähetysoikeudelle tai alkuperäiselle moonpacketin kohtuulliselle osoitteelle vähennettyyn tarpeellisten maksujen kanssa, edellyttäen että tekniset ja vaatimustenmukaisuuteen liittyvät ehdot sallivat.",
+      "Kaikissa palautus-, sulatus-, nostojen tai saldon hyvitystoimenpiteissä moonpacket voi ensin vaatia KYC/AML:n suorittamista; jos käyttäjä kieltäytyy, viivästyttää tai ei läpäise, moonpacket voi oman harkintansa mukaan viivästyttää, rajoittaa tai kieltäytyä käsittelemästä; tällaiset viivästykset, rajoitukset tai kieltäytymiset eivät muodosta sopimusrikkomusta moonpacketilta, ja moonpacket ei kanna korvaus-, hyvitys- tai muita velvoitteita.",
+      "Kun lohkoketjussa on, lohkoketju-transaktiot ovat tyypillisesti peruuttamattomia, julkisesti todennettavia ja muuttumattomia; moonpacket ei voi jälkikäteen poistaa, peruuttaa tai 'palauttaa' transaktioita, jotka ovat jo olleet lohkoketjussa, eikä se vastaa niihin liittyvistä vastuista.",
+      "Mikään arvo, piste, saldo, palkkiot tai muut merkit, jotka eivät vielä ole lohkoketjussa, ovat vain tilapäisiä tietoja ja jakeluviittauksia järjestelmässä, eivätkä ne edusta, että moonpacket olisi pitänyt, luovuttanut tai suojellut tällaisia varoja, eikä ne osoita, että moonpacketilla olisi toimitusvelvollisuutta, arvonsuojeluvelvoitetta, korkovelvoitteita tai vahingonkorvausvelvoitteita sinulle. moonpacket voi päättää viivästyttää, kieltäytyä tai olla enää antamatta tällaisia arvoja riskinhallinnan, KYC/AML-, pakotteiden, verovelvoitteiden tai muiden sääntöjen mukaisesti; tällaiset päätökset eivät muodosta sopimusrikkomusta moonpacketilta, ja moonpacket ei vastaa korvauksista, vahingonkorvauksista tai muista vastuista.",
+      "Lohkoketju-transaktiokustannusten säästämiseksi ja eräjakelu/red packet-jakelufunktioiden tarjoamiseksi moonpacket voi väliaikaisesti tallentaa ja näyttää jakelusaldosi tai odottavat jakelumäärät käyttämällä sisäisiä tietokanta (Off-chain) arvoja. Nämä arvot ovat vain käteviä viittauksia sisäisiin selvityksiin ja jakeluihin järjestelmässä eivätkä muodosta luottamusta, säilytystä, talletuksia, harkinnanvaraista talouden hallintaa, keräämistä ja maksamista, sijoitusten hallintaa tai muita säänneltyjä rahoitustoimintoja. Ellei ja kunnes nämä arvot ovat oikeasti lohkoketjussa, todella maksettu ja todennettavissa julkisessa lohkoketjussa, moonpacketilla ei ole velvoitetta niiden palauttamiseen, arvonsuojeluun tai korkovelvoitteisiin, eikä näitä arvoja taata olevan nostettavissa tiettyyn aikaan, tiettyyn hintaan tai tiettyyn verkkomaksuun."
+    ],
+    "fees": [
+      "Toiminnot kuten aktiviteettien luominen, jakelu, vahvistus, nosto ja on-chain siirto voivat aiheuttaa käsittelymaksuja. Käsittelymaksujen tyypit ja hinnat määräytyvät käyttöliittymässä esitettyjen mukaan, aktiviteettisääntöjen, maksusivujen, yhteistyösopimusten tai muiden nimenomaisten välineiden mukaan.",
+      "Käsittelymaksut joutuu maksamaan käyttäjä, ja ne vähennetään lähetyksen, jakelun, noston tai muiden siihen liittyvien toimintojen yhteydessä; kun ne on aiheutettu, ne eivät ole palautettavissa. Vaikka moonpacket avustaisi hyvityksissä tai saldotilanteiden palauttamisessa tämän palvelun tekijöistä, tällaiset hyvitykset tai palautukset tehdään vain alkuperäisessä valuutassa takaisin alkuperäiselle osoitteelle, poissulkien kaikki aiheutuneet käsittelymaksut tai on-chain kaasukulut.",
+      "Jos käyttäjä ei toimita kohtuullisia compliance-tietoja, joita moonpacket pyytää (esim. KYC/AML), moonpacket voi oman harkintansa mukaan viivästyttää, rajoittaa tai evätä mitä tahansa hyvityksiä, saldon palautusta, nostoja tai jäädyttämisen purkupyynnöissä; tällaiset viivästykset, rajoitukset tai kieltämiset eivät muodosta moonpacketin rikkomusta, joka ei ole vastuussa mistään korvauksista tai muista velvoitteista.",
+      "Kun valitset käyttää erityistä red packet -jakelua, ryhmäjakelua, promootiota tai muita vastaavia toimintoja, järjestelmä saattaa automaattisesti huomioida ja näyttää tietyn prosenttiosuuden järjestelmän maksuista (esim. noin 2 % moonpacketin palvelutoimintojen ylläpitoon) ja/tai tietyn prosenttiosuuden yhteisön toimintapalkkioista (esim. noin 3 % yhteisöjohtajille yhteisön toimintojen tukemiseen). Käyttämällä näitä toimintoja, valtuutat järjestelmän laskemaan ja jakamaan nämä maksut esitettyjen prosenttiosuuksien mukaisesti. Ellei lailla toisin kielletä, moonpacketilla on oikeus säätää näitä prosenttiosuuksia, ehtoja tai palkkio-malleja kohtuullisessa rajoissa ilman lisäilmoituksia."
+    ],
+    "rules": [
+      "Aloittajan on velvollisuus asettaa aktiviteettisäännöt totuudenmukaisesti ja selkeästi (mukaan lukien kokonaismäärä, kiintiö, henkilökohtaiset rajoitukset, voimassaoloaika, ehtorajoitukset, jakomekanismit jne.), eikä osallistujia saa houkutella harhaanjohtavilla tai valheellisilla keinoilla.",
+      "moonpacket suorittaa ja kirjaa jakomekanismeja, tehtävien tarkistuksia ja palkintotuloksia palvelinpuolella ja varaa tarvittavat auditointijäljet kiistoihin, vaatimustenmukaisuuteen tai sääntelytutkimuksiin vastaamiseksi.",
+      "Jos moonpacket kohtuudella epäilee suurimuotoista väärinkäyttöä, roskapostia, automatisoitua ryöstöä, petosta, rahanpesua, terrorismirahoitusta, uhkapelin voittojen jakamista, laittomia varainkeruita, pakotteiden kiertämistä tai muita korkean riskin tilanteita, moonpacket voi välittömästi keskeyttää, jäädyttää tai muuttaa toimintaa ja päättää palauttaa peruuttamattomat saldot, kieltäytyä jakamisesta tai luovuttaa tietoja sääntely- tai oikeusviranomaisille; tällaiset toimet eivät muodosta sopimusrikkomusta moonpacketilta, eikä moonpacket ole vastuussa mistään korvauksista, hyvityksistä tai muista velvoitteista."
+    ],
+    "abuse": [
+      "moonpacket ilmoittaa selvästi: Meillä ei ole velvoitetta, emmekä voi taata, että 'mikään tili välttämättä vastaa yhtä, todistettavaa luonnollista henkilöä'. Emme myöskään voi taata useiden jaettujen tilien, yhden luonnollisen henkilön omistamien useiden tilien, vale-tilien tai automatisoituja skriptejä/botteja, jotka ottavat red packet -lahjoja, puuttumista.",
+      "Käyttäjät (mukaan lukien aloittajat ja osallistujat) ymmärtävät ja hyväksyvät selvästi: Yllä mainitut tilanteet voivat vaikuttaa varojen jakamiseen, jakamisjärjestykseen tai käytettävissä oleviin määriin; kaikki eriarvoisuudet, ristiriidat tai kiistat, joita aiheutuu useista tileistä, vale-tilistä, skripteistä, boteista tai muista epätavallisista toimista, eivät muodosta sopimusrikkomusta moonpacketilta, ja moonpacket ei ole vastuussa korvauksista, palautuksista tai muista velvoitteista.",
+      "Järjestelmä turvallisuuden ja vaatimustenmukaisuuden ylläpitämiseksi moonpacket voi käyttää automatisoituja havaintoja, tekoäly/malleja, mustia/harmaita listoita, nopeusrajoituksia, laitepohjaista tunnistamista, IP/ASN-riskinarviointia ja muita riskinhallintamekanismeja kohtuullisin rajoin, ja se voi: (a) jäädyttää, keskeyttää, estää tai rajoittaa tiettyjen tilien, ryhmien, IP:iden, laitteiden tai toimintojen käyttöä; (b) pyytää lisätietoja tai täydentää KYC/AML; (c) viivästyttää tai kieltäytyä asiakaspalvelun käsittelystä, kotiutuksista, palautuksista tai jäädytyksen purkamisesta; (d) viitata epäiltyihin laittomiin tai korkean riskin tilanteisiin viranomaisille tai tuomioistuimille.",
+      "moonpacketilla ei ole velvoitetta paljastaa sisäistä riskinhallintapäätöslogiikkaansa, teknisiä yksityiskohtia tai täydellistä tarkastussääntöään. Kaikki toimet, jotka on toteutettu edellä mainittujen riskinhallinta-, vaatimustenmukaisuus- tai sääntelyviranomaispyyntöjen perusteella, eivät muodosta sopimusrikkomusta moonpacketilta, ja moonpacketilla ei ole vastuuta korvauksista, palautuksista tai muista velvoitteista.",
+      "Tilin omistajuuskiistat (esim. väittäminen 'toinen tili on itse asiassa minun, siirrä saldo'): moonpacket tunnustaa vain alkuperäisen tilin, alkuperäisen sähköpostin ja alkuperäisen lompakon osoitteen oikeudellisten haltijoina; moonpacketilla ei ole velvoitetta siirtää mitään off-chain-tallennussaldoa, nostokirjoja tai muita etuja erityiseltä tililtä toiseen tiliin/sähköpostiin/lompakkoon.",
+      "Jos tili ei ole kirjautunut sisään kahdeksaan (18) peräkkäiseen kuukauteen viimeisestä kirjautumisesta, moonpacket jäädyttää noudattamattoman off-chain-tallennussaldon turvallisuuden, vaatimustenmukaisuuden ja riskinhallintaan liittyvien huomioiden vuoksi, eikä se enää tarjoa palautuksia, nostoja tai muita palautusmuotoja. Tämä toimenpide ei muodosta sopimusrikkomusta moonpacketilta, ja moonpacket ei kanna korvaus-, hyvitys- tai muita velvoitteita."
+    ],
+    "ip": [
+      "Tämän palvelun ja sen sisällön (mukaan lukien mutta ei rajoittuen: koodi, design, logot, tavaramerkit, kuvat, tekstit, tilastolliset esitykset, rankingit, markkinointimateriaalit, asiakirjat ja aineistokokoelmat) immateriaalioikeudet ja muut oikeudet kuuluvat moonpacketille tai sen laillisille lisenssin myöntäjille.",
+      "Et saa kopioida, välittää, muokata, jakaa, vuokrata, purkaa tai hyödyntää edellä mainittua sisältöä kaupallisiin tai ei-kaupallisiin tarkoituksiin ilman moonpacketin etukäteen antamaa kirjallista lupaa.",
+      "Vakuutat, että olet hankkinut tarvittavat valtuutukset tai oikeudet kaikelle sisällölle, joka on lähetetty, ladattu, raportoitu tai muulla tavoin annettu tälle palvelulle (esim. ryhmän nimet, lempinimet, avatarit, kuvaukset, kommentit, tapahtumatulokset, jakosummat, ranking-tiedot, havainnollistavat kuvakaappaukset, meme, palautteet, chattitiedot jne., yhteisesti kutsutaan 'Käyttäjäsisällöksi')."
+    ],
+    "thirdparty": [
+      "Tämä palvelu voi integroida, tukeutua tai linkittää kolmansille osapuolille (kuten Telegram-alustalle, blockchain-solmuille, KYC/AML-palveluntarjoajille, maksutai vaihto kanaville, ulkoisille tehtäväjärjestelmille, pilvipalveluntarjoajille jne.). Nämä kolmannet osapuolet toimivat itsenäisesti ja ovat sidottuja omiin ehtoihinsa, yksityisyyskäytäntöihinsä ja saatavuusrajoituksiinsa.",
+      "moonpacket ei takaa kolmansien osapuolten palveluiden jatkuvaa olemassaoloa, ajankohtaisuutta, tarkkuutta, saatavuutta, laillisuutta tai turvallisuutta; eikä se takaa, että nämä kolmannet osapuolet eivät estä, hidasta, viivästytä, muuta sääntöjä tai keskeytä palveluja.",
+      "Viivästykset, epäonnistumiset, muutokset, keskeytykset tai tietojen epäjohdonmukaisuudet, joita kolmannet osapuolet, verkkoyhteys, blockchain-ruuhkat, solmujen epäonnistumiset, estot, hidastukset, politiikan muutokset, järjestelmän huolto tai muut moonpacketille ei attribuuttiset syyt aiheuttavat, eivät muodosta sopimusrikkomusta moonpacketilta, eikä moonpacket ole vastuussa mistään vahingoista, korvauksista tai sopimusrikkomusvelvoitteista.",
+      "Jos muutokset kolmansien osapuolten politiikoissa tai ympäristöissä vaativat moonpacketia säätämään, keskeyttämään tai lopettamaan tiettyjä toimintoja, moonpacket voi ilmoittaa tai selittää muutokset kohtuullisessa laajuudessa, ja tällaiset muutokset ovat voimassa, eikä moonpacket ole vastuussa korvauksista."
+    ],
+    "dataPrivacy": [
+      "moonpacket kerää, käyttää, säilyttää, käsittelee ja jakaa tietojasi tietosuojakäytännön mukaisesti.",
+      "Lohkoketjudatan julkisen, peruuttamattoman ja jäljitettävän luonteen vuoksi kolmannet osapuolet voivat rekonstruoida tai liittää tietoja henkilöllisyyteesi tai lompakkotunnukseesi; sinun tulee ymmärtää ja kantaa tämä julkinen riski itse.",
+      "Hyväksyt nimenomaisesti, että moonpacket voi kohtuullisissa rajoissa säilyttää, tarkastella, analysoida, jäädyttää ja antaa tarvittavia tietoja (mukaan lukien mutta ei rajoittuen Off-chain-ennätyksiin, lohkoketjun todisteisiin, KYC/AML-tietoihin, ryhmä/keskustelu/toimintalokeihin, jakelu- ja nostotoimiin) yllä mainituille viranomaisille tai niiden valtuutetuille tahoille petoksia ehkäisevän, rahanpesun estämisen, terrorismirahoituksen torjunnan, pakotetuen noudattamisen, veroraportoinnin, sääntöjenmukaisuuden tarkastusten tai muiden laillisten pyyntöjen perusteella.",
+      "moonpacketin yhteistyö sääntely- tai oikeusviranomaisten kanssa on lainsäädännön tai sääntöjenmukaisuuden kannalta tarpeellista, eikä se muodosta rikkomusta tai loukkausta sinua kohtaan; moonpacket ei ole vastuussa mistään vahingoista tai kustannuksista, jotka aiheutuvat tällaisista yhteistyötoimista."
+    ],
+    "risk": [
+      "Myönnät ja hyväksyt, että kryptovaluutat, lohkoketjun verkot ja reaaliaikaiset interaktiiviset jakomekanismit sisältävät suuria epävarmuuksia ja teknisiä riskejä, mukaan lukien mutta ei rajoittuen hintavaihteluihin, protokolla- tai solmuepäonnistumisiin, haarautumisiin, palautuksiin, haitallisiin hyökkäyksiin, palvelunestoon, verkon ruuhkiin, estämiseen, hidastamiseen, älykkäisiin sopimusten haavoittuvuuksiin, kolmansien osapuolten API-muutoksiin, sääntelypolitiikan muutoksiin tai datan viivästyksiin.",
+      "Lohkoketjun transaktiot ovat yleensä peruuttamattomia, kun ne on lähetetty ja vahvistettu on-chain; kaikki viivästykset, epäonnistumiset tai poikkeamat peruuttamattomuuden, verkkoruuhkan, solmun anomalioiden tai kolmannen osapuolen rajoitteiden vuoksi ovat sinun vastuullasi. moonpacket ei tarjoa takuuta pääoman suojelemisesta, arvon säilyttämisestä, tuoton varmistamisesta tai reaaliaikaisesta saatavuudesta.",
+      "Off-chain-tietueet ovat vain sisäisen järjestelmän etujen esittämistä varten; oikeudet, joita voidaan lopulta vaatia, perustuvat toteutettuihin on-chain-siirtoihin. Ennen on-chainia, varat eivät välttämättä ole vielä osoitettavissa yksilöllisesti tunnistettavalle luonnolliselle henkilölle ja voivat olla osallistumisehtojen, KYC/AML:n, jäädyttämisjärjestelmien tai vaatimustenmukaisuuden tarkistusten alaisia.",
+      "moonpacket ei ole pankki, ei säännelty maksulaitos, ei sijoitusneuvoja, ei varainhoitaja, ei vakuutustoimija. moonpacket ei tarjoa sijoitus-, vero-, oikeudellista tai vaatimustenmukaisuuskonsultointia; lainsäädännön noudattaminen eri valtioissa tai lainkäyttöalueilla, verotuksen ilmoitusvelvoitteet ja pakotteiden noudattamisvelvoitteet ovat sinun ainoa vastuusi arvioida ja toteuttaa. Jos sinulla on huolia vaatimustenmukaisuudesta, älä käytä tätä palvelua.",
+      "Riskin vähentämiseksi moonpacket suosittelee käyttämään pieniä määriä useita kertoja (yksittäisen transaktion määrä ei saisi ylittää 100 USDT:n ekvivalenttia) ja välttämään suurten varojen pitkäaikaista säilyttämistä off-chain-tietueissa.",
+      "Ymmärrät ja hyväksyt: moonpacket ei ole pankki, luottamushenkilö, agentti, vaihtopalvelu tai maksuväline, varainhoitaja, sijoitusneuvoja, välittäjä tai säilyttäjä; moonpacketilla ei ole velvollisuutta (ja se kiistää nimenomaisesti minkään velvollisuuden) säilyttää, hallita, arvostaa, sijoittaa, vaihtaa, muuntaa, suojata tai ylläpitää mitään arvoa, tokenia, omaisuutta tai etua puolestasi.",
+      "Ymmärrät ja hyväksyt, että kun siirrät minkä tahansa kryptovaraston tai tokenin lompakostasi tai tililtäsi tähän palveluun, itse on-chain-transaktio saattaa aiheuttaa peruuttamattomia verkkokuluja, kaasukuluja, kaivostyöläisten maksuja tai muita samankaltaisia kuluja; seurauksena voi olla, että järjestelmää varten 'hyvitetty' nettomäärä on vähemmän kuin nimellinen määrä, jonka olet syöttänyt tai joka on näytetty lähettäjän käyttöliittymässä. Tämä ero veloitetaan asiaankuuluvasta on-chain-verkosta ja infrastruktuurista eikä moonpacketin keräämä; moonpacket tunnustaa ja kirjautuu vain todelliseen onnistuneesti hyvitettyyn nettomäärään, joka toimii ainoana perustana myöhempiin sisäisiin tietueisiin ja selvityksiin, eikä se muodosta mitään muita erotuksia, joita moonpacket velkaa sinulle."
+    ],
+    "disclaimer": [
+      "Tätä palvelua tarjotaan 'sellaisena kuin se on' ja 'saatavilla olevana'. Lain sallimissa rajoissa moonpacket ei anna nimenomaisia tai implisiittisiä takuita, esityksiä tai lupauksia tästä palvelusta tai sen osasta (mukaan lukien välitön saatavuus, tarkkuus, keskeytymätön toiminta, virheettömyys, erityiseen tarkoitukseen sopivuus, laillisuus, sääntöjenmukaisuus, turvallisuus tai huono häiriö).",
+      "moonpacket ei takaa viivästyksistä, virheistä, katkoksista, estoista tai politiikan muutoksista, joita aiheuttavat tai joissa ovat mukana kolmannen osapuolen palvelut (kuten Telegram-alustat, lohkoketjun solmut, KYC/AML-palveluntarjoajat, maksamisen tai vaihtokanavat, ulkoiset tehtäväjärjestelmät, pilvipalveluntarjoajat jne.), eikä se ota vastuuta niiden soveltuvuudesta, laillisuudesta, ajantasaisuudesta, saatavuudesta tai turvallisuudesta.",
+      "moonpacket ei tarjoa erityisiä tai implisiittisiä takuita, lupauksia tai sitoumuksia koskien tiettyjä palautteita, arvioita, pudotusmääriä, jakosuhteita, jakelumääriä, lähetysmäärien lukumäärää, voittomahdollisuuksia, airdrop-oikeuksia, varallisuuden vaihdettavuutta, lopullista nostettavuutta tai markkina-arvoa; kaikki käyttöliittymässä tai ilmoituksissa esitetyt numerot, prosentit, arvionnit, simuloinnit, johtajalistat, palkkiohenkiset kokoerät tai 'saatavilla olevat palkkiot' kuvastavat vain viitteellisiä tietoja eivätkä muodosta takuita tai laillisesti velvoitettuja oikeuksia sinulle.",
+      "Ymmärrät ja hyväksyt, että tämä palvelu on vuorovaikutteinen jakelu/red packet jakelumechanismi, joka on internetluonteinen. Vaikka moonpacket saattaa koettaa kohtuudella havaita automaattista väärinkäyttöä, kaksoistilejä, henkilöllisyyden vaihtamista tai muita epäoikeudenmukaisia käytöksiä, moonpacket ei takaa eikä voi taata: (a) että kukin tili vastaa ainutlaatuista luonnollista henkilöä; (b) että jokainen vastaanottaja täyttää henkilökohtaisen arviointisi 'oikeutetut vastaanottajat'; tai (c) että minkään allokoinnin tulokset vastaavat henkilökohtaista oikeudenmukaisuuden tai taloudellista odotusta. moonpacketilla ei ole velvollisuutta korvata, jakaa uudelleen, vaatia takaisin tai elvyttää varoja sinulta 'muiden useiden tilien paketteja/näyttörobotit paketteja ottaminen' -väitteen vuoksi, ellei laki toisin vaadi.",
+      "Kun pyydät arvioita, siirtoja tai on-chain arvoja, saatat joutua maksamaan lisäkuluja on-chain, kaasumaksuja, kaivosmaksuja tai muita verkon kustannuksia lompakostasi tai määritetystä verkosta. Tällaiset kustannukset voivat merkittävästi ylittää nimellisarvon, jota yrität nostaa tietyn verkkosovelluksen aikana. Tällaiset kustannukset määräytyvät oman taloudellisen ja riskiarviosi mukaan, eivätkä ne ole moonpacketin palvelumaksuja tai komissioita; ellei laki toisin vaadi, moonpacketilla ei ole velvollisuutta kattaa, ennakoida, tukea, alennuksia, optimoida tai palauttaa tällaisia kustannuksia, eikä mitään velvollisuutta varmistaa, että tällaiset kustannukset ovat 'kohtuullisia' suhteessa nimelliseen nostosummaan, jota yrität.",
+      "Tämä palvelu on tarkoitettu tarjoamaan tekninen, ohjelmoitu automaattinen jakelun ja vuorovaikutuksen työkalu, joka mahdollistaa käyttäjien jakaa tai sitoutua jakamaan omia varoja pelillistämisen tai yhteisön hallinnan tarkoituksiin. Elleivät laki toisin vaadi, tämä palvelu ei muodosta (eikä sitä tule ymmärtää) pankkipalveluina, talletuksina, luottokuntina, säilytyksenä, fidusiaariinvestointeina, sijoitusneuvoina, rahaston hallintana, valuutanvaihtona tai maksujärjestelypalveluina, eikä se muodosta lainan tai rahoituksen tuotteita."
+    ],
+    "liability": [
+      "Sellaisten lain sallimien rajoitusten mukaan moonpacket ei ole vastuussa mistään epäsuorista, sattumanvaraisista, erityisistä, rangaistuksista, seurannaisista tai johdannaisvahingoista (mukaan lukien mutta ei rajoittuen voittojen menetys, tulojen menetys, vaurioitunut hyvä tahto tai maine, datan menetys, mahdollisuuskustannukset, verot tai sakot tai odotettujen etujen saavuttamatta jääminen), jotka johtuvat mistään vaatimuksesta, joka perustuu sopimukseen, deliktin, epäoikeudenmukaiseen rikastumiseen, tiukkaan vastuuseen tai muuhun oikeudelliseen/oikeuteen perustuvaan teoriaan.",
+      "Viivästykset, epäonnistumiset, rajoitettu toiminnallisuus, datan poikkeamat tai keskeytykset, joita aiheuttavat kolmannen osapuolen palvelut, verkkoyhteydet, lohkoketjun ruuhka, solmujen epäonnistumiset, estäminen, hidastaminen, politiikan muutokset, järjestelmän ylläpito tai muut moonpacketille ei maksulliset tekijät, eivät muodosta moonpacketin rikkomusta, eikä moonpacket ole vastuussa mistään vahingoista, korvauksista tai muista velvoitteista tällaisissa tapauksissa.",
+      "Siirtokulut, on-chain-kaasukulut, kolmannen osapuolen maksut tai samankaltaiset kulut eivät sisälly mihinkään palautus- tai korvauspiiriin."
+    ],
+    "indemnity": [
+      "Jos sinä (mukaan lukien aloittaja ja osallistujat) rikot näitä ehtoja tai mitään sovellettavia lakeja, sanktioita, verovelvoitteita tai vaatimustenmukaisuusvaatimuksia tai loukkaat minkään kolmannen osapuolen oikeuksia tai osallistut petokseen, rahanpesuun, terrorismirahoitukseen, uhkapelivoittoihin, laittomaan varainkeruuseen, valtuuttamattomaan henkilökohtaisten tietojen keräämiseen, haitallisen sisällön levittämiseen tai muihin korkean riskin/kiellettyihin toimintoihin tämän palvelun käyttäminen, mikä johtaa mihin tahansa vaatimuksiin, vahinkoihin, sakkoihin, vastuisiin, tutkimuksiin, oikeusjuttuihin tai muihin kuluihin (mukaan lukien kohtuulliset asianajopalkkiot) moonpacketia ja sen tytäryhtiöitä, johtajia, työntekijöitä, kumppaneita, toimittajia tai vaatimustenmukaisuuden/oikeudellista valvontaa koskevia tahoja vastaan, sitoudut puolustamaan, korvaamaan ja pitämään heidät vaarattomina lain sallimassa laajuudessa.",
+      "Edellä mainitut korvausvelvoitteet (mikäli sovellettavissa) sisältävät muun muassa: säännöistä valvontaviranomaisilta, jäädyttämis- tai takavarikkopyynnöistä veroviranomaisilta tai rahoitusvalvontaviranomaisilta, siviili- tai rikosoikeudelliset menettelyt, hallinnolliset sanktiot, asianajokulut ja oikeudenkäyntikulut sekä velat, jotka on asetettu tai vaadittu moonpacketia kohtaan toimiasi (mukaan lukien väitetyllä rahanpesulla, petoksella, terrorismirahoituksella, veronkierrolla, sanktioiden kiertämisellä tai valtuuttamattomilla rahoituspalveluilla).",
+      "Sitouduit siihen, että korvaus-, vahingonkorvaus-, puolustus- ja vaarattomaksi pitämisen velvoitteet koskevat paitsi moonpacketia itseään myös moonpacketin jäseniä, hallinnoijia, johtajia, työntekijöitä, asiantuntijoita, urakoitsijoita, kehittäjiä, toimintakumppaneita, yhteisön johtajia, agenteja, seuraajia, siirtäjiä ja heidän seuraajiaan (yhteisesti “korvattavat”). Lain sallimassa laajuudessa sitoudut korvaamaan kaikki korvattavat kaikista vaatimuksista, kyselyistä, jäädytyksistä, takavarikoista, sakoista, oikeusjutuista, tuomioista, sovinnoista, asianajokuluista ja muista kuluista, jotka johtuvat tämän palvelun käytöstäsi, varojen lähteistä tai määränpääistä, red packet -jakelutoimista, transaktioista tai riidoista muiden käyttäjien kanssa tai lain noudattamatta jättämisestä (mukaan lukien mutta ei rajoittuen rahanpesun, sanktioiden, verovelvoitteiden ja kulutusveroraportoinnin velvoitteisiin)."
+    ],
+    "suspension": [
+      "moonpacket voi turvallisuuden, vaatimustenmukaisuuden, riskienhallinnan tai liiketoimintatarpeiden perusteella nopeasti toteuttaa seuraavat toimet kohtuullisessa laajuudessa ilman yksittäistä ilmoitusta: (a) rajoittaa, viivästyttää tai kieltäytyä tarjoamasta osaa tai kaikkia palveluja; (b) jäädyttää, pidättää, rajoittaa, säätää tai pysäyttää tilejä, saldot, ominaisuudet tai nostot; (c) estää tiettyjä tilejä, ryhmiä, IP-osoitteita, laitteita tai toimintoja; (d) pyytää lisätietoja tai suorittaa KYC/AML. Edellä mainitut toimenpiteet eivät muodosta sopimusrikkomusta moonpacketilta, eikä moonpacket ole vastuussa mistään vahingoista, korvauksista tai muista vastuista.",
+      "Jos moonpacket kohtuudella toteaa, että on korkean riskin tai laittomia olosuhteita, kuten petosta, rahanpesua, terrorismirahoitusta, pakotteiden kiertämistä, valtuuttamattomia rahoituspalveluja, laittomia varainkeruita, uhkapelin voittojen jakamista, hyödyntämistä tai alustateknologian vahingoittamista, moonpacket voi keskeyttää, viivästyttää tai kieltäytyä transaktioista, jakeluista, nostoista, hyvityksistä, jäädytyksen purkuista tai asiakaspalvelun käsittelystä, ja yhteistyö viranomaisten tai oikeusviranomaisten tutkimuksissa tai määräyksissä.",
+      "moonpacketilla on oikeus säilyttää tilien, transaktiotodisteiden, KYC/AML-tietojen ja tarkastuksiin vaadittavien tietojen tallenteita kohtuullisen ajan. Vaikka pyydät tilin poistamista tai palvelun käyttöön lopettamista, moonpacket voi silti säilyttää kyseisiä tietoja lain, verotuksen, kirjanpidon ja vaatimustenmukaisuuden vaatimusten mukaisesti, kunnes säilyttämisvelvoite päättyy ennen niiden poistamista tai anonymisoimista.",
+      "Jos Off-chain-tiedot ovat ristiriidassa on-chain-statusten kanssa, moonpacket voi säätää tai peruuttaa Off-chain-tiedot heijastamaan sitä, mitä moonpacket kohtuudella katsoo oikeaksi tilaksi; kuitenkin on-chain-transaktioita ei voida peruuttaa tai peruuttaa.",
+      "Ilman että tämä vaikuttaa edellä mainittuun yleiseen sisältöön, moonpacket voi kieltäytyä, viivästyttää, mitätöidä, jäädyttää tai pidättää pysyvästi mitä tahansa arvoja/palkkioita, joita näytetään 'odottavina hyvityksinä', 'ansaittavana', 'ei vielä on-chain' tai vastaavina merkintöinä vaatimustenmukaisuuden, riskienhallinnan, petoksen tai väärinkäytön syistä huolimatta siitä, oletko nähnyt arvon käyttöliittymässä. Hyväksyt nimenomaisesti ja peruuttamattomasti luopuvat kaikista korvausvaatimuksista, korkoista, ansioista, mahdollisuuskustannuksista, rangaistuksista tai muista vaatimuksista tällaisista maksamattomista arvoista moonpacketia vastaan, ellei sovellettava laki nimenomaisesti kiellä tällaisten vaatimusten luopumista.",
+      "Ymmärrät ja hyväksyt, että kun toimitat (tai vahvistat toimittamisen) mitä tahansa red packetia, palkkioita, ryhmäjakamista tai muita jakeluohjeita käyttöliittymässä, moonpacket pitää jakelun valtuutusta vastaanottajille/ryhmille/ehdoille kyseisissä ohjeissa peruuttamattomana ja lopullisena. Lukuun ottamatta petosten, väärinkäytön, rahanpesun, pakotteiden kiertämisen, veronkierron tai muiden vaatimustenmukaisuuden huolenaiheiden tutkimuksia, moonpacket ei ole velvollinen tarjoamaan mekanismeja 'käänteiselle', 'hyvitykselle', 'peruutukselle', 'palauttamiselle' tai vastaaville toimenpiteille, eikä se ole velvollinen vaatimaan, että tällaiset arvot palautetaan puolestasi muilta käyttäjiltä jakelun jälkeen; tällaiset toimet eivät muodosta moonpacketin rikkomusta, eikä moonpacket ole vastuussa mistään vahingoista, korvauksista tai muista vastuista.",
+      "Sovellettavien lakien, rahanpesun vastaisen lainsäädännön, pakotteiden, veroraportoinnin, petostutkimusten tai korkean riskin varoitusten yhteydessä moonpacket voi vaatia, että suoritat henkilöllisyyden tarkistuksen (mukaan lukien, mutta ei rajoittuen, hallituksen myöntama henkilökortti, selfiet, kasvo- tai muut biometriset vertailut jne.) ja voi pyytää lisäasiakirjoja tai lisätarkistuksia, jos tarpeellista. Jos et toimita tarvittavia tietoja kohtuullisessa ajassa tai jos toimitetut tiedot eivät läpäise kohtuullisia tarkistuksia, moonpacket voi oman harkintansa mukaan viivästyttää, rajoittaa, kieltäytyä tai pysyvästi estää minkä tahansa noston, erottamisen, on-chain- tai lunastuspyynnön; tällaiset toimet eivät muodosta sopimusrikkomusta moonpacketilta, eikä moonpacket ole vastuussa mistään vahingoista, korvauksista tai muista vastuista, ja luovut peruuttamattomasti kaikista vahingonkorvausvaatimuksista, koroista tai mahdollisuuskustannuksista tällaisista viivästyksistä tai kielloista, ellei laki kiellä."
+    ],
+    "compliance": [
+      "Hyväksyt nimenomaisesti, että moonpacket voi noudattaa sääntövelvoitteitaan, rahanpesun estämisen/terrorismin rahoittamisen sääntöjä, pakotteita, verovelvoitteita tai laillisia vaatimuksia valvontalaitoksilta/oikeudellisilta viranomaisilta, säilyttää, jäädyttää, analysoida ja antaa tarvittavia tietoja (mukaan lukien Off-chain-ennätykset, on-chain-jäljet, KYC/AML-tiedot, ryhmä/keskustelu/tapahtumaennätykset, jakelu- ja nostokäyttäytymiset) valtuutetuille yksiköille tai niiden nimittämässä sääntöjenmukaisille tarjoajille.",
+      "Tällainen yhteistyö ei muodosta sopimusrikkomusta tai loukkausta moonpacketilta, ja moonpacket ei ole vastuussa mistään korvauksista, vahingonkorvauksista tai muista vastuista."
+    ],
+    "forceMajeure": [
+      "Luonnonkatastrofien, sodan, mellakoiden, hallitusten määräysten, pakotteiden, uusien lakien tai säännösten vaatimusten, sähkökatkojen, viestintä- tai verkkokatkosten, toimittajien tai pilvi-infrastruktuurin ongelmien, lohkoketjuprotokollakerroksen tapahtumien, pahantahtoisten hyökkäysten, epidemioiden, työsuhteiden kiistoja tai muiden moonpacketista riippumattomien syiden vuoksi, jotka aiheuttavat viivästyksiä tai osittaisen kyvyttömyyden täyttää velvoitteita näiden ehtojen mukaan, kyseinen osapuoli voi vaatia vastuuvapausta tällaisista viivästyksistä tai epäonnistumisista; kuitenkin osapuolen on edelleen tehtävä kohtuullisia pyrkimyksiä lieventää vaikutuksia ja palauttaa tilanne niin pian kuin mahdollista."
+    ],
+    "highRisk": [
+      "Kiellettyjä käyttöjä tähän palveluun kuuluvat kaikki laittomat, korkean riskin tai säädöksillä määrätyt tarkoitukset, mukaan lukien mutta ei rajoittuen petoksiin, rahanpesuun, terroristirahoitukseen, uhkapelin voittamiseen, laittomaan varainkeruuseen, valtuuttamattomiin rahoituspalveluihin, sanktioiden kiertämiseen tai muuhun sääntelyllä kiellettyyn toimintaan.",
+      "Aloittajan tulee vahvistaa lainkäyttövaltansa tai sovellettavan oikeudellisen alueensa red packetien, palkkioiden, promoottorirahojen, airdropien, voitonjaon tai vastaavien jakelujen osalta ja varmistaa, etteivät nämä muodosta laitonta varainkeruuta, valtuuttamattomia rahoituspalveluja, laittomia uhkapelin voittoja tai muita raportoitavia/lupaa vaativia toimintoja.",
+      "Osallistujien on vahvistettava, että varojen vastaanottaminen, pitäminen, nostaminen tai siirtäminen on lainmukaista heidän sijaintipaikassaan, eikä se johda laittomaan tuloihin, sanktioiden rikkomisiin, veroraportointivelvoitteisiin tai muihin sääntelyrajoituksiin.",
+      "moonpacket ei anna oikeudellisia takeita tämän palvelun raja- tai lainkäyttöalueiden laillisuudesta, eikä se takaa, että voit käyttää tätä palvelua laillisesti tietyllä alueella.",
+      "Edustat ja vakuutat, ettet ole kansainvälisten sanktioiden, vientikontrollin, antiterrorismitoimien tai vastaavien rajoitusten alainen, etkä käytä tätä palvelua tällaisen tahon puolesta. Et saa käyttää tätä palvelua avustaaksesi, helpottaaksesi tai yrittääksesi kiertää mitään sanktioita, jäädytyksiä, takavarikoita, konfiskointeja, verotarkastuksia, lainvalvontatoimia tai oikeudellisia menettelyjä. moonpacket pidättää oikeuden kieltäytyä, rajoittaa tai lopettaa kokonaan tai osittain palveluita tai viivyttää, rajoittaa tai evätä mitään nostopyyntöjä, siirtoja tai lunastuspäätöksiä ilman ennakkohuomiota; tällaiset toimenpiteet eivät muodosta moonpacketin rikkomusta, eivätkä moonpacket ole vastuussa mahdollisista vahingoista, korvauksista tai muista vastuista."
+    ],
+    "tax": [
+      "Olet vastuussa kaikista verovelvoitteista, ilmoituksista, maksuista ja liittyvistä kuluista, jotka johtuvat tämän palvelun käytöstä sovellettavien lakien mukaisesti; moonpacket ei tarjoa veroneuvontaa, eikä se ole vastuussa ilmoituksista tai pidätysmaksuista, ellei lain mukaan vaadita."
+    ],
+    "accuracy": [
+      "Tämän palvelun tarjoamat sijoitukset, tilastot, tapahtumien tulokset, vinkit tai hallintapaneelin tiedot voivat poiketa todellisesta tilasta synkronointiviivästysten, kolmannen osapuolen riippuvuuksien, tilapäisten rajoitusten tai järjestelmähuollon vuoksi; kaikki on silti riippuvaisia moonpacketin todellisista on-chain -transaktiotuloksista tai lopullisista sääntöpanoksista.",
+      "moonpacket voi korjata kaikki ilmiselvät virheet, järjestelmäviat tai ilmeisen epäoikeudenmukaiset tulokset näyttöön, ja se voi peruuttaa off-chain-tallenteita kohtuullisessa mittakaavassa ottaakseen ne yhteen tarkkojen tilojen kanssa, kuten moonpacket kohtuudella määrittää; kuitenkin on-chain -transaktioita ei voida peruuttaa tai kumota."
+    ],
+    "law": [
+      "Nämä ehdot, samoin kuin kaikki suhteet sinun ja moonpacketin välillä, jotka syntyvät tai liittyvät tähän palveluun (mukaan lukien mutta ei rajoittuen aktiviteettijakoon, varojen käsittelyyn, ranking/palkkiojärjestelmiin, tilin jäädytyksiin/epäilyksiin, palvelun lopettamiseen tai päättämiseen, Off-chain-tietueiden säätämiseen, datan säilyttämiseen, yhteistyöhön lainvalvontaviranomaisten kanssa, kaikkiin ilmoituksiin, lausuntoihin, markkinointiin, asiakastuen toimiin jne.), säätelee Japanin lakeja ilman, että otetaan huomioon sen yksityisen kansainvälisen oikeuden periaatteita tai lakien ristiriitoja."
+    ],
+    "disputes": [
+      "Kaikki riidat, kiistat, pyyntöjä, oikeusjuttuja, korvauksia tai menettelyjä, jotka johtuvat tai liittyvät tähän palveluun tai näihin ehtoihin, tulee käsitellä yksinomaan Tokion piirituomioistuimessa ensimmäisenä oikeusasteena. Luovut oikeudellasi vaatia minkään muun tuomioistuimen, välimiesmenettelyn laitoksen tai oikeuspiirin tuomiovaltuutta, joka saattaa olla mukautuvampi tai sopivampi, etkä voi väittää, että moonpacket olisi toimivaltainen siellä, missä sinä olet.",
+      "Hyväksyt, että moonpacket voi lainmukaisten velvoitteidensa, rahanpesun vastaisten ja terrorismin rahoittamisen vastaisten toimiensa, pakotteidensa, verotuksensa tai sääntely-/oikeudellisten viranomaisten laillisten pyyntöjen mukaisesti säilyttää, jäädyttää, analysoida ja toimittaa tarvittavat tiedot (mukaan lukien Off-chain tiedot, on-chain todisteet, KYC/AML tiedot, ryhmä/chat/toimintalokit, jakelut ja nostot) valtuutetuille yksiköille tai niiden valtuuttamille vaatimustenmukaisuustoimittajille; tällainen yhteistyö ei muodosta moonpacketin rikkomusta tai loukkausta, eikä moonpacket ole vastuussa mahdollisista korvauksista, hyvityksistä tai muista vastuista tämän vuoksi."
+    ],
+    "contact": [
+      "Jos sinulla on kysymyksiä, jotka liittyvät tähän sopimukseen, ota yhteyttä moonpacketiin asiakaspalvelubotin tai käyttöliittymässä näkyvien yhteydenottokanavien kautta. Tietosuojan tai yksityisyydensuojan pyyntöjen osalta ota yhteyttä tietosuojakäytännössä ilmoitettuun yhteyshenkilöön."
+    ],
+    "changes": [
+      "moonpacket voi tarkistaa näitä ehtoja ja niihin liittyviä sääntöjä milloin tahansa teknisten, riskinhallinta-, vaatimustenmukaisuus- tai liiketoimintaperusteiden vuoksi. Tarkistettu versio tulee voimaan julkaisemisen yhteydessä ja sitä pidetään viimeisimpänä voimassaolevana versiona. Jatkamalla tämän palvelun käyttöä tai kirjautumista julkaisun jälkeen olet katsottu hyväksyneeksi päivitetyn sisällön; jos et hyväksy, ainoa mahdollisuutesi on heti lopettaa tämän palvelun käyttö."
+    ],
+    "serviceChanges": {
+      "title": "Palvelun säätöjen ja ehtojen päivitykset",
+      "body": [
+        "moonpacket voi oman harkintansa mukaan muuttaa, lokalisoida, säätää, keskeyttää, rajoittaa, päivittää tai lopettaa kokonaan tai osittain tämän palvelun (mukaan lukien mutta ei rajoittuen red packetien/palkkioiden laskentatapoihin, jäähdytysajanjaksoihin, jakeluolosuhteisiin, leaderboard-sääntöihin, käsittelymaksuihin, saatavilla oleviin ominaisuuksiin, käyttöliittymiin, rajapintoihin, liitännäisiin, toimintarajoihin jne.), ja se voi poistaa kaikki tai osan sen palveluista käytöstä milloin tahansa; moonpacketilla ei ole velvoitetta ylläpitää mitään erityisiä palveluja tai ominaisuuksia pysyvästi.",
+        "moonpacket voi kieltää tai keskeyttää palvelut tietyille käyttäjille tai ryhmille riskienhallinnan, vaatimustenmukaisuustarkastusten, teknisten tai liiketoiminnallisten syiden perusteella, tai rajoittaa heidän toimintojaan ja oikeuksiaan (mukaan lukien jäädytys, keskeytys, estäminen, yhteyksien estäminen tai tiettyjen keskusteluryhmien tai tilien estäminen) ilman yksittäistä ilmoitusta. Lukuun ottamatta lain vaatimuksia, moonpacket ei ole vastuussa mistään vahingoista, menetyksistä tai kustannuksista, jotka johtuvat mistään muutoksista, keskeytyksistä tai palvelun tarjoamisesta kieltäytymisestä."
+      ]
+    },
+    "userContent": {
+      "title": "Käyttäjä sisältö ja julkinen näyttövaltuutus",
+      "body": [
+        "Ymmärrät ja hyväksyt: Kaikki sisältö, tiedot, nimet, lempinimet, ryhmän nimet, ryhmäkuvat, ryhmän kuvaukset, keskusteluhuoneen tiedot, leaderboard-tiedot, kontribuutiosummat, kokonaisten red packet -summien määrät, arpajaisrekisterit, viestit, vastaukset, meme, tarrat, teksti tai muu tieto (yhteisesti 'Käyttäjä sisältö') jonka annat, lataa, raportoi tai muuten saat saataville moonpacketille tämän palvelun käytön aikana voi esittää, lajitella, rankata, yhdistää, ilmoittaa, kuvakaappaustamalla havainnollistaa, toistaa, jakaa, julkisesti välittää, julkisesti näyttää, mukauttaa ja käyttää markkinointi- ja toimintaselvityksissä (esim. suosittujen ryhmien esittely, red packet -jakelun rankingit, onnekkaat saajat, tapahtuman tulosten arvioinnit jne.) moonpacketin sisäisissä tai julkisesti näkyvissä alueilla.",
+        "Jos moonpacket epäilee kohtuudella, että tietty käyttäjä sisältö saattaa rikkoa lakeja, loukata kolmansien osapuolten oikeuksia, sisältää petosta/rahanpesua/terrorismin rahoitusta/kasinopelivoittojen jakamista/itse asiassa laitonta varainkeruuta/valtuuttamatonta henkilötietojen keruuta ja muita korkean riskin käyttäytymisiä, moonpacket voi poistaa, piilottaa, rajoittaa näyttöä, poistaa tai estää tällaista sisältöä ja voi jäädyttää, keskeyttää tai lopettaa pääsyn asiaankuuluviin tiliin tai ryhmiin ja voi antaa tarvittavia tietoja ryhmän ylläpitäjille, alustan tarjoajille, sääntelyviranomaisille tai oikeusviranomaisille. moonpacket ei ole vastuussa mistään vahingoista, voitonmenetyksistä, maineen vahingoittumisesta tai muista vaateista, jotka johtuvat tällaisista toimista."
+      ]
+    },
+    "liabilityCap": {
+      "title": "Vastuun ja kompensaation rajoitus",
+      "body": [
+        "Lain sallimassa laajuudessa moonpacketin kokonaisvastuu mistään vaatimuksista, vahingoista tai vastuista, jotka johtuvat palvelun käytöstäsi, rajoittuu (A) niihin kokonaismaksuihin, jotka olet maksanut moonpacketille ja moonpacket on vahvistanut viimeisten kolmenkymmenen (30) päivän kuluessa liittyen tuohon pyyntöön, tai (B) viidenkymmenen (50) dollarin ekvivalenttiin, kumpi tahansa on alhaisempi. Tämä rajoitus muodostaa ainoan ja yksinomaisen korvauksesi, vaikka tämä korjaus epäonnistuisi korvaamaan vahinkojasi.",
+        "Yllä oleva rajoitus koskee vain siinä määrin kuin laki vaatii moonpacketia kantamaan vastuuta, ja se muodostaa ainoan ja yksinomaisen korvauksesi; tämän pakollisen laajuuden ulkopuolella moonpacket ei tunnusta tai takaa mitään vastuuta kiistoista tai vaatimuksista."
+      ]
+    },
+    "governingLaw": {
+      "title": "Sovellettavat lait ja riitojen ratkaiseminen.",
+      "body": [
+        "Nämä ehdot ja kaikki suhteet, jotka johtuvat tai liittyvät tähän palveluun sinun ja moonpacketin välillä, määräytyvät Japanin lakien mukaan ja niitä tulkitaan sen mukaisesti, mutta eivät sisällä sen konfliktinlakiperiaatteiden soveltamista.",
+        "Kaikki riidat, vaateet, oikeusjutut, korvaukset tai menettelyt, jotka johtuvat tai liittyvät tähän palveluun tai näihin ehtoihin, kuuluvat Japanin Tokion piirituomioistuimen yksinomaisen toimivallan alaisuuteen ensimmäisenä oikeusasteena. Luovut oikeudellasi vaatia, että jokin muu tuomioistuin tai lainkäyttövalta on mukautuvampi tai sopivampi, etkä voi väittää, että moonpacket on sinun paikallisten tuomioistuintesi toimivallan alainen.",
+        "moonpacket voi, täyttäen velvoitteensa, rahanpesun ja terrorismin rahoituksen vastaiset toimet, pakotteet, verot tai oikeudellisten viranomaisten lailliset pyynnöt, pitää, jäädyttää, analysoida ja toimittaa tarvittavat tiedot (mukaan lukien Off-chain tiedot, on-chain todisteet, KYC/AML tiedot, ryhmä/chat/toimintatietueet sekä jakelu- ja nostotoimet) valtuutetuille tahoille tai niiden compliance-toimittajille; tällaiset toimet eivät muodosta moonpacketin sopimusrikkomusta tai loukkausta, eikä moonpacket ole vastuussa mistään vahingoista tai kustannuksista, jotka syntyvät tällaisista toimista.",
+        "Sinä ja moonpacket sovit, että mitään vaateita ei voida esittää tai osallistua ryhmäkanteisiin, kollektiivisiin oikeustoimiin, yhteisiin oikeustoimiin tai vastaaviin menettelyihin; luovut oikeudellasi olla kanneosapuoli, jäsen, agentti tai edustaja tällaisissa menettelyissä, ellei laki toisin kiellä.",
+        "Jos jokin ehto näistä ehdoista katsotaan pätemättömäksi, laittomaksi tai täytäntöönpanokelvottomaksi pätevän tuomioistuimen toimesta, jäljelle jäävät ehdot pysyvät voimassa ja täysimääräisessä voimassa laissa mahdollisesti sallittuun saakka (eriyttävyys).",
+        "Nämä ehdot muodostavat täydellisen sopimuksen sinun ja moonpacketin välillä tämän palvelun osalta ja syrjäyttävät kaikki aikaisemmat suulliset tai kirjalliset viestinnät, ilmoitukset, markkinointikuvastot, yhteisöpostit, tukivastaukset tai lupaukset (jos niitä on) osapuolten välillä. Ellei moonpacket toisin nimenomaisesti kirjallisesti ilmoita, eivät muut lausunnot, UKK:t, markkinointimateriaalit, chat-kirjanpidot tai suulliset selitykset muodosta takeita tai tuotetakuita, jotka sitoisivat moonpacketia lain tarkoittamassa mielessä.",
+        "moonpacket voi ilman ennakkosuostumustasi siirtää, siirtää, delegoida tai muuten antaa tytäryhtiöiden, urakoitsijoiden, siirtäjien, toiminnallisten seuraajien tai muiden kolmansien osapuolten prosessoida tai toteuttaa kokonaan tai osittain näitä ehtoja tai sen oikeuksia ja velvoitteita, ja tällaiset kolmannet osapuolet voivat jatkaa, mukauttaa tai päättää palvelun samanlaisissa olosuhteissa; et saa siirtää tai siirtää mitään oikeuksia tai velvoitteita näiden ehtojen mukaan ilman moonpacketin etukäteen antamaa kirjallista suostumusta.",
+        "Ellei laissa toisin vaadita, moonpacketin oikeuden, korvauksen tai vaatimuksen käyttämättömyys näiden ehtojen mukaan tiettynä ajankohtana tai sen viivytetty käyttö ei tarkoita kyseisen oikeuden luopumista, eikä se vaikuta moonpacketin kykyyn puolustaa tai käyttää kyseistä oikeutta tulevaisuudessa.",
+        "Säännöt, jotka luonteensa mukaan ovat voimassa näiden ehtojen päättymisen jälkeen, mukaan lukien mutta ei rajoittuen palkkioita ja käsittelykuluja koskeviin velvoitteisiin, vastuuvapautuksiin, vastuun rajoituksiin, korvausrajoihin, verovelvoitteisiin, immateriaalioikeuksien ehtoihin, kieltoihin, vaatimustenmukaisuuteen ja yhteistyövelvoitteisiin, sovellettavaan lakiin ja toimivaltaisiin tuomioistuimiin liittyvät ehdot pysyvät voimassa ja sitovan sinua sen jälkeen, kun lopetat tämän palvelun käytön tai tämän sopimuksen päättyessä mistä tahansa syystä."
+      ]
+    },
+    "appendix": [
+      "\"Palaamaton\": Viittaa on-chain -transaktioihin, jotka, kun ne on vahvistettu (on-chain), eivät useinkaan ole peruutettavia, palautettavia tai poistettavia, ja niiden tiedot voidaan pysyvästi vahvistaa julkisilla lohkoketjun tutkimusalustoilla.",
+      "\"Ei peruutettavissa\": Viittaa lahjan lupaukseen, joka on tehty määrittelemättömille osallistujille, ja joka tulee voimaan, kun myöntäjä vahvistaa jakeluehdot ja lähettää sen eteenpäin, eikä sitä voida mielivaltaisesti peruuttaa, mitätöidä tai pyytää keskeytettäväksi tapahtuman aikana, eikä sitä voida pyytää palautettavaksi \"katumisen\" perusteella; tämä on eri taso kuin \"palaamaton\" on-chain -transaktiot.",
+      "\"Kohtuullisessa mittakaavassa\": Viittaa kaupallisesti kohtuullisiin toimiin, joita moonpacket toteuttaa varmistamaan toimintaturvallisuuden, vaatimustenmukaisuuden, rahanpesun/terrorismin rahoituksen estämisen, pakotteiden noudattamisen, verovelvollisuuden, käyttäjien suojelemisen tai riskinhallintatavoitteet lain, sääntelyn velvoitteiden ja käytettävien resurssien rajoissa, johon sisältyy, mutta ei rajoitu: jäädyttäminen, rajoittaminen, viivyttäminen, säilyttäminen, viranomaisten kanssa yhteistyö tai tiettyjen toimintojen tarjoamisesta kieltäytyminen."
+    ]
+  }
+}

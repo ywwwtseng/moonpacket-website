@@ -1,0 +1,48 @@
+{
+  "title": "제품 로드맵",
+  "updated": "업데이트 (토큰은 진행 바가 완료된 후 배포 시작)",
+  "bucket": {
+    "progress": "진행 상황"
+  },
+  "status": {
+    "shipping": "개발 중",
+    "planned": "계획됨",
+    "research": "연구 중",
+    "live": "출시됨"
+  },
+  "accept": "수용 기준",
+  "lanes": {
+    "build": "제품 개발",
+    "trust": "신뢰, 준수 및 보안",
+    "growth": "성장",
+    "token": "moonini Token"
+  },
+  "progressLabel": "진행 중",
+  "phase": {
+    "open-beta": {
+      "title": "오픈 베타 출시 (내부 커뮤니티 레드패킷)",
+      "desc": "커뮤니티 내 파일럿, 조건부 커뮤니티 통합 개방; 기본 분배/청구 및 사용자 경험 테스트",
+      "accept": "명확한 규칙, 원활한 청구, 주요 유입경로 사용 가능"
+    },
+    "multi-chain": {
+      "title": "지속적인 최적화: 다중 체인 + 포인트 메커니즘 + 악성 봇 방지",
+      "desc": "Solana를 넘어선 다중 체인 지원 확장; 포인트 계산 및 시각화; 악성 봇 방지 전략 및 A/B 테스트",
+      "accept": "다중 체인 자산 식별이 정확함; 포인트 및 위험 관리가 정상적으로 작동함"
+    },
+    "compliance": {
+      "title": "위험 관리 및 준수",
+      "desc": "KYC/AML, 감사 및 보안 메커니즘; 비정상 검토 프로세스.",
+      "accept": "필요 시 KYC 활성화; AML 규칙은 감사 가능; 강력한 보안 로그"
+    },
+    "growth-integration": {
+      "title": "성장: 커뮤니티 통합 + API/Webhook + 생태계 협력",
+      "desc": "통합 가이드, 이벤트 Webhook, Query API; 파트너 통합 프로세스",
+      "accept": "승인된 통합 가이드; Webhook/Query API 안정적"
+    },
+    "token-moonini": {
+      "title": "토큰으로 교환 가능한 포인트: moonini",
+      "desc": "moonini 토큰 분배 및 교환 메커니즘 완료",
+      "accept": "포인트를 토큰으로 전환하는 규칙 구현; 위험 관리/준수 검사 통과"
+    }
+  }
+}

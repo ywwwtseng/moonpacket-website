@@ -1,0 +1,152 @@
+{
+  "title": "moonpacket — helppo, turvallinen ja nopea kryptovaluutan punaiset paketit",
+  "description": "moonpacket salattu punainen paketti robotti | Tukee USDT:tä, TON:ia, SOL:ia, ETH:tä. Lähetä helposti punaisia paketteja, vastaanota heti, turvallisesti ei-hallinnollisesti, täydellinen Telegram-yhteisön kasvattamiseen ja sitoutumisen lisäämiseen.",
+  "nav": {
+    "home": "Koti",
+    "about": "Tietoa",
+    "pricing": "Hinnoittelu",
+    "team": "Tiimi",
+    "blog": "Blogi",
+    "faq": "Usein kysytyt kysymykset",
+    "contact": "Ota yhteyttä",
+    "careers": "Työpaikat",
+    "claim": "Väitä red packet",
+    "send": "Lähetä punainen paketti",
+    "api": "API-dokumentaatio"
+  },
+  "hero": {
+    "title": "Kryptovaluutta red packetit, saatavilla kaikille",
+    "subtitle": "Paranna yhteisökokemustasi yksinkertaisilla, globaaleilla palveluilla.",
+    "desc": "Paras red packet -botti meme token -projekteille ja Telegram-ryhmien omistajille uusien käyttäjien hankkimiseksi ja sitoutumisen lisäämiseksi.",
+    "ctaPrimaryLabel": "Käynnistä moonpacket",
+    "ctaPrimaryHref": "https://t.me/MoonPackageDevBot",
+    "ctaSecondaryLabel": "Kuinka yhdistää",
+    "ctaSecondaryHref": "/zh-TW/integration",
+    "lead": "Telegram TON, meme, USDT red packetit | Paras red packet -botti meme token -projekteille ja Telegram-ryhmien omistajille uusien käyttäjien hankkimiseksi ja sitoutumisen lisäämiseksi.",
+    "cta_primary": "Aktivoi moonpacket nyt",
+    "cta_secondary": "Kuinka integroida ryhmiin",
+    "headline_line1": "moonpacket",
+    "headline_line2": "Aloita, tähtää kuuhun.",
+    "tagline": "Telegram TON, meme ja USDT red packetit yhteisömarkkinointiin ja asiakassuhteiden ylläpitoon. Ryhmän red packet -botti suunniteltu ylläpitäjille sitoutumisen lisäämiseksi, uusien jäsenten houkuttelemiseksi ja vuorovaikutuksen edistämiseksi."
+  },
+  "features": {
+    "f1": "Nopea rekisteröinti",
+    "f2": "Globaali lokalisointi",
+    "f3": "Ei-hallinnollinen turvallisuus",
+    "title": "Keskeiset ominaisuudet",
+    "items": "__TODO_TRANSLATE_zh-CN__"
+  },
+  "sections": {
+    "features_heading": "Ominaisuuden kohokohdat",
+    "features_subtitle": "Voit saada",
+    "tokens_heading": "Tokenit ja tilastot",
+    "testimonials_heading": "Käyttäjäarvostelut",
+    "pricing_heading": "Suunnitelmat ja hinnoittelu",
+    "waterfall_title": "Punainen paketti vesiputous"
+  },
+  "footer": {
+    "rights": "",
+    "privacy": "Tietosuojakäytäntö",
+    "terms": "Käyttöehdot",
+    "social": {
+      "telegram_group": "Telegram-ryhmä",
+      "telegram_channel": "Telegram-kanava",
+      "x": "X",
+      "youtube": "YouTube"
+    },
+    "copyright": "Tekijänoikeus."
+  },
+  "a11y": {
+    "skip_to_main": "Siirry pääsisältöön",
+    "language_menu": "Avaa kielivalikko",
+    "language": "Kieli"
+  },
+  "metrics": {
+    "heading": "Reaaliaikaiset indikaattorit",
+    "price_btc": "BTC-hinta",
+    "total_sent": "Yhteensä lähetetty määrä",
+    "total_claimed_amount": "Yhteensä vastaanotettu määrä (USDT)",
+    "title": "Tokenit ja tilastot",
+    "groups": "Yhteydessä olevat ryhmät",
+    "groupsLinkLabel": "Yhteydessä olevat red packet -ryhmät",
+    "sent": "Lähetetyt red packetit",
+    "claimed": "Yhteensä vaadittu määrä",
+    "sort": {
+      "latest": "Uusimmat",
+      "oldest": "Vanhin",
+      "most": "Maksimimäärä osallistujia",
+      "least": "Minimimäärä osallistujia"
+    }
+  },
+  "errors": {
+    "stale": "Tietoja saattaa olla vanhentuneita",
+    "not_found": "Sivua ei löytynyt",
+    "not_found_desc": "Anteeksi, emme löytäneet tätä sivua tai se on poistettu."
+  },
+  "pricing": {
+    "starter": "Perussuunnitelma",
+    "pro": "Ammattilaispalvelut",
+    "enterprise": "Yrityssuunnitelma",
+    "price_free": "Ilmainen",
+    "price_19": "19 $",
+    "price_contact": "Ota meihin yhteyttä",
+    "sla_support": "SLA ja tuki",
+    "bullets": {
+      "starter": {
+        "0": "Perusominaisuudet",
+        "1": "Yhteisötuki"
+      },
+      "pro": {
+        "0": "Sisältää perustason",
+        "1": "Edistyksellinen lokalisaatio"
+      },
+      "enterprise": {
+        "0": "SLA ja tuki",
+        "1": "Räätälöity integraatio"
+      }
+    }
+  },
+  "story": {
+    "belief_title": "🌕 Kuun energia ja usko punaisiin paketteihin",
+    "disclaimer_title": "⚠️ Vastuuvapauslauseke",
+    "future_title": "💫 Tulevaisuuden sovellukset",
+    "schedule_title": "Tokenin julkaisutavat",
+    "secrets_title": "🌸 Hänen salaisuutensa",
+    "title": "🌕 Tarina mooninista"
+  },
+  "waterfall": {
+    "claimed": "Väite",
+    "progress": "Väitetty",
+    "sent_from": "Lähetysryhmä:",
+    "total": "Kokonaismäärä"
+  },
+  "seo": {
+    "og": {
+      "image": "/images/og-default.png",
+      "type": "website"
+    },
+    "routes": {
+      "claim": {
+        "description": "moonpacketin red packet -ominaisuus tukee erilaisia ​​tokenia, mukaan lukien SOL ja USDT, ja mahdollistaa omien meme-tokenien lähettämisen. Tehokas työkalu uusien käyttäjien houkuttelemiseksi ja sitoutumisen lisäämiseksi Telegram-ryhmissä.",
+        "title": "Punainen paketti Telegram mini APP — moonpacket"
+      },
+      "privacy": {
+        "description": "moonpacketin tietosuojakäytäntö selittää, kuinka keräämme, käytämme ja suojaamme henkilötietojasi.",
+        "title": "Tietosuojakäytäntö — moonpacket"
+      },
+      "send": {
+        "description": "Käytä moonpacketia lähettiäksesi red packet -lahjoja, asettaaksesi tehtäväehtoja ja API-integraatioita houkutellaksesi tehokkaasti uusia käyttäjiä ja parantaaksesi arvokkaiden käyttäjien yhteisön sitoutumista.",
+        "title": "Lähetä red packet — moonpacket"
+      },
+      "terms": {
+        "description": "moonpacket Käyttöehdot, käyttöohjeet ja oikeudelliset lausunnot.",
+        "title": "Käyttöehdot — moonpacket"
+      }
+    },
+    "site": {
+      "description": "moonpacket Kryptovaluutta red packet Telegram Bot | Tukee USDT, TON, SOL, ETH, DOGE. Voit myös lähettää omia meme-token red packet -lahjoja, jotka ovat ihanteellisia uusien käyttäjien houkuttelemiseksi, elävän ilmapiirin luomiseksi ja yhteisön sitoutumisen lisäämiseksi Telegramissa.",
+      "site_name": "moonpacket",
+      "title": "moonpacket — meme-token kryptovaluutta red packet -lahjat, omistettu red packet -lompakko"
+    }
+  }
+}

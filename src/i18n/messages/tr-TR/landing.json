@@ -1,0 +1,15 @@
+{
+  "hero": {
+    "headline": "moonpacket ay yükseliyor!",
+    "subheadline": "Telegram TON, meme, USDT red packet kap｜Meme projeleri ve Telegram grup yöneticileri için en iyi red packet botu, yeni kullanıcıları çekmek ve etkileşimi artırmak için.",
+    "cta_primary": "moonpacket'i aktif et",
+    "cta_secondary": "Entegre Etme Kılavuzu"
+  },
+  "metrics": {
+    "title": "Tokenler ve İstatistikler",
+    "connected_groups": "Bağlı Gruplar",
+    "total_packets_sent": "Kırmızı paket gönderildi",
+    "total_claimed": "Toplam Toplanan Tutar (USDT)",
+    "data_stale": "Veriler güncel olmayabilir"
+  }
+}

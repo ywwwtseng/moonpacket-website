@@ -1,0 +1,15 @@
+{
+  "hero": {
+    "headline": "moonpacket sedang terbang ke bulan!",
+    "subheadline": "Telegram TON, meme, USDT angpao grab｜Bot angpao terbaik untuk proyek meme dan admin grup Telegram untuk menarik pengguna baru dan meningkatkan keterlibatan.",
+    "cta_primary": "Aktifkan moonpacket",
+    "cta_secondary": "Cara Mengintegrasikan"
+  },
+  "metrics": {
+    "title": "Token dan Statistik",
+    "connected_groups": "Grup Terhubung",
+    "total_packets_sent": "angpao terkirim",
+    "total_claimed": "Total Jumlah yang Dikumpulkan (USDT)",
+    "data_stale": "Data mungkin sudah usang"
+  }
+}

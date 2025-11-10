@@ -1,0 +1,377 @@
+{
+  "site": {
+    "title": "moonpacket — sobres rojos de criptomonedas simples, rápidos y seguros",
+    "description": "Enviar sobres rojos utilizando criptomonedas y mostrar precios e indicadores en páginas estáticas optimizadas para SEO."
+  },
+  "nav": {
+    "home": "Inicio",
+    "about": "Acerca de",
+    "pricing": "Precios",
+    "team": "Equipo",
+    "blog": "Blog",
+    "faq": "Preguntas Frecuentes",
+    "contact": "Contáctanos",
+    "careers": "Reclutamiento",
+    "claim": "Reclamar Sobre Rojo",
+    "send": "Enviar Sobre Rojo",
+    "api": "Documentación de API"
+  },
+  "hero": {
+    "title": "¡moonpacket despega hacia la luna!",
+    "subtitle": "Telegram TON, meme, USDT sobre rojo｜Un bot de sobre rojo diseñado para proyectos de monedas meme y propietarios de grupos de Telegram para mejorar la adquisición y el compromiso de usuarios.",
+    "desc": "Un bot de sobre rojo diseñado para proyectos de monedas meme y propietarios de grupos de Telegram para mejorar la adquisición y el compromiso de usuarios.",
+    "ctaPrimaryLabel": "Activar moonpacket",
+    "ctaPrimaryHref": "https://t.me/MoonPackageDevBot",
+    "ctaSecondaryLabel": "Cómo Integrar",
+    "ctaSecondaryHref": "/zh-TW/integration"
+  },
+  "features": {
+    "f1": "Configuración rápida",
+    "f2": "Localización global",
+    "f3": "Seguridad descentralizada"
+  },
+  "metrics": {
+    "heading": "Indicadores en Tiempo Real",
+    "price_btc": "Precio de BTC",
+    "total_sent": "Número Total de Sobres Rojos Enviados",
+    "total_claimed_amount": "Cantidad Total Reclamada (USDT)",
+    "title": "Datos de moonpacket",
+    "groups": "Grupo",
+    "groupsLinkLabel": "Grupos de Sobre Rojo Unidos",
+    "sent": "Enviado",
+    "claimed": "Reclamado (USDT)",
+    "sort": {
+      "latest": "Último",
+      "oldest": "Mayor",
+      "most": "Participantes Máximos",
+      "least": "Participantes Mínimos"
+    }
+  },
+  "cta": {
+    "primary": "Comenzar",
+    "secondary": "Más información",
+    "banner": "¿Listo para hacer tu comunidad más activa?"
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados.",
+    "privacy": "Derechos de privacidad",
+    "terms": "Términos de Servicio",
+    "social": {
+      "telegram_group": "Grupo de Telegram",
+      "telegram_channel": "Canal de Telegram",
+      "x": "X",
+      "youtube": "YouTube"
+    }
+  },
+  "features_desc": {
+    "f1": "Inicio rápido con pasos mínimos",
+    "f2": "Soporte integrado para 34 idiomas y RTL",
+    "f3": "Descentralizado con la privacidad en mente"
+  },
+  "sections": {
+    "features_heading": "Destacados de Funciones",
+    "features_subtitle": "Puedes recibir",
+    "tokens_heading": "Tokens y estadísticas",
+    "testimonials_heading": "Lo que dicen los usuarios",
+    "pricing_heading": "Planes y Precios",
+    "waterfall_title": "Registros de sobres rojos en tiempo real"
+  },
+  "tokens": {
+    "columns": {
+      "token": "Token",
+      "price": "Precio",
+      "h24": "24 horas",
+      "d7": "7 días",
+      "market_cap": "Capitalización de mercado"
+    }
+  },
+  "testimonials": {
+    "q1": "El lanzamiento multilingüe es muy rápido y sencillo.",
+    "a1": "Jane, Gerente de Producto",
+    "q2": "Casi no se requiere JS y es amigable con el SEO.",
+    "a2": "Mike, SEO",
+    "q3": "Los ajustes de accesibilidad y localización son bastante completos.",
+    "a3": "Sara, Diseñadora"
+  },
+  "pricing": {
+    "starter": "Comenzando",
+    "pro": "Profesional",
+    "enterprise": "Empresarial",
+    "price_free": "Gratis",
+    "price_19": "19 $",
+    "price_contact": "Contáctanos",
+    "bullets": {
+      "starter": {
+        "0": "Características Básicas",
+        "1": "Soporte Comunitario"
+      },
+      "pro": {
+        "0": "Plan Básico",
+        "1": "Localización Avanzada"
+      },
+      "enterprise": {
+        "0": "SLA y Soporte",
+        "1": "Integración Personalizada"
+      }
+    }
+  },
+  "form": {
+    "your_email": "Tu Correo Electrónico",
+    "message": "Mensaje",
+    "send": "Enviar"
+  },
+  "errors": {
+    "not_found": "Página no encontrada",
+    "stale": "Datos temporalmente no disponibles"
+  },
+  "claim": {
+    "title": "Acerca de recibir Sobre rojo",
+    "faq": {
+      "section_1": "Inicio y Elegibilidad",
+      "section_2": "Reglas del Evento y Equidad",
+      "section_3": "Proceso de Reclamación y Tareas",
+      "section_4": "Cantidades, Saldos y Retiros",
+      "section_5": "Control de Riesgos y Restricciones",
+      "section_6": "Oportunidad y Notificaciones",
+      "section_7": "Multilingüe y Diferencias Regionales",
+      "section_8": "Dispositivos y Compatibilidad",
+      "section_9": "Privacidad y Seguridad",
+      "section_10": "Servicio al Cliente y Quejas",
+      "section_11": "Otros Juegos e Información",
+      "q1": "¿Cómo registrarse?",
+      "a1": "Utiliza el enlace para activar nuestro bot para el registro automático de experiencias. moonpacket permite a los dueños de grupos montar en sus grupos. Los jugadores pueden recibir sobres rojos no solo en nuestro grupo oficial, sino también en todos los grupos vinculados al bot de sobres rojos de moonpacket.",
+      "q2": "¿Qué necesito instalar o desactivar?",
+      "a2": "No es necesario instalar aplicaciones adicionales; se recomienda usar la última versión de Telegram. Si abres la WebApp en el navegador del sistema, asegúrate de que las cookies/almacenamiento no estén bloqueadas.",
+      "q3": "¿Quién puede participar?",
+      "a3": "Generalmente, todos los usuarios de Telegram son elegibles para participar; sin embargo, el diseño del API de cada grupo es diferente, y debes cumplir con las regulaciones de ese grupo o canal. Algunas regiones pueden tener restricciones de internet, o algunos eventos pueden establecer límites regionales/por edad, y el sistema determinará automáticamente a los participantes no elegibles y evitará que reclamen.",
+      "q4": "¿Puedo reclamar con múltiples cuentas o dispositivos?",
+      "a4": "No. El sistema evitará que los usuarios reclamen repetidamente utilizando la cuenta de Telegram + Gmail vinculado, código de verificación, dirección de billetera única y escaneos anormales en segundo plano; las violaciones pueden activar el control de riesgos y llevar a la suspensión de la cuenta.",
+      "q5": "¿Los sobres rojos se distribuyen aleatoriamente o de manera equitativa?",
+      "a5": "Las actividades de proyectos en grupo o canal pueden elegir 'aleatorio', 'distribución uniforme' o 'designado'. Las reglas de cada grupo son diferentes, por favor consulta las marcas en la información de descripción de cada grupo.",
+      "q6": "¿Cómo garantizan la equidad? ¿Puedo consultar mis resultados de sobres rojos allí?",
+      "a6": "moonpacket solo proporciona sobres rojos; el sistema de sobres rojos actúa como una herramienta auxiliar de bot, sin inversión o afiliación comercial con operadores de diversas plataformas. Por lo tanto, garantizar la absoluta equidad en la distribución es la única forma de satisfacer las necesidades de todos. Además, se conserva un registro de auditoría en el lado del servidor por un cierto período (algoritmo y semilla); los usuarios pueden comprobar los resultados de su reclamo en el bot después de que finalice la actividad de reclamo del sobre rojo, y este resultado también puede ser consultado después de lanzar la miniapp de Telegram.",
+      "q7": "¿Cuántos sobres rojos puede reclamar cada persona?",
+      "a7": "Depende de la configuración del evento diseñada por la parte del proyecto. Algunos son de una sola vez, mientras que otros tienen límites diarios, y si hay un límite de 'varias veces por persona', el sistema también lo restringirá automáticamente y avisará cuando se alcance el límite.",
+      "q8": "¿El evento terminará temprano o se pospondrá?",
+      "a8": "Si las acciones se han reclamado o han expirado, terminará; o si el organizador suspende o termina debido a riesgos anormales, la página del sobre rojo se sincronizará en tiempo real.",
+      "q9": "¿Por qué no puedo reclamar después de pulsar el botón?",
+      "a9": "Razones comunes: reclamado o tarea no completada. En algunos casos, los proyectos pueden ser pausados o terminados debido a riesgos. Debido al retraso en la actualización de información entre grupos, puede que no se refleje de inmediato; por favor presta atención al estado más reciente de la información del sobre rojo en la página de evento publicada por el grupo.",
+      "q10": "¿Qué es el desbloqueo de tareas?",
+      "a10": "Debes completar las condiciones especificadas (como seguir el canal, unirte al grupo, pasar la contraseña, tareas externas) para reclamar. Después de completar, vuelve al botón de la publicación de información del sobre rojo para 'reclamar el sobre rojo'.",
+      "q11": "He completado la tarea, ¿por qué se muestra como no aprobada?",
+      "a11": "Puede haber retrasos de sincronización entre diferentes API en Telegram; si no se pasa inmediatamente, espera un momento. Si continúas sin poder pasar, probablemente sea un problema con el proveedor de la API, y recomendamos informarlo al proyecto que emitió la tarea del sobre rojo.",
+      "q12": "¿Dónde puedo obtener la frase de contraseña? ¿Qué sucede si la ingreso incorrectamente?",
+      "a12": "La contraseña generalmente es anunciada por el proyecto en publicaciones, transmisiones en vivo o videos en x; puedes reintentar si se ingresó incorrectamente, pero múltiples intentos incorrectos pueden activar limitaciones de tasa.",
+      "q13": "¿Cómo verificar tareas externas (como registro en sitios web/comercio)?",
+      "a13": "moonpacket proporciona API para proyectos externos para confirmar si los usuarios han completado tareas. Cuando los usuarios reclaman sobres rojos, se envía una solicitud a la API que devuelve el resultado de verificación; si cumple con las condiciones, se desbloquea; si aún no ha devuelto, puedes esperar y reiniciar más tarde.",
+      "q14": "¿Dónde puedo consultar la cantidad recibida?",
+      "a14": "Las reclamaciones exitosas serán notificadas a través del bot de Telegram y un registro de reclamación de sobres rojos estará disponible en la mini aplicación, permitiéndote ver el historial y el saldo disponible para retirar en cualquier momento.",
+      "q15": "¿Qué activos están soportados?",
+      "a15": "Según la configuración de la actividad, los sobres rojos se dividen actualmente en USDT/SOL/ETH/TON principales y los tokens emitidos por el dueño del grupo. La página indicará las unidades de activos y tasas de cambio (si las hay).",
+      "q16": "¿Qué información necesita ser vinculada para el retiro? ¿Cuánto tiempo tarda?",
+      "a16": "Necesitas proporcionar tu dirección de billetera e información básica de identidad para fines de seguridad; el tiempo de llegada suele ser de T+0 a T+2 días hábiles. Puede extenderse durante el control de riesgos anormales.",
+      "q17": "¿Quién asume la tarifa de transacción/Gas?",
+      "a17": "Cada operación en la cadena requiere una tarifa de gas, que es cobrada por la propia blockchain, y moonpacket no cobra nada adicional.",
+      "q18": "¿Puedo transferir mi saldo a amigos o fusionarlo?",
+      "a18": "No se proporciona ningún método de 'transferencia/fusión'.",
+      "q19": "¿Por qué se consideró sospechoso o interceptado?",
+      "a19": "Las posibles razones incluyen múltiples cuentas en el mismo dispositivo, proxies/VPNs anormales, una frecuencia demasiado alta de reclamo de sobres rojos en múltiples grupos, regiones/ASN en blacklist, etc. Puedes enviar el contenido del mensaje /report al bot; este es un canal de respuesta unidireccional, y la oficial se reserva el derecho de no explicar o responder sobre prohibiciones de cuentas.",
+      "q20": "¿Necesito someterme a verificación KYC (código de verificación)?",
+      "a20": "En situaciones de alto riesgo, la verificación se basará en la información proporcionada por los usuarios; asegúrate de que se complete correctamente la información de seguridad al retirar; si no se proporciona información correcta, no pasarás la KYC biométrica y de documentos.",
+      "q21": "¿Qué debo hacer si mi cuenta está restringida?",
+      "a21": "Las restricciones son generalmente medidas temporales de protección. Por favor, envía el contenido del mensaje /report al bot. Las preguntas planteadas por verificadores que no han completado la información de seguridad no serán procesadas; si la situación es normal después de completar la verificación, lo manejaremos.",
+      "q22": "¿Cuándo comienzan y terminan cada evento de sobre rojo?",
+      "a22": "Cada proyecto que emite sobres rojos tiene diferentes condiciones, presta atención al tiempo y las cuotas restantes de la información del sobre rojo; puedes habilitar notificaciones de Telegram o establecer sonidos de notificación específicos para recibir alertas oportunas para reclamar sobres rojos.",
+      "q23": "¿Puedo habilitar o deshabilitar las notificaciones para recibir o completar retiros?",
+      "a23": "Esta es tu configuración en Telegram, no una configuración de moonpacket; puedes ajustar las notificaciones en tu configuración de Telegram.",
+      "q24": "¿Por qué no puedo ver ciertos métodos o funciones de retiro?",
+      "a24": "Las políticas en ciertas regiones no son aplicables, y el sistema ocultará automáticamente o evitará retiros, indicando que no puedes participar en la actividad de reclamación de sobres rojos, ya que esta región actualmente no la admite.",
+      "q25": "¿Cuántos decimales mostrará el formato digital?",
+      "a25": "El sitio web aplicará automáticamente separadores de miles y decimales localizados según tu idioma.",
+      "q26": "¿Está disponible en iOS, Android y Telegram de escritorio?",
+      "a26": "Sí, se recomienda usar la última versión de Telegram. Si te encuentras en situaciones ilegibles, verifica si estás utilizando el cliente oficial, o actualiza la aplicación, o haz clic para recargar la página en los tres puntos en la esquina superior derecha de la página de la mini aplicación.",
+      "q27": "¿Cambiar de dispositivo afectará la recepción?",
+      "a27": "No afectará los registros, pero si se realizan operaciones repetidas en múltiples dispositivos en un corto período, puede activar el control de riesgos.",
+      "q28": "¿El uso de un VPN/proxy tendrá algún efecto?",
+      "a28": "Si estás utilizando un proxy de alto riesgo, puede ser interceptado. Recomendamos deshabilitar temporalmente el proxy o cambiar a un entorno de red limpio y volver a intentarlo.",
+      "q29": "¿Qué datos se recopilarán?",
+      "a29": "Sigue el principio de minimización: solo recoge los datos necesarios para la distribución/retiro/control de riesgos (como preguntas de seguridad personal, direcciones de billetera, correo electrónico, ID de Telegram). Cuando se requiera autenticación necesaria, verificaremos a través de una plataforma de verificación de terceros, que no almacena los datos privados del usuario, excepto la información de seguridad.",
+      "q30": "¿Qué medidas se han implementado para garantizar la seguridad de los fondos?",
+      "a30": "Todas las operaciones críticas requerirán una segunda verificación; los retiros de alto riesgo pueden activar una revisión manual.",
+      "q31": "¿Puedo eliminar mi cuenta o datos?",
+      "a31": "Puedes enviar una solicitud de acceso o eliminación de datos de acuerdo con el proceso. Una vez que la cuenta sea eliminada, no podrás iniciar sesión, pero los datos de las transacciones se conservarán bajo requisitos de cumplimiento.",
+      "q32": "¿A quién debo contactar si encuentro un problema?",
+      "a32": "Puedes contactarnos enviando/reportando información a través del bot. Proporcionar códigos de error y capturas de pantalla puede acelerar el procesamiento.",
+      "q33": "¿Cuánto tiempo tardará en recibir una respuesta a una queja?",
+      "a33": "Generalmente, las respuestas se proporcionan dentro de 1-3 días hábiles; los casos urgentes relacionados con fondos tendrán prioridad.",
+      "q34": "¿Puedo participar en actividades en múltiples grupos?",
+      "a34": "Sí; cada actividad tiene reglas independientes, por favor presta atención a los límites y al período de validez de cada evento.",
+      "q35": "¿Habrá una tabla de clasificación o insignias?",
+      "a35": "Algunas actividades pueden tener tablas de clasificación/insignias y loterías; consulta la página de actividad para las reglas y recompensas."
+    }
+  },
+  "send": {
+    "title": "Preguntas Frecuentes (Versión Detallada FAQ) — Envío de Sobres Rojos (Organizador)",
+    "hero": {
+      "api_demo_label": "Demostración de API",
+      "api_get": "GET [api_url]?api_key=[api_key]&user_id=[user_id]",
+      "response_label": "Devolver:",
+      "json": {
+        "0": "{",
+        "1": "\"data\": {",
+        "2": "\"level\": 100,",
+        "3": "\"status\": \"active\",",
+        "4": "\"is_blacklist\": false",
+        "5": "}",
+        "6": "}"
+      },
+      "title": "Adquirir nuevos usuarios, aumentar la actividad",
+      "lead": "La parte del proyecto puede establecer condiciones específicas:",
+      "points": {
+        "0": "• Unirse al grupo/seguir el canal",
+        "1": "• Usar correctamente la frase de acceso",
+        "2": "• Implementación de API personalizada"
+      },
+      "note": "Solo los usuarios que cumplan con las condiciones pueden recibir Sobre rojo"
+    },
+    "faq": {
+      "section_1": "Inicio y Configuración",
+      "section_2": "Reglas de Publicación y Equidad",
+      "section_3": "Tareas y Condiciones",
+      "section_4": "Activos, Exposición y Liquidación",
+      "q1": "¿Cómo empezar?",
+      "a1": "Por favor, añade el bot moonpacket a tu grupo o canal de Telegram y configúralo como administrador. Asegúrate de habilitar al menos: permisos de publicación, edición/borrado de propias publicaciones. Después de completar esto, regresa a la página 'Enviar Sobre Rojo' de moonpacket, y verás los grupos/canales vinculados en la lista 'Enviar A'.",
+      "q2": "¿Qué debo tener en cuenta antes de enviar?",
+      "a2": "Por favor, deposita primero los activos que deseas emitir (por ejemplo, deposita 10 USDT para pruebas). Puedes enviar tokens comunes (USDT/TON, etc.) o tus propias monedas meme. Los tokens comunes aparecerán adicionalmente en el feed de la página de inicio, mientras que las monedas meme solo se mostrarán dentro de tu comunidad.",
+      "q3": "¿Puedo elegir dónde enviarlo?",
+      "a3": "En 'Objetivos de Envío', revisa los grupos/canales vinculados para enviar a uno o varios grupos al mismo tiempo. Si no los ves en la lista, por favor confirma que el bot es administrador del grupo/canal y tiene los permisos necesarios.",
+      "q4": "¿Qué modelos de distribución están disponibles?",
+      "a4": "Puedes elegir monto aleatorio (suerte) o monto fijo (distribución equitativa). Ambos pueden establecer el monto total, número de acciones y límite por persona, y pueden añadir periodo de validez o liberación programada.",
+      "q5": "¿Se puede enviar todo de una vez o en lotes?",
+      "a5": "Sí. Puedes establecer una liberación total única o liberación por lotes dentro de un periodo especificado; también se admiten mensajes de cuenta atrás y vista previa.",
+      "q6": "¿Qué sucede si el saldo es insuficiente?",
+      "a6": "El sistema se basa en tu saldo disponible. Si el saldo es insuficiente, se enviará un aviso de falla solicitándote que recargues para evitar gastar en exceso.",
+      "q7": "¿Cómo se garantiza la equidad?",
+      "a7": "La distribución se ejecuta en el lado del servidor y retiene registros de auditoría (algoritmo y semilla, registros de operaciones). Reglas, acciones, límites y resultados finales se mostrarán públicamente en la página del evento para su trazabilidad.",
+      "q8": "¿Puedo requerir unirme a un grupo o seguir un canal para recibirlo?",
+      "a8": "Sí. Puedes habilitar la condición incorporada 'Debe unirse a cierto grupo/seguir cierto canal'. La premisa es que tu bot esté en ese grupo/canal y tenga permisos para publicar y editar/borrar propias publicaciones para verificar el estado de miembro.",
+      "q9": "¿Qué es una frase de contraseña? ¿Para qué escenarios es adecuada?",
+      "a9": "Los jugadores necesitan obtener la contraseña a través de canales externos y pueden reclamarla después de ingresar correctamente en la página. Las prácticas comunes incluyen: dividir la contraseña de 6 dígitos en largos videos de YouTube para fomentar la visualización completa; insinuar la contraseña en publicaciones de X.com (Twitter) o Threads para aumentar la interacción; anunciar verbalmente la contraseña durante transmisiones en vivo para guiar a los asistentes; contraseñas dedicadas en grupos privados/pagados para garantizar que los beneficios solo se otorguen a miembros clave.",
+      "q10": "¿Puedo usar mi propia API para determinar la elegibilidad?",
+      "a10": "Sí. moonpacket llamará a la API de solo lectura que proporcionaste para la verificación antes de que los usuarios reclamen. El backend solo necesita configurar api_url y api_key (el permiso de dominio puede configurarse opcionalmente).",
+      "q11": "¿Cuál es la diferencia de exposición entre las monedas comunes y las monedas meme?",
+      "a11": "Las monedas más comunes (USDT/TON, etc.) se mostrarán en el grupo y también en el feed de la página de inicio para mayor exposición; las monedas meme solo se mostrarán en tu grupo.",
+      "q12": "¿Cómo prevenir trampas y máquinas en masa?",
+      "a12": "Incluye frecuencia de comportamiento y detección de dispositivo/IP, vinculación única de cuentas y wallets, código de verificación de retiro, revisión inicial del control de riesgos con IA; si es necesario, habrá verificación biométrica + facial + de identificación de terceros.",
+      "q13": "¿Dónde puedo ver mis registros enviados y el número de destinatarios?",
+      "a13": "Por favor, revisa 'Sobres Rojos que He Enviado' en tu página personal para ver el número de reclamantes, acciones restantes y el monto total consumido de cada sesión; si está habilitado, también puedes descargar informes."
+    }
+  },
+  "groups_directory": {
+    "latest_tab": "Últimos Grupos de Sobre Rojo",
+    "hot_tab": "Grupos de Sobre Rojo Populares",
+    "search_placeholder": "Buscar palabras clave para grupos unidos"
+  },
+  "a11y": {
+    "skip_to_main": "Saltar al Contenido Principal",
+    "language_menu": "Menú de Idioma",
+    "language": "Idioma"
+  },
+  "waterfall": {
+    "sent_from": "Grupo de envío:",
+    "claimed": "Reclamar",
+    "total": "Cantidad total",
+    "progress": "Reclamado"
+  },
+  "terms": {
+    "title": "Términos del Usuario",
+    "version": "v1.0.0",
+    "updated": "5 de octubre de 2025 15:00:00 GMT+0800 (hora estándar de Taipéi)",
+    "owner": "moonpacket-core",
+    "sections": {
+      "scope": "Ámbito de Aplicación y Formación del Contrato",
+      "definitions": "Definición",
+      "eligibility": "Calificaciones y Cuentas",
+      "services": "Contenido del Servicio",
+      "wallet": "Cartera en la Nube y Fondos",
+      "fees": "Tarifas y Facturación",
+      "rules": "Reglas de Actividad y Equidad",
+      "restrictions": "Restricciones Anti-Bot y de Uso",
+      "ip": "Derechos de Contenido y Propiedad Intelectual",
+      "third_party": "Servicios de Terceros",
+      "data": "Datos y privacidad",
+      "risks": "Divulgación de Riesgos",
+      "disclaimer": "Descargo de responsabilidad",
+      "liability": "Limitación de Responsabilidad",
+      "indemnity": "Compensación",
+      "termination": "Suspensión, Terminación y Eliminación",
+      "force_majeure": "Fuerza Mayor",
+      "high_risk": "Usos Prohibidos de Alto Riesgo",
+      "tax": "Impuestos e Informes",
+      "third_party_services": "Divulgaciones de Servicios y Relaciones de Terceros",
+      "wallet_assets": "Divulgaciones de Cartera y Activos",
+      "accuracy": "Precisión del contenido y los datos",
+      "governing_law": "Ley Aplicable y Resolución de Disputas",
+      "contact": "Información de contacto"
+    }
+  },
+  "privacy": {
+    "title": "Política de Privacidad",
+    "version": "v1.1.0",
+    "updated": "5 de octubre de 2025, domingo 15:00:00 GMT+0800 (Hora estándar de Taipéi)",
+    "owner": "moonpacket-core",
+    "sections": {
+      "intro": "Introducción",
+      "definitions": "Definiciones",
+      "scope": "Alcance de aplicación",
+      "data_collection": "Los datos que recopilamos",
+      "data_usage": "Nuestro uso",
+      "legal_basis": "Base regulatoria",
+      "cookies": "Cookies y almacenamiento local",
+      "data_sharing": "Destinatarios de compartición de datos",
+      "cross_border": "Transferencia transfronteriza",
+      "retention": "Período de retención",
+      "security": "Seguridad",
+      "blockchain": "Descripción de las características de blockchain",
+      "telegram": "Declaración de la plataforma Telegram",
+      "minors": "Regulaciones relacionadas con menores",
+      "rights": "Tus derechos y cómo ejercerlos",
+      "faq": "Preguntas Frecuentes (Privacidad y Seguridad)",
+      "updates": "Actualización de Términos",
+      "contact": "Información de contacto"
+    },
+    "faq": {
+      "q1": "¿Qué datos recopilamos?",
+      "a1": "Proporcionaremos la información necesaria para emitir y recibir Sobre rojo, verificación de tareas, billetera en la nube y retiros, incluyendo información básica de Telegram, métricas de dispositivo y red, eventos de interacción, y información de KYC y billetera cuando sea necesario.",
+      "q2": "¿Están seguros mis fondos?",
+      "a2": "Los fondos y las cuentas de operación están separadas, las operaciones sensibles requieren autenticación de dos factores, y todos los eventos financieros serán registrados; los retiros de alto riesgo serán revisados manualmente.",
+      "q3": "¿Puedo eliminar mis datos?",
+      "a3": "Puedes solicitar la eliminación o restricción de tus datos según la ley; los datos contables o relacionados con disputas que deban ser retenidos por ley no están sujetos a esta restricción y serán eliminados o anonimados posteriormente.",
+      "q4": "¿Las restricciones de región y el contenido visible no coinciden?",
+      "a4": "Según las políticas de cumplimiento, algunas características o métodos de retiro pueden no estar disponibles debido a restricciones regionales, y el sistema ocultará automáticamente las opciones no aplicables.",
+      "q5": "¿Por qué se consideró sospechoso?",
+      "a5": "Pueden surgir problemas debido a proxy/VPN, frecuencia inusual o inicios de sesión simultáneos desde múltiples cuentas; puedes intentar de nuevo más tarde o someterte al proceso de apelación para revisión."
+    }
+  },
+  "roadmap": {
+    "accept": "Criterios de Aceptación",
+    "bucket": {
+      "progress": "Progreso"
+    },
+    "lanes": {
+      "build": "Construir Producto",
+      "growth": "Crecimiento",
+      "token": "token moonini",
+      "trust": "Confianza, Cumplimiento y Seguridad"
+    },
+    "progressLabel": "Estado",
+    "status": {
+      "live": "En Vivo",
+      "planned": "Planificado",
+      "research": "En Investigación",
+      "shipping": "En Desarrollo"
+    },
+    "title": "Hoja de Ruta del Producto",
+    "updated": "Actualización (Los tokens se distribuirán una vez que la barra de progreso esté completa)"
+  }
+}

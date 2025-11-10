@@ -1,0 +1,15 @@
+{
+  "hero": {
+    "headline": "moonpacket злітає на місяць!",
+    "subheadline": "Telegram TON, meme, USDT red packet grab｜Найкращий бот для червоних пакетів для мем-проєктів і адміністраторів Telegram-груп, щоб залучати нових користувачів і підвищувати залученість.",
+    "cta_primary": "Активувати moonpacket",
+    "cta_secondary": "Як інтегрувати"
+  },
+  "metrics": {
+    "title": "Токени та статистика",
+    "connected_groups": "Підключені групи",
+    "total_packets_sent": "Відправлено червоний пакет",
+    "total_claimed": "Загальна сума зібрана (USDT)",
+    "data_stale": "Дані можуть бути застарілими"
+  }
+}

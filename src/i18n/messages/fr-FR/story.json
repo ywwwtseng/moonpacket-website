@@ -1,0 +1,101 @@
+{
+  "illustration_alt": "moonini embrasse l'illustration",
+  "title": "🌕 L'histoire de moonini",
+  "origin": [
+    "Un jour, une météroite rouge est tombée sur le côté éloigné de la lune,",
+    "La lumière de la lune a éclaté au moment de l'impact, se transformant en une pluie de lumière argentée.",
+    "De cette scintillante 'météorite de red packet',",
+    "Un petit lapin lunaire brillant est né — moonini.",
+    "",
+    "moonini porte un badge de lune doré-jaune sur sa poitrine.",
+    "Il peut sentir chaque red packet sincère envoyé de la Terre.",
+    "Peu importe le montant, c'est la plus pure énergie chaleureuse.",
+    "Oui, moonini grandit grâce à l'énergie des red packets de chacun.",
+    "",
+    "Ces énergies se sont transformées en crédits de red packet nés sur la chaîne Solana —",
+    "C'est l'origine du Token $moonini."
+  ],
+  "secrets_title": "🌸 Son secret",
+  "secrets_intro": "Chaque fois que vous envoyez un red packet, moonini enregistrera une entrée d'énergie sur la lune :",
+  "secrets_flow": "Envoyer un red packet → Produire la valeur énergétique correspondante (convertie en valeur USDT) → Accumuler 10 → Atteindre la valeur $moonini minimum échangeable.",
+  "secrets_halving": [
+    "Dans la phase initiale (Phase 1), moonini retournera généralement dans le meilleur ratio de 1:1 au destinataire du red packet. Pour maintenir l'équité et réduire le risque de manipulation, nous introduirons le concept d'énergie effective.",
+    "Lorsque les montants totaux envoyés et retirés de la communauté atteignent le seuil de division fixé par le système, la première division aura lieu ; par la suite, atteindre la moitié du montant de la phase précédente déclenchera une nouvelle division."
+  ],
+  "schedule_title": "Règles de libération de jetons",
+  "schedule_headers": [
+    "Étape",
+    "Limite d'émission",
+    "Ratio de sortie (énergie produite par 1 USDT accumulé)",
+    "Description"
+  ],
+  "schedule_rows": [
+    [
+      "Phase 1",
+      "0 ~ 4.5 billion",
+      "1.0 $MOONINI / USDT",
+      "Initial period, energy overflow."
+    ],
+    [
+      "Phase 2",
+      "4.5B ~ 6.75B",
+      "0.5 $MOONINI / USDT",
+      "First halving."
+    ],
+    [
+      "Phase 3",
+      "6.75B ~ 7.875B",
+      "0.25 $MOONINI / USDT",
+      "Stabilization period."
+    ],
+    [
+      "Phase 4",
+      "7.875B ~ 8.4375B",
+      "0.125 $MOONINI / USDT",
+      "Scarcity period."
+    ],
+    [
+      "Phase 5",
+      "8.4375B ~ 8.71875B",
+      "0.0625 $MOONINI / USDT",
+      "Late mining phase."
+    ],
+    [
+      "Phase 6",
+      "8.71875B ~ 9B",
+      "0.03125 $MOONINI / USDT",
+      "Crystallization period (final phase)."
+    ]
+  ],
+  "cap_note": [
+    "Lorsque la circulation totale atteint 9 milliards, moonini cessera d'émettre davantage.",
+    "Les 1 milliard restants (10 % de l'offre totale),",
+    "Réservé par l'officiel pour de futures récompenses communautaires et l'utilisation du fonds d'énergie de collaboration."
+  ],
+  "belief_title": "🌕 L'énergie de la lune et la croyance dans les red packets",
+  "belief_paragraphs": [
+    "moonini aime tout le monde prêt à 'partager'.",
+    "Il croit que les red packets ne sont pas seulement de l'argent, mais un échange de bénédictions et d'énergie.",
+    "Chaque fois que vous envoyez un red packet, complétez une tâche ou rejoignez la communauté moonpacket,",
+    "vous aurez la chance de recevoir un retour de la lune — $moonini laissé tomber au hasard.",
+    "",
+    "C'est la lumière que l'univers te renvoie après avoir répandu de la joie."
+  ],
+  "future_title": "💫 Applications futures",
+  "future_intro": "Actuellement, $moonini n'est pas ouvert à des scénarios d'application officiels, mais il est conçu comme une récompense et un certificat d'énergie pour le futur monde des red packets, pouvant éventuellement être utilisé pour :",
+  "future_list": [
+    "✅ Réductions sur les frais de transaction de red packets",
+    "🎁 Bons d'achat/réductions pour les commerçants",
+    "🌐 Airdrops d'événements et récompenses pour les tâches communautaires"
+  ],
+  "disclaimer_title": "⚠️ Déclaration",
+  "disclaimer_paragraphs": [
+    "L'officiel ne garantit aucune valeur d'échange en fiat pour $moonini.",
+    "Vous pouvez le considérer comme des points bonus d'une personne généreuse.",
+    "Symbolisant tous ceux qui souhaitent partager le bonheur et répandre l'énergie."
+  ],
+  "closing": [
+    "moonini — le lapin lunaire né de l'énergie des red packets.",
+    "Chaque bénédiction est un rayon de lumière pour sa croissance."
+  ]
+}

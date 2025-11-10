@@ -1,0 +1,57 @@
+{
+  "tabs": {
+    "latest": "最新",
+    "hot": "人気"
+  },
+  "search": {
+    "placeholder": "グループを検索…",
+    "label": "グループを検索"
+  },
+  "card": {
+    "ownerLabel": "オーナー:",
+    "members": "メンバー",
+    "totalSent": "送信総額",
+    "sent": "現在の期間の送信",
+    "unnamed": "無名グループ"
+  },
+  "pagination": {
+    "prev": "前のページ",
+    "next": "次のページ",
+    "pageInfo": "{{count}} グループ（ページ {{page}} / {{pages}}）"
+  },
+  "cta": {
+    "launch": "moonpacketを有効化"
+  },
+  "empty": "利用可能なグループはありません",
+  "group": {
+    "members": "メンバーリスト",
+    "owner": "グループオーナー: {owner}",
+    "sent": "送信数量",
+    "totalSent": "送信合計額",
+    "unnamed": "無名グループ"
+  },
+  "marquee": {
+    "fallback": [
+      "💰 ジョンが「ゲームギルドA」で100 USDTのレッドパケットを送信しました！",
+      "🎯 リサが3.5 USDTを受け取り、ラッキーな勝者です！",
+      "🔥 グループオーナーのケンが2000 USDTをチャージしました",
+      "📢 システムアップグレードが完了し、SOLのサポートが追加されました！",
+      "🥇 今日のラッキーな勝者: @Mina（合計28.3 USDT）"
+    ],
+    "templates": {
+      "daily_winner": "🥇 今日のラッキーな勝者: {user}（合計{amount} {ccy}）",
+      "red_packet_claimed": "{user}が{amount} {ccy}を受け取り、ラッキーな勝者です！",
+      "red_packet_sent": "{user}が「{group}」で{amount} {ccy}のレッドパケットを送信しました！",
+      "system_upgrade": "📢 システムアップグレードが完了し、{ccy}のサポートが追加されました！",
+      "top_up": "グループオーナー{user}が{amount} {ccy}をチャージしました"
+    }
+  },
+  "pager": {
+    "groups": "グループの数",
+    "next": "次のページ",
+    "pageOf": "（ページ {page} / {pages}）",
+    "prev": "前のページ"
+  },
+  "searchLabel": "グループを検索",
+  "searchPlaceholder": "グループを検索するためのキーワードを入力してください…"
+}

@@ -1,0 +1,152 @@
+{
+  "title": "moonpacket — jednoduché, bezpečné a rychlé krypto červené obálky",
+  "description": "moonpacket šifrovaný robot pro červené obálky | Podporuje USDT, TON, SOL, ETH. Snadno posílejte červené obálky, okamžitě přijímejte, bezpečně bez úschovy, perfektní pro růst komunity na Telegramu a zvyšování zapojení.",
+  "nav": {
+    "home": "Domov",
+    "about": "O nás",
+    "pricing": "Ceny",
+    "team": "Tým",
+    "blog": "Blog",
+    "faq": "Často kladené otázky",
+    "contact": "Kontaktujte nás",
+    "careers": "Kariéra",
+    "claim": "Uplatnit červený balíček",
+    "send": "Odeslat červený balíček",
+    "api": "Dokumentace API"
+  },
+  "hero": {
+    "title": "Kriptoměnové red packets, dostupné pro všechny",
+    "subtitle": "Zlepšete zkušenosti vaší komunity s jednoduchými, globálními službami.",
+    "desc": "Nejlepší red packet bot pro projekty s meme tokeny a majitele Telegram skupin pro získání nových uživatelů a zvýšení zapojení.",
+    "ctaPrimaryLabel": "Spustit moonpacket",
+    "ctaPrimaryHref": "https://t.me/MoonPackageDevBot",
+    "ctaSecondaryLabel": "Jak se připojit",
+    "ctaSecondaryHref": "/zh-TW/integration",
+    "lead": "Telegram TON, meme, USDT red packet | Nejlepší red packet bot pro projekty s meme tokeny a majitele Telegram skupin pro získání nových uživatelů a zvýšení zapojení.",
+    "cta_primary": "Aktivujte moonpacket nyní",
+    "cta_secondary": "Jak integrovat s skupinami",
+    "headline_line1": "moonpacket",
+    "headline_line2": "Začněte, mířte na měsíc.",
+    "tagline": "Telegram TON, meme a USDT red packet pro marketing komunity a udržení zákazníků. Bot pro red packet skupiny navržený pro administrátory, aby zvýšili zapojení, přitahovali nové členy a podporovali interakci."
+  },
+  "features": {
+    "f1": "Rychlá registrace",
+    "f2": "Globální lokalizace",
+    "f3": "Bezpečnost bez úschovy",
+    "title": "Základní funkce",
+    "items": "__TODO_TRANSLATE_zh-CN__"
+  },
+  "sections": {
+    "features_heading": "Hlavní funkce",
+    "features_subtitle": "Můžete získat",
+    "tokens_heading": "Tokeny a statistiky",
+    "testimonials_heading": "Uživatelské recenze",
+    "pricing_heading": "Plány a ceny",
+    "waterfall_title": "Vodopád s červenými obálkami"
+  },
+  "footer": {
+    "rights": "",
+    "privacy": "Zásady ochrany osobních údajů",
+    "terms": "Obchodní podmínky",
+    "social": {
+      "telegram_group": "Telegram skupina",
+      "telegram_channel": "Telegram kanál",
+      "x": "X",
+      "youtube": "YouTube"
+    },
+    "copyright": "Autorská práva."
+  },
+  "a11y": {
+    "skip_to_main": "Přeskočit na hlavní obsah",
+    "language_menu": "Otevřít nabídku jazyků",
+    "language": "Jazyk"
+  },
+  "metrics": {
+    "heading": "Indikátory v reálném čase",
+    "price_btc": "Cena BTC",
+    "total_sent": "Celková částka odeslaná",
+    "total_claimed_amount": "Celková částka přijatá (USDT)",
+    "title": "Tokeny a statistiky",
+    "groups": "Připojené skupiny",
+    "groupsLinkLabel": "Připojené red packet skupiny",
+    "sent": "Odeslané red packets",
+    "claimed": "Celková částka nárokována",
+    "sort": {
+      "latest": "Nejnovější",
+      "oldest": "Nejstarší",
+      "most": "Maximální účastníci",
+      "least": "Minimální účastníci"
+    }
+  },
+  "errors": {
+    "stale": "Data mohou být zastaralá",
+    "not_found": "Stránka nenalezena",
+    "not_found_desc": "Omlouváme se, tuto stránku jsme nemohli najít, nebo byla odstraněna."
+  },
+  "pricing": {
+    "starter": "Základní plán",
+    "pro": "Profesionální služby",
+    "enterprise": "Podnikatelský plán",
+    "price_free": "Zdarma",
+    "price_19": "19 USD",
+    "price_contact": "Kontaktujte nás",
+    "sla_support": "SLA a podpora",
+    "bullets": {
+      "starter": {
+        "0": "Základní funkce",
+        "1": "Komunitní podpora"
+      },
+      "pro": {
+        "0": "Zahrnuje základní plán",
+        "1": "Pokročilá lokalizace"
+      },
+      "enterprise": {
+        "0": "SLA a podpora",
+        "1": "Vlastní integrace"
+      }
+    }
+  },
+  "story": {
+    "belief_title": "🌕 Energie měsíce a víra v červené obálky",
+    "disclaimer_title": "⚠️ Zásady",
+    "future_title": "💫 Budoucí aplikace",
+    "schedule_title": "Pravidla vydání tokenu",
+    "secrets_title": "🌸 Jeho tajemství",
+    "title": "🌕 Příběh moonini"
+  },
+  "waterfall": {
+    "claimed": "Uplatnit",
+    "progress": "Uplatněno",
+    "sent_from": "Odesílání skupiny:",
+    "total": "Celková částka"
+  },
+  "seo": {
+    "og": {
+      "image": "/images/og-default.png",
+      "type": "website"
+    },
+    "routes": {
+      "claim": {
+        "description": "Funkce červeného balíčku moonpacket podporuje různé tokeny včetně SOL a USDT a umožňuje posílat vaše vlastní meme tokeny. Silný nástroj pro přitahování nových uživatelů a zvyšování zapojení v Telegramových skupinách.",
+        "title": "Red Packet Telegram mini APP — moonpacket"
+      },
+      "privacy": {
+        "description": "Zásady ochrany osobních údajů moonpacket vysvětlují, jak shromažďujeme, používáme a chráníme vaše osobní údaje.",
+        "title": "Zásady ochrany osobních údajů — moonpacket"
+      },
+      "send": {
+        "description": "Používejte moonpacket k posílání červených balíčků, nastavování podmínek úkolů a API integrací pro efektivní přitahování nových uživatelů a zvyšování zapojení cenných uživatelů v komunitě.",
+        "title": "Poslat červený balíček — moonpacket"
+      },
+      "terms": {
+        "description": "Podmínky služby moonpacket, pokyny k používání a právní prohlášení.",
+        "title": "Podmínky služby — moonpacket"
+      }
+    },
+    "site": {
+      "description": "moonpacket Krypto red packet Telegram Bot | Podporuje USDT, TON, SOL, ETH, DOGE. Můžete také posílat své vlastní meme token red packets, ideální pro přilákání nových uživatelů, vytvoření živé atmosféry a zvýšení zapojení v Telegram komunitách.",
+      "site_name": "moonpacket",
+      "title": "moonpacket — meme token krypto red packets, speciální red packet peněženka"
+    }
+  }
+}

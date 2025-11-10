@@ -1,0 +1,57 @@
+{
+  "tabs": {
+    "latest": "Neueste",
+    "hot": "Beliebt"
+  },
+  "search": {
+    "placeholder": "Gruppen suchen…",
+    "label": "Gruppen suchen"
+  },
+  "card": {
+    "ownerLabel": "Inhaber:",
+    "members": "Mitglieder",
+    "totalSent": "Gesamtbetrag gesendet",
+    "sent": "Aktuelles Versenden",
+    "unnamed": "Unbenannte Gruppe"
+  },
+  "pagination": {
+    "prev": "Vorherige Seite",
+    "next": "Nächste Seite",
+    "pageInfo": "{{count}} Gruppen (Seite {{page}} / {{pages}})"
+  },
+  "cta": {
+    "launch": "moonpacket aktivieren"
+  },
+  "empty": "Keine Gruppen verfügbar",
+  "group": {
+    "members": "Mitgliederliste",
+    "owner": "Gruppeninhaber: {owner}",
+    "sent": "Gesendeter Betrag",
+    "totalSent": "Gesamtbetrag gesendet",
+    "unnamed": "Unbenannte Gruppe"
+  },
+  "marquee": {
+    "fallback": [
+      "💰 John hat ein red packet über 100 USDT in 'Game Guild A' gesendet!",
+      "🎯 Lisa hat 3,5 USDT gewonnen, glückliche Gewinnerin!",
+      "🔥 Gruppeninhaber Ken hat 2000 USDT aufgeladen",
+      "📢 Systemupgrade abgeschlossen, Unterstützung für SOL hinzugefügt!",
+      "🥇 Der heutige Glückswinner: @Mina (gesamt 28,3 USDT)"
+    ],
+    "templates": {
+      "daily_winner": "🥇 Der heutige Glückswinner: {user} (gesamt {amount} {ccy})",
+      "red_packet_claimed": "{user} hat {amount} {ccy} gewonnen, glückliche Gewinnerin!",
+      "red_packet_sent": "{user} hat ein red packet über {amount} {ccy} in '{group}' gesendet!",
+      "system_upgrade": "📢 Systemupgrade abgeschlossen, Unterstützung für {ccy} hinzugefügt!",
+      "top_up": "Gruppeninhaber {user} hat {amount} {ccy} aufgeladen"
+    }
+  },
+  "pager": {
+    "groups": "Anzahl der Gruppen",
+    "next": "Nächste Seite",
+    "pageOf": "(Seite {page} / {pages})",
+    "prev": "Vorherige Seite"
+  },
+  "searchLabel": "Gruppen suchen",
+  "searchPlaceholder": "Bitte geben Sie Schlüsselwörter ein, um Gruppen zu suchen…"
+}

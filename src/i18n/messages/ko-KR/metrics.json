@@ -1,0 +1,17 @@
+{
+  "title": "moonpacket 데이터 개요",
+  "subtitle": "실시간 통계 및 리더보드",
+  "latest": "최신",
+  "top_groups": "인기 그룹",
+  "total_sent": "총 송금 금액",
+  "total_claimed": "총 청구 금액 (USDT)",
+  "participants": "참여자",
+  "avg_packet": "패킷당 평균 금액",
+  "sort": {
+    "label": "정렬",
+    "latest": "최신",
+    "oldest": "가장 오래된",
+    "most": "최대 참가자 수",
+    "least": "최소 참가자 수"
+  }
+}

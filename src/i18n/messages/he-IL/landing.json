@@ -1,0 +1,15 @@
+{
+  "hero": {
+    "cta_primary": "אקטיבציה של moonpacket",
+    "cta_secondary": "איך לשלב",
+    "headline": "moonpacket ממריא לחלל!",
+    "subheadline": "Telegram TON, meme, USDT red packet grab｜הבוט הטוב ביותר לאריזות אדומות עבור פרויקטי meme ומנהלי קבוצות טלגרם כדי למשוך משתמשים חדשים ולשפר מעורבות."
+  },
+  "metrics": {
+    "connected_groups": "קבוצות מחוברות",
+    "data_stale": "ייתכן שהנתונים אינם מעודכנים",
+    "title": "אסימונים וסטטיסטיקות",
+    "total_claimed": "סכום כולל שנאסף (USDT)",
+    "total_packets_sent": "הכנס המנחה נשלח"
+  }
+}

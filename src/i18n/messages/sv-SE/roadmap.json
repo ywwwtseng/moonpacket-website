@@ -1,0 +1,48 @@
+{
+  "title": "Produktens färdplan",
+  "updated": "Uppdatering (tokens börjar distribueras när framstegsbars är full)",
+  "bucket": {
+    "progress": "Framsteg"
+  },
+  "status": {
+    "shipping": "I utveckling",
+    "planned": "Planerad",
+    "research": "I forskning",
+    "live": "Lanserad"
+  },
+  "accept": "Acceptanskriterier",
+  "lanes": {
+    "build": "Utvecklade produkter",
+    "trust": "Förtroende, efterlevnad och säkerhet",
+    "growth": "Tillväxt",
+    "token": "moonini token"
+  },
+  "progressLabel": "Framsteg",
+  "phase": {
+    "open-beta": {
+      "title": "Öppen beta-lansering (intern gemenskapsred paket)",
+      "desc": "Pilot inom gemenskapen, villkorligt öppen gemenskapsintegration; Testa grundläggande distribution/kravhantering och användarupplevelse",
+      "accept": "Tydliga regler, smidig kravhantering, nyckelfunnel är användbara"
+    },
+    "multi-chain": {
+      "title": "Kontinuerlig optimering: Multikedja + Poängmekanism + Anti-bot",
+      "desc": "Utvidgning till multikedjestöd bortom Solana; Poängberäkning och visualisering; Anti-bot strategi och A/B-testning",
+      "accept": "Multikedjeaktividentifiering är korrekt; Poäng och riskkontroll fungerar normalt"
+    },
+    "compliance": {
+      "title": "Riskkontroll och efterlevnad",
+      "desc": "KYC/AML, Revisions- och säkerhetsmekanismer; Onormal granskningsprocess.",
+      "accept": "Aktivera KYC vid behov; AML-regler är reviderbara; starka säkerhetsloggar"
+    },
+    "growth-integration": {
+      "title": "Tillväxt: Samhällsintegration + API/Webhook + Ekosystemssamarbete",
+      "desc": "Integrationsguide, Event Webhook, Query API; Partnerintegrationsprocess",
+      "accept": "Integrationsguiden godkänd; Webhook/Query API är stabilt"
+    },
+    "token-moonini": {
+      "title": "Poäng kan lösas in mot tokens: moonini",
+      "desc": "Slutförande av moonini-token distribution och utbytesmekanism",
+      "accept": "Regler för omvandling av poäng till tokens genomförda; Riskkontroll/efterlevnadskontroller godkända"
+    }
+  }
+}

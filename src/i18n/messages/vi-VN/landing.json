@@ -1,0 +1,15 @@
+{
+  "hero": {
+    "headline": "moonpacket đang bay lên mặt trăng!",
+    "subheadline": "Telegram TON, meme, lì xì USDT｜Bot lì xì tốt nhất cho các dự án meme và quản trị viên nhóm Telegram để thu hút người dùng mới và tăng cường sự tham gia.",
+    "cta_primary": "Kích hoạt moonpacket",
+    "cta_secondary": "Cách tích hợp"
+  },
+  "metrics": {
+    "title": "Token và thống kê",
+    "connected_groups": "Nhóm đã kết nối",
+    "total_packets_sent": "Lì xì đã được gửi",
+    "total_claimed": "Tổng số tiền đã thu thập (USDT)",
+    "data_stale": "Dữ liệu có thể đã lỗi thời"
+  }
+}

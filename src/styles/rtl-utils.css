@@ -1,0 +1,29 @@
+/* RTL 輔助工具類 - 安全、低侵入 */
+
+/* 1) 保持數字 / 地址從左到右顯示（避免阿拉伯文混排時數字順序錯亂） */
+.keep-ltr {
+  direction: ltr !important;
+  unicode-bidi: bidi-override !important;
+}
+
+/* 2) Icon / 箭頭 在 RTL 自動水平翻轉（加到需要翻的 <svg> 容器上） */
+[dir="rtl"] .rtl-flip-x {
+  transform: scaleX(-1);
+}
+
+/* 3) 需要列表容器左右對調但不想動 DOM 時可加（僅個別區塊使用） */
+[dir="rtl"] .rtl-row-reverse { flex-direction: row-reverse !important; }
+[dir="rtl"] .rtl-col-reverse { flex-direction: column-reverse !important; }
+
+/* 確保動畫/瀑布流不受影響（明確排除） */
+[dir="rtl"] [data-waterfall],
+[dir="rtl"] [data-marquee],
+[dir="rtl"] [data-hero],
+[dir="rtl"] [data-animation],
+[dir="rtl"] .waterfall,
+[dir="rtl"] .marquee,
+[dir="rtl"] .hero,
+[dir="rtl"] .animation {
+  /* 保持原有 direction，不受 RTL 影響 */
+}
+

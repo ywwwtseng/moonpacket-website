@@ -1,0 +1,57 @@
+{
+  "tabs": {
+    "latest": "Laatste",
+    "hot": "Populair"
+  },
+  "search": {
+    "placeholder": "Groepen Zoeken…",
+    "label": "Groepen Zoeken"
+  },
+  "card": {
+    "ownerLabel": "Eigenaar:",
+    "members": "Leden",
+    "totalSent": "Totaal Verzonden",
+    "sent": "Huidige verzending",
+    "unnamed": "Naamloze Groep"
+  },
+  "pagination": {
+    "prev": "Vorige Pagina",
+    "next": "Volgende Pagina",
+    "pageInfo": "{{count}} groepen (Pagina {{page}} / {{pages}})"
+  },
+  "cta": {
+    "launch": "Activeer moonpacket"
+  },
+  "empty": "Geen Groepen Beschikbaar",
+  "group": {
+    "members": "Ledenlijst",
+    "owner": "Groepseigenaar: {owner}",
+    "sent": "Verzonden Bedrag",
+    "totalSent": "Totaal Verzonden Bedrag",
+    "unnamed": "Naamloze Groep"
+  },
+  "marquee": {
+    "fallback": [
+      "💰 John heeft een red packet van 100 USDT gestuurd in 'Game Guild A'!",
+      "🎯 Lisa heeft 3,5 USDT geclaimd, gelukkige winnaar!",
+      "🔥 Groepseigenaar Ken heeft 2000 USDT bijgevuld",
+      "📢 Systeemupgrade voltooid, ondersteuning voor SOL toegevoegd!",
+      "🥇 De gelukkige winnaar van vandaag: @Mina (totaal 28,3 USDT)"
+    ],
+    "templates": {
+      "daily_winner": "🥇 De gelukkige winnaar van vandaag: {user} (totaal {amount} {ccy})",
+      "red_packet_claimed": "{user} heeft {amount} {ccy} geclaimd, gelukkige winnaar!",
+      "red_packet_sent": "{user} heeft een red packet van {amount} {ccy} gestuurd in '{group}'!",
+      "system_upgrade": "📢 Systeemupgrade voltooid, ondersteuning voor {ccy} toegevoegd!",
+      "top_up": "Groepseigenaar {user} heeft {amount} {ccy} bijgevuld"
+    }
+  },
+  "pager": {
+    "groups": "Aantal Groepen",
+    "next": "Volgende Pagina",
+    "pageOf": "(Pagina {page} / {pages})",
+    "prev": "Vorige Pagina"
+  },
+  "searchLabel": "Groepen Zoeken",
+  "searchPlaceholder": "Voer trefwoorden in om groepen te zoeken…"
+}

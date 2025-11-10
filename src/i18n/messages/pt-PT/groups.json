@@ -1,0 +1,57 @@
+{
+  "tabs": {
+    "latest": "Último",
+    "hot": "Popular"
+  },
+  "search": {
+    "placeholder": "Pesquisar Grupos…",
+    "label": "Pesquisar Grupos"
+  },
+  "card": {
+    "ownerLabel": "Proprietário:",
+    "members": "Membros",
+    "totalSent": "Total Enviado",
+    "sent": "Envio Atual",
+    "unnamed": "Grupo Sem Nome"
+  },
+  "pagination": {
+    "prev": "Página Anterior",
+    "next": "Próxima Página",
+    "pageInfo": "{{count}} grupos (Página {{page}} / {{pages}})"
+  },
+  "cta": {
+    "launch": "Ativar moonpacket"
+  },
+  "empty": "Sem Grupos Disponíveis",
+  "group": {
+    "members": "Lista de Membros",
+    "owner": "Proprietário do Grupo: {owner}",
+    "sent": "Montante Enviado",
+    "totalSent": "Montante Total Enviado",
+    "unnamed": "Grupo Sem Nome"
+  },
+  "marquee": {
+    "fallback": [
+      "💰 John enviou um red packet de 100 USDT em 'Game Guild A'!",
+      "🎯 Lisa reivindicou 3.5 USDT, ganhadora sortuda!",
+      "🔥 O Proprietário do Grupo Ken carregou 2000 USDT",
+      "📢 Atualização do sistema concluída, suporte adicionado para SOL!",
+      "🥇 Ganhadora sortuda de hoje: @Mina (total 28.3 USDT)"
+    ],
+    "templates": {
+      "daily_winner": "🥇 Ganhadora sortuda de hoje: {user} (total {amount} {ccy})",
+      "red_packet_claimed": "{user} reivindicou {amount} {ccy}, ganhadora sortuda!",
+      "red_packet_sent": "{user} enviou um red packet de {amount} {ccy} em '{group}'!",
+      "system_upgrade": "📢 Atualização do sistema concluída, suporte adicionado para {ccy}!",
+      "top_up": "O Proprietário do Grupo {user} carregou {amount} {ccy}"
+    }
+  },
+  "pager": {
+    "groups": "Número de Grupos",
+    "next": "Próxima Página",
+    "pageOf": "(Página {page} / {pages})",
+    "prev": "Página Anterior"
+  },
+  "searchLabel": "Pesquisar Grupos",
+  "searchPlaceholder": "Por favor, insira palavras-chave para pesquisar grupos…"
+}

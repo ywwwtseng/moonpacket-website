@@ -1,0 +1,171 @@
+{
+  "title": "",
+  "hero": {
+    "api_demo_label": "API Demo",
+    "api_get": "https://t.me/MoonPackageDevBot",
+    "response_label": "Reactie:",
+    "json": "{ \"data\": { \"level\": 100, \"status\": \"active\", \"is_blacklist\": false } } {, \"data\": {, \"level\": 100,, \"status\": \"active\",, \"is_blacklist\": false, }",
+    "title": "Trek nieuwe gebruikers aan, verhoog de activiteit",
+    "lead": "De projectpartij kan specifieke voorwaarden instellen:",
+    "points": {
+      "0": "",
+      "1": "",
+      "2": ""
+    },
+    "note": "Gebruikers die aan de voorwaarden voldoen, kunnen het red packet claimen",
+    "subtitle": "Creëer een aangepast red packet-evenement voor je community",
+    "desc": "Eenvoudige setup, snelle lancering, activeer je community!",
+    "ctaPrimaryLabel": "Begin nu",
+    "ctaPrimaryHref": "https://t.me/MoonPackageDevBot",
+    "ctaSecondaryLabel": "Bekijk voorbeeld",
+    "ctaSecondaryHref": "/zh-TW/claim/",
+    "api_demo_code": "{\n\"data\": {\n\"level\": {\n\"gt\": 99\n},\n\"status\": {\n\"eq\": \"active\"\n},\n\"is_blacklist\": {\n\"eq\": false\n}\n}\n}",
+    "api_demo_title": "GET [api_url]?api_key=[api_key]&user_id=[user_id]",
+    "use_cases_items": {
+      "0": "De projectpartij kan taakvoorwaarden instellen:",
+      "1": "Sluit je aan bij de groep / Volg het kanaal",
+      "2": "Correct wachtwoord",
+      "3": "Projectpartij aangepaste API",
+      "4": "Alleen gebruikers die aan de voorwaarden voldoen, kunnen claimen, stuur het red packet naar waardevolle gebruikers."
+    },
+    "use_cases_title": "Trek nieuwe gebruikers aan・Verhoog de activiteit"
+  },
+  "faq": {
+    "section_1": "Aan de slag en instellingen.",
+    "q1": "Hoe te beginnen?",
+    "a1": "Voeg de moonpacket Robot toe aan je Telegram groep of kanaal en stel deze in als beheerder.",
+    "q2": "Welke voorbereidingen zijn nodig voordat je verzendt?",
+    "a2": "Stort eerst de activa die je wilt verdelen (bijvoorbeeld 10 USDT voor testing).",
+    "section_2": "2) Verzending Proces",
+    "q3": "Kan ik kiezen waar ik het naartoe stuur?",
+    "a3": "Selecteer de gebonden groepen of kanalen in de 'Verzenddoelen' om naar een of meerdere groepen tegelijk te verzenden.",
+    "tip": "Tip: Het verzenden van red packets is geschikt voor ijsbrekende interacties. Je kunt reageren op de red packet-post om het spelthema uit te leggen dat je wilt organiseren.",
+    "section_3": "3) Technische Problemen",
+    "section_4": "Gegevens en Analyse",
+    "section_5": "Technische Ondersteuning en Onderhoud",
+    "q4": "Kan de toewijzingsmethode gepersonaliseerd worden?",
+    "a4": "Ondersteunt zowel willekeurige distributie als gemiddelde distributiemodi.",
+    "q5": "Je kunt de officiële klantenservice robot rechtstreeks berichten @moonini_helper_bot.",
+    "a5": "Elke API-sleutel kan tot 60 keer per minuut worden aangeroepen.",
+    "q6": "Hoe om te gaan met fouten?",
+    "a6": "De API retourneert gedetailleerde foutcodes en foutmeldingen.",
+    "q7": "Hoe de effectiviteit van de activiteit te monitoren?",
+    "a7": "Bied een dashboard met real-time gegevens aan:",
+    "q8": "Hoe worden transactie kosten berekend?",
+    "a8": "• Platformservicekosten: 2-5% (aangepast op basis van activiteitsniveau)",
+    "q9": "Hoe de veiligheid van fondsen te waarborgen?",
+    "a9": "• Gedecentraliseerde architectuur, geen behoefte aan custodiale fondsen",
+    "q10": "Wat te doen met resterende fondsen na het evenement?",
+    "a10": "• Ongereclameerde red packets worden automatisch teruggestuurd naar je portemonnee.",
+    "q11": "Kunnen meerdere evenementen tegelijkertijd plaatsvinden?",
+    "a11": "Ja, maar we raden je aan:",
+    "q12": "Hoe om te gaan met klachten van gebruikers?",
+    "a12": "• Bied een speciale klantenservicekanaal aan",
+    "q13": "Is technische ondersteuning beschikbaar?",
+    "a13": "• 24/7 technische ondersteuning",
+    "q14": "Hoe de effectiviteit van het evenement te optimaliseren?",
+    "a14": "• Pas de activiteitenstrategie aan op basis van gegevens",
+    "q9_passcode": "Wat is een wachtzin? In welke scenario's is het geschikt?",
+    "a9_passcode": "Spelers moeten de geheime zin uit externe kanalen verkrijgen en terugkeren naar deze pagina om deze correct in te voeren om te claimen. Veelvoorkomende praktijken:",
+    "passcode_scenarios": {
+      "0": "Splits de 6-cijferige geheime zin in lange YouTube-video's om volledige weergave aan te moedigen.",
+      "1": "Berichten op X.com (Twitter) of Threads die naar de geheime zin verwijzen om interactie te verbeteren.",
+      "2": "De geheime zin alleen mondeling delen tijdens live-uitzendingen om het aanwezige publiek te begeleiden.",
+      "3": "Private/betaalde groepen bieden exclusieve geheime zinnen om ervoor te zorgen dat voordelen alleen aan kernleden worden gegeven."
+    },
+    "q10_api": "Kan ik mijn eigen API gebruiken om de geschiktheid van deelnemers te bepalen?",
+    "a10_api": "Ja. moonpacket zal de opgegeven read-only API aanroepen voor verificatie voordat de gebruiker deze claimt. Stel gewoon de api_url en api_key (optionele domeininstellingen beschikbaar) in de backend in.",
+    "api_condition_title": "Voorwaardeverklaring (geen user_id)",
+    "api_response_label": "Terug:",
+    "api_operators_label": "Operator:",
+    "api_operators_desc": "eq (kan elk type overeenkomen), gt/lt/gte/lte (moet numeriek zijn)",
+    "api_user_query_title": "User Inquiry (inclusief user_id)",
+    "api_logic_desc": "moonpacket gebruikt de 'Voorwaardeverklaring' als een drempel om te vergelijken met de werkelijke waarde van de 'User Inquiry'; als het overeenkomt, gaat het door, zo niet, kan het niet worden geclaimd.",
+    "api_security_title": "Beveiligingsaanbevelingen",
+    "api_security_desc": "Gebruik alleen-lezen endpoints, activeer api_key en sta domeinrestricties toe; voor cross-domein is het aanbevolen om Cloudflare Workers te gebruiken voor transit en snelheid beperking.",
+    "q12_antibot": "Hoe bedrog en botactiviteit te voorkomen?",
+    "a12_antibot_items": {
+      "0": "Gedragsfrequentie en apparaat/IP-detectie",
+      "1": "Account uniek gebonden aan portemonnee",
+      "2": "Opnames verificatiecode",
+      "3": "AI-risicobeheersing voorlopige beoordeling; kan indien nodig een derde partij biometrische authenticatie, gezichtsherkenning en documentverificatie uitvoeren"
+    },
+    "q13_records": "Waar kan ik de gegevens van mijn verzonden berichten en het aantal ontvangers controleren?",
+    "a13_records": "Controleer 'Red Packets I Sent' op je persoonlijke homepage om het aantal claimanten, resterende bedragen en totaal uitgegeven voor elke sessie te bekijken; als ingeschakeld, kunnen rapporten ook worden gedownload.",
+    "q1_body": {
+      "0": "Dit is een tool om projectteams, groepsleden of communitymanagers te helpen snel red packets in Telegram-groepen te distribueren.\nSpecifiek gericht op de distributie van meme coins om communityleden te stimuleren,\nhoofdzakelijke toepassingen zijn: activiteit stimuleren, nieuwe leden aantrekken en promotionele activiteiten uitvoeren.\nJe kunt niet alleen je uitgegeven meme coins gebruiken om red packets te distribueren, maar ook gangbare tokens zoals USDT, TRX, SOL en anderen.\nVia moonpacket kun je gebruikers vragen om eenvoudige taken te voltooien, en verder configureren via de API, waardoor groeig eigenaren 'distributieregels kunnen aanpassen' en 'claimvoorwaarden kunnen instellen', verifiëren met hun eigen API.",
+      "1": "Tip: Het distribueren van moonpacket red packets stelt je in staat om echt waardevolle communityleden te ontdekken. Je kunt claimvoorwaarden instellen in elk red packet, en spelers verschillende taken geven om te voltooien."
+    },
+    "q1_title": "1) Wat is de red packet functie van moonpacket?",
+    "q2_body": {
+      "0": "Welkomstbericht voor nieuwe leden na toetreding (basis toetredingstaken voltooid)",
+      "1": "Realtime interactie tijdens live-uitzendingen / AMA's / evenementen (alleen leden die zich op het evenement richten kunnen de wachtwoorden ontvangen en in aanmerking komen voor de red packet)",
+      "2": "In-groe marketingpromoties, loterijen, slogan-taken, game-leveling, oplaadkortingen (bijv. alleen spelers die een bepaald niveau in het spel bereiken of een bepaald bedrag opladen komen in aanmerking om te ontvangen)",
+      "3": "Beloningen voor het uitnodigen van vrienden om zich bij de groep aan te sluiten",
+      "4": "Tijdgebonden promoties, aftelt evenementen (dagelijkse inlogtaken)",
+      "5": "\"Cross-group red packet\": Laat red packets vallen in andere groepen (indien toegestaan door de groepseigenaar), om wederzijdse publiciteit en samenwerking binnen de gemeenschap te bevorderen."
+    },
+    "q2_title": "2) Wanneer is het gepast om de red packet functie te gebruiken?",
+    "q3_body": {
+      "0": "Alle on-chain operaties brengen een gasvergoeding met zich mee. De gasvergoeding wordt door de blockchain zelf in rekening gebracht en is geen extra vergoeding van ons.",
+      "1": "Wanneer je tokens in de red packet pool stort, wordt er onmiddellijk on-chain een gasvergoeding afgetrokken. Het werkelijke bedrag dat in de pool komt, kan iets minder zijn dan het nominale bedrag dat je hebt ingevoerd (of er kan een extra gasvergoeding in rekening worden gebracht bij overdracht). Dit is een normale on-chain aftrekking.",
+      "2": "Bij het uitgeven van een red packet in 'jouw groep' rekent het systeem automatisch een platformkosten van 2% op het moment van distributie, die direct wordt afgetrokken.",
+      "3": "Cross-groep red packets (het promoten van een red packet in een andere groep) hebben bijkomende regels:",
+      "4": "Ten eerste moet de groeps eigenaar die de promotie ontvangt toestemming instellen, en er moeten mainstream tokens worden gebruikt. Cross-groep red packets accepteren geen zelfgecreëerde meme coins, en het systeem heeft een minimale drempel voor de bedragen van cross-groep red packets. Als het bedrag onder de drempel ligt, kan de red packet niet worden aangemaakt. Bevestig dat jouw bedrag voldoende is voordat je het verzendt."
+    },
+    "q3_title": "3) Kosten en drempel voor het versturen van red packets",
+    "q4_body": {
+      "0": "We zullen actief misbruikgedrag detecteren (zoals fraude, witwassen, robot tactieken, spam interacties, enz.). Als dit als hoog risico wordt beoordeeld, kan het account of de activa in 'onder review' status komen: opnames kunnen worden vertraagd, en het account kan tijdelijk op een zwarte lijst komen. Dit is om de algemene gebruikersactiva te beschermen en te voldoen aan regelgevingseisen.",
+      "1": "Dit is het risicobeheer- en nalevingsmechanisme van het platform. Op basis van interne risicobeheer, nalevingseisen of derde partijen onderzoeken, kunnen we specifieke opnames of overdrachten opschorten, beperken, vertragen of weigeren.",
+      "2": "Als je denkt dat dit een verkeerde beoordeling is, kun je een beroep indienen via de officiële klantenservice bot."
+    },
+    "q4_title": "4) Beveiliging, Risicobeheer en Accountstatus",
+    "q5_body": {
+      "0": "Je kunt de officiële klantenservice bot rechtstreeks bericht sturen @moonini_helper_bot.",
+      "1": "Voer het commando /setlang in het gesprek in (bijv. /setlang zh-TW of /setlang en-US) om de klantenservice taal te wisselen.",
+      "2": "Bij het rapporteren van een probleem, gelieve te voorzien in:",
+      "3": "De klantenservice zal alleen on-chain gegevens en transactiegegevens controleren. We zullen je niet vragen om originele afbeeldingen te sturen of om wallet privé sleutels, mnemonics, of volledige seed phrases te verstrekken, noch zullen we je vragen om geld over te maken voor 'verificatie'. De officiële klantenservice zal je niet proactief benaderen om activa aan te vragen.",
+      "4": "Je kunt ook de self-service query API gebruiken om je status te controleren, zoals of je account geldig is, of het op de zwarte lijst staat, of het onder review is. Hier is een voorbeeld: als de reactie laat zien dat je is_blacklist: true of status: \"hold\", betekent dit dat het account onder risicobeheer review staat, en opnames of distributies kunnen worden opgeschort. Als deze functie niet beschikbaar is tijdens de testoperatieperiode, dien dan een beroep in via de klantenservice bot en geef de transactiesleutel op, en we zullen de verwerking versnellen op basis van on-chain bewijs."
+    },
+    "q5_title": "5) Klantenservice en self-service query",
+    "q6_body": {
+      "0": "We bieden een API-mechanisme voor groeps eigenaren om taakvoorwaarden en inwisselregels aan te passen.",
+      "1": "Wat is een wachtwoordzin? Wanneer moet deze worden gebruikt? Bijvoorbeeld, wanneer je meer gebruikers wilt vragen om je TikTok of YouTube te bezoeken, of je privé groep toe te voegen, kun je de wachtwoordzin verbergen in video's of berichten. Gebruikers moeten de wachtwoordzin op de opgegeven locatie verkrijgen om de red packet te claimen nadat ze deze hebben ingevoerd.",
+      "2": "Wat is het concept van API? Hoe wordt de geschiktheid bepaald?",
+      "3": "In de API-instellingen moeten we eerst de API informeren over de voorwaarden, aangeduid als 'voorwaardedeclaratie' (exclusief user_id).\nVoorbeeld: Geef een set drempelvoorwaarden terug, zoals niveau, status, of op de zwarte lijst, etc.\nmoonpacket beschouwt deze set voorwaarden als de basisdrempel.",
+      "4": "Vervolgens, wanneer de gebruiker een red packet wil ontvangen, moet de API voorzien in:\n'Gebruikersquery' (inclusief user_id).\nVoorbeeld: Geef de daadwerkelijke waarde van die gebruiker terug. Het platform vergelijkt de resultaten van 'Gebruikersquery' met de eerder ingestelde drempel van 'voorwaardedeclaratie'; als het overeenkomt, wordt het goedgekeurd; zo niet, wordt het afgewezen.",
+      "5": "Veiligheidsaanbeveling: Geef alleen alleen-lezen eindpunten en schakel api_key in samen met domeinwhitelisting; als cross-domeinoperaties nodig zijn, kunt u Cloudflare Workers gebruiken als relais en rate limiting implementeren.",
+      "6": "Kunnen de aktiviteitsregels halverwege worden aangepast?",
+      "7": "Halverwege kunnen er geen wijzigingen worden aangebracht. We hopen dat alle gebruikers van dit systeem onderling vertrouwen kunnen behouden. Als een projectpartij belooft red packets uit te geven maar halverwege de spelvoorwaarden wijzigt, waardoor het niet mogelijk is om te claimen, zal dit het vertrouwen van de spelers schaden. Als de uitgever de API wijzigt om de regels te veranderen en meerdere spelers dit melden, behouden we ons het recht voor om accounts op te schorten of te bevriezen na bevestiging via wijzigingslogboeken. Vermijd daarom absoluut het wijzigen van spelregels halverwege de API, omdat dit kan leiden tot accountverboden.",
+      "8": "Als u zich zorgen maakt over onjuiste instellingen, is de juiste aanpak:",
+      "9": "U kunt eerst uw eigen testgroep maken, test red packets aan uzelf in de testgroep uitgeven, en zodra dit zonder problemen is bevestigd, doorgaan met de distributie in de officiële gemeenschap. De basisregel voor red packets is: u kunt halverwege geen stop inroepen, en u kunt de regels voor een lopende activiteit niet direct veranderen. Elke ronde moet worden voltooid en afgerekend volgens de oorspronkelijke verplichting voordat nieuwe regels in de volgende ronde kunnen worden gebruikt."
+    },
+    "q6_title": "6) Activiteitsregels, geschiktheid controle, en geen wijziging van regels halverwege",
+    "q7_body": {
+      "0": "We bevinden ons momenteel nog in de bètafase en zullen het datadashboard geleidelijk optimaliseren, inclusief het aantal deelnemers, aantal geclaimde red packets, claimpercentage, etc. Projectpartijen kunnen ook trackingindicatoren in hun API-instellingen opnemen.",
+      "1": "Niet-geclaimde red packets worden automatisch teruggestuurd naar uw wallet. Als u binnen 3 dagen na het einde van de activiteit geen terugbetaling ontvangt, kunt u contact opnemen met de klantenservice voor verwerking.",
+      "2": "Het is raadzaam om niet te veel activiteiten tegelijkertijd in dezelfde groep uit te voeren om conflicten te voorkomen. Gebruikers kunnen ook in de war raken; het is het beste om activiteiten lineair uit te voeren, één tegelijk of één per dag, en ervoor te zorgen dat er voldoende middelen zijn om elke activiteit te voltooien.",
+      "3": "Het wordt aanbevolen om de regels aan te passen op basis van gegevens; u kunt de API gebruiken voor A/B-testing, verwijzen naar eerdere succesvolle gevallen en regelmatig feedback van leden verzamelen om het spel geleidelijk te optimaliseren.",
+      "4": "Anti-fraude en misbruik:",
+      "5": "Tijdens de open bèta-testperiode optimaliseren we de gebruikersfraudeproblemen. Om de eerlijkheid van het systeem te waarborgen, zullen we specifiek gebruikers blokkeren die proberen bots te gebruiken om red packets te grabben. De beste preventiemethode is om gebruikers hun eigen API en voorwaarden in te laten stellen en het aantal claims te beperken, wat de drempel voor degenen die willen frauderen verhoogt. In geval van abnormale situaties kunt u gerust contact opnemen met onze klantenservice voor feedback."
+    },
+    "q7_title": "7) Prestaties volgen, optimaliseren en fraude voorkomen",
+    "section_title": "Veelgestelde Vragen (Gedetailleerde FAQ) — Stuur red packet"
+  },
+  "features": {
+    "f1": "Snelle Setup",
+    "f2": "Verschillende Spelstijlen",
+    "f3": "Realtime Gegevens",
+    "f4": "Veilig en Betrouwbaar"
+  },
+  "features_desc": {
+    "f1": "Voltooi de setup in 3 minuten om de red packet-activiteit te starten",
+    "f2": "Ondersteunt willekeurige, gemiddelde en specifieke toewijzingsmethoden",
+    "f3": "Bekijk direct ontvangsten en gebruikersfeedback",
+    "f4": "Gedecentraliseerd ontwerp zorgt voor fondsbeveiliging"
+  },
+  "cta_button_prefix": "Activeer nu",
+  "cta_button_suffix": "Robot",
+  "cta_launch_bot": "Activeer de moonpacket Robot nu",
+  "footer_tip": "Tip: Het verzenden van red packets is geschikt voor ijsbrekende interacties. Je kunt reageren op de red packet-post om het spelthema uit te leggen dat je wilt organiseren."
+}

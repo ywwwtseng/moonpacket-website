@@ -1,0 +1,57 @@
+{
+  "tabs": {
+    "latest": "Nejnovější",
+    "hot": "Populární"
+  },
+  "search": {
+    "placeholder": "Hledat skupiny…",
+    "label": "Hledat skupiny"
+  },
+  "card": {
+    "ownerLabel": "Majitel:",
+    "members": "Členové",
+    "totalSent": "Celkem odesláno",
+    "sent": "Aktuální odesílání",
+    "unnamed": "Nepojmenovaná skupina"
+  },
+  "pagination": {
+    "prev": "Předchozí stránka",
+    "next": "Další stránka",
+    "pageInfo": "{{count}} skupin (Stránka {{page}} / {{pages}})"
+  },
+  "cta": {
+    "launch": "Aktivovat moonpacket"
+  },
+  "empty": "Žádné skupiny nejsou k dispozici",
+  "group": {
+    "members": "Seznam členů",
+    "owner": "Vlastník skupiny: {owner}",
+    "sent": "Odeslaná částka",
+    "totalSent": "Celková odeslaná částka",
+    "unnamed": "Nepojmenovaná skupina"
+  },
+  "marquee": {
+    "fallback": [
+      "💰 John poslal červený balíček ve výši 100 USDT ve 'Herní gildě A'!",
+      "🎯 Lisa si nárokovala 3,5 USDT, šťastný výherce!",
+      "🔥 Vlastník skupiny Ken dobil 2000 USDT",
+      "📢 Aktualizace systému dokončena, přidána podpora pro SOL!",
+      "🥇 Dnešní šťastný výherce: @Mina (celkem 28,3 USDT)"
+    ],
+    "templates": {
+      "daily_winner": "🥇 Dnešní šťastný výherce: {user} (celkem {amount} {ccy})",
+      "red_packet_claimed": "{user} si nárokoval {amount} {ccy}, šťastný výherce!",
+      "red_packet_sent": "{user} poslal červený balíček ve výši {amount} {ccy} ve '{group}'!",
+      "system_upgrade": "📢 Aktualizace systému dokončena, přidána podpora pro {ccy}!",
+      "top_up": "Vlastník skupiny {user} dobil {amount} {ccy}"
+    }
+  },
+  "pager": {
+    "groups": "Počet skupin",
+    "next": "Další stránka",
+    "pageOf": "(Stránka {page} / {pages})",
+    "prev": "Předchozí stránka"
+  },
+  "searchLabel": "Hledat skupiny",
+  "searchPlaceholder": "Zadejte klíčová slova pro hledání skupin…"
+}

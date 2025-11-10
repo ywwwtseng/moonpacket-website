@@ -1,0 +1,152 @@
+{
+  "title": "moonpacket — 簡單、安全又快速的加密紅包",
+  "description": "moonpacket 加密紅包機器人｜支援 USDT、TON、SOL、ETH。輕鬆發紅包、即時領取，安全去託管，最適合 Telegram 社群拉新與提升活躍。",
+  "nav": {
+    "claim": "領紅包",
+    "send": "發紅包",
+    "about": "關於",
+    "api": "API 說明",
+    "blog": "部落格",
+    "careers": "職涯",
+    "contact": "聯絡我們",
+    "faq": "常見問題",
+    "home": "首頁",
+    "pricing": "定價",
+    "team": "團隊"
+  },
+  "hero": {
+    "headline_line1": "moonpacket",
+    "headline_line2": "啟動，衝向月球。",
+    "tagline": "Telegram TON、meme 與 USDT 紅包，用於社群行銷與拉新留存。為管理員設計的群組紅包機器人，可以提升活躍度、導入新成員並激勵互動。",
+    "cta_primary": "立即啟動 moonpacket",
+    "cta_secondary": "如何接入群組",
+    "ctaPrimaryHref": "https://t.me/MoonPackageDevBot",
+    "ctaPrimaryLabel": "啟動 moonpacket",
+    "ctaSecondaryHref": "/zh-TW/integration",
+    "ctaSecondaryLabel": "如何接入",
+    "desc": "提供給 meme 幣專案方及 Telegram 群主，最佳拉新和提升活躍的紅包機器人。",
+    "lead": "Telegram TON、meme、USDT 抢紅包｜提供給 meme 幣專案方及 Telegram 群主，最佳拉新和提升活躍的紅包機器人。",
+    "subtitle": "讓您的社群體驗更美好，提供全球化的簡單服務。",
+    "title": "加密貨幣紅包，人人可用"
+  },
+  "metrics": {
+    "title": "代幣與統計",
+    "groups": "已接入群組",
+    "sent": "已發送紅包",
+    "claimed": "已領取總額",
+    "groupsLinkLabel": "接入的紅包群",
+    "heading": "即時指標",
+    "price_btc": "BTC 價格",
+    "sort": {
+      "latest": "最新",
+      "least": "人數最少",
+      "most": "人數最多",
+      "oldest": "最舊"
+    },
+    "total_claimed_amount": "已領取總額 (USDT)",
+    "total_sent": "已發送總數"
+  },
+  "sections": {
+    "waterfall_title": "紅包瀑布流",
+    "features_heading": "功能亮點",
+    "features_subtitle": "您可以獲得",
+    "pricing_heading": "方案與價格",
+    "testimonials_heading": "使用者的評價",
+    "tokens_heading": "代幣與統計"
+  },
+  "errors": {
+    "stale": "數據可能過期",
+    "not_found": "找不到頁面",
+    "not_found_desc": "很抱歉，我們無法找到此頁面，或該頁面已被移除。"
+  },
+  "story": {
+    "title": "🌕 moonini 的故事",
+    "secrets_title": "🌸 他的秘密",
+    "schedule_title": "代幣釋放規則",
+    "belief_title": "🌕 月之能量與紅包的信仰",
+    "future_title": "💫 未來的應用",
+    "disclaimer_title": "⚠️ 聲明"
+  },
+  "waterfall": {
+    "sent_from": "發送群：",
+    "claimed": "領取",
+    "total": "總額",
+    "progress": "已領取"
+  },
+  "footer": {
+    "copyright": "版權所有。",
+    "privacy": "隱私權政策",
+    "terms": "服務條款",
+    "social": {
+      "telegram_group": "Telegram 群組",
+      "telegram_channel": "Telegram 頻道",
+      "x": "X",
+      "youtube": "YouTube"
+    },
+    "rights": ""
+  },
+  "pricing": {
+    "starter": "入門方案",
+    "pro": "專業服務",
+    "enterprise": "企業方案",
+    "price_free": "免費",
+    "price_19": "$19",
+    "price_contact": "聯絡我們",
+    "sla_support": "SLA 與支援",
+    "bullets": {
+      "starter": {
+        "0": "基本功能",
+        "1": "社群支援"
+      },
+      "pro": {
+        "0": "包含入門方案",
+        "1": "進階在地化"
+      },
+      "enterprise": {
+        "0": "SLA與支援",
+        "1": "客製化整合"
+      }
+    }
+  },
+  "features": {
+    "title": "核心功能",
+    "items": "__TODO_TRANSLATE_zh-CN__",
+    "f1": "快速註冊",
+    "f2": "全球化本地化",
+    "f3": "非託管安全性"
+  },
+  "a11y": {
+    "skip_to_main": "跳至主要內容",
+    "language_menu": "開啟語言選單",
+    "language": "語言"
+  },
+  "seo": {
+    "site": {
+      "title": "moonpacket — meme 代幣加密紅包及紅包專用錢包",
+      "description": "moonpacket 加密紅包 Telegram 機器人支援 USDT、TON、SOL、ETH、DOGE，還可以發放自己的 meme 代幣紅包，最適合 Telegram 社群用來拉新、炒熱氣氛及提升活躍度。",
+      "site_name": "moonpacket"
+    },
+    "routes": {
+      "claim": {
+        "title": "紅包 Telegram mini APP — moonpacket",
+        "description": "moonpacket 的紅包功能支援多種代幣，包括 SOL、USDT，還能發放自己的 meme 代幣，是 Telegram 群組拉新和提升活躍度的利器。"
+      },
+      "send": {
+        "title": "發紅包 — moonpacket",
+        "description": "使用 moonpacket 發紅包，可設定任務達成條件及 API 整合，有效拉新並提升有價值用戶的社群活躍度。"
+      },
+      "privacy": {
+        "title": "隱私權政策 — moonpacket",
+        "description": "moonpacket 隱私權政策說明我們如何收集、使用及保護您的個人資料。"
+      },
+      "terms": {
+        "title": "服務條款 — moonpacket",
+        "description": "moonpacket 服務條款，說明使用規範與法律聲明。"
+      }
+    },
+    "og": {
+      "image": "/images/og-default.png",
+      "type": "website"
+    }
+  }
+}

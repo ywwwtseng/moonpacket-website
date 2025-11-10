@@ -1,0 +1,17 @@
+{
+  "title": "moonpacket dataoversigt",
+  "subtitle": "Real-time statistik og leaderboard",
+  "latest": "Seneste",
+  "top_groups": "Populære grupper",
+  "total_sent": "Samlet sendt beløb",
+  "total_claimed": "Samlet beløb krævet (USDT)",
+  "participants": "Antal deltagerne",
+  "avg_packet": "Gennemsnitligt beløb pr. pakke",
+  "sort": {
+    "label": "Sorter efter",
+    "latest": "Seneste",
+    "oldest": "Ældste",
+    "most": "Maksimum deltagerne",
+    "least": "Minimum deltagerne"
+  }
+}

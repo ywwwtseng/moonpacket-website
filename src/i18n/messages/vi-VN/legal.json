@@ -1,0 +1,456 @@
+{
+  "privacyTitle": "Chính sách quyền riêng tư",
+  "termsTitle": "Thỏa thuận người dùng",
+  "version": "Phiên bản",
+  "updated": "Cập nhật",
+  "owner": "Chủ sở hữu",
+  "sections": {
+    "scope": "Phạm vi và hình thành hợp đồng",
+    "definitions": "Sử dụng rủi ro cao và Cấm",
+    "eligibility": "Quyền sở hữu trí tuệ",
+    "services": "Nội dung dịch vụ và mô hình hoạt động",
+    "wallet": "Ví đám mây, cam kết quà tặng và khóa quỹ",
+    "fees": "Phí và Chi phí",
+    "rules": "Quy tắc hoạt động và tính công bằng",
+    "restrictions": "Kiểm soát chống bot, lạm dụng và hạn chế tài khoản",
+    "ip": "Quyền sở hữu trí tuệ",
+    "third_party": "Dịch vụ bên thứ ba và sự phụ thuộc bên ngoài",
+    "data": "Điều kiện và Tài khoản",
+    "risks": "Thông tin rủi ro",
+    "disclaimer": "Bồi thường",
+    "liability": "Giới hạn trách nhiệm",
+    "indemnity": "Bồi thường",
+    "termination": "Tạm ngưng, phong tỏa, chấm dứt và giữ lại dữ liệu",
+    "force_majeure": "Sự kiện bất khả kháng",
+    "high_risk": "Sử dụng rủi ro cao và Cấm",
+    "tax": "Thuế và báo cáo",
+    "accuracy": "Độ chính xác của nội dung và dữ liệu",
+    "governing_law": "Luật áp dụng và Giải quyết tranh chấp",
+    "contact": "Phương thức liên hệ",
+    "changes": "Terms Changes",
+    "intro": "",
+    "data_collection": "Phí và Chi phí",
+    "data_usage": "Luật áp dụng và Giải quyết tranh chấp",
+    "legal_basis": "",
+    "cookies": "Định nghĩa",
+    "data_sharing": "Sự kiện bất khả kháng",
+    "cross_border": "Tuyên bố từ chối trách nhiệm",
+    "retention": "",
+    "security": "",
+    "minors": "",
+    "rights": "",
+    "faq": "",
+    "updates": "",
+    "contact_info": "Hợp tác về Dữ liệu, Quyền riêng tư và Tuân thủ"
+  },
+  "contact": {
+    "title": "Phương thức liên hệ",
+    "privacy": "Hộp thư riêng tư",
+    "security": "Báo cáo bảo mật",
+    "support": "Robot hỗ trợ khách hàng"
+  },
+  "privacy": {
+    "version": "v1.0.0",
+    "updated": "tự động",
+    "owner": "đội ngũ moonpacket",
+    "version_label": "Phiên bản",
+    "updated_label": "Cập nhật",
+    "owner_label": "Chủ sở hữu",
+    "data_sources": "Nguồn dữ liệu",
+    "notice": {
+      "disclaimer_binding": "Các điều khoản dưới đây là bản dịch và chỉ mang tính tham khảo. Phiên bản chính thức ràng buộc về mặt pháp lý là văn bản gốc bằng tiếng Anh. Trong trường hợp có bất kỳ sự khác biệt nào giữa các phiên bản ngôn ngữ và phiên bản tiếng Anh, phiên bản tiếng Anh sẽ được ưu tiên."
+    },
+    "intro": [
+      "Chính sách bảo mật này (sau đây gọi là 'chính sách này') mô tả cách chúng tôi thu thập, sử dụng, lưu trữ và bảo vệ thông tin cá nhân và dữ liệu sử dụng của bạn khi bạn sử dụng các dịch vụ do moonpacket cung cấp, bao gồm Ứng Dụng Mini Telegram, bot và trang web (gọi chung là 'dịch vụ'). Vui lòng đọc kỹ trước khi sử dụng; bằng cách bắt đầu sử dụng dịch vụ, bạn đồng ý với chính sách này.",
+      "Chức năng cốt lõi của dịch vụ này là 'tăng trưởng cộng đồng và tương tác lì xì', và nó có thể cung cấp các tính năng cần thiết liên quan đến ví điện tử, giao dịch hoặc đổi thưởng theo yêu cầu tuân thủ. Chính sách này chỉ điều chỉnh việc xử lý dữ liệu; đối với quy định sử dụng, giới hạn trách nhiệm, tiết lộ rủi ro và từ chối trách nhiệm, vui lòng tham khảo 'Điều Khoản Sử Dụng.'",
+      "moonpacket (sau đây gọi là 'moonpacket' hoặc 'dịch vụ') là thực thể và quản trị viên thu thập, sử dụng, lưu trữ và xử lý dữ liệu cá nhân và dữ liệu sử dụng liên quan đến hoạt động của dịch vụ này, xử lý dữ liệu chỉ nhằm mục đích kỹ thuật và hoạt động; moonpacket không phải là ngân hàng, quỹ tín thác, người giữ tài sản, tư vấn đầu tư, trung gian thanh toán, hay quản lý tài sản, cũng như không chịu trách nhiệm về bất kỳ nghĩa vụ ủy thác, giữ gìn, bảo tồn, đầu tư, hoặc đảm bảo nào do việc xử lý dữ liệu nói trên."
+    ],
+    "definitions": [
+      "moonpacket: Đề cập đến các dịch vụ ứng dụng được cung cấp bởi dự án này, bao gồm ứng dụng web và ứng dụng di động có sẵn để tải xuống, và bao gồm (nhưng không giới hạn) Ứng dụng Mini Telegram, bot, ví đám mây và các mô-đun chức năng liên quan.",
+      "Dữ liệu cá nhân: Thông tin có thể xác định trực tiếp hoặc gián tiếp một cá nhân, chẳng hạn như (nếu áp dụng) thông tin liên hệ, Telegram UID, địa chỉ ví đám mây (nếu có thể xác định một cá nhân), thiết bị và định danh mạng.",
+      "Dữ liệu sử dụng: Hồ sơ sự kiện và tương tác liên quan đến tài khoản hoặc thiết bị (ví dụ: gửi/n nhận lì xì, lỗi và nhật ký hiệu suất, tín hiệu chống bot)."
+    ],
+    "scope": [
+      "Những điều khoản này áp dụng cho việc bạn sử dụng tất cả các chức năng do moonpacket cung cấp, bao gồm (nhưng không giới hạn) tham gia hoặc quản lý các nhóm/kênh, gửi hoặc nhận lì xì, tham gia sự kiện, liên kết hoặc sử dụng ví đám mây và điểm, và tích hợp qua API/Webhook.",
+      "moonpacket hỗ trợ hai trường hợp sử dụng chính: những người gửi lì xì và những người nhận lì xì. Người gửi phải thêm bot vào các nhóm/kênh mà họ sở hữu hoặc quản lý và cấp quyền cần thiết; nếu không được ủy quyền hoặc quyền truy cập không đủ, chức năng không thể được đảm bảo. Người nhận sẽ không có thông tin cá nhân được ghi lại ngoài các định danh mạng cần thiết và sự kiện sử dụng trong các tương tác nhóm."
+    ],
+    "dataCollected": [
+      "Tài khoản và danh tính: Telegram UID, tên người dùng, hình đại diện, cài đặt ngôn ngữ, danh tính thành viên nhóm và quyền hạn; nếu cần, dữ liệu ID do chính phủ cấp, ảnh tự chụp hoặc kết quả khớp sinh trắc học khuôn mặt, khai báo nơi ở, thông tin và kết quả kiểm toán KYC/AML sẽ được thu thập và lưu giữ chỉ để tuân thủ, phòng chống rửa tiền, chống tài trợ khủng bố, tuân thủ các biện pháp trừng phạt, báo cáo thuế, điều tra gian lận hoặc mục đích quản lý rủi ro.",
+      "Sự kiện sử dụng: Gửi/n nhận lì xì, nhật ký lệnh và tương tác, tham gia sự kiện, sự kiện từ API/Webhook, lỗi và nhật ký hiệu suất; tín hiệu chống bot và kiểm soát rủi ro (như tần suất bất thường, thiết bị hoặc đặc điểm mạng).",
+      "Giao dịch và tài sản: Địa chỉ ví đám mây liên quan, số dư hoặc tóm tắt giao dịch (chỉ trong phạm vi cần thiết cho chức năng); giao dịch trên chuỗi có thể được xác minh công khai, nhưng chúng không thể đảo ngược và không thể thay đổi. Thông tin nêu trên có thể bao gồm hồ sơ Off-chain (như số dư kế toán nội bộ được đánh dấu, số tiền đang chờ phân phối hoặc trạng thái bị khóa), được cung cấp chỉ cho hướng dẫn thanh toán và phân bổ hệ thống nội bộ và không cấu thành nghĩa vụ giữ gìn, ủy thác, tiền gửi, quản lý tài chính ủy quyền, thu tiền và thanh toán, quản lý đầu tư, hoặc bảo quản của moonpacket.",
+      "Thông tin kỹ thuật và thiết bị: Mô hình thiết bị, hệ điều hành, phiên bản trình duyệt hoặc ứng dụng, địa chỉ mạng (IP/ASN) và khu vực gần đúng, thẻ cookie và lưu trữ cục bộ (nếu có).",
+      "Thông tin liên hệ: Email hoặc nội dung trò chuyện hỗ trợ khách hàng mà bạn cung cấp chủ động (nếu có)."
+    ],
+    "sources": [
+      "Dữ liệu của bạn được cung cấp một cách chủ động trong quá trình đăng ký, liên kết, tương tác hoặc giao tiếp với dịch vụ khách hàng.",
+      "Các sự kiện và dữ liệu kỹ thuật được hệ thống tự động ghi lại trong quá trình bạn sử dụng dịch vụ này.",
+      "Kết quả so sánh hoặc xác minh bên thứ ba được thu thập hợp pháp để tuân thủ hoặc cần thiết cho dịch vụ (như các nhà cung cấp dịch vụ KYC/AML)."
+    ],
+    "purposes": [
+      "Các chức năng được cung cấp cho hoạt động và bảo trì dịch vụ này bao gồm: xác minh danh tính, xác thực quyền truy cập, kích hoạt và quản lý các mô-đun (lì xì, điểm, ví đám mây), xử lý sự cố và giám sát an ninh.",
+      "Quản lý rủi ro và tuân thủ: Phát hiện, ngăn chặn và điều tra lạm dụng, gian lận, rửa tiền, tài trợ khủng bố, lách luật, trốn thuế, huy động vốn trái phép, thao túng chia sẻ doanh thu hoặc các hoạt động bất thường khác; thực hiện kiểm toán KYC/AML và xác minh danh tính (bao gồm các loại giấy tờ do chính phủ cấp, ảnh tự chụp và xác minh sinh trắc học), đánh giá rủi ro và kiểm tra thuế và lệnh trừng phạt. Nếu cần thiết, có thể liên quan đến việc giữ lại, đóng băng, trì hoãn, hạn chế hoặc từ chối giao dịch, phân phối, hoàn tiền, rút tiền hoặc gỡ bỏ đóng băng. Những hành động như vậy không cấu thành vi phạm hoặc xâm phạm của moonpacket, và moonpacket không chịu trách nhiệm về bất kỳ khoản bồi thường, bồi hoàn hoặc trách nhiệm nào khác.",
+      "Phân tích dữ liệu và tối ưu hóa sản phẩm: Xu hướng sử dụng thống kê, cải thiện trải nghiệm và hiệu suất, tiến hành kiểm tra A/B, và đào tạo các mô hình chống gian lận (sử dụng các phương pháp tối thiểu hóa và không xác định hóa).",
+      "Tuân thủ quy định và khẳng định quyền: Hợp tác với các yêu cầu pháp lý từ quy định, cơ quan hoặc tòa án, hoặc thực hiện, thiết lập hoặc bảo vệ quyền hợp pháp. moonpacket có quyền, theo quyết định riêng, cung cấp dữ liệu liên quan cho các cơ quan quản lý, cơ quan tư pháp, cơ quan thuế hoặc lệnh trừng phạt, cơ quan trọng tài hoặc thi hành, hoặc các nhà cung cấp dịch vụ tuân thủ được ủy quyền của họ dựa trên nhu cầu về pháp lý, quy định, thuế, lệnh trừng phạt, chống rửa tiền, chống tài trợ khủng bố, điều tra gian lận, hoặc các nhu cầu tuân thủ khác; việc cung cấp này không cấu thành vi phạm hoặc xâm phạm của moonpacket, và moonpacket không chịu trách nhiệm về bất kỳ khoản bồi thường, bồi hoàn hoặc trách nhiệm nào khác.",
+      "Giao tiếp và thông báo: Cung cấp cho bạn các thay đổi quan trọng, thông báo sự kiện, hoặc thông tin dịch vụ cần thiết; tin nhắn tiếp thị sẽ chỉ được gửi với sự đồng ý hoặc theo quy định của pháp luật."
+    ],
+    "legalBases": [
+      "Cần thiết để thực hiện hợp đồng hoặc cung cấp dịch vụ (ví dụ: kích hoạt các quy trình lì xì/điểm, xác minh kiểm soát rủi ro và hồ sơ sự kiện).",
+      "Tuân thủ nghĩa vụ pháp lý (ví dụ: KYC/AML, các biện pháp trừng phạt, kiểm toán và nghĩa vụ lưu giữ).",
+      "Lợi ích chính đáng (ví dụ: phát hiện lạm dụng, đảm bảo an ninh hệ thống và khả năng cung cấp dịch vụ, cải thiện sản phẩm và trải nghiệm). Trong trường hợp này, chúng tôi sẽ thực hiện các bài kiểm tra cân bằng và áp dụng các biện pháp không nhận diện hoặc tối thiểu hóa.",
+      "Sự đồng ý của bạn (ví dụ: nhận tin nhắn tiếp thị, cookie không cần thiết và các lựa chọn có thể thu hồi)."
+    ],
+    "cookies": [
+      "Cookie cần thiết và lưu trữ cục bộ: Được sử dụng để duy trì trạng thái đăng nhập, lựa chọn ngôn ngữ, biện pháp chống bot và kiểm soát an ninh; một số tính năng có thể không hoạt động đúng nếu bị tắt.",
+      "Phân tích hoặc sở thích: Chỉ được kích hoạt nếu được phép theo quy định hoặc với sự đồng ý của bạn; bạn có thể xóa hoặc giới hạn chúng trong cài đặt trình duyệt của bạn."
+    ],
+    "wallet": [
+      "Nếu ví đám mây được cung cấp bởi dịch vụ này hoặc một đối tác, nó chỉ xử lý và giữ lại dữ liệu giao dịch và biên lai tối thiểu cần thiết sau khi hoàn tất các quy trình lì xì, điểm, hoặc cần thiết khác.",
+      "Dữ liệu trên chuỗi là công khai và không thể thay đổi; xin hãy vận hành cẩn thận. Bản chất không thể thay đổi, công khai vĩnh viễn, và các liên kết dữ liệu từ các tính năng blockchain nằm ngoài sự kiểm soát của dịch vụ này."
+    ],
+    "antiFraud": [
+      "Để ngăn chặn lạm dụng và gian lận, chúng tôi có thể đánh giá tần suất tương tác, đặc điểm thiết bị hoặc mạng, vị trí địa lý, mô hình hành vi và tín hiệu trong danh sách đen; chức năng có thể bị đình chỉ hoặc hạn chế và xác minh bổ sung có thể được yêu cầu khi cần thiết.",
+      "Vì lý do tuân thủ và bảo mật, chúng tôi có quyền chia sẻ các chỉ số liên quan hoặc kết quả kiểm toán với các nhà cung cấp dịch vụ chống gian lận hoặc tuân thủ đáng tin cậy trong các giới hạn hợp lý.",
+      "Vì các mục đích trên, moonpacket có thể, theo quyết định riêng của mình, đình chỉ, trì hoãn, giới hạn hoặc từ chối các chức năng cụ thể và yêu cầu xác minh bổ sung (bao gồm kiểm toán KYC/AML, ID do chính phủ cấp, ảnh tự chụp, hoặc so sánh sinh trắc học) hoặc chia sẻ các chỉ số hoặc kết quả kiểm toán cần thiết với các nhà cung cấp dịch vụ chống gian lận, tuân thủ, thuế, hoặc trừng phạt đáng tin cậy; các hành động đó không cấu thành vi phạm hoặc xâm phạm bởi moonpacket, và moonpacket sẽ không chịu trách nhiệm về bất kỳ thiệt hại, bồi thường hoặc trách nhiệm nào khác."
+    ],
+    "sharing": [
+      "Các nhà cung cấp quy trình hoặc bên thứ ba, bao gồm lưu trữ đám mây, ghi chép và giám sát, phân tích, chống bot và các nhà cung cấp dịch vụ tuân thủ, thực hiện các hoạt động theo các hạn chế tối thiểu và hợp đồng.",
+      "Các đối tác và quản lý cộng đồng sẽ chia sẻ thông tin cần thiết dựa trên các hoạt động cụ thể, lì xì, hoặc các kịch bản quản trị cộng đồng mà bạn tham gia, theo quy tắc hoạt động.",
+      "Chúng tôi sẽ tiết lộ dữ liệu cần thiết cho cơ quan chức năng, tòa án, hoặc những người nắm giữ quyền lợi theo đúng trình tự pháp lý theo yêu cầu của pháp luật hoặc để khẳng định quyền lợi.",
+      "moonpacket có thể giữ lại, phân tích, truyền tải, tiết lộ và cung cấp thông tin cần thiết (bao gồm hồ sơ ngoài chuỗi, chứng cứ trên chuỗi, dữ liệu KYC/AML, hồ sơ nhóm/chat/hoạt động, và hành vi phân phối và rút tiền) cho cơ quan chức năng, tòa án, thực thi pháp luật hoặc các đơn vị thuế, các đơn vị kỷ luật và quy định, hoặc các nhà cung cấp dịch vụ tuân thủ được ủy quyền của họ liên quan đến các đánh giá tuân thủ, kiểm toán KYC/AML, xác minh danh tính (bao gồm ID do chính phủ cấp và so sánh sinh trắc học), chống rửa tiền, chống tài trợ khủng bố, tuân thủ lệnh trừng phạt, tuân thủ thuế, điều tra gian lận, phát hiện lạm dụng, kiểm tra tài chính và theo dõi phân phối và rút tiền, trong phạm vi thương mại hợp lý. Việc xử lý, truyền tải và tiết lộ như vậy không cấu thành một sự vi phạm hoặc sai trái từ moonpacket, và moonpacket không chịu trách nhiệm cho bất kỳ bồi thường, bảo hiểm hoặc trách nhiệm nào khác."
+    ],
+    "crossBorder": [
+      "Dựa trên kiến trúc đám mây của dịch vụ này, mô hình hoạt động toàn cầu, quản lý rủi ro, phòng chống rửa tiền (AML), chống tài trợ khủng bố, tuân thủ các biện pháp trừng phạt, hợp tác thuế, ngăn chặn gian lận, bảo lưu kiểm toán, hỗ trợ khách hàng và nhu cầu bảo trì hệ thống, dữ liệu của bạn (bao gồm dữ liệu cá nhân, dữ liệu sử dụng, hồ sơ Off-chain, kết quả kiểm toán KYC/AML và hồ sơ kiểm soát rủi ro và rút tiền) có thể được xử lý, lưu trữ hoặc truyền tải ra ngoài quyền tài phán của bạn, và có thể được truy cập bởi các đối tác, nhà cung cấp cơ sở hạ tầng đám mây, nhà cung cấp dịch vụ tuân thủ và quản lý rủi ro, hoặc các cơ quan có thẩm quyền/tư pháp/thuế/biện pháp trừng phạt/cơ quan quản lý (hoặc các thực thể được ủy quyền của họ) nếu cần cho các mục đích nêu trên.",
+      "moonpacket sẽ đánh giá nghĩa vụ bảo mật thông tin và tuân thủ của các bên nhận, trong giới hạn hợp lý và cần thiết thương mại, và sẽ giảm thiểu rủi ro truy cập trái phép hoặc lạm dụng thông qua các hợp đồng, biện pháp kỹ thuật và tổ chức; tuy nhiên, bạn hiểu và đồng ý rằng bất kỳ chuyển giao liên quốc gia, lưu trữ đám mây hoặc xử lý bên thứ ba nào có thể bị ảnh hưởng bởi môi trường mạng và quy định, và không thể đảm bảo an ninh hoặc khả năng sẵn có tuyệt đối. Việc xử lý và chuyển giao liên quốc gia nêu trên không cấu thành vi phạm hoặc xâm phạm bởi moonpacket, và moonpacket sẽ không chịu trách nhiệm cho bất kỳ thiệt hại, bồi thường hoặc trách nhiệm nào khác."
+    ],
+    "retention": [
+      "Chúng tôi sẽ giữ lại dữ liệu trong thời gian cần thiết để hoàn thành các mục đích thu thập và giữ lại các hồ sơ cần thiết theo yêu cầu của pháp luật hoặc nghĩa vụ kiểm toán (ví dụ: nhật ký kế toán và tuân thủ).",
+      "Khi mục đích đạt được hoặc thời gian giữ lại hết hạn, chúng tôi sẽ xóa hoặc xử lý dữ liệu theo cách không xác định hóa; dữ liệu trên chuỗi không chịu sự giới hạn này do tính không thể thay đổi của nó.",
+      "Ngay cả khi bạn yêu cầu ngừng hoạt động tài khoản của mình, xóa dữ liệu của bạn hoặc ngừng sử dụng dịch vụ này, moonpacket có thể giữ lại, đóng băng, phân tích hoặc cung cấp dữ liệu đã đề cập như được yêu cầu hoặc cho phép bởi các luật, quy định, thuế, lệnh trừng phạt, chống rửa tiền, chống tài trợ khủng bố, điều tra gian lận, nghĩa vụ kiểm toán, xác thực kế toán, hoặc các nghĩa vụ tuân thủ khác. Việc giữ lại và xử lý này không cấu thành vi phạm hoặc xâm phạm của moonpacket, và moonpacket không chịu trách nhiệm về bất kỳ khoản bồi thường, bồi hoàn hay trách nhiệm nào khác."
+    ],
+    "security": [
+      "Chúng tôi áp dụng các biện pháp kỹ thuật và quản lý hợp lý và tỷ lệ, bao gồm kiểm soát truy cập, mã hóa truyền tải và tĩnh (khi áp dụng), phân tách quyền truy cập, nhật ký kiểm toán, và nguyên tắc truy cập tối thiểu cần thiết.",
+      "Mặc dù moonpacket đã thực hiện các biện pháp kỹ thuật và quản lý để giảm thiểu rủi ro truy cập trái phép, sử dụng, tiết lộ, thay đổi hoặc phá hủy trong phạm vi thương mại hợp lý, bạn hiểu và đồng ý rằng bất kỳ việc truyền, lưu trữ hoặc tích hợp bên thứ ba nào cũng có thể mang theo những rủi ro nhất định. moonpacket không đưa ra bất kỳ đảm bảo rõ ràng hay ngụ ý nào về bảo mật dữ liệu, tính toàn vẹn, tính khả dụng, việc truy cập không bị gián đoạn hoặc can thiệp. Những rủi ro hoặc thiệt hại như vậy không cấu thành một sự vi phạm hoặc sai trái từ moonpacket, và moonpacket không chịu trách nhiệm bồi thường, bảo hiểm hoặc trách nhiệm khác."
+    ],
+    "minors": [
+      "Dịch vụ này không dành cho cá nhân dưới 13 tuổi hoặc dưới ngưỡng vị thành niên theo quy định của khu vực bạn. Nếu bạn là người chưa thành niên, vui lòng sử dụng dịch vụ này với sự đồng ý của người giám hộ hợp pháp của bạn, hoặc không sử dụng dịch vụ này."
+    ],
+    "rights": [
+      "Theo luật áp dụng tại các khu vực khác nhau, bạn có quyền yêu cầu hoặc xem xét dữ liệu cá nhân của mình, yêu cầu bản sao, sửa đổi, hạn chế xử lý, xóa, chuyển đổi dữ liệu, và rút lại sự đồng ý, nhưng không được xung đột với nghĩa vụ pháp lý của moonpacket để giữ lại, đóng băng, phân tích, kiểm toán, hợp tác với các yêu cầu của cơ quan quản lý/tư pháp/thuế/lệnh trừng phạt/cơ quan có thẩm quyền, hoặc KYC/AML/chống tài trợ khủng bố/tuân thủ lệnh trừng phạt/báo cáo thuế/điều tra gian lận/phát hiện lạm dụng, hoặc quyền lợi hợp pháp của moonpacket.",
+      "Nếu bạn muốn thực hiện các quyền đã nêu hoặc nêu ra mối quan tâm về quyền riêng tư, vui lòng liên hệ với moonpacket sử dụng 'Thông tin liên hệ.' Để đảm bảo an toàn, moonpacket có thể yêu cầu bạn hoàn tất xác minh danh tính (bao gồm nhưng không giới hạn đến việc cung cấp thông tin cần thiết cho kiểm toán KYC/AML, giấy tờ do chính phủ cấp, ảnh tự chụp, hoặc kết quả xác minh sinh trắc học) để xác nhận rằng người yêu cầu là chủ thể dữ liệu hoặc đại diện được ủy quyền.",
+      "moonpacket có quyền, theo quyết định riêng, từ chối hoàn toàn hoặc một phần, trì hoãn, hạn chế, hoặc yêu cầu sửa đổi các yêu cầu đó trong phạm vi nghĩa vụ pháp lý hoặc tuân thủ, yêu cầu lợi ích hợp pháp hoặc mục đích quản lý rủi ro; những từ chối, trì hoãn, hạn chế hoặc yêu cầu sửa đổi như vậy không cấu thành vi phạm hoặc xâm phạm của moonpacket, và moonpacket không chịu trách nhiệm về bất kỳ khoản bồi thường, bồi hoàn hoặc trách nhiệm nào khác."
+    ],
+    "faq": [
+      "Tại sao chúng tôi cần thông tin về tuân thủ và kiểm soát rủi ro? Điều này là cần thiết để cung cấp lì xì, ngăn chặn lạm dụng và đảm bảo hoạt động an toàn cũng như tuân thủ các luật hoặc chính sách liên quan.",
+      "Tôi có thể từ chối cung cấp một số thông tin không? Mà không ảnh hưởng đến an toàn dịch vụ và nghĩa vụ pháp lý, bạn có thể chọn tắt các mục không cần thiết, nhưng điều này có thể dẫn đến một số tính năng không khả dụng.",
+      "Dữ liệu blockchain có thể được xóa không? Các bản ghi trên chuỗi là không thể đảo ngược và công khai, và chúng tôi không thể sửa đổi hoặc xóa chúng thay mặt cho bạn."
+    ],
+    "updates": [
+      "Các điều khoản này có thể được cập nhật cùng với các điều chỉnh dịch vụ hoặc thay đổi pháp lý; các thay đổi lớn sẽ được chỉ ra qua tin nhắn nội bộ hoặc thông báo trên trang; phiên bản cập nhật có hiệu lực từ thông báo hoặc ngày hiệu lực được nêu trong điều khoản."
+    ],
+    "contact": [
+      "Nếu bạn có thắc mắc về quyền riêng tư hoặc bảo mật dữ liệu, vui lòng liên hệ với chúng tôi thông qua các phương thức liên hệ trên trang (hộp thư riêng tư/báo cáo bảo mật/hỗ trợ khách hàng); chúng tôi sẽ phản hồi trong khoảng thời gian hợp lý."
+    ],
+    "controller": [
+      "Người kiểm soát dữ liệu: đội ngũ moonpacket (hoạt động nhóm nhỏ).",
+      "Cửa sổ liên hệ (Quyền riêng tư): Vui lòng liên hệ với chúng tôi qua Help_bot quyền riêng tư trong trang 'Phương thức liên hệ'."
+    ],
+    "jurisdictions": [
+      "Chúng tôi tuân thủ các quy định bảo vệ dữ liệu cá nhân áp dụng; nếu có mâu thuẫn trong quy định giữa các khu vực pháp lý khác nhau, chúng tôi sẽ thực hiện các hành động bảo vệ và khả thi hơn cho người dùng, trong các giới hạn do luật pháp quy định.",
+      "Nếu bạn cần thêm quyền hoặc thủ tục cho các khu vực pháp lý cụ thể, vui lòng liên hệ qua các kênh liên lạc và chúng tôi sẽ hỗ trợ trong khả năng hợp lý."
+    ],
+    "dsrProcess": [
+      "Bạn có quyền thực hiện truy vấn, xem xét, yêu cầu bản sao, sửa chữa, xóa bỏ, hạn chế xử lý, di chuyển dữ liệu, và rút lại sự đồng ý liên quan đến dữ liệu cá nhân (theo quy định pháp luật áp dụng và tính khả thi về công nghệ).",
+      "Quy trình: Nộp yêu cầu → Xác minh danh tính → Chấp nhận và đánh giá → Phản hồi trong khoảng thời gian hợp lý (thông thường trong vòng 30 ngày; bất kỳ gia hạn nào sẽ được thông báo riêng).",
+      "Nếu yêu cầu liên quan đến bên thứ ba hoặc dữ liệu không thể đảo ngược trên chuỗi, yêu cầu có thể không được xử lý trực tiếp. Chúng tôi sẽ cung cấp giải thích hoặc giải pháp khả thi.",
+      "Nếu bạn có bất kỳ mối quan tâm nào về kết quả, vui lòng liên hệ với chúng tôi một lần nữa qua các kênh đã cung cấp; bạn cũng có thể nộp đơn khiếu nại với cơ quan chức năng theo luật địa phương (nếu áp dụng)."
+    ],
+    "breach": [
+      "Nếu phát hiện sự cố dữ liệu cá nhân nghi ngờ, chúng tôi sẽ thực hiện các quy trình nội bộ để xử lý theo mức độ và phản ứng khẩn cấp, bao gồm chặn hoặc giảm thiểu, kiểm toán và ghi chép chứng cứ.",
+      "Nếu được yêu cầu theo luật pháp hoặc cần thiết, chúng tôi sẽ thông báo cho cơ quan có thẩm quyền và những người dùng có thể bị ảnh hưởng trong khoảng thời gian hợp lý; nội dung và thời gian thông báo sẽ phụ thuộc vào mức độ sự cố và tiến độ điều tra.",
+      "Chúng tôi sẽ xem xét và cải tiến liên tục các biện pháp kiểm soát và đào tạo nhân sự (trong các nguồn lực có sẵn) sau đó."
+    ],
+    "cookiesDetail": [
+      "Cookie cần thiết: Được sử dụng để duy trì đăng nhập, cài đặt ngôn ngữ, biện pháp chống bot và an ninh; việc tắt có thể ảnh hưởng đến khả năng cung cấp dịch vụ.",
+      "Cookie sở thích/phân tích/tiếp thị: Chỉ được kích hoạt nếu được phép theo quy định hoặc với sự đồng ý của bạn; bạn có thể điều chỉnh hoặc rút lại sở thích bất cứ lúc nào.",
+      "Nếu áp dụng, chúng tôi sẽ cung cấp tùy chọn chọn cookie đơn giản; bạn cũng có thể quản lý hoặc xóa chúng trong cài đặt trình duyệt của bạn."
+    ],
+    "consent": [
+      "Đối với các xử lý không thiết yếu (ví dụ: tiếp thị hoặc theo dõi phân tích cụ thể), chúng tôi sẽ thu thập sự đồng ý trước và cung cấp cách rút lui, khi áp dụng và khả thi theo luật.",
+      "Việc rút lui sự đồng ý không ảnh hưởng đến tính hợp pháp của xử lý trước khi rút lui; một số chức năng có thể bị hạn chế làm kết quả."
+    ],
+    "lawfulMatrix": {
+      "headers": [
+        "Danh mục dữ liệu",
+        "Mục đích xử lý",
+        "Cơ sở pháp lý",
+        "Thời gian lưu giữ"
+      ],
+      "rows": [
+        {
+          "cat": "帳號/身分（Telegram UID、暱稱、語言、群組權限）",
+          "purpose": "提供與維運服務（紅包、權限驗證、防刷）",
+          "basis": "履行契約、合法利益",
+          "retention": "帳號存續期間＋必要稽核留存"
+        },
+        {
+          "cat": "合規資料（KYC/AML 結果）",
+          "purpose": "法遵審查與防詐欺",
+          "basis": "法定義務",
+          "retention": "依法令或監理要求（一般為多年期）"
+        },
+        {
+          "cat": "使用事件與日誌（互動、錯誤、效能）",
+          "purpose": "故障排除、資安與產品優化",
+          "basis": "合法利益",
+          "retention": "依安全與營運需要的合理期限"
+        },
+        {
+          "cat": "交易與雲端錢包摘要",
+          "purpose": "完成紅包/積分/兌換流程",
+          "basis": "履行契約、合法利益",
+          "retention": "目的達成後最小化留存；鏈上紀錄不在此限"
+        },
+        {
+          "cat": "Cookie/本地儲存（必要）",
+          "purpose": "登入狀態、語言、防刷標記",
+          "basis": "履行契約、合法利益",
+          "retention": "依裝置與瀏覽器生命周期"
+        },
+        {
+          "cat": "Cookie/像素（非必要）",
+          "purpose": "偏好/分析/行銷（如啟用）",
+          "basis": "同意",
+          "retention": "依工具供應商政策或您撤回為止"
+        }
+      ]
+    },
+    "automated": [
+      "Dịch vụ này sử dụng phân tích tự động và mô hình kiểm soát rủi ro để phát hiện lạm dụng hoặc hành vi bất thường; nói chung, nó không cấu thành các quyết định tự động hoàn toàn có ảnh hưởng pháp lý đáng kể đến cá nhân.",
+      "Nếu các biện pháp hạn chế được áp dụng do nhu cầu kiểm soát rủi ro tuân thủ hoặc bảo mật (ví dụ: đình chỉ các chức năng), chúng tôi sẽ cung cấp cơ hội kháng nghị và xem xét thủ công tùy theo nguồn lực và bảo mật có thể."
+    ],
+    "subprocessors": {
+      "note": "Chúng tôi có thể hợp tác với các nhà cung cấp phụ thuộc vào hợp đồng (như đám mây, giám sát, chống bot/KYC, email, v.v.); danh sách có thể được cập nhật theo các điều chỉnh dịch vụ, vui lòng tham khảo trang web chính thức để biết thông báo."
+    },
+    "note": [
+      "Lưu ý: Điều khoản này nhằm công khai rõ ràng các phương thức xử lý và bảo vệ dữ liệu. Vì moonpacket là một đội ngũ nhỏ, các biện pháp thực tế sẽ được điều chỉnh dựa trên luật pháp, mức độ rủi ro và khả năng tài nguyên; nếu có bất kỳ quy định bắt buộc nào, luật pháp sẽ được ưu tiên."
+    ],
+    "telegramPermissions": [
+      "Các hoạt động của robot trong nhóm/kanal chỉ được thực hiện trong phạm vi quyền hạn mà bạn đã cấp (ví dụ: đọc, gửi, xóa, ghim thông điệp, tham gia kiểm tra liên kết, v.v., tùy thuộc vào nhu cầu thực tế).",
+      "Nếu các tính năng không khả dụng hoặc hoạt động bất thường do quyền hạn không đủ, hạn chế của nền tảng hoặc cài đặt bên thứ ba, moonpacket không đảm bảo rằng tính năng sẽ hoạt động bình thường."
+    ],
+    "groupDataMinimization": [
+      "Trong các ngữ cảnh nhóm/kênh, chúng tôi chỉ xử lý dữ liệu tối thiểu cần thiết để cung cấp dịch vụ, chẳng hạn như định danh mạng người dùng (UID), hồ sơ tương tác/sự kiện và các chỉ số cần thiết để ngăn chặn lạm dụng; chúng tôi không tích cực thu thập hoặc tạo hồ sơ cá nhân của thành viên trong nhóm.",
+      "Vì mục đích tuân thủ (KYC/AML/các biện pháp trừng phạt) hoặc an ninh, nếu chúng tôi cần mở rộng phạm vi xử lý, chúng tôi sẽ tuân thủ các nguyên tắc tối thiểu hóa và không nhận diện, theo yêu cầu của pháp luật."
+    ],
+    "analytics": [
+      "Để đánh giá hiệu suất sản phẩm, ngăn chặn lạm dụng và đánh giá kết quả hoạt động, chúng tôi có thể xử lý dữ liệu sử dụng theo cách không nhận dạng hoặc theo nhóm và giới thiệu các công cụ phân tích/theo dõi bên thứ ba trong các giới hạn hợp lý để giám sát lưu lượng và phân tích nguồn gốc.",
+      "Chúng tôi sẽ không bán dữ liệu cá nhân của bạn; vui lòng tham khảo các giải thích và tùy chọn liên quan đến CPRA và các quy định khác trong thỏa thuận này nếu khu vực pháp lý áp dụng có định nghĩa cụ thể về 'bán/chia sẻ'.",
+      "Khi luật địa phương yêu cầu sự đồng ý trước hoặc cung cấp tùy chọn rút lui, chúng tôi sẽ cung cấp các lựa chọn liên quan trong khả năng cho phép."
+    ],
+    "saleShareStatement": [
+      "Chúng tôi không bán dữ liệu cá nhân của bạn để nhận thù lao; bất kỳ công nghệ phân tích và quảng cáo bên thứ ba nào sẽ chỉ được xử lý ở dạng không xác định hóa hoặc tổng hợp khi được pháp luật cho phép hoặc khi có sự đồng ý cần thiết."
+    ]
+  },
+  "terms": {
+    "version": "v1.0.0",
+    "updated": "tự động",
+    "version_label": "Phiên bản",
+    "updated_label": "Cập nhật",
+    "owner_label": "Chủ sở hữu",
+    "appendix_title": "Phụ lục | Định nghĩa và Giải thích",
+    "notice": {
+      "disclaimer_binding": "Các điều khoản dưới đây được cung cấp dưới dạng phiên bản dịch chỉ để tham khảo; phiên bản chính thức có tính pháp lý ràng buộc là phiên bản gốc bằng tiếng Anh. Trong trường hợp có sự khác biệt giữa các phiên bản ngôn ngữ và phiên bản tiếng Anh, phiên bản tiếng Anh sẽ được ưu tiên."
+    },
+    "owner": "Đội ngũ moonpacket (sau đây được gọi là 'moonpacket') là một thương hiệu và tên dịch vụ cung cấp các tính năng tương tác trực tuyến thử nghiệm và công cụ phát triển marketing/cộng đồng. moonpacket không phải là ngân hàng, tổ chức ủy thác, tổ chức lưu ký, sàn giao dịch, cố vấn đầu tư, môi giới, hoặc bất kỳ tổ chức tài chính nào được quản lý; trừ khi được pháp luật yêu cầu, moonpacket không có nghĩa vụ fiducial, nghĩa vụ ủy thác, nghĩa vụ lưu giữ tài sản hoặc đảm bảo lợi suất cho người dùng.",
+    "intro": [
+      "Các Điều Khoản Người Dùng này (sau đây gọi là “các Điều Khoản này”) tạo thành một thỏa thuận hợp pháp ràng buộc giữa bạn (sau đây gọi là “bạn” hoặc “Người Dùng”) và moonpacket (sau đây gọi là “moonpacket,” “dịch vụ này,” hoặc “chúng tôi”) liên quan đến quyền truy cập hoặc sử dụng các dịch vụ do moonpacket cung cấp.",
+      "Dịch vụ này bao gồm, nhưng không giới hạn ở: các trang web, ứng dụng tải xuống, Telegram Mini App, bot, ví điện toán đám mây, các mô-đun phân phối lì xì/phần thưởng, giao diện quản lý sự kiện, và các chức năng thống kê/xếp hạng liên quan (sau đây được gọi chung là “dịch vụ này”).",
+      "Bằng cách nhấn vào các nút như “Bắt đầu,” “Đồng ý,” “Gửi,” hoặc các hành động đồng ý tương tự trên giao diện, hoặc bằng cách thực sự bắt đầu sử dụng dịch vụ này, bạn được coi là đã đọc, hiểu, và đồng ý không thể hủy bỏ để bị ràng buộc bởi tất cả các nội dung trong các Điều Khoản này; nếu bạn không đồng ý, vui lòng ngay lập tức ngừng sử dụng dịch vụ này.",
+      "Các hoạt động cụ thể, hộ nghị khuyến mãi, hoặc chương trình doanh nghiệp có thể cung cấp các điều khoản hoặc quy tắc hoạt động bổ sung; các điều khoản bổ sung này được coi là một phần của các Điều Khoản này; trong trường hợp có sự xung đột với các Điều Khoản này, các điều khoản bổ sung sẽ được ưu tiên trong phạm vi hoạt động cụ thể, trong khi phần còn lại sẽ tiếp tục được điều chỉnh bởi các Điều Khoản này.",
+      "Các Điều Khoản này có thể được cung cấp bằng nhiều ngôn ngữ để tiện cho việc đọc. Trong trường hợp có bất kỳ sự không nhất quán hoặc xung đột nào giữa bất kỳ phiên bản dịch nào và phiên bản tiếng Anh liên quan đến nội dung, diễn giải, hoặc hiệu ứng, phiên bản tiếng Anh sẽ được ưu tiên và được coi là phiên bản hợp lệ cuối cùng; các phiên bản ngôn ngữ khác sẽ không được xem là tạo ra trách nhiệm bổ sung cho moonpacket.",
+      "Bạn xác nhận và cam kết rằng quyết định của bạn khi sử dụng dịch vụ này không dựa trên bất kỳ lời hứa nào về 'lợi nhuận đảm bảo,' 'khôi phục vốn,' 'chia sẻ lợi nhuận,' 'lời khuyên đầu tư,' hoặc các cam kết bồi hoàn khác; moonpacket không có và sẽ không cung cấp bất kỳ đảm bảo hoặc cam kết hợp pháp nào về bất kỳ thu nhập, phần thưởng, giá cả, xếp hạng, hoặc giá trị có thể đổi nào trong tương lai."
+    ],
+    "definitions": [
+      "Người gửi lì xì hoặc 'người khởi xướng' đề cập đến những người tạo, tài trợ hoặc phân phối lì xì/phần thưởng/cổ tức trong dịch vụ này, bao gồm cả người dùng cá nhân, quản trị viên nhóm, các bên dự án hoặc đại diện của họ.",
+      "Người nhận lì xì hoặc 'người tham gia' đề cập đến những người tương tác theo quy tắc hoạt động, hoàn thành nhiệm vụ, hoặc cố gắng nhận/đã nhận lì xì hoặc phần thưởng.",
+      "Hoạt động' đề cập đến cơ chế phân phối do người khởi xướng thiết lập, bao gồm nhưng không giới hạn ở phân phối đồng đều, ngẫu nhiên 'may mắn', mở khóa nhiệm vụ chỉ định, chộp mật khẩu, chộp theo thời gian, phân phối theo hạn chế chỉ tiêu/thời gian, v.v.",
+      "Hồ sơ ngoại tuyến' đề cập đến kế toán nội bộ, chỉ số số dư và chỉ số quyền sở hữu trong hệ thống moonpacket (ví dụ: 'chưa phân phối', 'đã phân bổ', 'có sẵn để rút tiền'). Hồ sơ ngoại tuyến hoàn toàn là các chỉ số cấp hệ thống và không phản ánh việc chuyển giao tài sản theo thời gian thực trên blockchain, cũng như không cấu thành bằng chứng pháp lý cuối cùng về quyền sở hữu tài sản; các giao dịch trên chuỗi thực tế sẽ được ưu tiên.",
+      "Ví đám mây' đề cập đến một ví bảo quản hoặc bán bảo quản/quá trình bảo quản tài sản do moonpacket hoặc các đối tác của nó cung cấp để nhận tài sản nạp tiền, chỉ ra số dư có thể phân bổ và hỗ trợ việc rút tiền sau này. Ví đám mây không phải là tài khoản ngân hàng, tài khoản tín thác, tài khoản gửi tiền, cũng như các đối tượng bảo hiểm, và không cung cấp bất kỳ đảm bảo bảo toàn vốn nào.",
+      "Phí' đề cập đến chi phí của các tài nguyên mạng cần thiết cho các giao dịch blockchain (như phí gas), chi phí dịch vụ bên thứ ba hoặc chi phí kênh thanh toán, và (nếu có) các phí nền tảng do moonpacket tính cho các dịch vụ hoặc hoạt động cụ thể. Người dùng sẽ chịu phí; một khi đã phát sinh, chúng không được hoàn lại.",
+      "KYC/AML' đề cập đến các quy trình xác minh danh tính (Biết Khách Hàng), chống rửa tiền (Chống Rửa Tiền), chống tài trợ khủng bố, xem xét lệnh trừng phạt, phòng ngừa gian lận, kiểm toán thuế và tuân thủ, v.v."
+    ],
+    "eligibility": [
+      "Bạn tuyên bố và đảm bảo rằng bạn đủ điều kiện hợp pháp và có đầy đủ khả năng sử dụng dịch vụ này trong khu vực của bạn; người chưa thành niên hoặc những cá nhân có năng lực hạn chế phải có sự đồng ý cần thiết theo luật địa phương.",
+      "Dịch vụ này áp dụng mô hình 'thử trước khi bạn cam kết'; tuy nhiên, trước khi bạn yêu cầu rút tiền, chuyển số dư qua các hoạt động, hoặc thực hiện bất kỳ việc xử lý tài sản nào, moonpacket có quyền yêu cầu bạn liên kết email, số điện thoại và địa chỉ ví tiền điện tử, và (nếu áp dụng) hoàn thành xác minh KYC/AML."
+    ],
+    "accounts": [
+      "Nếu bạn từ chối, trì hoãn, hoặc không qua được việc xác minh đã đề cập ở trên, moonpacket có thể, theo quyền quyết định của mình, trì hoãn, hạn chế, hoặc từ chối bất kỳ yêu cầu rút tiền, trả lại, làm tan, hoặc hoàn tiền nào; các trì hoãn, hạn chế, hoặc từ chối này không cấu thành sự vi phạm hợp đồng của moonpacket, và moonpacket không phải chịu bồi thường, bồi hoàn, hoặc trách nhiệm nào khác.",
+      "Bạn phải bảo vệ đúng cách tất cả các yếu tố xác minh như tài khoản Telegram, thông tin xác thực truy cập ví đám mây, token đăng nhập, khóa ký, thiết bị và mật khẩu của bạn. Mọi hệ quả phát sinh từ việc lừa đảo, phần mềm độc hại, cho mượn thiết bị, rò rỉ thông tin xác thực, mật khẩu yếu, hoặc hành động của bên thứ ba có ủy quyền sẽ do bạn chịu trách nhiệm."
+    ],
+    "service": [
+      "Các khả năng mà dịch vụ này cung cấp bao gồm nhưng không giới hạn ở: (a) tạo và tài trợ các hoạt động/lì xì; (b) thiết lập quy tắc hoạt động (tổng số tiền, hạn mức, giới hạn cá nhân, thời hạn hiệu lực, thuật toán phân phối, điều kiện nhiệm vụ, mã truy cập, lịch mở抢 (snatching), v.v.); (c) xác minh liệu các người tham gia có đáp ứng các điều kiện hoạt động hay không; (d) đánh dấu, phân phối, và khóa các khoản có thể giao trong các hồ sơ Off-chain; (e) cho phép các người tham gia đủ điều kiện kích hoạt rút tiền trên chuỗi thực tế khi đổi lấy; (f) tạo bảng xếp hạng, thống kê, và hiển thị hiệu suất.",
+      "Quy trình hoạt động như sau: sau khi người khởi tạo nạp tiền vào địa chỉ moonpacket được chỉ định, số tiền tương đương sẽ được đánh dấu là 'tài sản có sẵn để phân phối trong hoạt động này' trong hồ sơ Off-chain; trong thời gian hoạt động, hệ thống chỉ đánh dấu hoặc chia tách số tiền trong Off-chain mà không đảm bảo việc chuyển tiền trực tiếp, cá nhân, giao dịch trên chuỗi ngay lập tức đến ví của bất cứ cá nhân nào; chỉ khi những người tham gia đủ điều kiện yêu cầu và vượt qua các đánh giá kỹ thuật và tuân thủ thì moonpacket mới kích hoạt các chuyển tiền thực tế trên chuỗi.",
+      "Người dùng đồng ý rõ ràng: Hồ sơ Off-chain chỉ phục vụ cho việc kế toán nội bộ và chỉ báo lãi suất của moonpacket và không đại diện cho quyền sở hữu tài sản hợp pháp cuối cùng; quyền yêu cầu cuối cùng dựa trên các chuyển tiền thực tế đã hoàn thành trên chuỗi."
+    ],
+    "features": [
+      "moonpacket có thể điều chỉnh, tạm ngừng, giới hạn, hoặc chấm dứt một số chức năng hoặc loại hoạt động nhất định bất cứ lúc nào vì lý do an ninh, vận hành hoặc tuân thủ; miễn là sự điều chỉnh dựa trên các yếu tố kỹ thuật, rủi ro, tuân thủ, hoặc thương mại hợp lý, những tình huống đó không cấu thành vi phạm của moonpacket, mà sẽ không phải chịu trách nhiệm bồi thường hoặc các nghĩa vụ khác.",
+      "moonpacket khuyến nghị mạnh mẽ sử dụng dịch vụ này cho các khoản tiền nhỏ nhiều lần; số tiền cho mỗi lần nạp lại hoặc phân phối không nên vượt quá tương đương 100 USDT, và nên tránh tích lũy số lượng lớn tài sản trong hồ sơ Off-chain trong thời gian dài."
+    ],
+    "cloudWallet": [
+      "Khi người phát hành xác nhận các điều kiện sự kiện (tổng số tiền, quy tắc phân phối, thời hạn hiệu lực, và phí, v.v.) trên giao diện và gửi đi, nó cấu thành một hứa hẹn món quà cho những người tham gia không xác định. Hứa hẹn này có hiệu lực ngay khi được gửi đi và có tính chất \"không thể rút lại và không thể đảo ngược\"; người phát hành không thể yêu cầu ngừng lại bằng cách nói \"tôi đã thay đổi ý kiến\" hoặc \"tôi không công nhận một số người tham gia nhất định.\"",
+      "Để thực hiện hứa hẹn món quà đã nói ở trên, moonpacket có thể khóa số tiền tương ứng (khóa tài sản) trong các ghi chép Off-chain và đánh dấu nó là \"đang chờ phân phối.\" Việc khóa này là cần thiết để thực hiện hứa hẹn của người phát hành và không phải là sự tịch thu hoặc chiếm đoạt tùy ý của moonpacket.",
+      "Trong suốt thời gian sự kiện, người phát hành không thể yêu cầu rút tiền sớm của số tiền đã cam kết, cũng không thể yêu cầu tái mục đích tài sản.",
+      "Sau thời hạn sự kiện: (a) Các phần đã được các người tham gia yêu cầu (hoặc đã kích hoạt quy trình rút) cũng như các phí phát sinh cho việc phân phối, không thể được yêu cầu trả lại; (b) Đối với các số dư còn lại chưa được yêu cầu trước thời hạn, moonpacket có thể trả lại số tiền còn lại cho địa chỉ nạp hoặc gửi ban đầu, hoặc địa chỉ ban đầu được coi là hợp lý bởi moonpacket sau khi trừ đi các phí cần thiết, với điều kiện các điều kiện kỹ thuật và tuân thủ cho phép.",
+      "Đối với bất kỳ quy trình nào về việc trả lại, làm tan, rút tiền, hoặc hoàn tiền số dư, moonpacket có thể yêu cầu trước khi hoàn tất KYC/AML; nếu người dùng từ chối, trì hoãn, hoặc không qua được, moonpacket có thể theo quyền quyết định của mình trì hoãn, hạn chế, hoặc từ chối xử lý; các trì hoãn, hạn chế, hoặc từ chối này không cấu thành sự vi phạm hợp đồng của moonpacket, và moonpacket không phải chịu bồi thường, bồi hoàn, hoặc trách nhiệm nào khác.",
+      "Một khi đã ở trên chuỗi, các giao dịch blockchain thường là không thể đảo ngược, có thể xác minh công khai, và không thể thay đổi; moonpacket không thể xóa, rút lại, hoặc \"quay ngược\" các giao dịch đã có trên chuỗi, cũng như không chịu bất kỳ trách nhiệm liên quan nào.",
+      "Bất kỳ giá trị, điểm, số dư, phần thưởng, hoặc các chỉ số khác chưa có trên chuỗi chỉ là các ghi chép tạm thời và chỉ dẫn phân phối trong hệ thống và không đại diện cho việc các tài sản đó được nắm giữ, ủy thác, hoặc bảo vệ bởi moonpacket, cũng không đại diện cho nghĩa vụ giao hàng, nghĩa vụ bảo vệ giá trị, nghĩa vụ lãi suất, hoặc nghĩa vụ bồi thường thiệt hại của moonpacket đối với bạn. moonpacket có thể quyết định trì hoãn, từ chối, hoặc không còn phát hành các giá trị đó dựa trên quản lý rủi ro, KYC/AML, nghĩa vụ trừng phạt, thuế, hoặc các yêu cầu tuân thủ khác; các quyết định này không cấu thành sự vi phạm hợp đồng của moonpacket, và moonpacket không phải chịu bồi thường, bồi hoàn, hoặc trách nhiệm nào khác.",
+      "Để tiết kiệm phí giao dịch on-chain và cung cấp chức năng phân phối theo lô/phân phối lì xì, moonpacket có thể tạm thời ghi lại và hiển thị số dư có thể phân phối của bạn hoặc số tiền đang chờ phân bổ bằng cách sử dụng các giá trị trong cơ sở dữ liệu nội bộ (Off-chain). Các giá trị này chỉ là các chỉ dẫn thuận tiện cho việc thanh toán và phân phối nội bộ trong hệ thống và không cấu thành niềm tin, giữ chỗ, tiền gửi, quản lý tài chính tùy ý, thu phí và thanh toán, quản lý đầu tư, hoặc các hoạt động tài chính khác được quy định. Trừ khi và cho đến khi những giá trị này thực sự có trên chuỗi, thực sự được thanh toán, và có thể xác minh trên chuỗi công khai, moonpacket không có nghĩa vụ hoàn trả, bảo vệ giá trị, hoặc nghĩa vụ lãi suất của chúng, và các giá trị này không được đảm bảo sẽ có thể rút lại vào bất kỳ thời điểm nào, bất kỳ giá nào, hoặc bất kỳ chi phí mạng nào."
+    ],
+    "fees": [
+      "Các quy trình như tạo hoạt động, phân phối, xác minh, rút tiền và chuyển tiền trên chuỗi có thể phát sinh phí xử lý. Các loại phí và tỷ lệ phí sẽ được hiển thị trên giao diện, theo quy tắc hoạt động, trang thanh toán, thỏa thuận hợp tác, hoặc các phương tiện rõ ràng khác.",
+      "Phí xử lý sẽ do người dùng chịu và sẽ bị trừ trong quá trình gửi, phân phối, rút tiền hoặc các hoạt động liên quan; một khi đã phát sinh, chúng sẽ không được hoàn lại. Ngay cả khi moonpacket hỗ trợ hoàn tiền hoặc trả lại số dư do các yếu tố của dịch vụ này, việc hoàn tiền hoặc trả lại chỉ diễn ra bằng đồng tiền gốc về địa chỉ gốc, không bao gồm bất kỳ phí xử lý nào đã phát sinh hoặc phí gas trên chuỗi.",
+      "Nếu người dùng không cung cấp thông tin tuân thủ hợp lý theo yêu cầu của moonpacket (ví dụ: KYC/AML), moonpacket có thể, theo quyết định duy nhất của mình, trì hoãn, giới hạn hoặc từ chối bất kỳ yêu cầu hoàn tiền, trả lại số dư, rút tiền hoặc yêu cầu gỡ bỏ đóng băng nào; những sự trì hoãn, giới hạn, hoặc từ chối đó không cấu thành vi phạm của moonpacket, mà sẽ không phải chịu trách nhiệm bồi thường hoặc các nghĩa vụ khác.",
+      "Khi bạn chọn sử dụng phân phối lì xì cụ thể, phân phối nhóm, phân phối khuyến mãi, hoặc các chức năng tương tự, hệ thống có thể tự động tính toán và hiển thị một tỷ lệ phần trăm nhất định của phí hệ thống (ví dụ: khoảng 2% để thưởng cho moonpacket trong việc duy trì hoạt động dịch vụ), và/hoặc một tỷ lệ phần trăm nhất định của phần thưởng hoạt động cộng đồng (ví dụ: khoảng 3% được trả lại cho các lãnh đạo cộng đồng để hỗ trợ hoạt động cộng đồng). Bằng cách sử dụng các chức năng này, bạn ủy quyền cho hệ thống tính toán và phân bổ những phí này theo các tỷ lệ được hiển thị. Trừ khi bị cấm bởi pháp luật, moonpacket có quyền điều chỉnh những tỷ lệ, điều kiện, hoặc mô hình thưởng này trong một phạm vi hợp lý mà không cần thông báo thêm."
+    ],
+    "rules": [
+      "Người khởi xướng có nghĩa vụ thiết lập quy tắc hoạt động một cách trung thực và rõ ràng (bao gồm tổng số, hạn mức, giới hạn cá nhân, thời hạn hiệu lực, các hạn chế có điều kiện, thuật toán phân phối, v.v.), và không được thu hút sự tham gia bằng cách sử dụng các phương tiện sai lệch hoặc gây nhầm lẫn.",
+      "moonpacket thực hiện và ghi lại các thuật toán phân phối, xác minh nhiệm vụ, và kết quả giải thưởng trên máy chủ và lưu trữ các dấu vết kiểm toán cần thiết để đối phó với tranh chấp, tuân thủ hoặc điều tra quy định.",
+      "Nếu moonpacket nghi ngờ hợp lý về việc lạm dụng quy mô lớn, spam, tự động抢夺 (snatching), gian lận, rửa tiền, tài trợ khủng bố, chia sẻ lợi nhuận đánh bạc, huy động vốn bất hợp pháp, lách lệnh trừng phạt, hoặc các tình huống rủi ro cao khác, moonpacket có thể ngay lập tức tạm dừng, đóng băng, hoặc điều chỉnh hoạt động và quyết định trả lại số dư chưa được yêu cầu, từ chối phân phối, hoặc cung cấp chi tiết cho các cơ quan quản lý/tư pháp; các hành động như vậy không cấu thành hành vi vi phạm hợp đồng của moonpacket, và moonpacket không chịu trách nhiệm về bất kỳ khoản bồi thường, cứu trợ, hoặc các nghĩa vụ khác."
+    ],
+    "abuse": [
+      "moonpacket rõ ràng tuyên bố: Chúng tôi không có nghĩa vụ, cũng như không thể đảm bảo rằng 'mọi tài khoản đều tương ứng với một người tự nhiên có thể xác minh'. Chúng tôi cũng không thể đảm bảo sự vắng mặt của nhiều tài khoản chia sẻ, một người tự nhiên sở hữu nhiều tài khoản, tài khoản giả hoặc các kịch bản/bot tự động chiếm lĩnh lì xì.",
+      "Người dùng (bao gồm cả người khởi xướng và người tham gia) rõ ràng hiểu và đồng ý: Các tình huống nêu trên có thể ảnh hưởng đến kết quả phân bổ tài sản, thứ tự phân phối hoặc số tiền có sẵn; bất kỳ sự không công bằng, khác biệt hoặc tranh chấp nào do nhiều tài khoản, tài khoản giả, kịch bản, bot hoặc các hoạt động bất thường khác không cấu thành vi phạm hợp đồng của moonpacket, và moonpacket không có trách nhiệm bồi thường, hoàn trả hoặc bất kỳ trách nhiệm nào khác.",
+      "Để duy trì an ninh hệ thống và tuân thủ, moonpacket có thể sử dụng phát hiện tự động, AI/mô hình, danh sách đen/xám, giới hạn tốc độ, nhận dạng thiết bị, đánh giá rủi ro IP/ASN và các cơ chế kiểm soát rủi ro khác trong giới hạn hợp lý, và có thể: (a) phong tỏa, tạm ngưng, chặn hoặc hạn chế việc sử dụng các tài khoản, nhóm, IP, thiết bị hoặc hoạt động cụ thể; (b) yêu cầu thông tin bổ sung hoặc hoàn thành KYC/AML; (c) trì hoãn hoặc từ chối xử lý dịch vụ khách hàng, rút tiền, hoàn tiền hoặc giải phóng; (d) chuyển những tình huống nghi ngờ bất hợp pháp hoặc có rủi ro cao đến cơ quan chức năng hoặc tòa án.",
+      "moonpacket không có nghĩa vụ tiết lộ logic quyết định kiểm soát rủi ro nội bộ, chi tiết kỹ thuật hoặc cơ sở kiểm toán hoàn chỉnh. Bất kỳ hành động nào được thực hiện dựa trên kiểm soát rủi ro, tuân thủ hoặc yêu cầu từ cơ quan quản lý nêu trên không cấu thành vi phạm hợp đồng của moonpacket, và moonpacket không có trách nhiệm bồi thường, hoàn trả hoặc bất kỳ trách nhiệm nào khác.",
+      "Tranh chấp quyền sở hữu tài khoản (ví dụ: yêu cầu 'một tài khoản khác thực sự là của tôi, xin hãy chuyển số dư qua'): moonpacket chỉ công nhận tài khoản gốc, email gốc được liên kết và địa chỉ ví gốc được liên kết như các bên sở hữu hợp pháp; moonpacket không có nghĩa vụ chuyển bất kỳ số dư hồ sơ off-chain nào, quyền rút tiền, hoặc lợi ích nào khác của một tài khoản cụ thể sang một tài khoản/email/wallet khác.",
+      "Nếu một tài khoản không đăng nhập trong mười tám (18) tháng liên tiếp kể từ lần đăng nhập cuối cùng, moonpacket sẽ khóa số dư ghi chép Off-chain chưa rút do các lý do an toàn, tuân thủ và quản lý rủi ro, và sẽ không còn cung cấp hoàn tiền, rút tiền, hoặc bất kỳ hình thức trả lại nào khác. Hành động này không cấu thành sự vi phạm hợp đồng của moonpacket, và moonpacket không phải chịu bồi thường, bồi hoàn, hoặc trách nhiệm nào khác."
+    ],
+    "ip": [
+      "Quyền sở hữu trí tuệ và các quyền khác của dịch vụ này và nội dung của nó (bao gồm nhưng không giới hạn ở: mã, thiết kế, logo, nhãn hiệu, hình ảnh, văn bản, các trình bày thống kê, xếp hạng, tài liệu tiếp thị, tài liệu, và tập hợp dữ liệu) thuộc về moonpacket hoặc các bên cấp phép hợp pháp của nó.",
+      "Bạn không được sao chép, phát sóng, sửa đổi, phân phối, cho thuê, đảo ngược kỹ thuật, hoặc khai thác nội dung đã đề cập ở trên bằng bất kỳ cách nào cho mục đích thương mại hoặc phi thương mại mà không có sự ủy quyền bằng văn bản từ moonpacket.",
+      "Bạn xác nhận rằng bạn đã có được các ủy quyền hoặc quyền hợp pháp cần thiết cho bất kỳ nội dung nào được gửi, tải lên, báo cáo, hoặc cung cấp cho dịch vụ này (ví dụ: tên nhóm, biệt danh, avatar, mô tả, bình luận, kết quả sự kiện, số lượng phân phối, dữ liệu xếp hạng, ảnh chụp minh họa, meme, phản hồi, hồ sơ trò chuyện, v.v., được gọi chung là “Nội dung Người Dùng”)."
+    ],
+    "thirdparty": [
+      "Dịch vụ này có thể tích hợp, dựa vào hoặc liên kết với các bên thứ ba (chẳng hạn như nền tảng Telegram, nút blockchain, nhà cung cấp KYC/AML, kênh thanh toán hoặc trao đổi, hệ thống tác vụ bên ngoài, nhà cung cấp đám mây, v.v.). Những bên thứ ba này hoạt động độc lập và bị ràng buộc bởi các điều khoản, chính sách quyền riêng tư và giới hạn sẵn có của riêng họ.",
+      "moonpacket không đảm bảo sự tồn tại liên tục, kịp thời, chính xác, khả dụng, hợp pháp hoặc an toàn của bất kỳ dịch vụ bên thứ ba nào; cũng không đảm bảo rằng các bên thứ ba này sẽ không chặn, giảm tốc, trì hoãn, thay đổi chính sách hoặc gián đoạn dịch vụ.",
+      "Sự trì hoãn, thất bại, sửa đổi, gián đoạn hoặc sai lệch dữ liệu do các dịch vụ bên thứ ba, kết nối mạng, tắc nghẽn blockchain, thất bại nút, chặn, giảm tốc, thay đổi chính sách, bảo trì hệ thống, hoặc các nguyên nhân khác không phải do moonpacket gây ra không cấu thành vi phạm hợp đồng bởi moonpacket, và moonpacket không chịu trách nhiệm về bất kỳ thiệt hại, bồi thường hoặc trách nhiệm vi phạm hợp đồng nào.",
+      "Nếu thay đổi trong chính sách hoặc môi trường của các bên thứ ba yêu cầu moonpacket điều chỉnh, tạm ngừng hoặc dừng một số chức năng nhất định, moonpacket có thể thông báo hoặc giải thích về việc điều chỉnh trong phạm vi hợp lý, và các điều chỉnh như vậy sẽ có hiệu lực, và moonpacket sẽ không chịu trách nhiệm bồi thường."
+    ],
+    "dataPrivacy": [
+      "moonpacket sẽ thu thập, sử dụng, giữ lại, xử lý và chia sẻ dữ liệu của bạn theo Chính sách Bảo mật.",
+      "Vì bản chất công khai, không thể đảo ngược và có thể theo dõi của dữ liệu blockchain, một số thông tin có thể được tái tạo hoặc liên kết với danh tính hoặc địa chỉ ví của bạn bởi bên thứ ba; bạn nên hiểu và chấp nhận rủi ro công khai này.",
+      "Bạn đồng ý rằng moonpacket có thể, trong phạm vi hợp lý, giữ lại, xem xét, phân tích, đóng băng và cung cấp thông tin cần thiết (bao gồm nhưng không giới hạn ở hồ sơ ngoại tuyến, chứng cứ trên chuỗi, dữ liệu KYC/AML, nhật ký nhóm/chat/hoạt động, hành động phân phối và rút tiền) cho các cơ quan đã nêu hoặc các thực thể được ủy quyền của họ, dựa trên các yêu cầu chống gian lận, chống rửa tiền, chống tài trợ khủng bố, tuân thủ lệnh trừng phạt, báo cáo thuế, kiểm toán tuân thủ, hoặc yêu cầu hợp pháp từ các cơ quan có thẩm quyền/tư pháp.",
+      "Sự hợp tác của moonpacket với các cơ quan quản lý hoặc tư pháp là cần thiết theo luật hoặc sự tuân thủ và không cấu thành một sự vi phạm hoặc xâm phạm đối với bạn; moonpacket sẽ không chịu trách nhiệm về bất kỳ thiệt hại hoặc chi phí nào phát sinh từ các hành động hợp tác như vậy."
+    ],
+    "risk": [
+      "Bạn xác nhận và đồng ý rằng tiền mã hóa, mạng blockchain, và các cơ chế phân phối tương tác thời gian thực mang lại độ không chắc chắn và rủi ro kỹ thuật cao, bao gồm nhưng không giới hạn ở biến động giá, sự cố giao thức hoặc nút, phân nhánh, hồi phục, tấn công ác ý, từ chối dịch vụ, tắc nghẽn mạng, chặn, hạn chế, lỗ hổng hợp đồng thông minh, thay đổi API bên thứ ba, thay đổi chính sách quy định, hoặc độ trễ dữ liệu.",
+      "Các giao dịch blockchain nói chung không thể đảo ngược sau khi được gửi và xác nhận trên chuỗi; bất kỳ sự chậm trễ, lỗi hoặc sai lệch nào do tính không đảo ngược, tắc nghẽn mạng, sự bất thường của nút, hoặc hạn chế bên thứ ba sẽ do bạn chịu.",
+      "Các hồ sơ off-chain chỉ nhằm mục đích thể hiện lợi ích của hệ thống nội bộ; quyền mà bạn có thể tuyên bố cuối cùng sẽ dựa trên các chuyển nhượng trên chuỗi thực tế đã hoàn thành. Trước khi lên chuỗi, tài sản có thể chưa được gán cho một cá nhân tự nhiên nhận diện duy nhất và có thể phải tuân theo các quy tắc tham gia, KYC/AML, các biện pháp đông băng, hoặc xem xét tuân thủ.",
+      "moonpacket không phải là một ngân hàng, không phải là một tổ chức thanh toán được quản lý, không phải là một cố vấn đầu tư, không phải là một nhà quản lý tài sản, không phải là một công ty bảo hiểm. moonpacket không cung cấp tư vấn đầu tư, thuế, pháp lý, hoặc tuân thủ; tính hợp pháp giữa các quốc gia hoặc khu vực, nghĩa vụ báo cáo thuế, và nghĩa vụ tuân thủ lệnh trừng phạt là trách nhiệm duy nhất của bạn để đánh giá và thực hiện. Nếu bạn có bất kỳ lo ngại nào về tuân thủ, xin vui lòng không sử dụng dịch vụ này.",
+      "Để giảm rủi ro, moonpacket khuyến nghị sử dụng số tiền nhỏ nhiều lần (mỗi lần giao dịch không vượt quá tương đương 100 USDT) và tránh lưu trữ dài hạn tài sản lớn trong các hồ sơ Off-chain.",
+      "Bạn hiểu và đồng ý: moonpacket không phải là ngân hàng, người ủy thác, đại lý, sàn giao dịch hoặc trung gian thanh toán, nhà quản lý tài sản, cố vấn đầu tư, môi giới hoặc người giữ; moonpacket không có nghĩa vụ (và rõ ràng từ chối bất kỳ nghĩa vụ nào) để bảo quản, quản lý, gia tăng, đầu tư, trao đổi, chuyển đổi, bảo vệ hoặc duy trì bất kỳ giá trị, token, tài sản hoặc lợi ích nào cho bạn.",
+      "Bạn hiểu và đồng ý rằng khi bạn chuyển bất kỳ tài sản tiền mã hóa hoặc token nào từ ví hoặc tài khoản của bạn vào dịch vụ này, giao dịch trên chuỗi có thể phát sinh phí mạng không thể đảo ngược, phí gas, phí thợ đào, hoặc các chi phí tương tự khác; do đó, số tiền ròng cuối cùng mà hệ thống ghi nhận và xem như 'được tín dụng' có thể ít hơn số tiền danh nghĩa mà bạn đã nhập hoặc hiển thị trên giao diện của người gửi. Sự khác biệt này do mạng và hạ tầng trên chuỗi liên quan tính phí và không do moonpacket thu; moonpacket chỉ ghi nhận và ghi lại số tiền ròng thực tế được tín dụng thành công, đây sẽ là cơ sở duy nhất cho các hồ sơ và thanh toán nội bộ sau đó, và không cấu thành bất kỳ sự khác biệt nào khác mà moonpacket phải trả cho bạn."
+    ],
+    "disclaimer": [
+      "Dịch vụ này được cung cấp trên cơ sở 'như có' và 'như có sẵn'. Trong phạm vi tối đa theo quy định của pháp luật, moonpacket không đưa ra bất kỳ bảo đảm, tuyên bố, hoặc cam kết nào về dịch vụ này hoặc bất kỳ phần nào của nó (bao gồm khả năng có sẵn ngay lập tức, độ chính xác, hoạt động không bị gián đoạn, hiệu suất không có lỗi, tính phù hợp cho một mục đích cụ thể, tính hợp pháp, sự tuân thủ, an ninh, hoặc không bị can thiệp).",
+      "moonpacket không đảm bảo về sự chậm trễ, lỗi, gián đoạn, chặn, hoặc thay đổi chính sách do hoặc liên quan đến bất kỳ dịch vụ bên thứ ba nào (như nền tảng Telegram, nút blockchain, nhà cung cấp KYC/AML, kênh thanh toán hoặc trao đổi, hệ thống nhiệm vụ bên ngoài, nhà cung cấp đám mây, v.v.), cũng như không chịu trách nhiệm về tính áp dụng, hợp pháp, kịp thời, có sẵn, hoặc an ninh của chúng.",
+      "moonpacket không đưa ra bất kỳ bảo đảm, cam kết, hoặc cam kết nào về phản hồi cụ thể, bảng xếp hạng, tỷ lệ giảm, tỷ lệ phân bổ, số lượng phân phối, số lượng gửi, xác suất thắng, đủ điều kiện airdrop, khả năng trao đổi tài sản, khả năng rút tiền cuối cùng, hoặc giá trị thị trường; bất kỳ số liệu, tỷ lệ phần trăm, ước tính, mô phỏng, bảng xếp hạng, kích thước quỹ phần thưởng, hoặc mô tả 'phần thưởng có sẵn' nào được hiển thị trong giao diện hoặc thông báo chỉ là để tham khảo và không cấu thành bảo đảm hoặc quyền hợp pháp có thể thi hành được cho bạn.",
+      "Bạn hiểu và chấp nhận rằng dịch vụ này là một cơ chế phân phối tương tác/phân phối lì xì có tính chất internet. Mặc dù moonpacket có thể cố gắng phát hiện một cách hợp lý việc lạm dụng tự động, tài khoản trùng lặp, chuyển đổi danh tính, hoặc các hành vi không công bằng khác, moonpacket không đảm bảo và không thể đảm bảo: (a) rằng mỗi tài khoản tương ứng với một người tự nhiên độc nhất; (b) rằng mỗi người nhận đáp ứng đánh giá chủ quan của bạn về 'những người nhận có quyền'; hoặc (c) rằng bất kỳ kết quả phân bổ nào đáp ứng cảm giác công bằng hoặc kỳ vọng kinh tế cá nhân của bạn. moonpacket không có nghĩa vụ bồi thường, phân phối lại, thu hồi, hoặc lấy lại tài sản từ bạn do yêu cầu của bạn về 'người khác có nhiều tài khoản chộp lì xì/robot chộp lì xì,' ngoại trừ khi được yêu cầu bởi pháp luật.",
+      "Khi bạn yêu cầu rút tiền, chuyển khoản, hoặc bất kỳ giá trị nào trên chuỗi, bạn có thể phải chịu thêm phí trên chuỗi, phí gas, phí thợ đào, hoặc các chi phí mạng khác trên ví của bạn hoặc mạng đã chỉ định. Những chi phí này có thể vượt quá đáng kể số tiền danh nghĩa mà bạn cố gắng rút trong thời gian tắc nghẽn mạng cụ thể. Những chi phí này được xác định bởi sự đánh giá kinh tế và rủi ro của chính bạn, và không phải là phí dịch vụ hoặc hoa hồng của moonpacket; ngoại trừ khi được yêu cầu bởi pháp luật, moonpacket không có nghĩa vụ gánh chịu, ứng trước, trợ cấp, giảm giá, tối ưu hóa, hoặc hoàn lại những chi phí này, cũng như không có bất kỳ nghĩa vụ nào để đảm bảo rằng những chi phí này là 'hợp lý' so với số tiền rút danh nghĩa mà bạn cố gắng.",
+      "Dịch vụ này được thiết kế để cung cấp một công cụ phân phối tự động được lập trình về mặt kỹ thuật và tương tác, cho phép người dùng phân bổ hoặc cam kết phân phối tài sản của riêng họ cho mục đích gamification hoặc quản lý cộng đồng. Ngoại trừ khi được yêu cầu bởi pháp luật, dịch vụ này không cấu thành (cũng không nên được hiểu là) dịch vụ ngân hàng, gửi tiền, tín thác, bảo quản, đầu tư ủy thác, tư vấn đầu tư, quản lý quỹ, trao đổi ngoại hối, hoặc dịch vụ thanh toán."
+    ],
+    "liability": [
+      "Trong phạm vi tối đa được pháp luật cho phép, moonpacket sẽ không chịu trách nhiệm cho bất kỳ thiệt hại gián tiếp, ngẫu nhiên, đặc biệt, trừng phạt, hệ quả, hoặc phát sinh nào (bao gồm nhưng không giới hạn ở mất lợi nhuận, mất doanh thu, thiệt hại goodwill hoặc uy tín, mất dữ liệu, chi phí cơ hội, thuế hoặc phạt, hoặc lợi ích dự kiến không đạt được) phát sinh từ bất kỳ yêu cầu nào dựa trên hợp đồng, tội lỗi, sự phong phú không công bằng, trách nhiệm nghiêm ngặt, hoặc lý thuyết pháp lý/công bằng khác.",
+      "Các sự cố chậm trễ, thất bại, chức năng hạn chế, sai lệch dữ liệu, hoặc gián đoạn do dịch vụ bên thứ ba, kết nối mạng, tắc nghẽn blockchain, thất bại nút, chặn, giới hạn, thay đổi chính sách, bảo trì hệ thống, hoặc các yếu tố khác không do moonpacket gây ra sẽ không cấu thành vi phạm của moonpacket, và moonpacket sẽ không chịu trách nhiệm cho bất kỳ thiệt hại, bồi thường, hoặc nghĩa vụ nào khác trong những trường hợp như vậy.",
+      "Phí giao dịch, chi phí gas trên chuỗi, phí bên thứ ba, hoặc các chi phí tương tự không được bao gồm trong bất kỳ phạm vi hoàn tiền hoặc bồi thường nào."
+    ],
+    "indemnity": [
+      "Nếu bạn (bao gồm cả người khởi xướng và người tham gia) vi phạm các điều khoản này hoặc bất kỳ luật pháp, quy định trừng phạt, nghĩa vụ thuế, hoặc yêu cầu tuân thủ nào, hoặc xâm phạm quyền của bên thứ ba, hoặc tham gia vào gian lận, rửa tiền, tài trợ khủng bố, lợi nhuận từ cờ bạc, gây quỹ trái phép, thu thập dữ liệu cá nhân không được ủy quyền, phát tán nội dung độc hại, hoặc các hoạt động rủi ro/cấm khác bằng cách sử dụng dịch vụ này, dẫn đến bất kỳ yêu cầu, thiệt hại, phạt, trách nhiệm pháp lý, điều tra, kiện tụng, hoặc chi phí khác (bao gồm phí luật sư hợp lý) chống lại moonpacket và các chi nhánh, giám đốc, nhân viên, đối tác, nhà cung cấp, hoặc các thực thể giám sát tuân thủ/pháp lý của nó, bạn đồng ý bảo vệ, bồi thường, và giữ cho họ vô hại đến mức tối đa được cho phép bởi pháp luật.",
+      "Các nghĩa vụ bồi thường được đề cập ở trên (nếu có) bao gồm, nhưng không giới hạn ở: cuộc điều tra từ cơ quan quản lý, yêu cầu đóng băng hoặc tịch thu từ các cơ quan thuế hoặc tài chính, các thủ tục dân sự hoặc hình sự, hình phạt hành chính, phí luật sư, và chi phí kiện tụng, cũng như các trách nhiệm mà moonpacket phải chịu hoặc bị yêu cầu do hành động của bạn (bao gồm cả bị cáo buộc rửa tiền, gian lận, tài trợ khủng bố, trốn thuế, lẩn tránh trừng phạt, hoặc dịch vụ tài chính không được ủy quyền).",
+      "Bạn đồng ý rằng các nghĩa vụ bồi thường, bù đắp, bảo vệ, và giữ cho vô hại không chỉ áp dụng cho moonpacket mà còn cho các thành viên, quản lý, giám đốc, nhân viên, tư vấn, nhà thầu, nhà phát triển, đối tác vận hành, quản lý cộng đồng, đại lý, người kế nhiệm, người chuyển nhượng của moonpacket và những người kế nhiệm tương ứng của họ (gọi chung là “những người được bồi thường”). Trong phạm vi tối đa được pháp luật cho phép, bạn đồng ý bồi thường cho tất cả những người được bồi thường về bất kỳ yêu cầu, điều tra, đóng băng, tịch thu, phạt, kiện tụng, phán quyết, thỏa thuận, phí luật sư, và các chi phí khác phát sinh từ việc bạn sử dụng dịch vụ này, nguồn hoặc điểm đến của quỹ, hoạt động phân phối lì xì, giao dịch hoặc tranh chấp với các người dùng khác, hoặc việc không tuân thủ bất kỳ luật nào (bao gồm nhưng không giới hạn ở chống rửa tiền, trừng phạt, nghĩa vụ báo cáo thuế và thuế tiêu thụ)."
+    ],
+    "suspension": [
+      "moonpacket có thể, dựa trên an ninh, tuân thủ, quản lý rủi ro hoặc nhu cầu hoạt động, nhanh chóng thực hiện các hành động sau trong phạm vi hợp lý mà không cần thông báo cá nhân: (a) hạn chế, trì hoãn hoặc từ chối cung cấp một phần hoặc toàn bộ dịch vụ; (b) đóng băng, giữ lại, hạn chế, điều chỉnh hoặc dừng tài khoản, số dư, tính năng hoặc rút tiền; (c) chặn các tài khoản, nhóm, địa chỉ IP, thiết bị hoặc hoạt động cụ thể; (d) yêu cầu thông tin bổ sung hoặc hoàn thành KYC/AML. Các biện pháp trên không cấu thành vi phạm hợp đồng của moonpacket, và moonpacket không chịu trách nhiệm về bất kỳ thiệt hại, bồi thường hoặc trách nhiệm nào khác.",
+      "Nếu moonpacket xác định hợp lý có những hoàn cảnh rủi ro cao hoặc bất hợp pháp như gian lận, rửa tiền, tài trợ cho khủng bố, né tránh lệnh trừng phạt, dịch vụ tài chính không được phép, quyên góp bất hợp pháp, chia sẻ lợi nhuận đánh bạc, khai thác sơ hở hoặc làm tổn hại đến sự ổn định của nền tảng, moonpacket có thể tạm ngừng, trì hoãn hoặc từ chối các giao dịch, phân phối, rút tiền, hoàn tiền, mở khóa hoặc xử lý dịch vụ khách hàng, và hợp tác với điều tra hoặc chỉ đạo từ các cơ quan quản lý hoặc tư pháp.",
+      "moonpacket có quyền giữ lại hồ sơ của các tài khoản, chứng cứ giao dịch, dữ liệu KYC/AML và thông tin cần thiết cho các cuộc kiểm toán trong một khoảng thời gian hợp lý. Ngay cả khi bạn yêu cầu xóa tài khoản của mình hoặc ngừng sử dụng dịch vụ, moonpacket vẫn có thể giữ lại dữ liệu đó theo yêu cầu của pháp luật, thuế, kế toán và yêu cầu tuân thủ cho đến khi nghĩa vụ lưu giữ hết hạn trước khi xóa hoặc ẩn danh nó.",
+      "Nếu hồ sơ Off-chain không nhất quán với trạng thái trên chuỗi, moonpacket có thể điều chỉnh hoặc hoàn trả hồ sơ Off-chain để phản ánh những gì moonpacket xác định là trạng thái đúng; tuy nhiên, các giao dịch trên chuỗi không thể bị hủy hoặc hoàn trả.",
+      "Không làm ảnh hưởng đến nội dung chung đã đề cập ở trên, moonpacket có thể từ chối, trì hoãn, vô hiệu hóa, đóng băng hoặc giữ lại vĩnh viễn bất kỳ giá trị/giải thưởng nào được hiển thị là 'đang chờ tín dụng', 'cần kiếm', 'chưa trên chuỗi' hoặc các chỉ định tương tự dựa trên tuân thủ, quản lý rủi ro, gian lận hoặc lo ngại lạm dụng, ngay cả khi bạn đã thấy giá trị đó trong giao diện. Bạn đồng ý rõ ràng và từ bỏ mọi yêu cầu bồi thường, lãi suất, thu nhập, chi phí cơ hội, thiệt hại trừng phạt hoặc các yêu cầu khác liên quan đến những giá trị chưa được thanh toán đó đối với moonpacket, trừ khi luật áp dụng cấm từ chối những yêu cầu như vậy.",
+      "Bạn hiểu và đồng ý rằng một khi bạn gửi (hoặc xác nhận gửi) bất kỳ lì xì, giải thưởng, phân bổ nhóm hoặc các chỉ dẫn phân phối khác trong giao diện, moonpacket sẽ coi việc ủy quyền phân bổ cho các người nhận/nhóm/mọi điều kiện được nêu trong các hướng dẫn đó là không thể đảo ngược và cuối cùng. Ngoại trừ trong các cuộc điều tra về gian lận, lạm dụng, rửa tiền, né tránh trừng phạt, trốn thuế hoặc các vấn đề tuân thủ khác, moonpacket không có nghĩa vụ phải cung cấp cơ chế cho 'hoàn lại', 'hoàn tiền', 'hủy bỏ', 'khôi phục', hoặc các hành động tương tự, cũng như không có nghĩa vụ phải lấy lại những giá trị đó thay mặt bạn từ các người dùng khác khi việc phân phối đã hoàn tất; những hành động đó không cấu thành vi phạm bởi moonpacket, và moonpacket không chịu trách nhiệm về bất kỳ tổn thất, bồi thường hoặc trách nhiệm nào khác.",
+      "Trong trường hợp các luật áp dụng, quy định về rửa tiền, trừng phạt, báo cáo thuế, điều tra gian lận hoặc cảnh báo rủi ro cao, moonpacket có thể yêu cầu bạn hoàn thành xác minh danh tính (bao gồm nhưng không giới hạn ở CMND do chính phủ cấp, ảnh tự chụp, so sánh khuôn mặt hoặc các so sánh sinh trắc học khác, v.v.) và có thể yêu cầu tài liệu bổ sung hoặc xác minh thêm nếu cần thiết. Nếu bạn không cung cấp thông tin yêu cầu trong khoảng thời gian hợp lý, hoặc nếu thông tin cung cấp không vượt qua được kiểm tra xác minh hợp lý, moonpacket có thể, theo quyền quyết định của mình, trì hoãn, hạn chế, từ chối hoặc vĩnh viễn cấm bất kỳ yêu cầu rút tiền, khai thác, trên chuỗi hoặc yêu cầu đổi; những hành động đó không cấu thành vi phạm hợp đồng bởi moonpacket, và moonpacket không chịu trách nhiệm về bất kỳ thiệt hại, bồi thường hoặc trách nhiệm nào khác, và bạn từ bỏ mãi mãi mọi yêu cầu về thiệt hại, lãi suất, hoặc chi phí cơ hội liên quan đến những trì hoãn hoặc cấm này, trừ khi luật pháp cấm điều đó."
+    ],
+    "compliance": [
+      "Bạn đồng ý rõ ràng rằng moonpacket có thể, theo nghĩa vụ tuân thủ của mình, các quy định chống rửa tiền/tài trợ khủng bố, lệnh trừng phạt, nghĩa vụ thuế, hoặc các yêu cầu pháp lý từ các cơ quan giám sát/tư pháp, giữ lại, khóa, phân tích, và cung cấp thông tin cần thiết (bao gồm ghi chép Off-chain, dấu vết on-chain, dữ liệu KYC/AML, hồ sơ nhóm/chat/sự kiện, hành vi phân phối và rút tiền) cho các đơn vị có thẩm quyền hoặc các nhà cung cấp tuân thủ được bổ nhiệm của họ.",
+      "Sự hợp tác như vậy không cấu thành sự vi phạm hợp đồng hoặc xâm phạm của moonpacket, và moonpacket không phải chịu bồi thường, bồi hoàn, hoặc trách nhiệm nào khác."
+    ],
+    "forceMajeure": [
+      "Trong trường hợp thiên tai, chiến tranh, bạo loạn, lệnh của chính phủ, trừng phạt, luật pháp hoặc yêu cầu quy định mới, mất điện, gián đoạn thông tin hoặc mạng, sự cố hạ tầng của nhà cung cấp hoặc đám mây, sự cố lớp giao thức blockchain, tấn công độc hại, dịch bệnh, tranh chấp lao động, hoặc các nguyên nhân khác không thể quy trách nhiệm cho moonpacket, dẫn đến việc một hoặc hai bên không hoàn thành hoặc hoàn thành một phần nghĩa vụ theo các điều khoản này, bên bị ảnh hưởng có thể yêu cầu miễn trách nhiệm cho những sự trì hoãn hoặc không thực hiện đó; tuy nhiên, bên đó vẫn phải nỗ lực hợp lý để giảm thiểu tác động và khôi phục càng sớm càng tốt."
+    ],
+    "highRisk": [
+      "Cấm sử dụng dịch vụ này bao gồm bất kỳ mục đích nào bất hợp pháp, rủi ro cao, hoặc bị trừng phạt, bao gồm nhưng không giới hạn đến lừa đảo, rửa tiền, tài trợ khủng bố, lợi nhuận từ đánh bạc, huy động vốn bất hợp pháp, dịch vụ tài chính không được phép, lẩn tránh trừng phạt, hoặc bất kỳ hành vi nào bị quy định cấm khác.",
+      "Người khởi xướng nên xác nhận quyền tài phán hoặc lĩnh vực pháp lý áp dụng liên quan đến phân phối lì xì, phần thưởng, quỹ khuyến mãi, airdrop, chia sẻ lợi nhuận, hoặc các phân phối tương tự, và đảm bảo rằng những điều này không cấu thành gây quỹ trái phép, dịch vụ tài chính không được ủy quyền, lợi nhuận từ cá cược bất hợp pháp, hoặc các hoạt động yêu cầu báo cáo/giấy phép khác.",
+      "Người tham gia nên xác nhận rằng việc nhận, nắm giữ, rút tiền hoặc chuyển nhượng tài sản tuân thủ các quy định pháp luật áp dụng tại địa phương của họ, và không liên quan đến thu nhập bất hợp pháp, vi phạm quy định trừng phạt, nghĩa vụ báo cáo thuế, hoặc các hạn chế quản lý khác.",
+      "moonpacket không cung cấp bất kỳ đảm bảo pháp lý nào liên quan đến tính hợp pháp của việc sử dụng dịch vụ này xuyên biên giới hoặc qua các quyền tài phán, và cũng không đảm bảo rằng bạn có thể sử dụng dịch vụ này một cách hợp pháp tại bất kỳ khu vực cụ thể nào.",
+      "Bạn đại diện và cam kết rằng bạn không bị áp dụng các biện pháp trừng phạt quốc tế, kiểm soát xuất khẩu, biện pháp chống khủng bố, hoặc các hạn chế tương tự, và không sử dụng dịch vụ này thay mặt cho các thực thể như vậy. Bạn không được sử dụng dịch vụ này để hỗ trợ, tạo điều kiện, hoặc cố gắng lẩn tránh bất kỳ lệnh trừng phạt, đóng băng, tịch thu, confiscations, kiểm tra thuế, hành động thực thi pháp luật, hoặc quy trình tư pháp nào. moonpacket có quyền từ chối, giới hạn, hoặc chấm dứt toàn bộ hoặc một phần dịch vụ, hoặc hoãn, hạn chế, hoặc từ chối bất kỳ yêu cầu rút tiền, chuyển nhượng, hoặc đổi nào mà không cần thông báo trước; những hành động này không cấu thành vi phạm của moonpacket, và moonpacket sẽ không chịu trách nhiệm cho bất kỳ thiệt hại, bồi thường, hoặc nghĩa vụ nào khác."
+    ],
+    "tax": [
+      "Bạn có trách nhiệm xử lý mọi nghĩa vụ thuế, khai báo, thanh toán và chi phí liên quan phát sinh từ việc sử dụng dịch vụ này theo quy định của pháp luật; moonpacket không cung cấp tư vấn thuế, cũng như không chịu trách nhiệm về khai báo hoặc giữ lại thanh toán, trừ khi pháp luật yêu cầu."
+    ],
+    "accuracy": [
+      "Các bảng xếp hạng, thống kê, kết quả sự kiện, mẹo, hoặc thông tin bảng điều khiển do dịch vụ này cung cấp có thể khác với trạng thái thực tế do sự chậm trễ đồng bộ hóa, phụ thuộc vào bên thứ ba, hạn chế tạm thời, hoặc bảo trì hệ thống; mọi thứ vẫn phải tuân theo kết quả giao dịch on-chain thực tế hoặc hồ sơ thanh toán cuối cùng trong moonpacket.",
+      "moonpacket có thể sửa chữa bất kỳ lỗi rõ ràng nào, sự cố hệ thống, hoặc kết quả rõ ràng không công bằng trong hiển thị, và có thể khôi phục ghi chép Off-chain trong một phạm vi hợp lý để phù hợp với trạng thái chính xác mà moonpacket xác định một cách hợp lý; tuy nhiên, các giao dịch on-chain không thể bị hủy bỏ hoặc đảo ngược."
+    ],
+    "law": [
+      "Các Điều Khoản này, cũng như tất cả các mối quan hệ giữa bạn và moonpacket phát sinh từ hoặc liên quan đến dịch vụ này (bao gồm nhưng không giới hạn ở phân phối hoạt động, xử lý tài sản, cơ chế xếp hạng/phần thưởng, đóng băng/tạm ngưng tài khoản, ngừng hoặc chấm dứt dịch vụ, điều chỉnh hồ sơ ngoài chuỗi, lưu giữ dữ liệu, hợp tác với cơ quan thực thi pháp luật, bất kỳ thông báo, tuyên bố, tiếp thị, can thiệp hỗ trợ khách hàng, v.v.), sẽ được điều chỉnh bởi luật pháp Nhật Bản mà không xét đến nguyên tắc luật pháp quốc tế tư nhân hoặc xung đột luật pháp."
+    ],
+    "disputes": [
+      "Mọi tranh chấp, mâu thuẫn, yêu cầu, vụ kiện, biện pháp khắc phục, hoặc tiến trình phát sinh từ hoặc liên quan đến dịch vụ này hoặc những điều khoản này sẽ được đệ trình độc quyền tới Tòa án Quận Tokyo làm tòa án cấp đầu tiên. Bạn từ bỏ vĩnh viễn bất kỳ quyền nào để yêu cầu quyền tài phán của bất kỳ tòa án, cơ quan trọng tài, hoặc khu vực tư pháp nào khác có thể thuận tiện hoặc phù hợp hơn, và không thể yêu cầu moonpacket phải chịu quyền tài phán của tòa án nơi bạn đang ở.",
+      "Bạn đồng ý rằng moonpacket có thể, theo các nghĩa vụ tuân thủ, chống rửa tiền/đối phó với tài trợ khủng bố, lệnh trừng phạt, thuế, hoặc các yêu cầu hợp pháp từ các cơ quan quản lý/tư pháp, giữ lại, đóng băng, phân tích, và cung cấp thông tin cần thiết (bao gồm hồ sơ ngoại tuyến, chứng cứ trên chuỗi, dữ liệu KYC/AML, nhật ký nhóm/chat/hoạt động, hành động phân phối và rút tiền) cho các đơn vị được ủy quyền hoặc các nhà cung cấp tuân thủ ủy quyền của họ; sự hợp tác như vậy không cấu thành sự vi phạm hoặc xâm phạm từ moonpacket, và moonpacket sẽ không phải chịu bất kỳ bồi thường, hoàn trả, hoặc trách nhiệm nào khác cho việc này."
+    ],
+    "contact": [
+      "Đối với các vấn đề liên quan đến thỏa thuận này, vui lòng liên hệ với moonpacket qua bot dịch vụ khách hàng hoặc các kênh liên lạc được hiển thị trong giao diện."
+    ],
+    "changes": [
+      "moonpacket có thể sửa đổi các điều khoản và chính sách liên quan này vào bất kỳ thời điểm nào dựa trên yếu tố kỹ thuật, quản lý rủi ro, tuân thủ, hoặc cân nhắc kinh doanh. Phiên bản sửa đổi sẽ có hiệu lực ngay khi được công bố và sẽ được coi là phiên bản hợp lệ mới nhất. Bằng việc tiếp tục truy cập hoặc sử dụng dịch vụ này sau khi công bố, bạn được coi là đã đồng ý với nội dung đã cập nhật; nếu bạn không đồng ý, biện pháp duy nhất của bạn là ngay lập tức ngừng sử dụng dịch vụ này."
+    ],
+    "serviceChanges": {
+      "title": "Điều chỉnh dịch vụ và cập nhật điều khoản",
+      "body": [
+        "moonpacket có quyền tùy ý sửa đổi, địa phương hóa, điều chỉnh, đình chỉ, hạn chế, cập nhật hoặc chấm dứt toàn bộ hoặc một phần dịch vụ này (bao gồm nhưng không giới hạn ở phương pháp tính toán của lì xì/giải thưởng, thời gian làm mát, điều kiện phân phối, quy tắc bảng xếp hạng, phí xử lý, các tính năng có sẵn, giao diện, APIs, tích hợp plugin, ngưỡng hoạt động, v.v.), và có thể tắt toàn bộ hoặc một phần dịch vụ của mình vào bất kỳ lúc nào; moonpacket không có nghĩa vụ phải duy trì bất kỳ dịch vụ hoặc tính năng cụ thể nào vĩnh viễn.",
+        "moonpacket có thể từ chối hoặc tạm đình chỉ dịch vụ đối với các người dùng hoặc nhóm cụ thể dựa trên quản lý rủi ro, đánh giá tuân thủ, xem xét kỹ thuật hoặc các xem xét kinh doanh, hoặc giới hạn chức năng và quyền hạn của họ (bao gồm việc đóng băng, tạm đình chỉ, chặn, ngăn chặn kết nối hoặc chặn các nhóm trò chuyện hoặc tài khoản cụ thể) mà không cần thông báo cá nhân. Trừ khi được yêu cầu bởi luật pháp, moonpacket không chịu trách nhiệm về bất kỳ tổn thất, thiệt hại hoặc chi phí nào phát sinh từ bất kỳ điều chỉnh, tạm ngừng hoặc từ chối cung cấp dịch vụ này."
+      ]
+    },
+    "userContent": {
+      "title": "Ủy quyền nội dung của người dùng và hiển thị công khai",
+      "body": [
+        "Bạn hiểu và đồng ý: Bất kỳ nội dung, dữ liệu, tên, biệt danh, tên nhóm, ảnh đại diện nhóm, mô tả nhóm, thông tin phòng trò chuyện, dữ liệu bảng xếp hạng, số lượng đóng góp, tổng số tiền lì xì, hồ sơ rút thăm may mắn, tin nhắn, phản hồi, meme, nhãn dán, văn bản hoặc các thông tin khác (gọi chung là 'Nội dung Người dùng') mà bạn cung cấp, tải lên, báo cáo, hoặc bằng cách khác tạo sẵn cho moonpacket trong suốt quá trình sử dụng dịch vụ này có thể được hiển thị, sắp xếp, xếp hạng, tập hợp, công bố, minh họa qua ảnh chụp màn hình, tái sản xuất, phân phối, truyền thông công cộng, hiển thị công khai, thích nghi và sử dụng cho các giải thích tiếp thị và vận hành (ví dụ: giới thiệu các nhóm phổ biến, xếp hạng phân phối lì xì, những người nhận may mắn, đánh giá kết quả sự kiện, v.v.) trong các lĩnh vực nội bộ hoặc công khai của moonpacket.",
+        "Nếu moonpacket có lý do hợp lý để nghi ngờ rằng nội dung của người dùng cụ thể có thể vi phạm luật, xâm phạm quyền của bên thứ ba, liên quan đến gian lận/rửa tiền/tài trợ khủng bố/chia sẻ lợi nhuận từ cờ bạc/gây quỹ bất hợp pháp/thu thập dữ liệu cá nhân trái phép và các hành vi rủi ro cao khác, moonpacket có thể xóa, ẩn, giới hạn hiển thị, gỡ xuống hoặc chặn nội dung đó, và có thể đóng băng, đình chỉ hoặc chấm dứt quyền truy cập vào các tài khoản hoặc nhóm liên quan và có thể cung cấp thông tin cần thiết cho các quản trị viên nhóm, nhà cung cấp nền tảng, cơ quan quản lý hoặc các thực thể tư pháp. moonpacket không chịu trách nhiệm về bất kỳ thiệt hại, mất lợi nhuận, thiệt hại danh tiếng, hoặc các yêu cầu khác phát sinh từ các hành động đó."
+      ]
+    },
+    "liabilityCap": {
+      "title": "Giới hạn Trách nhiệm và Giới hạn Bồi thường",
+      "body": [
+        "Trong phạm vi tối đa được pháp luật cho phép, tổng trách nhiệm của moonpacket đối với bất kỳ yêu cầu, thiệt hại hoặc nghĩa vụ nào phát sinh từ việc bạn sử dụng dịch vụ này sẽ được giới hạn ở (A) tổng mức phí mà bạn đã thanh toán cho moonpacket và được moonpacket xác nhận trong ba mươi (30) ngày qua liên quan đến yêu cầu đó, hoặc (B) tương đương năm mươi (50) đô la, tùy theo mức nào thấp hơn. Giới hạn này là biện pháp khắc phục duy nhất và độc quyền của bạn, ngay cả khi biện pháp đó không bù đắp cho thiệt hại của bạn.",
+        "Giới hạn trên chỉ áp dụng trong phạm vi mà pháp luật yêu cầu moonpacket phải chịu trách nhiệm, và là biện pháp khắc phục duy nhất và độc quyền của bạn; ngoài phạm vi bắt buộc đó, moonpacket không thừa nhận hoặc đảm bảo bất kỳ trách nhiệm nào đối với các tranh chấp hoặc yêu cầu."
+      ]
+    },
+    "governingLaw": {
+      "title": "Luật áp dụng và giải quyết tranh chấp.",
+      "body": [
+        "Các điều khoản này, và tất cả các mối quan hệ phát sinh từ hoặc liên quan đến dịch vụ này giữa bạn và moonpacket, sẽ tuân theo luật pháp của Nhật Bản, và được giải thích tương ứng, nhưng không bao gồm việc áp dụng các nguyên tắc xung đột luật pháp của nó.",
+        "Mọi tranh chấp, yêu cầu, vụ kiện, phương tiện khắc phục, hoặc thủ tục phát sinh từ hoặc liên quan đến dịch vụ này hoặc các điều khoản này sẽ thuộc thẩm quyền độc quyền của Tòa án Quận Tokyo tại Nhật Bản với tư cách là cấp xét xử đầu tiên. Bạn không thể thu hồi quyền yêu cầu rằng bất kỳ tòa án hay quyền tài phán nào khác là thuận tiện hoặc phù hợp hơn và sẽ không đòi hỏi rằng moonpacket chịu sự quản lý của các tòa án địa phương của bạn.",
+        "moonpacket, trong việc tuân thủ các nghĩa vụ, phòng chống rửa tiền/financing khủng bố, trừng phạt, thuế, hoặc các yêu cầu hợp pháp từ chính quyền, có thể lưu giữ, đóng băng, phân tích, và cung cấp thông tin cần thiết (bao gồm hồ sơ Off-chain, chứng cứ trên chuỗi, dữ liệu KYC/AML, hồ sơ nhóm/chat/hoạt động, và các hoạt động phân phối và rút tiền) cho các tổ chức được ủy quyền hoặc nhà cung cấp tuân thủ của họ; các hành động như vậy không cấu thành vi phạm hợp đồng hoặc vi phạm của moonpacket, mà sẽ không phải chịu trách nhiệm về bất kỳ thiệt hại hoặc chi phí nào phát sinh từ những hành động đó.",
+        "Bạn và moonpacket đồng ý rằng không có yêu cầu nào có thể được đưa ra hoặc tham gia thông qua các vụ kiện tập thể, vụ kiện nhóm, hành động tập thể, hành động chung, hoặc các thủ tục tương tự; bạn không thể thu hồi quyền lợi của mình để là nguyên đơn, thành viên, đại diện, hoặc người đại diện trong các thủ tục đó, trừ khi bị pháp luật cấm.",
+        "Nếu bất kỳ điều khoản nào trong các điều khoản này bị coi là không hợp lệ, bất hợp pháp, hoặc không thể thi hành bởi một tòa án có thẩm quyền, các điều khoản còn lại sẽ vẫn tiếp tục có hiệu lực đầy đủ trong phạm vi tối đa được pháp luật cho phép (khả năng tách rời).",
+        "Các điều khoản này hợp thành thỏa thuận hoàn chỉnh giữa bạn và moonpacket về dịch vụ này và thay thế cho bất kỳ thông tin gợi ý nào trước đó bằng lời nói hoặc bằng văn bản, thông báo, mô tả tiếp thị, bài đăng của cộng đồng, các phản hồi hỗ trợ, hoặc cam kết (nếu có) giữa các bên. Trừ khi được moonpacket nêu rõ bằng văn bản, không có tuyên bố, câu hỏi thường gặp, tài liệu tiếp thị, hồ sơ trò chuyện, hoặc giải thích bằng lời nào khác sẽ cấu thành một đảm bảo hoặc bảo đảm ràng buộc moonpacket về mặt pháp lý.",
+        "moonpacket có thể, mà không cần sự đồng ý trước của bạn, chuyển nhượng, ủy quyền, uỷ thác, hoặc theo cách khác để các công ty con, nhà thầu, người được chuyển nhượng, người kế nhiệm hoạt động, hoặc các bên thứ ba khác xử lý hoặc thực hiện toàn bộ hoặc một phần các điều khoản này hoặc quyền lợi và nghĩa vụ của nó, và các bên thứ ba đó có thể tiếp tục, điều chỉnh, hoặc chấm dứt dịch vụ theo các điều kiện tương tự; bạn không được chuyển nhượng hoặc chuyển giao bất kỳ quyền lợi hoặc nghĩa vụ nào theo các điều khoản này mà không có sự đồng ý bằng văn bản trước của moonpacket.",
+        "Trừ khi được luật pháp yêu cầu, việc moonpacket không thực hiện quyền, biện pháp, hoặc yêu cầu nào được cấp bởi các điều khoản này vào bất kỳ thời điểm cụ thể nào, hoặc việc không thực hiện ngay lập tức các quyền đó, sẽ không được coi là từ bỏ quyền đó, cũng không ảnh hưởng đến khả năng của moonpacket để khẳng định hoặc thực hiện quyền đó trong tương lai.",
+        "Các điều khoản có bản chất cần tồn tại sau khi chấm dứt các điều khoản này, bao gồm nhưng không giới hạn các nghĩa vụ liên quan đến phí và khoản phí xử lý, miễn trừ, giới hạn trách nhiệm, mức giới hạn bồi thường, nghĩa vụ thuế, điều khoản sở hữu trí tuệ, các cấm đoán, nghĩa vụ tuân thủ và hợp tác, điều khoản pháp luật và quyền tài phán, cũng như các nghĩa vụ bồi thường áp dụng, sẽ vẫn có hiệu lực và ràng buộc bạn sau khi bạn ngừng sử dụng dịch vụ này hoặc khi chấm dứt các điều khoản này vì bất kỳ lý do nào."
+      ]
+    },
+    "appendix": [
+      "\"Không thể đảo ngược\": Đề cập đến các giao dịch on-chain mà, một khi đã được xác nhận (trên chuỗi), thường không thể hủy bỏ, truy xuất, hoặc xóa, và hồ sơ của chúng có thể được xác minh vĩnh viễn trên các công cụ khám phá blockchain công khai.",
+      "\"Không thể rút lại\": Đề cập đến sự hứa hẹn của món quà dành cho những người tham gia không xác định, có hiệu lực khi người phát hành xác nhận điều kiện phân phối và gửi đi, và không thể bị rút lại, hủy bỏ hoặc yêu cầu ngừng trong suốt sự kiện, cũng không thể yêu cầu trả lại với lý do \"hối tiếc\"; đây là một cấp độ khái niệm khác so với các giao dịch on-chain \"không thể đảo ngược\".",
+      "\"Trong một phạm vi hợp lý\": Đề cập đến các hành động hợp lý thương mại được thực hiện bởi moonpacket để đảm bảo an toàn vận hành, yêu cầu tuân thủ, chống rửa tiền/tài trợ khủng bố, tuân thủ lệnh trừng phạt, tuân thủ thuế, bảo vệ người dùng, hoặc mục tiêu quản lý rủi ro trong khuôn khổ nghĩa vụ pháp lý, quy định và nguồn lực có sẵn, bao gồm nhưng không giới hạn ở: khóa, hạn chế, trì hoãn, điều chỉnh, giữ lại, hợp tác với các cơ quan chức năng, hoặc từ chối cung cấp một số chức năng nhất định."
+    ]
+  }
+}

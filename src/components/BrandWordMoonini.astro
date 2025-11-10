@@ -1,0 +1,14 @@
+---
+interface Props {
+  as?: 'span' | 'h1' | 'h2' | 'h3' | 'p' | 'div';
+  className?: string;
+}
+
+const { as = 'span', className = '' } = Astro.props;
+const Component = as;
+---
+
+<Component class={`brand-mark ${className}`}>
+  moonini
+</Component>
+

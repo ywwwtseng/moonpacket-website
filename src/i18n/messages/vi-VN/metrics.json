@@ -1,0 +1,17 @@
+{
+  "title": "Tổng quan về dữ liệu moonpacket",
+  "subtitle": "Thông kê theo thời gian thực và bảng xếp hạng",
+  "latest": "Mới nhất",
+  "top_groups": "Nhóm phổ biến",
+  "total_sent": "Tổng số tiền đã gửi",
+  "total_claimed": "Tổng số tiền đã yêu cầu (USDT)",
+  "participants": "Số người tham gia",
+  "avg_packet": "Số tiền trung bình mỗi gói",
+  "sort": {
+    "label": "Sắp xếp theo",
+    "latest": "Mới nhất",
+    "oldest": "Cũ nhất",
+    "most": "Người tham gia tối đa",
+    "least": "Người tham gia tối thiểu"
+  }
+}

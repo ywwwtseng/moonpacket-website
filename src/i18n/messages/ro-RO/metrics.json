@@ -1,0 +1,17 @@
+{
+  "title": "moonpacket Prezentare generală",
+  "subtitle": "Statistici în timp real și clasament",
+  "latest": "Ultimul",
+  "top_groups": "Grupuri populare",
+  "total_sent": "Suma totală trimisă",
+  "total_claimed": "Suma totală revendicată (USDT)",
+  "participants": "Numărul participanților",
+  "avg_packet": "Suma medie pe pachet",
+  "sort": {
+    "label": "Sortează după",
+    "latest": "Ultimul",
+    "oldest": "Cel mai vechi",
+    "most": "Participanți maximi",
+    "least": "Participanți minimi"
+  }
+}

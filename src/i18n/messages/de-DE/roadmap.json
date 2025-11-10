@@ -1,0 +1,48 @@
+{
+  "title": "Produktfahrplan",
+  "updated": "Update (Tokens beginnen die Verteilung nach dem Fortschrittsbalken ist voll)",
+  "bucket": {
+    "progress": "Wachstum"
+  },
+  "status": {
+    "shipping": "In Entwicklung",
+    "planned": "Geplant",
+    "research": "In Forschung",
+    "live": "Gestartet"
+  },
+  "accept": "Entwickelte Produkte",
+  "lanes": {
+    "build": "moonini Token",
+    "trust": "KYC/AML, Prüf- und Sicherheitsmechanismen; Abnormale Überprüfung.",
+    "growth": "Wachstum",
+    "token": "moonini-Token"
+  },
+  "progressLabel": "Fortschritt",
+  "phase": {
+    "open-beta": {
+      "title": "Eröffnung der Beta-Phase (Gemeinschaft internes Red Packet)",
+      "desc": "Pilot innerhalb der Community, bedingt offene Community-Integration; Test grundlegender Verteilung/Erlösungen und Benutzererfahrung",
+      "accept": "Klare Regeln, reibungsloses Einlösen, wichtige Trichter sind nutzbar"
+    },
+    "multi-chain": {
+      "title": "Kontinuierliche Optimierung: Multi-Chain + Punkte-Mechanismus + Anti-Bot",
+      "desc": "Erweiterung zur Multi-Chain-Unterstützung über Solana hinaus; Punkteberechnung und Visualisierung; Anti-Bot-Strategie und A/B-Tests",
+      "accept": "Multi-Chain-Asset-Identifikation ist korrekt; Punkte und Risikokontrolle funktionieren normal"
+    },
+    "compliance": {
+      "title": "Risikokontrolle und Compliance",
+      "desc": "KYC/AML, Prüfungen und Sicherheitsmechanismen; Anomalieüberprüfungsprozess.",
+      "accept": "Risikokontrolle und Compliance"
+    },
+    "growth-integration": {
+      "title": "Wachstum: Community-Integration + API/Webhook + Ökosystem-Kollaboration",
+      "desc": "Integrationsleitfaden, Event Webhook, Query API; Partnerintegrationsprozess",
+      "accept": "Integrationsleitfaden genehmigt; Webhook/Query API ist stabil"
+    },
+    "token-moonini": {
+      "title": "Punkte einlösbar für Tokens: moonini",
+      "desc": "Abschluss der moonini Token-Verteilung und Austauschmechanismus",
+      "accept": "Regeln für den Umtausch von Punkten in Token implementiert; Risikokontrolle/Compliance-Checks bestanden"
+    }
+  }
+}

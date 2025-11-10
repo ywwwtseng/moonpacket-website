@@ -1,0 +1,21 @@
+{
+  "sent_from": "發送群：",
+  "claimed": "領取",
+  "total": "總額",
+  "progress": "已領取",
+  "groups_directory": {
+    "latest_tab": "__TODO_TRANSLATE_el-GR__ Latest Groups",
+    "hot_tab": "__TODO_TRANSLATE_el-GR__ Hot Groups",
+    "search_placeholder": "__TODO_TRANSLATE_el-GR__ Search groups..."
+  },
+  "marquee": {
+    "templates": {
+      "send": "__TODO_TRANSLATE_el-GR__ 💰 {user} sent {amount} {ccy} red packet in 《{group}》!",
+      "claim": "__TODO_TRANSLATE_el-GR__ 🎯 {user} claimed {amount} {ccy}, lucky winner!",
+      "topup": "__TODO_TRANSLATE_el-GR__ 🔥 Admin {user} topped up {amount} {ccy}",
+      "system": "__TODO_TRANSLATE_el-GR__ 📢 {message}",
+      "achievement": "__TODO_TRANSLATE_el-GR__ 🥇 Today's luckiest: @{user} (accumulated {amount} {ccy})"
+    },
+    "fallback": "__TODO_TRANSLATE_el-GR__ "
+  }
+}

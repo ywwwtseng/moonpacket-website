@@ -1,0 +1,17 @@
+{
+  "title": "moonpacket Adatáttekintés",
+  "subtitle": "Valós Idejű Statisztikák és Ranglista",
+  "latest": "Legújabb",
+  "top_groups": "Népszerű Csoportok",
+  "total_sent": "Összes Kivéve Költség",
+  "total_claimed": "Igényelt Összeg (USDT)",
+  "participants": "Résztvevők Száma",
+  "avg_packet": "Átlagos Összeg Csomagonként",
+  "sort": {
+    "label": "Rendezés",
+    "latest": "Legújabb",
+    "oldest": "Legidősebb",
+    "most": "Maximum Résztvevők",
+    "least": "Minimum Résztvevők"
+  }
+}

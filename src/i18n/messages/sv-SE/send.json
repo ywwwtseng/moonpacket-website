@@ -1,0 +1,171 @@
+{
+  "title": "",
+  "hero": {
+    "api_demo_label": "API-demo",
+    "api_get": "https://t.me/MoonPackageDevBot",
+    "response_label": "Svar:",
+    "json": "{ \"data\": { \"level\": 100, \"status\": \"active\", \"is_blacklist\": false } } {, \"data\": {, \"level\": 100,, \"status\": \"active\",, \"is_blacklist\": false, }",
+    "title": "Dra till dig nya användare, öka aktiviteten",
+    "lead": "Projektgruppen kan ställa specifika villkor:",
+    "points": {
+      "0": "",
+      "1": "",
+      "2": ""
+    },
+    "note": "Användare som uppfyller villkoren kan hävda red packet",
+    "subtitle": "Skapa ett anpassat red packet-evenemang för ditt community",
+    "desc": "Enkel installation, snabb lansering, aktivera ditt community!",
+    "ctaPrimaryLabel": "Kom igång nu",
+    "ctaPrimaryHref": "https://t.me/MoonPackageDevBot",
+    "ctaSecondaryLabel": "Visa exempel",
+    "ctaSecondaryHref": "/zh-TW/claim/",
+    "api_demo_code": "{\n\"data\": {\n\"level\": {\n\"gt\": 99\n},\n\"status\": {\n\"eq\": \"active\"\n},\n\"is_blacklist\": {\n\"eq\": false\n}\n}\n}",
+    "api_demo_title": "GET [api_url]?api_key=[api_key]&user_id=[user_id]",
+    "use_cases_items": {
+      "0": "Projektgruppen kan ställa uppgiftsvillkor:",
+      "1": "Gå med i gruppen / Följ kanalen",
+      "2": "Korrekt lösenfras",
+      "3": "Projektparti anpassad API",
+      "4": "Endast användare som uppfyller villkoren kan göra anspråk, skicka red packet till värdefulla användare."
+    },
+    "use_cases_title": "Attrahera nya användare・Öka aktiviteten"
+  },
+  "faq": {
+    "section_1": "Kom igång och inställningar.",
+    "q1": "Hur börjar man?",
+    "a1": "Lägg till moonpacket Robot i din Telegram-grupp eller kanal och ställ in den som administratör.",
+    "q2": "Vilka förberedelser krävs innan man skickar?",
+    "a2": "Vänligen sätt in de tillgångar du vill distribuera först (till exempel, sätt in 10 USDT för testning).",
+    "section_2": "2) Skickandeprocess",
+    "q3": "Kan jag välja var jag ska skicka det?",
+    "a3": "Välj de bundna grupperna eller kanalerna i 'Sändningsmål' för att skicka till en eller flera grupper samtidigt.",
+    "tip": "Tips: Att skicka red packets är lämpligt för isbrytande interaktioner. Du kan svara på inlägget om red packet för att förklara temat för spelet du vill organisera.",
+    "section_3": "3) Tekniska frågor",
+    "section_4": "Data och analys",
+    "section_5": "Teknisk support och underhåll",
+    "q4": "Kan allocationsmetoden anpassas?",
+    "a4": "Stöder både slumpmässig distribution och genomsnittlig distributionsläge.",
+    "q5": "Du kan direkt meddela den officiella kundservice-roboten @moonini_helper_bot.",
+    "a5": "Varje API-nyckel kan användas upp till 60 gånger per minut.",
+    "q6": "Hur hanterar man fel?",
+    "a6": "API:t kommer att returnera detaljerade felkoder och felmeddelanden.",
+    "q7": "Hur övervakar man aktivitetens effektivitet?",
+    "a7": "Tillhandahåll realtidsdata-dashboard:",
+    "q8": "Hur beräknas transaktionsavgifter?",
+    "a8": "• Plattformens serviceavgift: 2-5% (justeras baserat på aktivitetsnivå)",
+    "q9": "Hur säkerställer jag fondsäkerhet?",
+    "a9": "• Decentraliserad arkitektur, ingen behov av förvaltade medel",
+    "q10": "Vad ska man göra med återstående medel efter att evenemanget har avslutats?",
+    "a10": "• Oclaimade red packets kommer automatiskt att återföras till din plånbok.",
+    "q11": "Kan flera evenemang hållas samtidigt?",
+    "a11": "Ja, men vi rekommenderar att du:",
+    "q12": "Hur hanterar man användarklagomål?",
+    "a12": "• Tillhandahåller en dedikerad kundtjänstkanal",
+    "q13": "Finns teknisk support tillgänglig?",
+    "a13": "• 24/7 teknisk support",
+    "q14": "Hur optimerar man evenemangets effektivitet?",
+    "a14": "• Justera aktivitetsstrategi baserat på data",
+    "q9_passcode": "Vad är en lösenfrase? I vilka scenarier är den lämplig?",
+    "a9_passcode": "Spelare måste skaffa den hemliga frasen från externa kanaler och återkomma till denna sida för att ange den korrekt för att göra anspråk. Vanliga metoder:",
+    "passcode_scenarios": {
+      "0": "Dela upp den 6-siffriga hemliga frasen i YouTube-långa videor för att uppmuntra till fullständig visning.",
+      "1": "Inlägg på X.com (Twitter) eller Threads som antyder om den hemliga frasen för att förbättra interaktionen.",
+      "2": "Dela endast muntligt den hemliga frasen under liveströmmar för att vägleda närvarande publik.",
+      "3": "Privata/betalda grupper erbjuder exklusiva hemliga fraser för att säkerställa att förmåner ges endast till kärnmedlemmar."
+    },
+    "q10_api": "Kan jag använda mitt eget API för att avgöra deltagarnas berättigande?",
+    "a10_api": "Ja. moonpacket kommer att anropa den angivna läsande API:n för verifiering innan användaren gör ett krav. Ställ bara in api_url och api_key (valfria domäninställningar tillgängliga) i backend.",
+    "api_condition_title": "Villkorsdeklaration (ingen user_id)",
+    "api_response_label": "Återvänd:",
+    "api_operators_label": "Operator:",
+    "api_operators_desc": "eq (kan matcha alla typer), gt/lt/gte/lte (måste vara numeriska)",
+    "api_user_query_title": "Användarfråga (inklusive user_id)",
+    "api_logic_desc": "moonpacket använder 'Villkorsdeklaration' som en tröskel för att jämföra med det faktiska värdet av 'Användarfråga'; om det matchar godkänns det, annars kan det inte göras anspråk.",
+    "api_security_title": "Säkerhetsrekommendationer",
+    "api_security_desc": "Använd skrivskyddade slutpunkter, aktivera api_key och tillåt domänbegränsningar; för tvärdomän är det rekommenderat att använda Cloudflare Workers för transport och hastighetsbegränsning.",
+    "q12_antibot": "Hur förhindrar man fusk och bot-aktiviteter?",
+    "a12_antibot_items": {
+      "0": "Beteendefrekvens och enhets-/IP-detektering",
+      "1": "Konto unikt kopplat till plånbok",
+      "2": "Verifikationskod för uttag",
+      "3": "AI riskkontroll preliminär granskning; kan utföra tredje parts biometrisk autentisering, ansiktsigenkänning och dokumentverifiering om nödvändigt"
+    },
+    "q13_records": "Var kan jag kontrollera registren för mina skickade meddelanden och antalet mottagare?",
+    "a13_records": "Vänligen kontrollera 'Red Packets Jag skickade' på din personliga hemsida för att se antalet krav, kvarvarande belopp och totalt spenderat för varje session; om aktiverat kan rapporter även laddas ner.",
+    "q1_body": {
+      "0": "Detta är ett verktyg för att hjälpa projektteam, gruppägare eller community managers att snabbt distribuera red packets i Telegram-grupper.\nSpecifikt riktat mot distribution av meme coins för att uppmuntra community-medlemmar,\nhuvudanvändningar inkluderar: stimulera aktivitet, attrahera nya medlemmar och genomföra kampanjaktiviteter.\nDu kan använda inte bara dina utfärdade meme coins för att distribuera red packets utan också vanliga tokens som USDT, TRX, SOL och andra.\nGenom moonpacket kan du kräva att användare fullföljer enkla uppgifter och ytterligare konfigurera genom API:et, vilket gör att gruppägare kan 'anpassa distributionsregler' och 'ställa krav för att hämta', verifiera med sitt eget API.",
+      "1": "Tips: Att distribuera moonpacket red packets gör att du kan upptäcka verkligen värdefulla community-medlemmar. Du kan ställa krav för att hämta i varje red packet, vilket ger spelarna olika uppgifter att fullfölja."
+    },
+    "q1_title": "1) Vad är red packet-funktionen för moonpacket?",
+    "q2_body": {
+      "0": "Välkomstmeddelande för nya medlemmar efter att de har gått med (efter att ha uppfyllt grundläggande deltagaruppgifter)",
+      "1": "Interaktion i realtid under livesändningar / AMAs / evenemang (endast medlemmar fokuserade på evenemanget kan få lösenordet och kvalificera sig för red packet)",
+      "2": "Marknadsföringskampanjer i gruppen, lotterier, slogansuppgifter, spel-nivåer, insättningsrabatter (t.ex. endast spelare som når en viss nivå i spelet eller sätter in en viss summa är berättigade att ta emot)",
+      "3": "Belöningar för att bjuda in vänner att gå med i gruppen",
+      "4": "Tidsbegränsade kampanjer, nedräkningshändelser (dagliga inloggningsuppgifter)",
+      "5": "\"Kors-grupp red packet\": Släpp red packets i andra grupper (om gruppägaren tillåter), för att främja ömsesidig marknadsföring och samarbete i communityn."
+    },
+    "q2_title": "2) När är det lämpligt att använda red packet-funktionen?",
+    "q3_body": {
+      "0": "Alla on-chain operationer medför en gasavgift. Gasavgiften tas ut av blockkedjan själv och är ingen extra avgift från oss.",
+      "1": "När du sätter in tokens i red packet-poolen, kommer en gasavgift att dras på-chain omedelbart. Det faktiska beloppet som går in i poolen kan vara något mindre än det nominella belopp du angav (eller en ytterligare gasavgift kan debiteras vid överföring). Detta är en normal on-chain avdrag.",
+      "2": "Vid utfärdande av en red packet i 'din grupp', kommer systemet automatiskt att ta ut en plattformsavgift på 2% vid distributionstillfället, vilken dras direkt.",
+      "3": "Korsgrupp red packets (att främja en red packet i någon annans grupp) har ytterligare regler:",
+      "4": "Först måste gruppens ägare som mottar promotionen ställa in behörighet, och mainstreamtokens måste användas. Korsgrupp red packets accepterar inte självskapade meme coins, och systemet har en minimi gräns för korsgrupp red packet-belopp. Om det ligger under tröskeln kan red packet inte etableras. Bekräfta att ditt belopp är tillräckligt innan du skickar."
+    },
+    "q3_title": "3) Kostnad och gräns för att skicka red packets",
+    "q4_body": {
+      "0": "Vi kommer aktivt att upptäcka missbrukande beteenden (såsom bedrägeri, penningtvätt, robottaktik, skräppostinteraktioner, etc.). Om det bedöms som hög risk kan kontot eller tillgångarna hamna i 'under granskning'-status: uttag kan försenas och kontot kan tillfälligt svartlistas. Detta är för att skydda användartillgångar och följa regleringskrav.",
+      "1": "Detta är plattformens riskkontroll- och efterlevnadsmekanism. Baserat på intern riskkontroll, efterlevnadskrav, eller tredjepartsundersökningar kan vi pausa, begränsa, fördröja eller neka specifika uttag eller överföringar.",
+      "2": "Om du anser att detta är en felbedömning kan du lämna in en överklagan via den officiella kundservice-boten."
+    },
+    "q4_title": "4) Säkerhet, Riskkontroll och Kontostatus",
+    "q5_body": {
+      "0": "Du kan meddela den officiella kundservice-boten direkt @moonini_helper_bot.",
+      "1": "Vänligen ange kommandot /setlang i konversationen (t.ex., /setlang zh-TW eller /setlang en-US) för att växla kundservicens språk.",
+      "2": "När du rapporterar ett problem, vänligen ange:",
+      "3": "Kundservicen kommer endast att kontrollera on-chain data och transaktionshistorik. Vi kommer inte att be dig skicka bildoriginal eller tillhandahålla plånboksprivacy-nycklar, minnesord eller kompletta seed-fraser, och vi kommer inte att be dig att överföra medel för 'verifiering'. Officiell kundservice kommer inte aktivt att kontakta dig för att begära tillgångar.",
+      "4": "Du kan också använda självbetjäningsförfrågnings-API:et för att kontrollera din status, såsom om ditt konto är giltigt, om det är svartlistat, eller om det är under granskning. Här är ett exempel: om svaret visar att du är is_blacklist: true eller status: \"hold\", betyder det att kontot är under riskkontrollgranskning, och uttag eller distributioner kan vara försenade. Om denna funktion är otillgänglig under testdriftsperioden, vänligen lämna in en överklagan via kundservice-boten och ange transaktionshashen, så kommer vi att påskynda behandlingen baserat på on-chain bevis."
+    },
+    "q5_title": "5) Kundservice och självbetjäningförfrågan",
+    "q6_body": {
+      "0": "Vi tillhandahåller en API-mekanism för gruppägare att anpassa uppgiftsvillkor och inlösenregler.",
+      "1": "Vad är en fras? När bör den användas? Till exempel, när du vill be fler användare att besöka din TikTok eller YouTube, eller gå med i din privata grupp, kan du dölja frasen i videor eller meddelanden. Användare behöver få frasen på den angivna platsen för att kunna göra anspråk på red packet efter att ha skrivit in den.",
+      "2": "Vad är konceptet med API? Hur fastställs berättigande?",
+      "3": "I API-inställningsgränssnittet måste vi först informera API:et om villkoren, som kallas 'villkorsdeklaration' (exklusive user_id).\nExempel: Återge en uppsättning tröskelvillkor, såsom nivå, status, om den är på svarta listan osv.\nmoonpacket kommer att betrakta denna uppsättning villkor som den grundläggande tröskeln.",
+      "4": "Nästa gång användaren vill ta emot ett red packet, behöver API:et tillhandahålla:\n'Användarfråga' (inklusive user_id).\nExempel: Återge det faktiska värdet för den användaren. Plattformen kommer att jämföra resultaten av 'Användarfråga' med den tidigare inställda 'villkorsdeklarationens' tröskel; om det matchar, godkänns det; om inte, avvisas det.",
+      "5": "Rekommendation för säkerhet: Vänligen tillhandahåll endast läsbara slutpunkter och aktivera api_key tillsammans med domänvittlistningsbegränsningar; om korsdomänoperationer behövs, kan du använda Cloudflare Workers som en mellanhand och implementera hastighetsbegränsning.",
+      "6": "Kan aktivitetsreglerna ändras under pågående aktivitet?",
+      "7": "Inga förändringar kan göras under pågående aktivitet. Vi hoppas att alla användare av detta system kan upprätthålla förtroendet. Om en projektpart lovar att utfärda red packets men ändrar spelkvalifikationerna under pågående aktivitet, vilket gör det omöjligt att göra anspråk, kommer detta att skada spelarnas förtroende. Om utfärdaren ändrar API:et för att ändra regler, och flera spelare rapporterar det, kommer vi att behålla rätten att stänga av eller frysa konton efter bekräftelse genom ändringsloggar. Därför, undvik helt att ändra spelregler mitt i API:et, då det kan leda till kontoavstängningar.",
+      "8": "Om du är orolig för felaktiga inställningar, är den korrekta metoden:",
+      "9": "Du kan först skapa din egen testgrupp, utfärda testred packets till dig själv i testgruppen, och när det har bekräftats utan problem, gå vidare med fördelning i den officiella gemenskapen. Den grundläggande regeln för red packets är: du kan inte be om stopp under vägen, och du kan inte direkt ändra reglerna för en pågående aktivitet. Varje omgång måste slutföras och avräknas enligt det ursprungliga åtagandet innan nya regler kan användas i nästa omgång."
+    },
+    "q6_title": "6) Aktivitetsregler, berättigandekontroll och inga förändringar av regler under pågående aktivitet",
+    "q7_body": {
+      "0": "Vi är för närvarande fortfarande i betafas och kommer gradvis att optimera dataskärmarna, inklusive antal deltagare, antal erhållna red packets, kvot av anspråk osv. Projektparter kan också bädda in spårningsindikatorer i sina API-inställningar.",
+      "1": "Ej anspråkna red packets kommer automatiskt att återföras till din plånbok. Om du inte får en återbetalning inom 3 dagar efter att aktiviteten har avslutats, kan du fråga kundtjänst för hantering.",
+      "2": "Det rekommenderas att inte genomföra för många aktiviteter samtidigt i samma grupp för att undvika konflikter. Användare kan också bli förvirrade; det är bäst att genomföra aktiviteter linjärt, en i taget eller en per dag, och säkerställa tillräckliga medel för att slutföra varje aktivitet.",
+      "3": "Det rekommenderas att justera reglerna baserat på data; du kan använda API:et för A/B-testning, referera till tidigare framgångsrika fall och regelbundet samla in medlemmarnas feedback för att gradvis optimera spelupplevelsen.",
+      "4": "Anti-fusk och missbruk:",
+      "5": "Under den öppna beta-testperioden optimerar vi problem med användarfusk. För att säkerställa systemets rättvisa kommer vi speciellt att blockera användare som försöker använda botar för att få tag på red packets. Den bästa förebyggande åtgärden är att låta användare ställa in sina egna API:er och villkor samt begränsa antalet anspråk, vilket kommer att höja tröskeln för dem som gillar att fuska. Vid onormala situationer, tveka inte att kontakta vår kundtjänst för feedback."
+    },
+    "q7_title": "7) Följ upp prestanda, optimera och förebygga bedrägeri",
+    "section_title": "Vanliga frågor (Detaljerad FAQ) — Skicka red packet"
+  },
+  "features": {
+    "f1": "Snabb installation",
+    "f2": "Olika spelformer",
+    "f3": "Realtidsdata",
+    "f4": "Säker och pålitlig"
+  },
+  "features_desc": {
+    "f1": "Slutför installationen på 3 minuter för att starta red packet-aktiviteten",
+    "f2": "Stödjer slumpmässiga, genomsnittliga och specifika fördelningsmetoder",
+    "f3": "Se omedelbart mottagningsdata och användarfeedback",
+    "f4": "Decentraliserad design säkerställer fondsäkerhet"
+  },
+  "cta_button_prefix": "Aktivera nu",
+  "cta_button_suffix": "Robot",
+  "cta_launch_bot": "Aktivera moonpacket Robot nu",
+  "footer_tip": "Tips: Att skicka red packets är lämpligt för isbrytande interaktioner. Du kan svara på inlägget om red packet för att förklara temat för spelet du vill organisera."
+}

@@ -1,0 +1,377 @@
+{
+  "site": {
+    "title": "moonpacket — red packets crypto simples, rapides et sécurisés",
+    "description": "Envoyer des red packets en utilisant des cryptomonnaies et afficher les prix et indicateurs sur des pages statiques optimisées pour le SEO."
+  },
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "pricing": "Tarification",
+    "team": "Équipe",
+    "blog": "Blog",
+    "faq": "Questions fréquentes",
+    "contact": "Contactez-nous",
+    "careers": "Recrutement",
+    "claim": "Réclamer le red packet",
+    "send": "Envoyer un red packet",
+    "api": "Documentation API"
+  },
+  "hero": {
+    "title": "moonpacket décolle vers la lune !",
+    "subtitle": "Telegram TON, meme, USDT red packet grab｜Un bot de red packet conçu pour les projets de meme coin et les propriétaires de groupes Telegram pour améliorer l'acquisition et l'engagement des utilisateurs.",
+    "desc": "Un bot de red packet conçu pour les projets de meme coin et les propriétaires de groupes Telegram pour améliorer l'acquisition et l'engagement des utilisateurs.",
+    "ctaPrimaryLabel": "Activer moonpacket",
+    "ctaPrimaryHref": "https://t.me/MoonPackageDevBot",
+    "ctaSecondaryLabel": "Comment Intégrer",
+    "ctaSecondaryHref": "/zh-TW/integration"
+  },
+  "features": {
+    "f1": "Configuration rapide",
+    "f2": "Localisation mondiale",
+    "f3": "Sécurité décentralisée"
+  },
+  "metrics": {
+    "heading": "Indicateurs en Temps Réel",
+    "price_btc": "Prix BTC",
+    "total_sent": "Nombre total de red packets envoyés",
+    "total_claimed_amount": "Montant total réclamé (USDT)",
+    "title": "Données moonpacket",
+    "groups": "Groupe",
+    "groupsLinkLabel": "Groupes de red packet Joints",
+    "sent": "Envoyé",
+    "claimed": "Revendiquer (USDT)",
+    "sort": {
+      "latest": "Derniers",
+      "oldest": "L'aîné",
+      "most": "Nombre maximum de participants",
+      "least": "Nombre minimum de participants"
+    }
+  },
+  "cta": {
+    "primary": "Commencer",
+    "secondary": "En savoir plus",
+    "banner": "Prêt à rendre votre communauté plus active?"
+  },
+  "footer": {
+    "rights": "Tous droits réservés.",
+    "privacy": "Droits à la vie privée",
+    "terms": "Conditions de Service",
+    "social": {
+      "telegram_group": "Groupe Telegram",
+      "telegram_channel": "Canal Telegram",
+      "x": "X",
+      "youtube": "YouTube"
+    }
+  },
+  "features_desc": {
+    "f1": "Démarrage rapide avec des étapes minimes",
+    "f2": "Support intégré de 34 langues et de l'RTL",
+    "f3": "Décentralisé avec la vie privée à l'esprit"
+  },
+  "sections": {
+    "features_heading": "Points forts des fonctionnalités",
+    "features_subtitle": "Vous pouvez recevoir",
+    "tokens_heading": "Tokens et statistiques",
+    "testimonials_heading": "Ce que disent les utilisateurs",
+    "pricing_heading": "Plans et tarifs",
+    "waterfall_title": "Enregistrements de red packets en temps réel"
+  },
+  "tokens": {
+    "columns": {
+      "token": "Jeton",
+      "price": "Prix",
+      "h24": "24 heures",
+      "d7": "7 jours",
+      "market_cap": "Capitalisation boursière"
+    }
+  },
+  "testimonials": {
+    "q1": "Le lancement multilingue est très rapide et simple.",
+    "a1": "Jane, Responsable Produit",
+    "q2": "Presque aucun JS requis, et SEO friendly.",
+    "a2": "Mike, SEO",
+    "q3": "Les options d'accessibilité et de localisation sont assez complètes.",
+    "a3": "Sara, Designer"
+  },
+  "pricing": {
+    "starter": "Bien commencer",
+    "pro": "Professionnel",
+    "enterprise": "Entreprise",
+    "price_free": "Gratuit",
+    "price_19": "19 $",
+    "price_contact": "Contactez-nous",
+    "bullets": {
+      "starter": {
+        "0": "Fonctionnalités de base",
+        "1": "Support communautaire"
+      },
+      "pro": {
+        "0": "Plan de base",
+        "1": "Localisation avancée"
+      },
+      "enterprise": {
+        "0": "SLA et Support",
+        "1": "Intégration personnalisée"
+      }
+    }
+  },
+  "form": {
+    "your_email": "Votre Email",
+    "message": "Message",
+    "send": "Envoyer"
+  },
+  "errors": {
+    "not_found": "Page non trouvée",
+    "stale": "Données temporairement indisponibles"
+  },
+  "claim": {
+    "title": "À propos de la Réception du red packet",
+    "faq": {
+      "section_1": "Démarrer et Éligibilité",
+      "section_2": "Règles de l'Événement et Équité",
+      "section_3": "Processus de Réclamation et Tâches",
+      "section_4": "Montants, Soldes et Retraits",
+      "section_5": "Contrôle des Risques et Restrictions",
+      "section_6": "Cohérence et Notifications",
+      "section_7": "Différences Multilingues et Régionales",
+      "section_8": "Appareils et Compatibilité",
+      "section_9": "Vie Privée et Sécurité",
+      "section_10": "Service Client et Réclamations",
+      "section_11": "Autres Jeux et Informations",
+      "q1": "Comment s'inscrire ?",
+      "a1": "Utilisez le lien pour activer notre bot pour l'enregistrement automatique des expériences. moonpacket permet aux propriétaires de groupes de monter dans leurs groupes. Les joueurs peuvent saisir des red packets non seulement dans notre groupe officiel mais aussi dans tous les groupes liés au bot de red packet moonpacket.",
+      "q2": "Que dois-je installer ou désactiver ?",
+      "a2": "Aucune installation d'applications supplémentaires n'est requise ; il est recommandé d'utiliser la dernière version de Telegram. Si vous ouvrez le WebApp dans le navigateur système, assurez-vous que les cookies/le stockage ne sont pas bloqués.",
+      "q3": "Qui peut participer ?",
+      "a3": "En général, tous les utilisateurs de Telegram peuvent participer ; cependant, la conception de l'API de chaque groupe est différente, et vous devez respecter les règlements de ce groupe ou canal. Certaines régions peuvent avoir des restrictions Internet, ou certains événements peuvent imposer des limites régionales/âge, et le système déterminera automatiquement les participants inéligibles et les empêchera de réclamer.",
+      "q4": "Puis-je réclamer avec plusieurs comptes ou appareils ?",
+      "a4": "Non. Le système empêchera les utilisateurs de réclamer plusieurs fois en utilisant le compte Telegram + Gmail associé, le code de vérification, l'adresse de portefeuille unique, et des scans anormaux en arrière-plan ; les violations peuvent déclencher le contrôle des risques et entraîner la suspension du compte.",
+      "q5": "Les red packets sont-ils distribués de manière aléatoire ou équitable ?",
+      "a5": "Les activités de projet en groupe ou en canal peuvent choisir 'aléatoire', 'distributions égales' ou 'désigné'. Les règles de chaque groupe sont différentes, veuillez vous référer aux indications dans les informations de description d'activité de chaque groupe.",
+      "q6": "Comment garantissez-vous l'équité ? Puis-je vérifier mes résultats de red packet là-bas ?",
+      "a6": "moonpacket ne fournit que des red packets ; le système de red packet agit comme un outil bot auxiliaire, sans investissement ni affiliation commerciale avec les opérateurs de diverses plateformes. Par conséquent, garantir l'équité absolue dans la distribution est le seul moyen de répondre aux besoins de chacun. De plus, un enregistrement d'audit est conservé côté serveur pendant une certaine période (algorithme et graine) ; les utilisateurs peuvent vérifier leurs résultats de réclamation sur le bot après la fin de l'activité de réclamation de red packet, et ce résultat peut également être consulté après le lancement de la mini-app Telegram.",
+      "q7": "Combien de red packets chaque personne peut-elle réclamer ?",
+      "a7": "Dépend des paramètres de l'événement conçus par le parti projet. Certains sont uniques, tandis que d'autres ont des limites quotidiennes, et s'il y a une limite de 'plusieurs fois par personne', le système la restreindra également automatiquement et avertira lorsque la limite est atteinte.",
+      "q8": "L'événement se terminera-t-il tôt ou sera-t-il reporté ?",
+      "a8": "Si les parts sont réclamées ou expirées, cela se terminera ; ou si l'organisateur suspend ou met fin à cause de risques anormaux, la page de red packet sera synchronisée en temps réel.",
+      "q9": "Pourquoi ne puis-je pas réclamer après avoir appuyé sur le bouton ?",
+      "a9": "Raisons courantes : épuisé/réclamation non terminée. Dans quelques cas, les projets peuvent être mis en pause ou arrêtés en raison de risques. En raison du décalage temporel dans les mises à jour d'informations entre les groupes, cela peut ne pas être reflété immédiatement ; veuillez prêter attention au statut le plus récent des informations sur les red packets sur la page de l'événement publiée par le groupe.",
+      "q10": "Qu'est-ce que le déverrouillage de tâche ?",
+      "a10": "Vous devez remplir des conditions spécifiques (comme suivre le canal, rejoindre le groupe, passer le mot de passe, tâches externes) pour réclamer. Après avoir complété, retournez au bouton d'information sur le red packet pour 'réclamer le red packet'.",
+      "q11": "J'ai clairement terminé la tâche, pourquoi est-ce que cela montre comme non validé ?",
+      "a11": "Il peut y avoir des retards de synchronisation entre les différentes API sur Telegram ; si ce n'est pas passé immédiatement, veuillez patienter un moment. Si vous continuez à échouer, il est probable qu'il y ait un problème avec le fournisseur d'API, et nous recommandons de le signaler au projet qui a émis la tâche de red packet.",
+      "q12": "Où puis-je obtenir la phrase de passe ? Que faire si je l'ai saisie incorrectement ?",
+      "a12": "Le mot de passe est généralement annoncé par le projet dans des messages, des diffusions en direct ou des vidéos sur x ; vous pouvez réessayer si vous l'avez saisi incorrectement, mais plusieurs tentatives incorrectes peuvent déclencher une limitation de fréquence.",
+      "q13": "Comment vérifier les tâches externes (comme l'inscription/trading sur un site Web) ?",
+      "a13": "moonpacket fournit une API pour que des projets externes confirment si les utilisateurs ont complété des tâches. Lorsque les utilisateurs réclament des red packets, une demande est envoyée à l'API qui renvoie le résultat de vérification ; si cela répond aux conditions, c'est débloqué ; si cela n'est pas encore retourné, vous pouvez attendre et redémarrer plus tard.",
+      "q14": "Où puis-je vérifier le montant reçu ?",
+      "a14": "Les réclamations réussies seront poussées via le bot Telegram et un enregistrement de réclamation de red packet sera disponible dans l'application mini, vous permettant de consulter l'historique et le solde disponible à tout moment.",
+      "q15": "Quels actifs sont pris en charge ?",
+      "a15": "En fonction des paramètres d'activité, les red packets sont actuellement divisés en principaux USDT/SOL/ETH/TON et les jetons émis par le propriétaire du groupe. La page indiquera les unités d'actif et les taux de change (le cas échéant).",
+      "q16": "Quelles informations doivent être liées pour le retrait ? Combien de temps cela prend-il ?",
+      "a16": "Vous devez fournir votre adresse de portefeuille et des informations d'identité de base pour des raisons de sécurité ; le délai d'arrivée est généralement de T+0 à T+2 jours ouvrables. Cela peut être prolongé en cas de contrôle des risques anormaux.",
+      "q17": "Qui paie les frais de transaction/Gas ?",
+      "a17": "Chaque opération sur la chaîne nécessite des frais de gaz, qui sont facturés par la blockchain elle-même, et moonpacket ne prélève pas de frais supplémentaires.",
+      "q18": "Puis-je transférer mon solde à des amis ou le fusionner ?",
+      "a18": "Aucune méthode de 'transfert/fusion' n'est fournie.",
+      "q19": "Pourquoi a-t-il été jugé suspect ou intercepté ?",
+      "a19": "Les raisons possibles incluent plusieurs comptes sur le même appareil, des proxies/VPN anormaux, une fréquence trop élevée de saisie de red packets dans plusieurs groupes, des régions/ASN sur liste noire, etc. Vous pouvez envoyer le contenu du message /report au bot ; ceci est un canal de réponse unidirectionnel, et l'officiel se réserve le droit de ne pas expliquer ou répondre concernant les interdictions de compte.",
+      "q20": "Dois-je subir une vérification KYC (code de vérification) ?",
+      "a20": "Dans des situations à haut risque, la vérification sera basée sur les informations fournies par les utilisateurs ; veuillez vous assurer que les informations de sécurité correctes sont saisies lors du retrait ; si des informations incorrectes ne sont pas fournies, vous ne passerez pas la KYC biométrique et documentaire.",
+      "q21": "Que dois-je faire si mon compte est restreint ?",
+      "a21": "Les restrictions sont généralement des mesures de protection temporaires. Veuillez envoyer le contenu du message /report au bot. Les questions soulevées par les vérificateurs n'ayant pas complété le remplissage des informations de sécurité ne seront pas traitées ; si la situation est normale après l'achèvement de la vérification, nous nous en occuperons.",
+      "q22": "Quand commencent et se terminent les événements de red packet ?",
+      "a22": "Chaque projet émettant des red packets a des conditions différentes, veuillez prêter attention au temps et aux quotas restants des informations sur les red packets ; vous pouvez activer les notifications Telegram ou définir des sons de notification spécifiques pour recevoir des alertes en temps opportun pour saisir des red packets.",
+      "q23": "Puis-je activer ou désactiver les notifications pour recevoir ou finaliser des retraits ?",
+      "a23": "Ceci est votre paramètre sur Telegram, pas un paramètre de moonpacket ; vous pouvez ajuster les notifications dans vos paramètres Telegram.",
+      "q24": "Pourquoi ne puis-je pas voir certains modes de retrait ou fonctionnalités ?",
+      "a24": "Les politiques dans certaines régions ne sont pas applicables, et le système masquera automatiquement ou empêchera les retraits, indiquant que vous ne pouvez pas participer à l'activité de saisie de red packet, car cette région ne la prend actuellement pas en charge.",
+      "q25": "Combien de décimales le format numérique affichera-t-il ?",
+      "a25": "Le site appliquera automatiquement des séparateurs de milliers et des décimales localisés en fonction de votre langue.",
+      "q26": "Est-il disponible sur iOS, Android et le bureau de Telegram ?",
+      "a26": "Oui, il est recommandé d'utiliser la dernière version de Telegram. Si vous rencontrez des situations illisibles, veuillez vérifier si vous utilisez le client officiel, ou mettre à jour l'application, ou cliquer pour recharger la page dans les trois points en haut à droite de la page de l'application mini.",
+      "q27": "Le changement de dispositif affectera-t-il la réception ?",
+      "a27": "Cela n'affectera pas les enregistrements, mais si des opérations répétées sont effectuées sur plusieurs appareils en peu de temps, cela peut déclencher un contrôle des risques.",
+      "q28": "L'utilisation d'un VPN/proxy aura-t-elle des effets ?",
+      "a28": "Si vous utilisez un proxy à haut risque, il peut être intercepté. Nous vous recommandons de désactiver temporairement le proxy ou de passer à un environnement réseau sain et d'essayer à nouveau.",
+      "q29": "Quelles données seront collectées ?",
+      "a29": "Suivez le principe de minimisation : ne collectez que les données nécessaires à la distribution/retrait/contrôle des risques (comme les questions de sécurité personnelle, les adresses de portefeuille, l'email, l'ID Telegram). Lorsque l'authentification nécessaire est requise, nous vérifierons via une plateforme de vérification tierce, qui ne stocke pas les données privées des utilisateurs, sauf pour les informations de sécurité.",
+      "q30": "Quelles mesures sont en place pour assurer la sécurité des fonds ?",
+      "a30": "Toutes les opérations critiques nécessiteront une seconde vérification ; les retraits à haut risque peuvent déclencher un examen manuel.",
+      "q31": "Puis-je supprimer mon compte ou mes données ?",
+      "a31": "Vous pouvez soumettre une demande d'accès ou de suppression de données selon le processus. Une fois le compte supprimé, vous ne pourrez plus vous connecter, mais les données de transaction seront conservées conformément aux exigences de conformité.",
+      "q32": "Qui dois-je contacter si je rencontre un problème ?",
+      "a32": "Vous pouvez nous contacter en soumettant/rapportant des informations par le biais du bot. Fournir des codes d'erreur et des captures d'écran peut accélérer le traitement.",
+      "q33": "Combien de temps faudra-t-il pour obtenir une réponse à une plainte ?",
+      "a33": "En général, les réponses sont fournies dans un délai de 1 à 3 jours ouvrables ; les cas urgents liés aux fonds seront priorisés.",
+      "q34": "Puis-je participer à des activités dans plusieurs groupes ?",
+      "a34": "Oui ; chaque activité a des règles indépendantes, veuillez prêter attention aux limites et à la durée de validité de chaque événement.",
+      "q35": "Y aura-t-il un classement ou des badges ?",
+      "a35": "Certaines activités peuvent avoir des classements/badges et des loteries ; consultez la page d'activité pour les règles et les récompenses."
+    }
+  },
+  "send": {
+    "title": "Questions Fréquemment Posées (Version Détaillée) — Envoi de Red Packets (Organisateur)",
+    "hero": {
+      "api_demo_label": "Démonstration API",
+      "api_get": "GET [api_url]?api_key=[api_key]&user_id=[user_id]",
+      "response_label": "Retourner :",
+      "json": {
+        "0": "{",
+        "1": "\"data\": {",
+        "2": "\"level\": 100,",
+        "3": "\"status\": \"active\",",
+        "4": "\"is_blacklist\": false",
+        "5": "}",
+        "6": "}"
+      },
+      "title": "Acquérir de nouveaux utilisateurs, augmenter l'activité",
+      "lead": "La partie projet peut définir des conditions spécifiques :",
+      "points": {
+        "0": "• Rejoindre le groupe/suivre le canal",
+        "1": "• Utiliser correctement la phrase secrète",
+        "2": "• Mise en œuvre d'API personnalisée"
+      },
+      "note": "Seuls les utilisateurs qui remplissent les conditions peuvent recevoir des red packets"
+    },
+    "faq": {
+      "section_1": "Démarrer et Paramètres",
+      "section_2": "Règles de publication et Équité",
+      "section_3": "Tâches et Conditions",
+      "section_4": "Actifs, Exposition et Règlement",
+      "q1": "Comment commencer ?",
+      "a1": "Veuillez ajouter le bot moonpacket à votre groupe ou canal Telegram et le définir comme administrateur. Assurez-vous d'activer au moins : les autorisations de publication, d'édition/suppression de vos propres publications. Une fois terminé, revenez à la page 'Envoyer un red packet' de moonpacket, et vous verrez les groupes/canaux liés dans la liste 'Envoyer À'.",
+      "q2": "À quoi dois-je faire attention avant d'envoyer ?",
+      "a2": "Veuillez d'abord déposer les actifs que vous souhaitez émettre (par exemple, déposez 10 USDT pour des tests). Vous pouvez envoyer des tokens principaux (USDT/TON, etc.) ou vos propres pièces de meme. Les tokens principaux apparaîtront en plus dans le fil d'accueil, tandis que les pièces de meme ne seront affichées que dans votre communauté.",
+      "q3": "Puis-je choisir où l'envoyer ?",
+      "a3": "Dans 'Cibles d'envoi', vérifiez les groupes/canaux liés pour envoyer à un ou plusieurs groupes en même temps. Si vous ne les voyez pas dans la liste, veuillez confirmer que le bot est administrateur du groupe/canal et dispose des autorisations nécessaires.",
+      "q4": "Quels modèles de distribution sont disponibles ?",
+      "a4": "Vous pouvez choisir un montant aléatoire (chance) ou fixe (distribution égale). Les deux peuvent définir le montant total, le nombre de parts, et la limite par personne, et peuvent ajouter une période de validité ou une publication programmée.",
+      "q5": "Peut-il être envoyé d'un seul coup ou par lots ?",
+      "a5": "Oui. Vous pouvez définir un relâchement total unique ou un relâchement par lots dans une période spécifiée ; un compte à rebours et des messages de prévisualisation sont également pris en charge.",
+      "q6": "Que se passe-t-il si le solde est insuffisant ?",
+      "a6": "Le système est basé sur votre solde disponible. Si le solde est insuffisant, un message d'échec sera envoyé vous demandant de recharger pour éviter de dépenser trop.",
+      "q7": "Comment l'équité est-elle assurée ?",
+      "a7": "La distribution est exécutée du côté serveur et conserve des enregistrements d'audit (algorithme et graine, journaux d'opération). Les règles, parts, limites et résultats finaux seront affichés publiquement sur la page de l'événement pour assurer la traçabilité.",
+      "q8": "Puis-je exiger de rejoindre un groupe ou de suivre un canal pour le recevoir ?",
+      "a8": "Oui. Vous pouvez activer la condition intégrée 'Doit rejoindre un certain groupe/ suivre un certain canal'. La condition est que votre bot se trouve dans ce groupe/canal et dispose des autorisations pour publier et modifier/supprimer ses propres publications afin de vérifier le statut des membres.",
+      "q9": "Qu'est-ce qu'une phrase de passe ? Pour quels scénarios est-elle adaptée ?",
+      "a9": "Les joueurs doivent obtenir le mot de passe par des canaux externes et peuvent le réclamer après l'avoir correctement saisi sur la page. Les pratiques courantes incluent : diviser le mot de passe à 6 chiffres dans de longues vidéos YouTube pour encourager une visualisation complète ; indiquer le mot de passe dans des publications X.com (Twitter) ou Threads pour renforcer l'interaction ; annoncer verbalement le mot de passe lors de livestreams pour guider les participants ; des mots de passe dédiés dans des groupes privés/payants pour s'assurer que les avantages ne sont donnés qu'aux membres clés.",
+      "q10": "Puis-je utiliser ma propre API pour déterminer l'éligibilité ?",
+      "a10": "Oui. moonpacket utilisera l'API en lecture seule que vous avez fournie pour vérification avant que les utilisateurs ne réclament. Le backend n'a besoin que de définir api_url et api_key (la permission de domaine peut être configurée en option).",
+      "q11": "Quelle est la différence d'exposition entre les pièces principales et les pièces de meme ?",
+      "a11": "Les pièces principales (USDT/TON, etc.) seront affichées dans le groupe et également dans le fil d'accueil pour une meilleure exposition ; les pièces de meme ne seront affichées que dans votre groupe.",
+      "q12": "Comment prévenir la tricherie et les machines en masse ?",
+      "a12": "Y compris la fréquence des comportements et la détection des appareils/IP, le lien unique des comptes et des portefeuilles, le code de vérification de retrait, l'examen préliminaire du contrôle des risques par IA ; si nécessaire, il y aura une vérification biométrique + faciale + d'identification par un tiers.",
+      "q13": "Où puis-je consulter mes enregistrements envoyés et le nombre de destinataires ?",
+      "a13": "Veuillez vérifier 'Red Packets que j'ai envoyés' sur votre page personnelle pour voir le nombre de demandeurs, les parts restantes et le montant total consommé pour chaque session ; si activé, vous pouvez également télécharger des rapports."
+    }
+  },
+  "groups_directory": {
+    "latest_tab": "Derniers Groupes de red packet",
+    "hot_tab": "Groupes de red packet Populaires",
+    "search_placeholder": "Mots-clés pour les groupes joints"
+  },
+  "a11y": {
+    "skip_to_main": "Aller au contenu principal",
+    "language_menu": "Menu de langue",
+    "language": "Langue"
+  },
+  "waterfall": {
+    "sent_from": "Groupe d'envoi :",
+    "claimed": "Réclamer",
+    "total": "Montant total",
+    "progress": "Réclamé"
+  },
+  "terms": {
+    "title": "Conditions d'Utilisation",
+    "version": "v1.0.0",
+    "updated": "5 octobre 2025 15:00 GMT+0800 (heure standard de Taipei) :00:",
+    "owner": "moonpacket-core",
+    "sections": {
+      "scope": "Champ d'Application et Formation du Contrat",
+      "definitions": "Définition",
+      "eligibility": "Qualifications et Comptes",
+      "services": "Contenu des Services",
+      "wallet": "Portefeuille Cloud et Fonds",
+      "fees": "Frais et Facturation",
+      "rules": "Règles d'Activité et Équité",
+      "restrictions": "Restrictions Anti-Bot et d'Utilisation",
+      "ip": "Droits de Contenu et Propriété Intellectuelle",
+      "third_party": "Services de Tiers",
+      "data": "Données et confidentialité",
+      "risks": "Avertissement sur les Risques",
+      "disclaimer": "Avertissement",
+      "liability": "Limitation de Responsabilité",
+      "indemnity": "Indemnisation",
+      "termination": "Suspension, Résiliation et Suppression",
+      "force_majeure": "Force Majeure",
+      "high_risk": "Utilisations Prohibées et à Haut Risque",
+      "tax": "Taxes et Reporting",
+      "third_party_services": "Services de Tiers et Déclarations de Relation",
+      "wallet_assets": "Déclarations de Portefeuille et d'Actifs",
+      "accuracy": "Précision du contenu et des données",
+      "governing_law": "Droit Applicable et Résolution des Conflits",
+      "contact": "Informations de contact"
+    }
+  },
+  "privacy": {
+    "title": "Politique de confidentialité",
+    "version": "v1.1.0",
+    "updated": "5 octobre 2025, dimanche 15:00:00 GMT+0800 (heure standard de Taipei)",
+    "owner": "moonpacket-core",
+    "sections": {
+      "intro": "Introduction",
+      "definitions": "Définitions",
+      "scope": "Champ d'application",
+      "data_collection": "Les données que nous collectons",
+      "data_usage": "Notre utilisation",
+      "legal_basis": "Base réglementaire",
+      "cookies": "Cookies et stockage local",
+      "data_sharing": "Destinataires du partage des données",
+      "cross_border": "Transfert transfrontalier",
+      "retention": "Durée de conservation",
+      "security": "Sécurité",
+      "blockchain": "Description des fonctionnalités de la blockchain",
+      "telegram": "Déclaration de la plateforme Telegram",
+      "minors": "Règlementations concernant les mineurs",
+      "rights": "Vos droits et comment les exercer",
+      "faq": "Questions fréquentes (Confidentialité et sécurité)",
+      "updates": "Mise à jour des conditions",
+      "contact": "Informations de contact"
+    },
+    "faq": {
+      "q1": "Quelles données collectons-nous ?",
+      "a1": "Nous fournirons les informations nécessaires pour l'émission et la réception de red packets, la vérification des tâches, le portefeuille cloud et les retraits, y compris les informations de base sur Telegram, les métriques de dispositif et de réseau, les événements d'interaction, ainsi que les informations KYC et de portefeuille lorsque nécessaire.",
+      "q2": "Mes fonds sont-ils en sécurité ?",
+      "a2": "Les comptes de fonds et d'opération sont séparés, les opérations sensibles nécessitent une authentification à deux facteurs, et tous les événements financiers seront enregistrés ; les retraits à haut risque seront examinés manuellement.",
+      "q3": "Puis-je supprimer mes données ?",
+      "a3": "Vous pouvez demander la suppression ou la restriction de vos données conformément à la loi ; les données comptables ou relatives aux litiges qui doivent être conservées par la loi ne sont pas soumises à cette restriction et seront supprimées ou anonymisées par la suite.",
+      "q4": "Les restrictions régionales et le contenu visible ne correspondent pas ?",
+      "a4": "Conformément aux politiques de conformité, certaines fonctionnalités ou méthodes de retrait peuvent ne pas être disponibles en raison de restrictions régionales, et le système masquera automatiquement les options non applicables.",
+      "q5": "Pourquoi a-t-il été jugé suspect ?",
+      "a5": "Des problèmes peuvent survenir en raison de proxy/VPN, de fréquence inhabituelle ou de connexions simultanées à partir de plusieurs comptes ; vous pouvez réessayer plus tard ou suivre le processus d'appel pour examen."
+    }
+  },
+  "roadmap": {
+    "accept": "Critères d'acceptation",
+    "bucket": {
+      "progress": "Progrès"
+    },
+    "lanes": {
+      "build": "Construire le produit",
+      "growth": "Croissance",
+      "token": "token moonini",
+      "trust": "Confiance, conformité et sécurité"
+    },
+    "progressLabel": "Statut",
+    "status": {
+      "live": "En direct",
+      "planned": "Prévu",
+      "research": "En recherche",
+      "shipping": "En développement"
+    },
+    "title": "Feuille de route produit",
+    "updated": "Mise à jour (Les jetons seront distribués après que la barre de progression soit pleine)"
+  }
+}

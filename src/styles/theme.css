@@ -1,0 +1,167 @@
+/* Light/Dark theme variables and safe overrides */
+
+:root {
+  --bg: #ffffff;
+  --text: #0c1e3a;
+  --text-subtle: rgba(12,30,58,.72);
+  --card-bg: #ffffff;
+  --card-ring: rgba(0,0,0,.06);
+  --navy: #0c1e3a;
+  --primary: #E32521;
+  --gold: #FFBA00;
+  --skin: #f2c9a3;
+}
+
+[data-theme="dark"] {
+  --bg: #0b1220;
+  --text: #e6edf3;
+  --text-subtle: rgba(230,237,243,.80);
+  --card-bg: #121a2a;
+  --card-ring: rgba(255,255,255,.08);
+  --navy: #0c1e3a; /* brand navy 保持 */
+  --primary: #E32521;
+  --gold: #FFBA00;
+}
+
+html, body { background-color: var(--bg); color: var(--text); }
+
+/* Safe overrides for common utility classes used across pages */
+[data-theme="dark"] .bg-white { background-color: var(--card-bg) !important; }
+[data-theme="dark"] .text-black { color: var(--text) !important; }
+[data-theme="dark"] .text-text { color: var(--text) !important; }
+[data-theme="dark"] .text-textSubtle { color: var(--text-subtle) !important; }
+[data-theme="dark"] .ring-black\/5 { --tw-ring-color: var(--card-ring) !important; }
+[data-theme="dark"] .ring-black\/10 { --tw-ring-color: rgba(255,255,255,.1) !important; }
+[data-theme="dark"] .shadow-sm { box-shadow: 0 4px 14px rgba(0,0,0,.3) !important; }
+[data-theme="dark"] .bg-black\/5 { background-color: rgba(255,255,255,.08) !important; }
+
+/* Cards */
+[data-theme="dark"] .packet { box-shadow: 0 6px 16px rgba(0,0,0,.35) !important; }
+[data-theme="dark"] .packet .lid .text-white\/90 { color: rgba(255,255,255,.85) !important; }
+
+/* Light theme packet overrides */
+[data-theme="light"] .packet .text-white { color: #4b5563 !important; }
+[data-theme="light"] .packet .text-white\/90 { color: rgba(75, 85, 99, 0.9) !important; }
+[data-theme="light"] .packet .stat-box { background: rgba(12, 30, 58, 0.04) !important; }
+[data-theme="light"] .packet .num { color: #16a34a !important; }
+
+/* Brand wordmark typography - inherits size and color from context */
+.brand-mark {
+  font-family: 'Sora', system-ui, sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+  line-height: 1.05;
+  /* Explicitly do NOT set font-size, color, text-transform, or gradient */
+}
+
+/* Token mark (for moonini and other internal tokens) - shares same styling as brand-mark */
+.token-mark {
+  font-family: 'Sora', system-ui, sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+  line-height: 1.05;
+}
+
+/* Legacy brand-word compatibility */
+.brand-word[data-tone="navy"] { color: var(--navy); }
+[data-theme="dark"] .brand-word[data-tone="navy"] { color: #ffffff !important; }
+
+/* Navigation links */
+[data-theme="dark"] .nav-link { color: var(--text) !important; }
+
+/* Strong focus outline for a11y */
+:where(a,button,[role="button"])::selection{ background: var(--gold); color: #000; }
+:where(a,button,[role="button"]):focus-visible{ outline: 2px solid var(--gold); outline-offset: 2px; }
+
+/* Numbers accent (maintain contrast on dark) */
+.num,.num-hero{ color: #16a34a; } /* tailwind emerald-600 符合AA on dark */
+[data-theme="dark"] .num,[data-theme="dark"] .num-hero{ color: #22c55e; }
+
+/* Form controls in dark mode */
+[data-theme="dark"] input[type="search"],
+[data-theme="dark"] input[type="text"],
+[data-theme="dark"] input[type="email"],
+[data-theme="dark"] input[type="number"],
+[data-theme="dark"] textarea {
+  background-color: var(--card-bg) !important;
+  color: var(--text) !important;
+  border-color: rgba(255,255,255,.18) !important;
+}
+[data-theme="dark"] #q::placeholder { color: rgba(230,237,243,.55); }
+[data-theme="dark"] #q:focus { outline: none; box-shadow: 0 0 0 2px rgba(255,186,0,.35); border-color: rgba(255,186,0,.55) !important; }
+
+/* Tabs (top filter in GroupsHero) - better contrast & focus */
+[data-theme="dark"] [role="tablist"] button {
+  color: var(--text-subtle) !important;
+  border: 1px solid rgba(255,255,255,.18) !important;
+  background: transparent !important;
+}
+[data-theme="dark"] [role="tablist"] button[aria-selected="true"] {
+  background: rgba(255,255,255,.92) !important; /* 比純白稍微柔和，仍保 AA 對比 */
+  color: #0c1e3a !important;
+  border-color: transparent !important;
+}
+[role="tablist"] button:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 2px;
+}
+
+/* Footer social icons: ensure contrast in dark mode */
+[data-theme="dark"] footer [aria-label="social"] a {
+  color: var(--text) !important; /* 亮色圖示 */
+}
+[data-theme="dark"] footer [aria-label="social"] a:hover,
+[data-theme="dark"] footer [aria-label="social"] a:focus-visible {
+  background-color: rgba(255,255,255,.10) !important;
+  outline: 2px solid var(--gold);
+  outline-offset: 2px;
+}
+
+/* RTL support - use logical properties for automatic direction handling */
+[dir="rtl"] {
+  direction: rtl;
+}
+
+/* Use logical properties instead of physical properties for RTL compatibility */
+[dir="rtl"] .prose {
+  text-align: start; /* instead of text-align: left */
+}
+
+[dir="rtl"] .prose ul,
+[dir="rtl"] .prose ol {
+  padding-inline-start: 1.25rem; /* instead of padding-left */
+}
+
+[dir="rtl"] .prose li {
+  margin-inline-start: 0.5rem;
+}
+
+/* Auto-align buttons and form elements in RTL */
+[dir="rtl"] button,
+[dir="rtl"] input,
+[dir="rtl"] textarea {
+  text-align: start;
+}
+
+/* Ensure lists align properly in RTL */
+[dir="rtl"] ul,
+[dir="rtl"] ol {
+  padding-inline-start: 1.5rem;
+}
+
+/* Navigation items alignment */
+[dir="rtl"] nav {
+  direction: rtl;
+}
+
+/* Text alignment in RTL */
+[dir="rtl"] .text-right {
+  text-align: left;
+}
+
+[dir="rtl"] .text-left {
+  text-align: right;
+}
+
+
+

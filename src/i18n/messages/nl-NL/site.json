@@ -1,0 +1,152 @@
+{
+  "title": "moonpacket — eenvoudige, veilige en snelle crypto red packets",
+  "description": "moonpacket versleutelde red packet robot | Ondersteunt USDT, TON, SOL, ETH. Verstuur eenvoudig red packets, ontvang direct, veilig niet-bewarend, perfect voor Telegram-groei en het verhogen van betrokkenheid.",
+  "nav": {
+    "home": "Startpagina",
+    "about": "Over",
+    "pricing": "Prijzen",
+    "team": "Team",
+    "blog": "Blog",
+    "faq": "Veelgestelde Vragen",
+    "contact": "Neem contact met ons op",
+    "careers": "Carrières",
+    "claim": "Claim red packet",
+    "send": "Stuur red packet",
+    "api": "API-documentatie"
+  },
+  "hero": {
+    "title": "Cryptocurrency red packets, beschikbaar voor iedereen",
+    "subtitle": "Verbeter je gemeenschapservaring met eenvoudige, wereldwijde diensten.",
+    "desc": "De beste red packet bot voor meme token projecten en Telegram groepsbeheerder om nieuwe gebruikers te werven en de betrokkenheid te verhogen.",
+    "ctaPrimaryLabel": "Start moonpacket",
+    "ctaPrimaryHref": "https://t.me/MoonPackageDevBot",
+    "ctaSecondaryLabel": "Hoe te Verbinden",
+    "ctaSecondaryHref": "/zh-TW/integration",
+    "lead": "Telegram TON, meme, USDT red packets | De beste red packet bot voor meme token projecten en Telegram groepsbeheerder om nieuwe gebruikers te werven en de betrokkenheid te verhogen.",
+    "cta_primary": "Activeer moonpacket Nu",
+    "cta_secondary": "Hoe te Integreren met Groepen",
+    "headline_line1": "moonpacket",
+    "headline_line2": "Begin, richt je op de maan.",
+    "tagline": "Telegram TON, meme, en USDT red packets voor community marketing en behoud. Een groeps red packet bot ontworpen voor beheerders om de betrokkenheid te verhogen, nieuwe leden aan te trekken en interactie aan te moedigen."
+  },
+  "features": {
+    "f1": "Snelle registratie",
+    "f2": "Globale lokalisatie",
+    "f3": "Niet-bewarende beveiliging",
+    "title": "Kernfunctionaliteiten",
+    "items": "__TODO_TRANSLATE_zh-CN__"
+  },
+  "sections": {
+    "features_heading": "Functies in de Kijker",
+    "features_subtitle": "Je Kunt Krijgen",
+    "tokens_heading": "Tokens en Statistieken",
+    "testimonials_heading": "Gebruikersrecensies",
+    "pricing_heading": "Plannen en Prijzen",
+    "waterfall_title": "Red Packet waterval"
+  },
+  "footer": {
+    "rights": "",
+    "privacy": "Privacybeleid",
+    "terms": "Voorwaarden voor Dienstverlening",
+    "social": {
+      "telegram_group": "Telegram-groep",
+      "telegram_channel": "Telegram-kanaal",
+      "x": "X",
+      "youtube": "YouTube"
+    },
+    "copyright": "Auteursrechten."
+  },
+  "a11y": {
+    "skip_to_main": "Overslaan naar hoofdinhoud",
+    "language_menu": "Open taalmenu",
+    "language": "Taal"
+  },
+  "metrics": {
+    "heading": "Real-time Indicatoren",
+    "price_btc": "BTC Prijs",
+    "total_sent": "Totaal verzonden bedrag",
+    "total_claimed_amount": "Totaal ontvangen bedrag (USDT)",
+    "title": "Tokens en statistieken",
+    "groups": "Verbonden Groepen",
+    "groupsLinkLabel": "Verbonden red packet Groepen",
+    "sent": "Verstuurde Red Packets",
+    "claimed": "Totaal Geclaimd Bedrag",
+    "sort": {
+      "latest": "Laatste",
+      "oldest": "Oudste",
+      "most": "Maximale deelnemers",
+      "least": "Minimale deelnemers"
+    }
+  },
+  "errors": {
+    "stale": "Gegevens kunnen verouderd zijn",
+    "not_found": "Pagina niet gevonden",
+    "not_found_desc": "Sorry, we konden deze pagina niet vinden of deze is verwijderd."
+  },
+  "pricing": {
+    "starter": "Basisplan",
+    "pro": "Professionele Diensten",
+    "enterprise": "Enterpriseplan",
+    "price_free": "Gratis",
+    "price_19": "€19",
+    "price_contact": "Neem Contact Op",
+    "sla_support": "SLA en Ondersteuning",
+    "bullets": {
+      "starter": {
+        "0": "Basisfuncties",
+        "1": "Gemeenschapsondersteuning"
+      },
+      "pro": {
+        "0": "Inclusief Basisplan",
+        "1": "Geavanceerde Lokalisatie"
+      },
+      "enterprise": {
+        "0": "SLA en ondersteuning",
+        "1": "Aangepaste Integratie"
+      }
+    }
+  },
+  "story": {
+    "belief_title": "🌕 De energie van de maan en het geloof in red packets",
+    "disclaimer_title": "⚠️ Vrijwaring",
+    "future_title": "💫 Toekomstige toepassingen",
+    "schedule_title": "Token vrijgave regels",
+    "secrets_title": "🌸 Zijn geheim",
+    "title": "🌕 Het verhaal van moonini"
+  },
+  "waterfall": {
+    "claimed": "Claimen",
+    "progress": "Gedeclareerd",
+    "sent_from": "Verzenden groep:",
+    "total": "Totaal bedrag"
+  },
+  "seo": {
+    "og": {
+      "image": "/images/og-default.png",
+      "type": "website"
+    },
+    "routes": {
+      "claim": {
+        "description": "moonpackets red packet functie ondersteunt verschillende tokens, waaronder SOL en USDT, en stelt u in staat om uw eigen meme-tokens te verzenden. Een krachtig hulpmiddel om nieuwe gebruikers aan te trekken en de betrokkenheid in Telegram-groepen te vergroten.",
+        "title": "Red Packet Telegram mini APP — moonpacket"
+      },
+      "privacy": {
+        "description": "De privacybeleid van moonpacket legt uit hoe we uw persoonlijke gegevens verzamelen, gebruiken en beschermen.",
+        "title": "Privacybeleid — moonpacket"
+      },
+      "send": {
+        "description": "Gebruik moonpacket om red packets te versturen, taakvoorwaarden in te stellen en API-integraties te gebruiken om effectief nieuwe gebruikers aan te trekken en de betrokkenheid van waardevolle gebruikers in de gemeenschap te verbeteren.",
+        "title": "Stuur red packet — moonpacket"
+      },
+      "terms": {
+        "description": "moonpacket Algemene Voorwaarden, gebruiksrichtlijnen en juridische verklaringen.",
+        "title": "Algemene Voorwaarden — moonpacket"
+      }
+    },
+    "site": {
+      "description": "moonpacket Cryptocurrency red packet Telegram Bot | Ondersteunt USDT, TON, SOL, ETH, DOGE. Je kunt ook je eigen meme token red packets versturen, ideaal voor het aantrekken van nieuwe gebruikers, het creëren van een levendige sfeer en het vergroten van de betrokkenheid in Telegram-communities.",
+      "site_name": "moonpacket",
+      "title": "moonpacket — meme token versleutelde Red Packet en wallet voor Red Packets"
+    }
+  }
+}

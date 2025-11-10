@@ -1,0 +1,27 @@
+{
+  "lang": "zh-TW",
+  "timestamp": "2025-10-30T00:02:45.845Z",
+  "filesProcessed": [
+    "src/i18n/messages/zh-TW/claim.json",
+    "src/i18n/messages/zh-TW/common.json",
+    "src/i18n/messages/zh-TW/groups.json",
+    "src/i18n/messages/zh-TW/landing.json",
+    "src/i18n/messages/zh-TW/legal.json",
+    "src/i18n/messages/zh-TW/metrics.json",
+    "src/i18n/messages/zh-TW/privacy.json",
+    "src/i18n/messages/zh-TW/roadmap.json",
+    "src/i18n/messages/zh-TW/send.json",
+    "src/i18n/messages/zh-TW/site.json",
+    "src/i18n/messages/zh-TW/story.json",
+    "src/i18n/messages/zh-TW/terms.json",
+    "src/i18n/messages/zh-TW/waterfall.json"
+  ],
+  "stats": {
+    "updated": 0,
+    "skippedEmpty": 78,
+    "skippedProtected": 463,
+    "skippedNotInWhitelist": 669,
+    "errors": []
+  },
+  "details": []
+}

@@ -1,0 +1,377 @@
+{
+  "site": {
+    "title": "moonpacket — enkla, snabba och säkra kryptored packets",
+    "description": "Skicka red packets med kryptovaluta och visa priser och indikatorer på SEO-vänliga statiska sidor."
+  },
+  "nav": {
+    "home": "Hem",
+    "about": "Om",
+    "pricing": "Prissättning",
+    "team": "Team",
+    "blog": "Blogg",
+    "faq": "Vanliga frågor",
+    "contact": "Kontakta oss",
+    "careers": "Rekrytering",
+    "claim": "Kräv red packet",
+    "send": "Skicka red packet",
+    "api": "API-dokumentation"
+  },
+  "hero": {
+    "title": "moonpacket lyfter mot månen!",
+    "subtitle": "Telegram TON, meme, USDT red packet grab｜En red packet-bot designad för meme coin-projekt och Telegram-gruppägare för att öka användaranskaffning och engagemang.",
+    "desc": "En red packet-bot designad för meme coin-projekt och Telegram-gruppägare för att öka användaranskaffning och engagemang.",
+    "ctaPrimaryLabel": "Aktivera moonpacket",
+    "ctaPrimaryHref": "https://t.me/MoonPackageDevBot",
+    "ctaSecondaryLabel": "Hur man Integrerar",
+    "ctaSecondaryHref": "/zh-TW/integration"
+  },
+  "features": {
+    "f1": "Snabb installation",
+    "f2": "Global lokalisering",
+    "f3": "Decentraliserad säkerhet"
+  },
+  "metrics": {
+    "heading": "Realtidsindikatorer",
+    "price_btc": "BTC-pris",
+    "total_sent": "Totalt antal skickade red packets",
+    "total_claimed_amount": "Totalt belopp begärt (USDT)",
+    "title": "moonpacket data",
+    "groups": "Grupp",
+    "groupsLinkLabel": "Gå med i red packet-grupper",
+    "sent": "Skickat",
+    "claimed": "Krävd (USDT)",
+    "sort": {
+      "latest": "Senaste",
+      "oldest": "Äldsta",
+      "most": "Max antal deltagare",
+      "least": "Minsta deltagare"
+    }
+  },
+  "cta": {
+    "primary": "Kom igång",
+    "secondary": "Läs mer",
+    "banner": "Redo att göra ditt community mer aktivt?"
+  },
+  "footer": {
+    "rights": "Alla rättigheter reserverade.",
+    "privacy": "Integritetsrättigheter",
+    "terms": "Användarvillkor",
+    "social": {
+      "telegram_group": "Telegramgrupp",
+      "telegram_channel": "Telegramkanal",
+      "x": "X",
+      "youtube": "YouTube"
+    }
+  },
+  "features_desc": {
+    "f1": "Snabbstart med minimala steg",
+    "f2": "Inbyggt 34 språk och RTL-stöd",
+    "f3": "Decentraliserat med integritet i åtanke"
+  },
+  "sections": {
+    "features_heading": "Funktioner i fokus",
+    "features_subtitle": "Du kan ta emot",
+    "tokens_heading": "Tokens och statistik",
+    "testimonials_heading": "Vad användare säger",
+    "pricing_heading": "Planer och prissättning",
+    "waterfall_title": "Real-time red packet-poster"
+  },
+  "tokens": {
+    "columns": {
+      "token": "Token",
+      "price": "Pris",
+      "h24": "24 timmar",
+      "d7": "7 dagar",
+      "market_cap": "Marknadsvärde"
+    }
+  },
+  "testimonials": {
+    "q1": "Den flerspråkiga lanseringen är mycket snabb och enkel.",
+    "a1": "Jane, produktchef",
+    "q2": "Nästan ingen JS krävs, och SEO-vänlig.",
+    "a2": "Mike, SEO",
+    "q3": "Tillgänglighet och lokalisering är ganska omfattande.",
+    "a3": "Sara, designer"
+  },
+  "pricing": {
+    "starter": "Kom igång",
+    "pro": "Professionell",
+    "enterprise": "Företag",
+    "price_free": "Gratis",
+    "price_19": "$19",
+    "price_contact": "Kontakta oss",
+    "bullets": {
+      "starter": {
+        "0": "Grundläggande funktioner",
+        "1": "Gemenskapsstöd"
+      },
+      "pro": {
+        "0": "Grundläggande plan",
+        "1": "Avancerad lokalisering"
+      },
+      "enterprise": {
+        "0": "SLA och support",
+        "1": "Anpassad integration"
+      }
+    }
+  },
+  "form": {
+    "your_email": "Din E-post",
+    "message": "Meddelande",
+    "send": "Skicka"
+  },
+  "errors": {
+    "not_found": "Sidan hittades inte",
+    "stale": "Data är tillfälligt otillgänglig"
+  },
+  "claim": {
+    "title": "Om att ta emot red packet",
+    "faq": {
+      "section_1": "Start och Berättigande",
+      "section_2": "Regler och Rättvisa för Evenemanget",
+      "section_3": "Ansökningsprocess och Uppgifter",
+      "section_4": "Belopp, Saldo och Uttag",
+      "section_5": "Riskkontroll och Begränsningar",
+      "section_6": "Punktlighet och Meddelanden",
+      "section_7": "Flerspråkighet och Regionala Skillnader",
+      "section_8": "Enheter och Kompatibilitet",
+      "section_9": "Integritet och Säkerhet",
+      "section_10": "Kundtjänst och Klager",
+      "section_11": "Andra Spel och Information",
+      "q1": "Hur registrerar jag mig?",
+      "a1": "Använd länken för att aktivera vår bot för automatisk registrering av erfarenhet. moonpacket tillåter gruppägare att montera i sina grupper. Spelare kan hämta red packets inte bara i vår officiella grupp utan också i alla grupper kopplade till moonpacket red packet-boten.",
+      "q2": "Vad behöver jag installera eller inaktivera?",
+      "a2": "Ingen installation av ytterligare applikationer krävs; det rekommenderas att använda den senaste versionen av Telegram. Om du öppnar WebApp i systemwebbläsaren, se till att cookies/lagring inte blockeras.",
+      "q3": "Vem kan delta?",
+      "a3": "Allmänt sett är alla Telegram-användare berättigade att delta; dock har varje grupps API-design olika regler, och du måste följa reglerna för den grupp eller kanal. Vissa regioner kan ha internetbegränsningar, eller vissa evenemang kan sätta regionala/åldersgränser, och systemet kommer automatiskt att avgöra obehöriga deltagare och förhindra dem från att göra anspråk.",
+      "q4": "Kan jag göra anspråk med flera konton eller enheter?",
+      "a4": "Nej. Systemet kommer att förhindra användare från att göra anspråk upprepade gånger genom att använda Telegram-kontot + bunden Gmail, verifieringskod, unik plånboksadress och onormala skanningar i bakgrunden; överträdelser kan utlösa riskkontroll och leda till kontosuspension.",
+      "q5": "Distribueras red packets slumpmässigt eller jämnt?",
+      "a5": "Grupp- eller projektaktiviteter kan välja 'slumptalsgenerering', 'jämn fördelning' eller 'utsedd'. Varje grupps regler är olika, vänligen se markeringarna i aktivitetsbeskrivningens information för varje grupp.",
+      "q6": "Hur säkerställer ni rättvisa? Kan jag kontrollera mina red packet-resultat där?",
+      "a6": "moonpacket erbjuder endast red packets; red packet-systemet fungerar som ett hjälpverktyg i boten, utan investering eller affärssamarbete med operatörer av olika plattformar. Därför är det att säkerställa absolut rättvisa i distribution det enda sättet att tillgodose allas behov. Dessutom finns en revisionspost kvar på servern under en viss period (algoritm och frö); användare kan kontrollera sina anspråkresultat på boten efter att red packet-aktivitetsanspråket avslutats, och detta resultat kan också efterfrågas efter att Telegram-miniappen har lanserats.",
+      "q7": "Hur många red packets kan varje person göra anspråk på?",
+      "a7": "Beroende på evenemangsinställningarna som projekten har utformat. Vissa är engångshändelser, medan andra har dagliga begränsningar, och om det finns en 'flertalet gånger per person'-gräns kommer systemet också automatiskt att begränsa det och ge en uppmaning när gränsen nås.",
+      "q8": "Kommer evenemanget att avslutas tidigt eller skjutas upp?",
+      "a8": "Om delarna är slut eller har gått ut kommer det att avslutas; eller om arrangören pausar eller avslutar på grund av onormala risker, kommer red packet-sidan att synkroniseras i realtid.",
+      "q9": "Varför kan jag inte göra anspråk efter att ha tryckt på knappen?",
+      "a9": "Vanliga orsaker: slut på anspråk/uppdrag inte slutfört. I några fall kan projekt pausa eller avsluta på grund av risker. På grund av tidsskillnaden i informationens uppdateringar mellan grupper kan det kanske inte avspegla direkt; vänligen håll dig uppdaterad om den senaste statusen för red packet-information på evenemangsidan som publicerats av gruppen.",
+      "q10": "Vad är uppgiftslåsningssystemet?",
+      "a10": "Du måste uppfylla angivna villkor (som att följa kanalen, gå med i gruppen, klara av lösenordet, externa uppgifter) för att göra anspråk. Efter att ha slutfört, återvänd till knappen i inlägget om red packet för att 'göra anspråk på red packet'.",
+      "q11": "Jag har tydligt slutfört uppgiften, varför visas det som icke godkänd?",
+      "a11": "Det kan förekomma synkroniseringsfördröjningar mellan olika API på Telegram; om det inte går igenom omedelbart, vänligen vänta en stund. Om du fortsätter att misslyckas är det troligtvis ett problem med API-leverantören, och vi rekommenderar att du rapporterar det till projektet som utfärdade red packet-uppgiften.",
+      "q12": "Var kan jag få frasnyckeln? Vad händer om jag anger den felaktigt?",
+      "a12": "Lösenordet annonseras vanligtvis av projektet i inlägg, livesändningar eller videor på x; du kan försöka igen om det skrivits in fel men flera felaktiga försök kan utlösa takbegränsningar.",
+      "q13": "Hur verifierar jag externa uppgifter (såsom webbplatsregistrering/handel)?",
+      "a13": "moonpacket tillhandahåller API för externa projekt för att bekräfta om användare har slutfört uppgifter. När användare gör anspråk på red packets skickas en förfrågan till API:t som returnerar verifieringsresultatet; om det uppfyller villkoren, låses det upp; om det inte har kommit tillbaka än kan du vänta och starta om senare.",
+      "q14": "Var kan jag kontrollera det mottagna beloppet?",
+      "a14": "Framgångsrika anspråk kommer att skickas via Telegram-boten och en red packet-anspråkspost kommer att finnas tillgänglig i miniappen, vilket gör att du kan se historik och tillgängligt uttagsbelopp när som helst.",
+      "q15": "Vilka tillgångar stöds?",
+      "a15": "Baserat på aktivitetsinställningarna är red packets för närvarande uppdelade i huvud USDT/SOL/ETH/TON och de tokens som utfärdas av gruppägaren. Sidan kommer att ange tillgångsenheter och växelkurs (om det finns någon).",
+      "q16": "Vilken information måste bindas för uttag? Hur lång tid tar det?",
+      "a16": "Du behöver ange din plånboksadress och grundläggande identitetsinformation av säkerhetsskäl; ankomsttiden är vanligtvis T+0 till T+2 arbetsdagar. Det kan förlängas vid onormal riskkontroll.",
+      "q17": "Vem står för transaktionsavgiften/gasen?",
+      "a17": "Varje on-chain-operation kräver en gasavgift som tas ut av blockkedjan själv, och moonpacket tar inte ut några extra avgifter.",
+      "q18": "Kan jag överföra mitt saldo till vänner eller slå ihop det?",
+      "a18": "Ingen metod för 'överföring/sammanfogning' tillhandahålls.",
+      "q19": "Varför bedömdes det som misstänkt eller avbrutet?",
+      "a19": "Möjliga orsaker inkluderar flera konton på samma enhet, onormala proxies/VPN:er, för hög frekvens av att hämta red packets i flera grupper, svartlistade regioner/ASN, etc. Du kan skicka innehållet i /report-meddelandet till boten; detta är en envägs svarskanal, och den officiella reserverar rätten att inte förklara eller svara angående kontoblockeringar.",
+      "q20": "Måste jag genomgå KYC-verifiering (verifieringskod)?",
+      "a20": "I hög risk-situationer kommer verifiering att baseras på den information som anges av användarna; vänligen se till att korrekt säkerhetsinformation fylls i vid uttag; om felaktig information inte anges, kommer du inte att klara biometrisk och dokument KYC.",
+      "q21": "Vad ska jag göra om mitt konto är begränsat?",
+      "a21": "Begränsningar är vanligtvis tillfälliga skyddsåtgärder. Vänligen skicka innehållet i /report-meddelandet till boten. Frågor som ställs av verifierare som inte har fyllt i säkerhetsinformation kommer inte att behandlas; om situationen är normal efter att verifieringen är slutförd, kommer vi att hantera det.",
+      "q22": "När börjar och slutar varje red packet-event?",
+      "a22": "Varje projekt som utfärdar red packets har olika villkor, vänligen håll koll på tiden och återstående kvoter för red packet-information; du kan aktivera Telegram-notifikationer eller ställa in specifika notifikationsljud för att få tidiga aviseringar för att hämta red packets.",
+      "q23": "Kan jag aktivera eller inaktivera meddelanden för att ta emot eller slutföra uttag?",
+      "a23": "Det här är din inställning på Telegram, inte en moonpacket-inställning; du kan justera notifikationerna i dina Telegram-inställningar.",
+      "q24": "Varför kan jag inte se vissa uttagsmetoder eller funktioner?",
+      "a24": "Policyer i vissa regioner är inte tillämpliga, och systemet kommer automatiskt att dölja eller förhindra uttag, vilket indikerar att du inte kan delta i aktiviteten att hämta red packets, eftersom denna region för närvarande inte stöder det.",
+      "q25": "Hur många decimaler kommer det digitala formatet att visa?",
+      "a25": "Webbplatsen kommer automatiskt att tillämpa lokaliserade tusentalsavskiljare och decimaler baserat på ditt språk.",
+      "q26": "Är det tillgängligt på iOS, Android och desktop Telegram?",
+      "a26": "Ja, det rekommenderas att använda den senaste versionen av Telegram. Om du stöter på oläsliga situationer, kontrollera om du använder den officiella klienten, eller uppdatera appen, eller klicka för att ladda om sidan i de tre prickarna högst upp till höger på miniapp-sidan.",
+      "q27": "Kommer byte av enhet att påverka mottagandet?",
+      "a27": "Det kommer inte att påverka poster, men om upprepade åtgärder utförs på flera enheter på kort tid kan det utlösa riskkontroll.",
+      "q28": "Kommer användning av VPN/proxy att ha några effekter?",
+      "a28": "Om du använder en högrisk-proxy kan den bli avlyssnad. Vi rekommenderar att du tillfälligt inaktiverar proxyn eller byter till en ren nätverksmiljö och försöker igen.",
+      "q29": "Vilka data kommer att samlas in?",
+      "a29": "Följ minimiseringsprincipen: samla endast in data som är nödvändig för distribution/uttag/riskkontroll (som personliga säkerhetsfrågor, plånboksadresser, e-post, Telegram ID). När nödvändig autentisering krävs kommer vi att verifiera via en tredjepartsverifieringsplattform, som inte lagrar användarens privata data förutom säkerhetsinformation.",
+      "q30": "Vilka åtgärder finns på plats för att säkerställa fondens säkerhet?",
+      "a30": "Alla kritiska operationer kommer att kräva en andra verifiering; högriskuttag kan utlösa manuell granskning.",
+      "q31": "Kan jag radera mitt konto eller mina uppgifter?",
+      "a31": "Du kan skicka en begäran om datatillgång eller radering enligt processen. När kontot har raderats kan du inte längre logga in, men transaktionsdata kommer att behållas under efterlevnadskrav.",
+      "q32": "Vem ska jag kontakta om jag stöter på ett problem?",
+      "a32": "Du kan kontakta oss genom att skicka/inrapportera information via boten. Att tillhandahålla felkoder och skärmdumpar kan påskynda handläggningen.",
+      "q33": "Hur lång tid tar det att få ett svar på en klagan?",
+      "a33": "Allmänt sett ges svar inom 1-3 arbetsdagar; brådskande fall relaterade till medel kommer att prioriteras.",
+      "q34": "Kan jag delta i aktiviteter över flera grupper?",
+      "a34": "Ja; varje aktivitet har oberoende regler, var vänlig uppmärksamma begränsningarna och giltighetsperioden för varje evenemang.",
+      "q35": "Kommer det att finnas ett leaderboard eller märken?",
+      "a35": "Vissa aktiviteter kan ha topplistor/märken och lotterier; se aktivitetsidan för regler och belöningar."
+    }
+  },
+  "send": {
+    "title": "Vanliga Frågor (FAQ Detaljerad Version) — Skicka Red Packets (Arrangör)",
+    "hero": {
+      "api_demo_label": "API-Demonstration",
+      "api_get": "GET [api_url]?api_key=[api_key]&user_id=[user_id]",
+      "response_label": "Återvända:",
+      "json": {
+        "0": "{",
+        "1": "\"data\": {",
+        "2": "\"level\": 100,",
+        "3": "\"status\": \"active\",",
+        "4": "\"is_blacklist\": false",
+        "5": "}",
+        "6": "}"
+      },
+      "title": "Få nya användare, öka aktivitet",
+      "lead": "Projektparterna kan ställa in specifika villkor:",
+      "points": {
+        "0": "• Gå med i gruppen/följ kanalen",
+        "1": "• Använda frasen korrekt",
+        "2": "• Anpassad API-implementation"
+      },
+      "note": "Endast användare som uppfyller villkoren kan ta emot red packets"
+    },
+    "faq": {
+      "section_1": "Start och Inställningar",
+      "section_2": "Publiceringsregler och Rättvisa",
+      "section_3": "Uppgifter och Villkor",
+      "section_4": "Tillgångar, Exponering och Avveckling",
+      "q1": "Hur kommer jag igång?",
+      "a1": "Vänligen lägg till moonpacket-boten i din Telegram-grupp eller kanal och ställ in den som administratör. Se till att aktivera åtminstone: publicera, redigera/radera egna inläggsbehörigheter. Efter att ha slutfört det, återvänd till moonpacket 'Skicka red packet'-sidan, och du kommer att se de bunden grupper/kanaler i 'Skicka Till'-listan.",
+      "q2": "Vad bör jag tänka på innan jag skickar?",
+      "a2": "Vänligen sätt in de tillgångar du vill utfärda först (till exempel sätt in 10 USDT för testning). Du kan skicka huvudsakliga tokens (USDT/TON, osv.) eller dina egna meme-mynt. Huvudtokens kommer att visas ytterligare i hemsidan flödet, medan meme-mynt endast visas inom din community.",
+      "q3": "Kan jag välja vart jag ska skicka det?",
+      "a3": "I 'Skicka Mål', kontrollera de bundna grupper/kanaler för att skicka till en eller flera grupper samtidigt. Om du inte ser dem i listan, vänligen bekräfta att boten är administratör för gruppen/kanalen och har nödvändiga behörigheter.",
+      "q4": "Vilka distributionsmodeller finns tillgängliga?",
+      "a4": "Du kan välja slumpmässigt (tur) eller fast belopp (lika fördelning). Båda kan ställa in det totala beloppet, antal andelar och beloppsgräns per person, och kan lägga till giltighetstid eller schemalagd utgivning.",
+      "q5": "Kan det skickas allt på en gång eller i batchar?",
+      "a5": "Ja. Du kan ställa in en engångsutgivning eller batchutgivning inom en specifik period; nedräkning och förhandsgranskningsmeddelanden stöds också.",
+      "q6": "Vad händer om saldot är otillräckligt?",
+      "a6": "Systemet är baserat på din tillgängliga balans. Om balansen är otillräcklig kommer en felmeddelande att skickas som begär att du ska fylla på för att undvika överutgifter.",
+      "q7": "Hur säkerställs rättvisa?",
+      "a7": "Distribution utförs på serversidan och behåller revisionsposter (algoritm och frö, operationsloggar). Regler, andelar, gränser, och slutliga resultat kommer att visas offentligt på evenemangssidan för spårbarhet.",
+      "q8": "Kan jag kräva att man går med i en grupp eller följer en kanal för att ta emot det?",
+      "a8": "Ja. Du kan aktivera den inbyggda villkoren 'Måste gå med i viss grupp/följa viss kanal'. Premissen är att din bot är i den gruppen/kanalen och har behörigheter att publicera och redigera/radera egna inlägg för att verifiera medlemsstatus.",
+      "q9": "Vad är ett lösenord? I vilka scenarier är det lämpligt?",
+      "a9": "Spelare måste få lösenordet genom externa kanaler och kan göra anspråk på det efter att de korrekt har angett det på sidan. Vanliga metoder inkluderar: dela upp det 6-siffriga lösenordet i långa YouTube-videor för att uppmuntra full visning; antyda lösenordet i X.com (Twitter) inlägg eller Threads för att öka interaktionen; endast verbalt tillkänna ge lösenordet under livestreamar för att vägleda deltagarna; dedikerade lösenord i privata/betalade grupper för att säkerställa att fördelar endast ges till kärnmedlemmar.",
+      "q10": "Kan jag använda mitt eget API för att bestämma berättigande?",
+      "a10": "Ja. moonpacket kommer att anropa det skrivskyddade API som du tillhandahöll för verifiering innan användare gör anspråk. Backend behöver bara ställa in api_url och api_key (domänbehörighet kan konfigureras valfritt).",
+      "q11": "Vad är exponeringarna skillnaden mellan huvudmynt och meme-mynt?",
+      "a11": "Huvudmynt (USDT/TON, osv.) kommer att visas i gruppen och också i hemsidan flödet för högre exponering; meme-mynt kommer endast att visas i din grupp.",
+      "q12": "Hur förhindrar man fusk och bulkmaskiner?",
+      "a12": "Inkluderar beteendefrekvens och enhets/IP-detektering, unik bindning av konton och plånböcker, verifieringskod för uttag, AI-riskkontroll första granskning; om det behövs kommer det att finnas tredje part biometrisk + ansikts + identifieringsverifiering.",
+      "q13": "Var kan jag se mina skickade register och antalet mottagare?",
+      "a13": "Vänligen kolla 'Red Packets Jag Skickade' på din personliga hemsida för att se antalet ansökande, kvarvarande andelar, och totalt belopp som förbrukats för varje session; om det är aktiverat, kan du också ladda ner rapporter."
+    }
+  },
+  "groups_directory": {
+    "latest_tab": "Senaste red packet-grupper",
+    "hot_tab": "Populära red packet-grupper",
+    "search_placeholder": "Sökordsnycklar för anslutna grupper"
+  },
+  "a11y": {
+    "skip_to_main": "Hoppa till Huvudinnehåll",
+    "language_menu": "Språkmeny",
+    "language": "Språk"
+  },
+  "waterfall": {
+    "sent_from": "Skickar till grupp:",
+    "claimed": "Ansök",
+    "total": "Totalbelopp",
+    "progress": "Ansökt"
+  },
+  "terms": {
+    "title": "Användarvillkor",
+    "version": "v1.0.0",
+    "updated": "5 oktober 2025 15:00 GMT+0800 (Taipei standardtid) :00:",
+    "owner": "moonpacket-core",
+    "sections": {
+      "scope": "Tillämpningsområde och avtalsskapande",
+      "definitions": "Definition",
+      "eligibility": "Kvalifikationer och konton",
+      "services": "Tjänsteinnehåll",
+      "wallet": "Molnbaserad plånbok och medel",
+      "fees": "Avgifter och fakturering",
+      "rules": "Aktivitetsregler och rättvisa",
+      "restrictions": "Anti-bot och användningsbegränsningar",
+      "ip": "Innehåll och immateriella rättigheter",
+      "third_party": "Tredjepartstjänster",
+      "data": "Data och integritet",
+      "risks": "Riskdisclosure",
+      "disclaimer": "Ansvarsfriskrivning",
+      "liability": "Ansvarsbegränsning",
+      "indemnity": "Ersättning",
+      "termination": "Suspension, uppsägning och radering",
+      "force_majeure": "Högsta Force Majeure",
+      "high_risk": "Förbjudna högriskanvändningar",
+      "tax": "Skatter och rapportering",
+      "third_party_services": "Tredjepartstjänster och relationsavtal",
+      "wallet_assets": "Plånbok och tillgångsredovisningar",
+      "accuracy": "Noggrannhet av innehåll och data",
+      "governing_law": "Tillämplig lag och tvistlösning",
+      "contact": "Kontaktinformation"
+    }
+  },
+  "privacy": {
+    "title": "Integritetspolicy",
+    "version": "v1.1.0",
+    "updated": "5 oktober 2025, söndag 15:00:00 GMT+0800 (Taipei Standard Time)",
+    "owner": "moonpacket-core",
+    "sections": {
+      "intro": "Introduktion",
+      "definitions": "Definitioner",
+      "scope": "Tillämpningsområde",
+      "data_collection": "De data vi samlar in",
+      "data_usage": "Vår användning",
+      "legal_basis": "Regulatorisk grund",
+      "cookies": "Cookies och lokal lagring",
+      "data_sharing": "Mottagare av datadelning",
+      "cross_border": "Gränsöverskridande överföring",
+      "retention": "Bevarandetid",
+      "security": "Säkerhet",
+      "blockchain": "Beskrivning av blockchain-funktioner",
+      "telegram": "Telegram plattformsutlåtande",
+      "minors": "Regler kring minderåriga",
+      "rights": "Dina rättigheter och hur du utövar dem",
+      "faq": "Vanliga frågor (Integritet och Säkerhet)",
+      "updates": "Uppdatering av villkor",
+      "contact": "Kontaktinformation"
+    },
+    "faq": {
+      "q1": "Vilka uppgifter samlar vi in?",
+      "a1": "Vi kommer att tillhandahålla nödvändig information för utfärdande och mottagande av red packets, uppgift verifiering, molnplånbok och uttag, inklusive grundläggande Telegram-information, enhets- och nätverksmetrik, interaktionsevent samt KYC och plånboksinformation när det krävs.",
+      "q2": "Är mina medel säkra?",
+      "a2": "Medel och operationskonton är separerade, känsliga operationer kräver tvåfaktorsautentisering och alla finansiella händelser kommer att loggas; hög-risk uttag kommer att granskas manuellt.",
+      "q3": "Kan jag radera mina uppgifter?",
+      "a3": "Du kan begära radering eller begränsning av dina uppgifter enligt lagen; redovisnings- eller tvistelänsliga uppgifter som måste bevaras enligt lag omfattas inte av denna begränsning och kommer att raderas eller anonymiseras efteråt.",
+      "q4": "Regionens begränsningar och synligt innehåll matchar inte?",
+      "a4": "Enligt compliance-policys kan vissa funktioner eller uttagsmetoder vara otillgängliga på grund av regionala begränsningar, och systemet kommer automatiskt att dölja oanvändbara alternativ.",
+      "q5": "Varför klassades det som misstänkt?",
+      "a5": "Problem kan uppstå på grund av proxy/VPN, ovanlig frekvens eller samtidig inloggning från flera konton; du kan försöka igen senare eller genomgå överklagandeprocessen för granskning."
+    }
+  },
+  "roadmap": {
+    "accept": "Acceptanskriterier",
+    "bucket": {
+      "progress": "Framsteg"
+    },
+    "lanes": {
+      "build": "Bygg produkt",
+      "growth": "Tillväxt",
+      "token": "moonini token",
+      "trust": "Tillit, efterlevnad och säkerhet"
+    },
+    "progressLabel": "Framsteg",
+    "status": {
+      "live": "Live",
+      "planned": "Planerat",
+      "research": "I forskning",
+      "shipping": "I utveckling"
+    },
+    "title": "Produktvägkarta",
+    "updated": "Uppdatering (Tokens kommer att distribueras när framstegslisten är full)"
+  }
+}

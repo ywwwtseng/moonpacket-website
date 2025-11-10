@@ -1,0 +1,48 @@
+{
+  "title": "Feuille de route du produit",
+  "updated": "Mise à jour (les jetons commencent à être distribués après que la barre de progression est pleine)",
+  "bucket": {
+    "progress": "Progrès"
+  },
+  "status": {
+    "shipping": "En développement",
+    "planned": "Prévu",
+    "research": "En recherche",
+    "live": "Lancé"
+  },
+  "accept": "Critères d'acceptation",
+  "lanes": {
+    "build": "Produits développés",
+    "trust": "Confiance, conformité et sécurité",
+    "growth": "Croissance",
+    "token": "jeton moonini"
+  },
+  "progressLabel": "Progrès",
+  "phase": {
+    "open-beta": {
+      "title": "Lancement de la bêta ouverte (red packet de la communauté interne)",
+      "desc": "Pilote au sein de la communauté, intégration communautaire ouverte sous conditions ; Tester la distribution/réclamation basique et l'expérience utilisateur",
+      "accept": "Règles claires, réclamation fluide, entonnoirs clés utilisables"
+    },
+    "multi-chain": {
+      "title": "Optimisation continue : Multi-chaînes + mécanisme de points + anti-bot",
+      "desc": "Extension au support multi-chaînes au-delà de Solana ; Calcul et visualisation des points ; Stratégie anti-bot et test A/B",
+      "accept": "L'identification des actifs multi-chaînes est correcte ; Points et contrôle des risques fonctionnent normalement"
+    },
+    "compliance": {
+      "title": "Contrôle des risques et conformité",
+      "desc": "Mécanismes KYC/AML, d'audit et de sécurité ; Processus d'examen anormal.",
+      "accept": "Activer la KYC si nécessaire ; Les règles AML sont auditables ; journaux de sécurité solides"
+    },
+    "growth-integration": {
+      "title": "Croissance : intégration communautaire + API/Webhook + collaboration écosystémique",
+      "desc": "Guide d'intégration, Webhook d'événements, API de requête ; Processus d'intégration des partenaires",
+      "accept": "Guide d'intégration approuvé ; API Webhook/Query est stable"
+    },
+    "token-moonini": {
+      "title": "Points échangeables contre des tokens : moonini",
+      "desc": "Achèvement de la distribution des tokens moonini et du mécanisme d'échange",
+      "accept": "Règles pour convertir des points en tokens mises en œuvre ; Contrôles de conformité/risk management réussis"
+    }
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "title": "moonpacket — 簡単、安全、迅速な暗号レッドパケット",
+  "description": "moonpacket 暗号化レッドパケットロボット | USDT、TON、SOL、ETHをサポート。レッドパケットを簡単に送信し、迅速かつ安全にノンカストディアルで受信。Telegramコミュニティの成長とエンゲージメントの向上に最適。",
+  "nav": {
+    "home": "ホーム",
+    "about": "約",
+    "pricing": "価格",
+    "team": "チーム",
+    "blog": "ブログ",
+    "faq": "よくある質問",
+    "contact": "お問い合わせ",
+    "careers": "キャリア",
+    "claim": "レッドパケットを受け取る",
+    "send": "レッドパケットを送信",
+    "api": "APIドキュメント"
+  },
+  "hero": {
+    "title": "誰でも利用可能な暗号通貨レッドパケット",
+    "subtitle": "シンプルでグローバルなサービスでコミュニティ体験を向上させましょう。",
+    "desc": "memeトークンプロジェクトとTelegramグループオーナー向けの最高のレッドパケットボット、新しいユーザーを獲得し、エンゲージメントを向上させます。",
+    "ctaPrimaryLabel": "moonpacketを起動",
+    "ctaPrimaryHref": "https://t.me/MoonPackageDevBot",
+    "ctaSecondaryLabel": "統合方法",
+    "ctaSecondaryHref": "/zh-TW/integration",
+    "lead": "Telegram TON、meme、USDTレッドパケット | memeトークンプロジェクトとTelegramグループオーナー向けの最高のレッドパケットボット、新しいユーザーを獲得し、エンゲージメントを向上させます。",
+    "cta_primary": "今すぐmoonpacketをアクティブ化",
+    "cta_secondary": "グループとの統合方法",
+    "headline_line1": "moonpacket",
+    "headline_line2": "始めましょう、月を目指して。",
+    "tagline": "コミュニティマーケティングとリテンションのためのTelegram TON、meme、USDTレッドパケット。管理者向けに設計されたグループレッドパケットボットで、エンゲージメントを向上させ、新しいメンバーを引き付け、インタラクションを促進します。"
+  },
+  "features": {
+    "f1": "簡単登録",
+    "f2": "グローバルローカリゼーション",
+    "f3": "ノンカストディアルセキュリティ",
+    "title": "コア機能",
+    "items": "__TODO_TRANSLATE_zh-CN__"
+  },
+  "sections": {
+    "waterfall_title": "レッドパケットの滝",
+    "features_heading": "機能ハイライト",
+    "features_subtitle": "受け取れます",
+    "tokens_heading": "トークンと統計",
+    "testimonials_heading": "ユーザーレビュー",
+    "pricing_heading": "プランと料金"
+  },
+  "footer": {
+    "rights": "",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約",
+    "social": {
+      "telegram_group": "Telegramグループ",
+      "telegram_channel": "Telegramチャンネル",
+      "x": "X",
+      "youtube": "YouTube"
+    },
+    "copyright": "著作権。"
+  },
+  "a11y": {
+    "skip_to_main": "メインコンテンツにスキップ",
+    "language_menu": "言語メニューを開く",
+    "language": "言語"
+  },
+  "metrics": {
+    "heading": "リアルタイム指標",
+    "price_btc": "BTC価格",
+    "total_sent": "送信した合計額",
+    "total_claimed_amount": "受け取った合計額（USDT）",
+    "title": "トークンと統計",
+    "groups": "接続されたグループ",
+    "groupsLinkLabel": "接続されたレッドパケットグループ",
+    "sent": "送信されたレッドパケット",
+    "claimed": "請求された合計額",
+    "sort": {
+      "latest": "最新",
+      "oldest": "最古",
+      "most": "最多の参加者",
+      "least": "最少の参加者"
+    }
+  },
+  "errors": {
+    "stale": "データが古くなっている可能性があります",
+    "not_found": "ページが見つかりません",
+    "not_found_desc": "申し訳ありませんが、このページは見つかりませんでした、または削除されました。"
+  },
+  "pricing": {
+    "starter": "基本プラン",
+    "pro": "プロフェッショナルサービス",
+    "enterprise": "エンタープライズプラン",
+    "price_free": "無料",
+    "price_19": "$19",
+    "price_contact": "お問い合わせ",
+    "sla_support": "SLAとサポート",
+    "bullets": {
+      "starter": {
+        "0": "基本機能",
+        "1": "コミュニティサポート"
+      },
+      "pro": {
+        "0": "基本プランを含む",
+        "1": "高度なローカライズ"
+      },
+      "enterprise": {
+        "0": "SLAとサポート",
+        "1": "カスタムインテグレーション"
+      }
+    }
+  },
+  "story": {
+    "belief_title": "🌕 月のエネルギーとレッドパケットへの信念",
+    "disclaimer_title": "⚠️ 免責事項",
+    "future_title": "💫 将来のアプリケーション",
+    "schedule_title": "トークンリリースルール",
+    "secrets_title": "🌸 彼の秘密",
+    "title": "🌕 mooniniの物語"
+  },
+  "waterfall": {
+    "claimed": "請求する",
+    "progress": "請求済み",
+    "sent_from": "送信グループ：",
+    "total": "合計金額"
+  },
+  "seo": {
+    "og": {
+      "image": "/images/og-default.png",
+      "type": "website"
+    },
+    "routes": {
+      "claim": {
+        "description": "moonpacketのレッドパケット機能は、SOLやUSDTを含む様々なトークンをサポートし、あなた自身のミームトークンを送信することができます。新しいユーザーを引き付け、Telegramグループでのエンゲージメントを高める強力なツールです。",
+        "title": "レッドパケットTelegramミニアプリ — moonpacket"
+      },
+      "privacy": {
+        "description": "moonpacketのプライバシーポリシーは、個人データの収集、使用、保護方法を説明しています。",
+        "title": "プライバシーポリシー — moonpacket"
+      },
+      "send": {
+        "description": "moonpacketを使用してレッドパケットを送信し、タスク条件を設定し、API統合を行うことで、新しいユーザーを効果的に惹きつけ、価値あるユーザーのコミュニティ参加を促進します。",
+        "title": "レッドパケットを送信 — moonpacket"
+      },
+      "terms": {
+        "description": "moonpacket利用規約、使用ガイドラインおよび法的声明。",
+        "title": "利用規約 — moonpacket"
+      }
+    },
+    "site": {
+      "description": "moonpacketの暗号通貨レッドパケットTelegramボット | USDT、TON、SOL、ETH、DOGEをサポート。独自のmemeトークンレッドパケットも送信可能で、新しいユーザーを惹きつけたり、活気ある雰囲気を作り出したり、Telegramコミュニティのエンゲージメントを高めるのに最適です。",
+      "site_name": "moonpacket",
+      "title": "moonpacket — memeトークン暗号通貨レッドパケット、専用レッドパケットウォレット"
+    }
+  }
+}

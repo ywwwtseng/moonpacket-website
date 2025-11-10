@@ -1,0 +1,101 @@
+{
+  "illustration_alt": "moonini îmbrățișează ilustrarea",
+  "title": "🌕 Povestea lui moonini",
+  "origin": [
+    "Într-o zi, o meteor roșu a căzut pe partea îndepărtată a lunii,",
+    "Lumina lunii a explodat la impact, transformându-se într-o ploaie de lumină alb-silver.",
+    "Din acel 'meteorit red packet' roșu strălucitor,",
+    "S-a născut un mic iepure de lună strălucitor — moonini.",
+    "",
+    "moonini poartă un badge galben-auriu pe piept.",
+    "El poate simți fiecare red packet trimis din Pământ.",
+    "Indiferent de sumă, este cea mai pură energie caldă.",
+    "Da, moonini crește datorită energiei red packet a tuturor.",
+    "",
+    "Aceste energii s-au transformat în certificate red packet născute pe lanțul Solana —",
+    "Aceasta este originea Tokenului $moonini."
+  ],
+  "secrets_title": "🌸 Secretul său",
+  "secrets_intro": "De fiecare dată când trimiteți un red packet, moonini va înregistra o intrare de energie pe lună:",
+  "secrets_flow": "Trimite red packet → Produce valoarea corespunzătoare a energiei (convertită în valoare USDT) → Acumulează la 10 → Atinge valoarea minimă răscumpărabilă $moonini.",
+  "secrets_halving": [
+    "În faza inițială (Faza 1), moonini va returna, în general, în cel mai bun raport de 1:1 către expeditorul red packet-ului. Pentru a menține corectitudinea și a reduce riscul de wash/ping-pong, vom introduce conceptul de energie eficientă.",
+    "Când sumele totale trimise și retrase din comunitate ating pragul de jumătate stabilit de sistem, va avea loc prima jumătate; ulterior, atingerea jumătății sumei din etapa anterioară va declanșa o nouă jumătate."
+  ],
+  "schedule_title": "Reguli de eliberare a token-ului",
+  "schedule_headers": [
+    "Etapă",
+    "Limită de emitere",
+    "Raport de output (energie produsă per 1 USDT acumulat)",
+    "Descriere"
+  ],
+  "schedule_rows": [
+    [
+      "Phase 1",
+      "0 ~ 4.5 billion",
+      "1.0 $MOONINI / USDT",
+      "Initial period, energy overflow."
+    ],
+    [
+      "Phase 2",
+      "4.5B ~ 6.75B",
+      "0.5 $MOONINI / USDT",
+      "First halving."
+    ],
+    [
+      "Phase 3",
+      "6.75B ~ 7.875B",
+      "0.25 $MOONINI / USDT",
+      "Stabilization period."
+    ],
+    [
+      "Phase 4",
+      "7.875B ~ 8.4375B",
+      "0.125 $MOONINI / USDT",
+      "Scarcity period."
+    ],
+    [
+      "Phase 5",
+      "8.4375B ~ 8.71875B",
+      "0.0625 $MOONINI / USDT",
+      "Late mining phase."
+    ],
+    [
+      "Phase 6",
+      "8.71875B ~ 9B",
+      "0.03125 $MOONINI / USDT",
+      "Crystallization period (final phase)."
+    ]
+  ],
+  "cap_note": [
+    "Când circulația totală atinge 9 miliarde, moonini va opri emiterea.",
+    "Cele 1 miliard rămase (10% din oferta totală),",
+    "Rezervat de oficial pentru viitoare recompense comunitare și utilizarea fondului de colaborare."
+  ],
+  "belief_title": "🌕 Energia lunii și credința în red packets",
+  "belief_paragraphs": [
+    "moonini iubește pe toți cei dispuși să 'împărtășească'.",
+    "Crede că red packets nu sunt doar bani, ci un schimb de binecuvântări și energie.",
+    "De fiecare dată când trimiteți un red packet, finalizați o sarcină sau vă alăturați comunității moonpacket,",
+    "veți avea șansa să primiți un retur de la lună — $moonini căzut aleatoriu.",
+    "",
+    "Aceasta este lumina pe care universul ți-o dă înapoi după ce răspândești bucurie."
+  ],
+  "future_title": "💫 Aplicații viitoare",
+  "future_intro": "În prezent, $moonini nu este deschis pentru niciun scenariu oficial de aplicare, dar este conceput ca o recompensă și un certificat de energie pentru viitorul lumii red packet, posibil să fie utilizat pentru:",
+  "future_list": [
+    "✅ Discounturi la taxele de tranzacție red packet",
+    "🎁 Vouchere pentru comercianți/reducere la răscumpărare",
+    "🌐 Airdrop-uri de evenimente și recompense pentru sarcini comunitare"
+  ],
+  "disclaimer_title": "⚠️ Declarație",
+  "disclaimer_paragraphs": [
+    "Oficialul nu garantează nicio valoare de schimb fiat pentru $moonini.",
+    "Îl poți considera ca fiind punctele bonus ale unei persoane generoase.",
+    "Simbolizând pe toți cei dispuși să împărtășească fericirea și să răspândească energie."
+  ],
+  "closing": [
+    "moonini — iepurele de lună născut din energia red packet.",
+    "Fiecare binecuvântare este un rază de lumină pentru creșterea sa."
+  ]
+}

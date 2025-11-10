@@ -1,0 +1,377 @@
+{
+  "site": {
+    "title": "moonpacket — lì xì tiền điện tử đơn giản, nhanh chóng và an toàn",
+    "description": "Gửi lì xì bằng tiền điện tử và hiển thị giá và chỉ số trên các trang tĩnh thân thiện với SEO."
+  },
+  "nav": {
+    "home": "Trang chủ",
+    "about": "Giới thiệu",
+    "pricing": "Giá cả",
+    "team": "Nhóm",
+    "blog": "Blog",
+    "faq": "Câu hỏi thường gặp",
+    "contact": "Liên hệ với chúng tôi",
+    "careers": "Tuyển dụng",
+    "claim": "Nhận lì xì",
+    "send": "Gửi lì xì",
+    "api": "Tài liệu API"
+  },
+  "hero": {
+    "title": "moonpacket cất cánh lên mặt trăng!",
+    "subtitle": "Telegram TON, meme, USDT nắm lì xì｜Một bot lì xì được thiết kế cho các dự án coin meme và chủ sở hữu nhóm Telegram nhằm tăng cường việc thu hút và tương tác người dùng.",
+    "desc": "Một bot lì xì được thiết kế cho các dự án coin meme và chủ sở hữu nhóm Telegram nhằm tăng cường việc thu hút và tương tác người dùng.",
+    "ctaPrimaryLabel": "Kích hoạt moonpacket",
+    "ctaPrimaryHref": "https://t.me/MoonPackageDevBot",
+    "ctaSecondaryLabel": "Cách tích hợp",
+    "ctaSecondaryHref": "/zh-TW/integration"
+  },
+  "features": {
+    "f1": "Cài Đặt Nhanh",
+    "f2": "Địa Phương Hóa Toàn Cầu",
+    "f3": "Bảo Mật Phi Tập Trung"
+  },
+  "metrics": {
+    "heading": "Chỉ số theo thời gian thực",
+    "price_btc": "Giá BTC",
+    "total_sent": "Tổng số lượng lì xì đã gửi",
+    "total_claimed_amount": "Tổng số tiền đã yêu cầu (USDT)",
+    "title": "Dữ liệu moonpacket",
+    "groups": "Nhóm",
+    "groupsLinkLabel": "Các nhóm lì xì đã tham gia",
+    "sent": "Đã gửi",
+    "claimed": "Đã nhận (USDT)",
+    "sort": {
+      "latest": "Mới nhất",
+      "oldest": "Cao tuổi nhất",
+      "most": "Tham gia tối đa",
+      "least": "Tham gia tối thiểu"
+    }
+  },
+  "cta": {
+    "primary": "Bắt Đầu",
+    "secondary": "Tìm Hiểu Thêm",
+    "banner": "Sẵn sàng làm cho cộng đồng của bạn sôi động hơn?"
+  },
+  "footer": {
+    "rights": "Tất Cả Các Quyền được Bảo Lưu.",
+    "privacy": "Quyền Riêng Tư",
+    "terms": "Điều Khoản Dịch Vụ",
+    "social": {
+      "telegram_group": "Nhóm Telegram",
+      "telegram_channel": "Kênh Telegram",
+      "x": "X",
+      "youtube": "YouTube"
+    }
+  },
+  "features_desc": {
+    "f1": "Khởi Động Nhanh Với Các Bước Tối Thiểu",
+    "f2": "Hỗ Trợ 34 Ngôn Ngữ và RTL Tích Hợp Sẵn",
+    "f3": "Phi Tập Trung với Tư Duy Bảo Mật"
+  },
+  "sections": {
+    "features_heading": "Điểm nhấn Tính năng",
+    "features_subtitle": "Bạn có thể nhận",
+    "tokens_heading": "Token và thống kê",
+    "testimonials_heading": "Những gì người dùng nói",
+    "pricing_heading": "Kế hoạch và Giá cả",
+    "waterfall_title": "Bản ghi lì xì thời gian thực"
+  },
+  "tokens": {
+    "columns": {
+      "token": "Token",
+      "price": "Giá",
+      "h24": "24 giờ",
+      "d7": "7 ngày",
+      "market_cap": "Vốn hóa thị trường"
+    }
+  },
+  "testimonials": {
+    "q1": "Việc ra mắt đa ngôn ngữ rất nhanh và đơn giản.",
+    "a1": "Jane, Giám đốc sản phẩm",
+    "q2": "Gần như không cần JS, và thân thiện với SEO.",
+    "a2": "Mike, SEO",
+    "q3": "Các mặc định về khả năng truy cập và địa phương hóa khá toàn diện.",
+    "a3": "Sara, Nhà thiết kế"
+  },
+  "pricing": {
+    "starter": "Bắt Đầu",
+    "pro": "Chuyên Nghiệp",
+    "enterprise": "Doanh Nghiệp",
+    "price_free": "Miễn Phí",
+    "price_19": "$19",
+    "price_contact": "Liên Hệ Chúng Tôi",
+    "bullets": {
+      "starter": {
+        "0": "Tính Năng Cơ Bản",
+        "1": "Hỗ Trợ Cộng Đồng"
+      },
+      "pro": {
+        "0": "Gói Cơ Bản",
+        "1": "Gói Nâng Cao"
+      },
+      "enterprise": {
+        "0": "Thời gian phản hồi và Hỗ trợ",
+        "1": "Tích hợp tùy chỉnh"
+      }
+    }
+  },
+  "form": {
+    "your_email": "Email của bạn",
+    "message": "Tin nhắn",
+    "send": "Gửi"
+  },
+  "errors": {
+    "not_found": "Trang Không Tìm Thấy",
+    "stale": "Dữ Liệu Tạm Thời Không Có Sẵn"
+  },
+  "claim": {
+    "title": "Giới thiệu về Nhận Lì Xì",
+    "faq": {
+      "section_1": "Bắt đầu và Điều kiện tham gia",
+      "section_2": "Quy tắc Sự kiện và Sự công bằng",
+      "section_3": "Quy trình Yêu cầu và Nhiệm vụ",
+      "section_4": "Số tiền, Số dư và Rút tiền",
+      "section_5": "Kiểm soát Rủi ro và Hạn chế",
+      "section_6": "Tính kịp thời và Thông báo",
+      "section_7": "Khác biệt Đa ngôn ngữ và Khu vực",
+      "section_8": "Thiết bị và Tính tương thích",
+      "section_9": "Quyền Riêng Tư và An Ninh",
+      "section_10": "Dịch vụ Khách hàng và Khiếu nại",
+      "section_11": "Các Trò chơi và Thông tin khác",
+      "q1": "Cách đăng ký?",
+      "a1": "Sử dụng liên kết để kích hoạt bot của chúng tôi cho việc đăng ký trải nghiệm tự động. moonpacket cho phép chủ nhóm lắp ghép trong nhóm của họ. Người chơi có thể nhận lì xì không chỉ trong nhóm chính thức của chúng tôi mà còn trong tất cả các nhóm liên kết với bot lì xì moonpacket.",
+      "q2": "Tôi cần cài đặt hoặc tắt gì không?",
+      "a2": "Không yêu cầu cài đặt thêm ứng dụng; nên sử dụng phiên bản mới nhất của Telegram. Nếu bạn mở WebApp trong trình duyệt hệ thống, hãy đảm bảo rằng cookie/lưu trữ không bị chặn.",
+      "q3": "Ai có thể tham gia?",
+      "a3": "Thực tế, tất cả người dùng Telegram đều đủ điều kiện tham gia; tuy nhiên, thiết kế API của mỗi nhóm là khác nhau, và bạn phải tuân thủ quy định của nhóm hoặc kênh đó. Một số khu vực có thể có hạn chế về internet, hoặc một số sự kiện có thể đặt giới hạn khu vực/độ tuổi, và hệ thống sẽ tự động xác định những người tham gia không đủ điều kiện và ngăn họ nhận.",
+      "q4": "Tôi có thể yêu cầu với nhiều tài khoản hoặc thiết bị không?",
+      "a4": "Không. Hệ thống sẽ ngăn người dùng yêu cầu liên tục bằng cách sử dụng tài khoản Telegram + Gmail đã ràng buộc, mã xác minh, địa chỉ ví độc nhất, và quét bất thường trong nền; vi phạm có thể kích hoạt kiểm soát rủi ro và dẫn đến việc tài khoản bị đình chỉ.",
+      "q5": "Lì xì có được phân phát ngẫu nhiên hay đều nhau?",
+      "a5": "Các hoạt động dự án nhóm hoặc kênh có thể chọn 'ngẫu nhiên', 'phân phối đều', hoặc 'chỉ định'. Quy tắc của mỗi nhóm là khác nhau, vui lòng tham khảo các đánh dấu trong thông tin mô tả hoạt động của từng nhóm.",
+      "q6": "Làm thế nào để bạn đảm bảo sự công bằng? Tôi có thể kiểm tra kết quả lì xì của mình ở đó không?",
+      "a6": "moonpacket chỉ cung cấp lì xì; hệ thống lì xì hoạt động như một công cụ bot hỗ trợ, không có đầu tư hoặc quan hệ kinh doanh với các nhà điều hành của các nền tảng khác nhau. Do đó, đảm bảo tính công bằng tuyệt đối trong việc phân phối là cách duy nhất để đáp ứng nhu cầu của mọi người. Thêm vào đó, có hồ sơ kiểm toán được lưu giữ trên máy chủ trong một khoảng thời gian nhất định (thuật toán và hạt giống); người dùng có thể kiểm tra kết quả yêu cầu của họ trên bot sau khi hoạt động yêu cầu lì xì kết thúc, và kết quả này cũng có thể được truy vấn sau khi phát hành miniapp Telegram.",
+      "q7": "Mỗi người có thể yêu cầu bao nhiêu lì xì?",
+      "a7": "Phụ thuộc vào thiết lập sự kiện được thiết kế bởi bên dự án. Một số là một lần, trong khi những cái khác có giới hạn hàng ngày, và nếu có giới hạn 'nhiều lần mỗi người', hệ thống cũng sẽ tự động hạn chế và thông báo khi đạt giới hạn.",
+      "q8": "Sự kiện có kết thúc sớm hay bị hoãn không?",
+      "a8": "Nếu các phần thưởng đã được yêu cầu hết hoặc hết hạn, nó sẽ kết thúc; hoặc nếu người tổ chức tạm ngừng hoặc chấm dứt do rủi ro bất thường, trang lì xì sẽ được đồng bộ hóa theo thời gian thực.",
+      "q9": "Tại sao tôi không thể yêu cầu sau khi nhấn nút?",
+      "a9": "Các lý do phổ biến: đã yêu cầu hết/công việc chưa hoàn thành. Trong một vài trường hợp, các dự án có thể bị tạm dừng hoặc chấm dứt do rủi ro. Do độ trễ thời gian trong cập nhật thông tin giữa các nhóm, điều này có thể không được phản ánh ngay lập tức; xin vui lòng chú ý đến trạng thái mới nhất của thông tin lì xì trên trang sự kiện được nhóm đăng tải.",
+      "q10": "Khóa nhiệm vụ là gì?",
+      "a10": "Bạn cần hoàn thành các điều kiện quy định (như theo dõi kênh, tham gia nhóm, nhập mật khẩu, nhiệm vụ bên ngoài) để nhận. Sau khi hoàn thành, quay lại nút thông tin lì xì để 'nhận lì xì'.",
+      "q11": "Tôi đã hoàn thành nhiệm vụ rõ ràng, tại sao nó lại hiển thị là không qua?",
+      "a11": "Có thể có sự trễ đồng bộ giữa các API khác nhau trên Telegram; nếu không được chấp nhận ngay lập tức, vui lòng chờ một lúc. Nếu bạn tiếp tục không vượt qua, có thể là do vấn đề với nhà cung cấp API, và chúng tôi khuyên bạn nên báo cáo cho dự án đã phát hành nhiệm vụ lì xì.",
+      "q12": "Tôi có thể lấy cụm mật khẩu ở đâu? Nếu tôi nhập sai thì sao?",
+      "a12": "Mật khẩu thường được công bố bởi dự án trong các bài đăng, buổi phát trực tiếp hoặc video trên x; bạn có thể thử lại nếu nhập sai, nhưng nhiều lần thử không chính xác có thể kích hoạt giới hạn tốc độ.",
+      "q13": "Cách xác minh nhiệm vụ bên ngoài (như đăng ký/trading website)?",
+      "a13": "moonpacket cung cấp API cho các dự án bên ngoài để xác nhận người dùng đã hoàn thành nhiệm vụ hay chưa. Khi người dùng nhận lì xì, một yêu cầu được gửi đến API trả về kết quả xác minh; nếu đủ điều kiện, nó sẽ được mở khóa; nếu chưa được trả về, bạn có thể chờ và khởi động lại sau.",
+      "q14": "Tôi có thể kiểm tra số tiền đã nhận ở đâu?",
+      "a14": "Các yêu cầu thành công sẽ được gửi qua bot Telegram và một bản ghi yêu cầu lì xì sẽ có sẵn trong ứng dụng mini, cho phép bạn xem lịch sử và số dư có thể rút bất kỳ lúc nào.",
+      "q15": "Tài sản nào được hỗ trợ?",
+      "a15": "Dựa trên cài đặt hoạt động, lì xì hiện đang được chia thành USDT/SOL/ETH/TON chính và các token do chủ nhóm phát hành. Trang sẽ chỉ định các đơn vị tài sản và tỷ lệ trao đổi (nếu có).",
+      "q16": "Thông tin gì cần phải liên kết để rút tiền? Mất bao lâu?",
+      "a16": "Bạn cần cung cấp địa chỉ ví và thông tin nhận dạng cơ bản vì mục đích bảo mật; thời gian đến thường là T+0 đến T+2 ngày làm việc. Thời gian có thể kéo dài trong trường hợp kiểm soát rủi ro bất thường.",
+      "q17": "Ai sẽ chịu phí giao dịch/Gas?",
+      "a17": "Mỗi giao dịch trên chuỗi đều yêu cầu một khoản phí gas, được tính bởi chính chuỗi blockchain, và moonpacket không thu thêm phí.",
+      "q18": "Tôi có thể chuyển số dư cho bạn bè hoặc hợp nhất không?",
+      "a18": "Không cung cấp phương pháp 'chuyển/ghép' nào.",
+      "q19": "Tại sao nó bị coi là đáng ngờ hoặc bị chặn?",
+      "a19": "Các lý do có thể bao gồm nhiều tài khoản trên cùng một thiết bị, proxy/VPN bất thường, tần suất nhận lì xì quá cao trong nhiều nhóm, khu vực/ASN bị danh sách đen, v.v. Bạn có thể gửi nội dung tin nhắn /report đến bot; đây là kênh phản hồi một chiều, và chính thức có quyền không giải thích hoặc phản hồi liên quan đến việc cấm tài khoản.",
+      "q20": "Tôi có cần phải trải qua xác minh KYC (mã xác minh) không?",
+      "a20": "Trong các tình huống rủi ro cao, xác minh sẽ dựa trên thông tin được cung cấp bởi người dùng; vui lòng đảm bảo rằng thông tin bảo mật chính xác được điền khi rút tiền; nếu thông tin không chính xác không được cung cấp, bạn sẽ không vượt qua KYC sinh trắc học và tài liệu.",
+      "q21": "Tôi nên làm gì nếu tài khoản của tôi bị hạn chế?",
+      "a21": "Các hạn chế thường là biện pháp bảo vệ tạm thời. Vui lòng gửi nội dung tin nhắn /report đến bot. Các câu hỏi được đặt bởi những người xác minh chưa hoàn thành việc điền thông tin bảo mật sẽ không được xử lý; nếu tình huống trở lại bình thường sau khi hoàn thành xác minh, chúng tôi sẽ xử lý.",
+      "q22": "Mỗi sự kiện lì xì bắt đầu và kết thúc khi nào?",
+      "a22": "Mỗi dự án phát hành lì xì có các điều kiện khác nhau, vui lòng chú ý đến thời gian và hạn ngạch còn lại của thông tin lì xì; bạn có thể bật thông báo Telegram hoặc đặt âm thanh thông báo cụ thể để nhận thông báo kịp thời khi nhận lì xì.",
+      "q23": "Tôi có thể bật hoặc tắt thông báo cho việc nhận hoặc hoàn tất rút tiền không?",
+      "a23": "Đây là cài đặt của bạn trên Telegram, không phải cài đặt của moonpacket; bạn có thể điều chỉnh thông báo trong cài đặt Telegram của mình.",
+      "q24": "Tại sao tôi không thấy một số phương thức hoặc tính năng rút tiền?",
+      "a24": "Chính sách ở một số khu vực không áp dụng, và hệ thống sẽ tự động ẩn hoặc ngăn cản việc rút tiền, cho thấy rằng bạn không thể tham gia hoạt động nhận lì xì, vì khu vực này hiện không hỗ trợ.",
+      "q25": "Có bao nhiêu chữ số thập phân sẽ được hiển thị ở định dạng kỹ thuật số?",
+      "a25": "Trang web sẽ tự động áp dụng dấu phân cách hàng nghìn và vị trí thập phân theo ngôn ngữ của bạn.",
+      "q26": "Nó có sẵn trên iOS, Android và desktop Telegram không?",
+      "a26": "Có, nên sử dụng phiên bản mới nhất của Telegram. Nếu bạn gặp phải tình huống không thể đọc được, hãy kiểm tra xem bạn có đang sử dụng ứng dụng chính thức hay không, hoặc cập nhật ứng dụng, hoặc nhấp để tải lại trang trong ba dấu chấm ở góc trên bên phải của trang ứng dụng mini.",
+      "q27": "Việc thay đổi thiết bị có ảnh hưởng đến việc nhận không?",
+      "a27": "Điều này sẽ không ảnh hưởng đến các bản ghi, nhưng nếu thực hiện các thao tác lặp lại trên nhiều thiết bị trong thời gian ngắn, nó có thể kích hoạt kiểm soát rủi ro.",
+      "q28": "Việc sử dụng VPN/proxy có tác động gì không?",
+      "a28": "Nếu bạn đang sử dụng proxy có rủi ro cao, nó có thể bị chặn. Chúng tôi khuyên bạn nên tạm thời vô hiệu hóa proxy hoặc chuyển sang môi trường mạng sạch và thử lại.",
+      "q29": "Dữ liệu nào sẽ được thu thập?",
+      "a29": "Tuân thủ nguyên tắc tối thiểu: chỉ thu thập dữ liệu cần thiết cho việc phân phối/rút tiền/kiểm soát rủi ro (như câu hỏi bảo mật cá nhân, địa chỉ ví, email, ID Telegram). Khi cần xác thực cần thiết, chúng tôi sẽ xác minh thông qua nền tảng xác thực bên thứ ba, không lưu trữ dữ liệu cá nhân của người dùng ngoại trừ thông tin bảo mật.",
+      "q30": "Các biện pháp nào đang được thực hiện để đảm bảo an toàn quỹ?",
+      "a30": "Tất cả các hoạt động quan trọng sẽ yêu cầu xác minh thứ hai; các giao dịch rút tiền có rủi ro cao có thể kích hoạt xem xét thủ công.",
+      "q31": "Tôi có thể xóa tài khoản hoặc dữ liệu của mình không?",
+      "a31": "Bạn có thể gửi yêu cầu truy cập hoặc xóa dữ liệu theo quy trình. Khi tài khoản đã bị xóa, bạn sẽ không còn có thể đăng nhập, nhưng dữ liệu giao dịch sẽ được giữ lại theo yêu cầu tuân thủ.",
+      "q32": "Tôi nên liên hệ với ai nếu gặp vấn đề?",
+      "a32": "Bạn có thể liên hệ với chúng tôi bằng cách gửi/thông báo thông tin qua bot. Cung cấp mã lỗi và ảnh chụp màn hình có thể giúp tăng tốc độ xử lý.",
+      "q33": "Mất bao lâu để nhận được phản hồi cho khiếu nại?",
+      "a33": "Thông thường, phản hồi được cung cấp trong vòng 1-3 ngày làm việc; các trường hợp liên quan đến quỹ khẩn cấp sẽ được ưu tiên.",
+      "q34": "Tôi có thể tham gia hoạt động ở nhiều nhóm không?",
+      "a34": "Có; mỗi hoạt động có quy tắc độc lập, xin vui lòng chú ý đến giới hạn và thời gian hiệu lực của mỗi sự kiện.",
+      "q35": "Có bảng xếp hạng hoặc huy hiệu không?",
+      "a35": "Một số hoạt động có bảng xếp hạng/huân chương và xổ số; hãy tham khảo trang hoạt động để biết quy tắc và phần thưởng."
+    }
+  },
+  "send": {
+    "title": "Câu hỏi thường gặp (Phiên bản chi tiết) — Gửi lì xì (Người tổ chức)",
+    "hero": {
+      "api_demo_label": "Biểu diễn API",
+      "api_get": "GET [api_url]?api_key=[api_key]&user_id=[user_id]",
+      "response_label": "Trả lại:",
+      "json": {
+        "0": "{",
+        "1": "\"data\": {",
+        "2": "\"level\": 100,",
+        "3": "\"status\": \"active\",",
+        "4": "\"is_blacklist\": false",
+        "5": "}",
+        "6": "}"
+      },
+      "title": "Thu hút người dùng mới, tăng cường hoạt động",
+      "lead": "Bên dự án có thể đặt các điều kiện cụ thể:",
+      "points": {
+        "0": "• Tham gia nhóm/theo dõi kênh",
+        "1": "• Sử dụng chính xác cụm từ bí mật",
+        "2": "• Triển khai API tùy chỉnh"
+      },
+      "note": "Chỉ những người dùng đáp ứng các điều kiện mới nhận được lì xì"
+    },
+    "faq": {
+      "section_1": "Bắt đầu và Cài đặt",
+      "section_2": "Quy tắc Xuất bản và Công bằng",
+      "section_3": "Nhiệm vụ và Điều kiện",
+      "section_4": "Tài sản, Xuất hiện và Thanh toán",
+      "q1": "Làm thế nào để bắt đầu?",
+      "a1": "Vui lòng thêm bot moonpacket vào nhóm hoặc kênh Telegram của bạn và cấp quyền quản trị. Đảm bảo bật ít nhất: quyền đăng, chỉnh sửa/xóa bài viết của chính mình. Sau khi hoàn tất, quay lại trang 'Gửi Lì Xì' của moonpacket, bạn sẽ thấy các nhóm/kênh đã liên kết trong danh sách 'Gửi Đến'.",
+      "q2": "Tôi cần chú ý điều gì trước khi gửi?",
+      "a2": "Vui lòng gửi trước tài sản bạn muốn phát hành (ví dụ, gửi 10 USDT để kiểm tra). Bạn có thể gửi các token chính (USDT/TON, v.v.) hoặc các đồng tiền meme của riêng bạn. Các token chính sẽ hiển thị thêm trên trang chủ, trong khi các đồng tiền meme chỉ được hiển thị trong cộng đồng của bạn.",
+      "q3": "Tôi có thể chọn nơi để gửi không?",
+      "a3": "Trong 'Mục Tiêu Gửi', kiểm tra các nhóm/kênh đã liên kết để gửi đến một hoặc nhiều nhóm cùng một lúc. Nếu bạn không thấy chúng trong danh sách, vui lòng xác nhận rằng bot là quản trị viên của nhóm/kênh và có những quyền cần thiết.",
+      "q4": "Có những mô hình phân phối nào khả dụng?",
+      "a4": "Bạn có thể chọn số ngẫu nhiên (may mắn) hoặc số cố định (phân bổ đều). Cả hai đều có thể đặt tổng số tiền, số lượng cổ phần và giới hạn mỗi người, và có thể thêm thời gian hiệu lực hoặc phát hành theo lịch.",
+      "q5": "Có thể gửi tất cả cùng một lúc hay trong các lô không?",
+      "a5": "Có. Bạn có thể đặt phát hành toàn bộ một lần hoặc phát hành theo lô trong khoảng thời gian xác định; đếm ngược và tin nhắn xem trước cũng được hỗ trợ.",
+      "q6": "Có chuyện gì xảy ra nếu số dư không đủ?",
+      "a6": "Hệ thống dựa trên số dư khả dụng của bạn. Nếu số dư không đủ, một thông báo thất bại sẽ được gửi yêu cầu bạn nạp tiền để tránh chi tiêu quá mức.",
+      "q7": "Làm thế nào để đảm bảo sự công bằng?",
+      "a7": "Phân phối được thực hiện ở phía máy chủ và giữ lại các bản ghi kiểm toán (thuật toán và hạt giống, nhật ký hoạt động). Quy tắc, cổ phần, giới hạn và kết quả cuối cùng sẽ được công khai trên trang sự kiện để có thể truy xuất.",
+      "q8": "Tôi có thể yêu cầu tham gia nhóm hoặc theo dõi kênh để nhận không?",
+      "a8": "Có. Bạn có thể bật điều kiện tích hợp 'Phải tham gia nhóm nhất định/theo dõi kênh nhất định'. Điều kiện tiên quyết là bot của bạn ở trong nhóm/kênh đó và có quyền đăng và chỉnh sửa/xóa bài viết của chính mình để xác minh tình trạng thành viên.",
+      "q9": "Mật khẩu là gì? Nó phù hợp với tình huống nào?",
+      "a9": "Người chơi cần lấy mật khẩu qua các kênh bên ngoài và có thể nhận nó sau khi nhập đúng trên trang. Các phương pháp phổ biến bao gồm: chia sẻ mật khẩu 6 chữ số trong các video YouTube dài để khuyến khích người xem đầy đủ; gợi ý mật khẩu trong các bài đăng trên X.com (Twitter) hoặc Threads để tăng cường tương tác; chỉ công bố mật khẩu bằng lời nói trong các buổi livestream để hướng dẫn người tham gia; mật khẩu chuyên dụng trong các nhóm riêng/tính phí để đảm bảo lợi ích chỉ được cung cấp cho các thành viên cốt lõi.",
+      "q10": "Tôi có thể sử dụng API của riêng mình để xác định đủ điều kiện không?",
+      "a10": "Có. moonpacket sẽ gọi API chỉ đọc mà bạn cung cấp để xác minh trước khi người dùng nhận. Hệ thống chỉ cần thiết lập api_url và api_key (quyền miền có thể được cấu hình tùy chọn).",
+      "q11": "Sự khác biệt về khả năng tiếp cận giữa các đồng tiền chính và các đồng tiền meme là gì?",
+      "a11": "Các đồng tiền chính (USDT/TON, v.v.) sẽ được hiển thị trong nhóm và cũng trên trang chủ để tăng khả năng tiếp cận; các đồng tiền meme chỉ được hiển thị trong nhóm của bạn.",
+      "q12": "Cách ngăn chặn gian lận và máy móc hàng loạt?",
+      "a12": "Bao gồm tần suất hành vi và phát hiện thiết bị/IP, liên kết duy nhất của tài khoản và ví, mã xác minh rút tiền, đánh giá rủi ro AI ban đầu; nếu cần, sẽ có xác minh sinh trắc học + nhận diện khuôn mặt + xác minh định danh từ bên thứ ba.",
+      "q13": "Tôi có thể xem các bản ghi đã gửi và số lượng người nhận ở đâu?",
+      "a13": "Vui lòng kiểm tra 'Lì Xì Tôi Đã Gửi' trên trang cá nhân của bạn để xem số lượng người nhận, số lượng cổ phần còn lại và tổng số tiền đã tiêu cho mỗi phiên; nếu được bật, bạn cũng có thể tải xuống báo cáo."
+    }
+  },
+  "groups_directory": {
+    "latest_tab": "Nhóm lì xì mới nhất",
+    "hot_tab": "Nhóm lì xì phổ biến",
+    "search_placeholder": "Tìm kiếm từ khóa cho các nhóm đã tham gia"
+  },
+  "a11y": {
+    "skip_to_main": "Chuyển đến Nội dung Chính",
+    "language_menu": "Menu Ngôn ngữ",
+    "language": "Ngôn ngữ"
+  },
+  "waterfall": {
+    "sent_from": "Nhóm gửi:",
+    "claimed": "Đòi",
+    "total": "Tổng số tiền",
+    "progress": "Đã đòi"
+  },
+  "terms": {
+    "title": "Điều khoản người dùng",
+    "version": "v1.0.0",
+    "updated": "Ngày 5 tháng 10 năm 2025 3:00:00 chiều GMT+0800 (Giờ tiêu chuẩn Đài Bắc)",
+    "owner": "moonpacket-core",
+    "sections": {
+      "scope": "Phạm vi áp dụng và Hình thành hợp đồng",
+      "definitions": "Định nghĩa",
+      "eligibility": "Điều kiện và Tài khoản",
+      "services": "Nội dung dịch vụ",
+      "wallet": "Ví đám mây và Quỹ",
+      "fees": "Phí và Thanh toán",
+      "rules": "Quy tắc hoạt động và Công bằng",
+      "restrictions": "Chống Bot và Hạn chế sử dụng",
+      "ip": "Quyền sở hữu trí tuệ và Nội dung",
+      "third_party": "Dịch vụ bên thứ ba",
+      "data": "Dữ liệu và quyền riêng tư",
+      "risks": "Thông báo rủi ro",
+      "disclaimer": "Tuyên bố miễn trừ trách nhiệm",
+      "liability": "Giới hạn trách nhiệm",
+      "indemnity": "Đền bù",
+      "termination": "Tạm ngừng, Chấm dứt và Xóa bỏ",
+      "force_majeure": "Sự kiện không thể lường trước",
+      "high_risk": "Sử dụng cao cấp bị cấm",
+      "tax": "Thuế và Báo cáo",
+      "third_party_services": "Dịch vụ bên thứ ba và Tiết lộ quan hệ",
+      "wallet_assets": "Tiết lộ Ví và Tài sản",
+      "accuracy": "Độ chính xác của nội dung và dữ liệu",
+      "governing_law": "Luật điều chỉnh và Giải quyết tranh chấp",
+      "contact": "Thông tin liên hệ"
+    }
+  },
+  "privacy": {
+    "title": "Chính sách Bảo mật",
+    "version": "v1.1.0",
+    "updated": "Ngày 5 tháng 10 năm 2025, Chủ nhật 3:00:00 PM GMT+0800 (Giờ chuẩn Đài Bắc)",
+    "owner": "moonpacket-core",
+    "sections": {
+      "intro": "Giới thiệu",
+      "definitions": "Định nghĩa",
+      "scope": "Phạm vi áp dụng",
+      "data_collection": "Dữ liệu chúng tôi thu thập",
+      "data_usage": "Cách chúng tôi sử dụng",
+      "legal_basis": "Cơ sở pháp lý",
+      "cookies": "Cookies và bộ nhớ cục bộ",
+      "data_sharing": "Người nhận chia sẻ dữ liệu",
+      "cross_border": "Chuyển tiền xuyên biên giới",
+      "retention": "Thời gian lưu giữ",
+      "security": "Bảo mật",
+      "blockchain": "Mô tả các tính năng blockchain",
+      "telegram": "Tuyên bố nền tảng Telegram",
+      "minors": "Quy định liên quan đến người vị thành niên",
+      "rights": "Quyền của bạn và cách thực hiện chúng",
+      "faq": "Câu hỏi thường gặp (Riêng tư và An ninh)",
+      "updates": "Cập nhật Điều khoản",
+      "contact": "Thông tin liên hệ"
+    },
+    "faq": {
+      "q1": "Chúng tôi thu thập dữ liệu gì?",
+      "a1": "Chúng tôi sẽ cung cấp thông tin cần thiết để phát hành và nhận lì xì, xác minh nhiệm vụ, ví đám mây, và rút tiền, bao gồm thông tin cơ bản về Telegram, số liệu thiết bị và mạng, sự kiện tương tác, và thông tin KYC cũng như ví khi cần thiết.",
+      "q2": "Tiền của tôi có an toàn không?",
+      "a2": "Tài khoản quỹ và tài khoản giao dịch được tách biệt, các giao dịch nhạy cảm yêu cầu xác thực hai yếu tố, và tất cả các sự kiện tài chính sẽ được ghi lại; rút tiền có rủi ro cao sẽ được xem xét thủ công.",
+      "q3": "Tôi có thể xóa dữ liệu của mình không?",
+      "a3": "Bạn có thể yêu cầu xóa hoặc hạn chế dữ liệu của mình theo luật; dữ liệu kế toán hoặc liên quan đến tranh chấp cần phải được giữ lại theo luật sẽ không thuộc trường hợp này và sẽ được xóa hoặc ẩn danh sau đó.",
+      "q4": "Hạn chế khu vực và nội dung hiển thị không khớp?",
+      "a4": "Theo chính sách tuân thủ, một số tính năng hoặc phương thức rút tiền có thể không khả dụng do hạn chế khu vực, và hệ thống sẽ tự động ẩn các tùy chọn không áp dụng.",
+      "q5": "Tại sao nó được xem là đáng ngờ?",
+      "a5": "Vấn đề có thể phát sinh do proxy/VPN, tần suất bất thường, hoặc đăng nhập đồng thời từ nhiều tài khoản; bạn có thể thử lại sau hoặc thực hiện quá trình khiếu nại để được xem xét."
+    }
+  },
+  "roadmap": {
+    "accept": "Tiêu chí Chấp nhận",
+    "bucket": {
+      "progress": "Tiến độ"
+    },
+    "lanes": {
+      "build": "Xây dựng Sản phẩm",
+      "growth": "Tăng trưởng",
+      "token": "moonini token",
+      "trust": "Tin cậy, Tuân thủ và Bảo mật"
+    },
+    "progressLabel": "Trạng thái",
+    "status": {
+      "live": "Trực tiếp",
+      "planned": "Dự kiến",
+      "research": "Đang Nghiên cứu",
+      "shipping": "Đang Phát triển"
+    },
+    "title": "Lộ trình Sản phẩm",
+    "updated": "Cập nhật (Các token sẽ được phân phối sau khi thanh tiến độ đầy)"
+  }
+}

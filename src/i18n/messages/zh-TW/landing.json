@@ -1,0 +1,15 @@
+{
+  "hero": {
+    "headline": "moonpacket 起飛到月球！",
+    "subheadline": "Telegram TON、meme、USDT 搶紅包｜提供給 meme 幣專案方與 Telegram 群主，最佳的拉新與提升活躍的紅包機器人。",
+    "cta_primary": "啟動 moonpacket",
+    "cta_secondary": "如何接入"
+  },
+  "metrics": {
+    "title": "代幣與統計",
+    "connected_groups": "已連線群組",
+    "total_packets_sent": "已發送紅包",
+    "total_claimed": "已領取總額（USDT）",
+    "data_stale": "資料可能過期"
+  }
+}

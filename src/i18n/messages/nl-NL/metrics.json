@@ -1,0 +1,17 @@
+{
+  "title": "moonpacket Gegevensoverzicht",
+  "subtitle": "Realtime statistieken en ranglijst",
+  "latest": "Meest recent",
+  "top_groups": "Populaire groepen",
+  "total_sent": "Totaal verzonden bedrag",
+  "total_claimed": "Totaal geclaimd bedrag (USDT)",
+  "participants": "Aantal deelnemers",
+  "avg_packet": "Gemiddeld bedrag per pakket",
+  "sort": {
+    "label": "Sorteer op",
+    "latest": "Meest recent",
+    "oldest": "Oudste",
+    "most": "Maximaal aantal deelnemers",
+    "least": "Minimaal aantal deelnemers"
+  }
+}

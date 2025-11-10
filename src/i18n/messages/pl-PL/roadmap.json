@@ -1,0 +1,48 @@
+{
+  "title": "Mapa drogowa produktu",
+  "updated": "Aktualizacja (tokeny zaczynają dystrybucję po zapełnieniu paska postępu)",
+  "bucket": {
+    "progress": "Postęp"
+  },
+  "status": {
+    "shipping": "W rozwoju",
+    "planned": "Planowany",
+    "research": "W badaniach",
+    "live": "Uruchomiony"
+  },
+  "accept": "Kryteria Akceptacji",
+  "lanes": {
+    "build": "Rozwój Produktów",
+    "trust": "Token moonini",
+    "growth": "Wzrost",
+    "token": "Wzrost"
+  },
+  "progressLabel": "Postęp",
+  "phase": {
+    "open-beta": {
+      "title": "Uruchomienie otwartej bety (wewnętrzny społecznościowy red packet)",
+      "desc": "Pilotaż wewnątrz społeczności, warunkowo otwarte dla integracji społeczności; Test podstawowego rozkładu/roszczenia i doświadczenia użytkownika",
+      "accept": "Jasne zasady, płynne zgłaszanie roszczeń, kluczowe lejki są użyteczne"
+    },
+    "multi-chain": {
+      "title": "Ciągła optymalizacja: Multi-chain + mechanizm punktów + anty-bot",
+      "desc": "Rozszerzenie wsparcia multi-chain poza Solanę; Obliczenia i wizualizacja punktów; Strategia anty-botowa i testy A/B",
+      "accept": "Identyfikacja aktywów multi-chain jest poprawna; Punkty i kontrola ryzyka działają normalnie"
+    },
+    "compliance": {
+      "title": "KYC/AML, Mechanizmy audytu i bezpieczeństwa; Proces przeglądu abnormalnego.",
+      "desc": "Włącz KYC, jeśli to konieczne; zasady AML są audytowalne; silne dzienniki bezpieczeństwa",
+      "accept": "Zaufanie, zgodność i bezpieczeństwo"
+    },
+    "growth-integration": {
+      "title": "Wzrost: Integracja społeczności + API/Webhook + Współpraca w ekosystemie",
+      "desc": "Przewodnik integracji, Webhook zdarzeń, API zapytań; Proces integracji partnerów",
+      "accept": "Przewodnik integracji zatwierdzony; Webhook/API zapytań jest stabilny"
+    },
+    "token-moonini": {
+      "title": "Punkty wymienialne na tokeny: moonini",
+      "desc": "Zakończenie dystrybucji tokenów moonini oraz mechanizmu wymiany",
+      "accept": "Zasady konwersji punktów na tokeny wdrożone; Kontrola ryzyka/sprawdzenia zgodności przeszły"
+    }
+  }
+}

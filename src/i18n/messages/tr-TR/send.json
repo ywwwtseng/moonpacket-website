@@ -1,0 +1,171 @@
+{
+  "title": "",
+  "hero": {
+    "api_demo_label": "API Demo",
+    "api_get": "https://t.me/MoonPackageDevBot",
+    "response_label": "Cevap:",
+    "json": "{ \"data\": { \"level\": 100, \"status\": \"active\", \"is_blacklist\": false } } {, \"data\": {, \"level\": 100,, \"status\": \"active\",, \"is_blacklist\": false, }",
+    "title": "Yeni kullanıcılar çekin, etkinliği artırın",
+    "lead": "Proje tarafı belirli koşullar belirleyebilir:",
+    "points": {
+      "0": "",
+      "1": "",
+      "2": ""
+    },
+    "note": "Koşulları karşılayan kullanıcılar red packet talep edebilir",
+    "subtitle": "Topluluğunuz için özel bir red packet etkinliği oluşturun",
+    "desc": "Kolay kurulum, hızlı başlatma, topluluğunuzu aktive edin!",
+    "ctaPrimaryLabel": "Hemen Başlayın",
+    "ctaPrimaryHref": "https://t.me/MoonPackageDevBot",
+    "ctaSecondaryLabel": "Örneği Görüntüle",
+    "ctaSecondaryHref": "/zh-TW/claim/",
+    "api_demo_code": "{\n\"data\": {\n\"level\": {\n\"gt\": 99\n},\n\"status\": {\n\"eq\": \"active\"\n},\n\"is_blacklist\": {\n\"eq\": false\n}\n}\n}",
+    "api_demo_title": "GET [api_url]?api_key=[api_key]&user_id=[user_id]",
+    "use_cases_items": {
+      "0": "Proje tarafı görev koşulları belirleyebilir:",
+      "1": "Gruba katılın / Kanala abone olun",
+      "2": "Doğru şifre cümlesi",
+      "3": "Proje tarafı özel API",
+      "4": "Koşulları yerine getiren kullanıcılar yalnızca talep edebilir, değerli kullanıcılara kırmızı paket gönderin."
+    },
+    "use_cases_title": "Yeni kullanıcılar çekin・Etkinliği artırın"
+  },
+  "faq": {
+    "section_1": "Başlarken ve ayarlar.",
+    "q1": "Nasıl başlanır?",
+    "a1": "moonpacket Robotunu Telegram grubunuza veya kanalınıza ekleyin ve onu yönetici olarak ayarlayın.",
+    "q2": "Göndermeden önce hangi hazırlıklar gereklidir?",
+    "a2": "Öncelikle dağıtmak istediğiniz varlıkları yatırın (örneğin, test için 10 USDT yatırın).",
+    "section_2": "2) Gönderim Süreci",
+    "q3": "Göndereceğim yeri seçebilir miyim?",
+    "a3": "Gönderim Hedefleri' bölümünde bağlı grupları veya kanalları seçerek tek veya birden fazla gruba aynı anda gönderebilirsiniz.",
+    "tip": "İpucu: Kırmızı paket göndermek, buz kırıcı etkileşimler için uygundur. Organize etmek istediğiniz oyun temasını açıklamak için kırmızı paket gönderi cevaplayabilirsiniz.",
+    "section_3": "3) Teknik Sorunlar",
+    "section_4": "Veri ve Analiz",
+    "section_5": "Teknik Destek ve Bakım",
+    "q4": "Tahsisat yöntemi özelleştirilebilir mi?",
+    "a4": "Rastgele dağıtım ve ortalama dağıtım modlarını destekler.",
+    "q5": "Resmi müşteri hizmetleri robotuna doğrudan @moonini_helper_bot mesajı gönderebilirsiniz. @moonini_helper_bot.",
+    "a5": "Her API anahtarı dakikada 60 kez çağrılabilir.",
+    "q6": "Hatalar nasıl yönetilir?",
+    "a6": "API, ayrıntılı hata kodları ve hata mesajları döndürecektir.",
+    "q7": "Aktivite etkinliğini nasıl izleriz?",
+    "a7": "Gerçek zamanlı veri panosu sağla:",
+    "q8": "İşlem ücretleri nasıl hesaplanır?",
+    "a8": "• Platform hizmet ücreti: %2-5 (aktivite ölçeğine göre ayarlanır)",
+    "q9": "Fon güvenliğini nasıl sağlarız?",
+    "a9": "• Merkeziyetsiz mimari, saklama fonuna ihtiyaç yok",
+    "q10": "Etkinlik sona erdikten sonra kalan fonlarla ne yapmalıyım?",
+    "a10": "• Alınmamış kırmızı paketler otomatik olarak cüzdanınıza geri iade edilecektir.",
+    "q11": "Birden fazla etkinlik aynı anda gerçekleştirilebilir mi?",
+    "a11": "Evet, ama öneriyoruz:",
+    "q12": "Kullanıcı şikayetleri nasıl halledilir?",
+    "a12": "• Özel bir müşteri hizmetleri kanalı sağlayın",
+    "q13": "Teknik destek mevcut mu?",
+    "a13": "• 7/24 teknik destek",
+    "q14": "Etkinlik verimliliğini nasıl optimize edebilirim?",
+    "a14": "• Verilere dayalı aktivite stratejisini ayarlayın",
+    "q9_passcode": "Gizli kelime nedir? Hangi senaryolar için uygundur?",
+    "a9_passcode": "Oyuncular, gizli ifadeyi dış kanallardan almalı ve bunu doğru bir şekilde girmek için bu sayfaya geri dönmelidir. Yaygın uygulamalar:",
+    "passcode_scenarios": {
+      "0": "YouTube uzun videolarındaki 6 haneli gizli ifadeyi bölerek tam izlemeye teşvik edin.",
+      "1": "X.com (Twitter) veya Threads'teki gizli ifadeyi ima eden paylaşımlar etkileşimi artırır.",
+      "2": "Canlı yayınlarda gizli ifadeyi sadece sözlü olarak paylaşarak katılımcı kitleyi yönlendirin.",
+      "3": "Özel/ücretli gruplar, sadece ana üyelere faydaların sağlanmasını sağlamak için özel gizli ifadeler sunar."
+    },
+    "q10_api": "Katılımcı uygunluğunu belirlemek için kendi API'mi kullanabilir miyim?",
+    "a10_api": "Evet. moonpacket, kullanıcı talep etmeden önce sağlanan yalnızca okunabilir API'yi doğrulamak için çağrıda bulunacak. Sadece arka planda api_url ve api_key (isteğe bağlı alan ayarları mevcut) ayarlayın.",
+    "api_condition_title": "Koşul beyanı (user_id yok)",
+    "api_response_label": "Dön:",
+    "api_operators_label": "Operatör:",
+    "api_operators_desc": "eq (herhangi bir türle eşleşebilir), gt/lt/gte/lte (sayısal olmalı)",
+    "api_user_query_title": "Kullanıcı Sorgusu (user_id dahil)",
+    "api_logic_desc": "moonpacket, 'Kullanıcı Sorgusu'nun gerçek değeri ile karşılaştırmak için bir eşik olarak 'Koşul beyanı'nı kullanır; eğer eşleşirse, geçer, aksi takdirde talep edilemez.",
+    "api_security_title": "Güvenlik Önerileri",
+    "api_security_desc": "Salt okunur uç noktaları kullanın, api_key'i etkinleştirin ve alan kısıtlamalarına izin verin; çapraz alanlar için, geçiş ve hız sınırlaması için Cloudflare Workers kullanılması önerilir.",
+    "q12_antibot": "Sahtekarlığı ve bot aktivitelerini nasıl önlerim?",
+    "a12_antibot_items": {
+      "0": "Davranış sıklığı ve cihaz/IP tespiti",
+      "1": "Hesap cüzdan ile benzersiz bağlıdır",
+      "2": "Çekim doğrulama kodu",
+      "3": "AI risk kontrol ön incelemesi; gerekli ise üçüncü parti biyometrik kimlik doğrulama, yüz tanıma ve belge doğrulaması yapabilir."
+    },
+    "q13_records": "Gönderdiğim mesajların kayıtlarını ve alıcı sayısını nereden kontrol edebilirim?",
+    "a13_records": "Lütfen kişisel ana sayfanızda 'Gönderdiğim Kırmızı Paketler'i kontrol edin; her oturum için talep edenlerin sayısını, kalan miktarları ve toplam harcamayı görüntülemek için; etkinse, raporlar da indirilebilir.",
+    "q1_body": {
+      "0": "Bu, proje ekiplerine, grup sahiplerine veya topluluk yöneticilerine Telegram gruplarında hızlı bir şekilde kırmızı paket dağıtmalarına yardımcı olan bir araçtır.\nÖzellikle meme coin dağıtımını hedef alarak topluluk üyelerini teşvik etmeye yönelik,\nbasit kullanımları arasında: aktiviteyi teşvik etme, yeni üyeler çekme ve tanıtım faaliyetleri yürütme bulunmaktadır.\nKırmızı paketleri dağıtmak için yalnızca çıkardığınız meme coinleri değil, aynı zamanda USDT, TRX, SOL gibi ana akım tokenleri de kullanabilirsiniz.\nmoonpacket aracılığıyla, kullanıcıların basit görevleri yerine getirmesini talep edebilir ve API aracılığıyla daha fazla yapılandırma yapabilirsiniz; bu, grup sahiplerinin 'dağıtım kurallarını özelleştirmesine' ve 'talep koşullarını ayarlamasına' olanak tanır ve kendi API'leri ile doğrulama yapar.",
+      "1": "İpucu: moonpacket kırmızı paket dağıtımı, gerçekten değerli topluluk üyelerini keşfetmenizi sağlar. Her kırmızı paket için talep koşulları belirleyebilir, oyunculara tamamlamaları için farklı görevler verebilirsiniz."
+    },
+    "q1_title": "1) moonpacket'in kırmızı paket özelliği nedir?",
+    "q2_body": {
+      "0": "Yeni üyeler için karşılama mesajı (temel katılma görevlerini tamamladıktan sonra)",
+      "1": "Canlı yayınlar / AMA'lar / etkinlikler sırasında gerçek zamanlı etkileşim (yalnızca etkinliğe odaklanan üyeler şifreyi alabilir ve kırmızı paket için nitelikli hale gelebilir)",
+      "2": "Grup içi pazarlama tanıtımları, çekilişler, slogan görevleri, oyun seviyelendirme, yükleme indirimleri (örn. yalnızca oyunda belirli bir seviyeye ulaşan veya belirli bir miktarda yükleme yapan oyuncuların alma hakkı vardır)",
+      "3": "Arkadaşları gruba davet etme ödülleri",
+      "4": "Sınırlı süreli tanıtımlar, geri sayım etkinlikleri (günlük giriş görevleri)",
+      "5": "\"Gruplararası kırmızı paket\": Diğer gruplarda kırmızı paket bırakma (eğer grup sahibi izin veriyorsa), karşılıklı tanıtım ve topluluk işbirliğini teşvik etmek için."
+    },
+    "q2_title": "2) Kırmızı paket özelliği ne zaman kullanılmalıdır?",
+    "q3_body": {
+      "0": "Tüm on-chain işlemler bir gaz ücreti gerektirir. Gaz ücreti, blockchain tarafından alınır ve bizden ek bir ücret değildir.",
+      "1": "Kırmızı paket havuzuna token yatırdığınızda, hemen on-chain'den bir gaz ücreti düşülecektir. Havuzda yer alan gerçek miktar, girdiğiniz nominal miktardan biraz daha az olabilir (veya transfer sırasında ek bir gaz ücreti alınabilir). Bu, normal bir on-chain kesintisidir.",
+      "2": "Grubunuzda' bir kırmızı paket gönderdiğinizde, sistem dağıtım anında %2 platform ücreti otomatik olarak alacaktır ve bu doğrudan düşülecektir.",
+      "3": "Grup dışı kırmızı paketler (başkasının grubunda kırmızı paket tanıtma) ek kurallara sahiptir:",
+      "4": "Öncelikle, tanıtım alacak grup sahibinin izin ayarlaması gerekir ve yaygın tokenler kullanılmalıdır. Grup dışı kırmızı paketler, kendi oluşturduğunuz meme coin'leri kabul etmez ve sistemin grup dışı kırmızı paket tutarları için bir minimum eşiği bulunmaktadır. Eşik altında ise, kırmızı paket oluşturulamaz. Lütfen gönderimden önce miktarınızın yeterli olduğundan emin olun."
+    },
+    "q3_title": "3) Kırmızı paket göndermenin maliyeti ve eşiği",
+    "q4_body": {
+      "0": "Sömürücü davranışları (dolandırıcılık, kara para aklama, robot taktikleri, spam etkileşimler vb.) aktif olarak tespit edeceğiz. Yüksek risk olarak değerlendirildiğinde, hesap veya varlıklar 'gözden geçiriliyor' durumuna girebilir: çekimler gecikebilir ve hesap geçici olarak kara listeye alınabilir. Bu, genel kullanıcı varlıklarını korumak ve düzenleyici gerekliliklere uymaktır.",
+      "1": "Bu, platformun risk kontrolü ve uyum mekanizmasıdır. İç risk kontrolüne, uyum gereksinimlerine veya üçüncü taraf incelemelerine dayanarak, belirli çekimleri veya transferleri askıya alabilir, kısıtlayabilir, geciktirebilir veya reddedebiliriz.",
+      "2": "Bunun bir yanlış değerlendirme olduğunu düşünüyorsanız, resmi müşteri hizmetleri botu aracılığıyla itirazda bulunabilirsiniz."
+    },
+    "q4_title": "4) Güvenlik, Risk Kontrolü ve Hesap Durumu",
+    "q5_body": {
+      "0": "Resmi müşteri hizmetleri botuna doğrudan @moonini_helper_bot mesajı atabilirsiniz. @moonini_helper_bot.",
+      "1": "Müşteri hizmetleri dilini değiştirmek için sohbette /setlang komutunu girin (örneğin, /setlang zh-TW veya /setlang en-US).",
+      "2": "Bir sorun raporlarken lütfen şunları sağlayın:",
+      "3": "Müşteri hizmetleri yalnızca on-chain verileri ve işlem kayıtlarını kontrol edecektir. Size resimlerin orijinallerini gönderme ya da cüzdan özel anahtarlarını, mnemonic'leri veya tam seed kelime gruplarını sağlama talebinde bulunmayacağız, ayrıca 'doğrulama' için para göndermenizi istemeyeceğiz. Resmi müşteri hizmetleri, sizden varlık talep etmek için proaktif olarak mesaj atmayacaktır.",
+      "4": "Ayrıca, hesabınızın geçerliliği, kara listede olup olmadığı veya gözden geçirilip geçirilmediğini kontrol etmek için kendi kendinize sorgulama API'sini de kullanabilirsiniz. İşte bir örnek: eğer yanıt is_blacklist: true veya status: \"hold\" gösteriyorsa, bu hesap risk kontrolü incelemesindedir ve çekimler veya dağıtımlar askıya alınabilir. Bu işlev, test işletim süresi sırasında kullanılamıyorsa, müşteri hizmetleri botu aracılığıyla itirazda bulunun ve işlem hash'ini sağlayın, biz de on-chain kanıtlara dayanarak işlemleri hızlandıracağız."
+    },
+    "q5_title": "5) Müşteri hizmetleri ve kendi kendine sorgulama",
+    "q6_body": {
+      "0": "Grup sahiplerinin görev koşullarını ve geri alma kurallarını özelleştirmesi için bir API mekanizması sağlıyoruz.",
+      "1": "Şifre ifadesi nedir? Ne zaman kullanılmalıdır? Örneğin, daha fazla kullanıcının TikTok veya YouTube'unuzu ziyaret etmesini ya da özel grubunuza katılmasını istiyorsanız, şifre ifadesini videolarda veya mesajlarda gizleyebilirsiniz. Kullanıcılar, belirtilen konumda şifre ifadesini almalı ve onu girdikten sonra Red Packet'ı talep etmelidir.",
+      "2": "API kavramı nedir? Uygunluk nasıl belirlenir?",
+      "3": "API ayar arayüzünde, öncelikle API'ye 'koşul beyanı' olarak adlandırılan koşulları bildirmemiz gerekiyor (user_id hariç).\nÖrnek: Seviye, durum, kara listede olup olmama gibi belirli eşik koşullarını döndürün.\nmoonpacket bu koşul setini temel eşik olarak kabul edecektir.",
+      "4": "Sonrasında, kullanıcı bir Red Packet almak istediğinde, API'nin sağlaması gerekenler:\n'Kullanıcı Sorgusu' (user_id dahil).\nÖrnek: O kullanıcının gerçek değerini döndürün. Platform, 'Kullanıcı Sorgusu' sonuçlarını daha önce ayarlanmış 'koşul beyanı' eşiği ile karşılaştıracaktır; eğer eşleşiyorsa onaylanır; değilse, reddedilir.",
+      "5": "Güvenlik Önerisi: Lütfen yalnızca okunabilir uç noktalar sağlayın ve api_key ile alan beyaz liste kısıtlamalarını etkinleştirin; çapraz alan işlemleri gerekiyorsa, Cloudflare Workers'ı bir aracı olarak kullanabilir ve oran sınırlaması uygulayabilirsiniz.",
+      "6": "Aktivite kuralları ortada değiştirilebilir mi?",
+      "7": "Ortada değişiklik yapılamaz. Bu sistemin tüm kullanıcılarının karşılıklı güveni sürdürebilmesini umuyoruz. Eğer bir proje tarafı red packet vermeyi taahhüt ederse fakat oyun niteliklerini ortada değiştirirse ve talep edilemez hale getirirse, bu oyuncuların güvenini zedeler. Eğer yayıcı API'yi kuralları değiştirmek için değiştirirse ve birçok oyuncu bunu bildirirse, değişiklik kayıtları doğrulanarak hesapların askıya alınma veya dondurulma hakkını saklı tutacağız. Bu nedenle, API'yi kullanırken oyun kurallarını değiştirmekten kesinlikle kaçının, çünkü bu hesap yasaklarına yol açabilir.",
+      "8": "Yanlış ayarlamalardan endişeleniyorsanız, doğru yaklaşım şöyledir:",
+      "9": "Önce kendi test grubunuzu oluşturabilir, test grubunda kendinize test red packet'ları verebilir ve sorun olmadığını onayladıktan sonra resmi toplulukta dağıtım yapabilirsiniz. Red packet'lar için temel kural şudur: Ortada durma talep edemezsiniz, ayrıca devam eden bir etkinlik için doğrudan kuralları değiştiremezsiniz. Her tur, yeni kuralların bir sonraki turda kullanılabilmesi için, orijinal taahhüte göre tamamlanmalı ve sonuçlandırılmalıdır."
+    },
+    "q6_title": "6) Aktivite kuralları, uygunluk kontrolü ve ortada kural değişiklikleri yok",
+    "q7_body": {
+      "0": "Şu anda hala Beta işletim aşamasındayız ve katılımcı sayısı, talep edilen red packet sayısı, talep etme oranı vb. dahil olmak üzere veri kontrol panelini kademeli olarak optimize edeceğiz. Proje tarafları da API ayarlarında izleme göstergeleri yerleştirebilir.",
+      "1": "Talep edilmeyen red packet'lar otomatik olarak cüzdanınıza iade edilecektir. Eğer etkinlik sona erdikten sonra 3 gün içerisinde geri ödeme almazsanız, işleme almak için müşteri hizmetleri ile iletişime geçebilirsiniz.",
+      "2": "Aynı grup içinde çok sayıda etkinlik gerçekleştirmemeniz tavsiye edilir; bu, çakışmaları önlemeye yardımcı olacaktır. Kullanıcılar kafaları karışabilir; etkinlikleri tek bir sırayla, birer birer veya günde bir tane gerçekleştirmek en iyisidir ve her etkinliği tamamlamak için yeterli fon mevcut olduğundan emin olun.",
+      "3": "Verilere dayalı olarak kuralları ayarlamanız önerilir; A/B testleri için API'yi kullanabilir, geçmişteki başarılı vakalardan referans alabilir ve düzenli olarak üye geri bildirimi toplayarak oyunu kademeli olarak optimize edebilirsiniz.",
+      "4": "Dolandırıcılığı önleme ve istismar:",
+      "5": "Açık beta işletim test döneminde, kullanıcı dolandırıcılık sorunlarını optimize ediyoruz. Sistemin adaletini sağlamak için, red packet kapmak isteyen botları kullanmaya çalışan kullanıcıları özel olarak engelleyeceğiz. En iyi önleme yöntemi, kullanıcıların kendi API'lerini ve koşullarını belirlemelerine izin vermek ve talep sayısını kısıtlamaktır; bu, dolandırıcılık yapmak isteyenler için eşiği artıracaktır. Anormal durumlarda, lütfen geri bildirim için müşteri hizmetlerimizle iletişime geçmekten çekinmeyin."
+    },
+    "q7_title": "7) Performansı takip et, optimize et ve dolandırıcılığı önle",
+    "section_title": "Sıkça Sorulan Sorular (Detaylı SSS) — Red Packet Gönderin"
+  },
+  "features": {
+    "f1": "Hızlı Kurulum",
+    "f2": "Çeşitli Oyun Tarzları",
+    "f3": "Gerçek Zamanlı Veri",
+    "f4": "Güvenli ve Güvenilir"
+  },
+  "features_desc": {
+    "f1": "Kırmızı paket etkinliğine başlamak için 3 dakikada kurulumu tamamlayın",
+    "f2": "Rastgele, ortalama ve belirli tahsis yöntemlerini destekler",
+    "f3": "Alım verilerini ve kullanıcı geri bildirimlerini anında görüntüleyin",
+    "f4": "Merkeziyetsiz tasarım, fon güvenliğini sağlar"
+  },
+  "cta_button_prefix": "Şimdi aktif et",
+  "cta_button_suffix": "Robot",
+  "cta_launch_bot": "moonpacket Robotu Şimdi Aktifleştir",
+  "footer_tip": "İpucu: Kırmızı paket göndermek, buz kırıcı etkileşimler için uygundur. Organize etmek istediğiniz oyun temasını açıklamak için kırmızı paket gönderi cevaplayabilirsiniz."
+}

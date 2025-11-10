@@ -1,0 +1,456 @@
+{
+  "privacyTitle": "Personvernerklæring",
+  "termsTitle": "Brukeravtale",
+  "version": "Versjon",
+  "updated": "Oppdatering",
+  "owner": "Eier",
+  "sections": {
+    "scope": "Omfang og Kontraktinngåelse",
+    "definitions": "Høy-risikofaktorer og forbudte bruksområder",
+    "eligibility": "Immaterielle rettigheter",
+    "services": "Tjenesteinnhold og Driftsmodell",
+    "wallet": "Sky Wallet, Gaveforpliktelse og Fondslåsing",
+    "fees": "Avgifter og kostnader",
+    "rules": "Aktivitetsregler og Rettferdighet",
+    "restrictions": "Anti-bot, Misbruksbekjempelse og Konto Restriksjoner",
+    "ip": "Immaterielle rettigheter",
+    "third_party": "Tjenester fra Tredjeparter og Ekstern Avhengighet",
+    "data": "Kvalifikasjoner og konto",
+    "risks": "Risikoopplysning",
+    "disclaimer": "Fritak",
+    "liability": "Ansvarsgrense",
+    "indemnity": "Fritak",
+    "termination": "Suspensjon, Frysing, Oppsigelse og Databevaring",
+    "force_majeure": "Hendelser utenfor vår kontroll",
+    "high_risk": "Høy-risikofaktorer og forbudte bruksområder",
+    "tax": "Skattlegging og Rapportering",
+    "accuracy": "Nøyaktighet av innhold og data",
+    "governing_law": "Gjeldende lovgivning og tvisteløsning",
+    "contact": "Kontaktmetode",
+    "changes": "Terms Changes",
+    "intro": "",
+    "data_collection": "Avgifter og kostnader",
+    "data_usage": "Gjeldende lovgivning og tvisteløsning",
+    "legal_basis": "",
+    "cookies": "Definisjoner",
+    "data_sharing": "Hendelser utenfor vår kontroll",
+    "cross_border": "Ansvarsfraskrivelse",
+    "retention": "",
+    "security": "",
+    "minors": "",
+    "rights": "",
+    "faq": "",
+    "updates": "",
+    "contact_info": "Data, personvern og samsvarssamarbeid"
+  },
+  "contact": {
+    "title": "Kontaktmetode",
+    "privacy": "Personvernpostkasse",
+    "security": "Sikkerhetsrapport",
+    "support": "Kundeservicerobot"
+  },
+  "privacy": {
+    "version": "v1.0.0",
+    "updated": "auto",
+    "owner": "moonpacket-teamet",
+    "version_label": "Versjon",
+    "updated_label": "Oppdater",
+    "owner_label": "Eier",
+    "data_sources": "Datakilde",
+    "notice": {
+      "disclaimer_binding": "Følgende vilkår er en oversettelse og er kun til referanse. Den offisielle juridisk bindende versjonen er den originale engelske teksten. I tilfelle av uoverensstemmelser mellom språkversjoner og den engelske versjonen, skal den engelske versjonen gjelde."
+    },
+    "intro": [
+      "Denne personvernerklæringen (heretter kalt 'denne policyen') beskriver hvordan vi samler inn, bruker, lagrer og beskytter din personlige informasjon og bruksdata når du bruker tjenestene levert av moonpacket, inkludert Telegram Mini App, bot og nettsted (samlet kalt 'tjenesten'). Vennligst les den grundig før bruk; ved å begynne å bruke tjenesten, samtykker du til denne policyen.",
+      "Kjernefunksjonen til denne tjenesten er 'fellesskapvekst og red pakkeinteraksjon,' og den kan tilby nødvendige funksjoner relatert til skytjenester, transaksjoner eller innløsninger under samsvarsforhold. Denne policyen regulerer kun databehandling; for bruksregler, ansvarsbegrensninger, risikodisklæringer og ansvarsfraskrivelser, vennligst se 'Bruksvilkår.'",
+      "moonpacket (heretter omtalt som 'moonpacket' eller 'tjenesten') er enheten og administratoren som samler inn, bruker, lagrer og behandler personlig og bruksdata relatert til driften av denne tjenesten, og behandler data kun for tekniske og operasjonelle formål; moonpacket er ikke en bank, tillitsforvalter, depot, investeringsrådgiver, betalingsformidler eller eiendomsforvalter, og påtar seg heller ikke noen tillits-, oppbevarings-, bevarings-, investerings- eller garantiforpliktelser på grunn av behandlingen av nevnte data."
+    ],
+    "definitions": [
+      "moonpacket: Refererer til applikasjonstjenestene som tilbys av dette prosjektet, inkludert webapplikasjoner og mobilapplikasjoner tilgjengelige for nedlasting, og inkluderer (men er ikke begrenset til) Telegram Mini App, roboter, sky-lommebøker, og relaterte funksjonelle moduler.",
+      "Personopplysninger: Informasjon som direkte eller indirekte kan identifisere en fysisk person, som (hvor aktuelt) kontaktinformasjon, Telegram UID, sky-lommebokadresse (hvis den kan identifisere en enkeltperson), enhets- og nettverksidentifikatorer.",
+      "Bruksdata: Hendelseslogger og interaksjoner knyttet til kontoer eller enheter (f.eks. sending/mottak av red packets, feil og ytelseslogger, anti-bot signaler)."
+    ],
+    "scope": [
+      "Disse vilkårene gjelder for din bruk av alle funksjoner levert av moonpacket, inkludert (men ikke begrenset til) å bli med i eller administrere grupper/kanaler, sende eller motta red packets, delta i arrangementer, koble eller bruke skye lommebøker og poeng, og integreringer via API/Webhook.",
+      "moonpacket støtter to hovedbruksområder: de som sender red packets og de som mottar red packets. Avsendere må legge til boten i sine egne eller administrerte grupper/kanaler og gi nødvendige tillatelser; hvis autorisasjonen ikke er til stede eller tillatelsene er utilstrekkelige, kan funksjonalitet ikke garanteres. Mottakere får ikke sitt private informasjon fanget utenfor nødvendige nettverksidentifikatorer og bruks hendelser under gruppens interaksjoner."
+    ],
+    "dataCollected": [
+      "Konto og identitet: Telegram UID, brukernavn, avatar, språkinnstillinger, gruppemedlemsidentitet og tillatelser; ved behov, data fra statlig utstedt ID, selfies eller ansiktsbiometrisk samsvar, bostedsdeklarasjon, KYC/AML-revisjonsinformasjon og samsvarsresultater vil bli samlet og bevart utelukkende for overholdelse, bekjempelse av hvitvasking av penger, bekjempelse av terrorfinansiering, overholdelse av sanksjoner, skatterapportering, svindelundersøkelse eller risikostyringsformål.",
+      "Brukshendelser: Sending/mottak av red packets, kommandor og interaksjonslogger, deltaking i hendelser, hendelser fra API/Webhook, feil og ytelseslogger; anti-bot og risikokontrollsignaler (som unormal frekvens, enhets- eller nettverkskarakteristikker).",
+      "Transaksjoner og eiendeler: Skywallet-relaterte adresser, saldoer eller transaksjonssammendrag (kun i den grad det er nødvendig for funksjonalitet); on-chain transaksjoner kan offentlig verifiseres, men de er irreversible og uforanderlige. Den nevnte informasjonen kan inkludere Off-chain registre (som interne regnskap påmerkede saldoer, beløp som venter på distribusjon eller låst status), som kun er gitt for intern systemoppgjør og fordelingsinstruksjoner og utgjør ikke moonpackets oppbevaring, tillit, innskudd, delegert finansiell forvaltning, betalingsinnkreving og betaling, investeringsforvaltning eller sikringsforpliktelser.",
+      "Teknisk og enhetsinformasjon: Enhetsmodell, operativsystem, nettleser- eller applikasjonsversjon, nettverksadresse (IP/ASN) og omtrentlig region, informasjonskapsel- og lokal lagringskontoer (hvis noen).",
+      "Kontaktinformasjon: E-post eller innhold fra kundestøttechatten du gir aktivt (hvis noen)."
+    ],
+    "sources": [
+      "Dine data som gis aktivt under registrering, binding, interaksjon eller kommunikasjon med kundeservice.",
+      "Hendelser og tekniske data som automatisk registreres av systemet under din bruk av denne tjenesten.",
+      "Tredjeparts sammenlignings- eller verifikasjonsresultater innhentet lovlig for samsvars- eller tjenestebehov (slik som KYC/AML-tjenesteleverandører)."
+    ],
+    "purposes": [
+      "Funksjonene som tilbys for driften og vedlikeholdet av denne tjenesten inkluderer: identitetsverifisering, tillatelsesautentisering, aktivering og administrasjonsmoduler (red packet, poeng, sky lommebok), feilsøking og sikkerhetsovervåkning.",
+      "Risikoledelse og compliance: Oppdage, forhindre og etterforske misbruk, svindel, hvitvasking av penger, terrorfinansiering, sanksjonsomgåelse, skatteunndragelse, ulovlig innsamling av midler, ikke-autorisert finansielle tjenester, inntektsdeling manipulasjon eller andre unormale aktiviteter; gjennomføre KYC/AML-revisjoner og identitetsverifisering (inkludert offentlig utstedt identifikasjon, selfies og biometrisk verifisering), risikovurdering og gjennomgang av skatt og sanksjoner. Om nødvendig kan det innebære oppbevaring, frysing, forsinkelse, begrensning eller avvisning av transaksjoner, distribusjoner, refusjoner, uttak eller avfrysning. Slike tiltak utgjør ikke et brudd eller krenkelse fra moonpacket sin side, og moonpacket er ikke ansvarlig for noen erstatning, kompensasjon eller annet ansvar.",
+      "Dataanalyse og produktoptimalisering: Statistiske bruks trender, forbedre brukeropplevelse og ytelse, gjennomføre A/B-testing og trene anti-svindelmodeller (ved bruk av minimalisering og de-identifisering metoder).",
+      "Regulatorisk samsvar og rettighetsheving: Samarbeide med juridiske forespørsel fra forskrifter, myndigheter eller domstoler, eller utøve, etablere eller forsvare juridiske rettigheter. moonpacket kan, etter eget skjønn, gi relevante data til regulerende myndigheter, rettslige organer, skatte- eller sanksjonsmyndigheter, voldgift eller håndhevelsesbyråer, eller deres autoriserte compliance-tjeneste leverandører basert på juridiske-, regulatoriske-, skatte-, sanksjons-, anti-hvitvasking-, anti-terrorfinansiering-, svindel etterforskning-, eller andre compliance-behov; slik levering utgjør ikke et brudd eller krenkelse fra moonpacket, og moonpacket er ikke ansvarlig for noen erstatning, kompensasjon eller annet ansvar.",
+      "Kommunikasjon og varsling: Gi deg viktige endringer, hendelsesvarsler eller nødvendig tjenesteinformasjon; markedsføringsmeldinger vil kun bli sendt med samtykke eller som tillatt ved lov."
+    ],
+    "legalBases": [
+      "Nødvendig for å oppfylle kontrakter eller tilby tjenester (f.eks. muliggjøre red pakke/poeng prosesser, risikokontrollverifisering og hendelsesopptegnelser).",
+      "Overholdelse av juridiske forpliktelser (f.eks. KYC/AML, sanksjoner, revisjon og oppbevaringsforpliktelser).",
+      "Legitime interesser (f.eks. oppdage misbruk, sikre systemets sikkerhet og tjenestetilgjengelighet, forbedre produkter og opplevelser). I dette tilfellet vil vi implementere balanseringstester og iverksette de-identifikasjons- eller minimaliseringstiltak.",
+      "Ditt samtykke (f.eks. mottak av markedsføringsmeldinger, ikke-nødvendige informasjonskapsler og tilbakekallbare valg)."
+    ],
+    "cookies": [
+      "Nødvendige informasjonskapsler og lokal lagring: Brukes for å opprettholde innloggingsstatus, språkvalg, anti-bot tiltak og sikkerhetskontroller; noen funksjoner fungerer kanskje ikke optimalt hvis de er deaktivert.",
+      "Analyse eller preferanse: Aktivert kun hvis det er lovlig tillatt eller med ditt samtykke; du kan fjerne eller begrense dem i nettleserinnstillingene dine."
+    ],
+    "wallet": [
+      "Hvis sky lommeboken tilbys av denne tjenesten eller en partner, vil den kun behandle og lagre minimum nødvendig transaksjonsdata og kvitteringer etter fullføring av red packet, poeng eller nødvendige vekslingsprosesser.",
+      "On-chain data er offentlig og uopprettelig; vennligst operer med forsiktighet. Den uforanderlige, permanent offentlige naturen, og datasammenhenger som følger av blokkjede-funksjoner, er utenfor kontrollen til denne tjenesten."
+    ],
+    "antiFraud": [
+      "For å forhindre misbruk og svindel, kan vi vurdere interaksjonsfrekvens, enhets- eller nettverkskarakteristikker, geografisk plassering, atferdsmønstre og svarteliste-signaler; funksjonalitet kan bli suspendert eller begrenset og ytterligere verifisering kan være nødvendig der det er hensiktsmessig.",
+      "Av hensyn til samsvar og sikkerhet forbeholder vi oss retten til å dele relevante indikasjoner eller revisjonsresultater med betrodde antasvindel- eller samsvarstjenesteleverandører innen rimelige grenser.",
+      "For de nevnte formålene kan moonpacket, etter eget skjønn, suspendere, utsette, begrense eller nekte spesifikke funksjonaliteter og kreve supplerende verifisering (inkludert KYC/AML-revisjoner, statlig utstedt ID, selfies eller biometriske sammenligninger) eller dele nødvendige indikasjoner eller revisjonsresultater med betrodde antasvindel-, samsvars-, skatte- eller sanksjonstjenesteleverandører; slike tiltak utgjør ikke et brudd eller krenkelse fra moonpacket, og moonpacket vil ikke være ansvarlig for eventuelle skader, kompensasjon eller andre forpliktelser."
+    ],
+    "sharing": [
+      "Behandling eller tredjepartsleverandører, inkludert skylagring, logging og overvåking, analyse, anti-bot og samsvarsleverandører, gjennomfører operasjoner under minimerte og kontraktsmessige begrensninger.",
+      "Partnere og community managers vil dele nødvendig informasjon basert på de spesifikke aktivitetene, red packets eller samfunnsstyringsscenarier du deltar i, i henhold til aktivitetsreglene.",
+      "Vi vil avsløre nødvendig data til myndigheter, domstoler eller rettighetshavere i samsvar med lovbestemte prosedyrer etter krav fra loven eller for å hevde rettigheter.",
+      "moonpacket kan beholde, analysere, overføre, avsløre og gi nødvendig informasjon (inkludert off-chain opptegnelser, on-chain bevis, KYC/AML-data, gruppe/chat/aktivitetsopptegnelser, og distribusjons- og uttaksatferd) til myndigheter, domstoler, rettshåndhevelse eller skatteenheter, sanksjon- og reguleringsenheter, eller deres autoriserte samsvarsleverandører med hensyn til samsvarsrevisjoner, KYC/AML-revisjoner, identitetsverifisering (inkludert regjeringsutstedt ID og biometriske sammenligninger), anti-hvitvasking, bekjempelse av terrorfinansiering, etterlevelse av sanksjoner, skatteoverholdelse, svindelgranskninger, misbruksdeteksjon, finansiell revisjon, og sporing av distribusjoner og uttak, innen rimelig kommersiell rekkevidde. Slike behandlinger, overføringer og avsløringer utgjør ikke et brudd eller en erstatning fra moonpacket, og moonpacket påtar seg ikke ansvar for noen kompensasjon, erstatning eller andre forpliktelser."
+    ],
+    "crossBorder": [
+      "Basert på skyarkitekturen til denne tjenesten, global driftsmodell, risikostyring, bekjempelse av hvitvasking av penger (AML), bekjempelse av terrorfinansiering, overholdelse av sanksjoner, skattemessig samarbeid, svindelforebygging, revisjonsoppbevaring, kundestøtte og systemvedlikeholdsbehov, kan dataene dine (inkludert personopplysninger, bruksdata, Off-chain registre, KYC/AML revisjonsresultater, samt risikokontroll og uttakslogger) behandles, lagres eller overføres utenfor ditt jurisdiksjonsområde, og kan bli tilgang av partnere, leverandører av skyinfrastruktur, leverandører av overholdelses- og risikostyring eller autoritative/juridiske/skatte/sanksjon/regulatoriske myndigheter (eller deres autoriserte enheter) som nødvendig for de nevnte formålene.",
+      "moonpacket vil vurdere informasjonssikkerheten og overholdelsesforpliktelsene til mottakerne, innen kommersielt rimelige og nødvendige grenser, og vil redusere risikoene for uautorisert tilgang eller misbruk gjennom kontrakter, tekniske og organisatoriske tiltak; du forstår og godtar imidlertid at enhver grenseoverskridende overføring, skyhosting eller tredjepartsbehandling kan bli påvirket av nettverks- og reguleringsmiljø, og kan ikke garantere absolutt sikkerhet eller tilgjengelighet. Den nevnte grenseoverskridende behandlingen og overføringen utgjør ikke et brudd eller krenkelse fra moonpacket, og moonpacket vil ikke være ansvarlig for skade, erstatning eller andre forpliktelser."
+    ],
+    "retention": [
+      "Vi vil oppbevare data så lenge som nødvendig for å oppfylle innsamling formål og oppbevare nødvendige poster som loven eller revisjonsforpliktelser krever (f.eks. regnskap og compliance logger).",
+      "Når formålet er oppnådd eller oppbevaringsperioden utløper, vil vi slette eller prosessere dataene på en de-identifisert måte; on-chain data er ikke underlagt denne begrensningen på grunn av sin uforanderlighet.",
+      "Selv om du ber om å deaktivere kontoen din, slette dataene dine, eller stoppe bruken av denne tjenesten, kan moonpacket oppbevare, fryse, analysere eller gi det ovennevnte dataene som loven, forskriftene, skatter, sanksjoner, anti-hvitvasking, anti-terrorfinansiering, svindel etterforskning, revisjonsoppbevaring, regnskaps verifisering, eller andre compliance forpliktelser krever eller tillater. Slik oppbevaring og behandling utgjør ikke et brudd eller krenkelse fra moonpacket, og moonpacket er ikke ansvarlig for noen erstatning, kompensasjon eller annet ansvar."
+    ],
+    "security": [
+      "Vi tar i bruk rimelige og proporsjonale tekniske og administrative tiltak, inkludert tilgangskontroll, overføring og statisk kryptering (hvis aktuelt), tillatelses-segregasjon, revisjonslogger, og prinsipper for minimum nødvendig tilgang for personell.",
+      "Selv om moonpacket har iverksatt tekniske og administrative tiltak for å redusere risikoen for uautorisert tilgang, bruk, avsløring, endring eller ødeleggelse innen rimelig kommersiell rekkevidde, forstår og godtar du at enhver overføring, lagring eller tredjepartsintegrasjon kan medføre visse risikoer. moonpacket gir ingen uttrykkelige eller underforståtte garantier angående datasikkerhet, integritet, tilgjengelighet, uavbrutt tilgang eller interferens. Slike risikoer eller skader utgjør ikke et brudd eller en erstatning fra moonpacket, og moonpacket påtar seg ikke ansvar for noen kompensasjon, erstatning eller andre forpliktelser."
+    ],
+    "minors": [
+      "Denne tjenesten er ikke ment for personer under 13 år eller under den mindreårige terskelen i din jurisdiksjon. Hvis du er mindreårig, vennligst bruk denne tjenesten med samtykke fra din lovlige verge, eller avstå fra å bruke denne tjenesten."
+    ],
+    "rights": [
+      "I henhold til gjeldende lovgivning i forskjellige regioner har du rett til å be om eller gjennomgå dine personopplysninger, be om kopier, korrigere, begrense behandling, slette, dataportabilitet, og trekke tilbake samtykke, men ikke i konflikt med moonpacket sine juridiske forpliktelser til å oppbevare, fryse, analysere, revidere, samarbeide med kravene fra regulerende/juridiske/skatte/sanksjons/regulatoriske myndigheter, eller KYC/AML/anti-terrorfinansiering/sanksjons compliance/skatterapportering/svindel etterforskning/misbruksdeteksjon, eller moonpacket sine legitime interesser.",
+      "Hvis du ønsker å utøve de nevnte rettighetene eller reise personvernsbekymringer, vennligst kontakt moonpacket ved å bruke 'Kontaktinformasjonen.' For å sikre sikkerheten kan moonpacket be om at du fullfører identitetsverifisering (inkludert, men ikke begrenset til informasjon som kreves for KYC/AML-revisjoner, offentlig utstedt identifikasjon, selfies, eller resultater fra biometrisk verifisering) for å bekrefte at foresliteren er dataemnet eller en autorisert representant.",
+      "moonpacket kan, etter eget skjønn, helt eller delvis nekte, forsinke, begrense, eller be om korrigeringer til slike forespørsler innenfor omfanget av juridiske eller complianceforpliktelser, krav til legitime interesser, eller risikoledelse; slike nektelser, forsinkelser, begrensninger, eller forespørsel om korrigering utgjør ikke et brudd eller krenkelse fra moonpacket, og moonpacket er ikke ansvarlig for noen erstatning, kompensasjon eller annet ansvar."
+    ],
+    "faq": [
+      "Hvorfor trenger vi informasjon om samsvar og risikokontroll? Dette er nødvendig for å tilby red pakker, forebygge misbruk og sikre trygge operasjoner, samt for å overholde relevante lover eller plattformregler.",
+      "Kan jeg nekte å oppgi viss informasjon? Uten å påvirke tjenestesikkerhet og juridiske forpliktelser, kan du velge å deaktivere ikke-nødvendige elementer, men dette kan medføre at noen funksjoner ikke er tilgjengelige.",
+      "Kan blokkjendedata slettes? Opptegnelser på blokkjeden er uopprettelige og offentlige, og vi kan ikke endre eller slette dem på dine vegne."
+    ],
+    "updates": [
+      "Disse vilkårene kan bli oppdatert med tjenestetilpasninger eller juridiske endringer; betydelige endringer vil bli indikert gjennom interne meldinger eller sidekunngjøringer; den oppdaterte versjonen trer i kraft fra kunngjøringen eller ikrafttredelsesdatoen angitt i vilkårene."
+    ],
+    "contact": [
+      "Hvis du har spørsmål om personvern eller datasikkerhet, vennligst kontakt oss via kontaktmetodene på siden (personvernpostkasse/sikkerhetsrapport/kundeservice); vi vil svare innen rimelig tid."
+    ],
+    "controller": [
+      "Data Controller: moonpacket-team (små teamoperasjoner).",
+      "Kontaktvindu (Personvern): Vennligst kontakt oss via personvern-Hjelp_bot på siden 'Kontaktmetoder'."
+    ],
+    "jurisdictions": [
+      "Vi overholder gjeldende regler for beskyttelse av personopplysninger; hvis det er konflikter i reguleringene på tvers av forskjellige jurisdiksjoner, vil vi ta tiltak som er mer beskyttende og gjennomførbare for brukerne, innenfor lovens rammer.",
+      "Hvis du trenger ytterligere rettigheter eller prosedyrer for spesifikke jurisdiksjoner, vennligst ta kontakt gjennom kontaktkanalene, og vi vil bistå så langt det er rimelig mulig."
+    ],
+    "dsrProcess": [
+      "Du har rett til å utøve forespørsel, gjennomgang, be om kopier, korrigering, sletting, begrensning av behandling, dataportabilitet og tilbakekalling av samtykke angående personopplysninger (underlagt gjeldende lover og teknologisk gjennomførbarhet).",
+      "Prosess: Send forespørsel → Identitetsverifisering → Aksept og vurdering → Svar innen rimelig tid (vanligvis innen 30 dager; eventuell forlengelse vil bli varslet særskilt).",
+      "Hvis forespørselen involverer tredjeparter eller uopprettelige data på blokkjeden, kan den ikke behandles direkte. Vi vil gi forklaringer eller mulige alternativer.",
+      "Hvis du har bekymringer om resultatene, vennligst kontakt oss igjen gjennom de tilgjengelige kanalene; du kan også klage til myndighetene i henhold til lokale lover (hvis aktuelt)."
+    ],
+    "breach": [
+      "Hvis en mistenkt hendelse med personopplysninger oppdages, vil vi følge interne prosedyrer for gradert behandling og nødrespons, inkludert blokkering eller begrensing, revisjon, og dokumentering av bevis.",
+      "Hvis det er lovpålagt eller nødvendig, vil vi varsle kompetent myndighet og potensielt berørte brukere innen rimelig tid; innholdet og tidspunktet for varsler vil avhenge av hendelsens alvorlighetsgrad og etterforskningens fremdrift.",
+      "Vi vil vurdere og kontinuerlig forbedre kontrolltiltak og personaleopplæring (innen tilgjengelige ressurser) etterpå."
+    ],
+    "cookiesDetail": [
+      "Nødvendige informasjonskapsler: Brukes for å opprettholde innlogging, språkinnstillinger, anti-bot tiltak og sikkerhet; deaktivering kan påvirke tjenestetilgjengeligheten.",
+      "Preferanse/Analyse/Markedsføringsinformasjon: Aktivert kun hvis det er lovlig tillatt eller med ditt samtykke; du kan justere eller trekke tilbake preferansene dine når som helst.",
+      "Hvis aktuelt, vil vi tilby et enkelt valg av informasjonskapsler; du kan også administrere eller fjerne dem i nettleserinnstillingene dine."
+    ],
+    "consent": [
+      "For ikke-essensiell behandling (f.eks. markedsføring eller spesifikk analytisk sporing) vil vi innhente forhåndssamtykke og tilby en måte å trekke tilbake samtykke, der det er aktuelt og mulig etter lov.",
+      "Tilbaketrekking av samtykke påvirker ikke lovligheten av behandlingen før tilbaketrekkingen; noen funksjonaliteter kan bli begrenset som et resultat."
+    ],
+    "lawfulMatrix": {
+      "headers": [
+        "Datatype",
+        "Formål med behandling",
+        "Juridisk grunnlag",
+        "Lagringsperiode"
+      ],
+      "rows": [
+        {
+          "cat": "帳號/身分（Telegram UID、暱稱、語言、群組權限）",
+          "purpose": "提供與維運服務（紅包、權限驗證、防刷）",
+          "basis": "履行契約、合法利益",
+          "retention": "帳號存續期間＋必要稽核留存"
+        },
+        {
+          "cat": "合規資料（KYC/AML 結果）",
+          "purpose": "法遵審查與防詐欺",
+          "basis": "法定義務",
+          "retention": "依法令或監理要求（一般為多年期）"
+        },
+        {
+          "cat": "使用事件與日誌（互動、錯誤、效能）",
+          "purpose": "故障排除、資安與產品優化",
+          "basis": "合法利益",
+          "retention": "依安全與營運需要的合理期限"
+        },
+        {
+          "cat": "交易與雲端錢包摘要",
+          "purpose": "完成紅包/積分/兌換流程",
+          "basis": "履行契約、合法利益",
+          "retention": "目的達成後最小化留存；鏈上紀錄不在此限"
+        },
+        {
+          "cat": "Cookie/本地儲存（必要）",
+          "purpose": "登入狀態、語言、防刷標記",
+          "basis": "履行契約、合法利益",
+          "retention": "依裝置與瀏覽器生命周期"
+        },
+        {
+          "cat": "Cookie/像素（非必要）",
+          "purpose": "偏好/分析/行銷（如啟用）",
+          "basis": "同意",
+          "retention": "依工具供應商政策或您撤回為止"
+        }
+      ]
+    },
+    "automated": [
+      "Denne tjenesten bruker automatisk analyse og risikokontrollmodeller for å oppdage misbruk eller unormal atferd; generelt utgjør det ikke utelukkende automatiserte beslutninger som påvirker enkeltpersoner juridisk eller på lignende måte.",
+      "Dersom restriktive tiltak iverksettes på grunn av behov for samsvar eller risikokontroll for sikkerhet (f.eks. suspensjon av funksjonaliteter), vil vi gi muligheter for anke og manuelle vurderinger etter hvert som ressurser og sikkerhet tillater det."
+    ],
+    "subprocessors": {
+      "note": "Vi kan samarbeide med kontraktsbundne underleverandører (slik som sky, overvåking, anti-bot/KYC, e-post, osv.); listen kan oppdateres i henhold til tjenestetilpasninger, vennligst se den offisielle nettsiden for kunngjøringer."
+    },
+    "note": [
+      "Merk: Denne klausulen har som mål å tydeliggjøre databehandling og beskyttelsespraksiser. Siden moonpacket er et lite team, vil faktiske tiltak bli justert basert på lover, risikonivåer og ressurs tilgjengelighet; hvis det er noen obligatoriske forskrifter, skal loven gjelde."
+    ],
+    "telegramPermissions": [
+      "Robotens operasjoner i grupper/kanaler utføres kun innenfor de tillatelsene du har gitt (f.eks. lese, sende, slette, feste meldinger, bli med i lenkesjekker, osv., avhengig av faktiske behov).",
+      "Hvis funksjoner ikke er tilgjengelige eller fungerer unormalt på grunn av utilstrekkelige tillatelser, plattformbegrensninger eller tredjepartsinnstillinger, garanterer ikke moonpacket at funksjonen vil operere normalt."
+    ],
+    "groupDataMinimization": [
+      "I gruppe/kontekstkontekster behandler vi kun det minimum av data som kreves for å levere tjenesten, som bruker nettverksidentifikatorer (UID), interaksjons-/hendelsesopptegnelser og indikatorer nødvendig for å forhindre misbruk; vi samler ikke aktivt inn eller lager personprofiler av gruppemedlemmer.",
+      "For samsvar (KYC/AML/sanksjoner) eller sikkerhetsformål, hvis vi må utvide omfanget av behandlingen, vil vi følge prinsippene om minimalisering og de-identifikasjon, som kreves av loven."
+    ],
+    "analytics": [
+      "For å vurdere produktprestasjon, forhindre misbruk og evaluere driftsresultater, kan vi behandle bruksdata på en de-identifisert eller aggregert måte og introdusere verktøy for tredjepartsanalyse/sporing innen rimelige grenser for trafikkovervåking og attribusjonsanalyse.",
+      "Vi vil ikke selge dine personopplysninger; vennligst se forklaringene og alternativene angående CPRA og andre forskrifter i denne avtalen dersom gjeldende jurisdiksjon har spesifikke definisjoner for 'salg/delning'.",
+      "Når lokale lover krever forhåndssamtykke eller gir et valg om å si opp, vil vi tilby relevante valg så langt det er mulig."
+    ],
+    "saleShareStatement": [
+      "Vi selger ikke dine personopplysninger mot vederlag; alle tredjepartsanalysere og annonseringsteknologier vil kun bli behandlet i en de-identifisert eller aggregert form når det er lovlig tillatt eller med nødvendig samtykke."
+    ]
+  },
+  "terms": {
+    "version": "v1.0.0",
+    "updated": "automatisk",
+    "version_label": "Versjon",
+    "updated_label": "Oppdater",
+    "owner_label": "Eier",
+    "appendix_title": "Vedlegg | Definisjoner og forklaringer",
+    "notice": {
+      "disclaimer_binding": "Følgende vilkår er gitt som en oversatt versjon for referanse kun; den offisielle versjonen med juridisk bindende kraft er den engelske originalen. I tilfelle av eventuelle avvik mellom språkversjoner og den engelske versjonen, skal den engelske versjonen ha forrang."
+    },
+    "owner": "moonpacket-teamet (heretter referert til som 'moonpacket') er et merke og tjenestenavn som tilbyr eksperimentelle online interaktive funksjoner og marketing-/fellesskapsvekstverktøy. moonpacket er ikke en bank, tillitsinstitusjon, oppbevaringsinstitusjon, børs, investeringsrådgiver, megler eller noe regulert finansinstitusjon; med mindre det er påkrevd av loven, skylder moonpacket ingen tillitsforpliktelse, tillitsplikt, ansvar for eiendomsbeholdning eller avkastningsgaranti til brukere.",
+    "intro": [
+      "Disse brukervilkårene (heretter kalt “disse vilkårene”) utgjør en juridisk bindende avtale mellom deg (heretter kalt “du” eller “bruker”) og moonpacket (heretter kalt “moonpacket,” “denne tjenesten,” eller “vi”) angående din tilgang til eller bruk av tjenestene som tilbys av moonpacket.",
+      "Denne tjenesten inkluderer, men er ikke begrenset til: nettsteder, nedlastbare applikasjoner, Telegram Mini App, roboter, sky-lommebøker, moduler for distribusjon av red packets/belønninger, grensesnitt for arrangementshåndtering, og relaterte statistikk/rangering funksjoner (heretter kollektivt kalt “denne tjenesten”).",
+      "Ved å trykke på knapper som “Start,” “Enig,” “Send,” eller lignende samtykke handlinger i grensesnittet, eller ved faktisk å begynne å bruke denne tjenesten, anses du for å ha lest, forstått og uopprettelig samtykket til å være bundet av alt innholdet i disse vilkårene; hvis du ikke samtykker, vennligst stopp umiddelbart bruken av denne tjenesten.",
+      "Spesifikke aktiviteter, kampanjesamarbeid eller bedriftsprogrammer kan gi ytterligere vilkår eller aktivitetsregler; slike tilleggsvilkår skal anses som en del av disse vilkårene; i tilfelle av konflikt med disse vilkårene, skal tilleggsvilkårene gjelde innenfor rammen av den spesifikke aktiviteten, mens resten fortsatt skal være underlagt disse vilkårene.",
+      "Disse vilkårene kan bli tilbudt på flere språk for å lette lesing. I tilfelle av eventuelle uoverensstemmelser eller konflikter mellom en oversatt versjon og den engelske versjonen angående innhold, tolkning eller virkning, skal den engelske versjonen ha forrang og anses som den endelige gyldige versjonen; andre språkversjoner skal ikke anses å pålegge moonpacket noen tilleggforpliktelser.",
+      "Du bekrefter og garanterer at beslutningen om å bruke denne tjenesten ikke er basert på noen løfter om 'garanterte avkastninger,' 'kapitalgjenoppretting,' 'gevinstfordeling,' 'investeringsråd,' eller andre kompensasjonsforpliktelser; moonpacket har ikke, og vil ikke, gi noen garantier eller juridisk bindende forpliktelser angående fremtidig inntekt, belønninger, priser, rangeringer eller innløselig verdi."
+    ],
+    "definitions": [
+      "Avsender' eller 'initiator' av red packet refererer til dem som oppretter, finansierer eller distribuerer red packets/belønninger/inntjening innen denne tjenesten, inkludert individuelle brukere, gruppeadministratorer, prosjektparter eller deres agenter.",
+      "Mottaker' eller 'deltaker' av red packet refererer til dem som interagerer i henhold til aktivitetsreglene, fullfører oppgaver eller forsøker å motta/har mottatt red packets eller belønninger.",
+      "Aktivitet' refererer til distribusjonsmekanismen satt av initiatoren, inkludert, men ikke begrenset til, lik distribusjon, tilfeldig 'loddtrekning', tildelt oppgavelåsing, passordopptak, tidsbestemte opptak, begrenset kvote/tidsfordeling, etc.",
+      "Off-chain registre' refererer til intern regnskap, saldoindikatorer og rettighetsattributtindikatorer innen moonpacket-systemet (f.eks. 'å bli utdelt', 'fordelt', 'tilgjengelig for uttak'). Off-chain registre er rent systemnivåindikatorer og reflekterer ikke den reelle overføringen av eiendeler på blokkjeden, og utgjør ikke endelig juridisk bevis på eierskap til eiendeler; de faktiske on-chain transaksjonene skal ha forrang.",
+      "Cloud wallet' refererer til en forvaltnings- eller semi-forvaltnings lommebok/eiendomsforvaltningsprosess levert av moonpacket eller dens partnere for å motta oppladbare eiendeler, indikere tildelende saldi, og støtte etterfølgende uttak. Cloud-lommebøker er ikke bankkonti, tillitskonti, innskuddskonti, eller forsikringsobjekter, og tilbyr ingen garantier for kapitalbevaring.",
+      "Avgifter' refererer til kostnadene for nettverksressurser som kreves for blokkjede transaksjoner (slik som gass), tredjepartstjeneste- eller betalingskanalkostnader, og (hvor det er aktuelt) plattformavgiftene som moonpacket belaster for spesifikke tjenester eller aktiviteter. Avgiftene bæres av brukerne; når de først er påløpt, er de ikke refunderbare.",
+      "KYC/AML' refererer til prosessene for identitetsverifisering (Know Your Customer), anti-hvitvasking (Anti-Money Laundering), bekjempelse av finansiering av terrorisme, sanksjonsgjennomgang, svindelforebygging, skatte og samsvarsrevisjoner, etc."
+    ],
+    "eligibility": [
+      "Du erklærer og garanterer at du er lovlig kvalifisert og har full kapasitet til å bruke denne tjenesten innen ditt jurisdiksjon; mindreårige eller personer med begrenset kapasitet må innhente nødvendig samtykke i henhold til lokale lover.",
+      "Denne tjenesten benytter en 'prøv før du binder' modell; imidlertid, før du ber om et uttak, overfører saldo mellom aktiviteter, eller engasjerer deg i noen faktisk avhending av eiendeler, har moonpacket rett til å kreve at du binder din e-post, telefonnummer og kryptovaluta lommebokadresse, og (hvis aktuelt) fullfører KYC/AML verifisering."
+    ],
+    "accounts": [
+      "Hvis du nekter, forsinker eller ikke godkjenner den nevnte verifiseringen, kan moonpacket, etter eget skjønn, forsinke, begrense eller avslå eventuelle forespørsel om uttak, tilbakebetaling, tining eller refusjoner; slike forsinkelser, restriksjoner eller avslåelser utgjør ikke et kontraktsbrudd fra moonpacket, og moonpacket har ingen kompensasjon, erstatning eller andre forpliktelser.",
+      "Du må riktig beskytte alle verifiseringselementer som din Telegram-konto, nettverkildens tilgangsnøkler, innloggingskoder, signeringsnøkler, enheter og passord. Eventuelle konsekvenser som følge av phishing, skadelig programvare, utlån av enheter, lekkasje av legitimasjon, svake passord eller handlinger fra autoriserte tredjeparter, vil bli bæret av deg."
+    ],
+    "service": [
+      "Ferdighetene som tilbys av denne tjenesten inkluderer, men er ikke begrenset til: (a) opprette og finansiere aktiviteter/red packets; (b) sette aktivitetsregler (totalt beløp, kvote, individuelle grenser, gyldig varighet, distribusjonsalgoritmer, oppgavebetingelser, passord, planlagte åpning, osv.); (c) verifisere om deltakerne møter aktivitetsbetingelsene; (d) merke, distribuere og låse tildelingsbeløp i Off-chain registre; (e) tillate kvalifiserte deltakere å utløse faktiske on-chain uttak ved innløsning; (f) generere ranglister, statistikker og ytelsesvisninger.",
+      "Driftsprosessen er som følger: etter at initiativtakeren lader opp eiendeler til den angitte moonpacket-adressen, vil det tilsvarende beløpet bli merket som 'eiendeler tilgjengelig for distribusjon i denne aktiviteten' i Off-chain registre; i løpet av aktivitetsperioden vil systemet kun merke eller dele beløp i Off-chain uten å garantere umiddelbare, individuelle, transaksjonelle direkte on-chain overføringer til noen enkeltpersons lommebok; først når kvalifiserte deltakere innløser og består tekniske og compliance-gjennomganger, vil moonpacket utløse faktiske on-chain overføringer.",
+      "Brukere godtar eksplisitt: Off-chain registre er kun for moonpacket's interne regnskap og interesseindikasjon og representerer ikke juridisk endelig eierskap til eiendeler; de endelige kravbare rettighetene er basert på de faktiske fullførte on-chain overføringene."
+    ],
+    "features": [
+      "moonpacket kan justere, suspendere, begrense eller avslutte visse funksjoner eller typer aktiviteter når som helst for sikkerhets-, drifts-, eller overholdelsesbehov; så lenge justeringen er basert på rimelige tekniske, risiko-, overholdelse-, eller kommersielle hensyn, utgjør slike situasjoner ikke et brudd fra moonpacket, som ikke skal holdes ansvarlig for kompensasjon eller andre forpliktelser.",
+      "moonpacket anbefaler sterkt å bruke denne tjenesten for små beløp flere ganger; beløpet for hver opplading eller distribusjon bør ikke overstige ekvivalenten av 100 USDT, og det er anbefalt å ikke akkumulere store mengder eiendeler i Off-chain registreringer over lange perioder."
+    ],
+    "cloudWallet": [
+      "Når utstederen bekrefter hendelsesbetingelsene (totalbeløp, distribusjonsregler, gyldighetsperiode og avgifter, osv.) på grensesnittet og sender det inn, utgjør det et løfte om en gave til uspesifiserte deltakere. Dette løftet trer i kraft så snart det er sendt inn og har karakter av å være \"ikke tilbakekallelig og uopprettelig\"; utstederen kan ikke kreve en stopp ved å si \"jeg har endret mening\" eller \"jeg anerkjenner ikke en bestemt deltaker.\"",
+      "For å oppfylle det nevnte gave-løftet, kan moonpacket låse det tilsvarende beløpet (aktivalam er låst) i Off-chain-postene og merke det som \"venter på distribusjon.\" Denne låsen er nødvendig for å oppfylle uttalerens løfte og er ikke vilkårlig konfiskering eller tilegnelse fra moonpacket.",
+      "I løpet av hendelsesperioden kan utstederen ikke be om tidlig uttak av det forpliktede beløpet, og de kan heller ikke be om å omallokere aktivene.",
+      "Etter hendelsesfristen: (a) Deler som har blitt krevd av deltakere (eller har utløst uttaksprosedyrer), samt avgifter påløpt for distribusjon, kan ikke kreves returnert; (b) For saldoer som forblir ikke krevd innen fristen, kan moonpacket returnere det gjenværende beløpet til den originale innskudds- eller sendingsadressen, eller den opprinnelige adressen anses rimelig av moonpacket etter å ha trukket fra nødvendige avgifter, gitt at tekniske og overholdelsesbetingelser tillater det.",
+      "For enhver retur, tining, uttak eller tilbakebetaling av saldo kan moonpacket først kreve at KYC/AML fullføres; hvis brukeren nekter, forsinker eller ikke består, kan moonpacket etter eget skjønn forsinke, begrense eller nekte å behandle; slike forsinkelser, restriksjoner eller avslåelser utgjør ikke et kontraktsbrudd fra moonpacket, og moonpacket har ingen kompensasjon, erstatning eller andre forpliktelser.",
+      "Når on-chain, er blockchain-transaksjoner typisk irreversible, offentlig verifiserbare og uforanderlige; moonpacket kan ikke retrospektivt slette, tilbakekalle eller \"spole tilbake\" transaksjoner som allerede har vært on-chain, og har ingen relaterte ansvar.",
+      "Eventuelle verdier, poeng, saldi, belønninger eller andre indikasjoner som ennå ikke har vært on-chain, er bare midlertidige opptegnelser og distribusjonsindikasjoner innen systemet og representerer ikke at slike eiendeler holdes, betrodd eller beskyttet av moonpacket, og de representerer heller ikke at moonpacket har en leveringsforpliktelse, verdi beskyttelsesforpliktelse, renteforpliktelse eller erstatningsforpliktelse til deg. moonpacket kan avgjøre å forsinke, nekte eller ikke lenger utstede slike verdier basert på sin risikohåndtering, KYC/AML, sanksjonsforpliktelser, skatt eller andre overholdelseskrav; slike beslutninger utgjør ikke et kontraktsbrudd fra moonpacket, og moonpacket har ingen kompensasjon, erstatning eller andre forpliktelser.",
+      "For å spare på on-chain transaksjonsgebyrer og tilby batch distribusjon/red packet distribusjonsfunksjoner, kan moonpacket midlertidig registrere og vise din distribuerbare saldo eller beløp som venter på tildeling ved hjelp av interne database (Off-chain) verdier. Disse verdiene er bare praktiske indikasjoner for intern oppgjør og distribusjon innen systemet og utgjør ikke tillit, forvaring, innskudd, skjønnsmessig finansforvaltning, innsamling og betaling, investeringsforvaltning eller andre regulerte finansielle aktiviteter. Med mindre og inntil disse verdiene faktisk er on-chain, faktisk betalt og verifiserbare på den offentlige kjeden, har moonpacket ingen forpliktelse til deres retur, verdibevarelsesforpliktelse eller renteforpliktelser, og disse verdiene er ikke garantert å være uttaksbare til en spesifikk tid, til en spesifikk pris, eller til en spesifikk nettverkskostnad."
+    ],
+    "fees": [
+      "Prosesser som aktivitet oppretting, distribusjon, verifisering, uttak, og on-chain overføring kan pådra behandlingsgebyrer. Typene og satsene for behandlingsgebyrer skal være som vist på grensesnittet, i henhold til aktivitetsregler, oppgjørssider, samarbeidsavtaler, eller andre eksplisitte midler.",
+      "Behandlingsgebyrer skal bæres av brukeren og vil bli trukket fra under sending, distribusjon, uttak, eller relaterte operasjoner; når de er pådratt, er de ikke-refunderbare. Selv om moonpacket bistår med refusjoner eller tilbakeføring av saldoer på grunn av faktorer i denne tjenesten, vil slike refusjoner eller tilbakeføringer kun bli gjort i den opprinnelige valutaen tilbake til den opprinnelige adressen, ekskludert eventuelle påløpte behandlingsgebyrer eller on-chain gasskostnader.",
+      "Hvis brukeren unnlater å gi rimelig overholdelsesinformasjon som moonpacket har bedt om (f.eks. KYC/AML), kan moonpacket, etter eget skjønn, utsette, begrense eller nekte enhver refusjon, tilbakeføring av saldo, uttak, eller liberering forespørsel; slike utsettelser, begrensninger eller avslag utgjør ikke et brudd fra moonpacket, som ikke skal holdes ansvarlig for kompensasjon eller andre forpliktelser.",
+      "Når du velger å bruke spesifikke red packet distribusjon, gruppe distribusjon, kampanje distribusjon, eller lignende funksjoner, kan systemet automatisk ta hensyn til og vise en viss prosentandel av systemgebyrer (f.eks. omtrent 2% for å belønne moonpacket for å opprettholde tjenesteoperasjoner), og/eller en viss prosentandel av fellesskapsdriftsbelønninger (f.eks. omtrent 3% returnert til fellesskapsledere for å støtte fellesskapsoperasjoner). Ved å bruke disse funksjonene, gir du systemet rett til å beregne og fordele disse gebyrene i henhold til de viste prosentene. Med mindre det er lovlig forbudt, har moonpacket rett til å justere disse prosentene, betingelsene, eller belønningsmodeller innenfor rimelige rammer uten ytterligere varsel."
+    ],
+    "rules": [
+      "Initiativtakeren er forpliktet til å sette aktivitetsregler på en sannferdig og klar måte (inkludert totalt beløp, kvote, individuelle grenser, gyldig varighet, betingede restriksjoner, distribusjonsalgoritmer, osv.), og må ikke tiltrekke deltakelse gjennom falske eller misvisende midler.",
+      "moonpacket utfører og registrerer distribusjonsalgoritmer, oppgaveverifisering og premie-resultater på serversiden og forbeholder seg nødvendige revisjonsspor for å svare på tvister, compliance, eller regulatoriske undersøkelser.",
+      "Hvis moonpacket rimelig mistenker storstilt misbruk, søppelpost, automatisert snatching, svindel, hvitvasking av penger, finansiering av terrorisme, gamblingprofittdeling, ulovlig innsamling av midler, omgåelse av sanksjoner, eller andre høyrisikovilkår, kan moonpacket umiddelbart suspendere, fryse, eller justere aktiviteten og beslutte å returnere uavhentede saldi, nekte distribusjon, eller overlevere detaljer til regulatoriske/juridiske myndigheter; slike handlinger utgjør ikke et brudd på kontrakten fra moonpacket, og moonpacket er ikke ansvarlig for noen kompensasjon, erstatning eller andre forpliktelser."
+    ],
+    "abuse": [
+      "moonpacket uttaler eksplisitt: Vi har ingen forpliktelse, og kan heller ikke garantere at 'noen konto nødvendigvis korresponderer til en enkelt, verifiserbar fysisk person'. Vi kan heller ikke garantere fraværet av flere delte kontoer, en enkelt fysisk person som eier flere kontoer, dummy kontoer eller automatiserte skript/boter som beslaglegger red packets.",
+      "Brukere (inkludert initiatorer og deltakere) forstår klart og samtykker til: Situasjonene nevnt over kan påvirke resultatene for fordeling av eiendeler, distribusjonsrekkefølgen eller tilgjengelige beløp; eventuelle urettferdigheter, avvik eller tvister forårsaket av flere kontoer, dummy kontoer, skript, botter eller andre uregelmessige operasjoner utgjør ikke et kontraktsbrudd fra moonpacket, og moonpacket har ikke noe ansvar for erstatning, tilbakebetaling eller noen annen forpliktelse.",
+      "For å opprettholde systemets sikkerhet og samsvar kan moonpacket bruke automatisert deteksjon, AI/modeller, svarte/grå lister, rate limiting, enhetsfingeravtrykk, IP/ASN risikovurdering og andre risikokontrollmekanismer innen rimelige grenser, og kan: (a) fryse, suspendere, blokkere eller begrense bruken av spesifikke kontoer, grupper, IP-er, enheter eller aktiviteter; (b) be om supplerende informasjon eller fullføre KYC/AML; (c) forsinke eller nekte behandling av kundeservice, uttak, refusjoner eller opplåsing; (d) referere mistenkte ulovlige eller høy-risiko situasjoner til myndigheter eller rettslige organer.",
+      "moonpacket har ingen forpliktelse til å offentliggjøre sin interne risikokontroll beslutningslogikk, tekniske detaljer eller fullstendig revisjonsgrunnlag. Eventuelle handlinger tatt basert på ovennevnte risikokontroll, samsvar eller forespørsel fra regulatoriske myndigheter utgjør ikke et kontraktsbrudd fra moonpacket, og moonpacket har ikke noe ansvar for erstatning, tilbakebetaling eller andre forpliktelser.",
+      "Disputter om Kontoeierskap (f.eks. krav om 'en annen konto er faktisk min, vennligst overfør saldoen'): moonpacket anerkjenner kun den opprinnelige kontoen, opprinnelig tilknyttede e-post og opprinnelig tilknyttede lommebokadresse som rettighetshavere; moonpacket har ingen forpliktelse til å overføre noen off-chain rekord saldo, uttaksrettigheter eller andre fordeler fra en bestemt konto til en annen konto/e-post/lommebok.",
+      "Hvis en konto ikke har logget inn på atten (18) sammenhengende måneder siden forrige innlogging, vil moonpacket fryse balansen på Off-chain posten som ikke er blitt trukket ut av sikkerhets-, overholdelses- og risikohåndteringshensyn, og vil ikke lenger tilby refusjoner, uttak eller noen andre former for tilbakebetaling. Denne handlingen utgjør ikke et kontraktsbrudd fra moonpacket, og moonpacket har ingen kompensasjon, erstatning eller andre forpliktelser."
+    ],
+    "ip": [
+      "De immaterielle rettighetene og andre rettigheter til denne tjenesten og innholdet (inkludert, men ikke begrenset til: kode, design, logoer, varemerker, bilder, tekst, statistiske presentasjoner, rangeringer, markedsføringsmateriell, dokumenter og datakomposisjoner) eies av moonpacket eller dets legitime lisensgivere.",
+      "Du må ikke kopiere, kringkaste, modifisere, distribuere, leie ut, reversere ingen, eller utnytte nevnte innhold på noen måte for kommersielle eller ikke-kommersielle formål uten forhåndsskriftlig tillatelse fra moonpacket.",
+      "Du representerer at du har oppnådd nødvendige tillatelser eller juridiske rettigheter for innhold som sendes, lastes opp, rapporteres eller på annen måte tilveiebringes til denne tjenesten (f.eks. gruppenavn, kallenavn, avatarer, beskrivelser, kommentarer, arrangementresultater, distribusjonsbeløp, rangeringdata, illustrative skjermbilder, meme, tilbakemeldinger, chatlogger, etc., kollektivt kalt “brukerinnhold”)."
+    ],
+    "thirdparty": [
+      "Denne tjenesten kan integrere, stole på eller lenke til tredjeparter (som Telegram-plattform, blockchain-noder, KYC/AML-leverandører, betalings- eller utvekslingskanaler, eksterne oppgavesystemer, skyleverandører, osv.). Disse tredjeparter opererer uavhengig og er bundet av sine respektive vilkår, personvernregler og tilgjengelighetsgrenser.",
+      "moonpacket garanterer ikke kontinuerlig eksistens, tidsriktighet, nøyaktighet, tilgjengelighet, lovlighet eller sikkerhet for noen tredjepartstjenester; ei heller garanterer det at disse tredjepartene ikke vil blokkere, begrense, forsinke, endre retningslinjer eller forstyrre tjenester.",
+      "Forsinkelser, feil, modifikasjoner, avbrudd eller datadiskrepanser forårsaket av tredjepartstjenester, nettverksforbindelse, blockchain-overbelastning, nodfeil, blokkering, throttling, policyendringer, systemvedlikehold, eller andre årsaker som ikke kan tilskrives moonpacket utgjør ikke et brudd på kontrakt fra moonpacket, og moonpacket påtar seg ikke ansvar for eventuelle skader, kompensasjoner eller brudd på kontraktsforpliktelser.",
+      "Hvis endringer i tredjeparts retningslinjer eller miljøer krever at moonpacket justerer, suspendere, eller stopper visse funksjonaliteter, kan moonpacket kunngjøre eller forklare justeringene innen en rimelig ramme, og slike justeringer skal være gyldige, og moonpacket skal ikke være ansvarlig for kompensasjon."
+    ],
+    "dataPrivacy": [
+      "moonpacket vil samle inn, bruke, oppbevare, behandle og dele dine data i samsvar med personvernerklæringen.",
+      "På grunn av den offentlige, irreversible og sporbare naturen av blokkjededata, kan noe informasjon gjenoppbygges eller knyttes til din identitet eller lommebokadresse av tredjeparter; du bør forstå og bære denne offentlige risikoen på egen hånd.",
+      "Du gir uttrykk for at moonpacket kan, innen rimelige grenser, oppbevare, gjennomgå, analysere, fryse og gi nødvendig informasjon (inkludert, men ikke begrenset til off-chain registre, on-chain bevis, KYC/AML-data, gruppe/chat/aktivitetlogs, distribusjon og uttaksaksjoner) til de nevnte myndighetene eller deres autoriserte enheter, basert på tiltak mot svindel, anti-hvitvasking, bekjempelse av finansiering av terrorisme, sanksjonsoverholdelse, skatterapportering, samsvarsrevisjoner, eller legitime forespørseler fra autoritative/rettslige organer.",
+      "moonpackets samarbeid med regulerende eller rettslige myndigheter er nødvendig ved lov eller samsvar og utgjør ikke et brudd eller kränking mot deg; moonpacket skal ikke være ansvarlig for eventuelle skader eller kostnader som oppstår fra slike samarbeidende handlinger."
+    ],
+    "risk": [
+      "Du bekrefter og godtar at kryptovaluta, blockchain-nettverk og sanntids interaktive distribusjonsmekanismer bærer høy usikkerhet og tekniske risikoer, inkludert, men ikke begrenset til, prisvolatilitet, protokoll- eller nodefeil, forks, tilbakeslag, ondsinnede angrep, tjenestenekt, nettverksbelastning, blokkering, throttling, sårbarheter i smarte kontrakter, endringer i tredjeparts APIer, endringer i regulerende politikk, eller datalenker.",
+      "Blockchain-transaksjoner er generelt irreversible når de er sendt og bekreftet på kjeden; eventuelle forsinkelser, feil eller avvik som skyldes irreversibilitet, nettverksbelastning, node-anomalier eller tredjepartsbegrensninger skal bæres av deg. moonpacket gir ingen garantier for kapitalbeskyttelse, verneverding, avkastningssikring eller sanntidstilgjengelighet.",
+      "Off-chain registre er kun for intern systeminteresse representasjon; rettighetene som til slutt kan kreves vil være basert på de faktiske on-chain overføringene som er fullført. Før on-chain kan eiendelen kanskje ikke ennå være knyttet til en unikt identifiserbar fysisk person og kan være underlagt deltakelsesregler, KYC/AML, fryse tiltak eller compliance-gjennomganger.",
+      "moonpacket er ikke en bank, ikke en regulert betalingsinstitusjon, ikke en investeringsrådgiver, ikke en eiendomsforvalter, ikke en forsikringsselskap. moonpacket gir ingen investerings-, skatt-, juridiske- eller compliance-råd; lovligheten på tvers av grenser eller jurisdiksjoner, skatterapporteringsforpliktelser og sanksjons compliance-forpliktelser er ditt eneste ansvar å evaluere og gjennomføre. Hvis du har bekymringer om compliance, vennligst ikke bruk denne tjenesten.",
+      "For å redusere risiko anbefaler moonpacket å bruke små beløp flere ganger (et enkelt transaksjonsbeløp bør ikke overstige det som tilsvarer 100 USDT) og unngå langsiktig lagring av store eiendeler i Off-chain registre.",
+      "Du forstår og godtar: moonpacket er ikke din bank, tillitsmann, agent, børs eller betalingsformidler, eiendomsforvalter, investeringsrådgiver, megler eller oppbevarer; moonpacket har ingen forpliktelse (og fornekter uttrykkelig enhver forpliktelse) til å bevare, forvalte, verdsette, investere, utveksle, konvertere, beskytte eller opprettholde noen verdi, token, eiendel eller interesse for deg.",
+      "Du forstår og godtar at når du overfører noen kryptovaluta eller token fra din lommebok eller konto til denne tjenesten, kan den on-chain transaksjonen selv pådra seg irreversible nettverksgebyrer, gass-gebyrer, miner-gebyrer, eller andre lignende kostnader; derfor kan det nettobeløpet som til slutt mottas og registreres av systemet som 'tildelt' være mindre enn det nominelle beløpet du har tastet inn eller som er vist på senderens grensesnitt. Denne forskjellen påløper av det relevante on-chain nettverket og infrastrukturen og ikke innkreves av moonpacket; moonpacket anerkjenner og registrerer kun det faktiske vellykkede nettobeløpet, som vil være det eneste grunnlaget for påfølgende interne registre og oppgjør, og utgjør ikke noen andre avvik skyldt deg av moonpacket."
+    ],
+    "disclaimer": [
+      "Denne tjenesten tilbys på en 'som den er' og 'som tilgjengelig' basis. I den grad loven tillater det, gir moonpacket ingen uttrykkelige eller underforståtte garantier, representasjoner eller forsikringer om denne tjenesten eller noen del av den (inkludert umiddelbar tilgjengelighet, nøyaktighet, uavbrutt drift, feilfri ytelse, egnethet for et bestemt formål, lovlighet, samsvar, sikkerhet, eller å være fri fra forstyrrelser).",
+      "moonpacket gir ingen garantier angående forsinkelser, feil, avbrudd, blokker, eller politikkendringer forårsaket eller involvert av tredjepartstjenester (som Telegram-plattform, blokkjedeknuter, KYC/AML-leverandører, betalings- eller utvekslingskanaler, eksterne oppgavesystemer, skyleverandører, etc.), og påtar seg heller ikke ansvar for deres anvendbarhet, lovlighet, tidlighet, tilgjengelighet, eller sikkerhet.",
+      "moonpacket tilbyr ingen uttrykkelige eller underforståtte garantier, forpliktelser, eller forpliktelser angående spesifikke tilbakemeldinger, rangeringer, utfall, tildelingsforhold, distribusjonsmengder, antall sendinger, vinnerprobabiliteter, airdrop-berettigelse, eiendelers omsetning, endelig uttakbarhet, eller markedsverdi; eventuelle tall, prosentandeler, estimater, simuleringer, ranglister, belønningspool størrelser, eller 'tilgjengelige belønninger' beskrivelsene som vises i grensesnittet eller kunngjøringer er kun til referanse og utgjør ikke garantier eller juridisk håndhevelige rettigheter for deg.",
+      "Du forstår og aksepterer at denne tjenesten er en interaktiv distribusjons/red packet distribusjonsmekanisme av en internett natur. Selv om moonpacket kan forsøke å rimelig oppdage automatisert misbruk, dupliserte kontoer, identitetsskifting, eller andre urettferdige atferd, garanterer moonpacket ikke og kan ikke garantere: (a) at hver konto tilsvarer en unik naturlig person; (b) at hver mottaker møter din subjektive vurdering av 'berettigede mottakere'; eller (c) at noen tildelingsresultater møter din personlige oppfatning av rettferdighet eller økonomisk forventning. moonpacket har ingen forpliktelse til å kompensere, omfordele, kreve tilbake, eller gjenvinne eiendeler fra deg på grunn av ditt krav om 'andre som har flere kontoer som oppnår pakker/roboter som oppnår pakker,' unntatt som krevet av lov.",
+      "Når du ber om uttak, overføringer, eller on-chain verdier, kan det hende du må bære tilleggskostnader for on-chain, gassavgifter, mineravgifter, eller andre nettverkskostnader på din lommebok eller spesifisert nettverk. Slike kostnader kan betydelig overstige det nominelle beløpet du prøver å ta ut under spesifikke nettverksbelastninger. Slike kostnader bestemmes av din egen økonomiske og risikovurdering, og er ikke serviceavgifter eller kommisjoner fra moonpacket; unntatt som krevet av lov, har moonpacket ingen forpliktelse til å bære, fremme, subsidiere, rabattere, optimalisere, eller refundere slike kostnader, eller noen forpliktelse til å sikre at slike kostnader er 'rimelige' i forhold til det nominelle uttaksbeløpet du prøver.",
+      "Denne tjenesten er ment å tilby et teknisk, programmert automatisk distribusjons- og interaksjonsverktøy, som lar brukere tildele eller forplikte seg til å distribuere sine egne eiendeler for gamification eller fellesskapsledelse formål. Unntatt som krevet av lov, utgjør ikke denne tjenesten (eller bør forstås som) banktjenester, innskudd, tillit, forvaltning, fidusiære investeringer, investeringsråd, fondforvaltning, valutahandel, eller betalingsoppgjør tjenester, og utgjør heller ikke lån eller finansieringsprodukter."
+    ],
+    "liability": [
+      "I den grad loven tillater det, skal ikke moonpacket være ansvarlig for noen indirekte, tilfeldige, spesielle, straffende, følgeskader eller derivater skader (inkludert, men ikke begrenset til tap av fortjeneste, tap av inntekter, skadet goodwill eller omdømme, datatap, mulighetskostnader, skatt eller bøter, eller ikke oppnådde forventede fordeler) som oppstår fra noen krav basert på kontrakt, tort, urettmessig berikelse, streng erstatningsansvar, eller annen juridisk/rettferdig teori.",
+      "Forsinkelser, feil, begrenset funksjonalitet, datadiskrepansser, eller avbrudd forårsaket av tredjepartstjenester, nettverksforbindelser, blokkjedekongestion, nodefeil, blokkering, drossel, policyendringer, systemvedlikehold, eller andre faktorer som ikke kan tilskrives moonpacket skal ikke utgjøre et brudd fra moonpacket, og moonpacket skal ikke være ansvarlig for noen skader, kompensasjon eller andre forpliktelser i slike tilfeller.",
+      "Transaksjonsgebyrer, on-chain gasskostnader, tredjepartsgebyrer eller lignende kostnader er ikke inkludert i noen refusjons- eller kompensasjonsomfang."
+    ],
+    "indemnity": [
+      "Hvis du (inkludert initierer og deltakere) bryter disse vilkårene eller noen gjeldende lover, sanksjoner, skatteforpliktelser eller samsvarskrav, eller krenker rettighetene til en tredjepart, eller engasjerer deg i svindel, hvitvasking av penger, finansiering av terrorisme, spillegevinster, ulovlig innsamling av personopplysninger, spredning av ondsinnet innhold, eller andre høy-risiko/forbudte aktiviteter ved å bruke denne tjenesten, noe som resulterer i krav, skader, bøter, forpliktelser, etterforskninger, søksmål eller andre kostnader (inkludert rimelige advokathonorarer) mot moonpacket og dets tilknyttede selskaper, direktører, ansatte, partnere, leverandører eller samsvars-/juridiske tilsynsenheter, samtykker du i å forsvare, holde skadesløs og beskytte dem i den grad loven tillater.",
+      "De ovennevnte forpliktelsene om skadesløsholdelse (hvis aktuelt) inkluderer, men er ikke begrenset til: forespørsel fra reguleringsmyndigheter, fryse- eller beslagleggelseranmodninger fra skatte- eller finansregulatorer, sivile eller strafferettslige prosesser, administrative bøter, advokathonorarer og rettssakskostnader, samt forpliktelser pålagt eller hevdet mot moonpacket på grunn av dine handlinger (inkludert påstått hvitvasking av penger, svindel, finansiering av terrorisme, skatteunndragelse, sanksjonsbrudd eller uautoriserte finansielle tjenester).",
+      "Du samtykker til at forpliktelsene om skadesløsholdelse, kompensasjon, forsvar og holde harmløs gjelder ikke bare for moonpacket selv, men også for moonpackets medlemmer, ledere, direktører, ansatte, konsulenter, entreprenører, utviklere, driftspartnere, fellesskapsledere, agenter, etterfølgere, overdragere og deres respektive etterfølgere (kollektivt kalt “skadesløshet”). I den grad loven tillater, samtykker du i å skadesløsne alle skadesløse for eventuelle krav, forespørsel, fryser, beslag, bøter, søksmål, dommer, forlik, advokathonorarer og andre kostnader som oppstår fra din bruk av denne tjenesten, kilder eller mål for midler, aktiviteter for distribusjon av red packets, transaksjoner eller tvister med andre brukere, eller unnlatt å overholde noen lover (inkludert, men ikke begrenset til, anti-hvitvasking, sanksjoner, skatteplikt og forpliktelser for rapportering av forbruksavgift)."
+    ],
+    "suspension": [
+      "moonpacket kan, basert på sikkerhet, etterlevelse, risikostyring eller driftsbehov, raskt ta følgende tiltak innenfor en rimelig ramme uten individuell varsel: (a) begrense, forsinke eller nekte å tilby deler eller alle tjenester; (b) fryse, holde, begrense, justere eller stoppe kontoer, saldier, funksjoner eller uttak; (c) blokkere spesifikke kontoer, grupper, IP-adresser, enheter eller aktiviteter; (d) be om tilleggsinformasjon eller fullføre KYC/AML. De nevnte tiltakene utgjør ikke brudd på kontrakt fra moonpacket, og moonpacket påtar seg ikke ansvar for eventuelle skader, kompensasjoner eller andre forpliktelser.",
+      "Hvis moonpacket rimelig vurderer at det finnes høyrisiko- eller ulovlige omstendigheter som svindel, hvitvasking av penger, terrorfinansiering, omgåelse av sanksjoner, uautoriserte finansielle tjenester, ulovlig innsamlingsvirksomhet, gamblingprofittdeling, utnyttelse av smutthull eller skade på plattformens stabilitet, kan moonpacket suspendere, forsinke eller nekte transaksjoner, distribusjoner, uttak, refusjoner, oppheving av frysing eller behandling av kundeservice, og samarbeide med undersøkelser eller direktiver fra regulerende eller rettslige myndigheter.",
+      "moonpacket har rett til å oppbevare registre over kontoer, transaksjonsbevis, KYC/AML-data og informasjon som kreves for revisjoner i en rimelig tidsperiode. Selv om du ber om å slette kontoen din eller slutte å bruke tjenesten, kan moonpacket fortsatt oppbevare slike data i henhold til lov, skatt, regnskap og krav til etterlevelse til oppbevaringsforpliktelsen utløper før sletting eller anonymisering.",
+      "Hvis Off-chain-poster er inkonsekvente med on-chain-status, kan moonpacket justere eller reversere Off-chain-poster for å gjenspeile det moonpacket rimelig vurderer som korrekt status; imidlertid kan on-chain-transaksjoner ikke kanselleres eller reverseres.",
+      "Uten å påvirke det generelle innholdet nevnt ovenfor, kan moonpacket nekte, forsinke, annullere, fryse eller permanent holde tilbake eventuelle verdier/ belønninger vist som 'ventende kreditt', 'til å opptjenes', 'ikke ennå on-chain', eller lignende betegnelser basert på etterlevelse, risikostyring, svindel eller misbruksbekymringer, selv om du har sett verdien i grensesnittet. Du samtykker eksplisitt og irrevocable til å frafalle eventuelle krav om kompensasjon, renter, inntekter, mulighetskostnader, straffeerstatning eller andre forespørsel om slike ubetalte verdier mot moonpacket, med mindre gjeldende lov uttrykkelig forbyr frafall av slike forespørsel.",
+      "Du forstår og samtykker til at når du sender inn (eller bekrefter innsending av) noen red packet, belønning, gruppeallokering eller andre distribusjonsinstruksjoner i grensesnittet, skal moonpacket betrakte tildelingsautorisasjonen for mottakerne/gruppene/betingelsene skissert i slike instruksjoner som uopprettelig og endelig. Bortsett fra for undersøkelser av svindel, misbruk, hvitvasking av penger, omgåelse av sanksjoner, skatteunndragelse, eller andre overholdelsesbekymringer, er moonpacket ikke forpliktet til å tilby mekanismer for 'omvendelse', 'refusjon', 'kansellering', 'gjenoppretting' eller lignende handlinger, ei heller er det forpliktet til å gjenvinne slike verdier på dine vegne fra andre brukere etter distribusjon er fullført; slike handlinger utgjør ikke et brudd fra moonpacket, og moonpacket skal ikke være ansvarlig for eventuelle skader, kompensasjon eller andre forpliktelser.",
+      "I tilfeller av gjeldende lover, forskrifter for bekjempelse av hvitvasking av penger, sanksjoner, skatterapportering, svindelundersøkelser, eller høyrisiko-varsler, kan moonpacket kreve at du fullfører identitetsverifisering (inkludert men ikke begrenset til, statlig utstedt ID, selfies, ansikts- eller annen biometrisk sammenligning, osv.) og kan be om tilleggsdokumenter eller videre verifisering hvis nødvendig. Hvis du unnlater å gi den nødvendige informasjonen innen rimelig tid, eller hvis den oppgitte informasjonen ikke kan bestå rimelige verifiseringskontroller, kan moonpacket, etter eget skjønn, forsinke, begrense, nekte eller permanent forby eventuelle uttak, uttak, on-chain eller innløsningsforespørsel; slike handlinger utgjør ikke et brudd på kontrakt fra moonpacket, og moonpacket påtar seg ikke ansvar for eventuelle skader, kompensasjoner eller andre forpliktelser, og du inndrar m.a.o. eventuelle krav om skader, renter eller mulighetskostnader angående slike forsinkelser eller forbud, bortsett fra når loven forbyr det."
+    ],
+    "compliance": [
+      "Du gir uttrykk for at moonpacket kan, i samsvar med sine overholdelsesforpliktelser, regler mot hvitvasking av penger/terrorfinansiering, sanksjoner, skatteforpliktelser, eller juridiske krav fra tilsyns-/rettsmyndigheter, beholde, fryse, analysere og gi nødvendig informasjon (inkludert Off-chain registreringer, on-chain spor, KYC/AML-data, gruppe/chat/hendelsesopptegnelser, distribusjons- og uttaksatferd) til autoriserte enheter eller deres utpekte overholdelsesleverandører.",
+      "Slike samarbeid utgjør ikke et kontraktsbrudd eller overtramp fra moonpacket, og moonpacket har ingen kompensasjon, erstatning eller andre forpliktelser."
+    ],
+    "forceMajeure": [
+      "Ved naturkatastrofer, kriger, opprør, regjeringsordrer, sanksjoner, nye lover eller forskriftskrav, strømbrudd, kommunikasjons- eller nettverksavbrudd, leverandør- eller skyinfrastrukturfeil, hendelser på blockchain-protokollaget, ondsinnede angrep, epidemier, arbeidskonflikter, eller andre årsaker som ikke kan tilskrives moonpacket, som resulterer i en forsinkelse eller manglende evne for noen av partene til å fullt ut eller delvis oppfylle forpliktelsene under disse vilkårene, kan den berørte parten kreve unntak fra ansvar for slike forsinkelser eller manglende ytelse; imidlertid skal parten fortsatt gjøre rimelige anstrengelser for å redusere virkningen og gjenopprette så snart som mulig."
+    ],
+    "highRisk": [
+      "Forbudte bruksområder for denne tjenesten inkluderer alle ulovlige, høyrisiko, eller sanksjonerte formål, inkludert men ikke begrenset til svindel, hvitvasking av penger, terrorfinansiering, gamblingprofitter, ulovlig innsamlingsvirksomhet, uautoriserte finansielle tjenester, omgåelse av sanksjoner, eller noen annen reguleringsforbudt aktivitet.",
+      "Initierer bør bekrefte sitt jurisdiksjonsområde eller gjeldende lovområde angående distribusjon av red packets, belønninger, kampanjemidler, airdrops, gevinstfordeling eller lignende distribusjoner, og sørge for at disse ikke utgjør ulovlig innsamling, uautoriserte finansielle tjenester, ulovlige spillegevinster eller andre rapporterings-/tillatelsespliktige aktiviteter.",
+      "Deltakere bør bekrefte at mottak, inneholdelse, uttak eller overføring av eiendeler er i samsvar med lovene som gjelder for deres lokasjon, og ikke involverer ulovlig inntekt, sanksjonsbrudd, skatterapporteringsforpliktelser eller andre regulatoriske begrensninger.",
+      "moonpacket gir ingen juridiske garantier angående lovligheten av grenseoverskridende eller grensekryssende bruk av denne tjenesten, og garanterer heller ikke at du kan bruke denne tjenesten lovlig i noe spesifikt område.",
+      "Du representerer og garanterer at du ikke er underlagt internasjonale sanksjoner, eksportkontroller, antiterrorlagstiftning eller lignende restriksjoner, og at du ikke bruker denne tjenesten på vegne av slike enheter. Du må ikke bruke denne tjenesten til å bistå, legge til rette for eller forsøke å omgå noen sanksjoner, frysinger, beslag, konfiskeringer, skatteauditer eller rettslige prosesser. moonpacket forbeholder seg retten til å nekte, begrense eller avslutte hele eller deler av tjenestene, eller forsinke, begrense eller nekte alle uttaks-, overførings- eller innløsningsforespørselene uten forhåndsvarsel; slike handlinger utgjør ikke et brudd fra moonpacket, og moonpacket skal ikke være ansvarlig for eventuelle skader, kompensasjoner eller andre forpliktelser."
+    ],
+    "tax": [
+      "Du er ansvarlig for å håndtere eventuelle skatteforpliktelser, erklæringer, betalinger og relatert kostnader som følge av bruken av denne tjenesten i samsvar med gjeldende lover; moonpacket gir ingen skatterådgivning, og er ikke ansvarlig for erklæringer eller tilbakeholdte betalinger, med mindre loven krever det."
+    ],
+    "accuracy": [
+      "Rangeringene, statistikken, hendelsesresultatene, tipsene eller dashbordinformasjonen som tilbys av denne tjenesten, kan avvike fra den faktiske statusen på grunn av synkroniseringsforsinkelser, avhengighet av tredjeparter, midlertidige restriksjoner eller systemvedlikehold; alt er fortsatt underlagt de faktiske on-chain transaksjonsresultatene eller de endelige oppgjørsopptegnelsene innen moonpacket.",
+      "moonpacket kan korrigere åpenbare feil, systemfeil eller resultater som er åpenbart urettferdige i visningen, og kan rulle tilbake Off-chain poster innen rimelig rekkevidde for å tilpasse dem til den nøyaktige status som rimelig fastsatt av moonpacket; imidlertid kan on-chain transaksjoner ikke kanselleres eller reverseres."
+    ],
+    "law": [
+      "Disse vilkårene, samt alle forhold mellom deg og moonpacket som oppstår fra eller er relatert til denne tjenesten (inkludert, men ikke begrenset til aktivitet distributions, håndtering av eiendeler, rangering/gevinstmekanismer, kontofrys/suspensjoner, stopp eller avslutning av tjenesten, justeringer av Off-chain opptegnelser, datalagring, samarbeid med rettshåndhevelse, eventuelle kunngjøringer, uttalelser, markedsføring, kundestøtteintervensjoner, etc.), skal reguleres av lovene i Japan uten hensyn til prinsippene for privat internasjonal rett eller lovkonflikter."
+    ],
+    "disputes": [
+      "Enhver tvist, kontrovers, forespørsel, søksmål, rettsmidler, eller prosess som oppstår fra eller relatert til denne tjenesten eller disse vilkårene skal utelukkende sendes til Tokyo Tingrett som første instans. Du gir uopprettelig avkall på enhver rett til å påberope seg jurisdiksjonen til en annen domstol, voldgiftsinstitusjon, eller rettsdistrikt som måtte være mer praktisk eller passende, og kan ikke hevde at moonpacket skal være underlagt jurisdiksjonen til domstolen der du er lokalisert.",
+      "Du godtar at moonpacket kan, i samsvar med sine samsvarsforpliktelser, anti-hvitvasking/bekjempelse av terrorfinansiering, sanksjoner, skatt, eller legitime forespørseler fra regulerende/rettslige myndigheter, oppbevare, fryse, analysere og gi nødvendig informasjon (inkludert off-chain registre, on-chain bevis, KYC/AML data, gruppe/chat/aktivitetlogger, distribusjons- og uttaksaksjoner) til autoriserte enheter eller deres autoriserte samsvarsleverandører; slikt samarbeid utgjør ikke moonpackets brudd eller krenkelse, og moonpacket skal ikke være ansvarlig for noen kompensasjon, tilbakebetaling, eller andre forpliktelser for dette."
+    ],
+    "contact": [
+      "For spørsmål knyttet til denne avtalen, vennligst kontakt moonpacket via kundeserviceboten eller kontaktkanalene vist i grensesnittet. For forespørselen om databeskyttelse eller personvernhenvendelser, vennligst ta kontakt med kontaktvinduet angitt i personvernerklæringen."
+    ],
+    "changes": [
+      "moonpacket kan revidere disse vilkårene og relaterte policyer når som helst basert på tekniske, risikohåndterings-, overholdelse- eller forretningshensyn. Den reviderte versjonen vil tre i kraft ved publisering og vil bli ansett som den nyeste gyldige versjonen. Ved å fortsette å få tilgang til eller bruke denne tjenesten etter publisering, anses du for å ha samtykket til det oppdaterte innholdet; hvis du ikke er enig, er din eneste løsning å umiddelbart stoppe bruken av denne tjenesten."
+    ],
+    "serviceChanges": {
+      "title": "Tjenestejusteringer og vilkårsoppdateringer",
+      "body": [
+        "moonpacket kan, etter eget skjønn, modifisere, lokalisere, justere, suspendere, begrense, oppdatere eller avslutte alt eller deler av denne tjenesten (inkludert, men ikke begrenset til, beregningsmetoden for red packets/ belønninger, avkjølingsperioder, distribusjonsbetingelser, rangregler, håndteringsgebyrer, tilgjengelige funksjoner, grensesnitt, APIer, plugin-integrasjoner, aktivitetsgrenser, osv.), og kan når som helst ta alle eller deler av sine tjenester offline; moonpacket har ingen forpliktelse til å opprettholde noen spesifikke tjenester eller funksjoner permanent.",
+        "moonpacket kan nekte eller suspendere tjenester til spesifikke brukere eller grupper basert på risikostyring, overholdelsesgjennomgang, tekniske eller forretningsmessige hensyn, eller begrense deres funksjonaliteter og rettigheter (inkludert frysing, suspensjon, blokkering, forebygging av tilkoblinger, eller blokkering av spesifikke chattegrupper eller kontoer) uten individuell varsel. Bortsett fra hva som er påkrevd ved lov, er ikke moonpacket ansvarlig for eventuelle skader, tap eller kostnader som oppstår fra eventuelle justeringer, suspensjoner eller nektelse av å tilby denne tjenesten."
+      ]
+    },
+    "userContent": {
+      "title": "Brukerinnhold og offentlig visningsautorisasjon",
+      "body": [
+        "Du forstår og samtykker: Ethvert innhold, data, navn, kallenavn, gruppenavn, gruppeavatarer, gruppbeskrivelser, chatrominformasjon, lederborddata, bidragsbeløp, totale red packet-beløp, heldige trekkeresultater, meldinger, svar, meme, klistremerker, tekst eller annen informasjon (kollektivt omtalt som 'Brukerinnhold') som du gir, laster opp, rapporterer, eller på annen måte gjør tilgjengelig for moonpacket under bruken av denne tjenesten kan bli vist, sortert, rangert, aggregert, kunngjort, skjermdumpet, gjengitt, distribuert, offentlig overført, offentlig vist, tilpasset, og brukt til markedsføring og driftsforklaringer (f.eks. vise populære grupper, rangering av red packetfordelinger, heldige mottakere, evaluering av hendelsens utfall, osv.) innen moonpackets interne eller offentlig synlige områder.",
+        "Hvis moonpacket rimelig mistenker at spesifikt brukerinnhold kan bryte lovene, krenke tredjepartsrettigheter, involvere svindel/hvitvasking av penger/terrorfinansiering/gamblingprofittdeling/ulovlig innsamlingsvirksomhet/uautorisert innsamling av personopplysninger, og andre høyrisiko-atferd, kan moonpacket fjerne, skjule, begrense visning, ta ned, eller blokkere slikt innhold, og kan fryse, suspendere eller avslutte tilgangen til relevante kontoer eller grupper og kan gi nødvendig informasjon til gruppeadministratorer, plattformutviklere, reguleringsmyndigheter, eller rettslige enheter. moonpacket påtar seg ikke ansvar for eventuelle skader, tap av profitt, omdømmeskader, eller andre krav som oppstår fra slike handlinger."
+      ]
+    },
+    "liabilityCap": {
+      "title": "Begrensning av ansvar og kompensasjonsgrense",
+      "body": [
+        "I den størst mulig grad tillatt av loven, er moonpacket's samlede ansvar for krav, skader eller forpliktelser som oppstår fra din bruk av denne tjenesten begrenset til (A) de totale gebyrene som faktisk er betalt av deg til moonpacket og bekreftet av moonpacket innen de siste tretti (30) dagene relatert til det forespørselen, eller (B) det som tilsvarer femti (50) dollar, avhengig av hva som er lavest. Denne grensen utgjør ditt eneste og eksklusive rettsmiddel, selv om dette middelet mislykkes i å kompensere for skadene dine.",
+        "Den ovennevnte grensen gjelder kun i den utstrekning loven krever at moonpacket bærer ansvar, og utgjør ditt eneste og eksklusive rettsmiddel; utover dette obligatoriske omfanget anerkjenner eller garanterer moonpacket ikke noe ansvar for tvister eller krav."
+      ]
+    },
+    "governingLaw": {
+      "title": "Gjeldende lover og tvisteløsning.",
+      "body": [
+        "Disse vilkårene, og alle relasjoner som oppstår fra eller relatert til denne tjenesten mellom deg og moonpacket, skal være underlagt lovene i Japan, og tolkes deretter, men skal ikke inkludere anvendelsen av dets prinsipper om lovkonflikter.",
+        "Enhver tvist, krav, søksmål, rettsmidler, eller prosesser som oppstår fra eller relatert til denne tjenesten eller disse vilkårene skal være underlagt den eksklusive jurisdiksjonen til Tokyo tingrett i Japan som første instans. Du fraskriver deg irreversibelt enhver rett til å påstå at noen annen domstol eller jurisdiksjon er mer praktisk eller hensiktsmessig og skal ikke hevde at moonpacket er underlagt jurisdiksjonen til dine lokale domstoler.",
+        "moonpacket, i samsvar med sine forpliktelser, anti-hvitvasking/anti-terrorfinansiering, sanksjoner, skatte-, eller juridiske myndigheters legitime forespørslere, kan beholde, fryse, analysere, og gi nødvendig informasjon (inkludert Off-chain registreringer, on-chain bevis, KYC/AML data, gruppe/chat/aktivitetsregistre, og distribusjons- og uttaksaktiviteter) til autoriserte enheter eller deres overholdelsesleverandører; slike handlinger utgjør ikke et kontraktsbrudd eller krenkelse fra moonpacket, som ikke skal holdes ansvarlig for eventuelle skader eller kostnader som oppstår fra slike handlinger.",
+        "Du og moonpacket er enige om at ingen krav kan fremsettes eller delta i gjennom gruppesøksmål, kollektive søksmål, felles handlinger, eller lignende prosesser; du fraskriver deg irreversibelt dine rettigheter til å være en saksøker, medlem, agent, eller representant i slike prosesser, unntatt der det er forbudt ved lov.",
+        "Hvis noen bestemmelse i disse vilkårene anses som ugyldig, ulovlig, eller ikke gjennomførbar av en kompetent domstol, skal de gjenværende bestemmelsene fortsatt være i full kraft og effekt i den maksimale grad tillatt av lov (delbarhet).",
+        "Disse vilkårene utgjør den komplette avtalen mellom deg og moonpacket vedrørende denne tjenesten og erstatter enhver tidligere muntlig eller skriftlig kommunikasjon, kunngjøringer, markedsføringsbeskrivelser, samfunnsposter, støtte svar, eller løfter (hvis noen) mellom partene. Med mindre det uttrykkelig er uttalt skriftlig av moonpacket, skal ingen andre uttalelser, FAQ-er, markedsføringsmaterialer, chatlogger, eller verbale forklaringer utgjøre en garanti eller garanti som binder moonpacket i juridisk forstand.",
+        "moonpacket kan, uten ditt forhåndssamtykke, overføre, delegere, eller på annen måte ha datterselskaper, kontraktører, rettighetshavere, drifts etterfølgere, eller andre tredjeparter behandlet eller oppfylt hele eller deler av disse vilkårene eller sine rettigheter og forpliktelser, og slike tredjeparter kan fortsette, justere, eller avslutte tjenesten under i hovedsak lignende betingelser; du kan ikke overføre eller overføre noen rettigheter eller forpliktelser under disse vilkårene uten moonpacket sitt forhåndsskriftlige samtykke.",
+        "Med mindre annet er påkrevd ved lov, skal moonpacket sin unnlatenhet til å utøve noen rettighet, rettsmidler, eller krav tildelt av disse vilkårene på et spesifikt tidspunkt, eller dens unnlatenhet til å umiddelbart utøve slike rettigheter, ikke anses som et avkall på den rettigheten, og skal ikke påvirke moonpacket sin evne til å påberope seg eller utøve den rettigheten i fremtiden.",
+        "Bestemmelser som av sin natur skal overleve opphør av disse vilkårene, inkludert men ikke begrenset til forpliktelser relatert til gebyrer og behandlingskostnader, ansvarsfraskrivelser, begrensninger av ansvar, erstatningsgrenser, skatteforpliktelser, intellektuell eiendom bestemmelser, forbud, overholdelses- og samarbeid forpliktelser, gjeldende lov og jurisdiksjonsbestemmelser, samt gjeldende erstatningsforpliktelser, skal forbli effektive og bindende for deg etter at du slutter å bruke denne tjenesten eller ved opphør av disse vilkårene av hvilken som helst grunn."
+      ]
+    },
+    "appendix": [
+      "\"Irreversibel\": Henviser til on-chain transaksjoner som, når de er bekreftet (on-chain), vanligvis ikke kan tilbakekalles, gjenopprettes eller slettes, og deres opptegnelser kan permanent verifiseres på offentlige blockchain-utforskere.",
+      "\"Ikke tilbakekallelig\": Henviser til løftet om en gave gitt til uspesifiserte deltakere som trer i kraft når utstederen bekrefter distribusjonsbetingelsene og sender den ut, og kan ikke vilkårlig tilbakekalles, kanselleres eller kreves stoppet under hendelsen, og kan heller ikke kreves returnert på grunnlag av \"angre\"; dette er et annet nivå av konsept enn \"irreversibel\" on-chain transaksjoner.",
+      "\"Innen rimelig rekkevidde\": Henviser til kommersielt rimelige handlinger utført av moonpacket for å sikre operasjonell sikkerhet, overholdelseskrav, tiltak mot hvitvasking av penger/terrorfinansiering, overholdelse av sanksjoner, skatt overholdelse, brukerbeskyttelse eller risikohåndteringsmål innen rammene av lovlige, regulatoriske forpliktelser og tilgjengelige ressurser, inkludert, men ikke begrenset til: frysing, restriksjon, forsinkelse, justering, tilbakeholdelse, samarbeid med myndigheter, eller å nekte å tilby visse funksjoner."
+    ]
+  }
+}

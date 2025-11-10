@@ -1,0 +1,15 @@
+{
+  "hero": {
+    "headline": "moonpacketは月に向かって飛び立ちます！",
+    "subheadline": "Telegram TON、meme、USDTレッドパケットをゲット｜memeプロジェクトとTelegramグループ管理者のための最高のレッドパケットボット、新しいユーザーを惹きつけ、エンゲージメントを高めます。",
+    "cta_primary": "moonpacketを有効化",
+    "cta_secondary": "統合方法"
+  },
+  "metrics": {
+    "title": "トークンと統計",
+    "connected_groups": "接続されたグループ",
+    "total_packets_sent": "レッドパケットが送信されました",
+    "total_claimed": "合計受取額（USDT）",
+    "data_stale": "データが古い可能性があります"
+  }
+}

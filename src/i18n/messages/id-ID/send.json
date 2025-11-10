@@ -1,0 +1,171 @@
+{
+  "title": "",
+  "hero": {
+    "api_demo_label": "Demo API",
+    "api_get": "https://t.me/MoonPackageDevBot",
+    "response_label": "Respon:",
+    "json": "{ \"data\": { \"level\": 100, \"status\": \"active\", \"is_blacklist\": false } } {, \"data\": {, \"level\": 100,, \"status\": \"active\",, \"is_blacklist\": false, }",
+    "title": "Menarik pengguna baru, meningkatkan aktivitas",
+    "lead": "Pihak proyek dapat menetapkan kondisi spesifik:",
+    "points": {
+      "0": "",
+      "1": "",
+      "2": ""
+    },
+    "note": "Pengguna yang memenuhi syarat dapat mengklaim angpao",
+    "subtitle": "Buat acara angpao kustom untuk komunitas Anda",
+    "desc": "Pemasangan mudah, peluncuran cepat, aktifkan komunitas Anda!",
+    "ctaPrimaryLabel": "Mulai Sekarang",
+    "ctaPrimaryHref": "https://t.me/MoonPackageDevBot",
+    "ctaSecondaryLabel": "Lihat Contoh",
+    "ctaSecondaryHref": "/zh-TW/claim/",
+    "api_demo_code": "{\n\"data\": {\n\"level\": {\n\"gt\": 99\n},\n\"status\": {\n\"eq\": \"active\"\n},\n\"is_blacklist\": {\n\"eq\": false\n}\n}\n}",
+    "api_demo_title": "GET [api_url]?api_key=[api_key]&user_id=[user_id]",
+    "use_cases_items": {
+      "0": "Pihak proyek dapat menetapkan kondisi tugas:",
+      "1": "Bergabung dengan grup / Ikuti saluran",
+      "2": "Frasa sandi yang benar",
+      "3": "API kustom pihak proyek",
+      "4": "Hanya pengguna yang memenuhi syarat yang dapat mengklaim, kirim angpao ke pengguna yang berharga."
+    },
+    "use_cases_title": "Menarik pengguna baru・Meningkatkan aktivitas"
+  },
+  "faq": {
+    "section_1": "Memulai dan pengaturan.",
+    "q1": "Bagaimana cara memulai?",
+    "a1": "Tambahkan Robot moonpacket ke grup atau saluran Telegram Anda dan atur sebagai administrator.",
+    "q2": "Persiapan apa yang diperlukan sebelum mengirim?",
+    "a2": "Silakan deposit aset yang ingin Anda distribusikan terlebih dahulu (contoh: deposit 10 USDT untuk pengujian).",
+    "section_2": "2) Proses Pengiriman",
+    "q3": "Bisakah saya memilih tempat untuk mengirimnya?",
+    "a3": "Pilih grup atau saluran yang terikat di 'Tujuan Pengiriman' untuk mengirim ke satu atau beberapa grup secara bersamaan.",
+    "tip": "Tip: Mengirim angpao cocok untuk interaksi awal. Anda dapat membalas pos angpao untuk menjelaskan tema permainan yang ingin Anda selenggarakan.",
+    "section_3": "3) Masalah Teknis",
+    "section_4": "Data dan Analisis",
+    "section_5": "Dukungan Teknis dan Pemeliharaan",
+    "q4": "Dapatkah metode alokasi disesuaikan?",
+    "a4": "Mendukung mode distribusi acak dan rata.",
+    "q5": "Anda dapat langsung mengirim pesan ke robot layanan pelanggan resmi @moonini_helper_bot.",
+    "a5": "Setiap kunci API dapat dipanggil hingga 60 kali per menit.",
+    "q6": "Bagaimana cara menangani kesalahan?",
+    "a6": "API akan mengembalikan kode kesalahan dan pesan kesalahan yang detail.",
+    "q7": "Bagaimana cara memantau efektivitas aktivitas?",
+    "a7": "Sediakan dasbor data real-time:",
+    "q8": "Bagaimana biaya transaksi dihitung?",
+    "a8": "• Biaya layanan platform: 2-5% (disesuaikan berdasarkan skala aktivitas)",
+    "q9": "Bagaimana cara memastikan keamanan dana?",
+    "a9": "• Arsitektur terdesentralisasi, tidak perlu dana kustodian",
+    "q10": "Apa yang harus dilakukan dengan dana yang tersisa setelah acara berakhir?",
+    "a10": "• angpao yang tidak diklaim akan secara otomatis dikembalikan ke dompet Anda.",
+    "q11": "Bisakah beberapa acara diadakan secara bersamaan?",
+    "a11": "Ya, tetapi kami sarankan Anda:",
+    "q12": "Bagaimana menangani keluhan pengguna?",
+    "a12": "• Menyediakan saluran layanan pelanggan yang khusus",
+    "q13": "Apakah dukungan teknis tersedia?",
+    "a13": "• Dukungan teknis 24/7",
+    "q14": "Bagaimana mengoptimalkan efektivitas acara?",
+    "a14": "• Sesuaikan strategi aktivitas berdasarkan data",
+    "q9_passcode": "Apa itu frasa sandi? Dalam skenario apa itu cocok?",
+    "a9_passcode": "Pemain harus mendapatkan frasa rahasia dari saluran eksternal dan kembali ke halaman ini untuk memasukkannya dengan benar untuk mengklaim. Praktik umum:",
+    "passcode_scenarios": {
+      "0": "Pecah frasa rahasia 6-digit dalam video panjang YouTube untuk mendorong pemirsa menonton secara lengkap.",
+      "1": "Posting di X.com (Twitter) atau Threads yang mengisyaratkan frasa rahasia untuk meningkatkan interaksi.",
+      "2": "Hanya bagikan frasa rahasia secara lisan selama siaran langsung untuk memandu audiens yang hadir.",
+      "3": "Grup privat/bayar menyediakan frasa rahasia eksklusif untuk memastikan manfaat diberikan hanya kepada anggota inti."
+    },
+    "q10_api": "Bisakah saya menggunakan API saya sendiri untuk menentukan kelayakan peserta?",
+    "a10_api": "Ya. moonpacket akan memanggil API read-only yang disediakan untuk verifikasi sebelum pengguna mengklaimnya. Cukup atur api_url dan api_key (pengaturan domain opsional tersedia) di backend.",
+    "api_condition_title": "Deklarasi kondisi (tanpa user_id)",
+    "api_response_label": "Kembalikan:",
+    "api_operators_label": "Operator:",
+    "api_operators_desc": "eq (dapat mencocokkan tipe apa pun), gt/lt/gte/lte (harus numerik)",
+    "api_user_query_title": "Tanya Pengguna (termasuk user_id)",
+    "api_logic_desc": "moonpacket menggunakan 'Deklarasi kondisi' sebagai ambang untuk dibandingkan dengan nilai aktual dari 'Tanya Pengguna'; jika cocok, maka diterima, jika tidak, tidak dapat diklaim.",
+    "api_security_title": "Rekomendasi Keamanan",
+    "api_security_desc": "Gunakan endpoint hanya baca, aktifkan api_key, dan izinkan pembatasan domain; untuk lintas domain, disarankan menggunakan Cloudflare Workers untuk transit dan pembatasan laju.",
+    "q12_antibot": "Bagaimana mencegah kecurangan dan aktivitas bot?",
+    "a12_antibot_items": {
+      "0": "Frekuensi perilaku dan deteksi perangkat/IP",
+      "1": "Akun yang terikat unik dengan dompet",
+      "2": "Kode verifikasi penarikan",
+      "3": "Tinjauan awal kontrol risiko AI; mungkin melakukan autentikasi biometrik pihak ketiga, pengenalan wajah, dan verifikasi dokumen jika diperlukan"
+    },
+    "q13_records": "Di mana saya bisa memeriksa catatan pesan yang saya kirim dan jumlah penerima?",
+    "a13_records": "Silakan periksa 'angpao yang Saya Kirim' di beranda pribadi Anda untuk melihat jumlah pengklaim, jumlah yang tersisa, dan total yang dibelanjakan untuk setiap sesi; jika diaktifkan, laporan juga dapat diunduh.",
+    "q1_body": {
+      "0": "Ini adalah alat untuk membantu tim proyek, pemilik grup, atau manajer komunitas dengan cepat mendistribusikan angpao di grup Telegram.\nSecara khusus menargetkan distribusi koin meme untuk memberikan insentif kepada anggota komunitas,\npenggunaan utamanya termasuk: merangsang aktivitas, menarik anggota baru, dan melaksanakan kegiatan promosi.\nAnda dapat menggunakan tidak hanya koin meme yang Anda terbitkan untuk mendistribusikan angpao tetapi juga token utama seperti USDT, TRX, SOL, dan lainnya.\nMelalui moonpacket, Anda dapat meminta pengguna untuk menyelesaikan tugas sederhana, dan lebih lanjut mengonfigurasi melalui API, memungkinkan pemilik grup untuk 'menyesuaikan aturan distribusi' dan 'mengatur kondisi klaim', memverifikasi dengan API mereka sendiri.",
+      "1": "Tips: Mendistribusikan angpao moonpacket memungkinkan Anda menemukan anggota komunitas yang benar-benar berharga. Anda dapat mengatur kondisi klaim di setiap angpao, memberikan pemain tugas yang berbeda untuk diselesaikan."
+    },
+    "q1_title": "1) Apa fitur angpao dari moonpacket?",
+    "q2_body": {
+      "0": "Pesan selamat datang untuk anggota baru setelah bergabung (menyelesaikan tugas bergabung dasar)",
+      "1": "Interaksi waktu nyata selama siaran langsung / AMA / acara (hanya anggota yang fokus pada acara yang dapat menerima frasa sandi dan memenuhi syarat untuk angpao)",
+      "2": "Promosi pemasaran dalam grup, undian, tugas slogan, level permainan, rebate pengisian ulang (misalnya, hanya pemain yang mencapai level tertentu dalam permainan atau mengisi ulang jumlah tertentu yang memenuhi syarat untuk menerima)",
+      "3": "Hadiah untuk mengundang teman bergabung dengan grup",
+      "4": "Promosi waktu terbatas, acara hitung mundur (tugas check-in harian)",
+      "5": "\"angpao lintas grup\": Kirim angpao ke grup lain (jika pemilik grup mengizinkan) untuk mempromosikan publikasi bersama dan kolaborasi komunitas."
+    },
+    "q2_title": "2) Kapan penggunaan fitur angpao yang tepat?",
+    "q3_body": {
+      "0": "Semua operasi on-chain dikenakan biaya gas. Biaya gas dibebankan oleh blockchain itu sendiri dan bukan biaya tambahan dari kami.",
+      "1": "Saat Anda menyetor token ke dalam kolam angpao, biaya gas akan dipotong on-chain segera. Jumlah yang sebenarnya masuk ke kolam mungkin sedikit lebih rendah dari jumlah nominal yang Anda masukkan (atau biaya gas tambahan mungkin dikenakan saat transfer). Ini adalah pemotongan on-chain yang normal.",
+      "2": "Saat mengeluarkan angpao di 'grup Anda', sistem akan secara otomatis mengenakan biaya platform sebesar 2% pada saat distribusi, yang akan dipotong langsung.",
+      "3": "angpao lintas grup (mempromosikan angpao di grup orang lain) memiliki aturan tambahan:",
+      "4": "Pertama, pemilik grup yang menerima promosi harus mengatur izin, dan token utama harus digunakan. angpao lintas grup tidak menerima koin meme yang dibuat sendiri, dan sistem memiliki ambang minimum untuk jumlah angpao lintas grup. Jika di bawah ambang, angpao tidak dapat didirikan. Harap konfirmasi bahwa jumlah Anda cukup sebelum mengirim."
+    },
+    "q3_title": "3) Biaya dan ambang untuk mengirim angpao",
+    "q4_body": {
+      "0": "Kami akan secara aktif mendeteksi perilaku penyalahgunaan (seperti penipuan, pencucian uang, taktik robot, interaksi spam, dll.). Jika dianggap berisiko tinggi, akun atau aset mungkin memasuki status 'dalam peninjauan': penarikan mungkin tertunda, dan akun mungkin diblokir sementara. Ini untuk melindungi aset pengguna secara keseluruhan dan mematuhi persyaratan regulasi.",
+      "1": "Ini adalah mekanisme pengendalian risiko dan kepatuhan platform. Berdasarkan pengendalian risiko internal, kebutuhan kepatuhan, atau investigasi pihak ketiga, kami dapat menangguhkan, membatasi, menunda, atau menolak penarikan atau transfer tertentu.",
+      "2": "Jika Anda percaya ini adalah kesalahan penilaian, Anda dapat mengajukan banding melalui chatbot layanan pelanggan resmi."
+    },
+    "q4_title": "4) Keamanan, Pengendalian Risiko, dan Status Akun",
+    "q5_body": {
+      "0": "Anda dapat mengirim pesan langsung ke chatbot layanan pelanggan resmi @moonini_helper_bot.",
+      "1": "Silakan masukkan perintah /setlang dalam percakapan (misalnya, /setlang zh-TW atau /setlang en-US) untuk mengganti bahasa layanan pelanggan.",
+      "2": "Saat melaporkan masalah, harap berikan:",
+      "3": "Layanan pelanggan hanya akan memeriksa data on-chain dan catatan transaksi. Kami tidak akan meminta Anda untuk mengirimkan gambar asli atau memberikan kunci pribadi dompet, mnemonik, atau frasa benih lengkap, dan kami juga tidak akan meminta Anda untuk mentransfer dana untuk 'verifikasi'. Layanan pelanggan resmi tidak akan secara proaktif menghubungi Anda untuk meminta aset.",
+      "4": "Anda juga dapat menggunakan API kueri layanan mandiri untuk memeriksa status Anda, seperti apakah akun Anda valid, jika diblokir, atau jika sedang dalam peninjauan. Ini adalah contoh: jika respon menunjukkan Anda is_blacklist: true atau status: \"hold\", itu berarti akun sedang dalam peninjauan pengendalian risiko, dan penarikan atau distribusi mungkin ditangguhkan. Jika fungsi ini tidak tersedia selama periode operasi pengujian, silakan ajukan banding melalui chatbot layanan pelanggan dan berikan hash transaksi, dan kami akan mempercepat pemrosesan berdasarkan bukti on-chain."
+    },
+    "q5_title": "5) Layanan pelanggan dan pertanyaan layanan mandiri",
+    "q6_body": {
+      "0": "Kami menyediakan mekanisme API untuk pemilik grup untuk menyesuaikan kondisi tugas dan aturan penukaran.",
+      "1": "Apa itu frase sandi? Kapan harus digunakan? Misalnya, saat Anda ingin meminta lebih banyak pengguna untuk mengunjungi TikTok atau YouTube Anda, atau bergabung dengan grup pribadi Anda, Anda bisa menyembunyikan frase sandi dalam video atau pesan. Pengguna perlu mendapatkan frase sandi di lokasi yang ditentukan untuk mengklaim angpao setelah memasukkannya.",
+      "2": "Apa konsep dari API? Bagaimana kelayakan ditentukan?",
+      "3": "Dalam antarmuka pengaturan API, pertama-tama kita perlu memberi tahu API mengenai kondisi, yang disebut sebagai 'deklarasi kondisi' (tidak termasuk user_id).\nContoh: Kembalikan serangkaian kondisi ambang, seperti level, status, apakah masuk daftar hitam, dll.\nmoonpacket akan menganggap serangkaian kondisi ini sebagai ambang dasar.",
+      "4": "Selanjutnya, ketika pengguna ingin menerima angpao, API perlu menyediakan:\n'Kuota Pengguna' (termasuk user_id).\nContoh: Kembalikan nilai aktual pengguna tersebut. Platform akan membandingkan hasil 'Kuota Pengguna' dengan ambang 'deklarasi kondisi' yang telah ditetapkan sebelumnya; jika cocok, disetujui; jika tidak, ditolak.",
+      "5": "Rekomendasi Keamanan: Harap hanya menyediakan endpoint baca-saja dan aktifkan api_key bersama dengan pembatasan daftar putih domain; jika operasi lintas domain diperlukan, Anda dapat menggunakan Cloudflare Workers sebagai penghubung dan menerapkan pembatasan laju.",
+      "6": "Dapatkah aturan aktivitas dimodifikasi di tengah jalan?",
+      "7": "Tidak ada modifikasi yang dapat dilakukan di tengah jalan. Kami berharap semua pengguna sistem ini dapat saling memelihara kepercayaan. Jika pihak proyek menjanjikan untuk mengeluarkan angpao tetapi mengubah kualifikasi permainan di tengah jalan, sehingga tidak mungkin untuk mengklaim, ini akan merusak kepercayaan pemain. Jika penerbit memodifikasi API untuk mengubah aturan, dan banyak pemain melaporkannya, kami akan mempertahankan hak untuk menangguhkan atau membekukan akun setelah mengonfirmasi melalui catatan perubahan. Oleh karena itu, harap benar-benar menghindari mengubah aturan permainan di tengah API, karena dapat menyebabkan larangan akun.",
+      "8": "Jika Anda khawatir tentang pengaturan yang salah, pendekatan yang benar adalah:",
+      "9": "Anda dapat terlebih dahulu membuat grup uji coba Anda sendiri, mengeluarkan angpao uji coba untuk diri Anda sendiri di grup uji coba, dan setelah dikonfirmasi tanpa masalah, lanjutkan untuk mendistribusikan di komunitas resmi. Aturan dasar untuk angpao adalah: Anda tidak dapat meminta untuk berhenti di tengah jalan, dan Anda juga tidak dapat langsung mengubah aturan untuk aktivitas yang sedang berlangsung. Setiap putaran harus diselesaikan dan diselesaikan sesuai komitmen semula sebelum aturan baru dapat digunakan di putaran berikutnya."
+    },
+    "q6_title": "6) Aturan aktivitas, kontrol kelayakan, dan tidak ada perubahan aturan di tengah jalan",
+    "q7_body": {
+      "0": "Kami saat ini masih dalam fase operasi Beta dan akan secara bertahap mengoptimalkan dasbor data, termasuk jumlah peserta, jumlah angpao yang diklaim, tingkat klaim, dll. Pihak proyek juga dapat menyertakan indikator pelacakan dalam pengaturan API mereka.",
+      "1": "angpao yang tidak diklaim akan otomatis dikembalikan ke dompet Anda. Jika Anda tidak menerima pengembalian dana dalam waktu 3 hari setelah aktivitas berakhir, Anda dapat menanyakan kepada layanan pelanggan untuk diproses.",
+      "2": "Disarankan untuk tidak melaksanakan terlalu banyak aktivitas secara bersamaan di grup yang sama untuk menghindari konflik. Pengguna juga mungkin akan bingung; sebaiknya lakukan aktivitas secara linier, satu per satu atau satu per hari, dan pastikan ada dana yang cukup untuk menyelesaikan setiap aktivitas.",
+      "3": "Disarankan untuk menyesuaikan aturan berdasarkan data; Anda dapat memanfaatkan API untuk pengujian A/B, merujuk pada kasus sukses di masa lalu, dan secara rutin mengumpulkan umpan balik anggota untuk secara bertahap mengoptimalkan permainan.",
+      "4": "Anti-kecurangan dan penyalahgunaan:",
+      "5": "Selama periode pengujian operasi beta terbuka, kami sedang mengoptimalkan masalah kecurangan pengguna. Untuk memastikan keadilan sistem, kami akan secara khusus memblokir pengguna yang mencoba menggunakan bot untuk merebut angpao. Metode pencegahan terbaik adalah membiarkan pengguna mengatur API dan kondisi mereka sendiri dan membatasi jumlah klaim, yang akan meningkatkan ambang bagi mereka yang suka curang. Jika terjadi situasi abnormal, silakan hubungi layanan pelanggan kami untuk memberikan masukan."
+    },
+    "q7_title": "7) Lacak kinerja, optimalkan dan cegah penipuan",
+    "section_title": "Pertanyaan yang Sering Diajukan (FAQ Detail) — Kirim angpao"
+  },
+  "features": {
+    "f1": "Pengaturan Cepat",
+    "f2": "Berbagai Gaya Permainan",
+    "f3": "Data Waktu Nyata",
+    "f4": "Aman dan Terpercaya"
+  },
+  "features_desc": {
+    "f1": "Lengkapi pengaturan dalam 3 menit untuk memulai aktivitas angpao",
+    "f2": "Mendukung metode alokasi acak, rata-rata, dan spesifik",
+    "f3": "Lihat data penerimaan dan umpan balik pengguna secara instan",
+    "f4": "Desain terdesentralisasi memastikan keamanan dana"
+  },
+  "cta_button_prefix": "Aktifkan sekarang",
+  "cta_button_suffix": "Robot",
+  "cta_launch_bot": "Aktifkan Robot moonpacket Sekarang",
+  "footer_tip": "Tip: Mengirim angpao cocok untuk interaksi awal. Anda dapat membalas pos angpao untuk menjelaskan tema permainan yang ingin Anda selenggarakan."
+}

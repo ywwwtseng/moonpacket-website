@@ -1,0 +1,456 @@
+{
+  "privacyTitle": "Privacybeleid",
+  "termsTitle": "Gebruikersovereenkomst",
+  "version": "Versie",
+  "updated": "Bijwerken",
+  "owner": "Eigenaar",
+  "sections": {
+    "scope": "Reikwijdte en contractvorming",
+    "definitions": "Hoge-Risico en Verboden Gebruik",
+    "eligibility": "Intellectuele Eigendomsrechten",
+    "services": "Dienstinhoud en bedrijfsmodel",
+    "wallet": "Cloud Wallet, cadeauverbintenis en fondslock",
+    "fees": "Kosten en Vergoedingen",
+    "rules": "Activiteitsregels en eerlijkheid",
+    "restrictions": "Anti-bot, misbruikcontrole en accountbeperkingen",
+    "ip": "Intellectuele Eigendomsrechten",
+    "third_party": "Diensten van derden en externe afhankelijkheid",
+    "data": "Geschiktheid en Account",
+    "risks": "Risico-informatie",
+    "disclaimer": "Schadevergoeding",
+    "liability": "Aansprakelijkheidslimiet",
+    "indemnity": "Schadevergoeding",
+    "termination": "Opschorting, bevriezing, beëindiging en gegevensbewaring",
+    "force_majeure": "Overmacht",
+    "high_risk": "Hoge-Risico en Verboden Gebruik",
+    "tax": "Belasting en rapportage",
+    "accuracy": "Nauwkeurigheid van inhoud en gegevens",
+    "governing_law": "Toepasselijk Recht en Geschiloplossing",
+    "contact": "Contactmethode",
+    "changes": "Terms Changes",
+    "intro": "",
+    "data_collection": "Kosten en Vergoedingen",
+    "data_usage": "Toepasselijk Recht en Geschiloplossing",
+    "legal_basis": "",
+    "cookies": "Definities",
+    "data_sharing": "Overmacht",
+    "cross_border": "Aansprakelijkheidsbeperking",
+    "retention": "",
+    "security": "",
+    "minors": "",
+    "rights": "",
+    "faq": "",
+    "updates": "",
+    "contact_info": "Gegevens, Privacy en Compliance Samenwerking"
+  },
+  "contact": {
+    "title": "Contactmethode",
+    "privacy": "Privacy Inbox",
+    "security": "Veiligheidsrapport",
+    "support": "Klantenservice robot"
+  },
+  "privacy": {
+    "version": "v1.0.0",
+    "updated": "auto",
+    "owner": "moonpacket team",
+    "version_label": "Versie",
+    "updated_label": "Bijwerken",
+    "owner_label": "Eigenaar",
+    "data_sources": "Bron van Gegevens",
+    "notice": {
+      "disclaimer_binding": "De volgende voorwaarden zijn een vertaling en zijn alleen ter referentie. De officiële juridisch bindende versie is de originele Engelse tekst. In het geval van discrepanties tussen taalversies en de Engelse versie, geldt de Engelse versie."
+    },
+    "intro": [
+      "Dit privacybeleid (hierna 'dit beleid' genoemd) beschrijft hoe we jouw persoonlijke informatie en gebruiksgegevens verzamelen, gebruiken, opslaan en beschermen wanneer je de door moonpacket aangeboden diensten gebruikt, waaronder de Telegram Mini App, bot en website (gezamenlijk 'de service' genoemd). Lees het volledig door voordat je het gebruikt; door de service te gebruiken, ga je akkoord met dit beleid.",
+      "De kernfunctie van deze service is 'gemeenschapsgroei en red packet-interactie', en het kan noodzakelijke functies bieden met betrekking tot cloud wallets, transacties of inwisselingen die onder compliance-eisen vallen. Dit beleid regelt alleen de gegevensverwerking; voor gebruiksregelingen, aansprakelijkheidslimieten, risicodisclosures en disclaimers verwijzen wij naar de 'Gebruiksvoorwaarden.'",
+      "moonpacket (hierna 'moonpacket' of 'de service' genoemd) is de entiteit en beheerder die persoonlijke en gebruiksgegevens verzamelt, gebruikt, opslaat en verwerkt die verband houden met de werking van deze service, waarbij gegevens uitsluitend voor technische en operationele doeleinden worden verwerkt; moonpacket is geen bank, trust, bewaker, investeringsadviseur, betalingsintermediair of vermogensbeheerder, en neemt ook geen fiduciaire, bewakings-, behoud-, investerings- of garantieverplichtingen aan op basis van de verwerking van deze gegevens."
+    ],
+    "definitions": [
+      "moonpacket: Verwijst naar de applicatiediensten die door dit project worden aangeboden, inclusief webapplicaties en mobiele applicaties die beschikbaar zijn voor download, en inclusief (maar niet beperkt tot) Telegram Mini App, bots, cloud wallets en gerelateerde functionele modules.",
+      "Persoonsgegevens: Informatie die direct of indirect een natuurlijke persoon kan identificeren, zoals (indien van toepassing) contactinformatie, Telegram UID, cloud wallet adres (als het een individu kan identificeren), apparaat-, en netwerkidentifiers.",
+      "Gebruikgegevens: Evenementrecords en interacties gerelateerd aan accounts of apparaten (bijv. verzenden/ontvangen van red packets, fouten en prestatieprotocollen, anti-bot signalen)."
+    ],
+    "scope": [
+      "Deze voorwaarden zijn van toepassing op uw gebruik van alle functies die door moonpacket worden aangeboden, inclusief (maar niet beperkt tot) deelname aan of beheer van groepen/kanalen, verzenden of ontvangen van red packets, deelnemen aan evenementen, koppelen of gebruiken van cloud wallets en punten, en integraties via API/Webhook.",
+      "moonpacket ondersteunt twee belangrijke gebruiksgevallen: degenen die red packets verzenden en degenen die red packets ontvangen. Verzenders moeten de bot toevoegen aan hun eigen of beheerde groepen/kanalen en de nodige machtigingen verlenen; als u niet gemachtigd bent of de machtigingen onvoldoende zijn, kan de functionaliteit niet worden gegarandeerd. Ontvangers hebben hun persoonlijke informatie niet vastgelegd buiten noodzakelijke netwerkidentificatoren en gebruiksactiviteiten tijdens groepsinteracties."
+    ],
+    "dataCollected": [
+      "Account en Identiteit: Telegram UID, gebruikersnaam, avatar, taalinstellingen, groepslid identiteit en machtigingen; indien nodig worden gegevens van door de overheid uitgegeven ID's, selfies of gezichtsbiometrische overeenkomsten, woonplaatsverklaring, KYC/AML auditinformatie en overeenkomsten verzameld en uitsluitend bewaard voor naleving, anti-witwas, bestrijding van terroristenfinanciering, naleving van sancties, belastingrapportage, fraudeonderzoek of risicobeheerdoeleinden.",
+      "Gebruiksevenementen: Verzenden/ontvangen van red packets, opdrachten en interactiegeschiedenis, deelname aan evenementen, evenementen van API/Webhook, fouten en prestatieprotocollen; anti-bot en risicobeheersignalen (zoals abnormale frequentie, apparaat of netwerkeigenschappen).",
+      "Transacties en Activa: Cloud wallet gerelateerde adressen, saldi of transactiesamenvattingen (alleen voor zover nodig voor functionaliteit); on-chain transacties kunnen openbaar worden geverifieerd, maar zijn onomkeerbaar en onveranderlijk. De bovenstaande informatie kan Off-chain records omvatten (zoals interne boekhouding gemarkeerde saldi, bedragen in afwachting van distributie of vergrendelde status), die alleen worden verstrekt voor interne systeemafrekening en allocatie-instructies en geen custodiële, vertrouwens-, stortings-, gedelegeerd financieel beheer-, betalingsincasso- of bewaarverplichtingen van moonpacket vormen.",
+      "Technische en Apparaatinformatie: Apparaatmodel, besturingssysteem, browser of applicatieversie, netwerkadres (IP/ASN) en geschatte regio, cookie- en lokale opslaglabels (indien van toepassing).",
+      "Contactinformatie: E-mail of klantenondersteuning chatinhoud die je actief verstrekt (indien van toepassing)."
+    ],
+    "sources": [
+      "Je gegevens die actief zijn verstrekt tijdens registraties, bindingen, interacties of communicatie met de klantenservice.",
+      "Evenementen en technische gegevens die automatisch door het systeem zijn geregistreerd tijdens jouw gebruik van deze dienst.",
+      "Resultaten van vergelijking of verificatie door derden die legaal zijn verkregen voor compliance of servicebehoefte (zoals KYC/AML serviceproviders)."
+    ],
+    "purposes": [
+      "De functies die worden aangeboden voor de werking en het onderhoud van deze service omvatten: identiteitsverificatie, machtigingsauthenticatie, activatie en beheer modules (red packet, punten, cloud wallet), probleemoplossing en beveiligingsmonitoring.",
+      "Risicobeheer en naleving: Detecteren, voorkomen en onderzoeken van misbruik, fraude, witwassen van geld, financiering van terrorisme, ontwijking van sancties, belastingontduiking, illegale fondsenwervingen, ongeoorloofde financiële diensten, manipulatie van omzetdeling, of andere abnormale activiteiten; uitvoeren van KYC/AML-audits en identiteitsverificatie (inclusief door de overheid afgegeven identificatie, selfies en biometrische verificatie), risicobeoordeling en belasting- en sanctiebeoordeling. Indien nodig kan het inhouden dat transacties, distributies, terugbetalingen, opnames of ontdooiingen worden behouden, bevroren, vertraagd, beperkt of geweigerd. Dergelijke acties vormen geen schending of inbreuk door moonpacket, en moonpacket is niet aansprakelijk voor enige schadevergoeding, schadeloosstelling of andere aansprakelijkheid.",
+      "Gegevensanalyse en productoptimalisatie: Statistische gebruikstrends, verbetering van ervaring en prestaties, uitvoeren van A/B-testen en trainen van modellen tegen fraude (door minimalisatie en de-identificatie methoden te gebruiken).",
+      "Regelgevende naleving en rechtenassertie: Samenwerken met juridische verzoeken van regelgeving, autoriteiten of rechtbanken, of het uitoefenen, vestigen of verdedigen van juridische rechten. moonpacket kan, naar eigen goeddunken, relevante gegevens verstrekken aan regelgevende autoriteiten, gerechtelijke instanties, belasting- of sanctieautoriteiten, arbitrage- of handhavingsorganen, of hun gemachtigde nalevingsdienstverleners op basis van juridische, regelgevende, belasting-, sanctie-, anti-witwas-, anti-terrorisme financiering-, fraude onderzoek- of andere nalevingsbehoeften; dergelijke verstrekking vormt geen schending of inbreuk door moonpacket, en moonpacket is niet aansprakelijk voor enige schadevergoeding, schadeloosstelling of andere aansprakelijkheid.",
+      "Communicatie en melding: U voorzien van belangrijke wijzigingen, gebeurtenismeldingen of noodzakelijke service-informatie; marketingberichten worden alleen verstuurd met toestemming of zoals toegestaan door de wet."
+    ],
+    "legalBases": [
+      "Noodzakelijk voor het vervullen van contracten of het leveren van diensten (bijv. het mogelijk maken van red packet/puntenprocessen, risicobeheersingsverificatie en evenementrecords).",
+      "Voldoen aan wettelijke verplichtingen (bijv. KYC/AML, sancties, audit- en bewaarplicht).",
+      "Legitieme belangen (bijv. het opsporen van misbruik, het waarborgen van systeembeveiliging en service-beschikbaarheid, het verbeteren van producten en ervaringen). In dit geval zullen we evenwichttests uitvoeren en de-identificatie- of minimalisatiemaatregelen toepassen.",
+      "Jouw toestemming (bijv. het ontvangen van marketingberichten, niet-essentiele cookies en herroepbare keuzes)."
+    ],
+    "cookies": [
+      "Noodzakelijke Cookies en Lokale Opslag: Gebruikt om inlogstatus, taalselectie, anti-botmaatregelen en beveiligingscontroles te behouden; sommige functies werken mogelijk niet goed als ze zijn uitgeschakeld.",
+      "Analytics of Voorkeur: Alleen ingeschakeld als wettelijk toegestaan of met uw toestemming; u kunt ze op elk moment in uw browserinstellingen verwijderen of beperken."
+    ],
+    "wallet": [
+      "Als de cloudportemonnee wordt geleverd door deze service of een partner, zal deze alleen de minimaal noodzakelijke transactiegegevens en ontvangstbewijzen verwerken en bewaren na het voltooien van red packet, punten of noodzakelijke ruilprocessen.",
+      "On-chain gegevens zijn openbaar en onomkeerbaar; wees voorzichtig bij het opereren. De ongewijzigde, permanent openbare aard en de gegevensassociaties die voortkomen uit blockchainfuncties vallen buiten de controle van deze dienst."
+    ],
+    "antiFraud": [
+      "Om misbruik en fraude te voorkomen, kunnen we de frequentie van interactie, apparaat- of netwerkeigenschappen, geografische locatie, gedragspatronen en signalen van de zwarte lijst evalueren; functionaliteit kan worden opgeschort of beperkt en aanvullende verificatie kan indien nodig vereist zijn.",
+      "Om naleving en veiligheidsredenen behouden we ons het recht voor om relevante indicatoren of auditresultaten te delen met vertrouwde anti-fraud of compliance serviceproviders binnen redelijke grenzen.",
+      "Voor de hierboven genoemde doeleinden kan moonpacket, naar eigen goeddunken, specifieke functionaliteiten opschorten, vertragen, beperken of ontzeggen en aanvullende verificatie vereisen (inclusief KYC/AML-audits, door de overheid uitgegeven ID, selfies of biometrische vergelijkingen) of noodzakelijke indicatoren of auditresultaten delen met vertrouwde anti-fraud, compliance, belasting- of sanctiedienstverleners; dergelijke acties vormen geen schending door moonpacket, en moonpacket is niet aansprakelijk voor enige schade, compensatie of andere verantwoordelijkheden."
+    ],
+    "sharing": [
+      "Verwerkers of derden, waaronder cloudhosting, logging en monitoring, analytics, anti-bot en compliance serviceproviders, voeren operaties uit onder geminimaliseerde en contractuele beperkingen.",
+      "Partners en communitymanagers delen noodzakelijke informatie op basis van de specifieke activiteiten, red packets of scenario's voor communitybeheer waarin je deelneemt, volgens de activiteitsregels.",
+      "We zullen noodzakelijke gegevens aan autoriteiten, rechtbanken of rechthebbenden openbaar maken in overeenstemming met de wettelijke procedures zoals vereist door de wet of voor het doen gelden van rechten.",
+      "moonpacket kan noodzakelijke informatie (inclusief off-chain records, on-chain bewijs, KYC/AML-gegevens, groep/chat/activiteitsrecords en distributie- en opnamegedrag) bewaren, analyseren, verzenden, openbaar maken en verstrekken aan autoriteiten, rechtbanken, wetshandhaving of belastingeenheden, sanctie- en regulerende eenheden, of hun bevoegde compliance serviceproviders met betrekking tot compliance beoordelingen, KYC/AML audits, identificatie verificatie (inclusief door de overheid uitgegeven identificatie en biometrische vergelijkingen), anti-witwassen, strijd tegen terrorismefinanciering, naleving van sancties, belastingnaleving, fraude-onderzoeken, misbruikdetectie, financiële audits en het volgen van distributies en opnames, binnen een redelijk commercieel kader. Dergelijke verwerking, transmissie en openbaarmaking vormen geen schending of onrechtmatige daad door moonpacket, en moonpacket is niet aansprakelijk voor enige compensatie, schadeloosstelling of andere verantwoordelijkheden."
+    ],
+    "crossBorder": [
+      "Op basis van de cloudarchitectuur van deze service, wereldwijd operationeel model, risicobeheer, Anti-Money Laundering (AML), bestrijding van terrorismefinanciering, naleving van sancties, fiscale samenwerking, fraude-bestrijding, auditbehoud, klantondersteuning en systeemonderhoud, kunnen uw gegevens (inclusief persoonlijke gegevens, gebruiksgegevens, Off-chain records, KYC/AML auditresultaten en risicobeheer- en opname-gegevens) worden verwerkt, opgeslagen of verzonden buiten uw rechtsgebied en kunnen ze worden geraadpleegd door partners, aanbieders van cloudinfrastructuur, aanbieders van compliance- en risicobeheer, of autoritaire/juridische/fiscale/sanctie/toezichthoudende autoriteiten (of hun gemachtigde entiteiten) zoals nodig voor de bovengenoemde doeleinden.",
+      "moonpacket zal de informatiebeveiliging en nalevingsverplichtingen van de ontvangers beoordelen, binnen commercieel redelijke en noodzakelijke grenzen, en zal de risico's van ongeautoriseerde toegang of misbruik verminderen door middel van contracten, technische en organisatorische maatregelen; echter, u begrijpt en gaat ermee akkoord dat elke grensoverschrijdende overdracht, cloudhosting of verwerking door derden kan worden beïnvloed door netwerken en regelgevende omgevingen, en kan geen absolute veiligheid of beschikbaarheid garanderen. De bovengenoemde grensoverschrijdende verwerking en overdracht vormen geen inbreuk of schending door moonpacket, en moonpacket is niet aansprakelijk voor enige schade, compensatie of andere aansprakelijkheden."
+    ],
+    "retention": [
+      "We zullen gegevens bewaren voor de tijd die nodig is om verzameldoeleinden te vervullen en noodzakelijke documenten te bewaren zoals wettelijk of auditverplichtingen vereisen (bijv. boekhoud- en nalevingslogboeken).",
+      "Zodra het doel is bereikt of de bewaartermijn is verstreken, zullen we de gegevens verwijderen of verwerken op een de-geïdentificeerde manier; on-chain gegevens zijn niet onderworpen aan deze beperking vanwege de onveranderlijkheid.",
+      "Zelfs als u verzoekt om uw account te deactiveren, uw gegevens te verwijderen of te stoppen met het gebruik van deze service, kan moonpacket de eerder genoemde gegevens behouden, bevriezen, analyseren of verstrekken zoals vereist of toegestaan door wetten, regelgevingen, belastingen, sancties, anti-witwassen, anti-terrorisme financiering, fraudeonderzoek, auditbehoud, boekhoudverificatie of andere nalevingsverplichtingen. Dergelijke bewaring en verwerking vormen geen schending of inbreuk door moonpacket, en moonpacket is niet aansprakelijk voor enige schadevergoeding, schadeloosstelling of andere aansprakelijkheid."
+    ],
+    "security": [
+      "We nemen redelijke en proportionele technische en managementmaatregelen, inclusief toegangscontrole, transmissie- en statische versleuteling (indien van toepassing), machtigingssegregatie, auditlogboeken en principes van minimale noodzakelijke toegang voor personeel.",
+      "Hoewel moonpacket technische en managementmaatregelen heeft genomen om het risico op ongeautoriseerde toegang, gebruik, openbaarmaking, wijziging of vernietiging binnen een redelijk commercieel kader te verminderen, begrijp je en stem je ermee in dat elke transmissie, opslag ofintegratie van derden bepaalde risico's met zich mee kan brengen. moonpacket geeft geen expliciete of impliciete garanties met betrekking tot gegevensbeveiliging, integriteit, beschikbaarheid, ononderbroken toegang of interferentie. Dergelijke risico's of schade vormen geen schending of onrechtmatige daad door moonpacket, en moonpacket is niet aansprakelijk voor enige compensatie, schadeloosstelling of andere verantwoordelijkheden."
+    ],
+    "minors": [
+      "Deze service is niet bedoeld voor individuen onder de 13 jaar of onder de minderjarigheidsgrens in uw jurisdictie. Als u een minderjarige bent, gebruik deze service dan alleen met de toestemming van uw wettelijke voogd, of onthoud u van het gebruik van deze service."
+    ],
+    "rights": [
+      "Volgens de toepasselijke wetten in verschillende regio's hebt u het recht om uw persoonsgegevens te raadplegen of te bekijken, kopieën aan te vragen, te corrigeren, de verwerking te beperken, te verwijderen, gegevensoverdracht aan te vragen en toestemming in te trekken, maar niet in strijd met de wettelijke verplichtingen van moonpacket om te bewaren, te bevriezen, te analyseren, te auditen, samen te werken met de eisen van regelgevende/juridische/belasting/sanctie/regelgevende autoriteiten, of KYC/AML/anti-terrorisme financiering/sanctienaleving/honorering belasting/fraude onderzoek/misbruik detectie, of de legitieme belangen van moonpacket.",
+      "Als u de bovengenoemde rechten wilt uitoefenen of privacykwesties wilt bespreken, neem dan contact op met moonpacket via de 'Contactgegevens'. Om de veiligheid te waarborgen, kan moonpacket van u vragen om identiteitsverificatie te voltooien (inclusief maar niet beperkt tot het verstrekken van informatie die vereist is voor KYC/AML-audits, door de overheid afgegeven identificatie, selfies of resultaten van biometrische verificatie) om te bevestigen dat de aanvrager de betrokkene is of een gemachtigde vertegenwoordiger.",
+      "moonpacket kan, naar eigen goeddunken, volledig of gedeeltelijk weigeren, vertragen, beperken of verzoeken om correcties voor dergelijke verzoeken binnen het kader van wettelijke of nalevingsverplichtingen, vereisten voor legitieme belangen of risicobeheerdoeleinden; dergelijke weigeringen, vertragingen, beperkingen of verzoeken om correctie vormen geen schending of inbreuk door moonpacket, en moonpacket is niet aansprakelijk voor enige schadevergoeding, schadeloosstelling of andere aansprakelijkheid."
+    ],
+    "faq": [
+      "Waarom hebben we informatie over compliance en risicobeheersing nodig? Dit is noodzakelijk voor het aanbieden van red packets, het voorkomen van misbruik en het waarborgen van veilige operaties, evenals het voldoen aan relevante wetten of platformbeleid.",
+      "Kan ik weigeren bepaalde informatie te verstrekken? Zonder de veiligheid van de dienstverlening en wettelijke verplichtingen te beïnvloeden, kun je ervoor kiezen om niet-essentiële items uit te schakelen, maar dit kan resulteren in het ontbreken van bepaalde functies.",
+      "Kunnen blockchain-gegevens worden verwijderd? On-chain records zijn onomkeerbaar en openbaar, en wij kunnen deze niet namens jou wijzigen of verwijderen."
+    ],
+    "updates": [
+      "Deze voorwaarden kunnen worden bijgewerkt met serviceaanpassingen of juridische wijzigingen; significante wijzigingen worden aangegeven via interne berichten of pagina-aankondigingen; de bijgewerkte versie gaat in vanaf de aankondiging of de ingangsdatum die in de voorwaarden staat vermeld."
+    ],
+    "contact": [
+      "Als u vragen heeft over privacy of gegevensbeveiliging, neem dan contact met ons op via de contactmethoden op de pagina (privacy mailbox/veiligheidsrapport/klantenservice); we zullen binnen een redelijke termijn antwoorden."
+    ],
+    "controller": [
+      "Gegevensbeheerder: moonpacket team (kleine teamoperaties).",
+      "Contactvenster (Privacy): Neem alstublieft contact met ons op via de privacy Help_bot op de pagina 'Contactmethoden'."
+    ],
+    "jurisdictions": [
+      "We voldoen aan de toepasselijke regelgeving betreffende gegevensbescherming; als er conflicten zijn in de regelgeving tussen verschillende rechtsgebieden, nemen we maatregelen die meer beschermend en haalbaar zijn voor gebruikers, binnen de grenzen die de wet biedt.",
+      "Als je extra rechten of procedures nodig hebt voor specifieke rechtsgebieden, neem dan contact met ons op via de contactkanalen, en we zullen redelijkerwijs helpen."
+    ],
+    "dsrProcess": [
+      "Je hebt het recht om inzage te vragen, te beoordelen, kopieën aan te vragen, correctie, verwijdering, beperking van verwerking, gegevensoverdraagbaarheid en intrekking van toestemming met betrekking tot persoonsgegevens uit te oefenen (onder voorbehoud van toepasselijke wetten en technologische haalbaarheid).",
+      "Proces: Indienen verzoek → Identiteitsverificatie → Acceptatie en beoordeling → Reactie binnen een redelijke termijn (typisch binnen 30 dagen; eventuele verlenging wordt afzonderlijk meegedeeld).",
+      "Als het verzoek betrekking heeft op derden of on-chain onomkeerbare gegevens, kan het mogelijk niet direct worden verwerkt. We zullen uitleg of haalbare alternatieven bieden.",
+      "Als je zorgen hebt over de resultaten, neem dan opnieuw contact met ons op via de verstrekte kanalen; je kunt ook een klacht indienen bij de autoriteiten op basis van de lokale wetten (indien van toepassing)."
+    ],
+    "breach": [
+      "Als een vermoedelijk incident met persoonlijke gegevens wordt gedetecteerd, volgen we interne procedures voor gegradueerde verwerking en noodrespons, inclusief blokkeren of mitigeren, auditen en bewijsmateriaal documenteren.",
+      "Als dit wettelijk vereist of noodzakelijk is, zullen we de bevoegde autoriteit en mogelijk aangetaste gebruikers binnen een redelijke termijn informeren; de inhoud en timing van meldingen zijn afhankelijk van het niveau van het incident en de voortgang van het onderzoek.",
+      "We zullen de controlemaatregelen en de training van personeel (binnen beschikbare middelen) achteraf beoordelen en continu verbeteren."
+    ],
+    "cookiesDetail": [
+      "Noodzakelijke Cookies: Gebruikt om inlog, taalinstellingen, anti-botmaatregelen en beveiliging te behouden; uitschakelen kan de beschikbaarheid van de service beïnvloeden.",
+      "Voorkeur/Analytics/Marketing Cookies: Alleen ingeschakeld als wettelijk toegestaan of met uw toestemming; u kunt voorkeuren op elk moment aanpassen of intrekken.",
+      "Indien van toepassing, bieden wij een eenvoudige cookie-selectie-optie; u kunt ze ook beheren of verwijderen in uw browserinstellingen."
+    ],
+    "consent": [
+      "Voor niet-essentiële verwerking (bijv. marketing of specifieke analytische tracking) zullen we voorafgaande toestemming verkrijgen en een manier bieden om in te trekken, waar van toepassing en haalbaar onder de wet.",
+      "Het intrekken van toestemming heeft geen invloed op de rechtmatigheid van de verwerking vóór de intrekking; sommige functionaliteiten kunnen als gevolg daarvan beperkt zijn."
+    ],
+    "lawfulMatrix": {
+      "headers": [
+        "Gegegevenstype",
+        "Doel van Verwerking",
+        "Wettige basis",
+        "Bewaarperiode"
+      ],
+      "rows": [
+        {
+          "cat": "帳號/身分（Telegram UID、暱稱、語言、群組權限）",
+          "purpose": "提供與維運服務（紅包、權限驗證、防刷）",
+          "basis": "履行契約、合法利益",
+          "retention": "帳號存續期間＋必要稽核留存"
+        },
+        {
+          "cat": "合規資料（KYC/AML 結果）",
+          "purpose": "法遵審查與防詐欺",
+          "basis": "法定義務",
+          "retention": "依法令或監理要求（一般為多年期）"
+        },
+        {
+          "cat": "使用事件與日誌（互動、錯誤、效能）",
+          "purpose": "故障排除、資安與產品優化",
+          "basis": "合法利益",
+          "retention": "依安全與營運需要的合理期限"
+        },
+        {
+          "cat": "交易與雲端錢包摘要",
+          "purpose": "完成紅包/積分/兌換流程",
+          "basis": "履行契約、合法利益",
+          "retention": "目的達成後最小化留存；鏈上紀錄不在此限"
+        },
+        {
+          "cat": "Cookie/本地儲存（必要）",
+          "purpose": "登入狀態、語言、防刷標記",
+          "basis": "履行契約、合法利益",
+          "retention": "依裝置與瀏覽器生命周期"
+        },
+        {
+          "cat": "Cookie/像素（非必要）",
+          "purpose": "偏好/分析/行銷（如啟用）",
+          "basis": "同意",
+          "retention": "依工具供應商政策或您撤回為止"
+        }
+      ]
+    },
+    "automated": [
+      "Deze service gebruikt geautomatiseerde analyse- en risicobeheermodellen om misbruik of abnormaal gedrag te detecteren; over het algemeen vormt dit geen puur geautomatiseerde beslissingen die individuen wettelijk of op een vergelijkbare manier significant beïnvloeden.",
+      "Als er beperkende maatregelen worden genomen vanwege naleving of beveiligingsrisicobeheersing (bijv. opschorting van functionaliteiten), zullen we mogelijkheden voor beroep en handmatige beoordelingen bieden voor zover middelen en beveiliging dit toelaten."
+    ],
+    "subprocessors": {
+      "note": "We kunnen samenwerken met contractgebonden subprocessors (zoals cloud, monitoring, anti-bot/KYC, e-mail, enz.); de lijst kan worden bijgewerkt volgens serviceaanpassingen, raadpleeg de officiële website voor aankondigingen."
+    },
+    "note": [
+      "Opmerking: Deze clausule is bedoeld om gegevensverwerking en beschermingspraktijken duidelijk openbaar te maken. Aangezien moonpacket een klein team is, zullen werkelijke maatregelen worden aangepast op basis van wetten, risiconiveaus en beschikbare middelen; als er wettelijke verplichtingen zijn, geldt de wet."
+    ],
+    "telegramPermissions": [
+      "De operaties van de robot in groepen/kanalen worden alleen uitgevoerd binnen de toestemmingen die je hebt verleend (bijv. lezen, verzenden, verwijderen, vastzetten van berichten, deelnemen aan linkcontroles, enz., afhankelijk van de werkelijke behoeften).",
+      "Als functies niet beschikbaar zijn of abnormaal presteren als gevolg van onvoldoende toestemmingen, platformsrestricties of instellingen van derden, garandeert moonpacket niet dat de functie normaal zal functioneren."
+    ],
+    "groupDataMinimization": [
+      "In groeps-/kanaalscontexten verwerken we alleen de minimale gegevens die nodig zijn om de service te bieden, zoals gebruikersnetwerkidentificaties (UID), interactie-/evenementenrecords en indicatoren die nodig zijn voor misbruikpreventie; we verzamelen of creëren geen persoonlijke profielen van groepsleden.",
+      "Voor compliance (KYC/AML/sancties) of beveiligingsdoeleinden, als we de reikwijdte van de verwerking moeten uitbreiden, zullen we de principes van minimalisatie en de-identificatie naleven, zoals vereist door de wet."
+    ],
+    "analytics": [
+      "Om de productprestaties te beoordelen, misbruik te voorkomen en operationele resultaten te evalueren, kunnen we gegevens over gebruik verwerken op een geanonimiseerde of geaggregeerde manier en binnen redelijke grenzen externe analysetools voor verkeer of attributie introduceren.",
+      "We zullen uw persoonlijke gegevens niet verkopen; raadpleeg de uitleg en opties met betrekking tot de CPRA en andere regelgeving in deze overeenkomst indien de toepasselijke jurisdictie specifieke definities voor 'verkoop/delen' heeft.",
+      "Wanneer lokale wetten voorafgaand toestemming vereisen of een opt-out optie bieden, zullen we relevante keuzes aanbieden voor zover dit haalbaar is."
+    ],
+    "saleShareStatement": [
+      "We verkopen uw persoonsgegevens niet voor betaling; elke analytics- en advertentietechnologie van derden zal alleen in een de-geïdentificeerde of geaggregeerde vorm worden verwerkt wanneer dit wettelijk is toegestaan of met de nodige toestemming."
+    ]
+  },
+  "terms": {
+    "version": "v1.0.0",
+    "updated": "automatisch",
+    "version_label": "Versie",
+    "updated_label": "Bijwerken",
+    "owner_label": "Eigenaar",
+    "appendix_title": "Bijlage | Definities en Uitleg",
+    "notice": {
+      "disclaimer_binding": "De onderstaande voorwaarden worden verstrekt als een vertaalde versie ter referentie; de officiële versie met juridische binding is het Engelse origineel. In geval van geschillen tussen taalversies en de Engelse versie, prevaleert de Engelse versie."
+    },
+    "owner": "Het moonpacket-team (hierna aangeduid als 'moonpacket') is een merk en servicenummer dat experimentele online interactieve functies en marketing/community-groeihulpmiddelen biedt. moonpacket is geen bank, fiduciair, bewaarinstelling, beurs, beleggingsadviseur, makelaar of een andere gereguleerde financiële instelling; behalve indien vereist door de wet, heeft moonpacket geen fiduciaire verplichting, vertrouwensverplichting, activa-opslagverplichting of opbrengstgarantie aan gebruikers.",
+    "intro": [
+      "Deze Gebruikersvoorwaarden (hierna aangeduid als “deze Voorwaarden”) vormen een juridisch bindende overeenkomst tussen u (hierna aangeduid als “u” of “Gebruiker”) en moonpacket (hierna aangeduid als “moonpacket,” “deze service,” of “wij”) met betrekking tot uw toegang tot of gebruik van de door moonpacket aangeboden diensten.",
+      "Deze service omvat, maar is niet beperkt tot: websites, downloadbare applicaties, Telegram Mini App, bots, cloud wallets, red packet/beloning distributiemodules, evenementbeheerinterfaces en bijbehorende statistieken/rangschikkingsfuncties (hierna gezamenlijk aangeduid als “deze service”).",
+      "Door op knoppen te tikken zoals “Start,” “Akkoord,” “Verzenden,” of soortgelijke acties die toestemming verlenen in de interface, of door daadwerkelijk te beginnen met het gebruik van deze service, wordt u geacht alle inhoud van deze Voorwaarden te hebben gelezen, begrepen en onherroepelijk in te stemmen met de bindende werking ervan; als u niet akkoord gaat, stop dan onmiddellijk met het gebruik van deze service.",
+      "Specifieke activiteiten, promotionele samenwerkingen of bedrijfsprogramma's kunnen aanvullende voorwaarden of activiteitenregels bieden; dergelijke aanvullende voorwaarden worden beschouwd als onderdeel van deze Voorwaarden; in geval van conflicten met deze Voorwaarden, prevaleren de aanvullende voorwaarden binnen de scope van de specifieke activiteit, terwijl de rest onder de bestaande Voorwaarden blijft vallen.",
+      "Deze Voorwaarden kunnen in meerdere talen worden aangeboden voor het gemak van lezen. In geval van inconsistenties of conflicten tussen enige vertaalde versie en de Engelse versie met betrekking tot inhoud, interpretatie of werking, heeft de Engelse versie voorrang en wordt deze beschouwd als de definitieve geldige versie; andere taalversies worden niet geacht extra verplichtingen voor moonpacket te creëren.",
+      "U bevestigt en garandeert dat uw besluit om deze service te gebruiken niet is gebaseerd op enige beloften van 'gegarandeerde rendementen,' 'kapitaalherstel,' 'winstdeling,' 'beleggingsadvies,' of andere beloningsverplichtingen; moonpacket heeft geen garanties of juridisch bindende verplichtingen aangeboden en zal dat ook niet doen met betrekking tot enige toekomstige inkomsten, beloningen, prijzen, rangschikkingen of inwisselbare waarden."
+    ],
+    "definitions": [
+      "De 'zender' of 'initiatiefnemer' van een red packet verwijst naar degenen die red packets/bonussen/revenu share/promotionele fondsen binnen deze service creëren, financieren of distribueren, inclusief individuele gebruikers, groepsadministrators, projectpartijen of hun agentschappen.",
+      "De 'ontvanger' of 'deelnemer' van een red packet verwijst naar degenen die volgens de activiteitsregels interactie hebben, taken voltooien of proberen te ontvangen/heeft ontvangen red packets of beloningen.",
+      "Activiteit' verwijst naar het distributiemechanisme dat door de initiatiefnemer is vastgesteld, inclusief maar niet beperkt tot gelijke distributie, willekeurige 'geluk', aangewezen taaksimulaties, wachtwoordgrabs, tijdgebonden grabs, beperkte quota/tijd distributie, enz.",
+      "Off-chain records' verwijzen naar interne boekhouding, balansindicatoren en rechtenattributie-indicatoren binnen het moonpacket-systeem (bijv. 'te distribueren', 'toegewezen', 'beschikbaar voor opname'). Off-chain records zijn puur systeemniveau-indicatoren en weerspiegelen niet de realtime overdracht van activa op de blockchain, noch vormen ze het definitieve juridische bewijs van eigendom van activa; de werkelijke on-chain transacties zijn leidend.",
+      "Cloud wallet' verwijst naar een custodiale of semi-custodiale portemonnee/activa-bewakingsproces dat door moonpacket of zijn partners wordt aangeboden voor het ontvangen van opgeladen activa, en biedt aanwijsbare saldo's en ondersteunt daaropvolgende opnames. Cloud wallets zijn geen bankrekeningen, trustrekeningen, stortingsrekeningen, noch verzekeringsonderwerpen, en bieden geen kapitaalbehoud garanties.",
+      "Kosten' verwijzen naar de kosten van netwerkbronnen die nodig zijn voor blockchain-transacties (zoals gas), derde partij diensten of betalingskanaal kosten, en (waar van toepassing) de platformkosten die door moonpacket voor specifieke diensten of activiteiten in rekening worden gebracht. Kosten worden door gebruikers gedragen; eenmaal gemaakt zijn ze niet-restitueerbaar.",
+      "KYC/AML' verwijst naar de processen van identiteitsverificatie (Know Your Customer), anti-witwassen (Anti-Money Laundering), bestrijding van terrorismefinanciering, sanctiebeoordeling, fraudepreventie, belasting- en compliance-audits, enz."
+    ],
+    "eligibility": [
+      "U verklaart en garandeert dat u wettelijk gekwalificeerd bent en volledige capaciteit heeft om deze dienst in uw rechtsgebied te gebruiken; minderjarigen of individuen met beperkte capaciteit moeten de nodige toestemming verkrijgen volgens de lokale wetten.",
+      "Deze dienst hanteert een 'proberen voordat u bindt'-model; echter, voordat u een opname aanvraagt, saldo over activiteiten overmaakt, of zich bezighoudt met enige daadwerkelijke beschikking over activa, heeft moonpacket het recht om u te vragen uw e-mailadres, telefoonnummer en cryptocurrency-portemonnee-adres te binden, en (indien van toepassing) KYC/AML-verificatie te voltooien."
+    ],
+    "accounts": [
+      "Als u weigert, vertraagt of de bovenstaande verificatie niet doorstaat, kan moonpacket, naar eigen goeddunken, een opname, retour, ontdooiing of terugbetalingsverzoek vertragen, beperken of weigeren; dergelijke vertragingen, beperkingen of weigeringen vormen geen schending van het contract door moonpacket, en moonpacket is niet aansprakelijk voor enige schadevergoeding, schadeloosstelling of andere verplichtingen.",
+      "U moet alle verificatie-elementen, zoals uw Telegram-account, inloggegevens voor cloudportefeuilles, inlogtokens, ondertekeningssleutels, apparaten en wachtwoorden, goed beveiligen. Gevolgen van phishing, malware, apparaatverhuur, credential-lekken, zwakke wachtwoorden of acties van geautoriseerde derden komen voor uw rekening."
+    ],
+    "service": [
+      "De mogelijkheden die door deze dienst worden geboden omvatten maar zijn niet beperkt tot: (a) activiteiten/red packets creëren en financieren; (b) activiteitsregels instellen (totaalbedrag, quotum, individuele limieten, geldigheidsduur, distributie-algoritmes, taakvoorwaarden, wachtwoorden, geplande开启 (opening)抢 (snatching), enz.); (c) verifiëren of deelnemers voldoen aan de voorwaarden van de activiteit; (d) toewijsbare bedragen markeren, verdelen en vergrendelen in off-chain records; (e) gekwalificeerde deelnemers toestaan om daadwerkelijke on-chain opnames te activeren bij inlossing; (f) leiderschapsborden, statistieken en prestatieweergaven genereren.",
+      "Het operationele proces is als volgt: nadat de initiator activa heeft opgeladen naar het aangewezen moonpacket-adres, wordt het equivalente bedrag gemarkeerd als 'activa beschikbaar voor distributie in deze activiteit' in off-chain records; tijdens de activiteit periode markeert of splitst het systeem alleen bedragen in off-chain zonder onmiddellijke, individuele, transactionele directe on-chain overdrachten naar de portemonnee van een enkele persoon te garanderen; alleen wanneer gekwalificeerde deelnemers inlossen en technische en compliance-controles doorstaan, zal moonpacket daadwerkelijke on-chain overdrachten triggeren.",
+      "Gebruikers stemmen expliciet in: Off-chain records zijn uitsluitend voor moonpacket's interne boekhouding en belangenindicatie en vertegenwoordigen niet de juridische eindbezit van activa; de uiteindelijke claimbare rechten zijn gebaseerd op de werkelijke voltooide on-chain overdrachten."
+    ],
+    "features": [
+      "moonpacket kan bepaalde functies of soorten activiteiten op elk moment aanpassen, opschorten, beperken of beëindigen voor beveiligings-, operationele of compliance-redenen; zolang de aanpassing is gebaseerd op redelijke technische, risico-, compliance- of commerciële overwegingen, vormen dergelijke situaties geen schending door moonpacket, dat niet aansprakelijk zal zijn voor enige schadevergoeding of andere verantwoordelijkheden.",
+      "moonpacket raadt sterk aan om deze dienst voor kleine bedragen meerdere keren te gebruiken; het bedrag voor elke bijschrijving of distributie mag niet meer bedragen dan het equivalent van 100 USDT, en het wordt aangeraden om geen grote hoeveelheden activa in Off-chain records voor lange periodes te accumuleren."
+    ],
+    "cloudWallet": [
+      "Wanneer de uitgever de evenementvoorwaarden (totaalbedrag, distributieregels, geldigheidsperiode en kosten, enz.) op de interface bevestigt en indient, vormt dit een belofte van een gift aan niet-gespecificeerde deelnemers. Deze belofte komt in werking zodra deze is ingediend en heeft het karakter van \"niet-intrekbaar en niet-omkeerbaar\"; de uitgever kan geen verzoek doen om te stoppen door te zeggen \"ik heb van gedachten veranderd\" of \"ik herken een bepaalde deelnemer niet.\"",
+      "Om de bovenstaande belofte van een gift na te komen, kan moonpacket het bijbehorende bedrag (activiteitslock) in de Off-chain records vergrendelen en markeren als \"in afwachting van distributie.\" Deze vergrendeling is noodzakelijk om de belofte van de uitgever na te komen en is geen willekeurige confiscatie of toe-eigening door moonpacket.",
+      "Tijdens de evenementperiode kan de uitgever geen verzoek doen om vroegtijdige opname van het betrokken bedrag, noch om het activum voor een ander doel te gebruiken.",
+      "Na de deadline van het evenement: (a) Delen die door deelnemers zijn geclaimd (of het opnameproces hebben geactiveerd), evenals kosten die zijn gemaakt voor distributie, kunnen niet meer worden gevraagd voor terugkeer; (b) Voor saldi die voor de deadline onbenut blijven, kan moonpacket het resterende bedrag teruggeven naar het oorspronkelijke oplaad- of verzendadres, of naar het originele adres dat moonpacket redelijk acht, na aftrek van noodzakelijke kosten, mits technische en compliancevoorwaarden dat toelaten.",
+      "Voor elke terugkeer, ontdooiing, opname of saldo-terugbetalingsproces, kan moonpacket eerst de voltooiing van KYC/AML vereisen; als de gebruiker weigert, vertraagt of niet slaagt, kan moonpacket naar eigen goeddunken het proces vertragen, beperken of weigeren; dergelijke vertragingen, beperkingen of weigeringen vormen geen schending van het contract door moonpacket, en moonpacket is niet aansprakelijk voor enige schadevergoeding, schadeloosstelling of andere verplichtingen.",
+      "Zodra on-chain, zijn blockchain-transacties doorgaans onomkeerbaar, publiek verifieerbaar en onveranderlijk; moonpacket kan transacties die al on-chain zijn gegaan niet achteraf verwijderen, intrekken of \"terugspoelen\", en draagt ook geen gerelateerde verantwoordelijkheden.",
+      "Alle waarden, punten, saldi, beloningen of andere indicaties die nog niet on-chain zijn, zijn slechts tijdelijke records en distributie-indicaties binnen het systeem en vertegenwoordigen niet dat dergelijke activa worden gehouden, vertrouwd of bewaard door moonpacket, noch geven ze aan dat moonpacket een leveringsverplichting, waarde beschermingsverplichting, renteverplichting of schadevergoeding verplichting jegens u heeft. moonpacket kan besluiten om dergelijke waarden te vertragen, weigeren of niet langer uit te geven op basis van zijn risicobeheer, KYC/AML, sanctieverplichtingen, belastingen of andere compliance-eisen; dergelijke beslissingen vormen geen schending van het contract door moonpacket, en moonpacket is niet aansprakelijk voor enige schadevergoeding, schadeloosstelling of andere verplichtingen.",
+      "Om on-chain transactiekosten te besparen en functies voor batchdistributie/red packet-distributie te bieden, kan moonpacket tijdelijk uw distributeerbare saldo of achterstallige toewijzingsbedragen opnemen en weergeven met behulp van interne database (Off-chain) waarden. Deze waarden zijn slechts handige indicaties voor interne afrekening en distributie binnen het systeem en vormen geen vertrouwen, bewaring, deposito's, discretionair financieel beheer, incasso en betaling, investeringsbeheer of andere gereguleerde financiële activiteiten. Tenzij en totdat deze waarden daadwerkelijk on-chain zijn, daadwerkelijk zijn betaald, en verifieerbaar zijn op de openbare keten, is moonpacket niet verantwoordelijk voor de terugkeer, waarde bescherming of renteverplichtingen van deze waarden, en zijn deze waarden niet gegarandeerd op elk specifiek moment, tegen elke specifieke prijs, of tegen elke specifieke netwerkkost."
+    ],
+    "fees": [
+      "Processen zoals activiteitsschepping, distributie, verificatie, opname en on-chain overdracht kunnen verwerkingskosten met zich meebrengen. De soorten en tarieven van verwerkingskosten zijn zoals weergegeven op de interface, volgens activiteitsregels, afrekenpagina's, samenwerkingsovereenkomsten of andere expliciete middelen.",
+      "Verwerkingskosten zijn voor rekening van de gebruiker en worden tijdens verzending, distributie, opname of gerelateerde operaties afgetrokken; eenmaal ontstaan, zijn ze niet-restitueerbaar. Zelfs als moonpacket bijstaat met terugbetalingen of het terugbrengen van saldi door factoren van deze dienst, zullen dergelijke terugbetalingen of terugleveringen alleen in de oorspronkelijke valuta terug naar het oorspronkelijke adres worden gedaan, exclusief eventuele gemaakte verwerkingskosten of on-chain gas kosten.",
+      "Als de gebruiker geen redelijke compliance-informatie verstrekt die door moonpacket wordt gevraagd (bijv. KYC/AML), kan moonpacket, naar eigen goeddunken, eventuele terugbetalingen, teruglevering van saldi, opnames of ontdooiingsverzoeken vertragen, beperken of weigeren; dergelijke vertragingen, beperkingen of weigeringen vormen geen schending door moonpacket, dat niet aansprakelijk zal zijn voor enige schadevergoeding of andere verantwoordelijkheden.",
+      "Wanneer u ervoor kiest om specifieke red packet-distributie, groepsdistributie, promotionele distributie of vergelijkbare functies te gebruiken, kan het systeem automatisch een bepaald percentage van de systeemkosten (bijv. ongeveer 2% voor het belonen van moonpacket om de serviceoperaties te onderhouden) en/of een bepaald percentage van de gemeenschap operationele beloningen (bijv. ongeveer 3% teruggegeven aan gemeenschapsleiders ter ondersteuning van gemeenschapsoperaties) berekenen en weergeven. Door deze functies te gebruiken, machtigt u het systeem om deze kosten te berekenen en toe te wijzen volgens de weergegeven percentages. Tenzij wettelijk verboden, heeft moonpacket het recht om deze percentages, voorwaarden of beloningsmodellen binnen een redelijke marge zonder verdere aankondiging aan te passen."
+    ],
+    "rules": [
+      "De initiator is verplicht om de activiteitsregels op een waarheidsgetrouwe en duidelijke manier vast te stellen (inclusief totaalbedrag, quotum, individuele limieten, geldigheidsduur, voorwaardelijke beperkingen, distributie-algoritmes, enz.), en mag geen deelname aantrekken door middel van valse of misleidende middelen.",
+      "moonpacket voert distributie-algoritmes, taakverificatie en prijsresultaten serverzijde uit en behoudt noodzakelijke auditsporen om te reageren op geschillen, compliance of regulatoire onderzoeken.",
+      "Als moonpacket met redelijke redenen grote schaalmisbruik, spam, geautomatiseerde抢夺 (snatching), fraude, witwassen van geld, financiering van terrorisme, gokwinstverdeling, illegale fondsenwervingen, sanctie-ontwijking of andere hoog-risico situaties vermoedt, kan moonpacket de activiteit onmiddellijk opschorten, bevriezen of aanpassen en besluiten om onopgeëiste saldi terug te geven, verdeling te weigeren of details aan regulatoire/juridische autoriteiten te overhandigen; dergelijke acties vormen geen contractbreuk door moonpacket, en moonpacket is niet verantwoordelijk voor enige schadevergoeding, herstel of andere aansprakelijkheden."
+    ],
+    "abuse": [
+      "moonpacket verklaart expliciet: Wij hebben geen verplichting, noch kunnen wij garanderen dat 'een account noodzakelijkerwijs overeenkomt met een enkel, verifieerbaar natuurlijk persoon'. Wij kunnen ook de afwezigheid van meerdere gedeelde accounts, een enkele natuurlijke persoon die meerdere accounts bezit, dummy-accounts of geautomatiseerde scripts/bots die red packets veroveren, niet garanderen.",
+      "Gebruikers (inclusief initiatiefnemers en deelnemers) begrijpen duidelijk en gaan ermee akkoord: De hierboven genoemde situaties kunnen de resultaten van de vermogensallocatie, de volgorde van distributie of beschikbare bedragen beïnvloeden; elke ongelijkheid, discrepantie of geschil veroorzaakt door meerdere accounts, dummy-accounts, scripts, bots of andere onregelmatige operaties vormen geen contractbreuk door moonpacket, en moonpacket is niet aansprakelijk voor schadevergoeding, terugbetaling of enige andere verantwoordelijkheid.",
+      "Om de systeemveiligheid en compliance te waarborgen, kan moonpacket gebruikmaken van geautomatiseerde detectie, AI/modellen, zwarte/grijze lijsten, snelheidbeperkingen, apparaatspecifieke identificatie, IP/ASN-risico-evaluatie en andere risicobeheersmechanismen binnen redelijke grenzen, en kan: (a) specifieke accounts, groepen, IP's, apparaten of activiteiten bevriezen, opschorten, blokkeren of beperkt gebruiken; (b) aanvullende informatie aanvragen of KYC/AML voltooien; (c) verwerking van klantenservice, opnames, terugbetalingen of ontdooiing vertragen of weigeren; (d) vermoedelijke illegale of hoog-risicosituaties doorverwijzen naar autoriteiten of gerechtelijke instanties.",
+      "moonpacket heeft geen verplichting om haar interne risicobeheerbesluitlogica, technische details of volledige auditbasis openbaar te maken. Acties die worden ondernomen op basis van het eerder genoemde risicobeheer, compliance of verzoeken van regelgevende autoriteiten vormen geen contractbreuk door moonpacket, en moonpacket is niet aansprakelijk voor schadevergoeding, terugbetaling of enige andere verantwoordelijkheden.",
+      "Eigenaar van accountgeschillen (bijv. beweren 'een ander account is eigenlijk mijnne, gelieve het saldo over te dragen'): moonpacket erkent alleen het oorspronkelijke account, de oorspronkelijk gekoppelde e-mail en het oorspronkelijk gekoppelde portemonneadres als de rechtmatige houders; moonpacket heeft geen verplichting om enige off-chain record saldo, opname rechten of andere voordelen van een bepaald account over te dragen naar een ander account/e-mail/portemonnee.",
+      "Als een account gedurende achttien (18) aaneengeschakelde maanden niet is ingelogd sinds de laatste login, zal moonpacket het Off-chain record saldo bevriezen dat niet is opgenomen vanwege veiligheids-, compliance- en risicobeheerredenen, en zal geen terugbetaling, opname of andere vormen van retour meer bieden. Deze actie vormt geen schending van het contract door moonpacket, en moonpacket is niet aansprakelijk voor enige schadevergoeding, schadeloosstelling of andere verplichtingen."
+    ],
+    "ip": [
+      "De intellectuele eigendomsrechten en andere rechten van deze service en de inhoud ervan (waaronder maar niet beperkt tot: code, ontwerp, logo's, handelsmerken, afbeeldingen, tekst, statistische presentaties, rangschikkingen, marketingmaterialen, documenten en gegevensverzamelingen) zijn eigendom van moonpacket of zijn legitieme licentiegevers.",
+      "U mag de hierboven genoemde inhoud niet op enige wijze kopiëren, verspreiden, wijzigen, verhuren, reverse-engineeren, of exploiteren voor commerciële of niet-commerciële doeleinden zonder voorafgaande schriftelijke toestemming van moonpacket.",
+      "U verklaart dat u de noodzakelijke autorisaties of juridische rechten hebt verkregen voor alle inhoud die is ingediend, geüpload, gerapporteerd, of op andere wijze aan deze service is verstrekt (bijv. groepsnamen, bijnamen, avatars, beschrijvingen, opmerkingen, evenementresultaten, distributiebedragen, ranggegevens, illustratieve screenshots, meme, feedback, chatrecords, enz., gezamenlijk aangeduid als “Gebruikersinhoud”)."
+    ],
+    "thirdparty": [
+      "Deze service kan integreren, afhankelijk zijn van of koppelen aan derden (zoals Telegram-platform, blockchain nodes, KYC/AML-providers, betalings- of uitwisselingskanalen, externe taken systemen, cloudproviders, enz.). Deze derden opereren onafhankelijk en zijn gebonden aan hun respectieve voorwaarden, privacybeleid en beschikbaarheidsbeperkingen.",
+      "moonpacket garandeert niet de continue aanwezigheid, tijdigheid, nauwkeurigheid, beschikbaarheid, wettelijkheid of veiligheid van enige derde-partij diensten; noch garandeert het dat deze derden geen blokkades, throttling, vertragingen, beleidswijzigingen of verstoringen van diensten zullen aanbrengen.",
+      "Vertragingen, falen, wijzigingen, onderbrekingen of gegevensafwijkingen veroorzaakt door derde-partij diensten, netwerkverbinding, blockchain congestie, knooppunt fouten, blokkeren, throttling, beleidswijzigingen, systeemonderhoud of andere oorzaken die niet aan moonpacket kunnen worden toegeschreven, vormen geen contractbreuk door moonpacket, en moonpacket is niet aansprakelijk voor schade, compensaties of contractbreuk verantwoordelijkheden.",
+      "Als wijzigingen in de beleidsregels of omgevingen van derden vereisen dat moonpacket bepaalde functionaliteiten aanpast, opschort of stopt, kan moonpacket de aanpassingen binnen een redelijke reikwijdte aankondigen of uitleggen, en dergelijke aanpassingen zijn geldig, en moonpacket is niet aansprakelijk voor compensatie."
+    ],
+    "dataPrivacy": [
+      "moonpacket zal uw gegevens verzamelen, gebruiken, opslaan, verwerken en delen in overeenstemming met het Privacybeleid.",
+      "Vanwege de openbare, onomkeerbare en traceerbare aard van blockchain-gegevens, kan sommige informatie door derden worden gereconstrueerd of aan uw identiteit of portemonnee-adres worden gekoppeld; u dient dit publieke risico te begrijpen en zelf te dragen.",
+      "U stemt er uitdrukkelijk mee in dat moonpacket, binnen redelijke grenzen, de nodige informatie kan behouden, beoordelen, analyseren, bevriezen en verstrekken (inclusief maar niet beperkt tot Off-chain-gegevens, on-chain bewijs, KYC/AML-gegevens, groeps/chat/activiteit logs, distributie en opnameacties) aan de bovengenoemde autoriteiten of hun gemachtigde entiteiten, op basis van anti-fraude, anti-witwassen, bestrijding van terrorismefinanciering, naleving van sancties, belastingrapportage, compliance audits of legitieme verzoeken van autoritaire/juridische instanties.",
+      "De samenwerking van moonpacket met regelgevende of juridische autoriteiten is wettelijk of volgens compliance vereist en vormt geen schending of inbreuk jegens u; moonpacket kan niet aansprakelijk worden gesteld voor schade of kosten die voortvloeien uit dergelijke samenwerkingsacties."
+    ],
+    "risk": [
+      "U erkent en stemt ermee in dat cryptocurrency, blockchain-netwerken en realtime interactieve distributiemechanismen grote onzekerheid en technische risico's met zich meebrengen, inclusief maar niet beperkt tot prijsvolatiliteit, protocol- of knooppuntfouten, forks, rollbacks, kwaadaardige aanvallen, denial of service, netwerk congestie, blokkering, throttling, kwetsbaarheden van slimme contracten, wijzigingen in API's van derden, wijzigingen in het regelgevingbeleid of datavertragingen.",
+      "Blockchain-transacties zijn over het algemeen onomkeerbaar zodra deze zijn ingediend en op-chain zijn bevestigd; eventuele vertragingen, fouten of discrepanties als gevolg van onomkeerbaarheid, netwerk congestie, knooppuntanomalieën of beperkingen van derden zijn voor uw rekening. moonpacket biedt geen garanties voor kapitaalbescherming, waardebehoud, opbrengstgarantie of realtime beschikbaarheid.",
+      "Off-chain records zijn alleen voor interne systeemrepresentatie van belangen; de rechten die uiteindelijk geclaimd kunnen worden zijn gebaseerd op de werkelijke on-chain transfers die zijn voltooid. Voor on-chain is het activum mogelijk nog niet toegewezen aan een uniek identificeerbare natuurlijke persoon en kan het onderworpen zijn aan deelnamevoorwaarden, KYC/AML, bewaarmaatregelen of compliance-controles.",
+      "moonpacket is geen bank, geen gereguleerde betalingsinstelling, geen beleggingsadviseur, geen vermogensbeheerder, geen verzekeraar. moonpacket biedt geen investerings-, belasting-, juridische of compliance-adviezen; de legaliteit over grenzen of rechtsbevoegdheden, belastingrapportageverplichtingen en sanctie-complianceverplichtingen zijn uw exclusieve verantwoordelijkheid om te evalueren en na te leven. Als u zich zorgen maakt over compliance, gebruik deze dienst dan niet.",
+      "Om risico's te verminderen, raadt moonpacket aan om meerdere keren kleine bedragen te gebruiken (een enkele transactie mag niet meer bedragen dan het equivalent van 100 USDT) en om langdurige opslag van grote activa in off-chain records te vermijden.",
+      "U begrijpt en stemt ermee in: moonpacket is geen bank, trustee, agent, beurs of betalingsintermediair, vermogensbeheerder, beleggingsadviseur, makelaar of bewaarder; moonpacket heeft geen verplichting (en ontkent uitdrukkelijk enige verplichting) om enige waarde, token, activum of belang voor u te behouden, beheren, waarderen, investeren, uitwisselen, omzetten, beschermen of onderhouden.",
+      "U begrijpt en stemt ermee in dat wanneer u een crypto-actief of token van uw portemonnee of rekening naar deze dienst overdraagt, de on-chain transactie zelf onomkeerbare netwerkfees, gas fees, miner fees of andere vergelijkbare kosten kan met zich meebrengen; bijgevolg kan het netto bedrag dat uiteindelijk door het systeem als 'gecrediteerd' wordt ontvangen en geregistreerd, minder zijn dan het nominale bedrag dat u hebt ingevoerd of weergegeven op de interface van de afzender. Dit verschil wordt in rekening gebracht door het betreffende on-chain netwerk en infrastructuur en niet door moonpacket incasseren; moonpacket erkent en registreert alleen het daadwerkelijk met succes gecrediteerde netto bedrag, dat de enige basis zal zijn voor verdere interne registraties en afrekeningen, en vormt geen andere discrepanties die u door moonpacket zijn verschuldigd."
+    ],
+    "disclaimer": [
+      "Deze dienst wordt verleend op basis van 'zoals het is' en 'zoals beschikbaar'. Voor zover de wet het toestaat, doet moonpacket geen uitdrukkelijke of impliciete garanties, verklaringen of waarborgen met betrekking tot deze dienst of enige onderdelen daarvan (inclusief onmiddellijke beschikbaarheid, nauwkeurigheid, ononderbroken werking, foutloze prestaties, geschiktheid voor een bepaald doel, wettigheid, naleving, beveiliging of vrij zijn van interferentie).",
+      "moonpacket doet geen garanties met betrekking tot vertragingen, fouten, onderbrekingen, blokkades of beleidswijzigingen veroorzaakt door of betrokken bij derde partij diensten (zoals Telegram-platform, blockchain-nodes, KYC/AML-providers, betalings- of wisselkanalen, externe taak systemen, cloud providers, enz.), noch neemt het verantwoordelijkheid voor hun toepasselijkheid, wettigheid, tijdigheid, beschikbaarheid of beveiliging.",
+      "moonpacket biedt geen uitdrukkelijke of impliciete garanties, waarborgen of verbintenissen met betrekking tot specifieke feedback, ranglijsten, valpercentages, toewijzingsratios, distributiebedragen, aantal zendingen, winnende kansen, airdrop-geschiktheid, activawisselbaarheid, finale opneembaarheid of marktwaarde; alle cijfers, percentages, schattingen, simulaties, ranglijsten, beloningspoolgrootte of 'beschikbare beloningen' beschrijvingen die in de interface of aankondigingen worden weergegeven, zijn alleen ter referentie en vormen geen garanties of juridisch afdwingbare rechten voor u.",
+      "U begrijpt en accepteert dat deze dienst een interactieve distributie/red packet distributie mechanism van internetnatuur is. Hoewel moonpacket mogelijk redelijke pogingen onderneemt om automatische misbruik, dubbele accounts, identiteitswisselingen of andere oneerlijke gedragingen te detecteren, garandeert moonpacket niet en kan het niet garanderen: (a) dat elk account overeenkomt met een unieke natuurlijke persoon; (b) dat elke ontvanger voldoet aan uw subjectieve beoordeling van 'gerechtigde ontvangers'; of (c) dat enige allocatieresultaten voldoen aan uw persoonlijke gevoel van rechtvaardigheid of economische verwachting. moonpacket heeft geen verplichting om te compenseren, herverdelen, terug te vorderen of activa van u terug te vorderen vanwege uw claim van 'anderen met meerdere accounts die pakketten grabbelen/robots die pakketten grabbelen', behalve zoals wettelijk vereist.",
+      "Wanneer u opnames, overdrachten of on-chain waarden aanvraagt, kunt u extra on-chain kosten, gaskosten, miner kosten of andere netwerk kosten op uw portemonnee of gespecificeerd netwerk moeten dragen. Dergelijke kosten kunnen aanzienlijk hoger zijn dan het nominale bedrag dat u probeert op te nemen tijdens specifieke netwerkcongestie. Dergelijke kosten worden bepaald door uw eigen economische en risicobeoordeling, en zijn geen servicekosten of commissies van moonpacket; behalve zoals wettelijk vereist, heeft moonpacket geen verplichting om dergelijke kosten te dragen, voor te schieten, te subsidiëren, te korten, te optimaliseren of te restitueren, noch enige verplichting om ervoor te zorgen dat dergelijke kosten 'redelijk' zijn in verhouding tot het nominale opnamebedrag dat u probeert.",
+      "Deze diensten zijn bedoeld om een technisch, geprogrammeerd automatisch distributie- en interactietool te bieden, waarmee gebruikers hun eigen activa kunnen alloceren of verplichten om deze te distribueren voor gamificatie of community management doeleinden. Behalve zoals wettelijk vereist, vormt deze dienst geen (en moet het niet worden begrepen als) bankdiensten, deposito's, trusts, bewaring, fiduciaire investeringen, beleggingsadvies, fondsbeheer, valutahandel of betalingsafwikkelingsdiensten, en vormt het geen leningen of financieringsproducten."
+    ],
+    "liability": [
+      "Voor zover toegestaan door de wet, is moonpacket niet aansprakelijk voor enige indirecte, incidentele, bijzondere, straffende, gevolg- of afgeleide schade (inclusief maar niet beperkt tot winstderving, verlies van inkomsten, beschadigde goodwill of reputatie, gegevensverlies, opportuniteitskosten, belastingen of boetes, of niet bereikte verwachte voordelen) voortvloeiende uit enige claim gebaseerd op contract, onrechtmatige daad, ongerechtvaardigde verrijking, strikte aansprakelijkheid, of andere juridische/equitabele theorie.",
+      "Vertragingen, falen, beperkte functionaliteit, gegevensverschillen, of onderbrekingen veroorzaakt door diensten van derden, netwerkverbindingen, congestie op de blockchain, storingen van knooppunten, blokkades, throttling, beleidswijzigingen, systeemonderhoud, of andere factoren die niet toe te schrijven zijn aan moonpacket, zullen geen schending door moonpacket vormen, en moonpacket is niet aansprakelijk voor enige schade, compensatie of andere verplichtingen in dergelijke gevallen.",
+      "Transactiekosten, on-chain gas kosten, kosten van derden of soortgelijke kosten zijn niet inbegrepen in enige terugbetaling of compensatie."
+    ],
+    "indemnity": [
+      "Indien u (inclusief de initiator en deelnemers) deze voorwaarden of enige toepasselijke wetten, sancties, belastingverplichtingen of nalevingsvereisten schendt, of inbreuk maakt op de rechten van een derde partij, of betrokken raakt bij fraude, witwaspraktijken, financiering van terrorisme, gokwinsten, illegale fondsenwervingen, ongeoorloofde verzameling van persoonlijke gegevens, verspreiding van schadelijke inhoud, of andere hoog-risico/prohibited activiteiten met gebruik van deze service, die resulteert in enige claims, schade, boetes, aansprakelijkheden, onderzoeken, rechtszaken, of andere kosten (inclusief redelijke advocaatkosten) tegen moonpacket en zijn dochterondernemingen, directeuren, werknemers, partners, leveranciers of compliance/juridische toezichthoudende entiteiten, stemt u ermee in hen te verdedigen, schadeloos te stellen en hen te vrijwaren voor zover toegestaan door de wet.",
+      "De hierboven vermelde schadeloosstellingsverplichtingen (indien van toepassing) omvatten, maar zijn niet beperkt tot: vragen van toezichthoudende autoriteiten, verzoeken om bevriezingen of inbeslagnames van belasting- of financiële toezichthouders, civiele of strafrechtelijke procedures, administratieve boetes, advocaatkosten en proceskosten, evenals aansprakelijkheden opgelegd of gevorderd tegen moonpacket vanwege uw acties (inclusief vermeende witwaspraktijken, fraude, financiering van terrorisme, belastingontduiking, sanctie-ontwijking of ongeoorloofde financiële diensten).",
+      "U gaat ermee akkoord dat de verplichtingen van schadeloosstelling, compensatie, verdediging en vrijwaring niet alleen van toepassing zijn op moonpacket zelf, maar ook op de leden, managers, directeuren, werknemers, adviseurs, aannemers, ontwikkelaars, operationele partners, community managers, agenten, opvolgers, rechtverkrijgenden en hun respectieve opvolgers van moonpacket (gezamenlijk aangeduid als “schadelijdenden”). Voor zover toegestaan door de wet, stemt u ermee in alle schadelijdenden schadeloos te stellen voor eventuele claims, vragen, bevriezingen, inbeslagnames, boetes, rechtszaken, vonnissen, schikkingen, advocaatkosten en andere kosten die voortvloeien uit uw gebruik van deze service, bronnen of bestemmingen van fondsen, red packet distributie activiteiten, transacties of geschillen met andere gebruikers, of het niet naleven van enige wetten (inclusief maar niet beperkt tot anti-witwaspraktijken, sancties, belasting- en verbruiksbelasting rapportageverplichtingen)."
+    ],
+    "suspension": [
+      "moonpacket kan, op basis van beveiliging, compliance, risicobeheer of operationele behoeften, prompt de volgende acties ondernemen binnen een redelijke reikwijdte zonder individuele kennisgeving: (a) een deel of alle diensten beperken, vertragen of weigeren te bieden; (b) accounts, saldi, functies of opnames bevriezen, vasthouden, beperken, aanpassen of stoppen; (c) specifieke accounts, groepen, IP's, apparaten of activiteiten blokkeren; (d) aanvullende informatie opvragen of KYC/AML compleet maken. De bovenstaande maatregelen vormen geen contractbreuk door moonpacket, en moonpacket is niet aansprakelijk voor schade, compensaties of andere verantwoordelijkheden.",
+      "Als moonpacket redelijkerwijs vaststelt dat er hoge risico's of illegale omstandigheden zijn zoals fraude, witwassen, terroristische financiering, sanctie-ontduiking, ongeautoriseerde financiële diensten, illegale fondsenwervingen, gokken winst delen, het exploiteren van tekortkomingen of het schaden van de platformstabiliteit, kan moonpacket transacties, distributies, opnames, terugbetalingen, deblokkeringen of klantenserviceverwerkingen opschorten, vertragen of weigeren, en samenwerken met onderzoeken of instructies van regelgevende of gerechtelijke autoriteiten.",
+      "moonpacket heeft het recht om gegevens van accounts, transactiegegevens, KYC/AML-gegevens en informatie die vereist is voor audits voor een redelijke periode te bewaren. Zelfs als je verzoekt om je account te verwijderen of te stoppen met het gebruik van de service, kan moonpacket dergelijke gegevens wettelijk, belastingtechnisch, boekhoudkundig en compliance-matig blijven bewaren totdat de bewaarplicht vervalt voordat deze worden verwijderd of geanonimiseerd.",
+      "Als off-chain records inconsistent zijn met on-chain statussen, kan moonpacket off-chain records aanpassen of terugdraaien om weer te geven wat moonpacket redelijkerwijs bepaalt als de juiste status; on-chain transacties kunnen echter niet worden geannuleerd of teruggedraaid.",
+      "Zonder afbreuk te doen aan de algemene inhoud hierboven, kan moonpacket waarden/beloningen die worden weergegeven als 'in behandeling krediet', 'te verdienen', 'nog niet on-chain', of vergelijkbare aanduidingen weigeren, vertragen, ongeldig maken, bevriezen of permanent inhouden, op basis van compliance, risicobeheer, fraude of misbruik zorgen, zelfs als je de waarde in de interface hebt gezien. Je stemt uitdrukkelijk in en doet onherroepelijk afstand van enige claims voor compensatie, rente, opbrengsten, opportuniteitskosten, strafschade of andere verzoeken met betrekking tot zulke onbetaalde waarden tegen moonpacket, tenzij de toepasselijke wet uitdrukkelijk het afstand doen van dergelijke verzoeken verbiedt.",
+      "Je begrijpt en stemt ermee in dat zodra je een red packet, beloning, groepsallocatie of andere distributie-instructies in de interface indient (of bevestigt dat je deze indient), moonpacket de allocatieautorisatie voor de ontvangers/groepen/voorwaarden zoals beschreven in dergelijke instructies als onherroepelijk en definitief beschouwt. Behalve bij onderzoeken naar fraude, misbruik, witwassen, sanctie-ontduiking, belastingontduiking of andere compliance-zorgen, is moonpacket niet verplicht om mechanismen voor 'terugdraaien', 'terugbetaling', 'annulering', 'herstel' of soortgelijke acties te bieden, noch is moonpacket verplicht om dergelijke waarden namens jou van andere gebruikers terug te vorderen nadat de distributie is voltooid; dergelijke acties vormen geen contractbreuk door moonpacket, en moonpacket is niet aansprakelijk voor schade, compensatie of andere aansprakelijkheden.",
+      "In gevallen van toepasselijke wetten, anti-witwasregelgeving, sancties, belastingrapportage, fraude onderzoeken of hoge risico waarschuwingen, kan moonpacket vereisen dat je identiteitsverificatie voltooit (inclusief, maar niet beperkt tot, door de overheid uitgegeven ID, selfies, gezichts- of andere biometrische vergelijkingen, enz.) en kan aanvullende documenten of verdere verificatie opvragen indien nodig. Als je niet binnen een redelijke periode de vereiste informatie kunt verstrekken, of als de verstrekte informatie redelijke verificatiecontroles niet doorstaat, kan moonpacket, naar eigen goeddunken, enige opnames, extracties, on-chain of inwisselingsverzoeken vertragen, beperken, weigeren of permanent verbieden; dergelijke acties vormen geen contractbreuk door moonpacket, en moonpacket is niet aansprakelijk voor schade, compensaties of andere verantwoordelijkheden, en je doet onherroepelijk afstand van eventuele claims voor schade, rente of opportuniteitskosten met betrekking tot dergelijke vertragingen of verboden, tenzij wettelijk verboden."
+    ],
+    "compliance": [
+      "U stemt er expliciet mee in dat moonpacket, in overeenstemming met zijn complianceverplichtingen, anti-witwassen/tegen-terrorisme-financieringsregelingen, sancties, belastingverplichtingen of wettelijke eisen van toezichthoudende/juridische autoriteiten, noodzakelijke informatie (inclusief Off-chain records, on-chain sporen, KYC/AML-gegevens, groep/chat/evenement records, distributie en opnamegedragingen) kan behouden, bevriezen, analyseren en verstrekken aan geautoriseerde eenheden of hun aangestelde compliance-aanbieders.",
+      "Deze samenwerking vormt geen schending van het contract of inbreuk door moonpacket, en moonpacket is niet aansprakelijk voor enige schadevergoeding, schadeloosstelling of andere verplichtingen."
+    ],
+    "forceMajeure": [
+      "In het geval van natuurrampen, oorlogen, rellen, overheidsorders, sancties, nieuwe wetten of regelgevingseisen, stroomuitval, communicatie- of netwerkonderbrekingen, leverancier of cloud-infrastructuurstoringen, incidenten op blockchain-protocolniveau, kwaadaardige aanvallen, epidemieën, arbeidsconflicten of andere oorzaken die niet aan moonpacket kunnen worden toegeschreven, resulterend in een vertraging of onmogelijkheid voor een van beide partijen om volledig of gedeeltelijk aan verplichtingen onder deze voorwaarden te voldoen, kan de getroffen partij ontheffing van aansprakelijkheid voor dergelijke vertragingen of niet-nakoming claimen; echter, de partij moet nog steeds redelijke inspanningen leveren om de impact te mitigeren en zo snel mogelijk te herstellen."
+    ],
+    "highRisk": [
+      "Verboden gebruiken van deze dienst omvatten enige illegale, hoog-risico of gesanctioneerde doeleinden, inclusief maar niet beperkt tot fraude, witwassen van geld, financiering van terrorisme, gokken, illegale fondsenwervingen, ongeautoriseerde financiële diensten, ontduiking van sancties of enige andere regulatief verboden handelingen.",
+      "De initiator dient zijn of haar rechtsgebied of toepasselijke juridische domein met betrekking tot de distributie van red packets, beloningen, promotiefondsen, airdrops, winstdeling of soortgelijke distributies te bevestigen en ervoor te zorgen dat deze geen illegale fondsenwervingen, ongeoorloofde financiële diensten, illegale gokwinsten of andere meldingsplichtige/toestemming vereisende activiteiten vormen.",
+      "Deelnemers dienen te bevestigen dat het ontvangen, vasthouden, opnemen of overdragen van activa in overeenstemming is met de wetten die van toepassing zijn op hun locatie, en niet betrokken is bij illegale inkomsten, sanctieschendingen, belastingrapportageverplichtingen of andere wettelijke beperkingen.",
+      "moonpacket biedt geen juridische garanties met betrekking tot de legaliteit van grensoverschrijdend of cross-jurisdictie gebruik van deze service, noch garandeert het dat u deze service legaal kunt gebruiken in een specifieke regio.",
+      "U verklaart en garandeert dat u niet onderworpen bent aan internationale sancties, exportcontroles, anti-terrorisme maatregelen of soortgelijke beperkingen, en deze service niet gebruikt namens dergelijke entiteiten. U mag deze service niet gebruiken om te helpen, faciliteren of te proberen om enige sancties, bevriezingen, inbeslagnames, confiscaties, belastingcontroles, handhavingsacties of gerechtelijke procedures te omzeilen. moonpacket behoudt zich het recht voor om alle of een deel van de diensten te weigeren, te beperken of te beëindigen, of om enige opname-, overdrachts- of inwisselingsverzoeken zonder voorafgaande kennisgeving te vertragen, te beperken of te ontkennen; dergelijke acties vormen geen schending door moonpacket, en moonpacket is niet aansprakelijk voor schade, compensatie of andere verplichtingen."
+    ],
+    "tax": [
+      "Je bent verantwoordelijk voor het afhandelen van alle belastingverplichtingen, declaraties, betalingen en gerelateerde kosten die voortvloeien uit het gebruik van deze service in overeenstemming met de toepasselijke wetten; moonpacket biedt geen belastingadvies en is niet verantwoordelijk voor declaraties of het inhouden van betalingen, tenzij wettelijk vereist."
+    ],
+    "accuracy": [
+      "De ranglijsten, statistieken, uitkomsten van evenementen, tips of dashboardinformatie die door deze dienst worden verstrekt, kunnen verschillen van de werkelijke status vanwege synchronisatietragingen, afhankelijkheden van derden, tijdelijke beperkingen of systeemonderhoud; alles is nog steeds onderhevig aan de werkelijke on-chain transactie-resultaten of de uiteindelijke afrekensrecords binnen moonpacket.",
+      "moonpacket kan duidelijke fouten, systeemfouten of resultaten die manifest onrechtvaardig zijn in de weergave corrigeren en kan Off-chain records binnen een redelijke reikwijdte terugdraaien om ze in overeenstemming te brengen met de nauwkeurige status zoals redelijk bepaald door moonpacket; echter, on-chain transacties kunnen niet worden geannuleerd of teruggedraaid."
+    ],
+    "law": [
+      "Deze Voorwaarden, evenals alle relaties tussen u en moonpacket die voortvloeien uit of verband houden met deze service (inclusief maar niet beperkt tot activiteitendistributies, activa-afhandeling, rangschikking/beloningsmechanismen, accountbevriezingen/schorsingen, stopzetten of beëindigen van de service, aanpassingen van Off-chain records, gegevensopslag, samenwerking met wetshandhaving, alle aankondigingen, verklaringen, marketing, klantenondersteuning ingrepen, enz.), zullen worden beheerst door de wetten van Japan, zonder rekening te houden met zijn beginselen van privaat internationaal recht of conflicten van wetten."
+    ],
+    "disputes": [
+      "Eventuele geschillen, controverses, verzoeken, rechtszaken, rechtsmiddelen of procedures die voortvloeien uit of verband houden met deze dienst of deze voorwaarden, zullen exclusief worden voorgelegd aan de Rechtbank van Tokio als de rechtbank van eerste aanleg. U doet onherroepelijk afstand van alle rechten om de jurisdictie van enige andere rechtbank, arbitrage-instelling of rechtsdistrict dat mogelijk handiger of toepasselijker is, te claimen, en kunt niet beweren dat moonpacket onderworpen zal zijn aan de jurisdictie van de rechtbank waar u zich bevindt.",
+      "U stemt er mee in dat moonpacket, in overeenstemming met zijn compliance verplichtingen, anti-witwassen/tegen-terrorisme financiering, sancties, belastingen, of legitieme verzoeken van regelgevende/juridische autoriteiten, noodzakelijke informatie kan behouden, bevriezen, analyseren en verstrekken (inclusief Off-chain records, on-chain bewijs, KYC/AML gegevens, groeps/chat/activiteit logs, distributie en opnameacties) aan geautoriseerde eenheden of hun geautoriseerde compliance aanbieders; dergelijke samenwerking vormt geen schending of inbreuk door moonpacket, en moonpacket zal niet verantwoordelijk zijn voor enige compensatie, vergoeding of andere verantwoordelijkheden daarvoor."
+    ],
+    "contact": [
+      "Voor vragen over deze overeenkomst kunt u moonpacket contacteren via de klantenservicebot of de contactkanalen die in de interface zijn weergegeven. Voor verzoeken met betrekking tot gegevensbescherming of privacy kunt u contact opnemen via het contactvenster dat in het Privacybeleid is vermeld."
+    ],
+    "changes": [
+      "moonpacket kan deze voorwaarden en gerelateerde beleidslijnen op elk moment herzien op basis van technische, risicobeheer, compliance- of zakelijke overwegingen. De herziene versie gaat in op het moment van publicatie en wordt beschouwd als de nieuwste geldige versie. Door toegang te blijven geven of deze dienst te blijven gebruiken na publicatie, wordt u geacht akkoord te gaan met de bijgewerkte inhoud; als u het er niet mee eens bent, is uw enige oplossing om onmiddellijk te stoppen met het gebruik van deze dienst."
+    ],
+    "serviceChanges": {
+      "title": "Diensten aanpassingen en voorwaarden updates",
+      "body": [
+        "moonpacket kan, naar eigen goeddunken, deze dienst (inclusief maar niet beperkt tot de berekeningsmethode van red packets/uitkeringen, koelijden, distributievoorwaarden, leiderschapsregels, verwerkingskosten, beschikbare functies, interfaces, API's, plugin-integraties, activiteit drempels, enz.) wijzigen, lokaliseren, aanpassen, opschorten, beperken, bijwerken of beëindigen, en kan op elk moment alle of een deel van zijn diensten offline nemen; moonpacket is niet verplicht om bepaalde diensten of functies permanent te handhaven.",
+        "moonpacket kan diensten aan specifieke gebruikers of groepen weigeren of opschorten op basis van risicobeheer, compliance beoordeling, technische of zakelijke overwegingen, of hun functionaliteiten en machtigingen beperken (inclusief bevriezen, opschorten, blokkeren, verbindingen voorkomen, of specifieke chatgroepen of accounts blokkeren) zonder individuele kennisgeving. Tenzij wettelijk vereist, is moonpacket niet aansprakelijk voor schade, verlies of kosten die voortvloeien uit aanpassingen, opschorting of weigering om deze service te bieden."
+      ]
+    },
+    "userContent": {
+      "title": "Gebruikersinhoud en openbare weergave autorisatie",
+      "body": [
+        "Je begrijpt en stemt ermee in: Alle inhoud, gegevens, namen, bijnamen, groepsnamen, groepsafbeeldingen, groepsbeschrijvingen, informatie van chatkamers, gegevens van ranglijsten, bijdragen, totale bedragen van red packets, gelukstrekkingen, berichten, reacties, meme, stickers, tekst of andere informatie (gezamenlijk aangeduid als 'Gebruikersinhoud') die je aan moonpacket verstrekt, uploadt, rapporteert of op een andere manier beschikbaar stelt tijdens je gebruik van deze service, kan worden weergegeven, gesorteerd, gerangschikt, samengevoegd, aangekondigd, screenshots weergegeven, gereproduceerd, gedistribueerd, openbaar verzonden, openbaar weergegeven, aangepast en gebruikt voor marketing en operationele toelichtingen (bijvoorbeeld, het tonen van populaire groepen, ranglijsten voor red packet distributie, gelukkige ontvangers, beoordelingen van evenementuitkomsten, enz.) binnen de interne of openbaar zichtbare gebieden van moonpacket.",
+        "Als moonpacket redelijkerwijs vermoedt dat specifieke gebruikersinhoud wetten kan schenden, derdenrechten kan schenden, kan betrokken zijn bij fraude/witwassen/terroristische financiering/g gokken winst delen/illegale fondsenwervingen/ongeautoriseerde verzameling van persoonsgegevens, en andere risico gedrag kan vertonen, kan moonpacket dergelijke inhoud verwijderen, verbergen, het weergeven beperken, verwijderen of blokkeren, en kan toegang tot relevante accounts of groepen bevriezen, opschorten of beëindigen en kan noodzakelijke informatie verstrekken aan groepsbeheerders, platformaanbieders, regelgevende autoriteiten of gerechtelijke entiteiten. moonpacket is niet aansprakelijk voor schade, verlies van winst, reputatieschade of andere claims die voortvloeien uit dergelijke acties."
+      ]
+    },
+    "liabilityCap": {
+      "title": "Beperking van aansprakelijkheid en compensatieplafond",
+      "body": [
+        "Voor zover toegestaan door de wet, is de totale aansprakelijkheid van moonpacket voor eventuele vorderingen, schade of aansprakelijkheden die voortvloeien uit uw gebruik van deze dienst beperkt tot (A) de totale kosten die u daadwerkelijk aan moonpacket heeft betaald en die door moonpacket binnen de afgelopen dertig (30) dagen zijn bevestigd met betrekking tot dat verzoek, of (B) het equivalent van vijftig (50) dollar, afhankelijk van wat lager is. Deze beperking vormt uw enige en exclusieve rechtsmiddel, ook al faalt dat rechtsmiddel om uw schade te vergoeden.",
+        "De bovenstaande beperking is alleen van toepassing voor zover de wet vereist dat moonpacket aansprakelijkheid draagt, en vormt uw enige en exclusieve rechtsmiddel; buiten dat verplichte bereik erkent of garandeert moonpacket geen aansprakelijkheid voor geschillen of vorderingen."
+      ]
+    },
+    "governingLaw": {
+      "title": "Toepasselijke wetten en geschiloplossing.",
+      "body": [
+        "Deze voorwaarden, en alle relaties die voortvloeien uit of gerelateerd zijn aan deze dienst tussen u en moonpacket, worden beheerst door de wetten van Japan, en dienovereenkomstig geïnterpreteerd, maar sluiten niet de toepassing van zijn conflicten van wettenprincipes uit.",
+        "Eventuele geschillen, claims, rechtszaken, remedies of procedures die voortvloeien uit of gerelateerd zijn aan deze dienst of deze voorwaarden, vallen onder de exclusieve jurisdictie van de Rechtbank van Tokio in Japan als eerste instantie. U doet onherroepelijk afstand van eventuele rechten om te claimen dat een andere rechtbank of jurisdictie handiger of geschikter is en zal niet beweren dat moonpacket onder de jurisdictie van uw lokale rechtbanken valt.",
+        "moonpacket kan, in overeenstemming met zijn verplichtingen, anti-witwas/anti-terrorisme-financiering, sancties, belasting- of wettelijke autoriteiten' legitieme verzoeken, noodzakelijke informatie (inclusief Off-chain records, on-chain bewijs, KYC/AML-gegevens, groep/chat/activiteit-records, en distributie- en opnameactiviteiten) behouden, bevriezen, analyseren en verstrekken aan bevoegde entiteiten of hun compliance-leveranciers; dergelijke acties vormen geen schending van het contract of inbreuk door moonpacket, dat niet aansprakelijk zal zijn voor enige schade of kosten die voortvloeien uit dergelijke acties.",
+        "U en moonpacket komen overeen dat er geen claims kunnen worden gemaakt of deelgenomen aan via class actions, groepsacties, collectieve acties, gezamenlijke acties of soortgelijke procedures; u doet onherroepelijk afstand van uw rechten om eiser, lid, agent of vertegenwoordiger in dergelijke procedures te zijn, behalve zoals wettelijk verboden.",
+        "Als enige bepaling van deze voorwaarden ongeldig, onwettig of niet-afdwingbaar wordt geacht door een rechtbank van bevoegde jurisdictie, blijven de overige bepalingen volledig van kracht en effect tot het maximale dat door de wet is toegestaan (scheidbaarheid).",
+        "Deze voorwaarden vormen de volledige overeenkomst tussen u en moonpacket met betrekking tot deze dienst en vervangen alle eerdere mondelinge of schriftelijke communicatie, aankondigingen, marketingbeschrijvingen, berichten in de gemeenschap, ondersteuningsreacties of beloftes (indien aanwezig) tussen de partijen. Tenzij expliciet schriftelijk verklaard door moonpacket, mogen geen andere verklaringen, veelgestelde vragen, marketingmaterialen, chatrecords of mondelinge verklaringen een garantie of waarborg vormen die moonpacket juridisch bindt.",
+        "moonpacket kan, zonder uw voorafgaande toestemming, alle of een deel van deze voorwaarden of zijn rechten en verplichtingen toewijzen, overdragen, delegeren of anderszins hebben dat dochterondernemingen, aannemers, rechtverkrijgenden, operationele opvolgers of andere derden deze voorwaarden verwerken of vervullen, en dergelijke derden kunnen de service onder substantieel gelijke voorwaarden voortzetten, aanpassen of beëindigen; u mag geen rechten of verplichtingen onder deze voorwaarden toewijzen of overdragen zonder de voorafgaande schriftelijke toestemming van moonpacket.",
+        "Tenzij anders vereist door de wet, zal het falen van moonpacket om enig recht, middel of claim die door deze voorwaarden op enig specifiek moment is verleend, uit te oefenen of het tegenovergestelde te doen, worden geacht geen afstand te doen van dat recht, noch zal het invloed hebben op de mogelijkheid van moonpacket om dat recht in de toekomst te doen gelden of uit te oefenen.",
+        "Bepalingen die, naar hun aard, moeten overleven na beëindiging van deze voorwaarden, inclusief maar niet beperkt tot verplichtingen met betrekking tot kosten en verwerkingskosten, afstandsverklaringen, aansprakelijkheidsbeperkingen, schadevergoeding plafonds, belastingverplichtingen, intellectuele eigendom clausules, verboden, compliance- en samenwerkingsverplichtingen, regels van toepasselijk recht en jurisdictie, evenals toepasselijke schadeloosstellingsverplichtingen, blijven effectief en bindend voor u nadat u stopt met het gebruik van deze dienst of bij beëindiging van deze voorwaarden om welke reden dan ook."
+      ]
+    },
+    "appendix": [
+      "\"Onomkeerbaar\": verwijst naar on-chain transacties die, zodra ze zijn bevestigd (on-chain), meestal niet kunnen worden ingetrokken, hersteld of verwijderd, en waarvan de records permanent kunnen worden geverifieerd op openbare blockchain-explorers.",
+      "\"Niet-intrekbaar\": verwijst naar de belofte van een gift die aan niet-gespecificeerde deelnemers is gedaan en die van kracht wordt wanneer de uitgever de distributievoorwaarden bevestigt en verzendt; dit kan niet willekeurig worden ingetrokken, geannuleerd of verzocht om te worden stopgezet tijdens het evenement, noch kan om teruggave worden verzocht op grond van \"berouw\"; dit is een ander niveau van concept dan \"onomkeerbare\" on-chain transacties.",
+      "\"Binnen een redelijke reikwijdte\": verwijst naar commercieel redelijke acties die door moonpacket worden ondernomen om operationele veiligheid, compliance-eisen, anti-witwassen/tegen-terrorisme-financiering, naleving van sancties, fiscale naleving, bescherming van gebruikers of risicobeheerdoelstellingen te waarborgen binnen de grenzen van wettelijke, regelgevende verplichtingen en beschikbare middelen, inclusief maar niet beperkt tot: bevriezen, beperken, vertragen, aanpassen, behouden, samenwerken met autoriteiten, of weigeren bepaalde functies te bieden."
+    ]
+  }
+}

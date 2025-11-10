@@ -1,0 +1,48 @@
+{
+  "title": "Lộ trình sản phẩm",
+  "updated": "Cập nhật (token sẽ bắt đầu phân phối khi thanh tiến trình đầy)",
+  "bucket": {
+    "progress": "Tiến độ"
+  },
+  "status": {
+    "shipping": "Đang phát triển",
+    "planned": "Đã lên kế hoạch",
+    "research": "Đang nghiên cứu",
+    "live": "Đã ra mắt"
+  },
+  "accept": "Tiêu chí chấp nhận",
+  "lanes": {
+    "build": "Sản phẩm đã phát triển",
+    "trust": "Tin cậy, Tuân thủ và Bảo mật",
+    "growth": "Tăng trưởng",
+    "token": "moonini token"
+  },
+  "progressLabel": "Tiến độ",
+  "phase": {
+    "open-beta": {
+      "title": "Ra mắt Beta Mở (bao lì xì nội bộ)",
+      "desc": "Thí điểm trong cộng đồng, mở tích hợp cộng đồng có điều kiện; Kiểm tra phân phối/nhận thưởng cơ bản và trải nghiệm người dùng",
+      "accept": "Quy tắc rõ ràng, yêu cầu suôn sẻ, các kênh chính có thể sử dụng"
+    },
+    "multi-chain": {
+      "title": "Tối ưu hóa liên tục: Đa chuỗi + Cơ chế Điểm số + Chống bot",
+      "desc": "Mở rộng hỗ trợ đa chuỗi ngoài Solana; Tính toán và trực quan hóa điểm số; Chiến lược chống bot và thử nghiệm A/B",
+      "accept": "Nhận diện tài sản đa chuỗi là chính xác; Điểm số và kiểm soát rủi ro hoạt động bình thường"
+    },
+    "compliance": {
+      "title": "Kiểm soát Rủi ro và Tuân thủ",
+      "desc": "Cơ chế KYC/AML, Kiểm toán và Bảo mật; Quy trình Kiểm tra Bất thường.",
+      "accept": "Bật KYC nếu cần thiết; quy tắc AML có thể kiểm tra; nhật ký bảo mật mạnh mẽ"
+    },
+    "growth-integration": {
+      "title": "Tăng trưởng: Tích hợp Cộng đồng + API/Webhook + Hợp tác Hệ sinh thái",
+      "desc": "Hướng dẫn tích hợp, Webhook Sự kiện, API Truy vấn; Quy trình tích hợp Đối tác",
+      "accept": "Hướng dẫn tích hợp được phê duyệt; Webhook/API Truy vấn ổn định"
+    },
+    "token-moonini": {
+      "title": "Điểm có thể đổi thành token: moonini",
+      "desc": "Hoàn tất phân phối token moonini và cơ chế trao đổi",
+      "accept": "Quy tắc chuyển đổi điểm số thành token được thực hiện; Kiểm tra kiểm soát rủi ro/tuân thủ đã qua"
+    }
+  }
+}

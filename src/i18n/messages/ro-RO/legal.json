@@ -1,0 +1,456 @@
+{
+  "privacyTitle": "Politica de confidențialitate",
+  "termsTitle": "Acordul utilizatorului",
+  "version": "Versiune",
+  "updated": "Actualizare",
+  "owner": "Proprietar",
+  "sections": {
+    "scope": "Domeniu și formarea contractului",
+    "definitions": "Utilizări cu Risc Ridicat și Interzise",
+    "eligibility": "Drepturi de Proprietate Intelectuală",
+    "services": "Conținutul serviciului și modelul de operare",
+    "wallet": "Portofel cloud, angajament de cadou și blocare de fonduri",
+    "fees": "Taxe și Comisioane",
+    "rules": "Reguli de activitate și corectitudine",
+    "restrictions": "Control anti-bot, abuz și restricții ale contului",
+    "ip": "Drepturi de Proprietate Intelectuală",
+    "third_party": "Servicii de terță parte și dependență externă",
+    "data": "Eligibilitate și Cont",
+    "risks": "Divulgarea riscurilor",
+    "disclaimer": "Despăgubire",
+    "liability": "Limită de responsabilitate",
+    "indemnity": "Despăgubire",
+    "termination": "Suspendare, înghețare, încetare și retenție a datelor",
+    "force_majeure": "Forța Majoră",
+    "high_risk": "Utilizări cu Risc Ridicat și Interzise",
+    "tax": "Impozitare și raportare",
+    "accuracy": "Acuratețea conținutului și a datelor",
+    "governing_law": "Legea Aplicabilă și Resoluționarea Disputelor",
+    "contact": "Metodă de Contact",
+    "changes": "Terms Changes",
+    "intro": "",
+    "data_collection": "Taxe și Comisioane",
+    "data_usage": "Legea Aplicabilă și Resoluționarea Disputelor",
+    "legal_basis": "",
+    "cookies": "Definiții",
+    "data_sharing": "Forța Majoră",
+    "cross_border": "Declarație de renunțare",
+    "retention": "",
+    "security": "",
+    "minors": "",
+    "rights": "",
+    "faq": "",
+    "updates": "",
+    "contact_info": "Cooperare în materie de Date, Confidențialitate și Conformitate"
+  },
+  "contact": {
+    "title": "Metodă de contact",
+    "privacy": "Căsuță poștală de confidențialitate",
+    "security": "Raport de securitate",
+    "support": "Robot de asistență pentru clienți"
+  },
+  "privacy": {
+    "version": "v1.0.0",
+    "updated": "auto",
+    "owner": "echipa moonpacket",
+    "version_label": "Versiune",
+    "updated_label": "Actualizare",
+    "owner_label": "Proprietar",
+    "data_sources": "Sursa de date",
+    "notice": {
+      "disclaimer_binding": "Următorii termeni sunt o traducere și sunt doar pentru referință. Versiunea oficială cu caracter obligatoriu din punct de vedere legal este textul original în limba engleză. În cazul în care există discrepanțe între versiunile lingvistice și versiunea în limba engleză, versiunea în limba engleză va prevala."
+    },
+    "intro": [
+      "Această politică de confidențialitate (denumită în continuare 'această politică') descrie cum colectăm, utilizăm, stocăm și protejăm informațiile dumneavoastră personale și datele de utilizare atunci când folosiți serviciile furnizate de moonpacket, inclusiv aplicația Mini Telegram, botul și site-ul web (denumite colectiv 'serviciul'). Vă rugăm să o citiți complet înainte de utilizare; prin începerea utilizării serviciului, acceptați această politică.",
+      "Funcția principală a acestui serviciu este 'creșterea comunității și interacțiunea red packet,' și poate oferi funcții necesare legate de portofelele cloud, tranzacții sau răscumpărări sub cerințele de conformitate. Această politică reglementează doar procesarea datelor; pentru reglementările de utilizare, limitele de responsabilitate, dezvăluirile de risc și clauzele de exonerare, consultați 'Termenii de utilizare.'",
+      "moonpacket (denumit în continuare 'moonpacket' sau 'serviciul') este entitatea și administratorul care colectează, utilizează, stochează și procesează datele personale și de utilizare legate de funcționarea acestui serviciu, procesând datele exclusiv în scopuri tehnice și operaționale; moonpacket nu este o bancă, un trust, un custode, un consilier de investiții, un intermediar de plată sau un manager de active, nici nu își asumă obligații fiduciare, de custodie, de păstrare, de investiție sau de garanție din cauza procesării datelor menționate anterior."
+    ],
+    "definitions": [
+      "moonpacket: Se referă la serviciile aplicației oferite de acest proiect, inclusiv aplicațiile web și aplicațiile mobile disponibile pentru descărcare, și incluzând (dar fără a se limita la) Telegram Mini App, boturi, portofele cloud și module funcționale conexe.",
+      "Date personale: Informații care pot identifica direct sau indirect o persoană fizică, cum ar fi (unde este cazul) informațiile de contact, Telegram UID, adresa portofelului cloud (dacă poate identifica o persoană), identificatori de dispozitiv și rețea.",
+      "Date de utilizare: Înregistrări de evenimente și interacțiuni legate de conturi sau dispozitive (de exemplu, trimiterea/primirea de red packet-uri, erori și jurnale de performanță, semnale anti-bot)."
+    ],
+    "scope": [
+      "Aceste termeni se aplică utilizării dumneavoastră a tuturor funcțiilor furnizate de moonpacket, inclusiv (dar fără a se limita la) alăturarea sau gestionarea grupurilor/canalelor, trimiterea sau primirea red packet-urilor, participarea la evenimente, conectarea sau utilizarea portofelelor cloud și punctelor și integrările prin API/Webhook.",
+      "moonpacket susține două cazuri principale de utilizare: cei care trimit red packet-uri și cei care primesc red packet-uri. Expeditorii trebuie să adauge botul în grupurile/canalurile deținute sau gestionate și să acorde permisiunile necesare; dacă nu sunt autorizate sau permisiunile sunt insuficiente, funcționalitatea nu poate fi garantată. Destinatarii nu au informațiile lor private capturate în afara identificatorilor de rețea necesari și a evenimentelor de utilizare în timpul interacțiunilor în grup."
+    ],
+    "dataCollected": [
+      "Cont și identitate: Telegram UID, nume de utilizator, avatar, setări de limbă, identitatea și permisiunile membrilor grupului; dacă este necesar, datele de identificare emise de guvern, selfie-uri sau rezultate ale asocierii biometrice faciale, declarația de rezidență, informațiile și rezultatele auditului KYC/AML vor fi colectate și păstrate exclusiv pentru conformitate, prevenirea spălării banilor, combaterea finanțării terorismului, conformitatea cu sancțiunile, raportarea fiscală, investigarea fraudelor sau scopuri de gestionare a riscurilor.",
+      "Evenimente de utilizare: Trimiterea/primirea de red packet-uri, comenzi și înregistrări de interacțiune, participanți la evenimente, evenimente din API/Webhook, erori și jurnale de performanță; semnale anti-bot și de control al riscurilor (cum ar fi frecvența anormală, caracteristicile dispozitivului sau rețelei).",
+      "Tranzacții și active: Adrese legate de portofelul cloud, solduri sau rezumate ale tranzacțiilor (doar în măsura necesară pentru funcționalitate); tranzacțiile on-chain pot fi verificate public, dar sunt ireversibile și imuabile. Informațiile menționate anterior pot include înregistrări off-chain (cum ar fi soldurile marcate în contabilitatea internă, sumele în așteptare de distribuire sau starea blocată), care sunt furnizate doar pentru soluționarea internă a sistemului și instrucțiuni de alocare și nu constituie obligații de custodie, fiducie, depozit, gestionare financiară delegată, colectare de plăți și plată, gestionare a investițiilor sau păstrarea în siguranță din partea moonpacket.",
+      "Informații tehnice și despre dispozitiv: Modelul dispozitivului, sistemul de operare, versiunea browser-ului sau aplicației, adresa de rețea (IP/ASN) și regiunea aproximativă, etichete cookie și stocare locală (dacă există).",
+      "Informații de contact: E-mail sau conținutul chat-ului de suport pentru clienți pe care îl oferi activ (dacă există)."
+    ],
+    "sources": [
+      "Datele dumneavoastră furnizate activ în timpul înregistrării, legării, interacțiunii sau comunicației cu serviciul pentru clienți.",
+      "Evenimentele și datele tehnice înregistrate automat de sistem în timpul utilizării acestui serviciu.",
+      "Rezultatele comparației sau verificării obținute legal pentru conformitate sau necesitate de serviciu (cum ar fi furnizorii de servicii KYC/AML)."
+    ],
+    "purposes": [
+      "Funcțiile oferite pentru operarea și întreținerea acestui serviciu includ: verificarea identității, autentificarea permisiunilor, module de activare și gestionare (red packet, puncte, portofel cloud), rezolvarea problemelor și monitorizarea securității.",
+      "Gestionarea riscurilor și conformitatea: Detectarea, prevenirea și investigarea abuzurilor, fraudelor, spălării banilor, finanțării terorismului, evitării sancțiunilor, evaziunii fiscale, strângerii de fonduri ilegale, serviciilor financiare neautorizate, manipulării distribuțiilor de venituri sau altor activități anormale; desfășurarea auditurilor KYC/AML și verificarea identității (inclusiv identificarea eliberată de guvern, selfie-uri și verificarea biometrică), evaluarea riscurilor și revizuirea impozitelor și sancțiunilor. Dacă este necesar, poate implica păstrarea, înghețarea, întârzierea, limitarea sau refuzarea tranzacțiilor, distribuțiilor, rambursărilor, retragerilor sau decongelărilor. Astfel de acțiuni nu constituie o încălcare sau o violare din partea moonpacket, iar moonpacket nu este responsabil pentru compensații, despăgubiri sau alte responsabilități.",
+      "Analiza datelor și optimizarea produselor: Tendințe statistice de utilizare, îmbunătățirea experienței și performanței, desfășurarea de teste A/B și instruirea modelelor anti-fraudă (folosind metode de minimizare și de-identificare).",
+      "Conformitatea cu reglementările și afirmarea drepturilor: Cooperarea cu cererile legale din reglementări, autorități sau instanțe, sau exercitarea, stabilirea sau apărarea drepturilor legale. moonpacket poate, la propria discretionare, furniza date relevante autorităților de reglementare, organelor judiciare, autorităților fiscale sau de sancțiuni, agențiilor de arbitraj sau de executare, sau furnizorilor de servicii de conformitate autorizați, pe baza necesităților legale, de reglementare, fiscale, de sancțiuni, conformității anti-spălare a banilor, anti-finansare a terorismului, cercetării fraudelor sau altor nevoie de conformitate; această furnizare nu constituie o încălcare sau o violare din partea moonpacket, iar moonpacket nu este responsabil pentru compensații, despăgubiri sau alte responsabilități.",
+      "Comunicația și notificările: Furnizarea de informații despre modificări importante, notificări de evenimente sau informații necesare despre servicii; mesajele de marketing vor fi trimise doar cu consimțământul dumneavoastră sau așa cum permite legea."
+    ],
+    "legalBases": [
+      "Necesar pentru îndeplinirea contractelor sau furnizarea de servicii (de exemplu, activarea proceselor de red packet/ puncte, verificarea controlului riscurilor și înregistrarea evenimentelor).",
+      "Conformitatea cu obligațiile legale (de exemplu, KYC/AML, sancțiuni, obligații de audit și retenție).",
+      "Interese legitime (de exemplu, detectarea abuzurilor, asigurarea securității sistemului și disponibilității serviciului, îmbunătățirea produselor și experiențelor). În acest caz, vom implementa teste de echilibrare și vom adopta măsuri de de-identificare sau minimizare.",
+      "Consimțământul dumneavoastră (de exemplu, primirea mesajelor de marketing, cookie-uri non-esențiale și opțiuni revocabile)."
+    ],
+    "cookies": [
+      "Cookies necesare și stocare locală: Utilizate pentru a menține statutul de conectare, selecția limbii, măsurile anti-bot și controalele de securitate; unele funcții s-ar putea să nu funcționeze corect dacă sunt dezactivate.",
+      "Analitice sau Preferință: Activat doar dacă este permis legal sau cu consimțământul tău; poți elimina sau limita aceste setări în opțiunile browser-ului tău."
+    ],
+    "wallet": [
+      "Dacă portofelul cloud este furnizat de acest serviciu sau de un partener, va procesa și reține doar datele de tranzacție și chitanțele minim necesare după finalizarea red packet, punctelor sau proceselor de schimb necesare.",
+      "Datele on-chain sunt publice și ireversibile; vă rugăm să acționați cu prudență. Natura permanent publică, neimplicabilă și asocierile de date derivate din caracteristicile blockchain-ului sunt dincolo de controlul acestui serviciu."
+    ],
+    "antiFraud": [
+      "Pentru a preveni abuzul și frauda, putem evalua frecvența interacțiunilor, caracteristicile dispozitivului sau rețelei, locația geografică, tiparele de comportament și semnalele de pe lista neagră; funcționalitatea poate fi suspendată sau restricționată, iar verificări suplimentare pot fi necesare după cum este necesar.",
+      "Din motive de conformitate și securitate, ne rezervăm dreptul de a partaja indicatorii relevanți sau rezultatele auditului cu furnizori de servicii de încredere anti-fraudă sau de conformitate în limite rezonabile.",
+      "Pentru scopurile menționate anterior, moonpacket poate, la discreția sa, să suspende, să întârzie, să limiteze sau să refuze funcționalități specifice și să impună verificări suplimentare (inclusiv audite KYC/AML, ID-uri emise de guvern, selfie-uri sau comparații biometrice) sau să împărtășească indicatori necesari sau rezultate ale auditului cu furnizori de servicii de încredere anti-fraudă, conformitate, impozitate sau sancțiuni; astfel de acțiuni nu constituie o încălcare sau violare din partea moonpacket, iar moonpacket nu va fi responsabil pentru daune, compensații sau alte responsabilități."
+    ],
+    "sharing": [
+      "Furnizorii de procesare sau terți, inclusiv găzduire în cloud, înregistrare și monitorizare, analytics, anti-bot și furnizori de servicii de conformitate, desfășoară operațiuni în baza unor constrângeri contractuale și minimizate.",
+      "Partenerii și managerii de comunitate vor împărtăși informațiile necesare în funcție de activitățile specifice, red packets sau scenariile de guvernanță a comunității în care participați, conform regulilor activității.",
+      "Vom divulga datele necesare autorităților, instanțelor sau titularilor de drepturi, în conformitate cu procedurile legale așa cum este cerut de lege sau pentru afirmarea drepturilor.",
+      "moonpacket poate reține, analiza, transmite, divulga și furniza informațiile necesare (inclusiv înregistrări off-chain, dovezi on-chain, date KYC/AML, înregistrări de grup/chat/activitate și comportamente de distribuție și retragere) autorităților, instanțelor, agențiilor de aplicare a legii sau unităților fiscale, unităților de sancționare și reglementare sau furnizorilor săi autorizați de servicii de conformitate în legătură cu revizuiri de conformitate, audituri KYC/AML, verificări de identitate (incluzând ID emitere guvernamentală și comparații biometrice), prevenirea spălării banilor, combaterea finanțării terorismului, respectarea sancțiunilor, conformitatea cu impozitele, investigații de fraudă, detectarea abuzurilor, audituri financiare și urmărirea distribuțiilor și retragerilor, într-un cadru comercial rezonabil. Astfel de procesări, transmitere și divulgare nu constituie o încălcare sau un delict din partea moonpacket, iar moonpacket nu este responsabil pentru nicio compensație, despăgubire sau alte obligații."
+    ],
+    "crossBorder": [
+      "Pe baza arhitecturii cloud a acestui serviciu, modelul operațional global, managementul riscurilor, prevenirea spălării banilor (AML), combaterea finanțării terorismului, conformitatea cu sancțiunile, cooperarea fiscală, prevenirea fraudelor, păstrarea auditului, suportul pentru clienți, și nevoile de întreținere a sistemului, datele tale (inclusiv datele personale, datele de utilizare, înregistrările off-chain, rezultatele auditului KYC/AML și înregistrările de control al riscurilor și retragerilor) pot fi procesate, stocate sau transmise în afara jurisdicției tale, și pot fi accesate de parteneri, furnizori de infrastructură cloud, furnizori de servicii de conformitate și management al riscurilor, sau autorități judiciare/fiscale/sancțiuni/regulatorii (sau entitățile autorizate ale acestora) după cum este necesar pentru scopurile menționate anterior.",
+      "moonpacket va evalua obligațiile de securitate a informațiilor și conformitate ale beneficiarilor, în limite comercial rezonabile și necesare, și va reduce riscurile de acces neautorizat sau abuz prin contracte, măsuri tehnice și organizaționale; cu toate acestea, îți înțelegi și accepți faptul că orice transfer transfrontalier, găzduire în cloud sau procesare de către terți poate fi afectat de medii de rețea și reglementare și nu poate garanta securitate sau disponibilitate absolută. Procesarea și transferul transfrontalier menționate anterior nu constituie o încălcare sau o contravenție din partea moonpacket, iar moonpacket nu va fi responsabil pentru niciun fel de daune, compensații sau alte responsabilități."
+    ],
+    "retention": [
+      "Vom păstra datele pentru timpul necesar îndeplinirii scopurilor de colectare și vom păstra înregistrările necesare, conform cerințelor legale sau obligațiilor de audit (de exemplu, jurnale contabile și de conformitate).",
+      "Odată ce scopul este atins sau perioada de păstrare expiră, vom șterge sau procesa datele într-o manieră de-identificată; datele on-chain nu sunt supuse acestei limitări din cauza inalterabilității lor.",
+      "Chiar dacă solicitați dezactivarea contului, ștergerea datelor sau oprirea utilizării acestui serviciu, moonpacket poate păstra, îngheța, analiza sau furniza datele menționate anterior, așa cum este necesar sau permis de legi, reglementări, taxe, sancțiuni, conformitate anti-spălare a banilor, anti-finansare a terorismului, cercetări de fraudă, păstrarea auditelor, verificarea contabilității sau alte obligații de conformitate. Această păstrare și procesare nu constituie o încălcare sau o violare din partea moonpacket, iar moonpacket nu este responsabil pentru compensații, despăgubiri sau alte responsabilități."
+    ],
+    "security": [
+      "Adoptăm măsuri tehnice și de management rezonabile și proporționale, inclusiv controlul accesului, criptarea transmisiei și statică (după caz), segregarea permisiunilor, jurnale de audit și principiile de acces minim necesar.",
+      "Deși moonpacket a luat măsuri tehnice și de management pentru a reduce riscul de acces, utilizare, divulgare, modificare sau distrugere neautorizată într-un cadru comercial rezonabil, înțelegeți și sunteți de acord că orice transmitere, stocare sau integrare a terților poate comporta anumite riscuri. moonpacket nu oferă garanții exprimate sau implicite cu privire la securitatea datelor, integritate, disponibilitate, acces neîntrerupt sau interferențe. Astfel de riscuri sau daune nu constituie o încălcare sau un delict din partea moonpacket, iar moonpacket nu este responsabil pentru nicio compensație, despăgubire sau alte obligații."
+    ],
+    "minors": [
+      "Acest serviciu nu este destinat persoanelor sub 13 ani sau sub limita de minoritate din jurisdicția dumneavoastră. Dacă sunteți minor, vă rugăm să utilizați acest serviciu cu consimțământul tutorelui dumneavoastră legal sau să evitați utilizarea acestui serviciu."
+    ],
+    "rights": [
+      "Conform legilor aplicabile din diverse regiuni, aveți dreptul de a interoga sau revizui datele dumneavoastră personale, de a solicita copiile, de a corecta, limita procesarea, șterge, portabilitatea datelor și de a retrage consimțământul, dar nu în conflict cu obligațiile legale ale moonpacket de a păstra, îngheța, analiza, audita, colabora cu cerințele autorităților de reglementare/judiciare/fiscale/sancțiuni sau conformitatea KYC/AML/anti-finansare a terorismului/raportarea fiscală/cercetarea fraudelor/detectarea abuzurilor sau interesele legitime ale moonpacket.",
+      "Dacă doriți să exercitați drepturile menționate anterior sau să ridicați îngrijorări legate de confidențialitate, vă rugăm să contactați moonpacket folosind informațiile de contact. Pentru a asigura securitatea, moonpacket poate solicita să finalizați verificarea identității (inclusiv, dar nu limitat la, furnizarea de informații necesare pentru audituri KYC/AML, identificare eliberată de guvern, selfie-uri sau rezultate ale verificării biometrice) pentru a confirma că solicitantul este subiectul datelor sau un reprezentant autorizat.",
+      "moonpacket poate, la propria discreție, să refuze integral sau parțial, să întârzie, să limiteze sau să solicite corectarea acestor solicitări în cadrul obligațiilor legale sau de conformitate, cerințelor de interese legitime sau scopurilor de gestionare a riscurilor; aceste refuzuri, întârzieri, limitări sau solicitări de corectare nu constituie o încălcare sau o violare din partea moonpacket, iar moonpacket nu este responsabil pentru compensații, despăgubiri sau alte responsabilități."
+    ],
+    "faq": [
+      "De ce avem nevoie de informații despre conformitate și controlul riscurilor? Acest lucru este necesar pentru a oferi red packet-uri, a preveni abuzurile și a asigura funcționarea în siguranță, precum și pentru a respecta legile sau politicile platformei relevante.",
+      "Pot refuza să furnizez anumite informații? Fără a afecta siguranța serviciului și obligațiile legale, puteți alege să dezactivați elementele non-esențiale, dar acest lucru poate duce la indisponibilitatea unor funcții.",
+      "Poate fi șters un set de date blockchain? Înregistrările pe blockchain sunt ireversibile și publice, iar noi nu le putem modifica sau șterge în numele dumneavoastră."
+    ],
+    "updates": [
+      "Aceste termeni pot fi actualizați împreună cu ajustările serviciului sau modificări legale; modificările semnificative vor fi indicate prin mesaje interne sau anunțuri pe pagină; versiunea actualizată intră în vigoare de la anunț sau data de intrare în vigoare menționată în termeni."
+    ],
+    "contact": [
+      "Dacă ai întrebări despre confidențialitate sau securitatea datelor, te rugăm să ne contactezi prin metodele de contact de pe pagină (căsuță poștală de confidențialitate/raport de securitate/serviciu clienți); vom răspunde într-o perioadă rezonabilă."
+    ],
+    "controller": [
+      "Controler de date: echipa moonpacket (operațiuni de echipă mică).",
+      "Fereastră de contact (Confidențialitate): Te rugăm să ne contactezi prin intermediul Help_bot-ului de confidențialitate în pagina 'Metode de contact'."
+    ],
+    "jurisdictions": [
+      "Ne conformăm reglementărilor aplicabile privind protecția datelor personale; dacă există conflicte în reglementări între diferite jurisdicții, vom lua măsuri care sunt mai protective și fezabile pentru utilizatori, în limitele prevăzute de lege.",
+      "Dacă aveți nevoie de drepturi sau proceduri suplimentare pentru jurisdicții specifice, vă rugăm să ne contactați prin canalele de contact, iar noi vă vom ajuta în mod rezonabil."
+    ],
+    "dsrProcess": [
+      "Ai dreptul de a exercita întrebi, revizuiești, soliciți copii, corectezi, ștergi, restricționezi procesarea, portabilitatea datelor și retragerea consimțământului în legătură cu datele personale (sub rezerva legislației aplicabile și a fezabilității tehnologice).",
+      "Proces: Trimite cerere → Verificarea identității → Acceptare și evaluare → Răspuns într-o perioadă rezonabilă (de obicei în termen de 30 de zile; orice extindere va fi notificată separat).",
+      "Dacă cererea implică terțe părți sau date ireversibile pe blockchain, s-ar putea să nu fie procesată direct. Vom oferi explicații sau alternative fezabile.",
+      "Dacă aveți îngrijorări cu privire la rezultate, vă rugăm să ne contactați din nou prin canalele furnizate; de asemenea, puteți depune o plângere la autorități conform legilor locale (dacă este cazul)."
+    ],
+    "breach": [
+      "Dacă este detectat un incident suspect de date personale, vom urma procedurile interne pentru procesare gradată și răspuns de urgență, inclusiv blocarea sau atenuarea, auditarea și documentarea dovezilor.",
+      "Dacă este legal necesar sau necesar, vom notifica autoritatea competentă și utilizatorii potențial afectați într-o perioadă rezonabilă; conținutul și momentul notificărilor vor depinde de nivelul incidentului și de progresul investigației.",
+      "Vom revizui și îmbunătăți continuu măsurile de control și formarea personalului (în limitele resurselor disponibile) ulterior."
+    ],
+    "cookiesDetail": [
+      "Cookies necesare: Utilizate pentru a menține conectarea, setările de limbă, măsurile anti-bot și securitatea; dezactivarea acestora poate afecta disponibilitatea serviciului.",
+      "Cookies de preferință/analitice/marketing: Activat doar dacă este permis legal sau cu consimțământul tău; poți ajusta sau retrage preferințele oricând.",
+      "Dacă este cazul, vom oferi o opțiune simplă de selecție a cookie-urilor; poți de asemenea să le gestionezi sau să le elimini în setările browser-ului tău."
+    ],
+    "consent": [
+      "Pentru procesarea non-esențială (de exemplu, marketing sau urmărire analitică specifică), vom obține consimțământ prealabil și vom oferi o modalitate de retragere, acolo unde este aplicabil și fezabil conform legii.",
+      "Retragerea consimțământului nu afectează legalitatea procesării anterioare retragerii; unele funcționalități pot fi limitate ca urmare."
+    ],
+    "lawfulMatrix": {
+      "headers": [
+        "Categorie de date",
+        "Scopul procesării",
+        "Baza legală",
+        "Perioada de retenție"
+      ],
+      "rows": [
+        {
+          "cat": "帳號/身分（Telegram UID、暱稱、語言、群組權限）",
+          "purpose": "提供與維運服務（紅包、權限驗證、防刷）",
+          "basis": "履行契約、合法利益",
+          "retention": "帳號存續期間＋必要稽核留存"
+        },
+        {
+          "cat": "合規資料（KYC/AML 結果）",
+          "purpose": "法遵審查與防詐欺",
+          "basis": "法定義務",
+          "retention": "依法令或監理要求（一般為多年期）"
+        },
+        {
+          "cat": "使用事件與日誌（互動、錯誤、效能）",
+          "purpose": "故障排除、資安與產品優化",
+          "basis": "合法利益",
+          "retention": "依安全與營運需要的合理期限"
+        },
+        {
+          "cat": "交易與雲端錢包摘要",
+          "purpose": "完成紅包/積分/兌換流程",
+          "basis": "履行契約、合法利益",
+          "retention": "目的達成後最小化留存；鏈上紀錄不在此限"
+        },
+        {
+          "cat": "Cookie/本地儲存（必要）",
+          "purpose": "登入狀態、語言、防刷標記",
+          "basis": "履行契約、合法利益",
+          "retention": "依裝置與瀏覽器生命周期"
+        },
+        {
+          "cat": "Cookie/像素（非必要）",
+          "purpose": "偏好/分析/行銷（如啟用）",
+          "basis": "同意",
+          "retention": "依工具供應商政策或您撤回為止"
+        }
+      ]
+    },
+    "automated": [
+      "Acest serviciu folosește analize automate și modele de control al riscurilor pentru a detecta abuzul sau comportamentul anormal; în general, nu constituie decizii pure automatizate care afectează semnificativ indivizii din punct de vedere legal sau similar.",
+      "Dacă se iau măsuri restrictive din cauza nevoilor de control al riscurilor de conformitate sau de securitate (de exemplu, suspendarea funcționalităților), vom oferi oportunități pentru apeluri și revizuiri manuale în funcție de resurse și securitate."
+    ],
+    "subprocessors": {
+      "note": "Putem colabora cu subprocessori legați prin contract (cum ar fi cloud, monitorizare, anti-bot/KYC, email etc.); lista poate fi actualizată conform ajustărilor serviciului, vă rugăm să consultați site-ul oficial pentru anunțuri."
+    },
+    "note": [
+      "Notă: Această clauză are scopul de a dezvălui în mod clar practicile de procesare și protecție a datelor. Deoarece moonpacket este o echipă mică, măsurile actuale vor fi ajustate în funcție de legi, niveluri de risc și disponibilitatea resurselor; dacă există reglementări obligatorii, legea va prevala."
+    ],
+    "telegramPermissions": [
+      "Operațiunile robotului în grupuri/canale sunt executate doar în limitele permisiunilor pe care le-ați acordat (de exemplu, citirea, trimiterea, ștergerea, fixarea mesajelor, verificările link-urilor, etc., în funcție de nevoile reale).",
+      "Dacă funcțiile nu sunt disponibile sau funcționează anormal din cauza permisiunilor insuficiente, restricțiilor platformei sau setărilor terților, moonpacket nu garantează că funcția va funcționa normal."
+    ],
+    "groupDataMinimization": [
+      "În contexte de grup/canal, procesăm doar datele minime necesare pentru a oferi serviciul, cum ar fi identificatorii rețelei utilizatorului (UID), înregistrările de interacțiune/evenimente și indicatorii necesari pentru prevenirea abuzurilor; nu colectăm activ sau creăm profile personale ale membrilor grupului.",
+      "Pentru scopuri de conformitate (KYC/AML/sancțiuni) sau de securitate, dacă trebuie să extindem domeniul de procesare, ne vom conforma principiilor de minimizare și de-identificare, conform cerințelor legale."
+    ],
+    "analytics": [
+      "Pentru a evalua performanța produsului, a preveni abuzul și a evalua rezultatele operaționale, putem procesa datele de utilizare într-un mod de-identificat sau agregat și introduce instrumente de analiză/urmărire terță parte în limite rezonabile pentru monitorizarea traficului și analiza atribuirii.",
+      "Nu vom vinde datele tale personale; te rugăm să te referi la explicațiile și opțiunile referitoare la CPRA și alte reglementări în acest acord dacă jurisdicția aplicabilă are definiții specifice pentru 'vânzare/share'.",
+      "Când legile locale necesită consimțământul prealabil sau oferă o opțiune de retragere, vom oferi opțiuni relevante în măsura în care este fezabil."
+    ],
+    "saleShareStatement": [
+      "Nu vindem datele dumneavoastră personale pentru considerație; orice tehnologii analitice și publicitare terță parte vor fi procesate doar într-o formă de-identificată sau agregată atunci când este permis legal sau cu consimțământul necesar."
+    ]
+  },
+  "terms": {
+    "version": "v1.0.0",
+    "updated": "auto",
+    "version_label": "Versiune",
+    "updated_label": "Actualizare",
+    "owner_label": "Proprietar",
+    "appendix_title": "Anexa | Definiții și Explicații",
+    "notice": {
+      "disclaimer_binding": "Următorii termeni sunt furnizați ca o versiune tradusă doar pentru referință; versiunea oficială cu caracter juridic este originalul în limba engleză. În caz de orice discrepanțe între versiunile lingvistice și versiunea în engleză, versiunea în engleză va prevala."
+    },
+    "owner": "Echipa moonpacket (denumită în continuare 'moonpacket') este un nume de brand și serviciu care oferă caracteristici interactive online experimentale și unelte de marketing/dezvoltare a comunității. moonpacket nu este o bancă, un trust, o instituție de custodie, un schimb, un consultant de investiții, un broker sau orice instituție financiară reglementată; cu excepția cazurilor prevăzute de lege, moonpacket nu are nicio obligație fiduciară, obligație de trust, obligație de custodie a activelor sau garanție de randament pentru utilizatori.",
+    "intro": [
+      "Aceste Condiții pentru Utilizatori (denumite în continuare „aceaste Condiții”) constituie un acord legal obligatoriu între dumneavoastră (denumit în continuare „dumneavoastră” sau „Utilizator”) și moonpacket (denumit în continuare „moonpacket,” „acest serviciu,” sau „noi”) privind accesul dumneavoastră la sau utilizarea serviciilor furnizate de moonpacket.",
+      "Acest serviciu include, dar nu se limitează la: site-uri web, aplicații descărcabile, Telegram Mini App, roboți, portofele cloud, module de distribuire a pachetelor roșii/recompenselor, interfețe de gestionare a evenimentelor și funcții relaționate de statistici/clasamente (denumite în continuare, colectiv, „acest serviciu”).",
+      "Prin apăsarea pe butoane precum „Începeți,” „Sunt de acord,” „Trimiteți,” sau acțiuni similare de acord în interfață, sau prin începerea efectivă a utilizării acestui serviciu, se consideră că ați citit, ați înțeles și ați fost de acord în mod irevocabil să fiți obligat de toate conținuturile acestor Condiții; dacă nu sunteți de acord, vă rugăm să opriți imediat utilizarea acestui serviciu.",
+      "Activități specifice, colaborări promoționale sau programe întreprinderi pot oferi condiții suplimentare sau reguli de activitate; aceste condiții suplimentare vor fi considerate parte integrantă a acestor Condiții; în cazul unui conflict cu aceste Condiții, condițiile suplimentare vor avea prioritate în cadrul activității specifice, în timp ce restul va continua să fie reglementat de aceste Condiții.",
+      "Aceste Condiții pot fi furnizate în mai multe limbi pentru comoditatea citirii. În cazul oricăror incoerențe sau conflicte între orice versiune tradusă și versiunea în limba engleză în ceea ce privește conținutul, interpretarea sau efectul, versiunea în limba engleză va avea precedență și va fi considerată versiunea finală validă; alte versiuni lingvistice nu vor fi considerate ca creând obligații suplimentare pentru moonpacket.",
+      "Confirmati și garantați că decizia dvs. de a utiliza acest serviciu nu se bazează pe nicio promisiune de 'randamente garantate,' 'recuperare de capital,' 'partajare a profitului,' 'sfaturi de investiții', sau alte angajamente de remunerare; moonpacket nu a oferit și nu va oferi nicio garanție sau angajamente legale privind orice venituri viitoare, recompense, prețuri, clasamente sau valoare răscumpărătoare."
+    ],
+    "definitions": [
+      "Expeditorul de red packet' sau 'inițiatorul' se referă la cei care crează, finanțează sau distribuie red packet/recompense/defalcări de venituri/fondi promoționali în cadrul acestui serviciu, inclusiv utilizatori individuali, administratori de grup, părți de proiect sau agenții lor.",
+      "Primitul de red packet' sau 'participantul' se referă la cei care interacționează conform regulilor activității, îndeplinind sarcini sau încercând să primească/au primit red packets sau recompense.",
+      "Activitatea' se referă la mecanismul de distribuție stabilit de inițiator, inclusiv, dar fără a se limita la, distribuție egală, 'noroc' aleatoriu, deblocarea sarcinilor desemnate, capturarea parolelor, capturarea temporizată, distribuția în limiti de cotă/timp, etc.",
+      "Înregistrările Off-chain' se referă la contabilitatea internă, indicatorii de echilibru și indicatorii de atribuire a drepturilor în cadrul sistemului moonpacket (de exemplu, 'de distribuit', 'alocat', 'disponibil pentru retragere'). Înregistrările Off-chain sunt pur indicatori la nivel de sistem și nu reflectă transferul în timp real al activelor pe blockchain, nici nu constituie dovada finală și legală a deținerii activelor; tranzacțiile efective on-chain vor prevala.",
+      "Portofelul cloud' se referă la un portofel de custodie sau semi-custodie/procesul de custodie a activelor oferit de moonpacket sau partenerii săi pentru primirea activelor de reîncărcare, indicând soldurile allocate și susținând retragerile ulterioare. Portofelele cloud nu sunt conturi bancare, conturi de încredere, conturi de depozit, nici subiecte de asigurare și nu oferă nicio garanție de păstrare a capitalului.",
+      "Taxele' se referă la costurile resurselor de rețea necesare pentru tranzacțiile blockchain (cum ar fi gazul), costurile serviciilor terțe sau ale canalelor de plată, și (acolo unde este cazul) taxele percepute de moonpacket pentru servicii sau activități specifice. Taxele sunt suportate de utilizatori; odată ce sunt generate, ele nu sunt rambursabile.",
+      "KYC/AML' se referă la procesele de verificare a identității (Cunoașteți-vă Clientul), prevenirea spălării banilor, combaterea finanțării terorismului, revizuirea sancțiunilor, prevenirea fraudelor, auditele fiscale și de conformitate etc."
+    ],
+    "eligibility": [
+      "Declarați și garantați că sunteți calificat din punct de vedere legal și aveți capacitatea deplină de a utiliza acest serviciu în jurisdicția dumneavoastră; minorii sau persoanele cu capacitate restricționată trebuie să obțină consimțământul necesar conform legilor locale.",
+      "Acest serviciu adoptă un model de 'încercare înainte de a vă angaja'; totuși, înainte de a solicita o retragere, a transfera soldul între activități sau a efectua orice dispoziție efectivă de active, moonpacket are dreptul de a solicita să legați adresa de email, numărul de telefon și adresa portofelului criptomonedă și (dacă este cazul) să finalizați verificarea KYC/AML."
+    ],
+    "accounts": [
+      "Dacă refuzi, întârzieri sau nu treci verificarea menționată mai sus, moonpacket poate, la discreția sa, să întârzie, să restricționeze sau să refuze orice solicitare de retragere, returnare, dezghețare sau restituire; astfel de întârzieri, restricții sau refuzuri nu constituie o încălcare a contractului din partea moonpacket, iar moonpacket nu va suporta nicio compensație, despăgubire sau alte obligații.",
+      "Trebuie să protejezi corespunzător toate elementele de verificare, cum ar fi contul tău de Telegram, acreditivele de acces la portofelul cloud, token-urile de conectare, cheile de semnătură, dispozitivele și parolele. Orice consecințe care decurg din phishing, malware, împrumutul dispozitivelor, scurgerea acreditivelor, parolele slabe sau acțiunile autorizate ale terților vor fi suportate de tine."
+    ],
+    "service": [
+      "Capabilitățile oferite de acest serviciu includ, dar nu se limitează la: (a) crearea și finanțarea activităților/red packet-urilor; (b) stabilirea regulilor activității (suma totală, cota, limite individuale, durată validă, algoritmi de distribuție, condiții pentru sarcini, coduri de acces, deschiderea programată a red packet-urilor etc.); (c) verificarea dacă participanții îndeplinesc condițiile activității; (d) marcarea, distribuirea și blocarea sumelor alocabile în înregistrările Off-chain; (e) permiterea participanților calificați să declanșeze retrageri efective on-chain la răscumpărare; (f) generarea de tabele de clasament, statistici și afișări ale performanței.",
+      "Procesul de operare este următorul: după ce inițiatorul reîncarcă active la adresa moonpacket desemnată, suma echivalentă va fi marcată ca 'active disponibile pentru distribuție în această activitate' în înregistrările Off-chain; în timpul perioadei de activitate, sistemul va marca sau împărți doar sumele în Off-chain fără a garanta transferuri directe on-chain imediate, individuale sau tranzacționale către portofelul unui singur individ; doar când participanții calificați răscumpără și trec revizuirile tehnice și de conformitate, moonpacket va declanșa transferuri efective on-chain.",
+      "Utilizatorii sunt de acord explicit: înregistrările Off-chain sunt exclusiv pentru contabilizarea internă și indicarea interesului moonpacket și nu reprezintă proprietatea finală legală a activelor; drepturile finale revendicabile se bazează pe transferurile on-chain efectuate efectiv."
+    ],
+    "features": [
+      "moonpacket poate ajusta, suspenda, limita sau închide anumite funcții sau tipuri de activități în orice moment pentru nevoile de securitate, operațiuni sau conformitate; atât timp cât ajustarea se bazează pe considerații tehnice, de risc, de conformitate sau comerciale rezonabile, astfel de situații nu constituie o încălcare din partea moonpacket, care nu va fi responsabilă pentru nicio compensație sau alte responsabilități.",
+      "moonpacket recomandă cu tărie utilizarea acestui serviciu pentru sume mici de mai multe ori; suma pentru fiecare reîncărcare sau distribuție nu ar trebui să depășească echivalentul a 100 USDT, și se recomandă să nu acumulați sume mari de active în înregistrările Off-chain pentru perioade lungi."
+    ],
+    "cloudWallet": [
+      "Când emitentul confirmă condițiile evenimentului (suma totală, regulile de distribuție, perioada de valabilitate și taxele etc.) pe interfață și o trimite, aceasta constituie o promisiune de cadou către participanții nespecificați. Această promisiune își are efectul imediat ce este trimisă și are natura de \"neretractabil și ireversibil\"; emitentul nu poate solicita o oprire spunând \"mi-am schimbat părerea\" sau \"nu recunosc un anumit participant.\"",
+      "Pentru a îndeplini promisiunea de cadou menționată anterior, moonpacket poate bloca suma corespunzătoare (blocare de active) în înregistrările Off-chain și o va marca ca \"în așteptare de distribuție.\" Această blocare este necesară pentru a îndeplini promisiunea emitentului și nu reprezintă o confiscare arbitrară sau apropriere de către moonpacket.",
+      "În timpul perioadei de eveniment, emitentul nu poate solicita retragerea anticipată a sumei angajate, nici nu poate solicita reutilizarea activului.",
+      "După termenul limită al evenimentului: (a) părțile care au fost solicitate de participanți (sau au declanșat procedurile de retragere), precum și taxa suportată pentru distribuție, nu pot fi solicitate pentru returnare; (b) pentru soldurile care rămân nesolicitate până la termen, moonpacket poate returna suma rămasă la adresa originală de reîncărcare sau trimitere, sau la adresa originală considerată rezonabilă de moonpacket după deducerea taxelor necesare, cu condiția ca condițiile tehnice și de conformitate să permită acest lucru.",
+      "Pentru orice proces de returnare, dezghețare, retragere sau restituire a soldului, moonpacket poate solicita mai întâi finalizarea KYC/AML; dacă utilizatorul refuză, întârziază sau nu trece, moonpacket poate la discreția sa să întârzîe, să restricționeze sau să refuze procesarea; astfel de întârzieri, restricții sau refuzuri nu constituie o încălcare a contractului din partea moonpacket, iar moonpacket nu va suporta nicio compensație, despăgubire sau alte obligații.",
+      "Odată ce pe lanț, tranzacțiile blockchain sunt de obicei ireversibile, verificabile public și imutabile; moonpacket nu poate șterge retroactiv, retracta sau \"întoarce\" tranzacțiile care au fost deja pe lanț, nici nu suportă nicio responsabilitate conexă.",
+      "Orice valori, puncte, solduri, recompense sau alte indicații care nu au fost încă pe lanț sunt doar înregistrări temporare și indicații de distribuție în cadrul sistemului și nu reprezintă faptul că astfel de active sunt deținute, încredințate sau păstrate de moonpacket, nici nu reprezintă că moonpacket are o obligație de livrare, o obligație de protecție a valorii, o obligație de dobândă sau o obligație de despăgubire pentru tine. moonpacket poate decide să întârzâie, să refuze sau să nu mai emită astfel de valori, pe baza gestionării riscurilor, KYC/AML, obligațiilor de sancțiune, fiscale sau a altor cerințe de conformitate; astfel de decizii nu constituie o încălcare a contractului din partea moonpacket, iar moonpacket nu va suporta nicio compensație, despăgubire sau alte obligații.",
+      "Pentru a economisi taxe de tranzacție pe lanț și a oferi funcționalități de distribuție în loturi/distribuție de red packet, moonpacket poate înregistra și afișa temporar soldul tău distribuibil sau sumele în așteptare de alocare folosind valori din baza de date internă (Off-chain). Aceste valori sunt doar indicații convenabile pentru decontarea internă și distribuția în cadrul sistemului și nu constituie încredere, custodie, depozite, gestionare financiară discreționară, colectare și plată, gestionare a investițiilor sau alte activități financiare reglementate. Până și până când aceste valori sunt realmente pe lanț, realmente plătite și verificabile pe lanțul public, moonpacket nu are nicio obligație pentru returnarea, protecția valorii sau obligațiile de dobândă, iar aceste valori nu sunt garantate a fi retrase la vreun moment specific, vreun preț specific sau vreun cost de rețea specific."
+    ],
+    "fees": [
+      "Procesele precum crearea de activități, distribuția, verificarea, retragerea și transferul on-chain pot genera taxe de manipulare. Tipurile și ratele acestor taxe vor fi afișate pe interfață, conform regulilor activității, paginilor de decontare, acordurilor de cooperare sau prin alte mijloace explicite.",
+      "Taxele de manipulare vor fi suportate de utilizator și vor fi deduse în timpul trimiterii, distribuției, retragerii sau operațiunilor conexe; odată ce sunt generate, acestea sunt nerambursabile. Chiar dacă moonpacket ajută cu rambursările sau returnarea soldurilor din motive ale acestui serviciu, astfel de rambursări sau returnări vor fi efectuate doar în moneda originală la adresa originală, excluzând orice taxe de manipulare sau costuri de gaz on-chain incurente.",
+      "Dacă utilizatorul nu furnizează informațiile de conformitate rezonabile solicitate de moonpacket (de exemplu, KYC/AML), moonpacket poate, la discreția sa exclusivă, să întârzie, să limiteze sau să refuze orice cerere de rambursare, returnare a soldului, retragere sau deblocare; astfel de întârzieri, limitări sau refuzuri nu constituie o încălcare din partea moonpacket, care nu va fi responsabilă pentru nicio compensație sau alte responsabilități.",
+      "Când alegeți să utilizați distribuția specifică a unui red packet, distribuția de grup, distribuția promoțională sau funcții similare, sistemul poate contabiliza automat și afișa un anumit procent din taxele de sistem (de exemplu, aproximativ 2% pentru a recompensa moonpacket pentru a menține operațiunile serviciului) și/sau un anumit procent din recompensele operațiunilor comunității (de exemplu, aproximativ 3% returnat liderilor comunității pentru a sprijini operațiunile comunității). Prin utilizarea acestor funcții, autorizați sistemul să calculeze și să aloce aceste taxe conform procentelor afișate. Cu excepția cazului în care este interzis legal, moonpacket are dreptul de a ajusta aceste procente, condiții sau modele de recompense într-un interval rezonabil fără notificare suplimentară."
+    ],
+    "rules": [
+      "Inițiatorul este obligat să stabilească regulile de activitate într-un mod sincer și clar (inclusiv suma totală, cota, limite individuale, durată validă, restricții condiționale, algoritmi de distribuție etc.) și nu trebuie să atragă participarea prin mijloace false sau înșelătoare.",
+      "moonpacket execută și înregistrează algoritmii de distribuție, verificarea sarcinilor și rezultatele premiilor pe partea server-ului și rezervă trail-uri necesare de audit pentru a răspunde disputelor, conformității sau investigațiilor reglementare.",
+      "Dacă moonpacket suspectează în mod rezonabil abuzuri la scară largă, spam, automatizări, fraude, spălare de bani, finanțarea terorismului, partajarea profiturilor prin gambling, strângerea de fonduri ilegale, evasione de sancțiuni sau alte situații cu risc ridicat, moonpacket poate suspenda, îngheța sau ajusta imediat activitatea și decide să returneze soldurile neclaimate, să refuze distribuția sau să transfere detalii autorităților de reglementare/judiciare; aceste acțiuni nu constituie o încălcare a contractului din partea moonpacket și moonpacket nu este răspunzătoare pentru nicio compensație, remediere sau alte responsabilități."
+    ],
+    "abuse": [
+      "moonpacket declară explicit: Nu avem nicio obligație și nu putem garanta că 'orice cont corespunde în mod necesar unei singure persoane fizice verificabile'. De asemenea, nu putem garanta absența mai multor conturi partajate, a unei singure persoane fizice deținând mai multe conturi, conturi fictive sau scripturi/boturi automate care revendică red packets.",
+      "Utilizatorii (inclusiv inițiatori și participanți) înțeleg și sunt de acord clar: Situațiile menționate anterior pot afecta rezultatele alocării de active, ordinea distribuției sau sumele disponibile; orice inechități, discrepanțe sau dispute cauzate de conturi multiple, conturi fictive, scripturi, boturi sau alte operațiuni neregulate nu constituie o încălcare a contractului din partea moonpacket, iar moonpacket nu are nicio responsabilitate pentru compensație, rambursare sau orice alte responsabilități.",
+      "Pentru a menține securitatea sistemului și conformitatea, moonpacket poate utiliza detectarea automată, AI/modeluri, liste negre/gri, limitarea ratei, amprenta dispozitivului, evaluarea riscurilor IP/ASN și alte mecanisme de control al riscurilor în limite rezonabile și poate: (a) îngheța, suspenda, bloca sau restricționa utilizarea anumitor conturi, grupuri, IP-uri, dispozitive sau activități; (b) solicita informații suplimentare sau completarea KYC/AML; (c) întârzierea sau refuza procesarea serviciului clienți, retragerilor, rambursărilor sau deblocărilor; (d) se referi la situații suspectate ilegale sau cu risc ridicat autorităților sau organelor judiciare.",
+      "moonpacket nu are nicio obligație de a dezvălui logica deciziilor interne de control al riscurilor, detalii tehnice sau baza completă de audit. Orice acțiuni întreprinse pe baza controlului de risc, conformității sau solicitărilor autorităților de reglementare menționate anterior nu constituie o încălcare a contractului din partea moonpacket, iar moonpacket nu are nicio responsabilitate pentru compensație, rambursare sau orice alte responsabilități.",
+      "Dispute legate de proprietatea contului (de ex. susținând că 'un alt cont este de fapt al meu, vă rog transferați soldul'): moonpacket recunoaște doar contul original, emailul original legat și adresa de portofel original legată ca titulari de drept; moonpacket nu are nicio obligație de a transfera soldul regresat, drepturile de retragere sau alte beneficii ale unui anumit cont către un alt cont/email/portofel.",
+      "Dacă un cont nu s-a conectat timp de optsprezece (18) luni consecutive de la ultima conectare, moonpacket va îngheța soldul înregistrării Off-chain care nu a fost retras din motive de siguranță, conformitate și gestionarea riscurilor și nu va mai oferi restituiri, retrageri sau alte forme de returnare. Această acțiune nu constituie o încălcare a contractului din partea moonpacket, iar moonpacket nu va suporta nicio compensație, despăgubire sau alte obligații."
+    ],
+    "ip": [
+      "Drepturile de proprietate intelectuală și alte drepturi ale acestui serviciu și ale conținutului său (inclusiv, dar fără a se limita la: cod, design, sigle, mărci comerciale, imagini, texte, prezentări statistice, clasamente, materiale de marketing, documente și compilări de date) sunt deținute de moonpacket sau de licențiatorii săi legitimi.",
+      "Nu aveți voie să copiați, difuzați, modificați, distribuiți, închiriați, reverse engineer, sau exploatați conținutul menționat anterior în vreun fel în scopuri comerciale sau necomerciale fără autorizație scrisă prealabilă de la moonpacket.",
+      "Reprezentați că ați obținut autorizațiile necesare sau drepturile legale pentru orice conținut trimis, încărcat, raportat, sau furnizat în alt mod acestui serviciu (de exemplu, nume de grup, porecle, avataruri, descrieri, comentarii, rezultate ale evenimentelor, sume distribuite, date de clasament, capturi de ecran ilustrații, meme, feedback, arhive de chat etc., denumite colectiv „Conținut de Utilizator”)."
+    ],
+    "thirdparty": [
+      "Acest serviciu poate integra, se poate baza pe sau se poate conecta la terți (cum ar fi platforma Telegram, noduri blockchain, furnizori KYC/AML, canale de plată sau schimb, sisteme externe de sarcini, furnizori de cloud etc.). Acești terți operează independent și sunt supuși termenilor lor respectivi, politicilor de confidențialitate și limitelor de disponibilitate.",
+      "moonpacket nu garantează existența continuă, actualitatea, acuratețea, disponibilitatea, legalitatea sau securitatea niciunui serviciu de terță parte; de asemenea, nu garantează că acești terți nu vor bloca, restricționa, întârzia, schimba politicile sau întrerupe serviciile.",
+      "Întârzierile, eșecurile, modificările, întreruperile sau discrepanțele de date cauzate de serviciile de terță parte, conectivitatea rețelei, congestionarea blockchain-ului, eșecurile nodului, blocările, restricționările, schimbările de politici, întreținerea sistemelor sau alte cauze nu imputabile moonpacket nu constituie o încălcare a contractului din partea moonpacket, iar moonpacket nu își asumă nicio responsabilitate pentru daune, compensații sau responsabilități legate de încălcarea contractului.",
+      "Dacă schimbările în politicile sau mediile de terță parte necesită ca moonpacket să ajusteze, să suspende sau să oprească anumite funcționalități, moonpacket poate anunța sau explica ajustările într-un interval rezonabil, iar aceste ajustări vor fi valabile, iar moonpacket nu va fi responsabil pentru compensație."
+    ],
+    "dataPrivacy": [
+      "moonpacket va colecta, utiliza, păstra, procesa și împărtăși datele dvs. în conformitate cu Politica de Confidențialitate.",
+      "Datorită naturii publice, ireversibile și urmărite a datelor blockchain, unele informații pot fi reconstruite sau legate de identitatea sau adresa portofelului dvs. de către terțe părți; ar trebui să înțelegeți și să suportati acest risc public pe cont propriu.",
+      "Acceptați explicit că moonpacket poate, în limite rezonabile, să păstreze, revizuiască, analizeze, înghețe și să ofere informațiile necesare (inclusiv, dar nu limitat la, înregistrări Off-chain, dovezi on-chain, date KYC/AML, jurnale de grup/chat/activitate, acțiuni de distribuție și retragere) autorităților menționate anterior sau entităților autorizate de acestea, bazându-se pe prevenirea fraudei, combaterea spălării banilor, combaterea finanțării terorismului, conformitatea cu sancțiunile, raportarea fiscală, audituri de conformitate sau cereri legitime din partea organelor autoritative/judiciare.",
+      "Cooperarea moonpacket cu autoritățile de reglementare sau judiciare este necesară prin lege sau conformitate și nu constituie o încălcare sau o infrigement împotriva dumneavoastră; moonpacket nu va fi responsabil pentru niciun fel de daune sau costuri care decurg din astfel de acțiuni de cooperare."
+    ],
+    "risk": [
+      "Recunoști și ești de acord că criptomoneda, rețelele blockchain și mecanismele de distribuție interactivă în timp real poartă un risc tehnic și o incertitudine ridicate, inclusiv, dar fără a se limita la volatilitatea prețurilor, eșecuri de protocol sau nod, fork-uri, rollback-uri, atacuri malițioase, refuz de serviciu, congestie a rețelei, blocare, throttling, vulnerabilități ale contractelor inteligente, modificări ale API-urilor terților, modificări ale politicii de reglementare sau întârzierea datelor.",
+      "Tranzacțiile blockchain sunt în general ireversibile odată ce sunt trimise și confirmate pe blockchain; orice întârziere, eșec sau discrepanță din cauza ireversibilității, congestiei rețelei, anomaliilor nodurilor sau constrângerilor terțe vor fi suportate de tine. moonpacket nu oferă garanții pentru protecția capitalului, conservarea valorii, asigurarea randamentului sau disponibilitatea în timp real.",
+      "Înregistrările Off-chain sunt doar pentru reprezentarea interesului intern al sistemului; drepturile care pot fi revendicate în cele din urmă se vor baza pe transferurile on-chain efectuate efectiv. Înainte de on-chain, activul poate să nu fie încă atribuit unei persoane fizice identificabile în mod unic și poate fi supus regulilor de participare, KYC/AML, măsurilor de înghețare sau revizuirilor de conformitate.",
+      "moonpacket nu este o bancă, nu este o instituție de plată reglementată, nu este un consultant de investiții, nu este un manager de active, nu este un asigurător. moonpacket nu oferă consiliere de investiții, fiscale, juridice sau de conformitate; legalitatea peste granițe sau jurisdicții, obligațiile de raportare a impozitelor și obligațiile de respectare a sancțiunilor sunt responsabilitatea ta exclusivă de a evalua și de a întreprinde. Dacă ai îngrijorări legate de conformitate, te rugăm să nu folosești acest serviciu.",
+      "Pentru a reduce riscul, moonpacket recomandă utilizarea unor sume mici de mai multe ori (o sumă de tranzacție unică nu ar trebui să depășească echivalentul a 100 USDT) și evitarea stocării pe termen lung a activelor mari în înregistrările Off-chain.",
+      "Înțelegi și ești de acord: moonpacket nu este banca ta, fiduciar, agent, schimb sau intermediar de plăți, manager de active, consultant de investiții, broker sau custode; moonpacket nu are nicio obligație (și neagă în mod expres orice obligație) de a păstra, gestiona, aprecia, investi, schimba, converti, proteja sau menține orice valoare, token, activ sau interes pentru tine.",
+      "Înțelegi și ești de acord că atunci când transferi orice activ criptografic sau token din portofelul sau contul tău în acest serviciu, tranzacția on-chain în sine poate genera taxe de rețea ireversibile, taxe de gaz, taxe pentru mineri sau alte costuri similare; prin urmare, suma netă primită și înregistrată de sistem ca 'creditează' poate fi mai mică decât suma nominală pe care ai introdus-o sau care este afișată pe interfața expeditorului. Această diferență este percepută de rețeaua on-chain și de infrastructură relevantă și nu este colectată de moonpacket; moonpacket recunoaște și înregistrează doar suma netă efectiv creditată, care va fi singura bază pentru înregistrările interne și de decontare ulterior, și nu constituie nicio altă discrepanță datorată ție de moonpacket."
+    ],
+    "disclaimer": [
+      "Acest serviciu este oferit pe o bază 'așa cum este' și 'așa cum este disponibil'. În cea mai mare măsură permisă de lege, moonpacket nu oferă garanții, reprezentări sau asigurări exprimate sau implicite referitoare la acest serviciu sau orice parte a acestuia (inclusiv disponibilitatea imediată, acuratețea, funcționarea neîntreruptă, performanța fără erori, adecvarea pentru un scop particular, legalitatea, conformitatea, securitatea, sau faptul că este liber de interferențe).",
+      "moonpacket nu oferă garanții referitoare la întârzierile, erorile, întreruperile, blocajele sau modificările de politici cauzate sau implicate de servicii terțe (cum ar fi platforma Telegram, noduri blockchain, furnizori KYC/AML, canale de plată sau schimb, sisteme externe de sarcini, furnizori cloud etc.), nici nu își asumă responsabilitatea pentru aplicabilitatea, legalitatea, oportunitatea, disponibilitatea sau securitatea acestora.",
+      "moonpacket nu oferă garanții, promisiuni sau angajamente exprimate sau implicite referitoare la feedback specific, clasamente, rate de cădere, proporții de alocare, sume de distribuție, numărul de trimitere, probabilități de câștig, eligibilitatea pentru airdrop, schimbabilitatea activelor, retragerea finală sau valoarea de piață; orice cifre, procente, estimări, simulări, clasamente, dimensiunile fondului de recompensă sau descrierile 'recompenselor disponibile' afișate în interfață sau anunțuri sunt doar pentru referință și nu constituie garanții sau drepturi legale aplicabile pentru dumneavoastră.",
+      "Înțelegeți și acceptați că acest serviciu este un mecanism de distribuție interactiv/distribuție red packet de natură internet. Deși moonpacket poate încerca să detecteze în mod rezonabil abuzurile automate, conturile duplicate, schimbarea identității sau alte comportamente inechitabile, moonpacket nu garantează și nu poate garanta: (a) că fiecare cont corespunde unei persoane fizice unice; (b) că fiecare receptor corespunde evaluării dvs. subiective de 'recipienți îndreptățiți'; sau (c) că rezultatele oricărei alocări corespund senzibilității dvs. personale de echitate sau așteptărilor economice. moonpacket nu are nicio obligație de a compensa, redistribui, recupera sau recupera active de la dumneavoastră din cauza cererii dvs. de 'alte persoane având conturi multiple care captează pachete/roboți caputrează pachete', cu excepția cerințelor legale.",
+      "Atunci când solicitați retrageri, transferuri sau valori on-chain, poate fi necesar să suportați taxe on-chain suplimentare, taxe de gaz, taxe miner, sau alte costuri de rețea pe portofelul sau rețeaua specificată. Aceste costuri pot depăși semnificativ suma nominală pe care încercați să o retrageți în timpul unor aglomerări specifice ale rețelei. Aceste costuri sunt determinate de propria evaluare economică și de risc și nu sunt taxe de serviciu sau comisioane ale moonpacket; cu excepția cazurilor prevăzute de lege, moonpacket nu are nicio obligație de a suporta, avansa, subvenționa, discounta, optimiza sau rambursa aceste costuri, nici nicio obligație de a se asigura că aceste costuri sunt 'rezonabile' în proporție cu suma nominală de retragere pe care încercați.",
+      "Acest serviciu este destinat să ofere un instrument tehnic, programat de distribuție automată și interacțiune, permițând utilizatorilor să aloce sau să se angajeze să își distribuie propriile active în scopuri de gamificare sau gestionare a comunității. Cu excepția cerințelor legale, acest serviciu nu constituie (nici nu ar trebui înțeles ca) servicii bancare, depozite, încrederi, custodie, investiții fiduciare, consultanță de investiții, gestionare de fonduri, schimb valutar sau servicii de decontare a plăților, nici nu constituie produse de împrumut sau finanțare."
+    ],
+    "liability": [
+      "În cea mai mare măsură permisă de lege, moonpacket nu va fi responsabil pentru nicio daune indirecte, incidentale, speciale, punitive, consecvențiale sau derivate (inclusiv, dar fără a se limita la, pierderi de profit, pierderi de venituri, daune aduse bunului renume sau reputației, pierderi de date, costuri de oportunitate, taxe sau amenzi, sau beneficii așteptate neîndeplinite) rezultând din orice revendicare pe baza contractului, delictului, îmbogățirii fără justă cauză, răspunderii stricte sau alte teorii legale/equite.",
+      "Întârzierile, eșecurile, funcționalitatea limitată, discrepanțele de date, sau întreruperile cauzate de servicii terțe, conexiuni de rețea, aglomerarea blockchain-ului, eșecurile nodurilor, blocarea, restricționarea, modificările de politică, întreținerea sistemului, sau alți factori care nu sunt imputabili moonpacket-ului nu vor constitui o încălcare din partea moonpacket, iar moonpacket nu va fi responsabil pentru daune, compensații sau alte obligații în astfel de cazuri.",
+      "Taxele de tranzacție, costurile de gaz on-chain, taxele terților sau costurile similare nu sunt incluse în niciun domeniu de rambursare sau compensație."
+    ],
+    "indemnity": [
+      "Dacă dumneavoastră (inclusiv inițiatorul și participanții) încalcă aceste condiții sau orice legi aplicabile, sancțiuni, obligații fiscale sau cerințe de conformitate, sau încalcă drepturile unei terțe părți, sau se angajează în fraudă, spălarea banilor, finanțarea terorismului, profituri din jocuri de noroc, strângere de fonduri ilegale, colectarea neautorizată a datelor personale, difuzarea de conținut malițios sau alte activități interzise/ de mare risc folosind acest serviciu, rezultând în orice revendicări, daune, amenzi, obligații, investigații, procese judiciare sau alte cheltuieli (inclusiv onorarii rezonabile ale avocaților) împotriva moonpacket și a afiliaților săi, directori, angajați, parteneri, furnizori sau entități de supraveghere legală/compliance, sunteți de acord să le apărați, să-i despăgubiți și să-i țineți nevinovați în cea mai mare măsură permisă de lege.",
+      "Obligațiile menționate anterior de despăgubire (dacă este cazul) includ, dar nu se limitează la: cereri din partea autorităților de reglementare, solicitări de îngheț sau confiscare din partea autorităților fiscale sau financiare, procese civile sau penale, penalități administrative, onorarii ale avocaților și costuri de litigiu, precum și obligații impuse sau revendicate împotriva moonpacket din cauza acțiunilor dumneavoastră (inclusiv presupusă spălare a banilor, fraudă, finanțare a terorismului, evaziune fiscală, evitarea sancțiunilor sau servicii financiare neautorizate).",
+      "Sunteți de acord că obligațiile de despăgubire, compensație, apărare și de a-i ține nevinovați se aplică nu doar moonpacket-ului, ci și membrilor, managerilor, directorilor, angajaților, consultanților, contractorilor, dezvoltatorilor, partenerilor operaționali, managerilor de comunitate, agenților, succesorilor, cesionarilor și succesorilor lor respectivi (denumiți colectiv „indemnitees”). În cea mai mare măsură permisă de lege, sunteți de acord să despăgubiți toți indemnitees pentru orice revendicări, cereri, înghețuri, confiscări, amenzi, procese, decizii, soluționări, onorarii ale avocaților și alte cheltuieli care decurg din utilizarea dumneavoastră a acestui serviciu, sursele sau destinațiile fondurilor, activitățile de distribuire a pachetelor roșii, tranzacțiile sau disputele cu alți utilizatori sau nerespectarea oricăror legi (inclusiv, dar fără a se limita la, spălarea banilor, sancțiuni, obligații de raportare fiscală și a impozitelor de consum)."
+    ],
+    "suspension": [
+      "moonpacket poate, pe baza securității, conformității, gestionării riscurilor sau nevoilor operaționale, să ia rapid următoarele măsuri într-un interval rezonabil fără notificare individuală: (a) restricționarea, întârzierea sau refuzul de a oferi o parte sau toate serviciile; (b) înghețarea, reținerea, limitarea, ajustarea sau oprirea conturilor, soldurilor, funcțiilor sau retragerilor; (c) blocarea unor conturi, grupuri, IP-uri, dispozitive sau activități specifice; (d) solicitarea de informații suplimentare sau completarea KYC/AML. Măsurile de mai sus nu constituie o încălcare a contractului din partea moonpacket, iar moonpacket nu își asumă nicio responsabilitate pentru daune, compensații sau alte obligații.",
+      "Dacă moonpacket determină în mod rezonabil că există circumstanțe de înalt risc sau ilegale, cum ar fi fraude, spălare de bani, finanțare teroristă, evaziune de sancțiuni, servicii financiare neautorizate, strângere ilegală de fonduri, partajarea profitului din jocuri de noroc, exploatarea lacunelor sau afectarea stabilității platformei, moonpacket poate suspenda, întârzie sau refuza tranzacțiile, distribuțiile, retragerile, rambursările, decongelarea sau procesarea serviciului pentru clienți și poate coopera cu anchetele sau directivele autorităților de reglementare sau judiciare.",
+      "moonpacket are dreptul de a păstra înregistrări ale conturilor, dovezilor de tranzacție, datelor KYC/AML și informațiilor necesare pentru audit pentru o perioadă rezonabilă de timp. Chiar dacă solicitați să vă ștergeți contul sau să încetați utilizarea serviciului, moonpacket poate păstra aceste date în conformitate cu cerințele legale, fiscale, contabile și de conformitate până când obligația de păstrare expiră înainte de a le șterge sau anonimizare.",
+      "Dacă înregistrările Off-chain sunt inconsistente cu statusurile on-chain, moonpacket poate ajusta sau anula înregistrările Off-chain pentru a reflecta ceea ce moonpacket determină în mod rezonabil ca fiind statusul corect; cu toate acestea, tranzacțiile on-chain nu pot fi anulate sau reversate.",
+      "Fără a afecta conținutul general menționat mai sus, moonpacket poate refuza, întârzi, nulifica, îngheța sau reține permanent orice valori/recompense afișate ca 'credit în așteptare', 'de câștigat', 'încă nu on-chain' sau denumiri similare pe baza conformității, gestionării riscurilor, fraudei sau îngrijorărilor legate de abuz, chiar dacă ați văzut valoarea în interfață. Sunteți de acord în mod expres și renunțați irevocabil la orice revendicări pentru compensație, dobândă, câștiguri, costuri de oportunitate, daune punitive sau alte cereri legate de astfel de valori neplătite împotriva moonpacket, cu excepția cazului în care legea aplicabilă interzice expres renunțarea la astfel de cereri.",
+      "Înțelegeți și sunteți de acord că, odată ce ați trimis (sau ați confirmat trimiterea) orice red packet, recompensă, alocare de grup sau alte instrucțiuni de distribuție în interfață, moonpacket va considera autorizația de alocare pentru beneficiarii/grupurile/condițiile conturate în astfel de instrucțiuni ca fiind irevocabilă și finală. Cu excepția anchetelor legate de fraudă, abuz, spălare de bani, evaziune de sancțiuni, evaziune fiscală sau alte probleme de conformitate, moonpacket nu este obligat să furnizeze mecanisme pentru 'reversare', 'rambursare', 'anulare', 'recuperare' sau acțiuni similare, nici nu este obligat să recupereze astfel de valori în numele dumneavoastră de la alți utilizatori după finalizarea distribuției; astfel de acțiuni nu constituie o încălcare din partea moonpacket, iar moonpacket nu va fi responsabil pentru daune, compensații sau alte responsabilități.",
+      "În cazurile privind legile aplicabile, reglementările anti-spălare de bani, sancțiuni, raportarea taxelor, anchete de fraudă sau avertizări de înalt risc, moonpacket poate solicita să finalizați verificarea identității (inclusiv, dar fără a se limita la, ID emis de guvern, selfie-uri, comparații faciale sau biometrice etc.) și poate solicita documente suplimentare sau verificări suplimentare dacă este necesar. Dacă nu reușiți să furnizați informațiile necesare într-o perioadă rezonabilă, sau dacă informațiile furnizate nu pot trece verificările rezonabile, moonpacket poate, la discreția sa exclusivă, să întârzie, limiteze, refuze sau interzică permanent orice cereri de retragere, extragere, on-chain sau rambursare; astfel de acțiuni nu constituie o încălcare a contractului din partea moonpacket, iar moonpacket nu își asumă nicio responsabilitate pentru daune, compensații sau alte obligații, și renunțați irevocabil la orice revendicări pentru daune, dobândă sau costuri de oportunitate în legătură cu astfel de întârzieri sau interziceri, cu excepția cazului în care legea interzice acest lucru."
+    ],
+    "compliance": [
+      "Ești de acord în mod explicit că moonpacket poate, în conformitate cu obligațiile sale de conformitate, reglementările privind prevenirea spălării banilor/finanțarea terorismului, sancțiile, obligațiile fiscale sau cerințele legale din partea autorităților de supraveghere/judiciare, să rețină, înghețe, analizeze și furnizeze informațiile necesare (inclusiv înregistrările Off-chain, urmele pe lanț, datele KYC/AML, înregistrările de grup/chat/eveniment, comportamentele de distribuție și retragere) unităților autorizate sau furnizorilor lor de conformitate desemnați.",
+      "Această cooperare nu constituie o încălcare a contractului sau o încălcare din partea moonpacket, iar moonpacket nu va suporta nicio compensație, despăgubire sau alte obligații."
+    ],
+    "forceMajeure": [
+      "În cazul unor dezastre naturale, războaie, revolte, ordine guvernamentale, sancțiuni, legi noi sau cerințe de reglementare, întreruperi ale alimentării, întreruperi de comunicații sau rețea, eșecuri ale furnizorilor sau infrastructurii cloud, incidente la nivelul protocolului blockchain, atacuri malițioase, epidemii, dispute de muncă sau alte cauze care nu pot fi atribuite moonpacket, rezultând într-o întârziere sau incapacitate a oricărei părți de a-și îndeplini integral sau parțial obligațiile conform acestor condiții, partea afectată poate solicita exonerarea de responsabilitate pentru astfel de întârzieri sau neîndepliniri; totuși, partea va face totuși eforturi rezonabile pentru a atenua impactul și pentru a restabili cât mai curând posibil."
+    ],
+    "highRisk": [
+      "Utilizările interzise ale acestui serviciu includ orice scopuri ilegale, cu risc ridicat sau sancționate, inclusiv, dar fără a se limita la fraudă, spălare de bani, finanțarea terorismului, profituri din jocuri de noroc, strângere de fonduri ilegale, servicii financiare neautorizate, evitare a sancțiunilor sau orice alt comportament interzis de reglementare.",
+      "Initiatorul trebuie să-și confirme jurisdicția sau domeniul legal aplicabil în ceea ce privește distribuirea pachetelor roșii, recompenselor, fondurilor promoționale, airdrop-urilor, partajării profitului sau distribuțiilor similare și să se asigure că acestea nu constituie strângere de fonduri ilegală, servicii financiare neautorizate, profituri din jocuri de noroc ilegale sau alte activități raportabile/ce necesită autorizație.",
+      "Participanții trebuie să confirme că primirea, deținerea, retragerea sau transferul activelor respectă legile aplicabile locației lor și nu implică venituri ilegale, încălcări ale sancțiunilor, obligații de raportare fiscală sau alte restricții de reglementare.",
+      "moonpacket nu oferă nicio garanție legală în ceea ce privește legalitatea utilizării acestui serviciu în cadrul transfrontier sau între jurisdicții, nici nu garantează că puteți folosi acest serviciu legal în nicio regiune specifică.",
+      "Reprezentați și garantați că nu sunteți supus sancțiunilor internaționale, controlului exporturilor, măsurilor anti-terorism sau restricțiilor similare și nu utilizați acest serviciu în numele unor astfel de entități. Nu trebuie să utilizați acest serviciu pentru a asista, facilita sau a încerca să eludați orice sancțiuni, înghețuri, confiscări, audite fiscale, acțiuni de aplicare a legii sau proceduri judiciare. moonpacket își rezervă dreptul de a refuza, limita sau suspenda în totalitate sau parțial serviciile, sau de a întârzia, restricționa sau refuza orice solicitări de retragere, transfer sau răscumpărare fără notificare prealabilă; astfel de acțiuni nu constituie o încălcare din partea moonpacket, iar moonpacket nu va fi responsabil pentru eventualele daune, compensații sau alte obligații."
+    ],
+    "tax": [
+      "Ești responsabil pentru gestionarea oricăror obligații fiscale, declarații, plăți și costuri asociate care decurg din utilizarea acestui serviciu în conformitate cu legile aplicabile; moonpacket nu oferă sfaturi fiscale și nu este responsabil pentru declarații sau rețineri de plăți, cu excepția cazului în care este necesar prin lege."
+    ],
+    "accuracy": [
+      "Clasamentele, statisticile, rezultatele evenimentelor, sfaturile sau informațiile de pe tabloul de bord furnizate de acest serviciu pot diferi de starea reală din cauza întârzierilor de sincronizare, dependențelor de terți, restricțiilor temporare sau întreținerii sistemului; totul rămâne supus rezultatelor efective ale tranzacțiilor pe lanț sau înregistrărilor finale de decontare în cadrul moonpacket.",
+      "moonpacket poate corecta orice erori evidente, defecțiuni de sistem sau rezultate care sunt manifest inechitabile în afișaj și poate reveni la înregistrările Off-chain în cadrul unui domeniu rezonabil pentru a le alinia cu starea corectă, așa cum este determinată rezonabil de moonpacket; cu toate acestea, tranzacțiile pe lanț nu pot fi anulate sau inversate."
+    ],
+    "law": [
+      "Aceste Condiții, precum și toate relațiile dintre dumneavoastră și moonpacket derivate sau legate de acest serviciu (inclusiv, dar fără a se limita la, distribuții de activități, manipularea activelor, mecanisme de clasament/recompensare, înghețuri/suspendări de cont, oprirea sau terminarea serviciului, ajustări ale înregistrărilor Off-chain, păstrarea datelor, colaborarea cu autoritățile legii, orice anunțuri, declarații, marketing, intervenții de suport pentru clienți, etc.), vor fi reglementate de legile Japoniei fără a ține cont de principiile sale de drept internațional privat sau de conflict de legi."
+    ],
+    "disputes": [
+      "Orice dispute, controverse, cereri, procese, remedii sau proceduri care decurg din sau sunt legate de acest serviciu sau de aceste condiții vor fi înaintate exclusiv Tribunalului Districtual din Tokyo ca instanță de primă instanță. Renunțați irevocabil la orice drepturi de a solicita jurisdicția oricărei alte instanțe, instituții de arbitraj sau districte judiciare care pot fi mai convenabile sau mai potrivite și nu puteți pretinde că moonpacket va fi supus jurisdicției instanței unde vă aflați.",
+      "Acceptați că moonpacket poate, în conformitate cu obligațiile sale de conformitate, prevenirea spălării banilor/finanțării terorismului, sancțiunilor, fiscalității sau cererilor legitime din partea autorităților de reglementare/judiciare, să păstreze, înghețe, analizeze și să ofere informațiile necesare (inclusiv înregistrări Off-chain, dovezi on-chain, date KYC/AML, jurnale de grup/chat/activitate, acțiuni de distribuție și retragere) unităților autorizate sau furnizorilor lor de conformitate autorizați; o astfel de cooperare nu constituie o încălcare sau o infrigement din partea moonpacket, iar moonpacket nu va suporta vreo compensație, rambursare sau alte responsabilități pentru aceasta."
+    ],
+    "contact": [
+      "Pentru probleme legate de acest acord, vă rugăm să contactați moonpacket prin intermediul botului de asistență pentru clienți sau prin canalele de contact afișate în interfață. Pentru cereri legate de protecția datelor sau confidențialitate, vă rugăm să contactați fereastra de contact menționată în Politica de Confidențialitate."
+    ],
+    "changes": [
+      "moonpacket poate revizui acești termeni și politicile aferente oricând pe baza considerentelor tehnice, de gestionare a riscurilor, de conformitate sau de afaceri. Versiunea revizuită va intra în vigoare la publicare și va fi considerată cea mai recentă versiune validă. Continuând să accesezi sau să folosești acest serviciu după publicare, ești considerat că ai fost de acord cu conținutul actualizat; dacă nu ești de acord, singura remediere este să oprești imediat utilizarea acestui serviciu."
+    ],
+    "serviceChanges": {
+      "title": "Ajustări ale serviciului și actualizări ale termenilor",
+      "body": [
+        "moonpacket poate, la discreția sa exclusivă, modifica, localiza, ajusta, suspenda, restricționa, actualiza sau încheia total sau parțial acest serviciu (inclusiv, dar fără a se limita la metoda de calcul a red packet-urilor/recompenselor, timpii de răcire, condițiile de distribuție, regulile tabelului de clasament, comisioanele de gestionare, caracteristicile disponibile, interfețele, API-urile, integrarea pluginurilor, pragurile activității etc.), și poate lua offline toate sau o parte din serviciile sale în orice moment; moonpacket nu are nicio obligație de a menține permanent servicii sau caracteristici specifice.",
+        "moonpacket poate refuza sau suspenda serviciile pentru utilizatori sau grupuri specifice pe baza gestionării riscurilor, revizuirii conformității, considerațiilor tehnice sau de afaceri, sau poate limita funcționalitățile și permisiunile lor (inclusiv înghețarea, suspendarea, blocarea, prevenirea conexiunilor sau blocarea unor grupuri de chat sau conturi specifice) fără notificare individuală. În afară de cazul în care legea prevede altceva, moonpacket nu este responsabil pentru daune, pierderi sau costuri care decurg din ajustări, suspendarea sau refuzul de a oferi acest serviciu."
+      ]
+    },
+    "userContent": {
+      "title": "Conținutul utilizatorului și autorizarea pentru afișare publică",
+      "body": [
+        "Înțelegeți și sunteți de acord: Orice conținut, date, nume, porecle, nume de grupuri, avatare de grup, descrieri ale grupurilor, informații despre camere de chat, date de clasament, sume totale de red packet, înregistrări ale extragerilor norocoase, mesaje, răspunsuri, meme, autocolante, text sau alte informații (denumite în mod colectiv 'Conținut al Utilizatorului') pe care le furnizați, încărcați, raportați sau le faceți disponibile moonpacket în timpul utilizării acestui serviciu pot fi afișate, sortate, clasificate, agregate, anunțate, ilustrate prin capturi de ecran, reproduse, distribuite, transmise public, afișate public, adaptate și utilizate pentru explicații de marketing și operaționale (de exemplu, prezentarea grupurilor populare, clasamentele distribuției de red packet, răspunzătorii norocoși, recenzii ale rezultatelor evenimentelor etc.) în cadrul zonelor interne sau public vizibile ale moonpacket.",
+        "Dacă moonpacket suspectează în mod rezonabil că un anumit conținut al utilizatorului poate încălca legile, poate încălca drepturile terților, poate implica fraudă/spălare de bani/finanțare teroristă/partajare de profituri din jocuri de noroc/strângere ilegală de fonduri/colectarea neautorizată a datelor personale și alte comportamente de înalt risc, moonpacket poate elimina, ascunde, limita afisajul, scoate la înaintare sau bloca un astfel de conținut, și poate îngheța, suspenda sau termina accesul la conturile sau grupurile relevante și poate furniza informațiile necesare administratorilor de grupuri, furnizorilor de platforme, autorităților de reglementare sau entităților judiciare. moonpacket nu își asumă nicio responsabilitate pentru daune, pierderi de profit, daune reputaționale sau alte revendicări care decurg din astfel de acte."
+      ]
+    },
+    "liabilityCap": {
+      "title": "Limitarea răspunderii și plafonul de compensație",
+      "body": [
+        "În limita maximă permisă de lege, răspunderea totală a moonpacket pentru orice revendicări, daune sau responsabilități apărute din utilizarea acestui serviciu va fi limitată la (A) comisioanele totale efectiv plătite de tine către moonpacket și confirmate de moonpacket în ultimele treizeci (30) de zile legate de acea cerere sau (B) echivalentul a cincizeci (50) de dolari, oricare dintre acestea fiind mai mică. Această limită constituie singura ta remediere exclusivă, chiar dacă acest remediu nu reușește să compenseze daunele tale.",
+        "Limita de mai sus se aplică doar în măsura în care legea impune moonpacket să suporte răspunderea și constituie singura ta remediere exclusivă; dincolo de acest cadru obligatoriu, moonpacket nu recunoaște sau garantează nicio responsabilitate pentru dispute sau revendicări."
+      ]
+    },
+    "governingLaw": {
+      "title": "Legile aplicabile și soluționarea disputelor.",
+      "body": [
+        "Aceste condiții și toate relațiile care decurg din sau sunt legate de acest serviciu între dumneavoastră și moonpacket vor fi reglementate de legile Japoniei și interpretate în consecință, dar nu vor include aplicarea principiilor sale de conflict de legi.",
+        "Orice dispute, cereri, procese, remedii sau proceduri care decurg din sau sunt legate de acest serviciu sau de aceste condiții vor fi supuse jurisdicției exclusive a Tribunalului Districtual din Tokyo, Japonia, ca primă instanță. Renunțați irevocabil la orice drept de a susține că orice alt tribunal sau jurisdicție este mai convenabilă sau adecvată și nu veți susține că moonpacket este supus jurisdicției instanțelor dumneavoastră locale.",
+        "moonpacket, în conformitate cu obligațiile sale, cerințele de combatere a spălării banilor/finanțării terorismului, sancțiunile, autoritățile fiscale sau cererile legitime ale autorităților legale, poate reține, îngheța, analiza și furniza informațiile necesare (inclusiv înregistrările Off-chain, dovezile on-chain, datele KYC/AML, înregistrările grupurilor/chat-urilor/activităților, precum și activitățile de distribuție și retragere) entităților autorizate sau furnizorilor lor de conformitate; astfel de acțiuni nu constituie o încălcare a contractului sau o încălcare din partea moonpacket, care nu va fi responsabilă pentru daunele sau costurile care decurg din astfel de acțiuni.",
+        "Dumneavoastră și moonpacket sunteți de acord că nu se pot face sau participa la acțiuni în instanță prin acțiuni colective, acțiuni de grup, acțiuni colective, acțiuni comune sau proceduri similare; renunțați irevocabil la drepturile dumneavoastră de a fi reclamant, membru, agent sau reprezentant în astfel de proceduri, cu excepția cazului în care legea interzice acest lucru.",
+        "Dacă orice dispoziție a acestor condiții este considerată invalidă, ilegală sau inaplicabilă de către o instanță de jurisdicție competentă, dispozițiile rămase vor continua să fie în plină vigoare și efecte în măsura maximă permisă de lege (separabilitate).",
+        "Aceste condiții constituie acordul complet între dumneavoastră și moonpacket referitor la acest serviciu și înlocuiesc orice comunicări anterioare orale sau scrise, anunțuri, descrieri de marketing, postări în comunitate, răspunsuri de suport sau promisiuni (dacă există) între părți. Cu excepția cazului în care este declarat explicit în scris de moonpacket, nicio altă declarație, FAQ-uri, materiale de marketing, înregistrări de chat sau explicații verbale nu vor constitui o garanție sau o obligație care să lege moonpacket în sens legal.",
+        "moonpacket poate, fără consimțământul dumneavoastră anterior, să cedeze, să transfere, să delege sau să aibă în alt mod subsidiari, contractanți, cesionari, succesorii operaționali sau alte terțe părți să proceseze sau să îndeplinească tot sau o parte a acestor condiții sau drepturile și obligațiile sale, iar aceste terțe părți pot continua, ajusta sau închide serviciul în condiții substanțial similare; nu puteți ceda sau transfera niciun drept sau obligație conform acestor condiții fără consimțământul scris prealabil al moonpacket.",
+        "Cu excepția cazului în care legea prevede altfel, eșecul moonpacket de a exercita orice drept, remediu sau cerere acordată de aceste condiții la un moment specific, sau eșecul de a exercita imediat astfel de drepturi, nu va fi considerat o renunțare la acel drept, nici nu va afecta capacitatea moonpacket de a susține sau exercita acel drept în viitor.",
+        "Dispozițiile care, prin natura lor, ar trebui să supraviețuiască încetării acestor condiții, inclusiv, dar fără a se limita la obligațiile legate de taxe și costuri de manipulare, avertismente, limitări de răspundere, plafoane de despăgubire, obligații fiscale, clauze de proprietate intelectuală, interdicții, obligații de conformitate și cooperare, clauze de lege aplicabilă și jurisdicție, precum și obligații de despăgubire aplicabile, vor rămâne în vigoare și obligatorii pentru dumneavoastră după ce încetați să utilizați acest serviciu sau la încetarea acestor condiții din orice motive."
+      ]
+    },
+    "appendix": [
+      "\"Irevocabil\": Se referă la tranzacțiile pe lanț care, odată confirmate (pe lanț), nu sunt de obicei revocabile, recuperabile sau șterse, iar înregistrările lor pot fi verificate permanent pe exploratoarele de blockchain publice.",
+      "\"Neretractabil\": Se referă la promisiunea unui cadou făcută participanților nespecificați care își are efectul atunci când emitentul confirmă condițiile de distribuție și îl trimite, și nu poate fi retras, anulat sau solicitat să fie oprit în timpul evenimentului, nici nu poate fi solicitat să fie returnat pe motive de \"regrete\"; acesta este un concept la un nivel diferit de tranzacțiile \"irevocabile\" pe lanț.",
+      "\"Într-un domeniu rezonabil\": Se referă la acțiuni comercial rezonabile întreprinse de moonpacket pentru a asigura siguranța operațională, cerințele de conformitate, prevenirea spălării banilor/finanțarea terorismului, respectarea sancțiunilor, conformitatea fiscală, protecția utilizatorului sau obiectivele de gestionare a riscurilor în limitele obligațiilor legale, reglementărilor și resurselor disponibile, inclusiv, dar fără a se limita la: înghețare, restricționare, întârzieri, ajustări, păstrare, colaborare cu autoritățile sau refuzul de a oferi anumite funcții."
+    ]
+  }
+}

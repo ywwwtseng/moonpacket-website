@@ -1,0 +1,17 @@
+{
+  "title": "moonpacket Tietojen yleiskatsaus",
+  "subtitle": "Reaaliaikaiset tilastot ja leaderboard",
+  "latest": "Uusin",
+  "top_groups": "Suositut ryhmät",
+  "total_sent": "Yhteensä lähetetty määrä",
+  "total_claimed": "Yhteensä vaadittu (USDT)",
+  "participants": "Osallistujien määrä",
+  "avg_packet": "Keskimääräinen määrä per paketti",
+  "sort": {
+    "label": "Lajittele mukaan",
+    "latest": "Uusin",
+    "oldest": "Vanhin",
+    "most": "Maksimiosallistujat",
+    "least": "Vähimmäisosallistujat"
+  }
+}

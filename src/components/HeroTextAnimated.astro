@@ -1,0 +1,51 @@
+---
+interface Props {
+  headlineLine1?: string;
+  headlineLine2?: string;
+  tagline?: string;
+  withBackground?: boolean;
+  ctaPrimaryLabel?: string;
+  ctaPrimaryHref?: string;
+  ctaSecondaryLabel?: string;
+  ctaSecondaryHref?: string;
+}
+const {
+  headlineLine1,
+  headlineLine2,
+  tagline,
+  withBackground = true,
+  ctaPrimaryLabel,
+  ctaPrimaryHref,
+  ctaSecondaryLabel,
+  ctaSecondaryHref
+} = Astro.props as Props;
+---
+<section class="relative py-20 sm:py-28">
+  {withBackground && <div class="absolute inset-0 opacity-10 gradient-primary" />}
+  <div class="relative mx-auto max-w-5xl px-4">
+    <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold">
+      <span class="block brand-mark">{headlineLine1}</span>
+      <span class="block bg-gradient-to-r from-red-600 to-orange-500 bg-clip-text text-transparent">{headlineLine2}</span>
+    </h1>
+    <p class="mt-4 max-w-2xl text-base sm:text-lg text-textSubtle">
+      {tagline}
+    </p>
+    <div class="mt-6 flex gap-3">
+      {ctaPrimaryHref && (
+        <a 
+          href={ctaPrimaryHref} 
+          class="btn btn-primary btn-text"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {ctaPrimaryLabel}
+        </a>
+      )}
+      {ctaSecondaryHref && (
+        <a href={ctaSecondaryHref} class="btn btn-outline btn-text">{ctaSecondaryLabel}</a>
+      )}
+    </div>
+  </div>
+</section>
+
+

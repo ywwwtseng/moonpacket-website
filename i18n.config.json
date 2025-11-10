@@ -1,0 +1,18 @@
+{
+  "csvPath": "i18n-export.csv",
+  "targetLocale": "zh-TW",
+  "localesDir": "src/i18n/messages",
+  "namespaceFilePattern": "**/*.json",
+  "denyNamespaces": ["hero", "marquee", "waterfall", "animation"],
+  "keyUsageGlobs": ["src/**/*.{ts,tsx,js,jsx,vue,svelte,astro,mdx}"],
+  "keyUsagePatterns": [
+    "t\\(['\\\"][^'\\\"]+['\\\"]\\)",
+    "i18n\\.t\\(['\\\"][^'\\\"]+['\\\"]\\)",
+    "\\$t\\(['\\\"][^'\\\"]+['\\\"]\\)"
+  ],
+  "brandTerms": ["moonpacket", "moonini"],
+  "tickers": ["SOL","TON","TRON","BEP","ETH","BTC","USDT","USDC","BNB","XRP","DOGE","SHIB","meme"],
+  "reportPath": "i18n-sync-report.md",
+  "dryRun": false
+}
+

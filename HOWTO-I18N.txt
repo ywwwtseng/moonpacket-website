@@ -1,0 +1,46 @@
+用法（CSV 位于项目根目录 ./i18n-export.csv；语言 JSON 位于 ./locales）：
+
+
+
+1) 预览 zh-TW（不写盘）：
+
+   npm run i18n:dry -- --locale=zh-TW
+
+
+
+2) 写盘：
+
+   npm run i18n:apply -- --locale=zh-TW
+
+
+
+3) 指定其它语言：
+
+   npm run i18n:dry   -- --locale=ja-JP
+
+   npm run i18n:apply -- --locale=ja-JP
+
+
+
+4) 若你的 JSON 不在 ./locales，可覆盖：
+
+   npm run i18n:apply -- --locale=zh-TW --locales=./apps/web/locales
+
+
+
+5) 若你的 CSV 不叫 i18n-export.csv 或不在根目录：
+
+   npm run i18n:apply -- --locale=zh-TW --csv=./data/i18n-export.csv
+
+
+
+脚本会：
+
+- 仅按 CSV 中的 namespace/key 回填；
+
+- 自动去标签、去重标题/行；
+
+- 保护品牌小写：moonpacket、moonini；保护代币大写：SOL/TON/.../meme；
+
+- 不改动被列入 exclude 的文件（如 marquee/waterfall/hero/animate 等）。
+

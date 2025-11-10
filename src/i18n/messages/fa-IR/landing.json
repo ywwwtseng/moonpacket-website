@@ -1,0 +1,15 @@
+{
+  "hero": {
+    "cta_primary": "فعال کردن moonpacket",
+    "cta_secondary": "چگونه ادغام کنیم",
+    "headline": "moonpacket در حال پرتاب به سوی ماه است!",
+    "subheadline": "تلگرام TON، meme، USDT Red Packet | بهترین ربات Red Packet برای پروژه‌های سکه‌های meme و مدیران گروه‌های تلگرام برای جذب کاربران جدید و افزایش تعامل."
+  },
+  "metrics": {
+    "connected_groups": "داده‌ها ممکن است قدیمی باشند",
+    "data_stale": "توکن‌ها و آمار",
+    "title": "مجموع جمع‌آوری شده (USDT)",
+    "total_claimed": "مجموع مبلغ دریافتی (USDT)",
+    "total_packets_sent": "پکت قرمز ارسال شد"
+  }
+}

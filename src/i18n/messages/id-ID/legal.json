@@ -1,0 +1,456 @@
+{
+  "privacyTitle": "Kebijakan Privasi",
+  "termsTitle": "Perjanjian Pengguna",
+  "version": "Versi",
+  "updated": "Pembaruan",
+  "owner": "Pemilik",
+  "sections": {
+    "scope": "Ruang Lingkup dan Pembentukan Kontrak",
+    "definitions": "Penggunaan Berisiko Tinggi dan Dilarang",
+    "eligibility": "Hak Kekayaan Intelektual",
+    "services": "Isi Layanan dan Model Operasi",
+    "wallet": "Dompet Cloud, Komitmen Hadiah, dan Penguncian Dana",
+    "fees": "Biaya dan Pengeluaran",
+    "rules": "Aturan Aktivitas dan Keadilan",
+    "restrictions": "Kontrol Anti-bot, Penyalahgunaan, dan Pembatasan Akun",
+    "ip": "Hak Kekayaan Intelektual",
+    "third_party": "Layanan Pihak Ketiga dan Ketergantungan Eksternal",
+    "data": "Kelayakan dan Akun",
+    "risks": "Pernyataan Risiko",
+    "disclaimer": "Ganti Rugi",
+    "liability": "Batas Tanggung Jawab",
+    "indemnity": "Indemnifikasi",
+    "termination": "Penangguhan, Pembekuan, Pengakhiran, dan Retensi Data",
+    "force_majeure": "Keadaan Memaksa",
+    "high_risk": "Penggunaan Berisiko Tinggi dan Terlarang",
+    "tax": "Pajak dan Pelaporan",
+    "accuracy": "Akurasi konten dan data",
+    "governing_law": "Hukum yang Berlaku dan Penyelesaian Sengketa",
+    "contact": "Metode Kontak",
+    "changes": "Terms Changes",
+    "intro": "",
+    "data_collection": "Biaya dan Pengeluaran",
+    "data_usage": "Hukum yang Berlaku dan Penyelesaian Sengketa",
+    "legal_basis": "",
+    "cookies": "Definisi",
+    "data_sharing": "Keadaan Memaksa",
+    "cross_border": "Penafian",
+    "retention": "",
+    "security": "",
+    "minors": "",
+    "rights": "",
+    "faq": "",
+    "updates": "",
+    "contact_info": "Data, Privasi, dan Kerja Sama Kepatuhan"
+  },
+  "contact": {
+    "title": "Metode kontak",
+    "privacy": "Kotak surat privasi",
+    "security": "Laporan keamanan",
+    "support": "Robot layanan pelanggan"
+  },
+  "privacy": {
+    "version": "v1.0.0",
+    "updated": "oto",
+    "owner": "tim moonpacket",
+    "version_label": "Versi",
+    "updated_label": "Perbarui",
+    "owner_label": "Pemilik",
+    "data_sources": "Sumber Data",
+    "notice": {
+      "disclaimer_binding": "Istilah berikut adalah terjemahan dan hanya untuk referensi. Versi resmi yang mengikat secara hukum adalah teks asli dalam bahasa Inggris. Jika ada inkonsistensi antara versi bahasa dan versi bahasa Inggris, versi bahasa Inggris yang akan berlaku."
+    },
+    "intro": [
+      "Kebijakan privasi ini (selanjutnya disebut sebagai 'kebijakan ini') menjelaskan bagaimana kami mengumpulkan, menggunakan, menyimpan, dan melindungi informasi pribadi dan data penggunaan Anda saat Anda menggunakan layanan yang disediakan oleh moonpacket, termasuk Aplikasi Mini Telegram, bot, dan situs web (secara kolektif disebut sebagai 'layanan'). Harap bacalah sepenuhnya sebelum menggunakan; dengan mulai menggunakan layanan, Anda setuju dengan kebijakan ini.",
+      "Fungsi utama layanan ini adalah 'pertumbuhan komunitas dan interaksi angpao,' dan mungkin memberikan fitur yang diperlukan terkait dompet cloud, transaksi, atau penebusan sesuai dengan persyaratan kepatuhan. Kebijakan ini hanya mengatur pemrosesan data; untuk regulasi penggunaan, batas tanggung jawab, pengungkapan risiko, dan penolakan, silakan merujuk pada 'Ketentuan Penggunaan.'",
+      "moonpacket (selanjutnya disebut sebagai 'moonpacket' atau 'layanan') adalah entitas dan administrator yang mengumpulkan, menggunakan, menyimpan, dan memproses data pribadi dan data penggunaan terkait operasi layanan ini, memproses data semata-mata untuk tujuan teknis dan operasional; moonpacket bukan bank, trust, kustodian, penasihat investasi, perantara pembayaran, atau manajer aset, juga tidak mengasumsikan kewajiban fidusia, kustodian, pelestarian, investasi, atau jaminan akibat pemrosesan data tersebut."
+    ],
+    "definitions": [
+      "moonpacket: Mengacu pada layanan aplikasi yang disediakan oleh proyek ini, termasuk aplikasi web dan aplikasi seluler yang tersedia untuk diunduh, dan termasuk (tetapi tidak terbatas pada) Aplikasi Mini Telegram, bot, dompet cloud, dan modul fungsional terkait.",
+      "Data Pribadi: Informasi yang dapat langsung atau tidak langsung mengidentifikasi orang perorangan, seperti (jika berlaku) informasi kontak, UID Telegram, alamat dompet cloud (jika dapat mengidentifikasi individu), perangkat, dan pengidentifikasi jaringan.",
+      "Data Penggunaan: Catatan peristiwa dan interaksi yang terkait dengan akun atau perangkat (misalnya, mengirim/menerima angpao, kesalahan dan log kinerja, sinyal anti-bot)."
+    ],
+    "scope": [
+      "Ketentuan ini berlaku untuk penggunaan Anda atas semua fungsi yang disediakan oleh moonpacket, termasuk (tetapi tidak terbatas pada) bergabung atau mengelola grup/saluran, mengirim atau menerima angpao, berpartisipasi dalam acara, mengaitkan atau menggunakan dompet cloud dan poin, serta integrasi melalui API/Webhook.",
+      "moonpacket mendukung dua kasus penggunaan utama: mereka yang mengirim angpao dan mereka yang menerima angpao. Pengirim harus menambahkan bot ke grup/saluran yang mereka miliki atau kelola dan memberikan izin yang diperlukan; jika tidak diizinkan atau izin tidak mencukupi, fungsionalitas tidak dapat dijamin. Penerima tidak memiliki informasi pribadi mereka ditangkap di luar pengenal jaringan yang diperlukan dan peristiwa penggunaan selama interaksi grup."
+    ],
+    "dataCollected": [
+      "Akun dan Identitas: UID Telegram, nama pengguna, avatar, pengaturan bahasa, identitas dan izin anggota grup; jika diperlukan, data ID yang diterbitkan pemerintah, selfie atau hasil pencocokan biometrik wajah, deklarasi tempat tinggal, informasi audit KYC/AML, dan hasil pencocokan akan dikumpulkan dan disimpan hanya untuk kepatuhan, pencegahan pencucian uang, memerangi pendanaan teroris, kepatuhan terhadap sanksi, pelaporan pajak, penyelidikan penipuan, atau tujuan manajemen risiko.",
+      "Peristiwa Penggunaan: Mengirim/menerima angpao, catatan perintah dan interaksi, partisipasi acara, acara dari API/Webhook, kesalahan dan log kinerja; sinyal anti-bot dan kontrol risiko (seperti frekuensi, perangkat, atau karakteristik jaringan yang abnormal).",
+      "Transaksi dan Aset: Alamat terkait dompet cloud, saldo atau ringkasan transaksi (hanya sejauh yang diperlukan untuk fungsionalitas); transaksi on-chain dapat diverifikasi secara publik, tetapi tidak dapat diubah dan bersifat tetap. Informasi yang disebutkan di atas mungkin termasuk catatan Off-chain (seperti saldo akuntansi internal yang ditandai, jumlah yang menunggu distribusi atau status terkunci), yang diberikan hanya untuk penyelesaian sistem internal dan instruksi alokasi dan tidak merupakan kewajiban penitipan, kepercayaan, simpanan, pengelolaan keuangan yang ditugaskan, pengumpulan pembayaran dan pembayaran, manajemen investasi, atau tanggung jawab keamanan moonpacket.",
+      "Informasi Teknis dan Perangkat: Model perangkat, sistem operasi, versi browser atau aplikasi, alamat jaringan (IP/ASN) dan daerah perkiraan, tag cookie dan penyimpanan lokal (jika ada).",
+      "Informasi Kontak: Email atau konten chat dukungan pelanggan yang Anda berikan secara aktif (jika ada)."
+    ],
+    "sources": [
+      "Data Anda yang diberikan secara aktif selama pendaftaran, pengikatan, interaksi, atau komunikasi dengan layanan pelanggan.",
+      "Peristiwa dan data teknis yang direkam secara otomatis oleh sistem selama Anda menggunakan layanan ini.",
+      "Hasil perbandingan atau verifikasi pihak ketiga yang diperoleh secara hukum untuk kepatuhan atau kebutuhan layanan (seperti penyedia layanan KYC/AML)."
+    ],
+    "purposes": [
+      "Fungsi yang disediakan untuk operasi dan pemeliharaan layanan ini mencakup: verifikasi identitas, otentikasi izin, modul aktivasi dan manajemen (angpao, poin, dompet cloud), pemecahan masalah, dan pemantauan keamanan.",
+      "Manajemen risiko dan kepatuhan: Mendeteksi, mencegah, dan menyelidiki penyalahgunaan, penipuan, pencucian uang, pembiayaan terorisme, penghindaran sanksi, penghindaran pajak, penggalangan dana ilegal, layanan keuangan tanpa izin, manipulasi pembagian pendapatan, atau aktivitas abnormal lainnya; melakukan audit KYC/AML dan verifikasi identitas (termasuk identifikasi yang dikeluarkan pemerintah, swafoto, dan verifikasi biometrik), penilaian risiko, serta tinjauan pajak dan sanksi. Jika perlu, dapat melibatkan penahanan, pembekuan, penundaan, pembatasan, atau penolakan transaksi, distribusi, pengembalian dana, penarikan, atau pembekuan kembali. Tindakan semacam itu tidak dianggap sebagai pelanggaran oleh moonpacket, dan moonpacket tidak bertanggung jawab atas kompensasi, ganti rugi, atau tanggung jawab lainnya.",
+      "Analisis data dan optimalisasi produk: Tren penggunaan statistik, meningkatkan pengalaman dan kinerja, melakukan pengujian A/B, dan melatih model anti-penipuan (menggunakan metode minimisasi dan de-identifikasi).",
+      "Kepatuhan regulasi dan penegakan hak: Bekerja sama dengan permintaan hukum dari regulasi, otoritas, atau pengadilan, atau menjalankan, menetapkan, atau membela hak hukum. moonpacket dapat, atas kebijakannya sendiri, memberikan data relevan kepada otoritas regulasi, badan yudisial, otoritas pajak atau sanksi, lembaga arbitrase atau penegakan hukum, atau penyedia layanan kepatuhan yang berwenang berdasarkan kebutuhan kepatuhan hukum, regulasi, pajak, sanksi, anti-pencucian uang, anti-pembiayaan terorisme, penyelidikan penipuan, atau kebutuhan kepatuhan lainnya; pemberian semacam itu tidak dianggap sebagai pelanggaran oleh moonpacket, dan moonpacket tidak bertanggung jawab atas kompensasi, ganti rugi, atau tanggung jawab lainnya.",
+      "Komunikasi dan pemberitahuan: Memberikan Anda dengan perubahan penting, pemberitahuan acara, atau informasi layanan yang diperlukan; pesan pemasaran hanya akan dikirim dengan persetujuan atau sebagaimana diizinkan oleh hukum."
+    ],
+    "legalBases": [
+      "Diperlukan untuk memenuhi kontrak atau menyediakan layanan (misalnya, memfasilitasi proses angpao/point, verifikasi kontrol risiko, dan catatan peristiwa).",
+      "Kepatuhan terhadap kewajiban hukum (misalnya, KYC/AML, sanksi, audit, dan kewajiban retensi).",
+      "Kepentingan yang sah (misalnya, mendeteksi penyalahgunaan, memastikan keamanan sistem dan ketersediaan layanan, meningkatkan produk dan pengalaman). Dalam hal ini, kami akan melaksanakan uji keseimbangan dan mengadopsi tindakan de-identifikasi atau minimisasi.",
+      "Persetujuan Anda (misalnya, menerima pesan pemasaran, cookie tidak penting, dan pilihan yang dapat dicabut)."
+    ],
+    "cookies": [
+      "Cookie yang Diperlukan dan Penyimpanan Lokal: Digunakan untuk mempertahankan status login, pilihan bahasa, langkah-langkah anti-bot, dan kontrol keamanan; beberapa fitur mungkin tidak berfungsi dengan baik jika dinonaktifkan.",
+      "Analitik atau Preferensi: Diaktifkan hanya jika diizinkan secara hukum atau dengan persetujuan Anda; Anda dapat menghapus atau membatasi mereka di pengaturan browser Anda."
+    ],
+    "wallet": [
+      "Jika dompet cloud disediakan oleh layanan ini atau mitra, hanya data transaksi dan tanda terima minimum yang diperlukan yang akan diproses dan disimpan setelah menyelesaikan angpao, poin, atau proses pertukaran yang diperlukan.",
+      "Data on-chain bersifat publik dan tidak dapat diubah; harap beroperasi dengan hati-hati. Sifat yang tidak dapat diubah, selalu publik, dan asosiasi data yang berasal dari fitur blockchain berada di luar kendali layanan ini."
+    ],
+    "antiFraud": [
+      "Untuk mencegah penyalahgunaan dan penipuan, kami dapat mengevaluasi frekuensi interaksi, karakteristik perangkat atau jaringan, lokasi geografis, pola perilaku, dan sinyal daftar hitam; fungsionalitas dapat dihentikan atau dibatasi dan verifikasi tambahan mungkin diperlukan sesuai kebutuhan.",
+      "Untuk alasan kepatuhan dan keamanan, kami berhak untuk membagikan indikator relevan atau hasil audit dengan penyedia layanan anti-penipuan atau kepatuhan tepercaya dalam batas yang wajar.",
+      "Untuk tujuan yang disebutkan di atas, moonpacket dapat, atas kebijakannya sendiri, menghentikan, menunda, membatasi, atau menolak fungsionalitas tertentu dan memerlukan verifikasi tambahan (termasuk audit KYC/AML, ID yang diterbitkan pemerintah, selfie, atau perbandingan biometrik) atau membagikan indikator atau hasil audit yang diperlukan dengan penyedia layanan anti-penipuan, kepatuhan, pajak, atau sanksi yang tepercaya; tindakan semacam itu tidak akan dianggap sebagai pelanggaran atau pelanggaran oleh moonpacket, dan moonpacket tidak bertanggung jawab atas kerusakan, kompensasi, atau tanggung jawab lainnya."
+    ],
+    "sharing": [
+      "Penyedia pemrosesan atau pihak ketiga, termasuk layanan hosting cloud, log dan pemantauan, analitik, anti-bot, dan penyedia layanan kepatuhan, melakukan operasi di bawah batasan dan kontrak yang diminimalkan.",
+      "Mitra dan manajer komunitas akan membagikan informasi yang diperlukan berdasarkan aktivitas spesifik, angpao, atau skenario tata kelola komunitas yang Anda ikuti, sesuai dengan aturan aktivitas.",
+      "Kami akan mengungkapkan data yang diperlukan kepada otoritas, pengadilan, atau pemegang hak sesuai dengan prosedur hukum sesuai yang diharuskan oleh hukum atau untuk menegakkan hak.",
+      "moonpacket dapat menyimpan, menganalisis, mentransmisikan, mengungkapkan, dan menyediakan informasi yang diperlukan (termasuk catatan off-chain, bukti on-chain, data KYC/AML, catatan grup/chat/aktivitas, dan perilaku distribusi serta penarikan) kepada otoritas, pengadilan, penegak hukum atau unit pajak, unit sanksi dan regulasi, atau penyedia layanan kepatuhan yang berwenang terkait tinjauan kepatuhan, audit KYC/AML, verifikasi identitas (termasuk ID yang dikeluarkan pemerintah dan perbandingan biometrik), pencegahan pencucian uang, memerangi pendanaan teror, mengikuti sanksi, kepatuhan pajak, penyelidikan penipuan, deteksi penyalahgunaan, audit keuangan, dan pelacakan distribusi serta penarikan, dalam batas yang wajar. Pemrosesan, transmisi, dan pengungkapan semacam itu tidak dianggap sebagai pelanggaran atau tort oleh moonpacket, dan moonpacket tidak bertanggung jawab atas kompensasi, ganti rugi, atau tanggung jawab lainnya."
+    ],
+    "crossBorder": [
+      "Berdasarkan arsitektur cloud dari layanan ini, model operasional global, manajemen risiko, Pencegahan Pencucian Uang (AML), memerangi pendanaan teroris, kepatuhan terhadap sanksi, kerjasama pajak, pencegahan penipuan, retensi audit, dukungan pelanggan, dan kebutuhan pemeliharaan sistem, data Anda (termasuk data pribadi, data penggunaan, catatan Off-chain, hasil audit KYC/AML, dan catatan kontrol risiko dan penarikan) dapat diproses, disimpan atau ditransmisikan di luar yurisdiksi Anda, dan dapat diakses oleh mitra, penyedia infrastruktur cloud, penyedia layanan kepatuhan dan manajemen risiko, atau otoritas/yang berwenang/peradilan/pajak/sanksi/regulasi (atau entitas yang berwenang) sesuai kebutuhan untuk tujuan yang disebutkan di atas.",
+      "moonpacket akan menilai kewajiban keamanan informasi dan kepatuhan dari penerima, dalam batas komersial yang wajar dan diperlukan, dan akan mengurangi risiko akses tidak sah atau penyalahgunaan melalui kontrak, langkah teknis, dan organisasi; namun, Anda memahami dan setuju bahwa setiap transfer lintas batas, hosting cloud, atau pemrosesan pihak ketiga dapat dipengaruhi oleh lingkungan jaringan dan regulasi, dan tidak dapat menjamin keamanan atau ketersediaan yang absolut. Pemrosesan dan transfer lintas batas yang disebutkan di atas tidak merupakan pelanggaran atau pelanggaran oleh moonpacket, dan moonpacket tidak akan bertanggung jawab atas kerusakan, kompensasi, atau kewajiban lainnya."
+    ],
+    "retention": [
+      "Kami akan menyimpan data selama waktu yang diperlukan untuk memenuhi tujuan pengumpulan dan menyimpan catatan yang diperlukan sesuai dengan hukum atau kewajiban audit (misalnya, log akuntansi dan kepatuhan).",
+      "Setelah tujuan tercapai atau periode penyimpanan berakhir, kami akan menghapus atau memproses data dengan cara yang teridentifikasi; data on-chain tidak terikat pada batasan ini karena sifatnya yang tidak dapat diubah.",
+      "Bahkan jika Anda meminta untuk menonaktifkan akun Anda, menghapus data Anda, atau berhenti menggunakan layanan ini, moonpacket dapat menyimpan, membekukan, menganalisis, atau memberikan data yang disebutkan di atas sebagaimana diminta atau diizinkan oleh hukum, regulasi, pajak, sanksi, anti-pencucian uang, anti-pembiayaan terorisme, penyelidikan penipuan, penyimpanan audit, verifikasi akuntansi, atau kewajiban kepatuhan lainnya. Penyimpanan dan pemrosesan semacam itu tidak dianggap sebagai pelanggaran oleh moonpacket, dan moonpacket tidak bertanggung jawab atas kompensasi, ganti rugi, atau tanggung jawab lainnya."
+    ],
+    "security": [
+      "Kami menerapkan langkah-langkah teknis dan manajerial yang wajar dan proporsional, termasuk kontrol akses, enkripsi transmisi dan statis (jika berlaku), segregasi izin, log audit, dan prinsip akses personel yang minimal diperlukan.",
+      "Meskipun moonpacket telah mengambil langkah-langkah teknis dan manajerial untuk mengurangi risiko akses, penggunaan, pengungkapan, perubahan, atau penghancuran yang tidak sah dalam batas yang wajar, Anda memahami dan setuju bahwa setiap transmisi, penyimpanan, atau integrasi pihak ketiga mungkin membawa risiko tertentu. moonpacket tidak memberikan jaminan eksplisit atau implisit mengenai keamanan data, integritas, ketersediaan, akses tanpa gangguan, atau interferensi. Risiko atau kerusakan semacam itu tidak dianggap sebagai pelanggaran atau tort oleh moonpacket, dan moonpacket tidak bertanggung jawab atas kompensasi, ganti rugi, atau tanggung jawab lainnya."
+    ],
+    "minors": [
+      "Layanan ini tidak ditujukan untuk individu di bawah 13 tahun atau di bawah ambang batas minor di yurisdiksi Anda. Jika Anda seorang anak di bawah umur, silakan gunakan layanan ini dengan persetujuan wali hukum Anda, atau hindari menggunakan layanan ini."
+    ],
+    "rights": [
+      "Sesuai dengan hukum yang berlaku di berbagai wilayah, Anda memiliki hak untuk mengajukan pertanyaan atau meninjau data pribadi Anda, meminta salinan, mengoreksi, membatasi pemrosesan, menghapus, portabilitas data, dan mencabut persetujuan, tetapi tidak bertentangan dengan kewajiban hukum moonpacket untuk menyimpan, membekukan, menganalisis, melakukan audit, bekerja sama dengan persyaratan otoritas regulasi/yudisial/pajak/sanksi/regulasi, atau kepatuhan KYC/AML/pembiayaan terorisme/sanksi pelaporan pajak/penyelidikan penipuan/pendeteksian penyalahgunaan, atau kepentingan sah moonpacket.",
+      "Jika Anda ingin menjalankan hak-hak yang disebutkan di atas atau mengajukan kekhawatiran privasi, silakan hubungi moonpacket menggunakan 'Informasi Kontak.' Untuk memastikan keamanan, moonpacket dapat meminta Anda untuk menyelesaikan verifikasi identitas (termasuk tetapi tidak terbatas pada memberikan informasi yang diperlukan untuk audit KYC/AML, identifikasi yang dikeluarkan pemerintah, swafoto, atau hasil verifikasi biometrik) untuk mengonfirmasi bahwa pemohon adalah subjek data atau wakil yang berwenang.",
+      "moonpacket dapat, atas kebijakannya sendiri, sepenuhnya atau sebagian menolak, menunda, membatasi, atau meminta perbaikan pada permintaan tersebut dalam batas kewajiban hukum atau kepatuhan, kebutuhan kepentingan yang sah, atau tujuan manajemen risiko; penolakan, penundaan, pembatasan, atau permintaan perbaikan tersebut tidak dianggap sebagai pelanggaran atau pelanggaran oleh moonpacket, dan moonpacket tidak bertanggung jawab atas kompensasi, ganti rugi, atau tanggung jawab lainnya."
+    ],
+    "faq": [
+      "Mengapa kami memerlukan informasi kepatuhan dan kontrol risiko? Ini diperlukan untuk menyediakan angpao, mencegah penyalahgunaan, dan memastikan operasi yang aman, serta mematuhi hukum atau kebijakan platform yang relevan.",
+      "Bisakah saya menolak untuk memberikan informasi tertentu? Tanpa mempengaruhi keamanan layanan dan kewajiban hukum, Anda dapat memilih untuk menonaktifkan item yang tidak penting, tetapi ini mungkin mengakibatkan beberapa fitur tidak tersedia.",
+      "Bisakah data blockchain dihapus? Rekaman on-chain tidak dapat diubah dan bersifat publik, dan kami tidak dapat memodifikasi atau menghapusnya atas nama Anda."
+    ],
+    "updates": [
+      "Ketentuan ini mungkin diperbarui dengan penyesuaian layanan atau perubahan hukum; perubahan signifikan akan ditunjukkan melalui pesan internal atau pengumuman halaman; versi yang diperbarui berlaku sejak pengumuman atau tanggal efektif yang dinyatakan dalam ketentuan."
+    ],
+    "contact": [
+      "Jika Anda memiliki pertanyaan tentang privasi atau keamanan data, silakan hubungi kami melalui metode kontak di halaman (kotak surat privasi/laporan keamanan/layanan pelanggan); kami akan membalas dalam jangka waktu yang wajar."
+    ],
+    "controller": [
+      "Pengendali Data: tim moonpacket (operasi tim kecil).",
+      "Jendela Kontak (Privasi): Silakan hubungi kami melalui Help_bot privasi di halaman 'Metode Kontak'."
+    ],
+    "jurisdictions": [
+      "Kami mematuhi peraturan perlindungan data pribadi yang berlaku; jika ada konflik dalam peraturan di berbagai yurisdiksi, kami akan mengambil tindakan yang lebih melindungi dan layak bagi pengguna, dalam batasan yang ditetapkan oleh hukum.",
+      "Jika Anda memerlukan hak atau prosedur tambahan untuk yurisdiksi tertentu, silakan hubungi melalui saluran kontak, dan kami akan membantu semampu kami."
+    ],
+    "dsrProcess": [
+      "Anda berhak untuk melakukan inquiry, tinjauan, meminta salinan, meluruskan, menghapus, membatasi pemrosesan, portabilitas data, dan menarik persetujuan terkait data pribadi (sesuai dengan hukum yang berlaku dan kelayakan teknologis).",
+      "Proses: Kirim permintaan → Verifikasi identitas → Penerimaan dan penilaian → Tanggapan dalam periode yang wajar (biasanya dalam 30 hari; setiap perpanjangan akan diberitahukan secara terpisah).",
+      "Jika permintaan melibatkan pihak ketiga atau data on-chain yang tidak dapat diubah, permintaan tersebut mungkin tidak dapat diproses secara langsung. Kami akan memberikan penjelasan atau alternatif yang layak.",
+      "Jika Anda memiliki kekhawatiran tentang hasilnya, silakan hubungi kami lagi melalui saluran yang disediakan; Anda juga dapat mengajukan keluhan kepada pihak berwenang berdasarkan hukum setempat (jika berlaku)."
+    ],
+    "breach": [
+      "Jika insiden data pribadi yang dicurigai terdeteksi, kami akan mengikuti prosedur internal untuk pemrosesan bertahap dan tanggapan darurat, termasuk memblokir atau mengurangi, melakukan audit, dan mendokumentasikan bukti.",
+      "Jika diwajibkan oleh hukum atau diperlukan, kami akan memberitahu otoritas yang berwenang dan pengguna yang mungkin terpengaruh dalam jangka waktu yang wajar; konten dan waktu pemberitahuan akan bergantung pada tingkat insiden dan kemajuan penyelidikan.",
+      "Kami akan meninjau dan terus meningkatkan langkah-langkah kontrol dan pelatihan personel (dalam sumber daya yang tersedia) setelahnya."
+    ],
+    "cookiesDetail": [
+      "Cookie yang Diperlukan: Digunakan untuk mempertahankan login, pengaturan bahasa, langkah-langkah anti-bot, dan keamanan; menonaktifkan dapat mempengaruhi ketersediaan layanan.",
+      "Cookie Preferensi/Analitik/Pemasaran: Diaktifkan hanya jika diizinkan secara hukum atau dengan persetujuan Anda; Anda dapat menyesuaikan atau menarik preferensi kapan saja.",
+      "Jika berlaku, kami akan menyediakan opsi pemilihan cookie yang sederhana; Anda juga dapat mengelola atau menghapusnya di pengaturan browser Anda."
+    ],
+    "consent": [
+      "Untuk pemrosesan yang tidak penting (misalnya, pemasaran atau pelacakan analitis tertentu), kami akan memperoleh persetujuan sebelumnya dan menyediakan cara untuk menarik kembali, di mana berlaku dan mungkin dilakukan berdasarkan hukum.",
+      "Menarik kembali persetujuan tidak memengaruhi legalitas pemrosesan sebelum penarikan; beberapa fungsionalitas mungkin terbatas sebagai akibatnya."
+    ],
+    "lawfulMatrix": {
+      "headers": [
+        "Kategori Data",
+        "Tujuan Pemrosesan",
+        "Dasar Hukum",
+        "Periode Retensi"
+      ],
+      "rows": [
+        {
+          "cat": "帳號/身分（Telegram UID、暱稱、語言、群組權限）",
+          "purpose": "提供與維運服務（紅包、權限驗證、防刷）",
+          "basis": "履行契約、合法利益",
+          "retention": "帳號存續期間＋必要稽核留存"
+        },
+        {
+          "cat": "合規資料（KYC/AML 結果）",
+          "purpose": "法遵審查與防詐欺",
+          "basis": "法定義務",
+          "retention": "依法令或監理要求（一般為多年期）"
+        },
+        {
+          "cat": "使用事件與日誌（互動、錯誤、效能）",
+          "purpose": "故障排除、資安與產品優化",
+          "basis": "合法利益",
+          "retention": "依安全與營運需要的合理期限"
+        },
+        {
+          "cat": "交易與雲端錢包摘要",
+          "purpose": "完成紅包/積分/兌換流程",
+          "basis": "履行契約、合法利益",
+          "retention": "目的達成後最小化留存；鏈上紀錄不在此限"
+        },
+        {
+          "cat": "Cookie/本地儲存（必要）",
+          "purpose": "登入狀態、語言、防刷標記",
+          "basis": "履行契約、合法利益",
+          "retention": "依裝置與瀏覽器生命周期"
+        },
+        {
+          "cat": "Cookie/像素（非必要）",
+          "purpose": "偏好/分析/行銷（如啟用）",
+          "basis": "同意",
+          "retention": "依工具供應商政策或您撤回為止"
+        }
+      ]
+    },
+    "automated": [
+      "Layanan ini menggunakan analisis otomatis dan model kontrol risiko untuk mendeteksi penyalahgunaan atau perilaku abnormal; secara umum, ini tidak merupakan keputusan yang sepenuhnya otomatis yang secara signifikan memengaruhi individu secara hukum atau dengan cara serupa.",
+      "Jika langkah-langkah pembatas diambil karena kebutuhan kontrol risiko kepatuhan atau keamanan (misalnya, menghentikan fungsionalitas), kami akan menyediakan kesempatan untuk banding dan tinjauan manual sesuai sumber daya dan keamanan yang memungkinkan."
+    ],
+    "subprocessors": {
+      "note": "Kami dapat bekerja sama dengan subprosesor yang terikat kontrak (seperti cloud, pemantauan, anti-bot/KYC, email, dll.); daftar tersebut dapat diperbarui sesuai dengan penyesuaian layanan, silakan merujuk ke situs web resmi untuk pengumuman."
+    },
+    "note": [
+      "Catatan: Klausul ini bertujuan untuk mengungkapkan secara jelas praktik pemrosesan dan perlindungan data. Karena moonpacket adalah tim kecil, langkah-langkah yang sebenarnya akan disesuaikan berdasarkan hukum, tingkat risiko, dan ketersediaan sumber daya; jika ada regulasi yang wajib, hukum yang akan berlaku."
+    ],
+    "telegramPermissions": [
+      "Operasi robot di grup/saluran dilakukan hanya dalam batas izin yang telah Anda berikan (misalnya, membaca, mengirim, menghapus, menyematkan pesan, memeriksa tautan bergabung, dll., tergantung pada kebutuhan sebenarnya).",
+      "Jika fitur tidak tersedia atau berkinerja tidak normal karena izin yang tidak mencukupi, pembatasan platform, atau pengaturan pihak ketiga, moonpacket tidak menjamin bahwa fitur tersebut akan beroperasi normal."
+    ],
+    "groupDataMinimization": [
+      "Dalam konteks grup/saluran, kami hanya memproses data minimum yang diperlukan untuk menyediakan layanan, seperti pengenal jaringan pengguna (UID), catatan interaksi/peristiwa, dan indikator yang diperlukan untuk mencegah penyalahgunaan; kami tidak secara aktif mengumpulkan atau membuat profil pribadi anggota grup.",
+      "Untuk tujuan kepatuhan (KYC/AML/sanksi) atau keamanan, jika kami perlu memperluas ruang lingkup pemrosesan, kami akan mematuhi prinsip minimisasi dan de-identifikasi, sebagaimana diwajibkan oleh hukum."
+    ],
+    "analytics": [
+      "Untuk menilai kinerja produk, mencegah penyalahgunaan, dan mengevaluasi hasil operasional, kami dapat memproses data penggunaan secara de-identifikasi atau teragregasi dan memperkenalkan alat analisis/pelacakan pihak ketiga dalam batas yang wajar untuk pemantauan lalu lintas dan analisis atribusi.",
+      "Kami tidak akan menjual data pribadi Anda; silakan merujuk pada penjelasan dan opsi mengenai CPRA dan peraturan lainnya dalam perjanjian ini jika yurisdiksi yang berlaku memiliki definisi khusus untuk 'penjualan/pembagian'.",
+      "Ketika hukum setempat memerlukan persetujuan sebelumnya atau menyediakan opsi untuk tidak ikut serta, kami akan menawarkan pilihan yang relevan sejauh mungkin."
+    ],
+    "saleShareStatement": [
+      "Kami tidak menjual data pribadi Anda untuk dipertimbangkan; teknologi analitik dan iklan pihak ketiga hanya akan diproses dalam bentuk yang tidak teridentifikasi atau teragregasi jika diizinkan secara hukum atau dengan persetujuan yang diperlukan."
+    ]
+  },
+  "terms": {
+    "version": "v1.0.0",
+    "updated": "otomatis",
+    "version_label": "Versi",
+    "updated_label": "Pembaruan",
+    "owner_label": "Pemilik",
+    "appendix_title": "Lampiran | Definisi dan Penjelasan",
+    "notice": {
+      "disclaimer_binding": "Ketentuan berikut disediakan sebagai versi terjemahan untuk referensi saja; versi resmi yang memiliki kekuatan hukum adalah versi asli dalam bahasa Inggris. Dalam hal ada ketidaksesuaian antara versi bahasa dan versi bahasa Inggris, versi bahasa Inggris yang akan berlaku."
+    },
+    "owner": "Tim moonpacket (selanjutnya disebut 'moonpacket') adalah nama merek dan layanan yang menyediakan fitur interaktif online eksperimental dan alat pertumbuhan pemasaran/komunitas. moonpacket bukanlah bank, lembaga kepercayaan, lembaga kustodian, bursa, penasihat investasi, broker, atau lembaga keuangan yang diatur; kecuali yang diharuskan oleh hukum, moonpacket tidak memiliki kewajiban fidusia, kewajiban kepercayaan, kewajiban penyimpanan aset, atau jaminan hasil kepada pengguna.",
+    "intro": [
+      "Syarat Pengguna ini (selanjutnya disebut sebagai “Syarat ini”) merupakan perjanjian yang mengikat secara hukum antara Anda (selanjutnya disebut sebagai “Anda” atau “Pengguna”) dan moonpacket (selanjutnya disebut sebagai “moonpacket,” “layanan ini,” atau “kami”) mengenai akses Anda atau penggunaan layanan yang disediakan oleh moonpacket.",
+      "Layanan ini mencakup tetapi tidak terbatas pada: situs web, aplikasi yang dapat diunduh, Telegram Mini App, bot, dompet cloud, modul distribusi angpao/penghargaan, antarmuka manajemen acara, dan fungsi statistik/ranking terkait (selanjutnya secara kolektif disebut sebagai “layanan ini”).",
+      "Dengan menekan tombol seperti “Mulai,” “Setuju,” “Kirim,” atau tindakan persetujuan serupa dalam antarmuka, atau dengan benar-benar mulai menggunakan layanan ini, Anda dianggap telah membaca, memahami, dan setuju tanpa syarat untuk terikat oleh semua isi dari Syarat ini; jika Anda tidak setuju, harap segera berhenti menggunakan layanan ini.",
+      "Kegiatan spesifik, kolaborasi promosi, atau program perusahaan dapat memberikan syarat tambahan atau aturan aktivitas; syarat tambahan semacam itu akan dianggap sebagai bagian dari Syarat ini; jika terjadi konflik dengan Syarat ini, syarat tambahan akan diutamakan dalam lingkup kegiatan tertentu, sementara sisa akan terus diatur oleh Syarat ini.",
+      "Syarat ini dapat disediakan dalam beberapa bahasa untuk kemudahan membaca. Jika terjadi ketidaksesuaian atau konflik antara versi terjemahan mana pun dan versi bahasa Inggris terkait konten, interpretasi, atau pengaruh, versi bahasa Inggris akan diutamakan dan dianggap sebagai versi akhir yang sah; versi bahasa lainnya tidak akan dianggap menciptakan kewajiban tambahan bagi moonpacket.",
+      "Anda mengonfirmasi dan menjamin bahwa keputusan Anda untuk menggunakan layanan ini tidak didasarkan pada janji 'pengembalian yang dijamin,' 'pemulihan modal,' 'pembagian keuntungan,' 'nasihat investasi,' atau komitmen imbalan lainnya; moonpacket tidak pernah dan tidak akan memberikan jaminan atau komitmen yang mengikat secara hukum mengenai pendapatan, penghargaan, harga, peringkat, atau nilai yang dapat ditebus di masa depan."
+    ],
+    "definitions": [
+      "Pengirim angpao' atau 'inisiator' mengacu pada mereka yang membuat, mendanai, atau mendistribusikan angpao/hadiah/berbagi pendapatan/dana promosi dalam layanan ini, termasuk pengguna individu, administrator grup, pihak proyek, atau agen mereka.",
+      "Penerima angpao' atau 'peserta' mengacu pada mereka yang berinteraksi sesuai dengan aturan aktivitas, menyelesaikan tugas, atau berusaha untuk menerima/telah menerima angpao atau hadiah.",
+      "Aktivitas' mengacu pada mekanisme distribusi yang ditetapkan oleh inisiator, termasuk namun tidak terbatas pada distribusi yang merata, 'keberuntungan' acak, pembukaan tugas yang ditunjuk, menangkap kata sandi, menangkap waktu, distribusi kuota/waktu terbatas, dll.",
+      "Catatan Off-chain' mengacu pada akuntansi internal, indikator saldo, dan indikator atribusi hak dalam sistem moonpacket (misalnya, 'akan didistribusikan', 'dialokasikan', 'tersedia untuk penarikan'). Catatan Off-chain adalah indikator tingkat sistem semata dan tidak mencerminkan transfer aset real-time pada blockchain, dan tidak merupakan bukti hukum akhir kepemilikan aset; transaksi on-chain yang nyata yang akan diutamakan.",
+      "Dompet awan' mengacu pada dompet/kustodian atau proses kustodia aset setengah kustodian yang disediakan oleh moonpacket atau mitra-mitranya untuk menerima aset isi ulang, menunjukkan saldo yang dapat dialokasikan, dan mendukung penarikan yang akan datang. Dompet awan bukan rekening bank, rekening trust, rekening deposito, atau subjek asuransi, dan tidak menawarkan jaminan pelestarian modal.",
+      "Biaya' mengacu pada biaya sumber daya jaringan yang diperlukan untuk transaksi blockchain (seperti gas), biaya layanan pihak ketiga atau biaya saluran pembayaran, dan (jika berlaku) biaya platform yang dikenakan oleh moonpacket untuk layanan atau aktivitas tertentu. Biaya ditanggung oleh pengguna; setelah terjadi, biaya ini tidak dapat dikembalikan.",
+      "KYC/AML' mengacu pada proses verifikasi identitas (Know Your Customer), anti-pencucian uang (Anti-Money Laundering), melawan pendanaan terorisme, tinjauan sanksi, pencegahan penipuan, audit pajak dan kepatuhan, dll."
+    ],
+    "eligibility": [
+      "Anda menyatakan dan menjamin bahwa Anda secara hukum memenuhi syarat dan memiliki kapasitas penuh untuk menggunakan layanan ini di wilayah hukum Anda; anak di bawah umur atau individu dengan kapasitas terbatas harus mendapatkan persetujuan yang diperlukan sesuai dengan hukum setempat.",
+      "Layanan ini mengadopsi model 'coba sebelum Anda mengikat'; namun, sebelum Anda meminta penarikan, mentransfer saldo antar aktivitas, atau terlibat dalam disposisi aset yang sebenarnya, moonpacket berhak untuk meminta Anda mengikat email, nomor telepon, dan alamat dompet cryptocurrency Anda, dan (jika berlaku) menyelesaikan verifikasi KYC/AML."
+    ],
+    "accounts": [
+      "Jika Anda menolak, menunda, atau tidak lulus verifikasi yang disebutkan di atas, moonpacket dapat, atas kebijakannya sendiri, menunda, membatasi, atau menolak permintaan penarikan, pengembalian, pencairan, atau pengembalian; penundaan, pembatasan, atau penolakan semacam itu tidak dianggap sebagai pelanggaran kontrak oleh moonpacket, dan moonpacket tidak memiliki kompensasi, penggantian, atau tanggung jawab lainnya.",
+      "Anda harus menjaga dengan baik semua elemen verifikasi seperti akun Telegram Anda, kredensial akses dompet cloud, token masuk, kunci tanda tangan, perangkat, dan kata sandi. Segala konsekuensi yang timbul akibat phishing, malware, peminjaman perangkat, kebocoran kredensial, kata sandi yang lemah, atau tindakan pihak ketiga yang berwenang akan ditanggung oleh Anda."
+    ],
+    "service": [
+      "Kemampuan yang disediakan oleh layanan ini mencakup namun tidak terbatas pada: (a) membuat dan membiayai kegiatan/angpao; (b) menetapkan aturan kegiatan (jumlah total, kuota, batas individu, masa berlaku, algoritma distribusi, kondisi tugas, kode akses, pembukaan angpao otomatis, dll.); (c) memverifikasi apakah peserta memenuhi syarat kegiatan; (d) menandai, mendistribusikan, dan mengunci jumlah yang dapat ditentukan dalam catatan Off-chain; (e) memungkinkan peserta yang memenuhi syarat untuk memicu penarikan on-chain setelah penebusan; (f) menghasilkan papan peringkat, statistik, dan tampilan kinerja.",
+      "Proses operasional adalah sebagai berikut: setelah inisiator mengisi ulang aset ke alamat moonpacket yang ditentukan, jumlah yang setara akan ditandai sebagai 'aset yang tersedia untuk distribusi dalam kegiatan ini' dalam catatan Off-chain; selama periode kegiatan, sistem hanya akan menandai atau membagi jumlah dalam Off-chain tanpa menjamin transfer langsung on-chain yang segera, individual, transaksional ke dompet individu mana pun; hanya ketika peserta yang memenuhi syarat melakukan penebusan dan lolos dari tinjauan teknis dan kepatuhan, moonpacket akan memicu transfer on-chain yang sebenarnya.",
+      "Pengguna secara eksplisit setuju: Catatan Off-chain hanya untuk akuntansi internal moonpacket dan indikasi kepentingan dan tidak mewakili kepemilikan akhir aset secara hukum; hak klaim yang dapat diterima terakhir didasarkan pada transfer on-chain yang sebenarnya yang telah diselesaikan."
+    ],
+    "features": [
+      "moonpacket dapat menyesuaikan, menangguhkan, membatasi, atau menghentikan fungsi tertentu atau jenis aktivitas kapan saja untuk kebutuhan keamanan, operasional, atau kepatuhan; selama penyesuaian didasarkan pada pertimbangan teknis, risiko, kepatuhan, atau komersial yang wajar, situasi semacam itu tidak merupakan pelanggaran oleh moonpacket, yang tidak akan bertanggung jawab atas kompensasi atau tanggung jawab lainnya.",
+      "moonpacket sangat menyarankan untuk menggunakan layanan ini untuk jumlah kecil berkali-kali; jumlah untuk setiap pengisian ulang atau distribusi tidak boleh melebihi setara 100 USDT, dan disarankan untuk tidak mengakumulasi jumlah besar aset dalam catatan Off-chain untuk jangka waktu yang lama."
+    ],
+    "cloudWallet": [
+      "Ketika penerbit mengkonfirmasi syarat acara (jumlah total, aturan distribusi, masa berlaku, dan biaya, dll.) di antarmuka dan mengirimkannya, hal itu merupakan janji hadiah kepada peserta yang tidak ditentukan. Janji ini mulai berlaku segera setelah dikirimkan dan memiliki sifat \"tidak dapat dibatalkan dan tidak dapat dibalikkan\"; penerbit tidak dapat meminta penghentian dengan mengatakan \"saya berubah pikiran\" atau \"saya tidak mengenali peserta tertentu.\"",
+      "Untuk memenuhi janji hadiah tersebut, moonpacket dapat mengunci jumlah yang sesuai (penguncian aset) dalam catatan Off-chain dan menandainya sebagai \"menunggu distribusi.\" Penguncian ini diperlukan untuk memenuhi janji penerbit dan bukan merupakan penyitaan atau pengambilan secara sembarangan oleh moonpacket.",
+      "Selama periode acara, penerbit tidak boleh meminta penarikan awal dari jumlah yang dijanjikan, maupun meminta untuk menggunakan kembali aset tersebut.",
+      "Setelah tenggat waktu acara: (a) Bagian yang telah diklaim oleh peserta (atau telah memicu prosedur penarikan), serta biaya yang timbul untuk distribusi, tidak dapat diminta untuk dikembalikan; (b) Untuk saldo yang tetap tidak diklaim pada tenggat waktu, moonpacket dapat mengembalikan jumlah yang tersisa ke alamat pengisian ulang atau pengiriman asli, atau alamat asli yang dianggap wajar oleh moonpacket setelah memotong biaya yang diperlukan, selama kondisi teknis dan kepatuhan memungkinkan.",
+      "Untuk setiap proses pengembalian, pencairan, penarikan, atau pengembalian saldo, moonpacket dapat meminta penyelesaian KYC/AML terlebih dahulu; jika pengguna menolak, menunda, atau tidak lulus, moonpacket dapat atas kebijakannya sendiri menunda, membatasi, atau menolak untuk memproses; penundaan, pembatasan, atau penolakan semacam itu tidak dianggap sebagai pelanggaran kontrak oleh moonpacket, dan moonpacket tidak memiliki kompensasi, penggantian, atau tanggung jawab lainnya.",
+      "Setelah on-chain, transaksi blockchain biasanya tidak dapat diubah, dapat diverifikasi secara publik, dan tidak dapat diubah; moonpacket tidak dapat menghapus, menarik kembali, atau \"memundurkan\" transaksi yang telah terjadi di on-chain, dan tidak memiliki tanggung jawab terkait.",
+      "Setiap nilai, poin, saldo, hadiah, atau indikasi lain yang belum on-chain hanyalah catatan sementara dan indikasi distribusi dalam sistem dan tidak merepresentasikan bahwa aset tersebut dipegang, dipercayakan, atau diamankan oleh moonpacket, dan tidak merepresentasikan bahwa moonpacket memiliki kewajiban pengiriman, kewajiban perlindungan nilai, kewajiban bunga, atau kewajiban kompensasi kerugian kepada Anda. moonpacket dapat menentukan untuk menunda, menolak, atau tidak lagi mengeluarkan nilai semacam itu berdasarkan manajemen risiko, kewajiban KYC/AML, kewajiban sanksi, pajak, atau persyaratan kepatuhan lainnya; keputusan semacam itu tidak merupakan pelanggaran kontrak oleh moonpacket, dan moonpacket tidak bertanggung jawab atas kompensasi, ganti rugi, atau liabilitas lainnya.",
+      "Untuk menghemat biaya transaksi di on-chain dan menyediakan fitur distribusi batch/distribusi angpao, moonpacket dapat sementara merekam dan menampilkan saldo yang dapat didistribusikan atau jumlah alokasi yang tertunda dengan menggunakan nilai database internal (Off-chain). Nilai-nilai ini hanyalah indikasi yang nyaman untuk penyelesaian dan distribusi internal dalam sistem dan tidak termasuk trust, kustodia, setoran, pengelolaan keuangan diskresioner, pengumpulan dan pembayaran, pengelolaan investasi, atau kegiatan keuangan teratur lainnya. Kecuali dan sampai nilai-nilai ini benar-benar ada di on-chain, benar-benar dibayar, dan dapat diverifikasi di rantai publik, moonpacket tidak memiliki kewajiban untuk pengembalian, perlindungan nilai, atau kewajiban bunga, dan nilai-nilai ini tidak dijamin dapat ditarik pada waktu tertentu, harga tertentu, atau biaya jaringan tertentu."
+    ],
+    "fees": [
+      "Proses seperti pembuatan aktivitas, distribusi, verifikasi, penarikan, dan transfer on-chain mungkin dikenakan biaya penanganan. Jenis dan tarif biaya penanganan akan ditampilkan pada antarmuka, sesuai dengan aturan aktivitas, halaman penyelesaian, perjanjian kerjasama, atau sarana eksplisit lainnya.",
+      "Biaya penanganan ditanggung oleh pengguna dan akan dikurangi selama pengiriman, distribusi, penarikan, atau operasi terkait; setelah timbul, biaya tersebut tidak dapat dikembalikan. Meskipun moonpacket membantu dengan pengembalian atau pemulihan saldo karena faktor layanan ini, pengembalian atau pemulihan tersebut hanya akan dilakukan dalam mata uang asli kembali ke alamat asli, tidak termasuk biaya penanganan yang timbul atau biaya gas on-chain.",
+      "Jika pengguna gagal memberikan informasi kepatuhan yang wajar yang diminta oleh moonpacket (misalnya, KYC/AML), moonpacket dapat, atas kebijakannya sendiri, menunda, membatasi, atau menolak pengembalian dana, pengembalian saldo, penarikan, atau permintaan pencairan; penundaan, pembatasan, atau penolakan semacam itu tidak merupakan pelanggaran oleh moonpacket, yang tidak akan bertanggung jawab atas kompensasi atau tanggung jawab lainnya.",
+      "Ketika Anda memilih untuk menggunakan distribusi angpao tertentu, distribusi grup, distribusi promosi, atau fungsi serupa, sistem dapat secara otomatis menghitung dan menampilkan persentase tertentu dari biaya sistem (misalnya, sekitar 2% untuk memberikan imbalan kepada moonpacket untuk memelihara operasi layanan), dan/atau persentase tertentu dari imbalan operasi komunitas (misalnya, sekitar 3% dikembalikan kepada pemimpin komunitas untuk mendukung operasi komunitas). Dengan menggunakan fungsi-fungsi ini, Anda memberi wewenang kepada sistem untuk menghitung dan mengalokasikan biaya ini sesuai dengan persentase yang ditampilkan. Kecuali dilarang oleh hukum, moonpacket berhak untuk menyesuaikan persentase ini, syarat, atau model imbalan dalam rentang yang wajar tanpa pemberitahuan lebih lanjut."
+    ],
+    "rules": [
+      "Inisiator berkewajiban untuk menetapkan aturan aktivitas dengan cara yang jujur dan jelas (termasuk total jumlah, kuota, batas individu, durasi yang valid, pembatasan bersyarat, algoritma distribusi, dll.), dan tidak boleh menarik partisipasi melalui cara yang salah atau menyesatkan.",
+      "moonpacket menjalankan dan mencatat algoritma distribusi, verifikasi tugas, dan hasil hadiah di sisi server dan menyimpan jejak audit yang diperlukan untuk menanggapi perselisihan, kepatuhan, atau investigasi regulasi.",
+      "Jika moonpacket mencurigai secara wajar adanya penyalahgunaan berskala besar, spam, penipuan otomatis, pencucian uang, pendanaan terorisme, berbagi keuntungan judi, penggalangan dana ilegal, penghindaran sanksi, atau situasi berisiko tinggi lainnya, moonpacket dapat segera menangguhkan, membekukan, atau menyesuaikan aktivitas serta memutuskan untuk mengembalikan saldo yang tidak diklaim, menolak distribusi, atau menyerahkan rincian kepada pihak berwenang regulasi/yang berwenang; tindakan tersebut tidak dianggap sebagai pelanggaran kontrak oleh moonpacket, dan moonpacket tidak bertanggung jawab atas kompensasi, ganti rugi, atau kewajiban lainnya."
+    ],
+    "abuse": [
+      "moonpacket secara eksplisit menyatakan: Kami tidak memiliki kewajiban, dan kami tidak dapat menjamin bahwa 'setiap akun pasti sesuai dengan satu, orang alami yang dapat diverifikasi'. Kami juga tidak dapat menjamin tidak adanya beberapa akun yang dibagikan, satu orang alami yang memiliki beberapa akun, akun dummy, atau skrip/bot otomatis yang menguasai angpao.",
+      "Pengguna (termasuk penginisiasi dan peserta) dengan jelas memahami dan setuju: Situasi yang disebutkan di atas dapat mempengaruhi hasil alokasi aset, urutan distribusi, atau jumlah yang tersedia; ketidakadilan, ketidaksesuaian, atau sengketa yang disebabkan oleh beberapa akun, akun dummy, skrip, bot, atau operasi tidak teratur lainnya tidak dianggap sebagai pelanggaran kontrak oleh moonpacket, dan moonpacket tidak bertanggung jawab atas kompensasi, penggantian, atau tanggung jawab lainnya.",
+      "Untuk menjaga keamanan sistem dan kepatuhan, moonpacket dapat menggunakan deteksi otomatis, AI/model, daftar hitam/abu-abu, pembatasan laju, pengenalan perangkat, penilaian risiko IP/ASN, dan mekanisme pengendalian risiko lainnya dalam batas yang wajar, dan dapat: (a) membekukan, menangguhkan, memblokir, atau membatasi penggunaan akun, grup, IP, perangkat, atau aktivitas tertentu; (b) meminta informasi tambahan atau menyelesaikan KYC/AML; (c) menunda atau menolak pemrosesan layanan pelanggan, penarikan, pengembalian, atau pencairan; (d) merujuk situasi yang dicurigai ilegal atau berisiko tinggi kepada pihak berwenang atau badan peradilan.",
+      "moonpacket tidak memiliki kewajiban untuk mengungkapkan logika keputusan pengendalian risiko internalnya, rincian teknis, atau dasar audit lengkap. Setiap tindakan yang diambil berdasarkan pengendalian risiko yang disebutkan di atas, kepatuhan, atau permintaan otoritas regulasi tidak dianggap sebagai pelanggaran kontrak oleh moonpacket, dan moonpacket tidak bertanggung jawab atas kompensasi, penggantian, atau tanggung jawab lainnya.",
+      "Sengketa Kepemilikan Akun (misalnya, mengklaim 'akun lain sebenarnya milik saya, silakan transfer saldo': moonpacket hanya mengakui akun asli, email yang terhubung pertama, dan alamat dompet yang terhubung terlebih dahulu sebagai pemilik yang sah; moonpacket tidak memiliki kewajiban untuk mentransfer saldo catatan off-chain, hak penarikan, atau manfaat lain dari akun tertentu ke akun/email/dompet yang berbeda.",
+      "Jika sebuah akun tidak masuk selama delapan belas (18) bulan berturut-turut sejak login terakhirnya, moonpacket akan membekukan saldo catatan Off-chain yang belum ditarik karena pertimbangan keamanan, kepatuhan, dan manajemen risiko, dan tidak akan lagi menyediakan pengembalian, penarikan, atau bentuk pengembalian lainnya. Tindakan ini tidak dianggap sebagai pelanggaran kontrak oleh moonpacket, dan moonpacket tidak memiliki kompensasi, penggantian, atau tanggung jawab lainnya."
+    ],
+    "ip": [
+      "Hak kekayaan intelektual dan hak lainnya dari layanan ini dan isinya (termasuk tetapi tidak terbatas pada: kode, desain, logo, merek dagang, gambar, teks, presentasi statistik, peringkat, materi pemasaran, dokumen, dan pengumpulan data) dimiliki oleh moonpacket atau pemberi lisensinya yang sah.",
+      "Anda tidak dapat menyalin, menyiarkan, memodifikasi, mendistribusikan, menyewakan, melakukan rekayasa terbalik, atau mengeksploitasi isi yang disebutkan di atas dengan cara apa pun untuk tujuan komersial atau non-komersial tanpa otorisasi tertulis dari moonpacket.",
+      "Anda menyatakan bahwa Anda telah memperoleh otorisasi atau hak hukum yang diperlukan untuk setiap konten yang dikirimkan, diunggah, dilaporkan, atau disediakan kepada layanan ini (misalnya, nama grup, nama panggilan, avatar, deskripsi, komentar, hasil acara, jumlah distribusi, data peringkat, tangkapan layar ilustratif, meme, umpan balik, rekaman obrolan, dll., secara kolektif disebut sebagai “Konten Pengguna”)."
+    ],
+    "thirdparty": [
+      "Layanan ini dapat mengintegrasikan, bergantung pada, atau terhubung dengan pihak ketiga (seperti platform Telegram, node blockchain, penyedia KYC/AML, saluran pembayaran atau pertukaran, sistem tugas eksternal, penyedia cloud, dll.). Pihak ketiga ini beroperasi secara independen dan terikat oleh ketentuan mereka masing-masing, kebijakan privasi, dan batasan ketersediaan.",
+      "moonpacket tidak menjamin keberadaan yang terus menerus, ketepatan waktu, akurasi, ketersediaan, legalitas, atau keamanan layanan pihak ketiga mana pun; juga tidak menjamin bahwa pihak ketiga ini tidak akan memblokir, memperlambat, menunda, mengubah kebijakan, atau mengganggu layanan.",
+      "Keterlambatan, kegagalan, modifikasi, gangguan, atau ketidaksesuaian data yang disebabkan oleh layanan pihak ketiga, konektivitas jaringan, kemacetan blockchain, kegagalan node, pemblokiran, pembatasan, perubahan kebijakan, pemeliharaan sistem, atau penyebab lain yang tidak dapat ditunjuk kepada moonpacket tidak dianggap sebagai pelanggaran kontrak oleh moonpacket, dan moonpacket tidak bertanggung jawab atas kerugian, kompensasi, atau tanggung jawab pelanggaran kontrak lainnya.",
+      "Jika perubahan dalam kebijakan atau lingkungan pihak ketiga mengharuskan moonpacket untuk menyesuaikan, menangguhkan, atau menghentikan fungsi tertentu, moonpacket dapat mengumumkan atau menjelaskan penyesuaian tersebut dalam lingkup yang wajar, dan penyesuaian tersebut akan sah, dan moonpacket tidak akan bertanggung jawab atas kompensasi."
+    ],
+    "dataPrivacy": [
+      "moonpacket akan mengumpulkan, menggunakan, menyimpan, memproses, dan membagikan data Anda sesuai dengan Kebijakan Privasi.",
+      "Karena sifat data blockchain yang publik, tidak dapat diubah, dan dapat dilacak, beberapa informasi mungkin dapat direkonstruksi atau dihubungkan dengan identitas atau alamat dompet Anda oleh pihak ketiga; Anda harus memahami dan menanggung risiko publik ini sendiri.",
+      "Anda dengan tegas setuju bahwa moonpacket dapat, dalam batas yang wajar, menyimpan, meninjau, menganalisis, membekukan, dan memberikan informasi yang diperlukan (termasuk tetapi tidak terbatas pada catatan Off-chain, bukti on-chain, data KYC/AML, log grup/obrolan/aktivitas, tindakan distribusi dan penarikan) kepada pihak-pihak yang disebutkan di atas atau entitas berwenang mereka, berdasarkan tindakan anti-penipuan, anti-pencucian uang, melawan pendanaan terorisme, kepatuhan sanksi, pelaporan pajak, audit kepatuhan, atau permintaan yang sah dari otoritas/yudisial yang berwenang.",
+      "Kerjasama moonpacket dengan otoritas regulasi atau yudisial adalah kebutuhan hukum atau kepatuhan dan tidak merupakan pelanggaran atau pelanggaran terhadap Anda; moonpacket tidak bertanggung jawab atas kerugian atau biaya yang muncul dari tindakan kerjasama tersebut."
+    ],
+    "risk": [
+      "Anda mengakui dan setuju bahwa mata uang kripto, jaringan blockchain, dan mekanisme distribusi interaktif waktu nyata membawa ketidakpastian dan risiko teknis yang tinggi, termasuk tetapi tidak terbatas pada volatilitas harga, kegagalan protokol atau node, fork, rollback, serangan jahat, penolakan layanan, kemacetan jaringan, pemblokiran, pembatasan, kerentanan kontrak pintar, perubahan pada API pihak ketiga, perubahan kebijakan regulasi, atau penundaan data.",
+      "Transaksi blockchain umumnya tidak dapat dibatalkan setelah diajukan dan dikonfirmasi on-chain; setiap keterlambatan, kegagalan, atau ketidaksesuaian karena sifat tidak dapat dibatalkannya, kemacetan jaringan, anomali node, atau kendala pihak ketiga akan ditanggung oleh Anda. moonpacket tidak memberikan jaminan perlindungan modal, pemeliharaan nilai, jaminan hasil, atau ketersediaan waktu nyata.",
+      "Catatan Off-chain adalah untuk representasi kepentingan sistem internal saja; hak yang dapat akhirnya diklaim akan didasarkan pada transfer on-chain yang sebenarnya diselesaikan. Sebelum on-chain, aset mungkin belum disematkan kepada individu yang dapat dikenal secara unik dan dapat dikenakan pada aturan partisipasi, KYC/AML, langkah-langkah pembekuan, atau tinjauan kepatuhan.",
+      "moonpacket bukanlah bank, bukan lembaga pembayaran yang diatur, bukan penasihat investasi, bukan manajer aset, bukan penjamin. moonpacket tidak memberikan nasihat investasi, pajak, hukum, atau kepatuhan; legalitas antar batas atau yurisdiksi, kewajiban pelaporan pajak, dan kewajiban kepatuhan sanksi adalah tanggung jawab Anda sepenuhnya untuk mengevaluasi dan melakukan. Jika Anda memiliki kekhawatiran mengenai kepatuhan, mohon untuk tidak menggunakan layanan ini.",
+      "Untuk mengurangi risiko, moonpacket menyarankan menggunakan jumlah kecil beberapa kali (jumlah transaksi tunggal tidak boleh melebihi setara 100 USDT) dan menghindari penyimpanan jangka panjang aset besar dalam catatan Off-chain.",
+      "Anda memahami dan setuju: moonpacket bukan bank, trustee, agen, bursa atau perantara pembayaran, manajer aset, penasihat investasi, broker, atau kustodian Anda; moonpacket tidak memiliki kewajiban (dan secara tegas menolak segala kewajiban) untuk mempertahankan, mengelola, menghargai, berinvestasi, menukar, mengonversi, melindungi, atau menjaga nilai, token, aset, atau kepentingan apa pun untuk Anda.",
+      "Anda memahami dan setuju bahwa ketika Anda mentransfer aset kripto atau token dari dompet atau akun Anda ke layanan ini, transaksi on-chain itu sendiri dapat dikenakan biaya jaringan yang tidak dapat dibatalkan, biaya gas, biaya penambang, atau biaya serupa lainnya; sebagai akibatnya, jumlah bersih yang akhirnya diterima dan dicatat oleh sistem sebagai 'dikirim' mungkin kurang dari jumlah nominal yang Anda masukkan atau ditampilkan pada antarmuka pengirim. Perbedaan ini dibebankan oleh jaringan dan infrastruktur on-chain yang relevan dan tidak dikumpulkan oleh moonpacket; moonpacket hanya mengakui dan mencatat jumlah bersih yang berhasil dikreditkan, yang akan menjadi satu-satunya dasar untuk catatan dan penyelesaian internal berikutnya, dan tidak merupakan ketidaksesuaian lain yang terutang kepada Anda oleh moonpacket."
+    ],
+    "disclaimer": [
+      "Layanan ini disediakan dengan 'apa adanya' dan 'sebagaimana tersedia'. Sebesar mungkin yang diperbolehkan oleh hukum, moonpacket tidak memberikan jaminan, representasi, atau garansi yang jelas atau tersirat mengenai layanan ini atau bagiannya (termasuk ketersediaan segera, akurasi, operasi yang tidak terputus, kinerja tanpa kesalahan, kelayakan untuk tujuan tertentu, legalitas, kepatuhan, keamanan, atau bebas dari gangguan).",
+      "moonpacket tidak memberikan jaminan mengenai penundaan, kesalahan, gangguan, blok, atau perubahan kebijakan yang disebabkan atau melibatkan layanan pihak ketiga apa pun (seperti platform Telegram, node blockchain, penyedia KYC/AML, saluran pembayaran atau pertukaran, sistem tugas eksternal, penyedia awan, dll.), dan tidak bertanggung jawab atas penerapan, legalitas, ketepatan waktu, ketersediaan, atau keamanannya.",
+      "moonpacket tidak memberikan jaminan, garansi, atau komitmen yang jelas atau tersirat mengenai umpan balik tertentu, peringkat, tarif jatuh, rasio alokasi, jumlah distribusi, jumlah kiriman, probabilitas kemenangan, kelayakan airdrop, pertukaran aset, kevalidan penarikan akhir, atau nilai pasar; setiap angka, persentase, estimasi, simulasi, papan peringkat, ukuran kolam hadiah, atau deskripsi 'hadiah yang tersedia' yang ditampilkan dalam antarmuka atau pengumuman hanya untuk referensi dan tidak merupakan jaminan atau hak yang dapat diberlakukan secara hukum untuk Anda.",
+      "Anda memahami dan menerima bahwa layanan ini adalah mekanisme distribusi interaktif/pengiriman angpao yang bersifat internet. Meskipun moonpacket mungkin mencoba secara wajar untuk mendeteksi penyalahgunaan otomatis, akun ganda, pergantian identitas, atau perilaku tidak adil lainnya, moonpacket tidak menjamin dan tidak dapat menjamin: (a) bahwa setiap akun berhubungan dengan individu unik; (b) bahwa setiap penerima memenuhi penilaian subjektif Anda tentang 'penerima yang berhak'; atau (c) bahwa hasil alokasi memenuhi rasa keadilan atau harapan ekonomi pribadi Anda. moonpacket tidak memiliki kewajiban untuk mengganti, mendistribusikan ulang, mengambil kembali, atau memulihkan aset dari Anda karena klaim Anda 'pihak lain memiliki banyak akun yang mengambil angpao/robot yang mengambil angpao,' kecuali sebagaimana diwajibkan oleh hukum.",
+      "Ketika Anda meminta penarikan, transfer, atau nilai-nilai on-chain, Anda mungkin harus menanggung biaya on-chain tambahan, biaya gas, biaya penambang, atau biaya jaringan lainnya pada dompet atau jaringan yang ditentukan. Biaya semacam itu dapat secara signifikan melebihi jumlah nominal yang Anda coba tarik selama kongesti jaringan tertentu. Biaya tersebut ditentukan oleh penilaian ekonomi dan risiko Anda sendiri, dan bukan biaya layanan atau komisi dari moonpacket; kecuali sebagaimana diwajibkan oleh hukum, moonpacket tidak memiliki kewajiban untuk menanggung, mendahulukan, mensubsidi, mendiskon, mengoptimalkan, atau mengembalikan biaya tersebut, maupun kewajiban untuk memastikan bahwa biaya tersebut 'wajar' sebanding dengan jumlah penarikan nominal yang Anda coba.",
+      "Layanan ini bertujuan untuk menyediakan alat distribusi otomatis dan interaksi yang terprogram secara teknis, yang memungkinkan pengguna untuk mengalokasikan atau berkomitmen untuk mendistribusikan aset mereka sendiri untuk tujuan gamifikasi atau manajemen komunitas. Kecuali sebagaimana diwajibkan oleh hukum, layanan ini tidak merupakan (atau harus dipahami sebagai) layanan perbankan, setoran, kepercayaan, kustodian, investasi fidusia, nasihat investasi, manajemen dana, pertukaran asing, atau layanan penyelesaian pembayaran, maupun merupakan produk pinjaman atau pembiayaan."
+    ],
+    "liability": [
+      "Sejauh maksimum yang diizinkan oleh hukum, moonpacket tidak akan bertanggung jawab atas kerugian tidak langsung, insidental, khusus, punitif, konsekuensial, atau derivatif (termasuk tetapi tidak terbatas pada kehilangan keuntungan, kehilangan pendapatan, kerusakan reputasi atau goodwill, kehilangan data, biaya peluang, pajak atau denda, atau manfaat yang tidak tercapai) yang muncul dari klaim berdasarkan kontrak, delik, pengayaan yang tidak adil, tanggung jawab ketat, atau teori hukum/ekuitas lainnya.",
+      "Keterlambatan, kegagalan, fungsi terbatas, ketidaksesuaian data, atau gangguan yang disebabkan oleh layanan pihak ketiga, koneksi jaringan, kemacetan blockchain, kegagalan node, pemblokiran, pembatasan, perubahan kebijakan, pemeliharaan sistem, atau faktor lain yang tidak dapat dikaitkan dengan moonpacket tidak akan dianggap sebagai pelanggaran oleh moonpacket, dan moonpacket tidak akan bertanggung jawab terhadap kerugian, kompensasi, atau kewajiban lainnya dalam kasus seperti itu.",
+      "Biaya transaksi, biaya gas on-chain, biaya pihak ketiga, atau biaya serupa tidak termasuk dalam skop pengembalian dana atau kompensasi."
+    ],
+    "indemnity": [
+      "Jika Anda (termasuk pihak yang memulai dan peserta) melanggar syarat ini atau hukum yang berlaku, sanksi, kewajiban pajak, atau persyaratan kepatuhan, atau melanggar hak pihak ketiga mana pun, atau terlibat dalam penipuan, pencucian uang, pendanaan terorisme, keuntungan perjudian, penggalangan dana ilegal, pengumpulan data pribadi tanpa izin, penyebaran konten berbahaya, atau aktivitas berisiko tinggidalami/lainnya yang dilarang menggunakan layanan ini, yang mengakibatkan klaim, kerusakan, denda, kewajiban, penyelidikan, gugatan, atau biaya lain (termasuk biaya pengacara yang wajar) terhadap moonpacket dan afiliasinya, direktur, karyawan, mitra, pemasok, atau entitas kepatuhan/peninjauan hukum, Anda setuju untuk membela, mengganti rugi, dan membebaskan mereka dari segala kerugian sejauh yang diizinkan oleh hukum.",
+      "Kewajiban ganti rugi yang disebutkan di atas (jika berlaku) mencakup tetapi tidak terbatas pada: pertanyaan dari otoritas regulasi, permintaan pembekuan atau penyitaan dari regulator pajak atau keuangan, gugatan perdata atau pidana, sanksi administratif, biaya pengacara, dan biaya litigasi, serta kewajiban yang dikenakan atau diklaim terhadap moonpacket akibat tindakan Anda (termasuk dugaan pencucian uang, penipuan, pendanaan terorisme, penghindaran pajak, penghindaran sanksi, atau layanan keuangan tanpa izin).",
+      "Anda setuju bahwa kewajiban ganti rugi, kompensasi, pembelaan, dan pembebasan berlaku tidak hanya untuk moonpacket itu sendiri tetapi juga untuk anggota, manajer, direktur, karyawan, konsultan, kontraktor, pengembang, mitra operasional, manajer komunitas, agen, penerus, penerima hak, dan penerus mereka masing-masing (secara kolektif disebut sebagai “pihak yang dilindungi”). Sejauh yang diizinkan oleh hukum, Anda setuju untuk mengganti rugi semua pihak yang dilindungi dari klaim, pertanyaan, pembekuan, penyitaan, denda, gugatan, putusan, penyelesaian, biaya pengacara, dan biaya lain yang timbul dari penggunaan Anda terhadap layanan ini, sumber atau tujuan dana, kegiatan distribusi angpao, transaksi atau sengketa dengan pengguna lain, atau kegagalan untuk mematuhi hukum apa pun (termasuk tetapi tidak terbatas pada kewajiban pelaporan anti-pencucian uang, sanksi, kewajiban pelaporan pajak dan pajak konsumsi)."
+    ],
+    "suspension": [
+      "moonpacket dapat, berdasarkan keamanan, kepatuhan, manajemen risiko, atau kebutuhan operasional, segera mengambil tindakan berikut dalam lingkup yang wajar tanpa pemberitahuan individu: (a) membatasi, menunda, atau menolak untuk menyediakan sebagian atau seluruh layanan; (b) membekukan, menahan, membatasi, menyesuaikan, atau menghentikan akun, saldo, fitur, atau penarikan; (c) memblokir akun, grup tertentu, IP, perangkat, atau aktivitas; (d) meminta informasi tambahan atau menyelesaikan KYC/AML. Tindakan di atas tidak dianggap sebagai pelanggaran kontrak oleh moonpacket, dan moonpacket tidak bertanggung jawab atas kerugian, kompensasi, atau tanggung jawab lainnya.",
+      "Jika moonpacket menentukan secara wajar terdapat keadaan berisiko tinggi atau ilegal seperti penipuan, pencucian uang, pendanaan terorisme, penghindaran sanksi, layanan keuangan yang tidak sah, penggalangan dana ilegal, berbagi keuntungan judi, mengeksploitasi celah, atau merusak stabilitas platform, moonpacket dapat menangguhkan, menunda, atau menolak transaksi, distribusi, penarikan, pengembalian dana, pembekuan balik, atau pemrosesan layanan pelanggan, serta bekerja sama dengan penyelidikan atau arahan dari pihak berwenang regulasi atau yudisial.",
+      "moonpacket berhak untuk menyimpan catatan akun, bukti transaksi, data KYC/AML, dan informasi yang diperlukan untuk audit untuk jangka waktu yang wajar. Meskipun Anda meminta untuk menghapus akun Anda atau berhenti menggunakan layanan, moonpacket masih dapat menyimpan data tersebut sesuai dengan hukum, pajak, akuntansi, dan persyaratan kepatuhan sampai kewajiban penyimpanan berakhir sebelum menghapus atau menganonimkannya.",
+      "Jika catatan Off-chain tidak konsisten dengan status on-chain, moonpacket dapat menyesuaikan atau membalikkan catatan Off-chain untuk mencerminkan apa yang secara wajar dianggap sebagai status yang benar; namun, transaksi on-chain tidak dapat dibatalkan atau dibalik.",
+      "Tanpa mempengaruhi konten umum yang disebutkan di atas, moonpacket dapat menolak, menunda, membatalkan, membekukan, atau menahan secara permanen nilai/imbalan yang ditampilkan sebagai 'kredit yang tertunda', 'akan didapat', 'belum on-chain', atau penunjukan serupa berdasarkan kepatuhan, manajemen risiko, penipuan, atau masalah penyalahgunaan, bahkan jika Anda telah melihat nilai tersebut di antarmuka. Anda secara eksplisit setuju dan dengan tidak dapat dipulihkan melepaskan klaim atas kompensasi, bunga, penghasilan, biaya peluang, ganti rugi, atau permintaan lainnya terkait nilai yang belum dibayar tersebut terhadap moonpacket, kecuali hukum yang berlaku secara tegas melarang pengabaian permintaan tersebut.",
+      "Anda memahami dan setuju bahwa setelah Anda mengirim (atau mengonfirmasi pengiriman) angpao, imbalan, alokasi grup, atau instruksi distribusi lainnya di antarmuka, moonpacket akan menganggap otorisasi alokasi untuk penerima/yang ditugaskan/syarat yang diuraikan dalam instruksi tersebut sebagai tidak dapat dibatalkan dan final. Kecuali untuk penyelidikan mengenai penipuan, penyalahgunaan, pencucian uang, penghindaran sanksi, penghindaran pajak, atau masalah kepatuhan lainnya, moonpacket tidak berkewajiban untuk menyediakan mekanisme untuk 'pembalikan', 'pengembalian dana', 'pembatalan', 'pemulihan', atau tindakan serupa, juga tidak berkewajiban untuk mengambil kembali nilai tersebut atas nama Anda dari pengguna lain setelah distribusi selesai; tindakan tersebut tidak dianggap sebagai pelanggaran oleh moonpacket, dan moonpacket tidak bertanggung jawab atas kerugian, kompensasi, atau tanggung jawab lainnya.",
+      "Dalam hal hukum yang berlaku, regulasi anti-pencucian uang, sanksi, pelaporan pajak, penyelidikan penipuan, atau peringatan risiko tinggi, moonpacket dapat meminta Anda untuk menyelesaikan verifikasi identitas (termasuk namun tidak terbatas pada ID yang diterbitkan pemerintah, selfie, perbandingan wajah atau biometrik lainnya, dll.) dan dapat meminta dokumen tambahan atau verifikasi lebih lanjut jika diperlukan. Jika Anda tidak dapat memberikan informasi yang diperlukan dalam waktu yang wajar, atau jika informasi yang diberikan tidak dapat lulus pemeriksaan verifikasi yang wajar, moonpacket dapat, atas kebijakannya sendiri, menunda, membatasi, menolak, atau melarang secara permanen setiap permintaan penarikan, ekstraksi, on-chain, atau penebusan; tindakan tersebut tidak dianggap sebagai pelanggaran kontrak oleh moonpacket, dan moonpacket tidak bertanggung jawab atas kerugian, kompensasi, atau tanggung jawab lainnya, dan Anda dengan tidak dapat dipulihkan melepaskan klaim atas kerugian, bunga, atau biaya peluang terkait penundaan atau larangan tersebut, kecuali di mana dilarang oleh hukum."
+    ],
+    "compliance": [
+      "Anda secara eksplisit setuju bahwa moonpacket dapat, sesuai dengan kewajiban kepatuhannya, peraturan anti-pencucian uang/pembiayaan terorisme, sanksi, kewajiban pajak, atau persyaratan hukum dari otoritas pengawas/yudisial, menyimpan, membekukan, menganalisis, dan memberikan informasi yang diperlukan (termasuk catatan Off-chain, jejak on-chain, data KYC/AML, catatan grup/obrolan/acara, perilaku distribusi dan penarikan) kepada unit yang diberi otorisasi atau penyedia kepatuhan yang ditunjuk oleh mereka.",
+      "Kerjasama semacam itu tidak merupakan pelanggaran kontrak atau pelanggaran oleh moonpacket, dan moonpacket tidak memiliki kewajiban kompensasi, ganti rugi, atau liabilitas lainnya."
+    ],
+    "forceMajeure": [
+      "Dalam hal bencana alam, perang, kerusuhan, perintah pemerintah, sanksi, hukum baru atau persyaratan regulasi, pemadaman listrik, gangguan komunikasi atau jaringan, kegagalan vendor atau infrastruktur cloud, insiden lapisan protokol blockchain, serangan jahat, epidemi, perselisihan buruh, atau penyebab lain yang tidak dapat ditanggung oleh moonpacket, yang mengakibatkan penundaan atau ketidakmampuan salah satu pihak untuk sepenuhnya atau sebagian memenuhi kewajiban di bawah syarat ini, pihak yang terkena dapat mengklaim pembebasan dari tanggung jawab atas penundaan atau ketidakberhasilan tersebut; namun, pihak tersebut tetap harus melakukan upaya wajar untuk mengurangi dampak dan memulihkan secepat mungkin."
+    ],
+    "highRisk": [
+      "Penggunaan layanan ini yang dilarang mencakup tujuan ilegal, berisiko tinggi, atau yang dikenakan sanksi, termasuk tetapi tidak terbatas pada penipuan, pencucian uang, pendanaan terorisme, keuntungan perjudian, penggalangan dana ilegal, layanan keuangan tanpa izin, penghindaran sanksi, atau perilaku terlarang lainnya yang diatur.",
+      "Pihak yang memulai harus memastikan yurisdiksi atau domain hukum yang berlaku terkait distribusi angpao, penghargaan, dana promosi, airdrop, pembagian keuntungan, atau distribusi serupa, dan memastikan bahwa ini tidak termasuk penggalangan dana ilegal, layanan keuangan tanpa izin, keuntungan perjudian ilegal, atau kegiatan lain yang wajib dilaporkan/yang memerlukan izin.",
+      "Peserta harus memastikan bahwa menerima, memegang, menarik, atau mentransfer aset sesuai dengan hukum yang berlaku di lokasi mereka, dan tidak melibatkan pendapatan ilegal, pelanggaran sanksi, kewajiban pelaporan pajak, atau batasan regulasi lainnya.",
+      "moonpacket tidak memberikan jaminan hukum mengenai legalitas penggunaan layanan ini secara lintas batas atau lintas yurisdiksi, dan tidak menjamin bahwa Anda dapat secara sah menggunakan layanan ini di wilayah tertentu mana pun.",
+      "Anda menyatakan dan menjamin bahwa Anda tidak berada di bawah sanksi internasional, kontrol ekspor, langkah-langkah anti-terorisme, atau pembatasan serupa, dan tidak menggunakan layanan ini atas nama entitas tersebut. Anda tidak boleh menggunakan layanan ini untuk membantu, memfasilitasi, atau berusaha menghindari sanksi, pembekuan, penyitaan, confiscation, audit pajak, tindakan penegakan hukum, atau proses peradilan. moonpacket berhak menolak, membatasi, atau menghentikan seluruh atau sebagian dari layanan, atau menunda, membatasi, atau menolak permintaan penarikan, transfer, atau penebusan tanpa pemberitahuan sebelumnya; tindakan semacam itu tidak dianggap sebagai pelanggaran oleh moonpacket, dan moonpacket tidak bertanggung jawab atas kerusakan, kompensasi, atau kewajiban lainnya."
+    ],
+    "tax": [
+      "Anda bertanggung jawab untuk menangani kewajiban pajak, deklarasi, pembayaran, dan biaya terkait yang timbul dari penggunaan layanan ini sesuai dengan hukum yang berlaku; moonpacket tidak memberikan nasihat pajak, juga tidak bertanggung jawab atas deklarasi atau pembayaran pemotongan, kecuali diwajibkan oleh hukum."
+    ],
+    "accuracy": [
+      "Peringkat, statistik, hasil acara, tips, atau informasi dasbor yang disediakan oleh layanan ini mungkin berbeda dari status sebenarnya karena penundaan sinkronisasi, ketergantungan pihak ketiga, pembatasan sementara, atau pemeliharaan sistem; semuanya tetap tunduk pada hasil transaksi on-chain yang sebenarnya atau catatan penyelesaian akhir dalam moonpacket.",
+      "moonpacket dapat memperbaiki kesalahan yang jelas, kegagalan sistem, atau hasil yang secara jelas tidak adil dalam tampilan, dan dapat membalikkan catatan Off-chain dalam batas yang wajar untuk menyelaraskannya dengan status akurat sebagaimana yang ditentukan secara wajar oleh moonpacket; namun, transaksi on-chain tidak dapat dibatalkan atau dibalikkan."
+    ],
+    "law": [
+      "Ketentuan ini, serta semua hubungan antara Anda dan moonpacket yang muncul dari atau terkait dengan layanan ini (termasuk tetapi tidak terbatas pada distribusi aktivitas, penanganan aset, mekanisme peringkat/imbalan, pembekuan/penangguhan akun, penghentian atau penghentian layanan, penyesuaian catatan Off-chain, retensi data, kerjasama dengan penegak hukum, pengumuman, pernyataan, pemasaran, intervensi dukungan pelanggan, dll.), akan diatur oleh hukum Jepang tanpa memperhatikan prinsip hukum internasional swasta atau konflik hukum."
+    ],
+    "disputes": [
+      "Setiap sengketa, kontroversi, permintaan, gugatan, remediasi, atau proses yang muncul dari atau terkait dengan layanan ini atau syarat-syarat ini akan diajukan secara eksklusif ke Pengadilan Distrik Tokyo sebagai pengadilan tingkat pertama. Anda secara permanen melepaskan hak untuk mengklaim yurisdiksi pengadilan lain, lembaga arbitrase, atau wilayah yudisial yang mungkin lebih nyaman atau lebih tepat, dan tidak dapat mengklaim bahwa moonpacket tunduk pada yurisdiksi pengadilan tempat Anda berada.",
+      "Anda setuju bahwa moonpacket dapat, sesuai dengan kewajiban kepatuhannya, pencegahan pencucian uang/pembiayaan terorisme, sanksi, pajak, atau permintaan yang sah dari otoritas regulasi/yudisial, menyimpan, membekukan, menganalisis, dan memberikan informasi yang diperlukan (termasuk catatan Off-chain, bukti on-chain, data KYC/AML, log grup/chat/kegiatan, tindakan distribusi dan penarikan) kepada unit yang berwenang atau penyedia kepatuhan yang berwenang; kerjasama semacam itu tidak merupakan pelanggaran atau pelanggaran moonpacket, dan moonpacket tidak akan menanggung kompensasi, penggantian, atau tanggung jawab lainnya untuk ini."
+    ],
+    "contact": [
+      "Untuk hal-hal terkait dengan perjanjian ini, silakan hubungi moonpacket melalui bot layanan pelanggan atau saluran kontak yang ditampilkan di antarmuka. Untuk permintaan perlindungan data atau privasi, silakan menghubungi jendela kontak yang tercantum dalam Kebijakan Privasi."
+    ],
+    "changes": [
+      "moonpacket dapat merevisi syarat dan kebijakan terkait ini kapan saja berdasarkan pertimbangan teknis, manajemen risiko, kepatuhan, atau bisnis. Versi yang direvisi akan berlaku setelah publikasi dan akan dianggap sebagai versi valid terbaru. Dengan terus mengakses atau menggunakan layanan ini setelah publikasi, Anda dianggap telah setuju dengan konten yang diperbarui; jika Anda tidak setuju, satu-satunya jalan keluar Anda adalah segera berhenti menggunakan layanan ini."
+    ],
+    "serviceChanges": {
+      "title": "Penyesuaian layanan dan pembaruan syarat",
+      "body": [
+        "moonpacket dapat, atas kebijakannya sendiri, mengubah, melokalisasi, menyesuaikan, menangguhkan, membatasi, memperbarui, atau menghentikan seluruh atau sebagian dari layanan ini (termasuk namun tidak terbatas pada metode perhitungan angpao/imbalan, waktu tunggu, kondisi distribusi, aturan papan peringkat, biaya penanganan, fitur yang tersedia, antarmuka, API, integrasi plugin, ambang batas kegiatan, dll.), dan dapat membawa seluruh atau sebagian layanan offline kapan saja; moonpacket tidak berkewajiban untuk mempertahankan layanan atau fitur tertentu secara permanen.",
+        "moonpacket dapat menolak atau menangguhkan layanan kepada pengguna atau kelompok tertentu berdasarkan manajemen risiko, tinjauan kepatuhan, pertimbangan teknis atau bisnis, atau membatasi fungsi dan izin mereka (termasuk pembekuan, penangguhan, pemblokiran, pencegahan koneksi, atau memblokir grup obrolan atau akun tertentu) tanpa pemberitahuan individu. Kecuali sebagaimana diwajibkan oleh hukum, moonpacket tidak bertanggung jawab atas kerugian, kerugian, atau biaya yang timbul dari penyesuaian, penangguhan, atau penolakan untuk memberikan layanan ini."
+      ]
+    },
+    "userContent": {
+      "title": "Otorisasi konten pengguna dan tampilan publik",
+      "body": [
+        "Anda mengerti dan setuju: Konten, data, nama, nama panggilan, nama grup, avatar grup, deskripsi grup, informasi ruang obrolan, data pemimpin, jumlah kontribusi, total jumlah angpao, catatan undian beruntung, pesan, tanggapan, meme, stiker, teks, atau informasi lain (secara kolektif disebut 'Konten Pengguna') yang Anda berikan, unggah, laporkan, atau sebaliknya tersedia untuk moonpacket selama Anda menggunakan layanan ini dapat ditampilkan, diurutkan, diperingkat, digabungkan, diumumkan, diilustrasikan dengan tangkapan layar, direproduksi, didistribusikan, ditransmisikan secara publik, ditampilkan secara publik, diadaptasi, dan digunakan untuk penjelasan pemasaran dan operasional (misalnya, menampilkan grup populer, peringkat distribusi angpao, penerima beruntung, ulasan hasil acara, dll.) dalam area internal atau yang dapat dilihat publik dari moonpacket.",
+        "Jika moonpacket dengan alasan yang wajar mencurigai bahwa konten pengguna tertentu dapat melanggar hukum, melanggar hak pihak ketiga, melibatkan penipuan/pencucian uang/pendanaan teroris/pembagian keuntungan perjudian/penggalangan dana ilegal/pengumpulan data pribadi tanpa izin, dan perilaku berisiko tinggi lainnya, moonpacket dapat menghapus, menyembunyikan, membatasi tampilan, menghapus, atau memblokir konten tersebut, dan dapat membekukan, menangguhkan, atau menghentikan akses ke akun atau grup terkait dan dapat memberikan informasi yang diperlukan kepada administrator grup, penyedia platform, otoritas regulasi, atau entitas yudisial. moonpacket tidak bertanggung jawab atas kerusakan, kehilangan keuntungan, kerusakan reputasi, atau klaim lain yang timbul dari tindakan tersebut."
+      ]
+    },
+    "liabilityCap": {
+      "title": "Pembatasan Tanggung Jawab dan Batas Kompensasi",
+      "body": [
+        "Sejauh maksimum yang diizinkan oleh hukum, total tanggung jawab moonpacket untuk setiap klaim, kerugian, atau kewajiban yang muncul dari penggunaan layanan ini akan dibatasi pada (A) total biaya yang sebenarnya dibayarkan oleh Anda kepada moonpacket dan dikonfirmasi oleh moonpacket dalam tiga puluh (30) hari terakhir terkait permintaan tersebut, atau (B) setara dengan lima puluh (50) dolar, mana yang lebih rendah. Batas ini merupakan satu-satunya dan eksklusif kompensasi Anda, bahkan jika kompensasi tersebut gagal untuk menutupi kerugian Anda.",
+        "Batas di atas hanya berlaku sejauh hukum mengharuskan moonpacket untuk menanggung tanggung jawab, dan merupakan satu-satunya dan eksklusif kompensasi Anda; di luar lingkup wajib tersebut, moonpacket tidak mengakui atau menjamin tanggung jawab atas perselisihan atau klaim."
+      ]
+    },
+    "governingLaw": {
+      "title": "Hukum yang berlaku dan penyelesaian sengketa.",
+      "body": [
+        "Syarat-syarat ini, dan semua hubungan yang timbul dari atau terkait dengan layanan ini antara Anda dan moonpacket, akan diatur oleh hukum Jepang, dan ditafsirkan sesuai, tetapi tidak akan mencakup penerapan prinsip konflik hukum tersebut.",
+        "Setiap sengketa, klaim, gugatan, remediasi, atau proses yang timbul dari atau terkait dengan layanan ini atau syarat-syarat ini akan tunduk pada yurisdiksi eksklusif Pengadilan Distrik Tokyo di Jepang sebagai tingkat pertama. Anda secara permanen melepaskan hak untuk mengklaim bahwa pengadilan atau yurisdiksi lain lebih nyaman atau lebih tepat dan tidak akan mengeklaim bahwa moonpacket tunduk pada yurisdiksi pengadilan lokal Anda.",
+        "moonpacket, sesuai dengan kewajibannya, pencegahan pencucian uang/pembiayaan terorisme, sanksi, pajak, atau permintaan sah dari otoritas hukum, dapat menyimpan, membekukan, menganalisis, dan memberikan informasi yang diperlukan (termasuk catatan Off-chain, bukti on-chain, data KYC/AML, catatan grup/chat/kegiatan, dan aktivitas distribusi dan penarikan) kepada entitas yang berwenang atau vendor kepatuhan mereka; tindakan semacam ini tidak merupakan pelanggaran kontrak atau pelanggaran oleh moonpacket, yang tidak akan bertanggung jawab atas kerugian atau biaya yang timbul dari tindakan tersebut.",
+        "Anda dan moonpacket setuju bahwa tidak ada klaim yang dapat diajukan atau dilibatkan melalui tindakan kolektif, tindakan kelompok, tindakan bersama, atau proses serupa; Anda secara permanen melepaskan hak Anda untuk menjadi penggugat, anggota, agen, atau wakil dalam proses tersebut, kecuali sebagaimana dilarang oleh hukum.",
+        "Jika ada ketentuan dalam syarat ini dianggap tidak valid, ilegal, atau tidak dapat dilaksanakan oleh pengadilan yang kompeten, ketentuan yang tersisa akan tetap berlaku sepenuhnya dan efektif sejauh maksimum yang diizinkan oleh hukum (severability).",
+        "Syarat-syarat ini merupakan kesepakatan lengkap antara Anda dan moonpacket mengenai layanan ini dan mengesampingkan setiap komunikasi, pengumuman, deskripsi pemasaran, pos komunitas, respons dukungan, atau janji (jika ada) sebelumnya antara para pihak. Kecuali secara tegas dinyatakan secara tertulis oleh moonpacket, tidak ada pernyataan lain, FAQ, materi pemasaran, catatan percakapan, atau penjelasan lisan yang akan menjadi jaminan atau jaminan yang mengikat moonpacket secara hukum.",
+        "moonpacket dapat, tanpa persetujuan Anda sebelumnya, mengalihkan, memindahkan, mendelegasikan, atau dengan cara lain memiliki anak perusahaan, kontraktor, penerima hak, penerus operasional, atau pihak ketiga lainnya untuk memproses atau memenuhi seluruh atau sebagian dari syarat ini atau hak dan kewajibannya, dan pihak ketiga tersebut dapat melanjutkan, menyesuaikan, atau mengakhiri layanan di bawah kondisi yang cukup mirip; Anda tidak dapat mengalihkan atau memindahkan hak atau kewajiban apa pun berdasarkan syarat ini tanpa persetujuan tertulis sebelumnya dari moonpacket.",
+        "Kecuali jika diwajibkan oleh hukum, kegagalan moonpacket untuk menggunakan hak, perbaikan, atau klaim yang diberikan oleh syarat ini pada waktu tertentu, atau kegagalan untuk segera menggunakan hak tersebut, tidak akan dianggap sebagai pengabaian hak itu, dan tidak akan mempengaruhi kemampuan moonpacket untuk menegaskan atau menggunakan hak tersebut di masa depan.",
+        "Ketentuan yang secara alami seharusnya bertahan setelah pengakhiran syarat ini, termasuk tetapi tidak terbatas pada kewajiban yang terkait dengan biaya dan biaya penanganan, penafian, batasan tanggung jawab, batasan ganti rugi, kewajiban pajak, klausul kekayaan intelektual, larangan, kewajiban kepatuhan dan kerjasama, hukum yang mengatur dan klausul yurisdiksi, serta kewajiban ganti rugi yang berlaku, akan tetap berlaku dan mengikat Anda setelah Anda berhenti menggunakan layanan ini atau setelah pengakhiran syarat ini untuk alasan apa pun."
+      ]
+    },
+    "appendix": [
+      "\"Tidak dapat dibatalkan\": Merujuk pada transaksi on-chain yang, setelah dikonfirmasi (on-chain), biasanya tidak dapat dicabut, diambil kembali, atau dihapus, dan catatan mereka dapat diverifikasi secara permanen di penjelajah blockchain publik.",
+      "\"Tidak dapat dibatalkan\": Merujuk pada janji hadiah yang dibuat kepada peserta yang tidak ditentukan yang mulai berlaku ketika penerbit mengkonfirmasi syarat distribusi dan mengirimkannya, dan tidak dapat dibatalkan, dibatalkan, atau diminta untuk dihentikan secara sembarangan selama acara, juga tidak dapat diminta untuk dikembalikan dengan alasan \"penyesalan\"; ini adalah tingkat konsep yang berbeda dari transaksi on-chain yang \"tidak dapat dibatalkan\".",
+      "\"Dalam batas yang wajar\": Merujuk pada tindakan yang secara komersial wajar yang diambil oleh moonpacket untuk memastikan keamanan operasional, persyaratan kepatuhan, pencegahan pencucian uang/pembiayaan teroris, kepatuhan sanksi, kepatuhan pajak, perlindungan pengguna, atau tujuan manajemen risiko dalam batas kewajiban hukum, regulasi, dan sumber daya yang tersedia, termasuk namun tidak terbatas pada: membekukan, membatasi, menunda, menyesuaikan, mempertahankan, bekerja sama dengan pihak berwenang, atau menolak untuk menyediakan fungsi tertentu."
+    ]
+  }
+}

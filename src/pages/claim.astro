@@ -1,0 +1,8 @@
+---
+import { defaultLocale } from '@/i18n/locales.config';
+export const prerender = false;
+
+// "/claim" -> "/{defaultLocale}/claim"
+return Astro.redirect(`/${defaultLocale}/claim`);
+---
+

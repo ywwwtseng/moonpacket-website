@@ -1,0 +1,48 @@
+{
+  "title": "Produkt roadmap",
+  "updated": "Opdatering (tokens begynder distribution efter fremdriftslinje er fuld)",
+  "bucket": {
+    "progress": "Vækst"
+  },
+  "status": {
+    "shipping": "I udvikling",
+    "planned": "Planlagt",
+    "research": "I forskning",
+    "live": "Lancering"
+  },
+  "accept": "Udviklede produkter",
+  "lanes": {
+    "build": "moonini Token",
+    "trust": "KYC/AML, Revision og Sikkerheds Mekanismer; Unormal Gennemgangsproces.",
+    "growth": "Vækst",
+    "token": "moonini token"
+  },
+  "progressLabel": "Fremdrift",
+  "phase": {
+    "open-beta": {
+      "title": "Åben Beta lancering (intern fællesskabs red packet)",
+      "desc": "Pilot indenfor fællesskabet, betinget åben fællesskabsintegration; Test grundlæggende distribution/krav og brugeroplevelse",
+      "accept": "Klare regler, smidig krav, vigtige kanaler er brugbare"
+    },
+    "multi-chain": {
+      "title": "Løbende optimering: Multi-kæde + Point mekanisme + Anti-bot",
+      "desc": "Udvidelse til multi-kæde support udover Solana; Pointberegning og visualisering; Anti-bot strategi og A/B test",
+      "accept": "Multi-kæde aktividentifikation er korrekt; Point og risikostyring fungerer normalt"
+    },
+    "compliance": {
+      "title": "Risikostyring og overholdelse",
+      "desc": "KYC/AML, revisioner og sikkerhedsforanstaltninger; anomaligennemgangsproces.",
+      "accept": "Risiko Kontrol og Overholdelse"
+    },
+    "growth-integration": {
+      "title": "Vækst: Fællesskabsintegration + API/Webhook + Økosystem samarbejde",
+      "desc": "Integrationsvejledning, Event Webhook, Query API; Partnerintegrationsprocess",
+      "accept": "Integrationsvejledning godkendt; Webhook/Query API er stabil"
+    },
+    "token-moonini": {
+      "title": "Point kan indløses for tokens: moonini",
+      "desc": "Færdiggørelse af moonini token distribution og udvekslingsmekanisme",
+      "accept": "Regler for konvertering af point til tokens implementeret; Risikokontrol/overholdelsestjek bestået"
+    }
+  }
+}

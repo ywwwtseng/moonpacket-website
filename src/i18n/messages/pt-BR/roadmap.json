@@ -1,0 +1,48 @@
+{
+  "title": "Roteiro do produto",
+  "updated": "Atualização (tokens começam a distribuição após a barra de progresso estar cheia)",
+  "bucket": {
+    "progress": "Progresso"
+  },
+  "status": {
+    "shipping": "Em desenvolvimento",
+    "planned": "Planejado",
+    "research": "Em pesquisa",
+    "live": "Lançado"
+  },
+  "accept": "Critérios de Aceitação",
+  "lanes": {
+    "build": "Desenvolver Produtos",
+    "trust": "Confiança, Conformidade e Segurança",
+    "growth": "Crescimento",
+    "token": "moonini token"
+  },
+  "progressLabel": "Progresso",
+  "phase": {
+    "open-beta": {
+      "title": "Lançamento da Beta Aberta (Pacote Vermelho da comunidade interna)",
+      "desc": "Piloto dentro da comunidade, integração comunitária aberta condicionalmente; Teste de distribuição/solicitação básica e experiência do usuário",
+      "accept": "Regras claras, solicitação suave, funis chave estão utilizáveis"
+    },
+    "multi-chain": {
+      "title": "Otimização contínua: Multi-chain + Mecanismo de Pontos + Anti-bot",
+      "desc": "Extensão para suporte multi-chain além de Solana; Cálculo e visualização de pontos; Estratégia anti-bot e testes A/B",
+      "accept": "Identificação de ativos multi-chain está correta; Pontos e controle de risco estão funcionando normalmente"
+    },
+    "compliance": {
+      "title": "Controle de Risco e Conformidade",
+      "desc": "Mecanismos de KYC/AML, Auditoria e Segurança; Processo de Revisão de Anomalias.",
+      "accept": "Ative a KYC quando necessário; as regras de AML são auditáveis; os registros de segurança são robustos"
+    },
+    "growth-integration": {
+      "title": "Crescimento: Integração comunitária + API/Webhook + Colaboração no Ecossistema",
+      "desc": "Guia de integração, Webhook de Evento, API de Consulta; Processo de integração com parceiros",
+      "accept": "Guia de integração aprovado; Webhook/API de Consulta estável"
+    },
+    "token-moonini": {
+      "title": "Pontos resgatáveis por tokens: moonini",
+      "desc": "Conclusão da distribuição e mecanismo de troca de token moonini",
+      "accept": "Regras para a conversão de pontos em tokens implementadas; Controles de risco/checagens de conformidade aprovadas"
+    }
+  }
+}

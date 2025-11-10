@@ -1,0 +1,82 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-primary: #E32521;
+    --color-primary-dark: #B51C1A;
+    --color-primary-light: #F14A3F;
+    --color-gold: #FFBA00;
+    --color-gold-dark: #CC9500;
+    --color-gold-light: #FFD766;
+    --color-navy: #0C1E3A;
+    --color-navy-dark: #081427;
+    --color-navy-light: #38517A;
+    --color-bg-dark: #0B0B0D;
+    --color-bg-light: #F7F7FB;
+    --color-text: #101114;
+    --color-text-subtle: #6A6F76;
+  }
+  html { color: var(--color-text); background: var(--color-bg-light); }
+  .theme-dark { color: #F5F6F7; background: var(--color-bg-dark); }
+  /* Optional self-hosted fonts (place files in /public/fonts and uncomment)
+  @font-face {
+    font-family: 'Inter';
+    src: url('/fonts/Inter-Variable.woff2') format('woff2');
+    font-weight: 100 900;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'Space Grotesk';
+    src: url('/fonts/SpaceGrotesk-Variable.woff2') format('woff2');
+    font-weight: 300 700;
+    font-display: swap;
+  }
+  */
+}
+
+@layer utilities {
+  .gradient-primary {
+    background-image: linear-gradient(45deg, var(--color-primary), var(--color-primary-dark));
+  }
+  .text-gradient-primary {
+    background-image: linear-gradient(45deg, var(--color-primary), var(--color-primary-light));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  
+  /* 統一內容型連結（非 CTA） */
+  .link {
+    @apply underline underline-offset-2 decoration-1;
+  }
+  .link:hover {
+    @apply decoration-2;
+  }
+  .link:focus-visible {
+    @apply ring-2 ring-white/20 rounded-sm outline-none;
+  }
+  /* 法律/長文容器中的 <a> 預設用與 .link 相同的原子工具類（不可 @apply 自訂類） */
+  .legal-prose a {
+    @apply underline underline-offset-2 decoration-1;
+  }
+  .legal-prose a:hover {
+    @apply decoration-2;
+  }
+  .legal-prose a:focus-visible {
+    @apply ring-2 ring-white/20 rounded-sm outline-none;
+  }
+  .legal-prose a:visited {
+    @apply opacity-90;
+  }
+  
+  /* 品牌詞樣式 */
+  .brand-word {
+    @apply font-bold lowercase;
+    /* Sora as first choice; fallback to system sans */
+    font-family: "Sora", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    letter-spacing: 0.02em;            /* 微字距 */
+    text-rendering: optimizeLegibility;
+  }
+}
+
+

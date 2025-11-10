@@ -1,0 +1,370 @@
+module,key,zh-TW,en-US,en-GB,zh-CN,ja-JP,ko-KR,ar-SA,de-DE,fr-FR,es-ES,pt-BR,pt-PT,ru-RU,it-IT,nl-NL,sv-SE,da-DK,fi-FI,no-NO,pl-PL,cs-CZ,hu-HU,ro-RO,tr-TR,uk-UA,he-IL,fa-IR,ur-PK,hi-IN,id-ID,vi-VN,th-TH,bn-BD
+claim,faq.a1,使用啟動我們的機器人（機器人鏈接）就自動完成體驗註冊。moonpacket 可以讓群主掛載在自己的群內。玩家不只可以在我們的官方群領取。也可以在所有綁定 moonpacket 紅包機器人的群裡面「q搶紅包」。,使用啟動我們的機器人（機器人鏈接）就自動完成體驗註冊。,Start our bot to complete a quick trial registration automatically.,使用啟動我們的機器人（機器人鏈接）就自動完成體驗註冊。,使用啟動我們的機器人（機器人鏈接）就自動完成體驗註冊。,使用啟動我們的機器人（機器人鏈接）就自動完成體驗註冊。,使用啟動我們的機器人（機器人鏈接）就自動完成體驗註冊。,使用啟動我們的機器人（機器人鏈接）就自動完成體驗註冊。,使用啟動我們的機器人（機器人鏈接）就自動完成體驗註冊。,使用啟動我們的機器人（機器人鏈接）就自動完成體驗註冊。,使用啟動我們的機器人（機器人鏈接）就自動完成體驗註冊。,使用啟動我們的機器人（機器人鏈接）就自動完成體驗註冊。,使用啟動我們的機器人（機器人鏈接）就自動完成體驗註冊。,使用啟動我們的機器人（機器人鏈接）就自動完成體驗註冊。,使用啟動我們的機器人（機器人鏈接）就自動完成體驗註冊。,使用啟動我們的機器人（機器人鏈接）就自動完成體驗註冊。,使用啟動我們的機器人（機器人鏈接）就自動完成體驗註冊。,使用啟動我們的機器人（機器人鏈接）就自動完成體驗註冊。,使用啟動我們的機器人（機器人鏈接）就自動完成體驗註冊。,使用啟動我們的機器人（機器人鏈接）就自動完成體驗註冊。,使用啟動我們的機器人（機器人鏈接）就自動完成體驗註冊。,使用啟動我們的機器人（機器人鏈接）就自動完成體驗註冊。,使用啟動我們的機器人（機器人鏈接）就自動完成體驗註冊。,使用啟動我們的機器人（機器人鏈接）就自動完成體驗註冊。,使用啟動我們的機器人（機器人鏈接）就自動完成體驗註冊。,使用啟動我們的機器人（機器人鏈接）就自動完成體驗註冊。,使用啟動我們的機器人（機器人鏈接）就自動完成體驗註冊。,使用啟動我們的機器人（機器人鏈接）就自動完成體驗註冊。,使用啟動我們的機器人（機器人鏈接）就自動完成體驗註冊。,使用啟動我們的機器人（機器人鏈接）就自動完成體驗註冊。,使用啟動我們的機器人（機器人鏈接）就自動完成體驗註冊。,使用啟動我們的機器人（機器人鏈接）就自動完成體驗註冊。,使用啟動我們的機器人（機器人鏈接）就自動完成體驗註冊。
+claim,faq.a10,必須先完成指定條件（如關注頻道／加入群組／通關密語／外部任務）才能領取。完成後回到該紅包信息帖子的按鈕才能「領取紅包」。,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+claim,faq.a11,Telegram 在不同API 之間有同步延遲，一時未通過請稍等一段時間，如果校驗一直沒辦法通過。比較有可能是API提供方的問題，請反應給發佈紅包任務的項目方。,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+claim,faq.a12,通關密語的口令通常由主辦的項目方公布在x的貼文或直播或影片中；輸入錯誤可重試，多次錯誤可能觸發限速。,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+claim,faq.a13,moonpacket提供給外部接入的項目方串接API，用來檢測用戶是否完成任務，用戶在領取紅包的當下會向API詢問，並且回傳驗證結果，合乎條件後解鎖；若當下未回傳，可稍等再重觸發。,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+claim,faq.a14,成功領取的信息會經由telegram的機器人推送，並且在mini app中有紅包領取紀錄，你可隨時查看歷史與可提現餘額。,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+claim,faq.a15,依活動設定，目前分為主流的 USDT/SOL/ETH/TON/，以及群主所發行的自己的Token。頁面會標示資產單位與匯率來源（如有）。,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+claim,faq.a16,需要 錢包地址／基礎身份信息，做為安全提問；到帳時間通常 T+0～T+2 工作日。異常風控時可能延長。,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+claim,faq.a17,一般由領取金額中扣除或由主辦方吸收，規則會在提現頁清楚標示。,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+claim,faq.a18,不提供「轉贈/合併」的方式。,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+claim,faq.a19,可能原因：多帳同端、代理/VPN 異常、多群同時搶紅包頻率過高、黑名單地區/ASN 等。你可向機器人發送 /report 信息內容。這是單向回復渠道，官方對於封號處置保留不說明原因也不回復的權利。,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+claim,faq.a2,不需安裝額外 App，建議使用最新版 Telegram。若使用系統瀏覽器開啟 WebApp，請確認沒有阻擋 Cookie/儲存空間。,只需要在支持的群組中，並且機器人已經加入該群組。,Generally any Telegram user in a supported group where the bot is present.,只需要在支持的群組中，並且機器人已經加入該群組。,只需要在支持的群組中，並且機器人已經加入該群組。,只需要在支持的群組中，並且機器人已經加入該群組。,只需要在支持的群組中，並且機器人已經加入該群組。,只需要在支持的群組中，並且機器人已經加入該群組。,只需要在支持的群組中，並且機器人已經加入該群組。,只需要在支持的群組中，並且機器人已經加入該群組。,只需要在支持的群組中，並且機器人已經加入該群組。,只需要在支持的群組中，並且機器人已經加入該群組。,只需要在支持的群組中，並且機器人已經加入該群組。,只需要在支持的群組中，並且機器人已經加入該群組。,只需要在支持的群組中，並且機器人已經加入該群組。,只需要在支持的群組中，並且機器人已經加入該群組。,只需要在支持的群組中，並且機器人已經加入該群組。,只需要在支持的群組中，並且機器人已經加入該群組。,只需要在支持的群組中，並且機器人已經加入該群組。,只需要在支持的群組中，並且機器人已經加入該群組。,只需要在支持的群組中，並且機器人已經加入該群組。,只需要在支持的群組中，並且機器人已經加入該群組。,只需要在支持的群組中，並且機器人已經加入該群組。,只需要在支持的群組中，並且機器人已經加入該群組。,只需要在支持的群組中，並且機器人已經加入該群組。,只需要在支持的群組中，並且機器人已經加入該群組。,只需要在支持的群組中，並且機器人已經加入該群組。,只需要在支持的群組中，並且機器人已經加入該群組。,只需要在支持的群組中，並且機器人已經加入該群組。,只需要在支持的群組中，並且機器人已經加入該群組。,只需要在支持的群組中，並且機器人已經加入該群組。,只需要在支持的群組中，並且機器人已經加入該群組。,只需要在支持的群組中，並且機器人已經加入該群組。
+claim,faq.a20,在高風險情境會啟用根據用戶填入的信息進行驗證，請在出金時務必填寫正確的安全信息，若未填寫正確的信息，將無法通過生物及證件KYC。,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+claim,faq.a21,限制通常是暫時的防護措施。請到機器人發送 /report 信息內容。未完成安全信息填寫的驗證者的問題不予處理，完成驗證若情況正常屬實，我們會處理。,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+claim,faq.a22,每個發放紅包的項目方不一樣，請關注紅包信息的時間和剩餘名額；你可開啟 Telegram 通知，或設定特別的通知音效，方便你收到搶紅包的提醒。,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+claim,faq.a23,這是你的Telegram上的設定，並不是在moonpacket的設置，你可以自己到telegram的設置內設定通知。,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+claim,faq.a24,某些地區政策不適用，系統會自動隱藏或無法提現，這表示你無法參與搶紅包遊戲，該地區暫不支援。,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+claim,faq.a25,站內會依你的語言自動套用在地化分隔符與小數位數；我們顯示最多到小數點後8位，如果你的代幣的數值已經超出可顯示範圍。,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+claim,faq.a26,可以，建議使用最新版 Telegram。若遇到無法讀取，請確認是否使用官方的客戶單，或更新 App 或在mini app頁面上右上角的三個點點擊Reload Page。,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+claim,faq.a27,不會影響記錄，但若短時間內在多裝置重複操作，可能會觸發風控。,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+claim,faq.a28,如果你使用的是高風險代理可能被攔截。建議暫時關閉代理或更換乾淨的網路環境再試。,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+claim,faq.a29,遵循最小化原則：只蒐集為發放／提現／風控必需的資料（如個人安全問題、錢包地址、email、Telegram ID，當必要身份校驗時，我們由第三方校驗平台校驗，平台並不儲存用戶除了安全信息之外的的隱私信息。）。,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+claim,faq.a3,通常所有 Telegram 使用者皆可；但由於每個群組自己設計的API不一樣，可以接受領取紅包的條件不同，請參照該群紅包發放的規定。,在群組中看到紅包消息時，點擊「領取」按鈕即可。,Tap the Claim button when you see the packet message in the group.,在群組中看到紅包消息時，點擊「領取」按鈕即可。,在群組中看到紅包消息時，點擊「領取」按鈕即可。,在群組中看到紅包消息時，點擊「領取」按鈕即可。,在群組中看到紅包消息時，點擊「領取」按鈕即可。,在群組中看到紅包消息時，點擊「領取」按鈕即可。,在群組中看到紅包消息時，點擊「領取」按鈕即可。,在群組中看到紅包消息時，點擊「領取」按鈕即可。,在群組中看到紅包消息時，點擊「領取」按鈕即可。,在群組中看到紅包消息時，點擊「領取」按鈕即可。,在群組中看到紅包消息時，點擊「領取」按鈕即可。,在群組中看到紅包消息時，點擊「領取」按鈕即可。,在群組中看到紅包消息時，點擊「領取」按鈕即可。,在群組中看到紅包消息時，點擊「領取」按鈕即可。,在群組中看到紅包消息時，點擊「領取」按鈕即可。,在群組中看到紅包消息時，點擊「領取」按鈕即可。,在群組中看到紅包消息時，點擊「領取」按鈕即可。,在群組中看到紅包消息時，點擊「領取」按鈕即可。,在群組中看到紅包消息時，點擊「領取」按鈕即可。,在群組中看到紅包消息時，點擊「領取」按鈕即可。,在群組中看到紅包消息時，點擊「領取」按鈕即可。,在群組中看到紅包消息時，點擊「領取」按鈕即可。,在群組中看到紅包消息時，點擊「領取」按鈕即可。,在群組中看到紅包消息時，點擊「領取」按鈕即可。,在群組中看到紅包消息時，點擊「領取」按鈕即可。,在群組中看到紅包消息時，點擊「領取」按鈕即可。,在群組中看到紅包消息時，點擊「領取」按鈕即可。,在群組中看到紅包消息時，點擊「領取」按鈕即可。,在群組中看到紅包消息時，點擊「領取」按鈕即可。,在群組中看到紅包消息時，點擊「領取」按鈕即可。,在群組中看到紅包消息時，點擊「領取」按鈕即可。
+claim,faq.a30,所有關鍵操作會有二次驗證；高風險提現可能會觸發人工復核。,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+claim,faq.a31,可依流程提出資料存取或刪除申請，賬號被刪除後將無法再登錄；但合規要求下會保留交易資料。,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+claim,faq.a32,你可在機器人提交/report 信息內容聯繫我們；提供錯誤碼與截圖可加速處理。,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+claim,faq.a33,一般 1–3 個工作日內回覆；緊急資金相關案件會優先處理。,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+claim,faq.a34,可以；各活動規則獨立，請留意每個活動的上限與有效期。,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+claim,faq.a35,部分活動會有榜單／徽章與抽獎；規則與獎勵請參考活動頁說明。,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+claim,faq.a4,這個是大部分群主不允許的行為。系統會以 Telegram 帳號 + 綁定的gmail、驗證碼、唯一錢包地址、降低moonini積分權重等，降低用戶重複領取的可能。,每個紅包每人只能領取一次，先到先得。,"Each person can claim once per packet. First come, first served.",每個紅包每人只能領取一次，先到先得。,每個紅包每人只能領取一次，先到先得。,每個紅包每人只能領取一次，先到先得。,每個紅包每人只能領取一次，先到先得。,每個紅包每人只能領取一次，先到先得。,每個紅包每人只能領取一次，先到先得。,每個紅包每人只能領取一次，先到先得。,每個紅包每人只能領取一次，先到先得。,每個紅包每人只能領取一次，先到先得。,每個紅包每人只能領取一次，先到先得。,每個紅包每人只能領取一次，先到先得。,每個紅包每人只能領取一次，先到先得。,每個紅包每人只能領取一次，先到先得。,每個紅包每人只能領取一次，先到先得。,每個紅包每人只能領取一次，先到先得。,每個紅包每人只能領取一次，先到先得。,每個紅包每人只能領取一次，先到先得。,每個紅包每人只能領取一次，先到先得。,每個紅包每人只能領取一次，先到先得。,每個紅包每人只能領取一次，先到先得。,每個紅包每人只能領取一次，先到先得。,每個紅包每人只能領取一次，先到先得。,每個紅包每人只能領取一次，先到先得。,每個紅包每人只能領取一次，先到先得。,每個紅包每人只能領取一次，先到先得。,每個紅包每人只能領取一次，先到先得。,每個紅包每人只能領取一次，先到先得。,每個紅包每人只能領取一次，先到先得。,每個紅包每人只能領取一次，先到先得。,每個紅包每人只能領取一次，先到先得。
+claim,faq.a5,群或頻道主的項目活動方可選「隨機」或「平均分配」或「指定」，每個群的規則不同，請參照領紅包各個群的的活動說明信息中的標示。,可能是網絡問題、餘額不足或紅包已被領完。,"Network issues, zero balance, or the packet has already been fully claimed.",可能是網絡問題、餘額不足或紅包已被領完。,可能是網絡問題、餘額不足或紅包已被領完。,可能是網絡問題、餘額不足或紅包已被領完。,可能是網絡問題、餘額不足或紅包已被領完。,可能是網絡問題、餘額不足或紅包已被領完。,可能是網絡問題、餘額不足或紅包已被領完。,可能是網絡問題、餘額不足或紅包已被領完。,可能是網絡問題、餘額不足或紅包已被領完。,可能是網絡問題、餘額不足或紅包已被領完。,可能是網絡問題、餘額不足或紅包已被領完。,可能是網絡問題、餘額不足或紅包已被領完。,可能是網絡問題、餘額不足或紅包已被領完。,可能是網絡問題、餘額不足或紅包已被領完。,可能是網絡問題、餘額不足或紅包已被領完。,可能是網絡問題、餘額不足或紅包已被領完。,可能是網絡問題、餘額不足或紅包已被領完。,可能是網絡問題、餘額不足或紅包已被領完。,可能是網絡問題、餘額不足或紅包已被領完。,可能是網絡問題、餘額不足或紅包已被領完。,可能是網絡問題、餘額不足或紅包已被領完。,可能是網絡問題、餘額不足或紅包已被領完。,可能是網絡問題、餘額不足或紅包已被領完。,可能是網絡問題、餘額不足或紅包已被領完。,可能是網絡問題、餘額不足或紅包已被領完。,可能是網絡問題、餘額不足或紅包已被領完。,可能是網絡問題、餘額不足或紅包已被領完。,可能是網絡問題、餘額不足或紅包已被領完。,可能是網絡問題、餘額不足或紅包已被領完。,可能是網絡問題、餘額不足或紅包已被領完。,可能是網絡問題、餘額不足或紅包已被領完。
+claim,faq.a6,moonpacket 祇有提供紅包，紅包系統做為輔助機器人工具，和各個平臺的運營商並沒有投資或是業務上的從屬關係，因此平臺方並不會去偏向紅包發放方，提供失去平衡的設計，一切都在 moonpacket 平臺的公平公正的算法下分配。,可以在機器人私聊中查看您的領取歷史記錄。,Check your chat with the bot.,可以在機器人私聊中查看您的領取歷史記錄。,可以在機器人私聊中查看您的領取歷史記錄。,可以在機器人私聊中查看您的領取歷史記錄。,可以在機器人私聊中查看您的領取歷史記錄。,可以在機器人私聊中查看您的領取歷史記錄。,可以在機器人私聊中查看您的領取歷史記錄。,可以在機器人私聊中查看您的領取歷史記錄。,可以在機器人私聊中查看您的領取歷史記錄。,可以在機器人私聊中查看您的領取歷史記錄。,可以在機器人私聊中查看您的領取歷史記錄。,可以在機器人私聊中查看您的領取歷史記錄。,可以在機器人私聊中查看您的領取歷史記錄。,可以在機器人私聊中查看您的領取歷史記錄。,可以在機器人私聊中查看您的領取歷史記錄。,可以在機器人私聊中查看您的領取歷史記錄。,可以在機器人私聊中查看您的領取歷史記錄。,可以在機器人私聊中查看您的領取歷史記錄。,可以在機器人私聊中查看您的領取歷史記錄。,可以在機器人私聊中查看您的領取歷史記錄。,可以在機器人私聊中查看您的領取歷史記錄。,可以在機器人私聊中查看您的領取歷史記錄。,可以在機器人私聊中查看您的領取歷史記錄。,可以在機器人私聊中查看您的領取歷史記錄。,可以在機器人私聊中查看您的領取歷史記錄。,可以在機器人私聊中查看您的領取歷史記錄。,可以在機器人私聊中查看您的領取歷史記錄。,可以在機器人私聊中查看您的領取歷史記錄。,可以在機器人私聊中查看您的領取歷史記錄。,可以在機器人私聊中查看您的領取歷史記錄。,可以在機器人私聊中查看您的領取歷史記錄。
+claim,faq.a7,依項目方設計的活動設定而定。有的單次，有的是每日限領，若有「每人多次」上限，系統也會自動限制並在達上限後提示。,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+claim,faq.a8,若份數搶完或到期即結束；或主辦方也因異常風險暫停或終止，紅包頁面會隨後進行更新，但是由於跨平臺的原因啊，它會有一些延遲，因此假設你再點下去後沒有辦法領取，那麼請reload page刷新頁面再確認紅包活動的情況。,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+claim,faq.a9,常見原因：已搶完／任務未完成。少數因為項目分因為風險的暫停或終止。由於群之間的信息更新會有時間差，它並不會被即時反應，請在活動頁發佈群組關注最新紅包信息的發送狀態。,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+claim,faq.q1,如何註冊？,如何註冊？,How do I register?,如何註冊？,如何註冊？,如何註冊？,如何註冊？,如何註冊？,如何註冊？,如何註冊？,如何註冊？,如何註冊？,如何註冊？,如何註冊？,如何註冊？,如何註冊？,如何註冊？,如何註冊？,如何註冊？,如何註冊？,如何註冊？,如何註冊？,如何註冊？,如何註冊？,如何註冊？,如何註冊？,如何註冊？,如何註冊？,如何註冊？,如何註冊？,如何註冊？,如何註冊？,如何註冊？
+claim,faq.q10,什麼是任務解鎖？,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+claim,faq.q11,我明明完成任務了，為何顯示未通過？,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+claim,faq.q12,通關密語在哪裡拿？打錯怎麼辦？,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+claim,faq.q13,外部任務（如網站註冊/交易）如何驗證？,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+claim,faq.q14,領到的金額在哪裡看？,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+claim,faq.q15,支持哪些資產？,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+claim,faq.q16,提現要綁定什麼？要多久？,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+claim,faq.q17,手續費／Gas 誰負擔？,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+claim,faq.q18,可以把餘額轉給朋友或合併嗎？,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+claim,faq.q19,為什麼被判定為可疑或被攔截？,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+claim,faq.q2,我需要安裝什麼或關閉什麼功能？,需要什麼資格？,Who can participate?,需要什麼資格？,需要什麼資格？,需要什麼資格？,需要什麼資格？,需要什麼資格？,需要什麼資格？,需要什麼資格？,需要什麼資格？,需要什麼資格？,需要什麼資格？,需要什麼資格？,需要什麼資格？,需要什麼資格？,需要什麼資格？,需要什麼資格？,需要什麼資格？,需要什麼資格？,需要什麼資格？,需要什麼資格？,需要什麼資格？,需要什麼資格？,需要什麼資格？,需要什麼資格？,需要什麼資格？,需要什麼資格？,需要什麼資格？,需要什麼資格？,需要什麼資格？,需要什麼資格？,需要什麼資格？
+claim,faq.q20,會需要做KYC驗證（驗證碼）嗎？,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+claim,faq.q21,我的帳號被限制怎麼辦？,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+claim,faq.q22,每個紅包活動什麼時候開始／結束？,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+claim,faq.q23,能開啟或關閉收到我領到／提現完成的通知嗎？,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+claim,faq.q24,我看不到某些提現方式或玩法？,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+claim,faq.q25,數字格式顯示到小數點後幾位？,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+claim,faq.q26,iOS/Android/桌面版 Telegram 都可用嗎？,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+claim,faq.q27,換裝置會影響領取嗎？,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+claim,faq.q28,我使用 VPN／代理，會有影響嗎？,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+claim,faq.q29,會蒐集哪些資料？,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+claim,faq.q3,哪些人可以參加？,如何領取紅包？,How do I claim a red packet?,如何領取紅包？,如何領取紅包？,如何領取紅包？,如何領取紅包？,如何領取紅包？,如何領取紅包？,如何領取紅包？,如何領取紅包？,如何領取紅包？,如何領取紅包？,如何領取紅包？,如何領取紅包？,如何領取紅包？,如何領取紅包？,如何領取紅包？,如何領取紅包？,如何領取紅包？,如何領取紅包？,如何領取紅包？,如何領取紅包？,如何領取紅包？,如何領取紅包？,如何領取紅包？,如何領取紅包？,如何領取紅包？,如何領取紅包？,如何領取紅包？,如何領取紅包？,如何領取紅包？,如何領取紅包？
+claim,faq.q30,有什麼資金安全的保障方式？,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+claim,faq.q31,我可以刪除帳號或資料嗎？,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+claim,faq.q32,遇到問題要找誰？,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+claim,faq.q33,申訴要多久回覆？,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+claim,faq.q34,可以參加多個群組的活動嗎？,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+claim,faq.q35,是否有排行榜或勳章？,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+claim,faq.q4,可以用多個帳號或裝置領嗎？,領取有限制嗎？,Any limits?,領取有限制嗎？,領取有限制嗎？,領取有限制嗎？,領取有限制嗎？,領取有限制嗎？,領取有限制嗎？,領取有限制嗎？,領取有限制嗎？,領取有限制嗎？,領取有限制嗎？,領取有限制嗎？,領取有限制嗎？,領取有限制嗎？,領取有限制嗎？,領取有限制嗎？,領取有限制嗎？,領取有限制嗎？,領取有限制嗎？,領取有限制嗎？,領取有限制嗎？,領取有限制嗎？,領取有限制嗎？,領取有限制嗎？,領取有限制嗎？,領取有限制嗎？,領取有限制嗎？,領取有限制嗎？,領取有限制嗎？,領取有限制嗎？,領取有限制嗎？
+claim,faq.q5,紅包是隨機還是平均？,為什麼領取失敗？,Why did my claim fail?,為什麼領取失敗？,為什麼領取失敗？,為什麼領取失敗？,為什麼領取失敗？,為什麼領取失敗？,為什麼領取失敗？,為什麼領取失敗？,為什麼領取失敗？,為什麼領取失敗？,為什麼領取失敗？,為什麼領取失敗？,為什麼領取失敗？,為什麼領取失敗？,為什麼領取失敗？,為什麼領取失敗？,為什麼領取失敗？,為什麼領取失敗？,為什麼領取失敗？,為什麼領取失敗？,為什麼領取失敗？,為什麼領取失敗？,為什麼領取失敗？,為什麼領取失敗？,為什麼領取失敗？,為什麼領取失敗？,為什麼領取失敗？,為什麼領取失敗？,為什麼領取失敗？,為什麼領取失敗？,為什麼領取失敗？
+claim,faq.q6,怎麼確保公平？我在那邊看到我的紅包結果？,如何查看領取記錄？,Where to view my claim history?,如何查看領取記錄？,如何查看領取記錄？,如何查看領取記錄？,如何查看領取記錄？,如何查看領取記錄？,如何查看領取記錄？,如何查看領取記錄？,如何查看領取記錄？,如何查看領取記錄？,如何查看領取記錄？,如何查看領取記錄？,如何查看領取記錄？,如何查看領取記錄？,如何查看領取記錄？,如何查看領取記錄？,如何查看領取記錄？,如何查看領取記錄？,如何查看領取記錄？,如何查看領取記錄？,如何查看領取記錄？,如何查看領取記錄？,如何查看領取記錄？,如何查看領取記錄？,如何查看領取記錄？,如何查看領取記錄？,如何查看領取記錄？,如何查看領取記錄？,如何查看領取記錄？,如何查看領取記錄？,如何查看領取記錄？
+claim,faq.q7,每人可以領幾次？,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+claim,faq.q8,活動會不會提前結束或延期？,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+claim,faq.q9,為什麼按了還是領不到？,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+claim,faq.section_1,開始與資格,1) 開始與資格,Getting started,1) 開始與資格,1) 開始與資格,1) 開始與資格,1) 開始與資格,1) 開始與資格,1) 開始與資格,1) 開始與資格,1) 開始與資格,1) 開始與資格,1) 開始與資格,1) 開始與資格,1) 開始與資格,1) 開始與資格,1) 開始與資格,1) 開始與資格,1) 開始與資格,1) 開始與資格,1) 開始與資格,1) 開始與資格,1) 開始與資格,1) 開始與資格,1) 開始與資格,1) 開始與資格,1) 開始與資格,1) 開始與資格,1) 開始與資格,1) 開始與資格,1) 開始與資格,1) 開始與資格,1) 開始與資格
+claim,faq.section_10,客服與申訴,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+claim,faq.section_11,其他玩法與資訊,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+claim,faq.section_2,活動規則與公平,2) 領取流程,How to claim,2) 領取流程,2) 領取流程,2) 領取流程,2) 領取流程,2) 領取流程,2) 領取流程,2) 領取流程,2) 領取流程,2) 領取流程,2) 領取流程,2) 領取流程,2) 領取流程,2) 領取流程,2) 領取流程,2) 領取流程,2) 領取流程,2) 領取流程,2) 領取流程,2) 領取流程,2) 領取流程,2) 領取流程,2) 領取流程,2) 領取流程,2) 領取流程,2) 領取流程,2) 領取流程,2) 領取流程,2) 領取流程,2) 領取流程,2) 領取流程
+claim,faq.section_3,領取流程與任務,3) 常見問題,Common questions,3) 常見問題,3) 常見問題,3) 常見問題,3) 常見問題,3) 常見問題,3) 常見問題,3) 常見問題,3) 常見問題,3) 常見問題,3) 常見問題,3) 常見問題,3) 常見問題,3) 常見問題,3) 常見問題,3) 常見問題,3) 常見問題,3) 常見問題,3) 常見問題,3) 常見問題,3) 常見問題,3) 常見問題,3) 常見問題,3) 常見問題,3) 常見問題,3) 常見問題,3) 常見問題,3) 常見問題,3) 常見問題,3) 常見問題,3) 常見問題
+claim,faq.section_4,金額、餘額與提現,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+claim,faq.section_5,風控與限制,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+claim,faq.section_6,時效與通知,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+claim,faq.section_7,多語系與地區差異,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+claim,faq.section_8,裝置與相容性,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+claim,faq.section_9,隱私與安全,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+claim,faq.tip,小提示：領到了紅包，不要忘記和群主說謝謝哦，也要記得到群主的社交媒體去給他按贊贊。,"Tip: After you claim a red packet, don’t forget to thank the organiser. A like on their social posts helps too!","Tip: After claiming, say thanks to the organiser and drop a like on their social!",小提示：領到了紅包，不要忘記和群主說謝謝哦，也要記得到群主的社交媒體去給他按贊贊。,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+claim,title,關於領紅包,關於領紅包,About Claiming,⟪TODO⟫ zh-TW: 關於領紅包,⟪TODO⟫ zh-TW: 關於領紅包,⟪TODO⟫ zh-TW: 關於領紅包,⟪TODO⟫ zh-TW: 關於領紅包,⟪TODO⟫ zh-TW: 關於領紅包,⟪TODO⟫ zh-TW: 關於領紅包,⟪TODO⟫ zh-TW: 關於領紅包,⟪TODO⟫ zh-TW: 關於領紅包,⟪TODO⟫ zh-TW: 關於領紅包,⟪TODO⟫ zh-TW: 關於領紅包,⟪TODO⟫ zh-TW: 關於領紅包,⟪TODO⟫ zh-TW: 關於領紅包,⟪TODO⟫ zh-TW: 關於領紅包,⟪TODO⟫ zh-TW: 關於領紅包,⟪TODO⟫ zh-TW: 關於領紅包,⟪TODO⟫ zh-TW: 關於領紅包,⟪TODO⟫ zh-TW: 關於領紅包,⟪TODO⟫ zh-TW: 關於領紅包,⟪TODO⟫ zh-TW: 關於領紅包,⟪TODO⟫ zh-TW: 關於領紅包,⟪TODO⟫ zh-TW: 關於領紅包,⟪TODO⟫ zh-TW: 關於領紅包,⟪TODO⟫ zh-TW: 關於領紅包,⟪TODO⟫ zh-TW: 關於領紅包,⟪TODO⟫ zh-TW: 關於領紅包,⟪TODO⟫ zh-TW: 關於領紅包,⟪TODO⟫ zh-TW: 關於領紅包,⟪TODO⟫ zh-TW: 關於領紅包,⟪TODO⟫ zh-TW: 關於領紅包,⟪TODO⟫ zh-TW: 關於領紅包
+privacy,content.changes,"我們可能不時更新本隱私權條款。重大變更會透過以下方式通知：
+• 網站公告
+• 電子郵件通知
+• 應用程式內通知
+• 繼續使用服務即表示接受更新條款",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+privacy,content.children_privacy,我們不會故意蒐集 13 歲以下兒童的個人資料。如果發現此類資料，我們會立即刪除。,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+privacy,content.contact,"如有任何隱私相關問題，請聯絡我們：
+• 電子郵件：privacy@moonpacket.com
+• Telegram：@MoonPackageDevBot
+• 我們會在 30 天內回覆您的詢問",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+privacy,content.cookies,"我們使用 Cookie 和類似技術：
+• 必要 Cookie：維持服務功能
+• 分析 Cookie：了解使用情況
+• 偏好 Cookie：記住您的設定
+• 您可以透過瀏覽器設定管理 Cookie",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+privacy,content.data_collection,"我們蒐集的資料類型：
+• 基本資料：Telegram ID、用戶名、頭像
+• 聯絡資料：電子郵件地址（如提供）
+• 交易資料：紅包領取記錄、提現記錄
+• 技術資料：IP 地址、設備資訊、瀏覽器類型
+• 使用資料：活動參與記錄、偏好設定",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+privacy,content.data_security,"我們採取以下安全措施保護您的資料：
+• 加密傳輸和儲存
+• 定期安全審計
+• 存取控制和權限管理
+• 員工隱私培訓
+• 事件回應計劃",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+privacy,content.data_sharing,"我們不會出售您的個人資料。我們可能與以下第三方分享資料：
+• 服務提供商（如雲端儲存、分析工具）
+• 法律要求時與執法機關
+• 經您同意的其他情況",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+privacy,content.data_usage,"我們使用您的資料用於：
+• 提供和改善我們的服務
+• 處理紅包發放和領取
+• 防止詐欺和濫用
+• 提供客戶支援
+• 遵守法律義務
+• 進行數據分析以改善用戶體驗",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+privacy,content.definitions,"在本條款中：
+• 「我們」、「我們的」指 moonpacket 團隊
+• 「您」、「用戶」指使用我們服務的個人
+• 「服務」指 moonpacket 提供的所有功能和服務
+• 「個人資料」指可識別您身份的任何資訊",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+privacy,content.international_transfers,"您的資料可能被傳輸到其他國家。我們確保適當的保護措施，包括：
+• 標準合約條款
+• 充分性決定
+• 其他適當的保護措施",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+privacy,content.intro,本隱私權條款說明 moonpacket 如何蒐集、使用、儲存和保護您的個人資料。我們重視您的隱私權，並承諾以透明、安全的方式處理您的資料。,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+privacy,content.third_party,"我們可能使用第三方服務：
+• 雲端儲存服務
+• 分析工具
+• 支付處理商
+• 這些服務商有自己的隱私政策",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+privacy,content.user_rights,"您有權：
+• 存取您的個人資料
+• 更正不準確的資料
+• 刪除您的資料
+• 限制資料處理
+• 資料可攜權
+• 反對資料處理",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+privacy,owner,moonpacket 團隊,moonpacket,moonpacket,moonpacket,moonpacket,moonpacket,moonpacket,moonpacket,moonpacket,moonpacket,moonpacket,moonpacket,moonpacket,moonpacket,moonpacket,moonpacket,moonpacket,moonpacket,moonpacket,moonpacket,moonpacket,moonpacket,moonpacket,moonpacket,moonpacket,moonpacket,moonpacket,moonpacket,moonpacket,moonpacket,moonpacket,moonpacket,moonpacket
+privacy,sections.changes,條款變更,條款變更,條款變更,條款變更,條款變更,條款變更,條款變更,條款變更,條款變更,條款變更,條款變更,條款變更,條款變更,條款變更,條款變更,條款變更,條款變更,條款變更,條款變更,條款變更,條款變更,條款變更,條款變更,條款變更,條款變更,條款變更,條款變更,條款變更,條款變更,條款變更,條款變更,條款變更,條款變更
+privacy,sections.children_privacy,兒童隱私,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+privacy,sections.contact,聯絡我們,聯絡我們,聯絡我們,聯絡我們,聯絡我們,聯絡我們,聯絡我們,聯絡我們,聯絡我們,聯絡我們,聯絡我們,聯絡我們,聯絡我們,聯絡我們,聯絡我們,聯絡我們,聯絡我們,聯絡我們,聯絡我們,聯絡我們,聯絡我們,聯絡我們,聯絡我們,聯絡我們,聯絡我們,聯絡我們,聯絡我們,聯絡我們,聯絡我們,聯絡我們,聯絡我們,聯絡我們,聯絡我們
+privacy,sections.cookies,Cookie 政策,Cookies,Cookies,Cookies,Cookies,Cookies,Cookies,Cookies,Cookies,Cookies,Cookies,Cookies,Cookies,Cookies,Cookies,Cookies,Cookies,Cookies,Cookies,Cookies,Cookies,Cookies,Cookies,Cookies,Cookies,Cookies,Cookies,Cookies,Cookies,Cookies,Cookies,Cookies,Cookies
+privacy,sections.data_collection,資料蒐集,資料收集,資料收集,資料收集,資料收集,資料收集,資料收集,資料收集,資料收集,資料收集,資料收集,資料收集,資料收集,資料收集,資料收集,資料收集,資料收集,資料收集,資料收集,資料收集,資料收集,資料收集,資料收集,資料收集,資料收集,資料收集,資料收集,資料收集,資料收集,資料收集,資料收集,資料收集,資料收集
+privacy,sections.data_security,資料安全,資料安全,資料安全,資料安全,資料安全,資料安全,資料安全,資料安全,資料安全,資料安全,資料安全,資料安全,資料安全,資料安全,資料安全,資料安全,資料安全,資料安全,資料安全,資料安全,資料安全,資料安全,資料安全,資料安全,資料安全,資料安全,資料安全,資料安全,資料安全,資料安全,資料安全,資料安全,資料安全
+privacy,sections.data_sharing,資料分享,資料分享,資料分享,資料分享,資料分享,資料分享,資料分享,資料分享,資料分享,資料分享,資料分享,資料分享,資料分享,資料分享,資料分享,資料分享,資料分享,資料分享,資料分享,資料分享,資料分享,資料分享,資料分享,資料分享,資料分享,資料分享,資料分享,資料分享,資料分享,資料分享,資料分享,資料分享,資料分享
+privacy,sections.data_usage,資料使用,資料使用,資料使用,資料使用,資料使用,資料使用,資料使用,資料使用,資料使用,資料使用,資料使用,資料使用,資料使用,資料使用,資料使用,資料使用,資料使用,資料使用,資料使用,資料使用,資料使用,資料使用,資料使用,資料使用,資料使用,資料使用,資料使用,資料使用,資料使用,資料使用,資料使用,資料使用,資料使用
+privacy,sections.definitions,定義,定義,定義,定義,定義,定義,定義,定義,定義,定義,定義,定義,定義,定義,定義,定義,定義,定義,定義,定義,定義,定義,定義,定義,定義,定義,定義,定義,定義,定義,定義,定義,定義
+privacy,sections.international_transfers,國際傳輸,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+privacy,sections.intro,簡介,簡介,簡介,簡介,簡介,簡介,簡介,簡介,簡介,簡介,簡介,簡介,簡介,簡介,簡介,簡介,簡介,簡介,簡介,簡介,簡介,簡介,簡介,簡介,簡介,簡介,簡介,簡介,簡介,簡介,簡介,簡介,簡介
+privacy,sections.third_party,第三方服務,第三方服務,第三方服務,第三方服務,第三方服務,第三方服務,第三方服務,第三方服務,第三方服務,第三方服務,第三方服務,第三方服務,第三方服務,第三方服務,第三方服務,第三方服務,第三方服務,第三方服務,第三方服務,第三方服務,第三方服務,第三方服務,第三方服務,第三方服務,第三方服務,第三方服務,第三方服務,第三方服務,第三方服務,第三方服務,第三方服務,第三方服務,第三方服務
+privacy,sections.user_rights,用戶權利,用戶權利,用戶權利,用戶權利,用戶權利,用戶權利,用戶權利,用戶權利,用戶權利,用戶權利,用戶權利,用戶權利,用戶權利,用戶權利,用戶權利,用戶權利,用戶權利,用戶權利,用戶權利,用戶權利,用戶權利,用戶權利,用戶權利,用戶權利,用戶權利,用戶權利,用戶權利,用戶權利,用戶權利,用戶權利,用戶權利,用戶權利,用戶權利
+privacy,title,moonpacket 隱私權條款（Privacy Policy）,moonpacket 隱私權條款（Privacy Policy）,moonpacket 隱私權條款（Privacy Policy）,moonpacket 隱私權條款（Privacy Policy）,moonpacket 隱私權條款（Privacy Policy）,moonpacket 隱私權條款（Privacy Policy）,moonpacket 隱私權條款（Privacy Policy）,moonpacket 隱私權條款（Privacy Policy）,moonpacket 隱私權條款（Privacy Policy）,moonpacket 隱私權條款（Privacy Policy）,moonpacket 隱私權條款（Privacy Policy）,moonpacket 隱私權條款（Privacy Policy）,moonpacket 隱私權條款（Privacy Policy）,moonpacket 隱私權條款（Privacy Policy）,moonpacket 隱私權條款（Privacy Policy）,moonpacket 隱私權條款（Privacy Policy）,moonpacket 隱私權條款（Privacy Policy）,moonpacket 隱私權條款（Privacy Policy）,moonpacket 隱私權條款（Privacy Policy）,moonpacket 隱私權條款（Privacy Policy）,moonpacket 隱私權條款（Privacy Policy）,moonpacket 隱私權條款（Privacy Policy）,moonpacket 隱私權條款（Privacy Policy）,moonpacket 隱私權條款（Privacy Policy）,moonpacket 隱私權條款（Privacy Policy）,moonpacket 隱私權條款（Privacy Policy）,moonpacket 隱私權條款（Privacy Policy）,moonpacket 隱私權條款（Privacy Policy）,moonpacket 隱私權條款（Privacy Policy）,moonpacket 隱私權條款（Privacy Policy）,moonpacket 隱私權條款（Privacy Policy）,moonpacket 隱私權條款（Privacy Policy）,moonpacket 隱私權條款（Privacy Policy）
+privacy,updated,2025-10-07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+privacy,version,v1.0.0,v1.0.0,v1.0.0,v1.0.0,v1.0.0,v1.0.0,v1.0.0,v1.0.0,v1.0.0,v1.0.0,v1.0.0,v1.0.0,v1.0.0,v1.0.0,v1.0.0,v1.0.0,v1.0.0,v1.0.0,v1.0.0,v1.0.0,v1.0.0,v1.0.0,v1.0.0,v1.0.0,v1.0.0,v1.0.0,v1.0.0,v1.0.0,v1.0.0,v1.0.0,v1.0.0,v1.0.0,v1.0.0
+send,faq.a1,把 moonpacket 機器人加入你的 Telegram 群組或頻道，並設為管理員。,Add the moonpacket bot to your Telegram group or channel and grant admin permission.,Add the moonpacket bot to your Telegram group or channel and grant admin permission.,把 moonpacket 機器人加入你的 Telegram 群組或頻道，並設為管理員。,Add the moonpacket bot to your Telegram group or channel and grant admin permission.,Add the moonpacket bot to your Telegram group or channel and grant admin permission.,Add the moonpacket bot to your Telegram group or channel and grant admin permission.,Add the moonpacket bot to your Telegram group or channel and grant admin permission.,Add the moonpacket bot to your Telegram group or channel and grant admin permission.,Add the moonpacket bot to your Telegram group or channel and grant admin permission.,Add the moonpacket bot to your Telegram group or channel and grant admin permission.,Add the moonpacket bot to your Telegram group or channel and grant admin permission.,Add the moonpacket bot to your Telegram group or channel and grant admin permission.,Add the moonpacket bot to your Telegram group or channel and grant admin permission.,Add the moonpacket bot to your Telegram group or channel and grant admin permission.,Add the moonpacket bot to your Telegram group or channel and grant admin permission.,Add the moonpacket bot to your Telegram group or channel and grant admin permission.,Add the moonpacket bot to your Telegram group or channel and grant admin permission.,Add the moonpacket bot to your Telegram group or channel and grant admin permission.,Add the moonpacket bot to your Telegram group or channel and grant admin permission.,Add the moonpacket bot to your Telegram group or channel and grant admin permission.,Add the moonpacket bot to your Telegram group or channel and grant admin permission.,Add the moonpacket bot to your Telegram group or channel and grant admin permission.,Add the moonpacket bot to your Telegram group or channel and grant admin permission.,Add the moonpacket bot to your Telegram group or channel and grant admin permission.,Add the moonpacket bot to your Telegram group or channel and grant admin permission.,Add the moonpacket bot to your Telegram group or channel and grant admin permission.,Add the moonpacket bot to your Telegram group or channel and grant admin permission.,Add the moonpacket bot to your Telegram group or channel and grant admin permission.,Add the moonpacket bot to your Telegram group or channel and grant admin permission.,Add the moonpacket bot to your Telegram group or channel and grant admin permission.,Add the moonpacket bot to your Telegram group or channel and grant admin permission.,Add the moonpacket bot to your Telegram group or channel and grant admin permission.
+send,faq.a10,"• 未領取的紅包會自動退回您的錢包
+• 可在活動結束後 7 天內申請退款
+• 退款手續費：1-3%（根據代幣類型）",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+send,faq.a10_api,可以。moonpacket 會在用戶領取前，呼叫你提供的只讀 API 進行校驗。後台只需設定 api_url、api_key（可選擇設定允許的網域）。,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+send,faq.a11,"可以，但建議：
+• 同一群組最多 3 個活動同時進行
+• 避免活動時間重疊
+• 確保有足夠的資金支持",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+send,faq.a12,"• 提供專屬客服通道
+• 24 小時內回應
+• 完整的活動記錄可供查詢
+• 必要時可暫停或終止活動",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+send,faq.a12_antibot_items,"行為頻率與設備/IP 檢測,帳號與錢包唯一綁定,提領驗證碼,AI 風控初審；必要時第三方生物認證 + 人臉 + 證件",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+send,faq.a13,"• 7x24 技術支援
+• 詳細的 API 文檔
+• 社群開發者支援
+• 定期功能更新",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+send,faq.a13_records,請到你的個人首頁查看「我發送的紅包」，可見每場的領取人數、剩餘份數與消耗金額；若已啟用，亦可下載報表。,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+send,faq.a14,"• 根據數據調整活動策略
+• A/B 測試不同規則組合
+• 參考成功案例
+• 定期收集用戶反饋",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+send,faq.a2,請先存入想要發放的資產（例如先存 10 USDT 做測試）。,"Deposit the asset you plan to distribute (for example, top up 10 USDT for testing).",Deposit the asset you plan to distribute (e.g. top up 10 USDT for testing).,請先存入想要發放的資產（例如先存 10 USDT 做測試）。,"Deposit the asset you plan to distribute (for example, top up 10 USDT for testing).","Deposit the asset you plan to distribute (for example, top up 10 USDT for testing).","Deposit the asset you plan to distribute (for example, top up 10 USDT for testing).","Deposit the asset you plan to distribute (for example, top up 10 USDT for testing).","Deposit the asset you plan to distribute (for example, top up 10 USDT for testing).","Deposit the asset you plan to distribute (for example, top up 10 USDT for testing).","Deposit the asset you plan to distribute (for example, top up 10 USDT for testing).","Deposit the asset you plan to distribute (for example, top up 10 USDT for testing).","Deposit the asset you plan to distribute (for example, top up 10 USDT for testing).","Deposit the asset you plan to distribute (for example, top up 10 USDT for testing).","Deposit the asset you plan to distribute (for example, top up 10 USDT for testing).","Deposit the asset you plan to distribute (for example, top up 10 USDT for testing).","Deposit the asset you plan to distribute (for example, top up 10 USDT for testing).","Deposit the asset you plan to distribute (for example, top up 10 USDT for testing).","Deposit the asset you plan to distribute (for example, top up 10 USDT for testing).","Deposit the asset you plan to distribute (for example, top up 10 USDT for testing).","Deposit the asset you plan to distribute (for example, top up 10 USDT for testing).","Deposit the asset you plan to distribute (for example, top up 10 USDT for testing).","Deposit the asset you plan to distribute (for example, top up 10 USDT for testing).","Deposit the asset you plan to distribute (for example, top up 10 USDT for testing).","Deposit the asset you plan to distribute (for example, top up 10 USDT for testing).","Deposit the asset you plan to distribute (for example, top up 10 USDT for testing).","Deposit the asset you plan to distribute (for example, top up 10 USDT for testing).","Deposit the asset you plan to distribute (for example, top up 10 USDT for testing).","Deposit the asset you plan to distribute (for example, top up 10 USDT for testing).","Deposit the asset you plan to distribute (for example, top up 10 USDT for testing).","Deposit the asset you plan to distribute (for example, top up 10 USDT for testing).","Deposit the asset you plan to distribute (for example, top up 10 USDT for testing).","Deposit the asset you plan to distribute (for example, top up 10 USDT for testing)."
+send,faq.a3,在「發送目標」勾選已綁定的群/頻，可單群或多群同時投放。,"In 'Send target', select your linked groups/channels. You can send to one or multiple at once.","In 'Send target', tick your linked groups/channels. Single or multiple destinations are supported.",在「發送目標」勾選已綁定的群/頻，可單群或多群同時投放。,"In 'Send target', select your linked groups/channels. You can send to one or multiple at once.","In 'Send target', select your linked groups/channels. You can send to one or multiple at once.","In 'Send target', select your linked groups/channels. You can send to one or multiple at once.","In 'Send target', select your linked groups/channels. You can send to one or multiple at once.","In 'Send target', select your linked groups/channels. You can send to one or multiple at once.","In 'Send target', select your linked groups/channels. You can send to one or multiple at once.","In 'Send target', select your linked groups/channels. You can send to one or multiple at once.","In 'Send target', select your linked groups/channels. You can send to one or multiple at once.","In 'Send target', select your linked groups/channels. You can send to one or multiple at once.","In 'Send target', select your linked groups/channels. You can send to one or multiple at once.","In 'Send target', select your linked groups/channels. You can send to one or multiple at once.","In 'Send target', select your linked groups/channels. You can send to one or multiple at once.","In 'Send target', select your linked groups/channels. You can send to one or multiple at once.","In 'Send target', select your linked groups/channels. You can send to one or multiple at once.","In 'Send target', select your linked groups/channels. You can send to one or multiple at once.","In 'Send target', select your linked groups/channels. You can send to one or multiple at once.","In 'Send target', select your linked groups/channels. You can send to one or multiple at once.","In 'Send target', select your linked groups/channels. You can send to one or multiple at once.","In 'Send target', select your linked groups/channels. You can send to one or multiple at once.","In 'Send target', select your linked groups/channels. You can send to one or multiple at once.","In 'Send target', select your linked groups/channels. You can send to one or multiple at once.","In 'Send target', select your linked groups/channels. You can send to one or multiple at once.","In 'Send target', select your linked groups/channels. You can send to one or multiple at once.","In 'Send target', select your linked groups/channels. You can send to one or multiple at once.","In 'Send target', select your linked groups/channels. You can send to one or multiple at once.","In 'Send target', select your linked groups/channels. You can send to one or multiple at once.","In 'Send target', select your linked groups/channels. You can send to one or multiple at once.","In 'Send target', select your linked groups/channels. You can send to one or multiple at once.","In 'Send target', select your linked groups/channels. You can send to one or multiple at once."
+send,faq.a4,"• 分配方式：隨機、平均、指定金額
+• 任務要求：關注頻道、加入群組、通關密語、外部任務
+• 時間限制：活動開始/結束時間
+• 參與限制：每人限領次數、地區限制等",,,支援隨機分配和平均分配兩種模式。,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+send,faq.a5,"• 使用區塊鏈技術確保透明性
+• 所有分配記錄可查詢
+• 防作弊機制：IP檢測、設備指紋、行為分析
+• 即時監控異常活動",,,每個 API 密鑰每分鐘最多 60 次調用。,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+send,faq.a6,"已啟動的活動無法修改核心規則（如金額、份數），但可以調整：
+• 任務要求
+• 活動結束時間（延長）
+• 參與限制",,,API 會返回詳細的錯誤碼和錯誤信息。,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+send,faq.a7,"提供即時數據面板：
+• 參與人數統計
+• 領取完成率
+• 用戶反饋分析
+• 社群活躍度提升數據",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+send,faq.a8,"• 平台服務費：2-5%（根據活動規模調整）
+• 區塊鏈手續費：由網路狀況決定
+• 代幣兌換費：如有需要
+• 詳細費用會在創建活動時顯示",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+send,faq.a9,"• 去中心化架構，無需託管資金
+• 智能合約自動執行
+• 多重簽名保護
+• 24/7 安全監控",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+send,faq.a9_passcode,玩家需在外部渠道取得密語，回到頁面正確輸入才可領取。常見做法：,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+send,faq.api_condition_title,條件宣告（無 user_id）,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+send,faq.api_logic_desc,moonpacket 會以「條件宣告」作為門檻，對照「使用者查詢」的實際值；符合即通過，不符則不可領。,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+send,faq.api_operators_desc,eq（可比對任何型別）、gt/lt/gte/lte（需數字）,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+send,faq.api_operators_label,運算子：,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+send,faq.api_response_label,回傳：,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+send,faq.api_security_desc,使用只讀端點、啟用 api_key 與允許網域限制；若需跨網域建議以 Cloudflare Workers 中轉與限流。,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+send,faq.api_security_title,安全建議,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+send,faq.api_user_query_title,使用者查詢（含 user_id）,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+send,faq.passcode_scenarios,"YouTube 長影片中拆分 6 位數字密語，鼓勵完整觀看。,X.com（Twitter） 貼文或 Threads 暗示密語，提升互動。,直播 僅在直播口播密語，引導到場。,私密/付費群 專屬密語，保障福利只給核心成員。",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+send,faq.q1,如何開始？,How do I start?,How do I start?,如何開始？,How do I start?,How do I start?,How do I start?,How do I start?,How do I start?,How do I start?,How do I start?,How do I start?,How do I start?,How do I start?,How do I start?,How do I start?,How do I start?,How do I start?,How do I start?,How do I start?,How do I start?,How do I start?,How do I start?,How do I start?,How do I start?,How do I start?,How do I start?,How do I start?,How do I start?,How do I start?,How do I start?,How do I start?,How do I start?
+send,faq.q10,活動結束後如何處理剩餘資金？,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+send,faq.q10_api,可以用自己的 API 決定誰有資格嗎？,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+send,faq.q11,可以同時進行多個活動嗎？,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+send,faq.q12,如何處理用戶投訴？,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+send,faq.q12_antibot,如何防止作弊與批量機器？,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+send,faq.q13,有技術支援嗎？,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+send,faq.q13_records,到哪裡看我發送的紀錄與領取人數？,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+send,faq.q14,如何優化活動效果？,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+send,faq.q2,發送前需要先做什麼？,What should I prepare before sending?,What should I prepare before sending?,發送前需要先做什麼？,What should I prepare before sending?,What should I prepare before sending?,What should I prepare before sending?,What should I prepare before sending?,What should I prepare before sending?,What should I prepare before sending?,What should I prepare before sending?,What should I prepare before sending?,What should I prepare before sending?,What should I prepare before sending?,What should I prepare before sending?,What should I prepare before sending?,What should I prepare before sending?,What should I prepare before sending?,What should I prepare before sending?,What should I prepare before sending?,What should I prepare before sending?,What should I prepare before sending?,What should I prepare before sending?,What should I prepare before sending?,What should I prepare before sending?,What should I prepare before sending?,What should I prepare before sending?,What should I prepare before sending?,What should I prepare before sending?,What should I prepare before sending?,What should I prepare before sending?,What should I prepare before sending?,What should I prepare before sending?
+send,faq.q3,可以選擇要發到哪裡？,Where can I send to?,Where can I send to?,可以選擇要發到哪裡？,Where can I send to?,Where can I send to?,Where can I send to?,Where can I send to?,Where can I send to?,Where can I send to?,Where can I send to?,Where can I send to?,Where can I send to?,Where can I send to?,Where can I send to?,Where can I send to?,Where can I send to?,Where can I send to?,Where can I send to?,Where can I send to?,Where can I send to?,Where can I send to?,Where can I send to?,Where can I send to?,Where can I send to?,Where can I send to?,Where can I send to?,Where can I send to?,Where can I send to?,Where can I send to?,Where can I send to?,Where can I send to?,Where can I send to?
+send,faq.q4,可以設定哪些活動規則？,,,可以自定義分配方式嗎？,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+send,faq.q5,如何確保活動公平性？,,,API 調用頻率有限制嗎？,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+send,faq.q6,活動期間可以修改規則嗎？,,,如何處理錯誤？,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+send,faq.q7,如何監控活動效果？,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+send,faq.q8,手續費如何計算？,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+send,faq.q9,如何確保資金安全？,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+send,faq.q9_passcode,什麼是通關密語？適合哪些場景？,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+send,faq.section_1,開始與設定,Getting Started,Getting Started,開始與設定,Getting Started,Getting Started,Getting Started,Getting Started,Getting Started,Getting Started,Getting Started,Getting Started,Getting Started,Getting Started,Getting Started,Getting Started,Getting Started,Getting Started,Getting Started,Getting Started,Getting Started,Getting Started,Getting Started,Getting Started,Getting Started,Getting Started,Getting Started,Getting Started,Getting Started,Getting Started,Getting Started,Getting Started,Getting Started
+send,faq.section_2,活動設計與規則,Sending,Sending,2) 發送流程,Sending,Sending,Sending,Sending,Sending,Sending,Sending,Sending,Sending,Sending,Sending,Sending,Sending,Sending,Sending,Sending,Sending,Sending,Sending,Sending,Sending,Sending,Sending,Sending,Sending,Sending,Sending,Sending,Sending
+send,faq.section_3,資金與安全,Technical,Technical,3) 技術問題,Technical,Technical,Technical,Technical,Technical,Technical,Technical,Technical,Technical,Technical,Technical,Technical,Technical,Technical,Technical,Technical,Technical,Technical,Technical,Technical,Technical,Technical,Technical,Technical,Technical,Technical,Technical,Technical,Technical
+send,faq.section_4,數據與分析,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+send,faq.section_5,技術支援與維護,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+send,faq.tip,小提示：發紅包很適合當破冰互動。你可以在紅包貼文下方回覆，說明你想舉辦的遊戲主題。,Tip: Red packets work great as an icebreaker. Reply under the packet post to announce the game/theme you want to run.,Tip: Red packets are perfect icebreakers. Reply under the packet post with the game/theme you plan to run.,小提示：發紅包很適合當破冰互動。你可以在紅包貼文下方回覆，說明你想舉辦的遊戲主題。,Tip: Red packets work great as an icebreaker. Reply under the packet post to announce the game/theme you want to run.,Tip: Red packets work great as an icebreaker. Reply under the packet post to announce the game/theme you want to run.,Tip: Red packets work great as an icebreaker. Reply under the packet post to announce the game/theme you want to run.,Tip: Red packets work great as an icebreaker. Reply under the packet post to announce the game/theme you want to run.,Tip: Red packets work great as an icebreaker. Reply under the packet post to announce the game/theme you want to run.,Tip: Red packets work great as an icebreaker. Reply under the packet post to announce the game/theme you want to run.,Tip: Red packets work great as an icebreaker. Reply under the packet post to announce the game/theme you want to run.,Tip: Red packets work great as an icebreaker. Reply under the packet post to announce the game/theme you want to run.,Tip: Red packets work great as an icebreaker. Reply under the packet post to announce the game/theme you want to run.,Tip: Red packets work great as an icebreaker. Reply under the packet post to announce the game/theme you want to run.,Tip: Red packets work great as an icebreaker. Reply under the packet post to announce the game/theme you want to run.,Tip: Red packets work great as an icebreaker. Reply under the packet post to announce the game/theme you want to run.,Tip: Red packets work great as an icebreaker. Reply under the packet post to announce the game/theme you want to run.,Tip: Red packets work great as an icebreaker. Reply under the packet post to announce the game/theme you want to run.,Tip: Red packets work great as an icebreaker. Reply under the packet post to announce the game/theme you want to run.,Tip: Red packets work great as an icebreaker. Reply under the packet post to announce the game/theme you want to run.,Tip: Red packets work great as an icebreaker. Reply under the packet post to announce the game/theme you want to run.,Tip: Red packets work great as an icebreaker. Reply under the packet post to announce the game/theme you want to run.,Tip: Red packets work great as an icebreaker. Reply under the packet post to announce the game/theme you want to run.,Tip: Red packets work great as an icebreaker. Reply under the packet post to announce the game/theme you want to run.,Tip: Red packets work great as an icebreaker. Reply under the packet post to announce the game/theme you want to run.,Tip: Red packets work great as an icebreaker. Reply under the packet post to announce the game/theme you want to run.,Tip: Red packets work great as an icebreaker. Reply under the packet post to announce the game/theme you want to run.,Tip: Red packets work great as an icebreaker. Reply under the packet post to announce the game/theme you want to run.,Tip: Red packets work great as an icebreaker. Reply under the packet post to announce the game/theme you want to run.,Tip: Red packets work great as an icebreaker. Reply under the packet post to announce the game/theme you want to run.,Tip: Red packets work great as an icebreaker. Reply under the packet post to announce the game/theme you want to run.,Tip: Red packets work great as an icebreaker. Reply under the packet post to announce the game/theme you want to run.,Tip: Red packets work great as an icebreaker. Reply under the packet post to announce the game/theme you want to run.
+send,features.f1,快速設定,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+send,features.f2,多種玩法,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+send,features.f3,即時數據,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+send,features.f4,安全可靠,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+send,features_desc.f1,3分鐘完成設定，立即啟動紅包活動,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+send,features_desc.f2,支援隨機、平均、指定等多種分配方式,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+send,features_desc.f3,即時查看領取數據和用戶反饋,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+send,features_desc.f4,去中心化設計，資金安全有保障,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+send,hero.ctaPrimaryHref,https://t.me/MoonPackageDevBot,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+send,hero.ctaPrimaryLabel,立即開始,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+send,hero.ctaSecondaryHref,/zh-TW/claim/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+send,hero.ctaSecondaryLabel,查看範例,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+send,hero.desc,簡單設定，快速啟動，讓您的社群活躍起來！,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+send,hero.subtitle,為您的社群打造專屬紅包活動,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+send,hero.title,發紅包,如何發送紅包,⟪TODO⟫ zh-TW: 拉新，拉活躍,⟪TODO⟫ zh-TW: 拉新，拉活躍,⟪TODO⟫ zh-TW: 拉新，拉活躍,⟪TODO⟫ zh-TW: 拉新，拉活躍,⟪TODO⟫ zh-TW: 拉新，拉活躍,⟪TODO⟫ zh-TW: 拉新，拉活躍,⟪TODO⟫ zh-TW: 拉新，拉活躍,⟪TODO⟫ zh-TW: 拉新，拉活躍,⟪TODO⟫ zh-TW: 拉新，拉活躍,⟪TODO⟫ zh-TW: 拉新，拉活躍,⟪TODO⟫ zh-TW: 拉新，拉活躍,⟪TODO⟫ zh-TW: 拉新，拉活躍,⟪TODO⟫ zh-TW: 拉新，拉活躍,⟪TODO⟫ zh-TW: 拉新，拉活躍,⟪TODO⟫ zh-TW: 拉新，拉活躍,⟪TODO⟫ zh-TW: 拉新，拉活躍,⟪TODO⟫ zh-TW: 拉新，拉活躍,⟪TODO⟫ zh-TW: 拉新，拉活躍,⟪TODO⟫ zh-TW: 拉新，拉活躍,⟪TODO⟫ zh-TW: 拉新，拉活躍,⟪TODO⟫ zh-TW: 拉新，拉活躍,⟪TODO⟫ zh-TW: 拉新，拉活躍,⟪TODO⟫ zh-TW: 拉新，拉活躍,⟪TODO⟫ zh-TW: 拉新，拉活躍,⟪TODO⟫ zh-TW: 拉新，拉活躍,⟪TODO⟫ zh-TW: 拉新，拉活躍,⟪TODO⟫ zh-TW: 拉新，拉活躍,⟪TODO⟫ zh-TW: 拉新，拉活躍,⟪TODO⟫ zh-TW: 拉新，拉活躍,⟪TODO⟫ zh-TW: 拉新，拉活躍,⟪TODO⟫ zh-TW: 拉新，拉活躍
+send,title,常見問題（FAQ 詳細版）— 發紅包,FAQ — Send Red Packets,FAQ — Send Red Packets,常見問題（FAQ 詳細版）— 發紅包,FAQ — Send Red Packets,FAQ — Send Red Packets,FAQ — Send Red Packets,FAQ — Send Red Packets,FAQ — Send Red Packets,FAQ — Send Red Packets,FAQ — Send Red Packets,FAQ — Send Red Packets,FAQ — Send Red Packets,FAQ — Send Red Packets,FAQ — Send Red Packets,FAQ — Send Red Packets,FAQ — Send Red Packets,FAQ — Send Red Packets,FAQ — Send Red Packets,FAQ — Send Red Packets,FAQ — Send Red Packets,FAQ — Send Red Packets,FAQ — Send Red Packets,FAQ — Send Red Packets,FAQ — Send Red Packets,FAQ — Send Red Packets,FAQ — Send Red Packets,FAQ — Send Red Packets,FAQ — Send Red Packets,FAQ — Send Red Packets,FAQ — Send Red Packets,FAQ — Send Red Packets,FAQ — Send Red Packets
+site,description,moonpacket 加密紅包機器人｜支援 USDT、TON、SOL、ETH。輕鬆發紅包、即時領取，安全去託管，最適合 Telegram 社群拉新與提升活躍。,⟪TODO⟫ zh-TW: moonpacket 加密紅包機器人｜支援 USDT、TON、SOL、ETH。輕鬆發紅包、即時領取，安全去託管，最適合 Telegram 社群拉新與提升活躍。,⟪TODO⟫ zh-TW: moonpacket 加密紅包機器人｜支援 USDT、TON、SOL、ETH。輕鬆發紅包、即時領取，安全去託管，最適合 Telegram 社群拉新與提升活躍。,⟪TODO⟫ zh-TW: moonpacket 加密紅包機器人｜支援 USDT、TON、SOL、ETH。輕鬆發紅包、即時領取，安全去託管，最適合 Telegram 社群拉新與提升活躍。,⟪TODO⟫ zh-TW: moonpacket 加密紅包機器人｜支援 USDT、TON、SOL、ETH。輕鬆發紅包、即時領取，安全去託管，最適合 Telegram 社群拉新與提升活躍。,⟪TODO⟫ zh-TW: moonpacket 加密紅包機器人｜支援 USDT、TON、SOL、ETH。輕鬆發紅包、即時領取，安全去託管，最適合 Telegram 社群拉新與提升活躍。,⟪TODO⟫ zh-TW: moonpacket 加密紅包機器人｜支援 USDT、TON、SOL、ETH。輕鬆發紅包、即時領取，安全去託管，最適合 Telegram 社群拉新與提升活躍。,⟪TODO⟫ zh-TW: moonpacket 加密紅包機器人｜支援 USDT、TON、SOL、ETH。輕鬆發紅包、即時領取，安全去託管，最適合 Telegram 社群拉新與提升活躍。,⟪TODO⟫ zh-TW: moonpacket 加密紅包機器人｜支援 USDT、TON、SOL、ETH。輕鬆發紅包、即時領取，安全去託管，最適合 Telegram 社群拉新與提升活躍。,⟪TODO⟫ zh-TW: moonpacket 加密紅包機器人｜支援 USDT、TON、SOL、ETH。輕鬆發紅包、即時領取，安全去託管，最適合 Telegram 社群拉新與提升活躍。,⟪TODO⟫ zh-TW: moonpacket 加密紅包機器人｜支援 USDT、TON、SOL、ETH。輕鬆發紅包、即時領取，安全去託管，最適合 Telegram 社群拉新與提升活躍。,⟪TODO⟫ zh-TW: moonpacket 加密紅包機器人｜支援 USDT、TON、SOL、ETH。輕鬆發紅包、即時領取，安全去託管，最適合 Telegram 社群拉新與提升活躍。,⟪TODO⟫ zh-TW: moonpacket 加密紅包機器人｜支援 USDT、TON、SOL、ETH。輕鬆發紅包、即時領取，安全去託管，最適合 Telegram 社群拉新與提升活躍。,⟪TODO⟫ zh-TW: moonpacket 加密紅包機器人｜支援 USDT、TON、SOL、ETH。輕鬆發紅包、即時領取，安全去託管，最適合 Telegram 社群拉新與提升活躍。,⟪TODO⟫ zh-TW: moonpacket 加密紅包機器人｜支援 USDT、TON、SOL、ETH。輕鬆發紅包、即時領取，安全去託管，最適合 Telegram 社群拉新與提升活躍。,⟪TODO⟫ zh-TW: moonpacket 加密紅包機器人｜支援 USDT、TON、SOL、ETH。輕鬆發紅包、即時領取，安全去託管，最適合 Telegram 社群拉新與提升活躍。,⟪TODO⟫ zh-TW: moonpacket 加密紅包機器人｜支援 USDT、TON、SOL、ETH。輕鬆發紅包、即時領取，安全去託管，最適合 Telegram 社群拉新與提升活躍。,⟪TODO⟫ zh-TW: moonpacket 加密紅包機器人｜支援 USDT、TON、SOL、ETH。輕鬆發紅包、即時領取，安全去託管，最適合 Telegram 社群拉新與提升活躍。,⟪TODO⟫ zh-TW: moonpacket 加密紅包機器人｜支援 USDT、TON、SOL、ETH。輕鬆發紅包、即時領取，安全去託管，最適合 Telegram 社群拉新與提升活躍。,⟪TODO⟫ zh-TW: moonpacket 加密紅包機器人｜支援 USDT、TON、SOL、ETH。輕鬆發紅包、即時領取，安全去託管，最適合 Telegram 社群拉新與提升活躍。,⟪TODO⟫ zh-TW: moonpacket 加密紅包機器人｜支援 USDT、TON、SOL、ETH。輕鬆發紅包、即時領取，安全去託管，最適合 Telegram 社群拉新與提升活躍。,⟪TODO⟫ zh-TW: moonpacket 加密紅包機器人｜支援 USDT、TON、SOL、ETH。輕鬆發紅包、即時領取，安全去託管，最適合 Telegram 社群拉新與提升活躍。,⟪TODO⟫ zh-TW: moonpacket 加密紅包機器人｜支援 USDT、TON、SOL、ETH。輕鬆發紅包、即時領取，安全去託管，最適合 Telegram 社群拉新與提升活躍。,⟪TODO⟫ zh-TW: moonpacket 加密紅包機器人｜支援 USDT、TON、SOL、ETH。輕鬆發紅包、即時領取，安全去託管，最適合 Telegram 社群拉新與提升活躍。,⟪TODO⟫ zh-TW: moonpacket 加密紅包機器人｜支援 USDT、TON、SOL、ETH。輕鬆發紅包、即時領取，安全去託管，最適合 Telegram 社群拉新與提升活躍。,⟪TODO⟫ zh-TW: moonpacket 加密紅包機器人｜支援 USDT、TON、SOL、ETH。輕鬆發紅包、即時領取，安全去託管，最適合 Telegram 社群拉新與提升活躍。,⟪TODO⟫ zh-TW: moonpacket 加密紅包機器人｜支援 USDT、TON、SOL、ETH。輕鬆發紅包、即時領取，安全去託管，最適合 Telegram 社群拉新與提升活躍。,⟪TODO⟫ zh-TW: moonpacket 加密紅包機器人｜支援 USDT、TON、SOL、ETH。輕鬆發紅包、即時領取，安全去託管，最適合 Telegram 社群拉新與提升活躍。,⟪TODO⟫ zh-TW: moonpacket 加密紅包機器人｜支援 USDT、TON、SOL、ETH。輕鬆發紅包、即時領取，安全去託管，最適合 Telegram 社群拉新與提升活躍。,⟪TODO⟫ zh-TW: moonpacket 加密紅包機器人｜支援 USDT、TON、SOL、ETH。輕鬆發紅包、即時領取，安全去託管，最適合 Telegram 社群拉新與提升活躍。,⟪TODO⟫ zh-TW: moonpacket 加密紅包機器人｜支援 USDT、TON、SOL、ETH。輕鬆發紅包、即時領取，安全去託管，最適合 Telegram 社群拉新與提升活躍。,⟪TODO⟫ zh-TW: moonpacket 加密紅包機器人｜支援 USDT、TON、SOL、ETH。輕鬆發紅包、即時領取，安全去託管，最適合 Telegram 社群拉新與提升活躍。,⟪TODO⟫ zh-TW: moonpacket 加密紅包機器人｜支援 USDT、TON、SOL、ETH。輕鬆發紅包、即時領取，安全去託管，最適合 Telegram 社群拉新與提升活躍。
+site,pricing.bullets.enterprise,"SLA 與支援,客製整合",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+site,pricing.bullets.pro,"含入門方案,進階在地化",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+site,pricing.bullets.starter,"基本功能,社群支援",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+site,pricing.enterprise,企業,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+site,pricing.price_19,$19,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+site,pricing.price_contact,聯絡我們,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+site,pricing.price_free,免費,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+site,pricing.pro,專業,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+site,pricing.sla_support,SLA 與支援,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+site,pricing.starter,入門,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+site,title,moonpacket — 簡單快速又安全的加密紅包,moonpacket - Red Packet Bot for Telegram,moonpacket - Red Packet Bot for Telegram,moonpacket - Red Packet Bot for Telegram,moonpacket - Red Packet Bot for Telegram,moonpacket - Red Packet Bot for Telegram,moonpacket - Red Packet Bot for Telegram,moonpacket - Red Packet Bot for Telegram,moonpacket - Red Packet Bot for Telegram,moonpacket - Red Packet Bot for Telegram,moonpacket - Red Packet Bot for Telegram,moonpacket - Red Packet Bot for Telegram,moonpacket - Red Packet Bot for Telegram,moonpacket - Red Packet Bot for Telegram,moonpacket - Red Packet Bot for Telegram,moonpacket - Red Packet Bot for Telegram,moonpacket - Red Packet Bot for Telegram,moonpacket - Red Packet Bot for Telegram,moonpacket - Red Packet Bot for Telegram,moonpacket - Red Packet Bot for Telegram,moonpacket - Red Packet Bot for Telegram,moonpacket - Red Packet Bot for Telegram,moonpacket - Red Packet Bot for Telegram,moonpacket - Red Packet Bot for Telegram,moonpacket - Red Packet Bot for Telegram,moonpacket - Red Packet Bot for Telegram,moonpacket - Red Packet Bot for Telegram,moonpacket - Red Packet Bot for Telegram,moonpacket - Red Packet Bot for Telegram,moonpacket - Red Packet Bot for Telegram,moonpacket - Red Packet Bot for Telegram,moonpacket - Red Packet Bot for Telegram,moonpacket - Red Packet Bot for Telegram
+terms,content.account,"帳戶註冊與管理：
+• 您必須提供真實、準確的資訊
+• 您有責任維護帳戶安全
+• 不得與他人分享帳戶
+• 我們有權暫停或終止違規帳戶",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+terms,content.changes,"條款變更：
+• 我們可能不時更新本條款
+• 重大變更會提前通知
+• 繼續使用服務即表示接受更新條款
+• 我們建議定期查看條款更新",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+terms,content.contact,"如有任何問題，請聯絡我們：
+• 電子郵件：support@moonpacket.com
+• Telegram：@MoonPackageDevBot
+• 我們會在 24 小時內回覆您的詢問",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+terms,content.definitions,"在本條款中：
+• 「服務」指 moonpacket 提供的所有功能和服務
+• 「用戶」指使用我們服務的個人或實體
+• 「內容」指用戶上傳、分享或創建的任何資料
+• 「平台」指 moonpacket 的網站、應用程式和相關服務",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+terms,content.disclaimers,"免責聲明：
+• 服務按「現狀」提供
+• 我們不保證服務的連續性或無錯誤
+• 我們不承擔因使用服務而產生的任何損失
+• 用戶自行承擔使用風險",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+terms,content.governing_law,"準據法與管轄：
+• 本條款受中華民國法律管轄
+• 爭議應提交有管轄權的法院解決
+• 我們保留選擇管轄法院的權利",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+terms,content.indemnification,"賠償責任：
+• 您同意賠償我們因您違反本條款而產生的損失
+• 包括合理的律師費用
+• 我們有權控制任何相關法律程序",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+terms,content.intellectual_property,"智慧財產權：
+• 我們保留所有服務相關的智慧財產權
+• 用戶保留其內容的智慧財產權
+• 用戶授予我們使用其內容的有限許可
+• 不得侵犯他人的智慧財產權",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+terms,content.limitation_liability,"責任限制：
+• 我們的責任限於您支付的費用
+• 我們不承擔間接、特殊或懲罰性損害
+• 某些司法管轄區可能不允許責任限制",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+terms,content.privacy,"隱私與資料保護：
+• 我們重視您的隱私權
+• 請參閱我們的隱私權條款
+• 我們會保護您的個人資料
+• 您有權控制您的資料使用",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+terms,content.prohibited_uses,"禁止以下行為：
+• 詐欺、洗錢或其他非法活動
+• 騷擾、威脅或傷害其他用戶
+• 上傳惡意軟體或病毒
+• 嘗試破解或繞過安全措施
+• 未經授權使用他人資料
+• 違反任何適用的法律法規",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+terms,content.scope,本條款適用於所有使用 moonpacket 服務的用戶。使用我們的服務即表示您同意遵守本條款。如果您不同意，請勿使用我們的服務。,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+terms,content.services,"我們提供的服務包括：
+• 紅包發放和領取功能
+• 社群管理工具
+• 數據分析服務
+• 客戶支援
+• 我們保留修改或終止服務的權利",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+terms,content.termination,"終止條款：
+• 您可隨時停止使用服務
+• 我們可因違規行為終止您的帳戶
+• 終止後，某些條款仍然有效
+• 我們會盡力提前通知終止",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+terms,content.user_obligations,"用戶必須：
+• 遵守所有適用的法律法規
+• 提供真實、準確的資訊
+• 不得從事任何非法或有害活動
+• 尊重其他用戶的權利
+• 及時更新個人資訊",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+terms,owner,moonpacket 團隊,moonpacket,moonpacket,moonpacket,moonpacket,moonpacket,moonpacket,moonpacket,moonpacket,moonpacket,moonpacket,moonpacket,moonpacket,moonpacket,moonpacket,moonpacket,moonpacket,moonpacket,moonpacket,moonpacket,moonpacket,moonpacket,moonpacket,moonpacket,moonpacket,moonpacket,moonpacket,moonpacket,moonpacket,moonpacket,moonpacket,moonpacket,moonpacket
+terms,sections.account,帳戶與註冊,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+terms,sections.changes,條款變更,條款變更,條款變更,條款變更,條款變更,條款變更,條款變更,條款變更,條款變更,條款變更,條款變更,條款變更,條款變更,條款變更,條款變更,條款變更,條款變更,條款變更,條款變更,條款變更,條款變更,條款變更,條款變更,條款變更,條款變更,條款變更,條款變更,條款變更,條款變更,條款變更,條款變更,條款變更,條款變更
+terms,sections.contact,聯絡我們,聯絡我們,聯絡我們,聯絡我們,聯絡我們,聯絡我們,聯絡我們,聯絡我們,聯絡我們,聯絡我們,聯絡我們,聯絡我們,聯絡我們,聯絡我們,聯絡我們,聯絡我們,聯絡我們,聯絡我們,聯絡我們,聯絡我們,聯絡我們,聯絡我們,聯絡我們,聯絡我們,聯絡我們,聯絡我們,聯絡我們,聯絡我們,聯絡我們,聯絡我們,聯絡我們,聯絡我們,聯絡我們
+terms,sections.definitions,定義,定義,定義,定義,定義,定義,定義,定義,定義,定義,定義,定義,定義,定義,定義,定義,定義,定義,定義,定義,定義,定義,定義,定義,定義,定義,定義,定義,定義,定義,定義,定義,定義
+terms,sections.disclaimers,免責聲明,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+terms,sections.governing_law,準據法與管轄,準據法,準據法,準據法,準據法,準據法,準據法,準據法,準據法,準據法,準據法,準據法,準據法,準據法,準據法,準據法,準據法,準據法,準據法,準據法,準據法,準據法,準據法,準據法,準據法,準據法,準據法,準據法,準據法,準據法,準據法,準據法,準據法
+terms,sections.indemnification,賠償責任,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+terms,sections.intellectual_property,智慧財產權,智慧財產權,智慧財產權,智慧財產權,智慧財產權,智慧財產權,智慧財產權,智慧財產權,智慧財產權,智慧財產權,智慧財產權,智慧財產權,智慧財產權,智慧財產權,智慧財產權,智慧財產權,智慧財產權,智慧財產權,智慧財產權,智慧財產權,智慧財產權,智慧財產權,智慧財產權,智慧財產權,智慧財產權,智慧財產權,智慧財產權,智慧財產權,智慧財產權,智慧財產權,智慧財產權,智慧財產權,智慧財產權
+terms,sections.limitation_liability,責任限制,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+terms,sections.privacy,隱私與資料保護,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+terms,sections.prohibited_uses,禁止使用,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+terms,sections.scope,適用範圍與契約成立,適用範圍與契約成立,適用範圍與契約成立,適用範圍與契約成立,適用範圍與契約成立,適用範圍與契約成立,適用範圍與契約成立,適用範圍與契約成立,適用範圍與契約成立,適用範圍與契約成立,適用範圍與契約成立,適用範圍與契約成立,適用範圍與契約成立,適用範圍與契約成立,適用範圍與契約成立,適用範圍與契約成立,適用範圍與契約成立,適用範圍與契約成立,適用範圍與契約成立,適用範圍與契約成立,適用範圍與契約成立,適用範圍與契約成立,適用範圍與契約成立,適用範圍與契約成立,適用範圍與契約成立,適用範圍與契約成立,適用範圍與契約成立,適用範圍與契約成立,適用範圍與契約成立,適用範圍與契約成立,適用範圍與契約成立,適用範圍與契約成立,適用範圍與契約成立
+terms,sections.services,服務說明,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+terms,sections.termination,終止條款,終止條款,終止條款,終止條款,終止條款,終止條款,終止條款,終止條款,終止條款,終止條款,終止條款,終止條款,終止條款,終止條款,終止條款,終止條款,終止條款,終止條款,終止條款,終止條款,終止條款,終止條款,終止條款,終止條款,終止條款,終止條款,終止條款,終止條款,終止條款,終止條款,終止條款,終止條款,終止條款
+terms,sections.user_obligations,用戶義務,用戶義務,用戶義務,用戶義務,用戶義務,用戶義務,用戶義務,用戶義務,用戶義務,用戶義務,用戶義務,用戶義務,用戶義務,用戶義務,用戶義務,用戶義務,用戶義務,用戶義務,用戶義務,用戶義務,用戶義務,用戶義務,用戶義務,用戶義務,用戶義務,用戶義務,用戶義務,用戶義務,用戶義務,用戶義務,用戶義務,用戶義務,用戶義務
+terms,title,moonpacket 使用者條款（Terms of Service）,moonpacket 使用者條款（Terms of Service）,moonpacket 使用者條款（Terms of Service）,moonpacket 使用者條款（Terms of Service）,moonpacket 使用者條款（Terms of Service）,moonpacket 使用者條款（Terms of Service）,moonpacket 使用者條款（Terms of Service）,moonpacket 使用者條款（Terms of Service）,moonpacket 使用者條款（Terms of Service）,moonpacket 使用者條款（Terms of Service）,moonpacket 使用者條款（Terms of Service）,moonpacket 使用者條款（Terms of Service）,moonpacket 使用者條款（Terms of Service）,moonpacket 使用者條款（Terms of Service）,moonpacket 使用者條款（Terms of Service）,moonpacket 使用者條款（Terms of Service）,moonpacket 使用者條款（Terms of Service）,moonpacket 使用者條款（Terms of Service）,moonpacket 使用者條款（Terms of Service）,moonpacket 使用者條款（Terms of Service）,moonpacket 使用者條款（Terms of Service）,moonpacket 使用者條款（Terms of Service）,moonpacket 使用者條款（Terms of Service）,moonpacket 使用者條款（Terms of Service）,moonpacket 使用者條款（Terms of Service）,moonpacket 使用者條款（Terms of Service）,moonpacket 使用者條款（Terms of Service）,moonpacket 使用者條款（Terms of Service）,moonpacket 使用者條款（Terms of Service）,moonpacket 使用者條款（Terms of Service）,moonpacket 使用者條款（Terms of Service）,moonpacket 使用者條款（Terms of Service）,moonpacket 使用者條款（Terms of Service）
+terms,updated,2025-10-07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+terms,version,v1.0.0,v1.0.0,v1.0.0,v1.0.0,v1.0.0,v1.0.0,v1.0.0,v1.0.0,v1.0.0,v1.0.0,v1.0.0,v1.0.0,v1.0.0,v1.0.0,v1.0.0,v1.0.0,v1.0.0,v1.0.0,v1.0.0,v1.0.0,v1.0.0,v1.0.0,v1.0.0,v1.0.0,v1.0.0,v1.0.0,v1.0.0,v1.0.0,v1.0.0,v1.0.0,v1.0.0,v1.0.0,v1.0.0
+waterfall,claimed,領取,領取,Claimed,领取,受取,수령,⟪TODO⟫ zh-TW: 領取,⟪TODO⟫ zh-TW: 領取,⟪TODO⟫ zh-TW: 領取,⟪TODO⟫ zh-TW: 領取,⟪TODO⟫ zh-TW: 領取,⟪TODO⟫ zh-TW: 領取,⟪TODO⟫ zh-TW: 領取,⟪TODO⟫ zh-TW: 領取,⟪TODO⟫ zh-TW: 領取,⟪TODO⟫ zh-TW: 領取,⟪TODO⟫ zh-TW: 領取,⟪TODO⟫ zh-TW: 領取,⟪TODO⟫ zh-TW: 領取,⟪TODO⟫ zh-TW: 領取,⟪TODO⟫ zh-TW: 領取,⟪TODO⟫ zh-TW: 領取,⟪TODO⟫ zh-TW: 領取,⟪TODO⟫ zh-TW: 領取,⟪TODO⟫ zh-TW: 領取,⟪TODO⟫ zh-TW: 領取,⟪TODO⟫ zh-TW: 領取,⟪TODO⟫ zh-TW: 領取,⟪TODO⟫ zh-TW: 領取,⟪TODO⟫ zh-TW: 領取,⟪TODO⟫ zh-TW: 領取,⟪TODO⟫ zh-TW: 領取,⟪TODO⟫ zh-TW: 領取
+waterfall,groups_directory.hot_tab,熱門紅包群,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+waterfall,groups_directory.latest_tab,最新紅包群,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+waterfall,groups_directory.search_placeholder,搜索已加入群組的關鍵字,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+waterfall,progress,已領取,已領取,⟪TODO⟫ zh-TW: 已領取,⟪TODO⟫ zh-TW: 已領取,⟪TODO⟫ zh-TW: 已領取,⟪TODO⟫ zh-TW: 已領取,⟪TODO⟫ zh-TW: 已領取,⟪TODO⟫ zh-TW: 已領取,⟪TODO⟫ zh-TW: 已領取,⟪TODO⟫ zh-TW: 已領取,⟪TODO⟫ zh-TW: 已領取,⟪TODO⟫ zh-TW: 已領取,⟪TODO⟫ zh-TW: 已領取,⟪TODO⟫ zh-TW: 已領取,⟪TODO⟫ zh-TW: 已領取,⟪TODO⟫ zh-TW: 已領取,⟪TODO⟫ zh-TW: 已領取,⟪TODO⟫ zh-TW: 已領取,⟪TODO⟫ zh-TW: 已領取,⟪TODO⟫ zh-TW: 已領取,⟪TODO⟫ zh-TW: 已領取,⟪TODO⟫ zh-TW: 已領取,⟪TODO⟫ zh-TW: 已領取,⟪TODO⟫ zh-TW: 已領取,⟪TODO⟫ zh-TW: 已領取,⟪TODO⟫ zh-TW: 已領取,⟪TODO⟫ zh-TW: 已領取,⟪TODO⟫ zh-TW: 已領取,⟪TODO⟫ zh-TW: 已領取,⟪TODO⟫ zh-TW: 已領取,⟪TODO⟫ zh-TW: 已領取,⟪TODO⟫ zh-TW: 已領取,⟪TODO⟫ zh-TW: 已領取
+waterfall,sent_from,發送群：,發送群：,Sent from: ,发送群：,送信グループ：,발송 그룹: ,⟪TODO⟫ zh-TW: 發送群：,⟪TODO⟫ zh-TW: 發送群：,⟪TODO⟫ zh-TW: 發送群：,⟪TODO⟫ zh-TW: 發送群：,⟪TODO⟫ zh-TW: 發送群：,⟪TODO⟫ zh-TW: 發送群：,⟪TODO⟫ zh-TW: 發送群：,⟪TODO⟫ zh-TW: 發送群：,⟪TODO⟫ zh-TW: 發送群：,⟪TODO⟫ zh-TW: 發送群：,⟪TODO⟫ zh-TW: 發送群：,⟪TODO⟫ zh-TW: 發送群：,⟪TODO⟫ zh-TW: 發送群：,⟪TODO⟫ zh-TW: 發送群：,⟪TODO⟫ zh-TW: 發送群：,⟪TODO⟫ zh-TW: 發送群：,⟪TODO⟫ zh-TW: 發送群：,⟪TODO⟫ zh-TW: 發送群：,⟪TODO⟫ zh-TW: 發送群：,⟪TODO⟫ zh-TW: 發送群：,⟪TODO⟫ zh-TW: 發送群：,⟪TODO⟫ zh-TW: 發送群：,⟪TODO⟫ zh-TW: 發送群：,⟪TODO⟫ zh-TW: 發送群：,⟪TODO⟫ zh-TW: 發送群：,⟪TODO⟫ zh-TW: 發送群：,⟪TODO⟫ zh-TW: 發送群：
+waterfall,total,總額,總額,⟪TODO⟫ zh-TW: 總額,⟪TODO⟫ zh-TW: 總額,⟪TODO⟫ zh-TW: 總額,⟪TODO⟫ zh-TW: 總額,⟪TODO⟫ zh-TW: 總額,⟪TODO⟫ zh-TW: 總額,⟪TODO⟫ zh-TW: 總額,⟪TODO⟫ zh-TW: 總額,⟪TODO⟫ zh-TW: 總額,⟪TODO⟫ zh-TW: 總額,⟪TODO⟫ zh-TW: 總額,⟪TODO⟫ zh-TW: 總額,⟪TODO⟫ zh-TW: 總額,⟪TODO⟫ zh-TW: 總額,⟪TODO⟫ zh-TW: 總額,⟪TODO⟫ zh-TW: 總額,⟪TODO⟫ zh-TW: 總額,⟪TODO⟫ zh-TW: 總額,⟪TODO⟫ zh-TW: 總額,⟪TODO⟫ zh-TW: 總額,⟪TODO⟫ zh-TW: 總額,⟪TODO⟫ zh-TW: 總額,⟪TODO⟫ zh-TW: 總額,⟪TODO⟫ zh-TW: 總額,⟪TODO⟫ zh-TW: 總額,⟪TODO⟫ zh-TW: 總額,⟪TODO⟫ zh-TW: 總額,⟪TODO⟫ zh-TW: 總額,⟪TODO⟫ zh-TW: 總額,⟪TODO⟫ zh-TW: 總額,⟪TODO⟫ zh-TW: 總額

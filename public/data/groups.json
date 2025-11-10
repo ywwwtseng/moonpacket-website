@@ -1,0 +1,40 @@
+{
+  "groups": [
+    {
+      "id": "grp_123",
+      "name": "Moon Group A",
+      "owner": "TON Builder",
+      "members": 1275,
+      "total_sends": 248,
+      "total_amount": 9135,
+      "updated_at": "2025-01-11T20:00:00Z",
+      "status": "active",
+      "tags": ["TON","meme"],
+      "link": "https://t.me/moongroupa"
+    },
+    {
+      "id": "grp_124",
+      "name": "TON Builders",
+      "owner": "TON Builder",
+      "members": 2100,
+      "total_sends": 456,
+      "total_amount": 15200,
+      "updated_at": "2025-01-11T19:58:00Z",
+      "status": "active",
+      "tags": ["TON","development"],
+      "link": "https://t.me/tonbuilders"
+    },
+    {
+      "id": "grp_125",
+      "name": "Meme Rocket",
+      "owner": "Meme Captain",
+      "members": 890,
+      "total_sends": 189,
+      "total_amount": 6700,
+      "updated_at": "2025-01-11T19:56:00Z",
+      "status": "active",
+      "tags": ["meme","community"],
+      "link": "https://t.me/memerocket"
+    }
+  ]
+}

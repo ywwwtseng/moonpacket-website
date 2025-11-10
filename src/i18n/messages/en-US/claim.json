@@ -1,0 +1,386 @@
+{
+  "section_title": "About Receiving Red Packet",
+  "tabs": {
+    "latest": "Latest Groups",
+    "hot": "Popular Groups"
+  },
+  "search_placeholder": "Search Groups…",
+  "pagination": {
+    "prev": "Previous Page",
+    "next": "Next Page",
+    "summary_template": "Total {total} Groups | Page {page} / {pages}",
+    "summary_template_en": "{count} Groups (Page {page} / {pages})"
+  },
+  "cta_launch": "Activate moonpacket",
+  "groups": {
+    "owner": "Owner:",
+    "owner_label": "Owner: {handle}",
+    "members": "Number of Members",
+    "total_sent": "Total Sent (USDT)",
+    "period_sent": "Current Send (USDT)"
+  },
+  "ticker_templates": {
+    "TOP_UP": "Admin {actor} topped up the reward pool with {amount} {unit}",
+    "UPGRADE": "System Update: Now supporting {feature}",
+    "JACKPOT": "Today's Lucky Red Packet has been opened!",
+    "CLAIM": "{actor} received {amount} {unit} (Congratulations on winning!)",
+    "SEND": "{actor} sent a red packet of {amount} {unit} in {group}"
+  },
+  "faq": {
+    "q1_title": "1) Start with eligibility",
+    "q1_body": [
+      "How to register? Activate our bot to automatically complete basic registration. moonpacket allows group owners to add the red packet bot to their groups, and players can participate not only in the official group but also in any group with the moonpacket red packet bot.",
+      "What do I need to install or disable? No additional app installation is required; we recommend using the latest version of Telegram. If opening the mini app/WebApp through the system browser, please ensure that cookies or storage are not blocked to avoid issues with login and records.",
+      "Who can participate? Generally, all Telegram users can participate. However, rules may vary for each group or activity, and specific conditions may be required (e.g., role, invitation eligibility, location, task completion, etc.). Please refer to the group owner's or activity organizer's red packet instructions for details.",
+      "Can I redeem multiple times using different accounts or devices? Most group admins prohibit abuse. The system will reduce the likelihood of a single person redeeming more than once through methods such as Telegram account, verification code, linked email, unique wallet address, and reducing moonini reward weight.",
+      "Tip: When you receive a red packet, remember to thank the group admin. You can also like and support their community channels or social media."
+    ],
+    "q2_title": "2) Event rules and fairness",
+    "q2_body": [
+      "Is the red packet random or evenly distributed? The distribution mode of the red packet is set by the group owner or event organizer and may be 'random', 'even distribution', or 'designated'. Rules may vary between different groups, so please refer to the event description of that group.",
+      "How to ensure fairness? moonpacket only provides tools for red packet distribution and verification. The platform itself is not an investor or a promised return entity and does not intervene in the business arrangements of group owners or event organizers. Our system handles the distribution process based on public rules and consistent algorithms to avoid intentional bias.",
+      "How many times can I receive it? Determined by the event organizer. Some events only allow once, some have daily limits, and others allow multiple people to receive multiple times, but with a cap. Once the cap is reached, the system will automatically block and notify you.",
+      "Will the event end early or be extended? It may happen. If the red packet shares have been exhausted, the expiration time has arrived, or the organizer suspends the event due to risks or abnormal behavior, the event will end or be halted. The red packet page will be updated as soon as possible, but there may be delays in synchronization across groups or platforms. If you click and see that you cannot receive it, please refresh the page to confirm the latest status."
+    ],
+    "q3_title": "3) Claim Process and Task",
+    "q3_body": [
+      "Why can't I receive it after clicking? Common reasons include: the quota has been exhausted, you have not completed the task, or the event has been suspended due to risk control. Due to potential delays in status synchronization between different groups, it may not be reflected immediately, so please refer to the latest announcement within the group.",
+      "What is task unlocking? Some red packets require you to complete specific conditions (such as joining a group, following a channel, entering a password, or completing external tasks) before you can receive it. After completion, please return to the button on the same red packet message and click 'Receive Red Packet' again.",
+      "I clearly completed the task, why does it show as not passed? The Telegram API may have synchronization delays in different contexts. If you just finished but the system hasn't recognized it yet, please wait a moment and try again. If it's still not passed after a long time, there may be an issue with the event organizer's API; please report directly to the organizer or group admin of the red packet.",
+      "Where can I obtain the passphrase? If the event has set a passphrase, it is usually announced by the organizer through announcements, posts, live broadcasts, or videos. If you encounter an error when entering the passphrase, you can try again; multiple errors may trigger rate limits or temporary locks.",
+      "How is verification for external tasks (like website registration or trading) done? Some organizers will check whether you have completed the specified tasks via an API connection with moonpacket. When you click 'Claim', the system will immediately ask that API and return the verification result. If it hasn't successfully returned, please try to trigger it again later."
+    ],
+    "q4_title": "4) Amount, balance, and withdrawal",
+    "q4_body": [
+      "Where can I check the amount I claimed? After a successful claim, the Telegram bot will push notifications, and you can check the claiming records, history, and withdrawable balance in the mini app or WebApp.",
+      "Which assets are supported? It depends on the event settings; currently, the common ones are USDT, SOL, ETH, TON, and some tokens issued by group owners or event organizers themselves. The page will indicate asset units and exchange rate sources (if any).",
+      "What is required for withdrawal? Withdrawals typically require you to provide a wallet address and basic security confirmation information. Normally, asset arrival time could be T+0 to T+2 working days; if the system detects high-risk behavior, withdrawal may be delayed.",
+      "Who bears the transaction fees and gas?",
+      "1. All on-chain transactions incur gas fees, which are network fees charged by the blockchain itself and not additional charges by moonpacket.",
+      "2. When you deposit tokens into the red packet pool, gas fees will be deducted (or added) immediately on-chain, so the actual amount of tokens credited may be slightly less than the number you entered (or your on-chain record may include the gas fee).",
+      "3. When you withdraw tokens from a red packet, your wallet needs to hold enough native assets (such as SOL, TRX, TON, BNB, depending on the chain supported by your red packet tokens) to pay for gas. If your wallet doesn't have enough assets to pay for gas, the withdrawal will fail. This means that the withdrawal itself also requires you to cover the gas fees.",
+      "4. When sending red packets within 'your own group,' the platform will charge a 2% platform fee: 1% for platform operations, and 1% as a token reserve, which may be used to repurchase moonini tokens after reaching a specified threshold.",
+      "5. If you are sending a 'cross-group red packet' (promoting by sending red packets to other groups): the system only allows mainstream tokens, may have a minimum amount threshold, and reserves about 3% as support or incentives for that target group's community, which will be claimed by that group's management or group owner. This means you can promote yourself by sending red packets in someone else's group (but only if that group owner agrees to the red packets and you need to comply with that group's rules), which is a great way to sponsor each other's community engagement.",
+      "You can transfer your balance to friends or combine multiple balances, right? Currently, balance gifting or combining features are not available."
+    ],
+    "q5_title": "5) Risk control and restrictions",
+    "q5_body": [
+      "Why am I flagged as suspicious or intercepted? Common reasons include: the same user using multiple accounts in a short time, rapid repeat withdrawals, operating on multiple devices, unusual proxies/VPNs, mass grabbing of red packets in high-risk areas, or being listed in high-risk ASN/regions. These behaviors may be seen as abuse or fraud risk.",
+      "How will the system handle this? In high-risk situations, the system may temporarily lock account functionalities (including withdrawals) and require further verification. You can report issues through the bot /report. Please note: this reporting channel is one-way; moonpacket reserves the right not to respond or disclose complete review details.",
+      "Will KYC verification be required? In high-risk scenarios or due to compliance requirements, the system may ask you to complete KYC/AML verification (identity verification code, document verification, etc.). Please ensure you enter correct security information during the withdrawal process; if verification fails, you will not be able to complete the withdrawal of Tokens.",
+      "What should I do if my account is restricted? Most restrictions are temporary protective measures. If you have completed the necessary verification and your situation was misjudged, we will restore your access under reasonable circumstances. If you have not completed security information verification, we will not proceed further."
+    ],
+    "q6_title": "6) Timeliness and notifications",
+    "q6_body": [
+      "When do red packet activities start or end? Each event organizer sets different timings, so please pay attention to the time, remaining quantity, and group announcements in the red packet messages. You can turn on Telegram notifications or set custom reminder tones to avoid missing out.",
+      "Can I control notifications? Notifications like 'I received a red packet' and 'withdrawal completed' are usually determined by your Telegram notification settings; this is not set independently in moonpacket, but rather based on your personal notification preferences on Telegram."
+    ],
+    "q7_title": "7) Multilingual and regional differences",
+    "q7_body": [
+      "Why can't I see certain withdrawal methods or gameplay? Some regions may be subject to policy or compliance restrictions, causing the system to automatically hide inapplicable options or suspend participation in red packet activities for that region, indicating that withdrawals/participation are not supported at this time.",
+      "How many decimal places does the digital format show? The system automatically applies thousand and decimal formatting based on your language settings, with a default max display of 8 decimal places. If the unit of a token is finer, we will round to the displayable range without showing infinitely long decimals."
+    ],
+    "q8_title": "8) Devices and Compatibility",
+    "q8_body": [
+      "Is Telegram available on iOS/Android/Desktop? Yes, it is recommended to use the latest version of Telegram. If you encounter loading issues, please ensure you are using the official client, or try refreshing (Reload Page) in the menu at the top right of the mini app page.",
+      "Will changing devices affect withdrawal eligibility? Generally, it should not affect your history. However, if you repeatedly operate on multiple devices in a short time frame, the system may flag this as abnormal behavior and trigger risk control.",
+      "Will using a VPN/proxy affect anything? High-risk or untrusted proxies/VPNs may be intercepted by the system. If issues occur, please try disabling the proxy or switch to a stable network environment and try again."
+    ],
+    "q9_title": "9) Privacy and Security",
+    "q9_body": [
+      "What data will be collected? We adhere to the principle of minimization and will only collect information necessary for fraud prevention, abuse protection, risk control, and compliance, such as account security checks, wallet addresses, Telegram ID, email, and other basic identifiers. If KYC / AML is involved, identity verification will be conducted by a trusted third-party verification service. moonpacket will not request any private information unrelated to the service. (moonpacket staff will only verify the security information you have provided, and will never ask about passwords, recovery phrases, verification codes, etc.)",
+      "How is asset security protected? If the system detects suspected theft or high-risk behavior, we may activate automatic risk detection and, if necessary, refer it for manual review. To safeguard funds, we may delay or postpone withdrawals to prevent fraud and abuse, not to punish legitimate users.",
+      "Can I delete my account or request data? You can submit a data access or deletion request following the process. We will handle it within the scope of legal regulations and investigation obligations. Please note: Even if you delete your account, we may still legally retain necessary transaction records and security audit records due to fraud prevention/compliance requirements; these records will not disappear immediately upon account deletion."
+    ],
+    "q10_title": "10) Support and Appeals",
+    "q10_body": [
+      "Who should I contact if I encounter a problem? You can message the official support bot @moonini_helper_bot. Once in the chat, please enter the command /setlang (for example, /setlang zh-TW or /setlang en-US) to switch support languages.",
+      "When reporting a problem, please prepare: your Telegram account or wallet address, the occurrence time, the actions you were taking (like 'withdraw', 'send red packet', 'redeem red packet'), and any related transaction ID or hash (if available). The support team will assist based on on-chain records and transaction data.",
+      "Very important: The official support will never message you first, will not ask you to transfer funds for verification, and will never request your private key, recovery phrase, full seed phrase, or any information that can directly control your wallet assets. Do not share this sensitive information with anyone.",
+      "How long does it take to get a response regarding an appeal? Generally, we will respond within 1 to 3 business days. If the case involves frozen assets, security concerns, or large amounts, it will be prioritized. We may ask you for the transaction ID or hash to expedite confirmation."
+    ],
+    "q11_title": "11) Other Games and Information",
+    "q11_body": [
+      "Can I participate in activities from other groups? Yes. Different communities or groups may hold their own red packet activities or promotions. Please pay attention to the announcements for each activity, as eligibility, limits, and deadlines may vary.",
+      "Is there a leaderboard or reward mechanism? Some events will display leaderboards, interactive statistics, prize lists, or lottery results. Please refer to the announcements of each event for the actual reward conditions, thresholds, and distribution methods. The organizer reserves the right to final interpretation and adjustments."
+    ],
+    "a1": "Use our bot (bot link) to automatically complete the experience registration.",
+    "a10": "You must first complete the specified conditions (such as following the channel/joining the group/passing the passphrase/external tasks) to claim the red packet. After completing, please return to the button in the red packet information post to 'Claim Red Packet.'",
+    "a11": "There may be synchronization delays between different APIs in Telegram, so please wait if you cannot pass temporarily. If you cannot pass verification for an extended period, there may be an issue with the API provider; please contact the project that issued the red packet task.",
+    "a12": "The passphrase is usually announced by the organizer in related posts, live streams, or videos; you can retry if you enter it incorrectly, but multiple incorrect attempts may trigger rate limiting.",
+    "a13": "moonpacket provides an API for external projects to verify whether users have completed tasks. When users claim the red packet, they will query the API and return the verification result, which will only unlock if the conditions are met. If no response is returned, you can wait and re-trigger it later.",
+    "a14": "Successful claims will be pushed via Telegram's bot and displayed in the mini app's red packet claim history, where you can view your history and withdrawal balance at any time.",
+    "a15": "Based on campaign settings, we currently support mainstream USDT/SOL/ETH/TON, as well as tokens issued by group owners. The page will indicate asset units and exchange rate sources (if applicable).",
+    "a16": "A wallet address and basic identity information are required as security questions. The arrival time is usually T+0 to T+2 business days and may be extended during exceptional risk control.",
+    "a17": "Typically deducted from the claimed amount or absorbed by the organizer, with specific rules clearly indicated on the withdrawal page.",
+    "a18": "Transfer/gifting or merging is not supported.",
+    "a19": "Possible reasons include multiple accounts from the same device, abnormal proxies/VPNs, excessively high frequencies of claiming red packets in multiple groups, blacklisted regions/ASN, etc. You can send /report message content to the bot; this is a one-way reply channel, and the official reserves the right not to explain reasons or respond to account suspension.",
+    "a2": "Simply be in supported groups and ensure the bot has joined the group (with Admin permissions granted).",
+    "a20": "In high-risk situations, verification will be based on the information provided by the user. Please ensure you fill in the correct security information when withdrawing; if the information is incorrect, you will not pass the biometric and document KYC.",
+    "a21": "Restrictions are usually temporary protective measures. If you need assistance, please send /report message content. Issues raised by verifiers who have not completed the security information will not be processed; if verification is completed and the situation is normal, we will handle it.",
+    "a22": "Each project that issues red packets is different; please pay attention to the timing and remaining quotas of the red packet information. You can enable Telegram notifications or set special notification sounds to easily receive reminders for claiming red packets.",
+    "a23": "This is your setting in Telegram, not in moonpacket. You can adjust notification settings in Telegram's settings.",
+    "a24": "Policies in certain regions may not apply, and the system will automatically hide or make withdrawals impossible, meaning you cannot participate in the red packet game; this region is not currently supported.",
+    "a25": "The system will automatically apply localized delimiters and decimal places based on your language; we display up to 8 decimal places, and if your token value exceeds the display range, it will be handled accordingly.",
+    "a26": "Yes, it is recommended to use the latest version of Telegram. If you encounter issues with unreadable content, please ensure you are using the official client, or update the application or click Reload Page in the upper right corner of the mini app page.",
+    "a27": "Will not affect the record, but repeated operations on multiple devices in a short time may trigger risk control.",
+    "a28": "If you are using a high-risk proxy, it may be intercepted. We recommend disabling the proxy temporarily or switching to a clean network environment and trying again.",
+    "a29": "Follow the principle of minimization: only collect necessary data for distribution, withdrawal, and risk control (e.g., personal security questions, wallet address, email, Telegram ID). For necessary identity verification, we will use a third-party verification platform, and the platform will not store any user privacy data except for security information.",
+    "a3": "When you see a red packet message in the group, click the 'Claim' button to receive it.",
+    "a30": "All key operations require two-factor authentication; high-risk withdrawals may trigger manual review.",
+    "a31": "You can submit data access or deletion requests according to the process. Once the account is deleted, you will no longer be able to log in, but transaction data will be retained under compliance requirements.",
+    "a32": "You can contact us by submitting/reporting information content in the bot; providing an error code and a screenshot can expedite processing.",
+    "a33": "Generally, you will receive a reply within 1-3 business days; urgent fund-related cases will be prioritized.",
+    "a34": "Yes, all activity rules are independent, so please pay attention to each activity's limits and validity period.",
+    "a35": "Some activities will have leaderboards, badges, and lotteries; please refer to the activity page for specific rules and rewards.",
+    "a4": "Each red packet can only be claimed once per person, on a first-come, first-served basis.",
+    "a5": "It may be due to network issues, insufficient balance, or the red packet has been claimed out.",
+    "a6": "You can check your claim history in a private chat with the bot.",
+    "a7": "It depends on the activity's design. Some activities are one-time only, while others have daily limits. If there is a 'multiple claims per person' limit, the system will automatically restrict and prompt you when the limit is reached.",
+    "a8": "If the shares are claimed out or expired, it will end immediately; the organizer may also suspend or terminate due to unusual risks, and the red packet page will be updated accordingly. Due to cross-platform reasons, updates may be delayed; if you cannot claim after clicking again, we recommend refreshing the page to confirm the latest status of the red packet activity.",
+    "a9": "Common reasons: claimed out or tasks not completed. In rare cases, it may be suspended or terminated due to the project's risk. Since there can be delays in information updates between groups, please pay attention to the latest red packet information and sending status on the activity page and in the group.",
+    "q1": "How to register?",
+    "q10": "What is task unlocking?",
+    "q11": "I clearly completed the task, why does it show as not passed?",
+    "q12": "Where can I obtain the password? What should I do if I make a mistake?",
+    "q13": "How are external tasks (like website registration/trading) verified?",
+    "q14": "Where can I view the amount received?",
+    "q15": "What assets are supported?",
+    "q16": "What needs to be linked for withdrawals? How long does it take?",
+    "q17": "Who is responsible for the fees/Gas?",
+    "q18": "Can I transfer the balance to a friend or combine it?",
+    "q19": "Why is it considered suspicious or intercepted?",
+    "q2": "What qualifications are needed?",
+    "q20": "Do I need to do KYC verification (verification code)?",
+    "q21": "What should I do if my account is restricted?",
+    "q22": "When does each red packet event start/end?",
+    "q23": "Can I turn on or off notifications for when I receive or complete a withdrawal?",
+    "q24": "Can I not see certain withdrawal methods or play styles?",
+    "q25": "How many decimal places are displayed in digital format?",
+    "q26": "Can I use it on iOS/Android/Desktop version of Telegram?",
+    "q27": "Does switching devices affect receiving?",
+    "q28": "I use VPN/proxy, will there be any impact?",
+    "q29": "What data will be collected?",
+    "q3": "How to receive a red packet?",
+    "q30": "What are the security measures for funds?",
+    "q31": "Can I delete my account or data?",
+    "q32": "Who should I contact if I encounter a problem?",
+    "q33": "How long does it take to get a response for complaints?",
+    "q34": "Can I participate in activities from multiple groups?",
+    "q35": "Is there a leaderboard or badges?",
+    "q4": "Is there a time limit for claiming?",
+    "q5": "Why did the withdrawal fail?",
+    "q6": "How do I check my withdrawal history?",
+    "q8": "Will the event end early or be postponed?",
+    "q9": "Why am I still unable to receive after clicking?",
+    "section_1": "1) Start and Eligibility",
+    "section_10": "Customer Support and Complaints",
+    "section_11": "Other Features and Information",
+    "section_2": "2) Redemption Process",
+    "section_3": "3) Frequently Asked Questions",
+    "section_4": "Amount, Balance, and Withdrawals",
+    "section_5": "Risk Control and Restrictions",
+    "section_6": "Timeliness and Notifications",
+    "section_7": "Multilingual and Regional Differences",
+    "section_8": "Devices and Compatibility",
+    "section_9": "Privacy and Security",
+    "tip": "Tip: If you received a red packet, don't forget to thank the group leader, and remember to like their social media.",
+    "sections": [
+      {
+        "title": "1) Getting Started and Eligibility",
+        "items": [
+          {
+            "q": "How to register?",
+            "a": "Use our bot (link to bot) to automatically complete the experience registration."
+          },
+          {
+            "q": "What qualifications are required?",
+            "a": "You only need to be in supported groups, and the bot must already be added to that group."
+          },
+          {
+            "q": "How do I claim a red envelope?",
+            "a": "When you see a red envelope message in the group, simply click the \"Claim\" button."
+          },
+          {
+            "q": "Are there limits on claiming?",
+            "a": "Each red envelope can only be claimed once per person, first come, first served."
+          }
+        ]
+      },
+      {
+        "title": "2) Redemption Process",
+        "items": [
+          {
+            "q": "Why did the withdrawal fail?",
+            "a": "It may be due to network issues, insufficient balance, or the red envelope has been completely claimed."
+          },
+          {
+            "q": "How can I view my claim records?",
+            "a": "You can view your claim history in the bot's private chat."
+          },
+          {
+            "q": "",
+            "a": "It depends on the activity settings designed by the project party. Some are one-time only, while others have daily limits. If there is a \"multiple claims per person\" limit, the system will also automatically restrict it and prompt you once the limit is reached."
+          },
+          {
+            "q": "Will the event end early or be postponed?",
+            "a": "If the portion has been claimed out or expired, it will end; or the organizer may also suspend or terminate due to abnormal risks, the red envelope page will be updated subsequently. However, due to cross-platform reasons, there may be some delays; if after clicking again you are unable to claim, please reload the page to refresh and check the status of the red envelope activity."
+          }
+        ]
+      },
+      {
+        "title": "3) Frequently Asked Questions",
+        "items": [
+          {
+            "q": "Why can’t I receive it even after clicking?",
+            "a": "Common reasons: already claimed out / task not completed. A few may be due to project pauses or terminations because of risks. Due to the time difference in information updates among groups, it may not reflect immediately; please pay attention to the latest red envelope information sending status on the activity page published group."
+          },
+          {
+            "q": "What is task unlocking?",
+            "a": "You must first meet specified conditions (such as following channels / joining groups / passphrase / external tasks) before claiming. After completion, return to the button on that red envelope post to 'claim the red envelope'."
+          },
+          {
+            "q": "I clearly completed the task, why does it show as not passed?",
+            "a": "There is a synchronization delay between different APIs in Telegram, so if it doesn't go through immediately, please wait a moment. If validation continues to fail, it is likely an issue with the API provider; please report it to the project party that released the red envelope task."
+          },
+          {
+            "q": "Where can I get the passphrase? What if I typed it wrong?",
+            "a": "The passphrase is usually announced by the organizing project in a post, live stream, or video; you can retry if you enter it incorrectly, but multiple errors may trigger rate limiting."
+          }
+        ]
+      },
+      {
+        "title": "Amounts, Balances, and Withdrawals",
+        "items": [
+          {
+            "q": "How are external tasks (such as website registrations/trades) verified?",
+            "a": "moonpacket provides API integration for external project parties to verify whether users have completed tasks. At the time of claiming the red envelope, the user will request from the API and return the validation result, unlocking once conditions are met; if no response is received at that moment, you can wait and retry."
+          },
+          {
+            "q": "Where can I see the amount I received?",
+            "a": "Successful claims will be pushed via the Telegram bot, and there will be a record of red envelope claims in the mini app, where you can view your history and available withdrawable balance at any time."
+          },
+          {
+            "q": "What assets are supported?",
+            "a": "Depending on the activity settings, it is currently divided into mainstream USDT/SOL/ETH/TON, and the group owner’s own token. The page will indicate the asset unit and source of the exchange rate (if applicable)."
+          },
+          {
+            "q": "What do I need to bind for withdrawals? How long does it take?",
+            "a": "A wallet address / basic identity information is required as a security question; funds usually arrive within T+0 to T+2 business days. In cases of abnormal risk control, this may take longer."
+          }
+        ]
+      },
+      {
+        "title": "Risk Control and Restrictions",
+        "items": [
+          {
+            "q": "Who bears the handling fees/Gas fees?",
+            "a": "Typically deducted from the claimed amount or absorbed by the organizer, and the rules will be clearly stated on the withdrawal page."
+          },
+          {
+            "q": "Can I transfer my balance to a friend or merge it?",
+            "a": "No 'gifting/merging' methods are offered."
+          },
+          {
+            "q": "Why was I deemed suspicious or intercepted?",
+            "a": "Possible reasons: multiple accounts on the same device, anomalies with proxies/VPN, excessively high frequency from multiple groups claiming red envelopes, blacklisted regions/ASNs, etc. You can send the /report message to the bot. This is a one-way response channel, and the official reserves the right to not disclose reasons or respond regarding account ban actions."
+          },
+          {
+            "q": "Will KYC verification be needed (verification code)?",
+            "a": "In high-risk situations, verification based on the information provided by the user will be activated. Please ensure correct security information is provided during cash withdrawal. If incorrect information is provided, you will not pass the biometrics and document KYC."
+          }
+        ]
+      },
+      {
+        "title": "Timeliness and Notifications",
+        "items": [
+          {
+            "q": "What should I do if my account is restricted?",
+            "a": "Restrictions are usually a temporary protective measure. Please send the /report message to the bot. Issues from verifiers who have not completed the security information verification will not be handled; if verification is completed and the situation is normal, we will proceed with action."
+          },
+          {
+            "q": "When does each red envelope event start and end?",
+            "a": "Each project releasing red envelopes is different; please pay attention to the timing of red envelope information and remaining quotas. You may enable Telegram notifications or set a special notification sound to conveniently receive reminders for claiming red envelopes."
+          },
+          {
+            "q": "Can I turn on or off notifications for when I receive my claim or withdrawal completion?",
+            "a": "This setting is on your Telegram and not in moonpacket's settings; you can set notifications within Telegram's settings yourself."
+          },
+          {
+            "q": "I can't see certain withdrawal methods or gameplay options?",
+            "a": "Regulations in certain regions do not apply, and the system will automatically hide or prevent withdrawals. This means you cannot participate in the red envelope game, as that region is temporarily unsupported."
+          }
+        ]
+      },
+      {
+        "title": "Multilingual and Regional Differences",
+        "items": [
+          {
+            "q": "To what decimal places is the numeric format displayed?",
+            "a": "The platform will automatically apply localized delimiters and decimal places according to your language; we display up to 8 decimal places. If the value of your tokens exceeds the visible range, it will be displayed accordingly."
+          },
+          {
+            "q": "Is the iOS/Android/Desktop version of Telegram available?",
+            "a": "Yes, it is recommended to use the latest version of Telegram. If you encounter issues with reading, please check if you are using the official client, or update the app, or click Reload Page at the top right corner of the mini app page."
+          },
+          {
+            "q": "Will switching devices affect claiming?",
+            "a": "It will not affect records, but if you repeatedly operate on multiple devices in a short time, it may trigger risk control."
+          },
+          {
+            "q": "I am using a VPN/proxy; will it have an impact?",
+            "a": "If you are using a high-risk proxy, it may be intercepted. It is recommended to temporarily disable the proxy or switch to a clean network environment and try again."
+          }
+        ]
+      },
+      {
+        "title": "Devices and Compatibility",
+        "items": [
+          {
+            "q": "What data will be collected?",
+            "a": "Follow the principle of minimization: only collect the data necessary for issuance/withdrawal/risk control (such as personal security questions, wallet address, email, Telegram ID; when identity verification is necessary, we verify through a third-party verification platform, which does not store user privacy information beyond security information)."
+          },
+          {
+            "q": "What guarantees are there for the safety of funds?",
+            "a": "All key operations will require secondary verification; high-risk withdrawals may trigger manual review."
+          },
+          {
+            "q": "Can I delete my account or data?",
+            "a": "You can submit a request for data access or deletion according to the process; once your account is deleted, you will no longer be able to log in; however, transaction data will be retained per compliance requirements."
+          },
+          {
+            "q": "Who should I contact if I encounter a problem?",
+            "a": "You can contact us by submitting/reporting information in the bot; providing error codes and screenshots can expedite processing."
+          }
+        ]
+      },
+      {
+        "title": "Privacy and Security",
+        "items": [
+          {
+            "q": "How long does it take to get a response to a complaint?",
+            "a": "Generally, we reply within 1–3 working days; urgent cases related to funds will be prioritized."
+          },
+          {
+            "q": "Can I participate in activities from multiple groups?",
+            "a": "Yes; each activity has its own rules, so please pay attention to the limits and validity period of each activity."
+          },
+          {
+            "q": "Is there a leaderboard or badges?",
+            "a": "Some activities will feature leaderboards/badges and lotteries; please refer to the activity page instructions for rules and rewards."
+          }
+        ]
+      },
+      {
+        "title": "Customer Service and Complaints",
+        "items": []
+      },
+      {
+        "title": "Other Fun Activities and Information",
+        "items": []
+      }
+    ],
+    "q7": ""
+  },
+  "title": ""
+}

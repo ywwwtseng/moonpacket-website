@@ -1,0 +1,316 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import { computeCanonical } from '@/utils/head';
+import { DEFAULT_LOCALE } from '@/config/i18n-defaults';
+import { LOCALE_ORDER } from '@/config/locales';
+import HeroTextAnimated from '@/components/HeroTextAnimated.astro';
+import MetricCard from '@/components/MetricCard.astro';
+import Section from '@/components/Section.astro';
+import FeatureCard from '@/components/FeatureCard.astro';
+import Testimonial from '@/components/Testimonial.astro';
+import PricingTable from '@/components/PricingTable.astro';
+import CTA from '@/components/CTA.astro';
+import { CTA_LINKS } from '@/config/app';
+import Brandify from '@/components/Brandify.astro';
+import BrandWordMoonpacket from '@/components/BrandWordMoonpacket.astro';
+import BrandWordMoonini from '@/components/BrandWordMoonini.astro';
+import LiveMetrics from '@/islands/LiveMetrics';
+import RedPacketAnimation from '@/islands/RedPacketAnimation';
+import FlipCounter from '@/islands/FlipCounter';
+import Waterfall from '@/islands/Waterfall';
+import Roadmap from '@/components/Roadmap.astro';
+import { DATA_ENDPOINTS } from '@/config/data';
+import { formatInteger, readPlaceholders } from '@/utils/metrics';
+import { formatFiat, formatCrypto, formatPercent } from '@/utils/number-format';
+import { defaultLocale } from '@/i18n/locales.config';
+import { isRTL } from '@/i18n/rtl';
+
+// Root page uses English content by default
+const lang = DEFAULT_LOCALE; // 'en-US'
+const locale = typeof lang === "string" ? lang : "en-US";
+const dir = isRTL(locale) ? "rtl" : "ltr";
+const rtl = dir === 'rtl';
+
+// Load English messages
+const messages = await import(`@/i18n/loadMessages`).then(m => m.loadAllMessages(lang as any)).catch(async () => {
+  const fallback = await import(`@/i18n/loadMessages`).then(m => m.loadAllMessages(defaultLocale));
+  return fallback;
+});
+const placeholders = await readPlaceholders(fetch, import.meta.env.BASE_URL);
+const canonical = computeCanonical(Astro.url, (Astro.site && Astro.site.toString()) || undefined);
+// 正規化：array | string(含\n) | object{0..n} -> string[]
+function toArray(value: any): string[] {
+  try {
+    if (!value) return [];
+    if (Array.isArray(value)) return value.filter(Boolean).map(String);
+    if (typeof value === 'string') return value.replace(/\\n/g,'\n').split(/\r?\n/).map(s=>s.trim()).filter(Boolean);
+    if (typeof value === 'object') return Object.keys(value).sort((a,b)=>Number(a)-Number(b)).map(k=>String(value[k])).filter(Boolean);
+    return [];
+  } catch { return []; }
+}
+
+function brandify(text: string): string {
+  if (!text) return '';
+  return text.replace(/\$?Moonini/gi, (m) => {
+    const hasDollar = m[0] === '$';
+    return `<span class="brand-mark">${hasDollar ? '$' : ''}moonini</span>`;
+  });
+}
+
+function formatWithCommas(n: number): string {
+  try { return n.toLocaleString('en-US'); } catch { return String(n); }
+}
+
+function formatCap(input: string): string {
+  if (!input) return '';
+  const convert = (token: string) => {
+    const t = token.trim();
+    const m = t.match(/([0-9]+(?:\.[0-9]+)?)\s*億/);
+    if (m) {
+      const v = Math.round(parseFloat(m[1]) * 1e8);
+      return formatWithCommas(v);
+    }
+    return t;
+  };
+  if (input.includes('~')) {
+    const [a, b] = input.split('~');
+    return `${convert(a)} ~ ${convert(b)}`;
+  }
+  return convert(input);
+}
+---
+
+<BaseLayout 
+  lang={lang} 
+  title={messages.site?.title || 'moonpacket'}
+  description={messages.site?.description || 'cryptocurrency red packet platform'}
+  canonicalUrl={canonical}
+  xDefaultForRoot={true}
+  allLocales={LOCALE_ORDER}
+>
+  
+  <main id="main-content">
+    <!-- BEGIN: HERO (locked-to-this-section edits only) -->
+    <section id="hero" class="relative mx-auto max-w-6xl px-4 py-6 overflow-visible">
+      <div class="pointer-events-none absolute inset-0 z-[5]">
+        <astro-island>
+          <RedPacketAnimation client:visible />
+        </astro-island>
+      </div>
+      <div class="relative z-10 grid grid-cols-1 md:grid-cols-5 gap-6 items-center">
+        <div class="md:col-span-4">
+          <HeroTextAnimated
+            headlineLine1={messages.site?.hero?.headline_line1}
+            headlineLine2={messages.site?.hero?.headline_line2}
+            tagline={messages.site?.hero?.tagline}
+            withBackground={false}
+            ctaPrimaryLabel={messages.site?.hero?.cta_primary}
+            ctaPrimaryHref={CTA_LINKS.mainBot}
+            ctaSecondaryLabel={messages.site?.hero?.cta_secondary}
+            ctaSecondaryHref={`/${lang}/send/#about-send`}
+          />
+        </div>
+        <div class="hidden md:block md:col-span-1"></div>
+      </div>
+      <!-- Foreground figure: decorative, RTL flips to left -->
+      <div class={`hidden sm:block pointer-events-none absolute bottom-0 ${rtl ? 'left-0 md:left-[-12px]' : 'right-0 md:right-[-12px]'} z-20 overflow-hidden h-[260px] sm:h-[320px] md:h-[380px] lg:h-[440px]`}>
+        <img src={`${import.meta.env.BASE_URL}images/figure/Party%20Time.png`} alt="" role="presentation" draggable="false" class="select-none block h-[420px] sm:h-[500px] md:h-[560px] lg:h-[620px] -translate-y-[6%] object-contain drop-shadow-2xl" />
+      </div>
+    </section>
+    <!-- END: HERO -->
+
+    <!-- BEGIN: METRICS (locked) -->
+    <section id="metrics" class="mx-auto max-w-6xl px-4 py-10">
+      <h2 class="text-xl font-semibold mb-4">{messages.metrics?.title}</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+        <!-- groups connected -->
+        <div class="rounded-xl bg-white shadow-sm ring-1 ring-black/5 p-4 flex flex-col gap-1 min-h-[88px] justify-between" data-api-src={(DATA_ENDPOINTS.metrics && DATA_ENDPOINTS.metrics.length ? DATA_ENDPOINTS.metrics : `${import.meta.env.BASE_URL}data/metrics.json`)} data-api-path="data.groups_connected" data-decimals="0">
+          <div class="text-xs text-textSubtle tracking-wide">{messages.common?.metrics?.groups}</div>
+          <div class="text-[28px] md:text-[30px] font-[800] num text-center" data-metric>0</div>
+        </div>
+        <!-- total packets sent -->
+        <div class="rounded-xl bg-white shadow-sm ring-1 ring-black/5 p-4 flex flex-col gap-1 min-h-[88px] justify-between" data-api-src={(DATA_ENDPOINTS.metrics && DATA_ENDPOINTS.metrics.length ? DATA_ENDPOINTS.metrics : `${import.meta.env.BASE_URL}data/metrics.json`)} data-api-path="data.total_packets_sent" data-decimals="0">
+          <div class="text-xs text-textSubtle tracking-wide">{messages.common?.metrics?.sent}</div>
+          <div class="text-[28px] md:text-[30px] font-[800] num text-center" data-metric>{new Intl.NumberFormat('en-US', { maximumFractionDigits: 0 }).format(0)}</div>
+          <div class="text-xs text-textSubtle/80" data-stale hidden>{messages.common?.errors?.stale}</div>
+        </div>
+        <!-- total claimed USDT -->
+        <div class="rounded-xl bg-white shadow-sm ring-1 ring-black/5 p-4 flex flex-col gap-1 min-h-[88px] justify-between" data-api-src={(DATA_ENDPOINTS.metrics && DATA_ENDPOINTS.metrics.length ? DATA_ENDPOINTS.metrics : `${import.meta.env.BASE_URL}data/metrics.json`)} data-api-path="data.total_claimed_usdt" data-decimals="8">
+          <div class="text-xs text-textSubtle tracking-wide">{messages.common?.metrics?.claimed}</div>
+          <div class="text-[28px] md:text-[30px] font-[800] num text-center" data-metric>{new Intl.NumberFormat('en-US', { maximumFractionDigits: 0 }).format(0)}</div>
+          <div class="text-xs text-textSubtle/80" data-stale hidden>{messages.common?.errors?.stale}</div>
+        </div>
+      </div>
+      <!-- DYNAMIC METRICS: replace data-api-src with your real endpoint once ready. Schema in /public/data/metrics.json -->
+      <FlipCounter client:only selector='[data-api-src][data-api-path]' />
+    </section>
+    <!-- END: METRICS (locked) -->
+
+    <!-- Waterfall placeholder (locked: completed) -->
+    <section id="waterfall" class="mx-auto max-w-6xl px-4 py-16">
+      <h2 class="text-xl font-semibold mb-6">{messages.common?.sections?.waterfall_title}</h2>
+      <div class="grid grid-cols-1 gap-2" data-waterfall>
+        <!-- initial SSR placeholders to show structure; will be replaced by island -->
+        <div class="col-span-1 sm:col-span-2 lg:col-span-3 p-2 rounded-lg bg-white ring-1 ring-black/5 text-sm">
+          <div class="flex items-center justify-between gap-3">
+            <div class="flex-1">
+              <div class="font-semibold">Alice</div>
+              <div class="text-xs text-textSubtle tracking-wide">{(messages.common?.waterfall?.sent_from) || messages.waterfall?.sent_from} Moon Club A</div>
+            </div>
+            <div class="text-right">
+              <div>{(messages.common?.waterfall?.claimed) || messages.waterfall?.claimed} <span class="num">12.30000000</span> USDT</div>
+              <div class="text-xs text-textSubtle">12:00:00</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-span-1 sm:col-span-2 lg:col-span-3 p-2 rounded-lg bg-white ring-1 ring-black/5 text-sm">
+          <div class="flex items-center justify-between gap-3">
+            <div class="flex-1">
+              <div class="font-semibold">Bob</div>
+              <div class="text-xs text-textSubtle tracking-wide">{(messages.common?.waterfall?.sent_from) || messages.waterfall?.sent_from} TON Builders</div>
+            </div>
+            <div class="text-right">
+              <div>{(messages.common?.waterfall?.claimed) || messages.waterfall?.claimed} <span class="num">5.50000000</span> TON</div>
+              <div class="text-xs text-textSubtle">12:00:20</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-span-1 sm:col-span-2 lg:col-span-3 p-2 rounded-lg bg-white ring-1 ring-black/5 text-sm">
+          <div class="flex items-center justify-between gap-3">
+            <div class="flex-1">
+              <div class="font-semibold">Charlie</div>
+              <div class="text-xs text-textSubtle tracking-wide">{(messages.common?.waterfall?.sent_from) || messages.waterfall?.sent_from} SOL Community</div>
+            </div>
+            <div class="text-right">
+              <div>{(messages.common?.waterfall?.claimed) || messages.waterfall?.claimed} <span class="num">0.25000000</span> SOL</div>
+              <div class="text-xs text-textSubtle">12:00:40</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-span-1 sm:col-span-2 lg:col-span-3 p-2 rounded-lg bg-white ring-1 ring-black/5 text-sm">
+          <div class="flex items-center justify-between gap-3">
+            <div class="flex-1">
+              <div class="font-semibold">David</div>
+              <div class="text-xs text-textSubtle tracking-wide">{(messages.common?.waterfall?.sent_from) || messages.waterfall?.sent_from} ETH Developers</div>
+            </div>
+            <div class="text-right">
+              <div>{(messages.common?.waterfall?.claimed) || messages.waterfall?.claimed} <span class="num">0.00150000</span> ETH</div>
+              <div class="text-xs text-textSubtle">12:01:00</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- DYNAMIC: uses /data/waterfall.json every 60s; cycles first 20 items to simulate stream -->
+      <Waterfall 
+        client:load 
+        src={(DATA_ENDPOINTS.waterfall && DATA_ENDPOINTS.waterfall.length ? DATA_ENDPOINTS.waterfall : `${import.meta.env.BASE_URL}data/waterfall.json`)} 
+        selector='[data-waterfall]'
+        intervalMs={60000}
+        sentFromLabel={messages.common?.waterfall?.sent_from || messages.waterfall?.sent_from}
+        claimedLabel={messages.common?.waterfall?.claimed || messages.waterfall?.claimed}
+        totalLabel={messages.common?.waterfall?.total || messages.waterfall?.total}
+        progressLabel={messages.common?.waterfall?.progress || messages.waterfall?.progress}
+      />
+    </section>
+
+    {messages.story && (
+      <section id="moonini-story" class="mx-auto max-w-6xl px-4 py-16 overflow-hidden border-0 ring-0 outline-none">
+        <h2 class="text-xl font-semibold mb-4" set:html={brandify(messages.story?.title || '🌕 Moonini\'s story')}></h2>
+        <div class="grid grid-cols-1 md:grid-cols-5 gap-8 items-start">
+          <div class="md:col-span-2 bg-transparent border-0 ring-0 outline-none">
+            <img src={`${import.meta.env.BASE_URL}images/figure/avatar_hug.png`} alt={messages.story?.illustration_alt || ''} class="w-full h-auto object-contain block border-0 ring-0 outline-none" style="clip-path: inset(0 0 0 2px)" />
+          </div>
+          <div class="md:col-span-3">
+            {(toArray(messages.story?.origin).length > 0) && (
+              <div class="flex flex-col gap-2">
+                {toArray(messages.story?.origin).map((p: string) => (<p set:html={brandify(p)} />))}
+              </div>
+            )}
+            <h3 class="mt-8 font-semibold">{messages.story?.secrets_title || '🌸 his secrets'}</h3>
+            {messages.story?.secrets_intro && (<p class="mt-2" set:html={brandify(messages.story.secrets_intro)} />)}
+            {messages.story?.secrets_flow && (<p class="mt-1" set:html={brandify(messages.story.secrets_flow)} />)}
+            {Array.isArray(messages.story?.secrets_halving) && messages.story.secrets_halving.map((p: string) => (<p class="mt-1" set:html={brandify(p)} />))}
+          </div>
+        </div>
+
+        <!-- BELOW: full-width content aligned with container (left-to-right) -->
+        <div class="mt-10 px-3 sm:px-4 md:px-6">
+          <h3 class="font-semibold">{messages.story?.schedule_title || 'token release schedule'}</h3>
+          <div class="mt-3 rounded-lg bg-white ring-1 ring-black/5 overflow-hidden">
+            <div class="overflow-x-auto">
+            <table class="w-full min-w-[640px] text-sm border-collapse">
+              <thead class="bg-black/5 text-left">
+                <tr>
+                  {toArray(messages.story?.schedule_headers).map((h: string) => (
+                    <th class="px-3 py-2">{h}</th>
+                  ))}
+                </tr>
+              </thead>
+              <tbody>
+                {Array.isArray(messages.story?.schedule_rows) && messages.story.schedule_rows.map((row: string[]) => (
+                  <tr class="border-b border-black/10 even:bg-black/5">
+                    <td class="px-3 py-2 font-medium">{row[0]}</td>
+                    <td class="px-3 py-2"><span class="num font-[800]">{formatCap(row[1])}</span></td>
+                    <td class="px-3 py-2"><span class="num font-[800]">{row[2]}</span></td>
+                    <td class="px-3 py-2 text-textSubtle">{row[3]}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+            </div>
+          </div>
+
+          {toArray(messages.story?.cap_note).map((p: string) => (<p class="mt-3" set:html={brandify(p)} />))}
+
+          <h3 class="mt-8 font-semibold">{messages.story?.belief_title || '🌕 lunar energy and red packet faith'}</h3>
+          {toArray(messages.story?.belief_paragraphs).map((p: string) => (<p class="mt-2" set:html={brandify(p)} />))}
+
+          <h3 class="mt-8 font-semibold">{messages.story?.future_title || '💫 future applications'}</h3>
+          {messages.story?.future_intro && (<p class="mt-2" set:html={brandify(messages.story.future_intro)} />)}
+          {(toArray(messages.story?.future_list).length > 0) && (
+            <ul class="mt-2 list-disc pl-6">
+              {toArray(messages.story.future_list).map((li: string) => (<li class="mb-1" set:html={brandify(li)} />))}
+            </ul>
+          )}
+
+          <h3 class="mt-8 font-semibold">{messages.story?.disclaimer_title || '⚠️ disclaimer'}</h3>
+          {toArray(messages.story?.disclaimer_paragraphs).map((p: string) => (<p class="mt-2" set:html={brandify(p)} />))}
+
+          {toArray(messages.story?.closing).map((p: string) => (<p class="mt-3" set:html={brandify(p)} />))}
+        </div>
+        <style>
+          /* prevent any left border/shadow from any source (including pseudo-elements) */
+          #moonini-story{border-left:0!important;box-shadow:none!important;outline:none!important}
+          #moonini-story::before,#moonini-story::after{content:none!important}
+          #moonini-story *{border-left-color:transparent!important}
+        </style>
+      </section>
+    )}
+
+    <!-- Roadmap section -->
+    <Roadmap roadmapMessages={messages.roadmap} />
+  </main>
+
+  <!-- Soft redirect script for first-time visitors -->
+  <script is:inline define:vars={{ locales: LOCALE_ORDER }}>
+    window.__LOCALE_ORDER__ = locales || [];
+  </script>
+  <script is:inline define:vars={{ locales: LOCALE_ORDER }}>
+    (function(){
+      try {
+        const chosen = localStorage.getItem('i18n_locale') || localStorage.getItem('mp_lang');
+        if (chosen) return;
+        if (document.documentElement.hasAttribute('data-bot')) return;
+        if (location.pathname !== '/' && location.pathname !== '') return;
+        const nav = navigator.languages && navigator.languages.length ? navigator.languages[0] : navigator.language || '';
+        if (!nav) return;
+        const prefer = nav.toLowerCase();
+        const candidates = locales || [];
+        const found = candidates.find(c => c.toLowerCase() === prefer) || candidates.find(c => c.split('-')[0].toLowerCase() === prefer.split('-')[0]);
+        if (found && found !== 'en-US') {
+          setTimeout(()=>{ location.replace(`/${found}/`); }, 0);
+        }
+      } catch {}
+    })();
+  </script>
+</BaseLayout>

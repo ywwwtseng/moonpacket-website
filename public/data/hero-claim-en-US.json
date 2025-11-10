@@ -1,0 +1,17 @@
+{
+  "marquee": [
+    "💰 John sent 100 USDT red packet in 《Game Guild A》!",
+    "🎯 Lisa claimed 3.5 USDT, lucky winner!",
+    "🔥 Admin Ken topped up 2000 USDT",
+    "📢 System upgrade complete, SOL support added!",
+    "🥇 Today's luckiest: @Mina (accumulated 28.3 USDT)"
+  ],
+  "events": [
+    { "type": "send", "user": "John", "group": "Game Guild A", "amount": 100, "ccy": "USDT" },
+    { "type": "claim", "user": "Lisa", "amount": 3.5, "ccy": "USDT" },
+    { "type": "topup", "user": "Ken", "amount": 2000, "ccy": "USDT" },
+    { "type": "system", "message": "System upgrade complete, SOL support added!" },
+    { "type": "achievement", "user": "Mina", "amount": 28.3, "ccy": "USDT" }
+  ],
+  "groups_api": "/data/groups.json"
+}

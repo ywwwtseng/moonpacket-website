@@ -1,0 +1,57 @@
+{
+  "tabs": {
+    "latest": "Senaste",
+    "hot": "Populärt"
+  },
+  "search": {
+    "placeholder": "Sök grupper…",
+    "label": "Sök grupper"
+  },
+  "card": {
+    "ownerLabel": "Ägare:",
+    "members": "Medlemmar",
+    "totalSent": "Totalt skickat",
+    "sent": "Aktuell sändning",
+    "unnamed": "Namnlös grupp"
+  },
+  "pagination": {
+    "prev": "Föregående sida",
+    "next": "Nästa sida",
+    "pageInfo": "{{count}} grupper (Sida {{page}} / {{pages}})"
+  },
+  "cta": {
+    "launch": "Aktivera moonpacket"
+  },
+  "empty": "Inga grupper tillgängliga",
+  "group": {
+    "members": "Medlemslista",
+    "owner": "Gruppägare: {owner}",
+    "sent": "Skickad mängd",
+    "totalSent": "Totalt skickad mängd",
+    "unnamed": "Namnlös grupp"
+  },
+  "marquee": {
+    "fallback": [
+      "💰 John skickade ett red packet på 100 USDT i 'Game Guild A'!",
+      "🎯 Lisa hämtade 3,5 USDT, lycklig vinnare!",
+      "🔥 Gruppägare Ken laddade på 2000 USDT",
+      "📢 Systemuppgradering slutförd, lade till stöd för SOL!",
+      "🥇 Dagens lyckliga vinnare: @Mina (totalt 28,3 USDT)"
+    ],
+    "templates": {
+      "daily_winner": "🥇 Dagens lyckliga vinnare: {user} (totalt {amount} {ccy})",
+      "red_packet_claimed": "{user} hämtade {amount} {ccy}, lycklig vinnare!",
+      "red_packet_sent": "{user} skickade ett red packet på {amount} {ccy} i '{group}'!",
+      "system_upgrade": "📢 Systemuppgradering slutförd, lade till stöd för {ccy}!",
+      "top_up": "Gruppägare {user} laddade på {amount} {ccy}"
+    }
+  },
+  "pager": {
+    "groups": "Antal grupper",
+    "next": "Nästa sida",
+    "pageOf": "(Sida {page} / {pages})",
+    "prev": "Föregående sida"
+  },
+  "searchLabel": "Sök grupper",
+  "searchPlaceholder": "Vänligen ange nyckelord för att söka grupper…"
+}

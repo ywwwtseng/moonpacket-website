@@ -1,0 +1,48 @@
+{
+  "title": "Planul de produs",
+  "updated": "Actualizare (token-urile încep distribuția după ce bara de progres este completă)",
+  "bucket": {
+    "progress": "Progres"
+  },
+  "status": {
+    "shipping": "În dezvoltare",
+    "planned": "Planificat",
+    "research": "În cercetare",
+    "live": "Lansat"
+  },
+  "accept": "Criterii de Acceptare",
+  "lanes": {
+    "build": "Dezvoltare Produse",
+    "trust": "Încredere, Conformitate și Securitate",
+    "growth": "Crestere",
+    "token": "moonini token"
+  },
+  "progressLabel": "Progres",
+  "phase": {
+    "open-beta": {
+      "title": "Lansarea Beta deschisă (red packet intern comunității)",
+      "desc": "Pilot în cadrul comunității, integrarea comunității deschisă condiționat; Testarea distribuției/revendicării de bază și experiența utilizatorului",
+      "accept": "Reguli clare, revendicare fără probleme, funnel-uri cheie sunt utilizabile"
+    },
+    "multi-chain": {
+      "title": "Optimizare continuă: Multi-chain + mecanism de puncte + anti-bot",
+      "desc": "Extindere la suport multi-chain dincolo de Solana; Calculul și vizualizarea punctelor; Strategie anti-bot și testare A/B",
+      "accept": "Identificarea activelor multi-chain este corectă; Punctele și controlul riscurilor funcționează normal"
+    },
+    "compliance": {
+      "title": "Controlul Riscurilor și Conformitatea",
+      "desc": "Mecanisme KYC/AML, Audit și Securitate; Proces de Revizuire a Anomaliilor.",
+      "accept": "Activați KYC atunci când este necesar; regulile AML sunt auditate; jurnalele de securitate sunt robuste"
+    },
+    "growth-integration": {
+      "title": "Creștere: integrarea comunității + API/Webhook + colaborare în ecosistem",
+      "desc": "Ghidul de integrare, Webhook de eveniment, API de interogare; Procesul de integrare a partenerilor",
+      "accept": "Ghidul de integrare aprobat; Webhook/API de interogare este stabil"
+    },
+    "token-moonini": {
+      "title": "Puncte răscumpărate pentru token-uri: moonini",
+      "desc": "Finalizarea distribuției token-ului moonini și a mecanismului de schimb",
+      "accept": "Reguli pentru conversia punctelor în token-uri implementate; Controale de risc/conformitate finalizate"
+    }
+  }
+}

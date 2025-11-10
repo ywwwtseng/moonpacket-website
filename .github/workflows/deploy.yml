@@ -1,0 +1,74 @@
+name: deploy
+
+on:
+  push:
+    branches: [main, master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+env:
+  # 預設為新公開倉庫的 GitHub Pages 基址；可在 workflow_dispatch 時覆寫
+  SITE: https://ywwwtseng.github.io/moonpacket-site/
+  # 自訂網域：會在產物根寫入 CNAME，GH Pages 會自動採用
+  CNAME: moonpacket.com
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 9
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'pnpm'
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Build site (Astro)
+        run: |
+          echo "Building with SITE=$SITE"
+          SITE="$SITE" pnpm build
+
+      - name: Ensure Pages files (.nojekyll + CNAME)
+        run: |
+          mkdir -p dist
+          touch dist/.nojekyll
+          echo "$CNAME" > dist/CNAME
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+        with:
+          enablement: true

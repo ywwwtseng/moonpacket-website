@@ -1,0 +1,57 @@
+{
+  "tabs": {
+    "latest": "Son",
+    "hot": "Popüler"
+  },
+  "search": {
+    "placeholder": "Grupları Ara…",
+    "label": "Grupları Ara"
+  },
+  "card": {
+    "ownerLabel": "Sahibi:",
+    "members": "Üyeler",
+    "totalSent": "Toplam Gönderilen",
+    "sent": "Mevcut Gönderim",
+    "unnamed": "İsimsiz Grup"
+  },
+  "pagination": {
+    "prev": "Önceki Sayfa",
+    "next": "Sonra Sayfa",
+    "pageInfo": "{{count}} grup (Sayfa {{page}} / {{pages}})"
+  },
+  "cta": {
+    "launch": "moonpacket'i Aktif Et"
+  },
+  "empty": "Mevcut Grup Yok",
+  "group": {
+    "members": "Üye Listesi",
+    "owner": "Grup Sahibi: {owner}",
+    "sent": "Gönderilen Tutar",
+    "totalSent": "Toplam Gönderilen Tutar",
+    "unnamed": "İsimsiz Grup"
+  },
+  "marquee": {
+    "fallback": [
+      "💰 John, 'Oyun Derneği A' içinde 100 USDT'lik bir red packet gönderdi!",
+      "🎯 Lisa 3.5 USDT'yi talep etti, şanslı kazanan!",
+      "🔥 Grup Sahibi Ken 2000 USDT yükledi",
+      "📢 Sistem güncellemesi tamamlandı, SOL desteği eklendi!",
+      "🥇 Bugünün şanslı kazananı: @Mina (toplam 28.3 USDT)"
+    ],
+    "templates": {
+      "daily_winner": "🥇 Bugünün şanslı kazananı: {user} (toplam {amount} {ccy})",
+      "red_packet_claimed": "{user}, {amount} {ccy} talep etti, şanslı kazanan!",
+      "red_packet_sent": "{user}, '{group}' içinde {amount} {ccy} tutarında bir red packet gönderdi!",
+      "system_upgrade": "📢 Sistem güncellemesi tamamlandı, {ccy} desteği eklendi!",
+      "top_up": "Grup Sahibi {user} {amount} {ccy} yükledi"
+    }
+  },
+  "pager": {
+    "groups": "Grup Sayısı",
+    "next": "Sonra Sayfa",
+    "pageOf": "(Sayfa {page} / {pages})",
+    "prev": "Önceki Sayfa"
+  },
+  "searchLabel": "Grupları Ara",
+  "searchPlaceholder": "Lütfen grup aramak için anahtar kelimeleri girin…"
+}

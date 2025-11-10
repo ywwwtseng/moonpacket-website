@@ -1,0 +1,6 @@
+---
+import { brandify } from "@/lib/brandify";
+const { text } = Astro.props as { text?: string };
+const html = brandify(text);
+---
+<span set:html={html}></span>

@@ -1,0 +1,32 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import { computeCanonical } from '@/utils/head';
+import PricingTable from '@/components/PricingTable.astro';
+import Brandify from '@/components/Brandify.astro';
+import { getLocalesForBuild, defaultLocale } from '@/i18n/locales.config';
+import { LOCALE_ORDER } from '@/config/locales';
+import { loadAllMessages } from '@/i18n/loadMessages';
+
+export async function getStaticPaths() {
+  const locales = getLocalesForBuild();
+  return locales.map((l) => ({ params: { lang: l.code } }));
+}
+
+const { lang } = Astro.params as { lang: string };
+const messages = await loadAllMessages(lang);
+const canonical = computeCanonical(Astro.url, (Astro.site && Astro.site.toString()) || undefined);
+
+// Brandify the description
+const description = messages.site?.description || 'moonpacket 價格方案';
+---
+<BaseLayout lang={lang} title={messages.site?.title || '價格'} description={description} canonicalUrl={canonical} allLocales={LOCALE_ORDER}>
+  
+  <main id="main-content" class="mx-auto max-w-6xl px-4 py-12">
+    <h1 class="text-3xl font-bold mb-6">{messages.site?.nav?.pricing || '價格'}</h1>
+    <div class="mt-6">
+      <PricingTable labels={messages.site?.pricing} />
+    </div>
+  </main>
+</BaseLayout>
+
+

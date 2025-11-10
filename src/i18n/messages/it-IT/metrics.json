@@ -1,0 +1,17 @@
+{
+  "title": "Panoramica Dati moonpacket",
+  "subtitle": "Statistiche e Classifica in Tempo Reale",
+  "latest": "Ultimo",
+  "top_groups": "Gruppi Popolari",
+  "total_sent": "Importo Totale Inviato",
+  "total_claimed": "Importo Totale Richiesto (USDT)",
+  "participants": "Numero di Partecipanti",
+  "avg_packet": "Importo Medio per Packet",
+  "sort": {
+    "label": "Ordina Per",
+    "latest": "Ultimo",
+    "oldest": "Più Antico",
+    "most": "Partecipanti Massimi",
+    "least": "Partecipanti Minimi"
+  }
+}

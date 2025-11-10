@@ -1,0 +1,369 @@
+/* Source: src/styles.css */
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-primary: #E32521;
+    --color-primary-dark: #B51C1A;
+    --color-primary-light: #F14A3F;
+    --color-gold: #FFBA00;
+    --color-gold-dark: #CC9500;
+    --color-gold-light: #FFD766;
+    --color-navy: #0C1E3A;
+    --color-navy-dark: #081427;
+    --color-navy-light: #38517A;
+    --color-bg-dark: #0B0B0D;
+    --color-bg-light: #F7F7FB;
+    --color-text: #101114;
+    --color-text-subtle: #6A6F76;
+  }
+  html { color: var(--color-text); background: var(--color-bg-light); }
+  .theme-dark { color: #F5F6F7; background: var(--color-bg-dark); }
+  /* Optional self-hosted fonts (place files in /public/fonts and uncomment)
+  @font-face {
+    font-family: 'Inter';
+    src: url('/fonts/Inter-Variable.woff2') format('woff2');
+    font-weight: 100 900;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'Space Grotesk';
+    src: url('/fonts/SpaceGrotesk-Variable.woff2') format('woff2');
+    font-weight: 300 700;
+    font-display: swap;
+  }
+  */
+}
+
+@layer utilities {
+  .gradient-primary {
+    background-image: linear-gradient(-45deg, var(--color-primary), var(--color-primary-dark));
+  }
+  .text-gradient-primary {
+    background-image: linear-gradient(-45deg, var(--color-primary), var(--color-primary-light));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  
+  /* 統一內容型連結（非 CTA） */
+  .link {
+    @apply underline underline-offset-2 decoration-1;
+  }
+  .link:hover {
+    @apply decoration-2;
+  }
+  .link:focus-visible {
+    @apply ring-2 ring-white/20 rounded-sm outline-none;
+  }
+  /* 法律/長文容器中的 <a> 預設用與 .link 相同的原子工具類（不可 @apply 自訂類） */
+  .legal-prose a {
+    @apply underline underline-offset-2 decoration-1;
+  }
+  .legal-prose a:hover {
+    @apply decoration-2;
+  }
+  .legal-prose a:focus-visible {
+    @apply ring-2 ring-white/20 rounded-sm outline-none;
+  }
+  .legal-prose a:visited {
+    @apply opacity-90;
+  }
+  
+  /* 品牌詞樣式 */
+  .brand-word {
+    @apply font-bold lowercase;
+    /* Sora as first choice; fallback to system sans */
+    font-family: "Sora", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    letter-spacing: 0.02em;            /* 微字距 */
+    text-rendering: optimizeLegibility;
+  }
+}
+
+
+
+
+/* Source: src/styles/theme.css */
+/* Light/Dark theme variables and safe overrides */
+
+:root {
+  --bg: #ffffff;
+  --text: #0c1e3a;
+  --text-subtle: rgba(12,30,58,.72);
+  --card-bg: #ffffff;
+  --card-ring: rgba(0,0,0,.06);
+  --navy: #0c1e3a;
+  --primary: #E32521;
+  --gold: #FFBA00;
+  --skin: #f2c9a3;
+}
+
+[data-theme="dark"] {
+  --bg: #0b1220;
+  --text: #e6edf3;
+  --text-subtle: rgba(230,237,243,.72);
+  --card-bg: #121a2a;
+  --card-ring: rgba(255,255,255,.08);
+  --navy: #0c1e3a; /* brand navy 保持 */
+  --primary: #E32521;
+  --gold: #FFBA00;
+}
+
+html, body { background-color: var(--bg); color: var(--text); }
+
+/* Safe overrides for common utility classes used across pages */
+[data-theme="dark"] .bg-white { background-color: var(--card-bg) !important; }
+[data-theme="dark"] .text-black { color: var(--text) !important; }
+[data-theme="dark"] .text-text { color: var(--text) !important; }
+[data-theme="dark"] .text-textSubtle { color: var(--text-subtle) !important; }
+[data-theme="dark"] .ring-black\/5 { --tw-ring-color: var(--card-ring) !important; }
+[data-theme="dark"] .ring-black\/10 { --tw-ring-color: rgba(255,255,255,.1) !important; }
+[data-theme="dark"] .shadow-sm { box-shadow: 0 4px 14px rgba(0,0,0,.3) !important; }
+[data-theme="dark"] .bg-black\/5 { background-color: rgba(255,255,255,.08) !important; }
+
+/* Cards */
+[data-theme="dark"] .packet { box-shadow: 0 6px 16px rgba(0,0,0,.35) !important; }
+[data-theme="dark"] .packet .lid .text-white\/90 { color: rgba(255,255,255,.85) !important; }
+
+/* Light theme packet overrides */
+[data-theme="light"] .packet .text-white { color: #6a6f76 !important; }
+[data-theme="light"] .packet .text-white\/90 { color: rgba(106, 111, 118, 0.9) !important; }
+[data-theme="light"] .packet .stat-box { background: rgba(12, 30, 58, 0.04) !important; }
+[data-theme="light"] .packet .num { color: #16a34a !important; }
+
+/* Brand wordmark typography - inherits size and color from context */
+.brand-mark {
+  font-family: 'Sora', system-ui, sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+  line-height: 1.05;
+  /* Explicitly do NOT set font-size, color, text-transform, or gradient */
+}
+
+/* Token mark (for moonini and other internal tokens) - shares same styling as brand-mark */
+.token-mark {
+  font-family: 'Sora', system-ui, sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+  line-height: 1.05;
+}
+
+/* Legacy brand-word compatibility */
+.brand-word[data-tone="navy"] { color: var(--navy); }
+[data-theme="dark"] .brand-word[data-tone="navy"] { color: #ffffff !important; }
+
+/* Navigation links */
+[data-theme="dark"] .nav-link { color: var(--text) !important; }
+
+/* Strong focus outline for a11y */
+:where(a,button,[role="button"])::selection{ background: var(--gold); color: #000; }
+:where(a,button,[role="button"]):focus-visible{ outline: 2px solid var(--gold); outline-offset: 2px; }
+
+/* Numbers accent (maintain contrast on dark) */
+.num,.num-hero{ color: #16a34a; } /* tailwind emerald-600 符合AA on dark */
+[data-theme="dark"] .num,[data-theme="dark"] .num-hero{ color: #22c55e; }
+
+/* Form controls in dark mode */
+[data-theme="dark"] input[type="search"],
+[data-theme="dark"] input[type="text"],
+[data-theme="dark"] input[type="email"],
+[data-theme="dark"] input[type="number"],
+[data-theme="dark"] textarea {
+  background-color: var(--card-bg) !important;
+  color: var(--text) !important;
+  border-color: rgba(255,255,255,.18) !important;
+}
+[data-theme="dark"] #q::placeholder { color: rgba(230,237,243,.55); }
+[data-theme="dark"] #q:focus { outline: none; box-shadow: 0 0 0 2px rgba(255,186,0,.35); border-color: rgba(255,186,0,.55) !important; }
+
+/* Tabs (top filter in GroupsHero) - better contrast & focus */
+[data-theme="dark"] [role="tablist"] button {
+  color: var(--text-subtle) !important;
+  border: 1px solid rgba(255,255,255,.18) !important;
+  background: transparent !important;
+}
+[data-theme="dark"] [role="tablist"] button[aria-selected="true"] {
+  background: rgba(255,255,255,.92) !important; /* 比純白稍微柔和，仍保 AA 對比 */
+  color: #0c1e3a !important;
+  border-color: transparent !important;
+}
+[role="tablist"] button:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 2px;
+}
+
+/* Footer social icons: ensure contrast in dark mode */
+[data-theme="dark"] footer [aria-label="social"] a {
+  color: var(--text) !important; /* 亮色圖示 */
+}
+[data-theme="dark"] footer [aria-label="social"] a:hover,
+[data-theme="dark"] footer [aria-label="social"] a:focus-visible {
+  background-color: rgba(255,255,255,.10) !important;
+  outline: 2px solid var(--gold);
+  outline-offset: 2px;
+}
+
+/* RTL support - use logical properties for automatic direction handling */
+[dir="rtl"] {
+  direction: rtl;
+}
+
+/* Use logical properties instead of physical properties for RTL compatibility */
+[dir="rtl"] .prose {
+  text-align: start; /* instead of text-align: left */
+}
+
+[dir="rtl"] .prose ul,
+[dir="rtl"] .prose ol {
+  padding-inline-start: 1.25rem; /* instead of padding-left */
+}
+
+[dir="rtl"] .prose li {
+  margin-inline-start: 0.5rem;
+}
+
+/* Auto-align buttons and form elements in RTL */
+[dir="rtl"] button,
+[dir="rtl"] input,
+[dir="rtl"] textarea {
+  text-align: start;
+}
+
+/* Ensure lists align properly in RTL */
+[dir="rtl"] ul,
+[dir="rtl"] ol {
+  padding-inline-start: 1.5rem;
+}
+
+/* Navigation items alignment */
+[dir="rtl"] nav {
+  direction: rtl;
+}
+
+/* Text alignment in RTL */
+[dir="rtl"] .text-right {
+  text-align: right;
+}
+
+[dir="rtl"] .text-left {
+  text-align: left;
+}
+
+
+
+
+
+/* Source: src/styles/typography.css */
+/* Typography system: Sora (brand/headings), Inter (body), IBM Plex Sans (numerals)
+   Binance fonts are NOT bundled; add only with explicit license later. */
+
+/* Typography system: Sora (brand/headings), Inter (body), IBM Plex Sans (numerals)
+   Binance fonts are NOT bundled; add only with explicit license later. */
+
+/* Commented out local font references to avoid 404 errors - using Google Fonts instead */
+/*
+@font-face {
+  font-family: 'Sora';
+  src: url('/fonts/Sora-Variable.woff2') format('woff2-variations'),
+       url('/fonts/IBM_Plex_Sans,Inter,Sora/Sora/Sora-VariableFont_wght.ttf') format('truetype');
+  font-weight: 200 800;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('/fonts/Inter/Inter-VariableFont_opsz,wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'IBM Plex Sans';
+  src: url('/fonts/IBM_Plex_Sans,Inter/IBM_Plex_Sans/IBMPlexSans-VariableFont_wdth,wght.ttf') format('truetype');
+  font-weight: 100 700;
+  font-display: swap;
+}
+*/
+
+:root{
+  --fz-hero: clamp(3rem, 8vw, 7rem);
+  --fz-h1: clamp(2.25rem, 5.5vw, 4rem);
+  --fz-h2: clamp(1.75rem, 4vw, 3rem);
+  --fz-h3: clamp(1.25rem, 2.5vw, 2rem);
+  --fz-body: 1rem;
+  /* Navigation & controls */
+  --fz-nav: clamp(0.95rem, 1.2vw, 1.1rem);
+  --fz-btn: clamp(0.95rem, 1.2vw, 1.05rem);
+  --lh-tight: 1.1; 
+  --lh-title: 1.15; 
+  --lh-body: 1.5;
+}
+
+/* Brand mark typography - standardized wordmark styling */
+.brand-mark {
+  font-family: "Sora", system-ui, sans-serif;
+  font-weight: 800;
+  letter-spacing: -0.04em;
+  line-height: 1.05;
+}
+
+.brand-word{ 
+  font-family: 'Sora', var(--tw-font-sans);
+  text-transform: lowercase; 
+  font-weight: 700;
+  letter-spacing: -0.01em; 
+  line-height: var(--lh-title);
+}
+.brand-word[data-size="hero"]{ font-size: var(--fz-hero) }
+.brand-word[data-size="h1"]{ font-size: var(--fz-h1) }
+.brand-word[data-size="h2"]{ font-size: var(--fz-h2) }
+.brand-word[data-size="nav"]{ font-size: 1em; font-weight: 700; letter-spacing: .01em }
+.brand-word[data-tone="primary"]{ color:#E32521 }
+.brand-word[data-tone="navy"]{ color:#0C1E3A }
+.brand-word[data-tone="gold"]{ color:#FFBA00 }
+.brand-word[data-tone="skin"]{ color: var(--text, #000000) }
+.brand-word[data-tone="gradient"]{ background:linear-gradient(-90deg,#E32521 0%,#FFBA00 100%); -webkit-background-clip:text; background-clip:text; color:transparent }
+.brand-word[data-tone="on-dark"]{ color:#fff; text-shadow:0 0 .5px rgba(0,0,0,.4),0 0 1px rgba(0,0,0,.25) }
+html[dir="rtl"] .brand-word{ letter-spacing:0 }
+
+.num,.price{
+  font-family:'IBM Plex Sans','Inter','system-ui','sans-serif';
+  font-variant-numeric: tabular-nums lining-nums;
+  font-feature-settings: 'tnum' 1,'lnum' 1,'zero' 1;
+  font-weight: 700; /* 全站數字粗體 */
+  font-variation-settings: 'wght' 700;
+  letter-spacing: -0.01em; /* 視覺更厚實、且更省寬度 */
+  color:#16A34A; /* 預設上升綠 */
+}
+/* 統一顏色為上升綠，保持向下兼容現有類名 */
+.rise{ color:#16A34A }
+.fall{ color:#16A34A }
+.num-right{ text-align:end }
+
+/* Navigation and button text helpers for consistent sizing */
+.nav-link{ font-size: var(--fz-nav); font-weight: 600; letter-spacing: .01em; }
+.btn-text{ font-size: var(--fz-btn); font-weight: 600; letter-spacing: .01em; }
+
+/* Locale-specific stacks */
+:lang(zh-TW){ font-family: 'Noto Sans TC','Inter',system-ui,sans-serif }
+:lang(zh-CN){ font-family: 'Noto Sans SC','Inter',system-ui,sans-serif }
+:lang(ja){ font-family: 'Noto Sans JP','Inter',system-ui,sans-serif }
+:lang(ko){ font-family: 'Noto Sans KR','Inter',system-ui,sans-serif }
+[dir="rtl"]{ font-family: 'Vazirmatn','Inter',system-ui,sans-serif }
+
+/* Accessible button kit (AA contrast) */
+.btn{ display:inline-flex; align-items:center; justify-content:center; gap:.5rem; padding:.625rem 1rem; border-radius:.5rem; font-weight:600; line-height:1; text-decoration:none; transition:transform .06s ease, background-color .15s ease, color .15s ease, box-shadow .15s ease; }
+.btn:active{ transform:translateY(1px); }
+.btn:focus-visible{ outline:2px solid transparent; box-shadow:0 0 0 3px rgba(0,0,0,.15), 0 0 0 5px var(--color-gold); }
+
+/* Primary: white on red (#E32521) → AA large/normal */
+.btn-primary{ background:var(--color-primary); color:#fff; border:2px solid var(--color-primary); }
+.btn-primary:hover{ background:var(--color-primary-dark); border-color:var(--color-primary-dark); }
+.btn-primary:disabled{ opacity:.6; cursor:not-allowed; }
+
+/* Outline: navy for maximum contrast on light background */
+.btn-outline{ background:#fff; color:var(--color-navy); border:2px solid var(--color-navy); }
+.btn-outline:hover{ background:var(--color-navy); color:#fff; }
+.btn-outline:disabled{ opacity:.6; cursor:not-allowed; }
+
+
+
+

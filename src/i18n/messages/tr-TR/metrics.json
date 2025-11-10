@@ -1,0 +1,17 @@
+{
+  "title": "moonpacket Veri Genel Görünümü",
+  "subtitle": "Gerçek Zamanlı İstatistikler ve Sıralama",
+  "latest": "Son",
+  "top_groups": "Popüler Gruplar",
+  "total_sent": "Toplam Gönderilen Miktar",
+  "total_claimed": "Toplam Talep Edilen Tutar (USDT)",
+  "participants": "Katılımcı Sayısı",
+  "avg_packet": "Paketteki Ortalama Tutar",
+  "sort": {
+    "label": "Sıralama",
+    "latest": "Son",
+    "oldest": "En Eski",
+    "most": "Maksimum Katılımcı",
+    "least": "Minimum Katılımcı"
+  }
+}

@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Auto clean tracked artifacts after checkout
+scripts/repo-clean.sh >/dev/null 2>&1 || true
+exit 0

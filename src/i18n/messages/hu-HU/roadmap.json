@@ -1,0 +1,48 @@
+{
+  "title": "Termék ütemterv",
+  "updated": "Frissítés (a tokenek elosztása a folyamatjelző sáv feltöltése után kezdődik)",
+  "bucket": {
+    "progress": "Előrehaladás"
+  },
+  "status": {
+    "shipping": "Fejlesztés alatt",
+    "planned": "Tervezett",
+    "research": "Kutatás alatt",
+    "live": "Elindítva"
+  },
+  "accept": "Elfogadási kritériumok",
+  "lanes": {
+    "build": "Kifejlesztett termékek",
+    "trust": "Bízzon, megfeleljen és biztonságos",
+    "growth": "Növekedés",
+    "token": "moonini token"
+  },
+  "progressLabel": "Haladás",
+  "phase": {
+    "open-beta": {
+      "title": "Nyílt bétateszt indítása (belső közösségi red packet)",
+      "desc": "Kísérleti projekt a közösségen belül, feltételesen nyitott közösségi integráció; alapvető elosztási/igénylési és felhasználói élmény tesztelése",
+      "accept": "Világos szabályok, zökkenőmentes igénylés, kulcsfontosságú tölcsérek használhatók"
+    },
+    "multi-chain": {
+      "title": "Folyamatos optimalizálás: Több lánc + Pontmechanizmus + Anti-bot",
+      "desc": "Több láncú támogatás kiterjesztése a Solana-n túl; pontszámítás és vizualizáció; anti-bot stratégia és A/B tesztelés",
+      "accept": "Több láncú eszköz azonosítása helyes; a pontok és kockázatkezelés normálisan működik"
+    },
+    "compliance": {
+      "title": "Kockázatkezelés és megfelelőség",
+      "desc": "KYC/AML, audit és biztonsági mechanizmusok; rendellenes felülvizsgálati folyamat.",
+      "accept": "KYC engedélyezése szükség esetén; az AML szabályok ellenőrizhetők; erős biztonsági naplók"
+    },
+    "growth-integration": {
+      "title": "Növekedés: Közösségi integráció + API/Webhook + Ökoszisztéma együttműködés",
+      "desc": "Integrációs útmutató, esemény Webhook, Query API; partnerintegrációs folyamat",
+      "accept": "Az integrációs útmutató jóváhagyva; a Webhook/Query API stabil"
+    },
+    "token-moonini": {
+      "title": "Pontok beválthatók tokenekre: moonini",
+      "desc": "A moonini tokenek elosztásának és csere mechanizmusának befejezése",
+      "accept": "A pontok tokenekre való átváltására vonatkozó szabályok kidolgozva; kockázatkezelés/megfellelés ellenőrzésen átesett"
+    }
+  }
+}

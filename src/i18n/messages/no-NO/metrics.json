@@ -1,0 +1,17 @@
+{
+  "title": "moonpacket Dataoversikt",
+  "subtitle": "Sanntidsstatistikk og rangering",
+  "latest": "Nyeste",
+  "top_groups": "Populære grupper",
+  "total_sent": "Totalt sendt beløp",
+  "total_claimed": "Totalt beløp krevd (USDT)",
+  "participants": "Antall deltakere",
+  "avg_packet": "Gjennomsnittlig beløp per pakke",
+  "sort": {
+    "label": "Sorter etter",
+    "latest": "Nyeste",
+    "oldest": "Eldste",
+    "most": "Maksimale deltakere",
+    "least": "Minste deltakere"
+  }
+}

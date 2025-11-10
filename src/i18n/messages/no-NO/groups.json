@@ -1,0 +1,57 @@
+{
+  "tabs": {
+    "latest": "Nyeste",
+    "hot": "Populære"
+  },
+  "search": {
+    "placeholder": "Søk etter grupper…",
+    "label": "Søk etter grupper"
+  },
+  "card": {
+    "ownerLabel": "Eier:",
+    "members": "Medlemmer",
+    "totalSent": "Totalt sendt",
+    "sent": "Nåværende sending",
+    "unnamed": "Navnløs gruppe"
+  },
+  "pagination": {
+    "prev": "Forrige side",
+    "next": "Neste side",
+    "pageInfo": "{{count}} grupper (Side {{page}} / {{pages}})"
+  },
+  "cta": {
+    "launch": "Aktiver moonpacket"
+  },
+  "empty": "Ingen grupper tilgjengelig",
+  "group": {
+    "members": "Medlemsliste",
+    "owner": "Gruppens eier: {owner}",
+    "sent": "Sender beløp",
+    "totalSent": "Totalt sendt beløp",
+    "unnamed": "Navnløs gruppe"
+  },
+  "marquee": {
+    "fallback": [
+      "💰 John sendte en red packet på 100 USDT i 'Game Guild A'!",
+      "🎯 Lisa hentet 3,5 USDT, heldig vinner!",
+      "🔥 Gruppe eier Ken satte inn 2000 USDT",
+      "📢 Systemoppgradering fullført, støtte for SOL lagt til!",
+      "🥇 Dagens heldige vinner: @Mina (totalt 28,3 USDT)"
+    ],
+    "templates": {
+      "daily_winner": "🥇 Dagens heldige vinner: {user} (totalt {amount} {ccy})",
+      "red_packet_claimed": "{user} hentet {amount} {ccy}, heldig vinner!",
+      "red_packet_sent": "{user} sendte en red packet på {amount} {ccy} i '{group}'!",
+      "system_upgrade": "📢 Systemoppgradering fullført, støtte for {ccy} lagt til!",
+      "top_up": "Gruppens eier {user} satte inn {amount} {ccy}"
+    }
+  },
+  "pager": {
+    "groups": "Antall grupper",
+    "next": "Neste side",
+    "pageOf": "(Side {page} / {pages})",
+    "prev": "Forrige side"
+  },
+  "searchLabel": "Søk etter grupper",
+  "searchPlaceholder": "Vennligst skriv inn nøkkelord for å søke etter grupper…"
+}

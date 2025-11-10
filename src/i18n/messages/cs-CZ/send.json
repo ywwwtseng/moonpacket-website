@@ -1,0 +1,171 @@
+{
+  "title": "",
+  "hero": {
+    "api_demo_label": "API ukázka",
+    "api_get": "https://t.me/MoonPackageDevBot",
+    "response_label": "Odpověď:",
+    "json": "{ \"data\": { \"level\": 100, \"status\": \"active\", \"is_blacklist\": false } } {, \"data\": {, \"level\": 100,, \"status\": \"active\",, \"is_blacklist\": false, }",
+    "title": "Přitáhněte nové uživatele, zvyšte aktivitu",
+    "lead": "Strana projektu může nastavit konkrétní podmínky:",
+    "points": {
+      "0": "",
+      "1": "",
+      "2": ""
+    },
+    "note": "Uživatelé, kteří splňují podmínky, mohou získat red packet",
+    "subtitle": "Vytvořte vlastní událost red packet pro svou komunitu",
+    "desc": "Snadné nastavení, rychlé spuštění, aktivujte svou komunitu!",
+    "ctaPrimaryLabel": "Začněte hned",
+    "ctaPrimaryHref": "https://t.me/MoonPackageDevBot",
+    "ctaSecondaryLabel": "Zobrazit příklad",
+    "ctaSecondaryHref": "/zh-TW/claim/",
+    "api_demo_code": "{\n\"data\": {\n\"level\": {\n\"gt\": 99\n},\n\"status\": {\n\"eq\": \"active\"\n},\n\"is_blacklist\": {\n\"eq\": false\n}\n}\n}",
+    "api_demo_title": "GET [api_url]?api_key=[api_key]&user_id=[user_id]",
+    "use_cases_items": {
+      "0": "Strana projektu může nastavit podmínky úkolu:",
+      "1": "Připojte se k skupině / Sledujte kanál",
+      "2": "Správná fráze",
+      "3": "Vlastní API strany projektu",
+      "4": "Pouze uživatelé, kteří splňují podmínky, mohou získat, poslat red packet cenným uživatelům."
+    },
+    "use_cases_title": "Přitáhněte nové uživatele・Zvyšte aktivitu"
+  },
+  "faq": {
+    "section_1": "Zahájení a nastavení.",
+    "q1": "Jak začít?",
+    "a1": "Přidejte moonpacket Robota do své skupiny nebo kanálu na Telegramu a nastavte ho jako administrátora.",
+    "q2": "Jaká příprava je potřebná před odesláním?",
+    "a2": "Nejprve prosím vložte aktiva, která chcete distribuovat (například vložte 10 USDT pro testování).",
+    "section_2": "2) Proces odesílání",
+    "q3": "Mohu si vybrat, kam to poslat?",
+    "a3": "Vyberte vázané skupiny nebo kanály v 'Cílech odesílání', abyste mohli odeslat do jedné nebo více skupin současně.",
+    "tip": "Tip: Odesílání červených balíčků je vhodné pro interakce na prolomení ledu. Můžete odpovědět na příspěvek o červeném balíčku a vysvětlit téma hry, které chcete uspořádat.",
+    "section_3": "3) Technické problémy",
+    "section_4": "Data a analýza",
+    "section_5": "Technická podpora a údržba",
+    "q4": "Lze upravit metodu rozdělení?",
+    "a4": "Podporuje jak náhodnou distribuci, tak průměrnou distribuci.",
+    "q5": "Můžete přímo poslat zprávu oficiálnímu robotu zákaznického servisu @moonini_helper_bot.",
+    "a5": "Každý API klíč může být volán až 60krát za minutu.",
+    "q6": "Jak řešit chyby?",
+    "a6": "API vrátí podrobné kódy chyb a chybová hlášení.",
+    "q7": "Jak sledovat efektivitu aktivity?",
+    "a7": "Poskytněte dashboard dat v reálném čase:",
+    "q8": "Jak se vypočítávají transakční poplatky?",
+    "a8": "• Poplatek za službu platformy: 2-5 % (upravuje se na základě aktivity)",
+    "q9": "Jak zajistit bezpečnost prostředků?",
+    "a9": "• Decentralizovaná architektura, není potřeba úschovních prostředků",
+    "q10": "Co dělat s zbývajícími prostředky po skončení akce?",
+    "a10": "• Nepřijaté red packet budou automaticky vráceny do vaší peněženky.",
+    "q11": "Mohou se konat více akcí současně?",
+    "a11": "Ano, ale doporučujeme vám:",
+    "q12": "Jak řešit stížnosti uživatelů?",
+    "a12": "• Provést dedikovaný kanál zákaznického servisu",
+    "q13": "Je k dispozici technická podpora?",
+    "a13": "• Technická podpora 24/7",
+    "q14": "Jak optimalizovat efektivitu akce?",
+    "a14": "• Upravte strategii aktivity na základě dat",
+    "q9_passcode": "Co je to fráze pro obnovení? V jakých scénářích je vhodná?",
+    "a9_passcode": "Hráči musí získat tajnou frázi z externích kanálů a vrátit se na tuto stránku, aby ji správně zadali pro nárokování. Běžné praktiky:",
+    "passcode_scenarios": {
+      "0": "Rozdělte 6místnou tajnou frázi ve dlouhých videích na YouTube, abyste podpořili úplné zhlédnutí.",
+      "1": "Příspěvky na X.com (Twitter) nebo Threads naznačující tajnou frázi pro zvýšení interakce.",
+      "2": "Tajnou frázi sdílejte pouze ústně během živých přenosů, abyste vedli přítomné publikum.",
+      "3": "Soukromé/placené skupiny poskytují exkluzivní tajné fráze, aby zajistily, že výhody budou poskytovány pouze jádrovým členům."
+    },
+    "q10_api": "Mohu použít své vlastní API k určení způsobilosti účastníků?",
+    "a10_api": "Ano. moonpacket zavolá poskytnuté API pouze pro čtení pro ověření, než si uživatel převezme. Stačí nastavit api_url a api_key (volitelné nastavení domény) v backendu.",
+    "api_condition_title": "Prohlášení o podmínkách (bez user_id)",
+    "api_response_label": "Vrátit:",
+    "api_operators_label": "Operátor:",
+    "api_operators_desc": "eq (může odpovídat jakémukoli typu), gt/lt/gte/lte (musí být číselné)",
+    "api_user_query_title": "Uživatelský dotaz (včetně user_id)",
+    "api_logic_desc": "moonpacket používá 'Prohlášení o podmínkách' jako práh pro porovnání s aktuální hodnotou 'Uživatelského dotazu'; pokud se shoduje, je to schváleno, pokud ne, nelze o něj požádat.",
+    "api_security_title": "Doporučení pro zabezpečení",
+    "api_security_desc": "Použijte koncové body pouze pro čtení, povolte api_key a povolte doménová omezení; pro mezi-doménový provoz se doporučuje použít Cloudflare Workers pro přenos a omezení rychlosti.",
+    "q12_antibot": "Jak zabránit podvodům a aktivitám botů?",
+    "a12_antibot_items": {
+      "0": "Frekvence chování a detekce zařízení/IP",
+      "1": "Účet jedinečně vázaný na peněženku",
+      "2": "Ověřovací kód pro výběr",
+      "3": "Předběžná kontrola rizik AI; pokud je to nutné, může provést biometrickou autentizaci třetí stranou, rozpoznávání obličeje a ověření dokumentů."
+    },
+    "q13_records": "Kde mohu zkontrolovat záznamy svých odeslaných zpráv a počet příjemců?",
+    "a13_records": "Zkontrolujte 'Red Packets, které jsem poslal' na své osobní domovské stránce, abyste viděli počet nároků, zbývající částky a celkové výdaje za každou relaci; pokud je to povoleno, zprávy lze také stáhnout.",
+    "q1_body": {
+      "0": "Toto je nástroj, který pomáhá projektovým týmům, vlastníkům skupin nebo manažerům komunity rychle rozdělovat red packet ve skupinách Telegram.\nSpecificky cílený na distribuci meme mincí, aby se motivovali členové komunity,\nhlavní využití zahrnuje: stimulovat aktivitu, přitahovat nové členy a realizovat propagační aktivity.\nMůžete použít nejen své vydané meme mince k rozdělení red packet, ale také hlavní tokeny jako USDT, TRX, SOL a další.\nS moonpacket můžete požadovat, aby uživatelé splnili jednoduché úkoly a dále konfigurovat prostřednictvím API, což umožňuje vlastníkům skupin 'přizpůsobit pravidla distribuce' a 'nastavit podmínky nároku', ověřujíc vlastním API.",
+      "1": "Tip: Rozdělování red packet od moonpacket vám umožní objevit skutečně cenné členy komunity. Můžete nastavit podmínky nároku v každém red packet, což poskytuje hráčům různé úkoly k dokončení."
+    },
+    "q1_title": "1) Jaká je funkce red packet u moonpacket?",
+    "q2_body": {
+      "0": "Vítejte zpráva pro nové členy po připojení (splnění základních úkolů pro připojení)",
+      "1": "Interakce v reálném čase během živých vysílání / AMA / akcí (pouze členové soustředění na akci mohou obdržet frázi a kvalifikovat se na red packet)",
+      "2": "Propagace v rámci skupiny, loterie, úkoly s hesly, úroveň her, rebate při dobíjení (např. pouze hráči, kteří dosáhnou určité úrovně ve hře nebo dobili určitou částku, mají nárok na obdržení)",
+      "3": "Odměny za pozvání přátel k připojení ke skupině",
+      "4": "Akce s omezeným časem, odpočítávací akce (denní úkoly pro přihlášení)",
+      "5": "\"Cross-group red packet\": Odeslání red packet do jiných skupin (pokud to skupinový vlastník povolí), k podpoře vzájemné publicity a spolupráce komunity."
+    },
+    "q2_title": "2) Kdy je vhodné použít funkci red packet?",
+    "q3_body": {
+      "0": "Všechny operace na blockchainu podléhají poplatku za plyn. Poplatek za plyn vybírá samotný blockchain a ne dodatečný poplatek od nás.",
+      "1": "Když vložíte tokeny do poolu red packet, poplatek za plyn bude okamžitě odečten na blockchainu. Skutečná částka vstupující do poolu může být o něco menší než nominální částka, kterou jste zadali (nebo může být účtován dodatečný poplatek za plyn při převodu). To je normální odečtení na blockchainu.",
+      "2": "Při vydání red packet ve 'vaší skupině' si systém při distribuci automaticky účtuje 2% poplatek za platformu, který je odečten přímo.",
+      "3": "Red packets mezi skupinami (propagace red packet v cizí skupině) mají další pravidla:",
+      "4": "Nejprve musí vlastník skupiny přijímající propagaci nastavit oprávnění a musí být použity mainstreamové tokeny. Red packets mezi skupinami nepřijímají sebevytvořené meme coiny a systém má minimální hranici pro částky red packet mezi skupinami. Pokud je částka pod touto hranicí, red packet nelze vytvořit. Před odesláním prosím potvrďte, že je vaše částka dostatečná."
+    },
+    "q3_title": "3) Náklady a hranice pro zasílání red packets",
+    "q4_body": {
+      "0": "Aktivně budeme detekovat zneužívající chování (např. podvody, praní špinavých peněz, robotické taktiky, spamové interakce atd.). Pokud bude shledáno jako vysoce rizikové, účet nebo aktiva mohou přejít do stavu 'na posouzení': výběry mohou být zpožděny a účet může být dočasně zablokován. Cílem je chránit celková aktiva uživatelů a vyhovět regulačním požadavkům.",
+      "1": "To je mechanismus řízení rizik a souladu platformy. Na základě interního řízení rizik, požadavků na shodu nebo vyšetřování třetími stranami můžeme pozastavit, omezit, zpoždět nebo odmítnout konkrétní výběry nebo převody.",
+      "2": "Pokud se domníváte, že došlo k mylnému posouzení, můžete podat odvolání prostřednictvím oficiálního zákaznického servisu."
+    },
+    "q4_title": "4) Bezpečnost, řízení rizik a stav účtu",
+    "q5_body": {
+      "0": "Můžete přímo zprávu oficiálnímu botovi zákaznického servisu @moonini_helper_bot.",
+      "1": "Prosím, zadejte příkaz /setlang v konverzaci (např. /setlang zh-TW nebo /setlang en-US) pro změnu jazyka zákaznického servisu.",
+      "2": "Při hlášení problému prosím uveďte:",
+      "3": "Zákaznický servis bude kontrolovat pouze on-chain data a transakční záznamy. Nebudeme vás žádat o zaslání originálů obrázků nebo poskytnutí soukromých klíčů peněženky, mnemonických frází nebo úplných seed frází, stejně jako vás nebudeme žádat o zaslání prostředků pro 'ověření'. Oficiální zákaznický servis vám nebude proaktivně posílat zprávy s žádostí o aktiva.",
+      "4": "Můžete také použít API pro samoobslužné dotazy k ověření svého stavu, například zda je váš účet platný, zda je zablokován nebo zda je na posouzení. Zde je příklad: pokud odpověď ukazuje, že jste is_blacklist: true nebo status: \"hold\", znamená to, že účet je pod kontrolou rizika a výběry nebo distribuce mohou být pozastaveny. Pokud je tato funkce během testovacího provozního období nedostupná, prosím podejte odvolání prostřednictvím bota zákaznického servisu a uveďte hashe transakce, a my urychlíme zpracování na základě on-chain důkazů."
+    },
+    "q5_title": "5) Zákaznický servis a samoobslužné dotazy",
+    "q6_body": {
+      "0": "Poskytujeme API mechanismus pro vlastníky skupin k přizpůsobení podmínek úkolů a pravidel pro výměnu.",
+      "1": "Co je to heslová fráze? Kdy by měla být použita? Například, když chcete požádat více uživatelů, aby navštívili váš TikTok nebo YouTube, nebo se připojili k vaší soukromé skupině, můžete skrýt heslovou frázi ve videích nebo zprávách. Uživatelé potřebují získat heslovou frázi na určeném místě, aby si mohli po jejím zadání nárokovat red packet.",
+      "2": "Jaký je koncept API? Jak se určuje způsobilost?",
+      "3": "V rozhraní pro nastavení API nejprve musíme informovat API o podmínkách, nazývaných 'deklarační podmínka' (bez user_id).\nPříklad: Vraťte sadu prahových podmínek, jako je úroveň, stav, zda je na černé listině atd.\nmoonpacket tuto sadu podmínek považuje za základní práh.",
+      "4": "Dále, když chce uživatel přijmout red packet, API musí poskytnout:\n'Dotaz na uživatele' (včetně user_id).\nPříklad: Vraťte aktuální hodnotu tohoto uživatele. Platforma porovná výsledky 'Dotazu na uživatele' s dříve nastaveným prahovým 'deklarací podmínek'; pokud se shodují, je to schváleno; pokud ne, je to zamítnuto.",
+      "5": "Doporučení pro bezpečnost: Prosím, poskytujte pouze koncové body pro čtení a aktivujte api_key spolu s omezeními whitelisting domén; pokud jsou potřeba operace přes více domén, můžete použít Cloudflare Workers jako zprostředkovatele a implementovat omezení rychlosti.",
+      "6": "Mohou být pravidla aktivity změněna v průběhu?",
+      "7": "V průběhu není možné provádět žádné úpravy. Doufáme, že všichni uživatelé tohoto systému si navzájem udrží důvěru. Pokud stran projektu slíbí vydat red packets, ale během hry změní kvalifikaci, což znemožní jejich uplatnění, poškodí to důvěru hráčů. Pokud emitent upraví API za účelem změny pravidel a více hráčů to nahlásí, vyhrazujeme si právo pozastavit nebo zmrazit účty po potvrzení prostřednictvím protokolů změn. Proto se prosím vyhněte změnám herních pravidel během API, neboť to může vést k zákazu účtu.",
+      "8": "Pokud máte obavy z nesprávného nastavení, správný přístup je:",
+      "9": "Nejprve si můžete vytvořit vlastní testovací skupinu, vydat testovací red packets sami sobě v testovací skupině a jakmile bude potvrzeno, že nejsou žádné problémy, postupujte k distribuci v oficiální komunitě. Základním pravidlem pro red packets je: nemůžete požadovat zastavení uprostřed, ani přímo měnit pravidla u probíhající aktivity. Každé kolo musí být dokončeno a vyřešeno podle původního závazku předtím, než mohou být nová pravidla použita v dalším kole."
+    },
+    "q6_title": "6) Pravidla aktivity, kontrola způsobilosti a žádné změny pravidel v průběhu",
+    "q7_body": {
+      "0": "Momentálně jsme stále ve fázi beta provozu a postupně optimalizujeme datovou nástěnku, včetně počtu účastníků, počtu uplatněných red packets, míry uplatnění atd. Strany projektu mohou také vložit sledovací indikátory do svých nastavení API.",
+      "1": "Neuplatněné red packets se automaticky vrátí do vaší peněženky. Pokud neobdržíte refundaci do 3 dní po skončení aktivity, můžete se obrátit na zákaznický servis pro zpracování.",
+      "2": "Je doporučeno nevykonávat příliš mnoho aktivit současně ve stejné skupině, aby se předešlo konfliktům. Uživatelé se mohou také zmást; je nejlepší vykonávat aktivity lineárně, jednu po druhé nebo jednu denně, a zajistit dostatečné prostředky na dokončení každé aktivity.",
+      "3": "Doporučuje se upravit pravidla na základě dat; můžete využít API pro A/B testování, odkazovat se na minulé úspěšné případy a pravidelně sbírat zpětnou vazbu od členů pro postupnou optimalizaci herních systémů.",
+      "4": "Proti podvodům a zneužívání:",
+      "5": "Během otevřeného beta testování optimalizujeme problémy s podvody uživatelů. Abychom zajistili spravedlnost systému, konkrétně zablokujeme uživatele, kteří se pokoušejí použít boty na získání red packets. Nejlepší prevenční metodou je umožnit uživatelům nastavit si vlastní API a podmínky a omezit počet uplatnění, což zvýší práh pro ty, kteří mají tendenci podvádět. V případě abnormálních situací se prosím neváhejte obrátit na náš zákaznický servis pro zpětnou vazbu."
+    },
+    "q7_title": "7) Sledování výkonu, optimalizace a prevence podvodů",
+    "section_title": "Často kladené otázky (podrobný FAQ) — Odeslat červený balíček"
+  },
+  "features": {
+    "f1": "Rychlé nastavení",
+    "f2": "Různé herní styly",
+    "f3": "Data v reálném čase",
+    "f4": "Bezpečné a spolehlivé"
+  },
+  "features_desc": {
+    "f1": "Dokončete nastavení během 3 minut, abyste mohli zahájit aktivitu s červeným balíčkem",
+    "f2": "Podporuje náhodné, průměrné a určené metody rozdělení",
+    "f3": "Okamžitě zobrazte údaje o příjmu a zpětnou vazbu od uživatelů",
+    "f4": "Decentralizovaný design zajišťuje bezpečnost fondů"
+  },
+  "cta_button_prefix": "Aktivujte nyní",
+  "cta_button_suffix": "Robot",
+  "cta_launch_bot": "Aktivujte moonpacket Robota nyní",
+  "footer_tip": "Tip: Odesílání červených balíčků je vhodné pro interakce na prolomení ledu. Můžete odpovědět na příspěvek o červeném balíčku a vysvětlit téma hry, které chcete uspořádat."
+}

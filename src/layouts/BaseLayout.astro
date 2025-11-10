@@ -1,0 +1,385 @@
+---
+/**
+ * 🔒 FROZEN COMPONENT - DO NOT MODIFY STRUCTURE OR TEXT CONTENT
+ * Owner: Yves
+ * Only allowed changes:
+ * 1) move hardcoded text into i18n messages (zh-TW first)
+ * 2) replace inline links with LINKS from src/config/links.ts
+ */
+import '@/styles.css';
+import '/src/styles/typography.css';
+import '/src/styles/theme.css';
+import '/src/styles/rtl-utils.css';
+import LanguageMenu from '@/components/LanguageMenu.astro';
+import BrandWordMoonpacket from '@/components/BrandWordMoonpacket.astro';
+import SocialLinks from '@/components/SocialLinks.astro';
+import { publicLocales as locales, defaultLocale } from '@/i18n/locales.config';
+import { ogTags, jsonLdOrganization } from '@/utils/head';
+import { isBot } from '@/config/i18n-defaults';
+import { LOCALE_ORDER } from '@/config/locales';
+import { buildLocaleUrl } from '@/utils/locale-url';
+import { isRTL } from '@/i18n/rtl';
+
+interface Props {
+  lang: string;
+  title: string;
+  description: string;
+  canonicalUrl: string;
+  ogImage?: string;
+  faqJsonLd?: string;
+  xDefaultForRoot?: boolean;
+  allLocales?: readonly string[];
+}
+
+const { lang = defaultLocale, title, description, canonicalUrl, ogImage, faqJsonLd, xDefaultForRoot = false } = Astro.props as Props;
+const publicOnly = (import.meta as any)?.env?.PUBLIC_ONLY === '1' || (typeof process !== 'undefined' && (process as any)?.env?.PUBLIC_ONLY === '1');
+const allLocales = publicOnly ? (await import('@/i18n/locales.config')).PUBLIC_LOCALE_CODES : LOCALE_ORDER;
+const locale = typeof lang === "string" ? lang : Astro.locals?.lang ?? "en-US";
+const dir = isRTL(locale) ? "rtl" : "ltr";
+// Bot detection for static rendering - fallback gracefully if headers unavailable
+let botFlag: string | undefined = undefined;
+try {
+  const ua = Astro.request?.headers?.get('user-agent') || '';
+  botFlag = isBot(ua) ? '1' : undefined;
+} catch {
+  // Headers unavailable in static mode - skip bot detection
+}
+
+// Helper function to generate language-specific URLs
+function hrefForLocale(code: string): string {
+  const base = Astro.site?.toString() || '';
+  const relativeUrl = buildLocaleUrl(code, Astro.url, allLocales as readonly string[]);
+  return base + relativeUrl;
+}
+// SEO: hreflang 不帶查詢參數，避免 Lighthouse 認定為無效
+function hrefForLocaleSEO(code: string): string {
+  try{
+    const u = new URL(Astro.url);
+    u.search = '';
+    u.hash = '';
+    const base = Astro.site?.toString() || '';
+    const relativeUrl = buildLocaleUrl(code, u, allLocales as readonly string[]);
+    // 回復原策略：直接拼接 base + relative 路徑，避免對外環境 404
+    return base + relativeUrl;
+  }catch{
+    return hrefForLocale(code);
+  }
+}
+const defaultOg = `${import.meta.env.BASE_URL}images/og-default.png`;
+const lowerBrand = (s: string) => (s ? s.replace(/moonpocket/gi, 'moonpacket') : s);
+const meta = {
+  title: lowerBrand(title || 'moonpacket'),
+  description: description || '',
+  url: canonicalUrl,
+  image: (ogImage === undefined || ogImage === null || ogImage === '') ? defaultOg : ogImage,
+  locale: lang
+};
+// i18n：載入當前語言文案（用於導航等本地化文字）
+const messages = await import(`@/i18n/loadMessages`).then(m => m.loadAllMessages(lang as any)).catch(async () => {
+  const fallback = await import(`@/i18n/loadMessages`).then(m => m.loadAllMessages(defaultLocale));
+  return fallback;
+});
+const year = new Date().getFullYear();
+---
+<html lang={lang} dir={dir} data-base={import.meta.env.BASE_URL} data-bot={botFlag}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="canonical" href={canonicalUrl} />
+    <!-- Google Fonts - stable fonts without variable font issues -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@400;600&display=swap" rel="stylesheet">
+    <!-- Favicon: avoid /favicon.ico 404 by explicitly setting icons -->
+    <!-- 使用原本與 logo 一致的 favicon.ico（使用根路徑，避免語言子路徑影響） -->
+    <link rel="icon" href={`${import.meta.env.BASE_URL}favicon.ico`} sizes="any" />
+    <link rel="shortcut icon" type="image/x-icon" href={`${import.meta.env.BASE_URL}favicon.ico`} />
+    <!-- Optional: PNG fallback -->
+    <link rel="icon" type="image/png" href={`${import.meta.env.BASE_URL}favicon.png`} />
+    <link rel="apple-touch-icon" href={`${import.meta.env.BASE_URL}icons/logo-192.png`} />
+    <link rel="manifest" href={`${import.meta.env.BASE_URL}site.webmanifest`} />
+    <!-- Fonts note: DYNAMIC. Real WOFF2 files must exist at /public/fonts to avoid 404. -->
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    {/* Conditional RTL styles - only loaded for RTL languages */}
+    {dir === 'rtl' && <link rel="stylesheet" href={`${import.meta.env.BASE_URL}styles.rtl.css`} />}
+    <Fragment set:html={ogTags(meta)} />
+    {/* hreflang alternates for all languages */}
+    {allLocales.map((code) => (
+      <link rel="alternate" hrefLang={code} href={hrefForLocaleSEO(code)} />
+    ))}
+    {/* x-default for root page */}
+    {xDefaultForRoot && <link rel="alternate" hrefLang="x-default" href={hrefForLocale('en-US')} />}
+    <Fragment set:html={jsonLdOrganization({ name: 'moonpacket', url: canonicalUrl })} />
+    {faqJsonLd && <Fragment set:html={`<script type="application/ld+json">${faqJsonLd}</script>`} />}
+  </head>
+  <body class:list={{ antialiased: true, rtl: dir === "rtl" }}>
+    <!-- Global route loading overlay (theme-aware) -->
+    <div id="route-loading" class="fixed inset-0 z-[60] hidden items-center justify-center transition-opacity duration-300" aria-hidden="true">
+      <div class="spinner h-10 w-10 rounded-full border-2 border-t-[#FFBA00] animate-spin"></div>
+    </div>
+    <script is:inline define:vars={{ lang, defaultLocale }}>
+      (function(){
+        try{
+          var currentLang = lang || (document.documentElement && document.documentElement.getAttribute('lang')) || defaultLocale;
+          if (currentLang){
+            try{ localStorage.setItem('mp_lang', currentLang); }catch(_){ }
+            var maxAge = 60*60*24*365; document.cookie = 'mp_lang='+encodeURIComponent(currentLang)+'; Max-Age='+maxAge+'; Path=/';
+          }
+        }catch(_){ }
+      })();
+    </script>
+    <a href="#main-content" class="sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-50 focus:bg-white focus:text-text focus:px-3 focus:py-2 focus:rounded">
+      {messages.site?.a11y?.skip_to_main || 'Skip to main content'}
+    </a>
+    <header class="mx-auto max-w-6xl px-4 py-4 flex items-center justify-between relative z-30 site-header">
+      <a href={`${import.meta.env.BASE_URL}${lang}/`} aria-label="Home" class="flex items-center gap-5">
+        <img src={`${import.meta.env.BASE_URL}favicon.png`} alt="" width="48" height="48" loading="eager" decoding="async" class="logo-img h-12 w-12 md:h-14 md:w-14 rounded" />
+        <BrandWordMoonpacket as="span" className="inline leading-none text-2xl md:text-3xl text-[var(--text)] brand-text" />
+      </a>
+      <nav class="flex items-center gap-6 nav-desktop">
+        <a href={`${import.meta.env.BASE_URL}${lang}/claim/`} class="nav-link hover:underline">{messages.site?.nav?.claim || 'Claim'}</a>
+        <a href={`${import.meta.env.BASE_URL}${lang}/send/`} class="nav-link hover:underline">{messages.site?.nav?.send || 'Send'}</a>
+        <LanguageMenu lang={lang} />
+      </nav>
+      <!-- Mobile hamburger for small screens (es-ES only via CSS) -->
+      <button id="hamburger" class="hamburger hidden items-center justify-center rounded-md border border-black/10 bg-white text-text p-2" aria-controls="mobile-menu" aria-expanded="false" aria-label="Menu">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M4 6h16M4 12h16M4 18h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+      </button>
+      <div id="mobile-menu" class="mobile-menu absolute right-4 top-[calc(100%+8px)] min-w-[200px] rounded-lg border border-black/10 bg-white shadow-lg overflow-hidden" aria-hidden="true">
+        <ul class="py-1">
+          <li><a class="block px-4 py-2 hover:bg-black/5" href={`${import.meta.env.BASE_URL}${lang}/claim/`}>{messages.site?.nav?.claim || 'Claim'}</a></li>
+          <li><a class="block px-4 py-2 hover:bg-black/5" href={`${import.meta.env.BASE_URL}${lang}/send/`}>{messages.site?.nav?.send || 'Send'}</a></li>
+          <li class="px-2 py-1 border-t border-black/10"><LanguageMenu lang={lang} /></li>
+        </ul>
+      </div>
+    </header>
+    <slot />
+    <footer class="mx-auto max-w-6xl px-4 pt-6 pb-10 text-sm text-textSubtle">
+      <div class="pb-4 border-b border-black/10">
+        <SocialLinks />
+      </div>
+      <div class="flex items-center justify-between gap-3 mt-4">
+        <div class="text-textSubtle">© {year} <span class="brand-mark">moonpacket</span>. {messages.site?.footer?.copyright || ''}</div>
+        <nav class="flex items-center gap-4 items-center">
+          <a class="hover:underline" href={`${import.meta.env.BASE_URL}${lang}/privacy/`}>{messages.site?.footer?.privacy || 'Privacy'}</a>
+          <span aria-hidden="true">·</span>
+          <a class="hover:underline" href={`${import.meta.env.BASE_URL}${lang}/terms/`}>{messages.site?.footer?.terms || 'Terms'}</a>
+          <button id="theme-toggle" type="button" class="ml-2 px-2 py-1 rounded border border-black/10 bg-white text-text text-xs">
+            <span class="light">🌞</span><span class="dark hidden">🌙</span>
+          </button>
+        </nav>
+      </div>
+    </footer>
+    <script is:inline>
+      (function(){
+        var html = document.documentElement;
+        var KEY = 'mp_theme';
+        function apply(v, persist){
+          if(!v){v='light';}
+          html.setAttribute('data-theme', v);
+          if(persist){
+            try{ localStorage.setItem(KEY, v); document.cookie = KEY+'='+encodeURIComponent(v)+'; Path=/; Max-Age='+(365*24*60*60); }catch(_){}
+          }
+          var btn=document.getElementById('theme-toggle');
+          if(btn){ var on=v==='dark'; try{ btn.querySelector('.light').classList.toggle('hidden', on); btn.querySelector('.dark').classList.toggle('hidden', !on);}catch(_){} }
+        }
+        function resolveAuto(){
+          try{ if(window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) return 'dark'; }catch(_){}
+          var h=new Date().getHours();
+          return (h>=18 || h<6) ? 'dark' : 'light';
+        }
+        function scheduleIfAuto(){
+          if(saved) return;
+          var now=new Date(); var h=now.getHours();
+          var targetHour = (h<6)?6 : (h<18)?18 : 24+6; // next 06:00 or 18:00
+          var target = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 0,0,0,0);
+          target.setHours(targetHour);
+          if(targetHour>=24){ target.setDate(target.getDate()+1); target.setHours(6); }
+          var delay = target.getTime() - now.getTime();
+          setTimeout(function(){ if(!saved){ apply(resolveAuto(), false); scheduleIfAuto(); } }, Math.max(1000, delay));
+        }
+        var saved=null; try{ saved = localStorage.getItem(KEY) || (document.cookie.match(/(?:^|;\s*)mp_theme=([^;]+)/)||[])[1]; if(saved) saved=decodeURIComponent(saved); }catch(_){}
+        var initial = saved || resolveAuto();
+        apply(initial, !!saved);
+        if(!saved){
+          try{
+            if(window.matchMedia){
+              var mql=window.matchMedia('(prefers-color-scheme: dark)');
+              var onChange=function(){ if(!saved){ apply(resolveAuto(), false); } };
+              if(mql.addEventListener) mql.addEventListener('change', onChange); else mql.onchange=onChange;
+            }
+          }catch(_){}
+          scheduleIfAuto();
+        }
+        var btn=document.getElementById('theme-toggle');
+        if(btn){ btn.addEventListener('click', function(){ var next=(html.getAttribute('data-theme')==='dark')?'light':'dark'; saved=next; apply(next, true); }); }
+      })();
+    </script>
+    <script is:inline>
+      (function(){
+        var overlay = document.getElementById('route-loading');
+        if(!overlay) return;
+        function applyTheme(){
+          try{
+            var theme = document.documentElement.getAttribute('data-theme') || 'light';
+            var spinner = overlay.querySelector('.spinner');
+            if(theme === 'dark'){
+              overlay.style.backgroundColor = 'rgba(0,0,0,0.50)';
+              if(spinner){ spinner.style.borderColor = 'rgba(255,255,255,0.25)'; spinner.style.borderTopColor = '#FFBA00'; }
+            }else{
+              overlay.style.backgroundColor = 'rgba(255,255,255,0.80)';
+              if(spinner){ spinner.style.borderColor = 'rgba(0,0,0,0.20)'; spinner.style.borderTopColor = '#FFBA00'; }
+            }
+          }catch(_){}
+        }
+        function show(){
+          applyTheme();
+          overlay.classList.remove('hidden');
+          overlay.classList.add('flex');
+          overlay.style.pointerEvents = 'auto';
+          requestAnimationFrame(function(){ overlay.style.opacity = '1'; });
+        }
+        function hide(){
+          overlay.style.opacity = '0';
+          overlay.style.pointerEvents = 'none';
+          setTimeout(function(){ overlay.classList.add('hidden'); overlay.classList.remove('flex'); }, 250);
+        }
+        // Hide on initial load (in case shown by bfcache restore)
+        if(document.readyState === 'complete') hide(); else window.addEventListener('load', hide);
+        window.addEventListener('pageshow', function(e){ if(e.persisted) hide(); });
+        // Track theme changes
+        try{ new MutationObserver(applyTheme).observe(document.documentElement, { attributes:true, attributeFilter:['data-theme'] }); }catch(_){ }
+        // Show on in-app navigations
+        document.addEventListener('click', function(e){
+          var t = e.target;
+          while(t && t.tagName !== 'A'){ t = t.parentElement; }
+          if(!t || t.tagName !== 'A') return;
+          var href = t.getAttribute('href') || '';
+          var target = t.getAttribute('target');
+          var isExternal = /^(?:https?:)?\/\//.test(href) || href.startsWith('mailto:') || href.startsWith('tel:');
+          if(isExternal) return;
+          if(href && !href.startsWith('#') && !href.startsWith('javascript:') && (!target || target === '_self')){
+            show();
+          }
+        }, true);
+        // Fallback: show on unload
+        window.addEventListener('beforeunload', function(){ show(); });
+      })();
+    </script>
+    <script is:inline>
+      (function(){
+        try{
+          var SKIP = new Set(['SCRIPT','STYLE','CODE','PRE','LINK','META','TITLE','NOSCRIPT','SVG']);
+          function shouldSkip(node){
+            var p=node.parentElement; while(p){ if(p.classList && (p.classList.contains('brand-word') || p.classList.contains('brand-mark'))) return true; if(SKIP.has(p.tagName)) return true; p=p.parentElement; }
+            return false;
+          }
+          function brandifyText(text){
+            if(!text) return null;
+            var re = /(moonpocket|\$?moonini)/gi;
+            if(!re.test(text)) return null;
+            var frag=document.createDocumentFragment();
+            var parts = text.split(re);
+            for(var i=0;i<parts.length;i++){
+              var part = parts[i];
+              if(!part) continue;
+              if(/^(?:moonpocket)$/i.test(part)){
+                var span=document.createElement('span'); span.className='brand-mark'; span.textContent='moonpacket'; frag.appendChild(span);
+              }else if(/^(?:\$?moonini)$/i.test(part)){
+                var hasDollar = part[0] === '$';
+                var span2=document.createElement('span'); span2.className='brand-mark'; span2.textContent=(hasDollar?'$':'')+'moonini'; frag.appendChild(span2);
+              }else{
+                frag.appendChild(document.createTextNode(part));
+              }
+            }
+            return frag;
+          }
+          function walk(node){
+            if(!node) return;
+            if(node.nodeType===3){ // Text
+              if(shouldSkip(node)) return;
+              var repl = brandifyText(node.nodeValue);
+              if(repl){ node.parentNode.replaceChild(repl, node); }
+              return;
+            }
+            if(node.nodeType===1 && !SKIP.has(node.tagName)){
+              for(var c=node.firstChild; c;){ var next=c.nextSibling; walk(c); c=next; }
+            }
+          }
+          if(document.readyState==='loading') document.addEventListener('DOMContentLoaded', function(){ walk(document.body); }); else walk(document.body);
+          // also observe dynamic mutations (client islands updates)
+          try{
+            var mo = new MutationObserver(function(muts){
+              for(var i=0;i<muts.length;i++){
+                var m=muts[i];
+                if(m.type==='childList'){
+                  m.addedNodes && m.addedNodes.forEach(function(n){ walk(n); });
+                }else if(m.type==='characterData'){
+                  walk(m.target);
+                }
+              }
+            });
+            mo.observe(document.body, { subtree:true, childList:true, characterData:true });
+          }catch(_){ }
+        }catch(_){ }
+      })();
+    </script>
+    <script is:inline>
+      (function(){
+        var btn=document.getElementById('hamburger');
+        var menu=document.getElementById('mobile-menu');
+        if(!btn||!menu) return;
+        // 在實機行動裝置上，避免僅靠 CSS 覆寫 hidden，主動依裝置狀態控制可見
+        try {
+          var mqInit = window.matchMedia('(max-width: 720px), (orientation: portrait)');
+          var ensureVisible = function(e){
+            var isMobile = e && typeof e.matches==='boolean' ? e.matches : (mqInit && mqInit.matches);
+            if(isMobile){ btn.classList.remove('hidden'); }
+            else { btn.classList.add('hidden'); menu.setAttribute('aria-hidden','true'); btn.setAttribute('aria-expanded','false'); }
+          };
+          ensureVisible(mqInit);
+          if(mqInit.addEventListener) mqInit.addEventListener('change', ensureVisible); else if(mqInit.addListener) mqInit.addListener(ensureVisible);
+        }catch(_){}
+        function toggle(){
+          var hidden = menu.getAttribute('aria-hidden') !== 'false';
+          menu.setAttribute('aria-hidden', hidden ? 'false' : 'true');
+          btn.setAttribute('aria-expanded', hidden ? 'true' : 'false');
+        }
+        // 實機相容性：同時監聽 click / touchend / pointerup
+        try{ btn.addEventListener('click', toggle, { passive: true }); }catch(_){ btn.addEventListener('click', toggle); }
+        try{ btn.addEventListener('touchend', toggle, { passive: true }); }catch(_){ }
+        try{ btn.addEventListener('pointerup', toggle, { passive: true }); }catch(_){ }
+        document.addEventListener('click', function(e){
+          if(!menu || menu.getAttribute('aria-hidden')==='true') return;
+          var t=e.target; if(btn.contains(t) || menu.contains(t)) return; toggle();
+        });
+        // 大小變化時，自動恢復桌面狀態（關閉行動選單）
+        try{
+          var mq = window.matchMedia('(max-width: 720px), (orientation: portrait)');
+          var handler = function(ev){ if(!ev.matches){ menu.setAttribute('aria-hidden','true'); btn.setAttribute('aria-expanded','false'); } };
+          if(mq.addEventListener) mq.addEventListener('change', handler); else mq.addListener(handler);
+        }catch(_){ }
+      })();
+    </script>
+    <style is:global>
+      /* Prevent logo stretching */
+      .site-header .logo-img{ object-fit: contain; }
+      /* 預設隱藏 mobile menu（避免從行動切回桌面仍顯示）*/
+      .site-header .mobile-menu{ display:none; }
+      /* 小螢幕/豎屏：任何語言均啟用 hamburger，隱藏桌面導覽 */
+      @media (max-width: 720px), (orientation: portrait) {
+        .site-header .nav-desktop { display:none !important; }
+        .site-header .hamburger { display:flex !important; }
+        .site-header { position: relative; }
+        .site-header .mobile-menu[aria-hidden="true"]{ display:none; }
+        .site-header .mobile-menu[aria-hidden="false"]{ display:block; }
+      }
+    </style>
+  </body>
+  <!-- BaseLayout sets <html lang> and dir, plus SEO tags and hreflang links. -->
+</html>
+
+

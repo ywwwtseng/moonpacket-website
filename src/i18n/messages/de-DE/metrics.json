@@ -1,0 +1,17 @@
+{
+  "title": "moonpacket Datenübersicht",
+  "subtitle": "Echtzeitstatistiken und Rangliste",
+  "latest": "Neueste",
+  "top_groups": "Beliebte Gruppen",
+  "total_sent": "Gesamtbetrag gesendet",
+  "total_claimed": "Gesamtbetrag beansprucht (USDT)",
+  "participants": "Anzahl der Teilnehmer",
+  "avg_packet": "Durchschnittlicher Betrag pro Packet",
+  "sort": {
+    "label": "Sortieren nach",
+    "latest": "Neueste",
+    "oldest": "Älteste",
+    "most": "Maximale Teilnehmer",
+    "least": "Minimale Teilnehmer"
+  }
+}

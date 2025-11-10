@@ -1,0 +1,52 @@
+{
+  "items": [
+    {
+      "id": "evt_10001",
+      "user": "Alice",
+      "group": "Moon Club A",
+      "link": "https://t.me/mooncluba",
+      "amount": 12.30000000,
+      "ccy": "USDT",       
+      "ts": "2025-01-11T20:00:00Z",
+      "total_amount": 190.00000000,
+      "claimed_count": 20,
+      "total_count": 100
+    },
+    {
+      "id": "evt_10002",
+      "user": "Bob",
+      "group": "TON Builders",
+      "link": "https://t.me/tonbuilders",
+      "amount": 5.50000000,
+      "ccy": "TON",       
+      "ts": "2025-01-11T19:58:00Z",
+      "total_amount": 55.00000000,
+      "claimed_count": 8,
+      "total_count": 50
+    },
+    {
+      "id": "evt_10003",
+      "user": "Charlie",
+      "group": "SOL Community",
+      "link": "https://t.me/solcommunity",
+      "amount": 0.25000000,
+      "ccy": "SOL",       
+      "ts": "2025-01-11T19:56:00Z",
+      "total_amount": 2.50000000,
+      "claimed_count": 5,
+      "total_count": 25
+    },
+    {
+      "id": "evt_10004",
+      "user": "David",
+      "group": "ETH Developers",
+      "link": "https://t.me/ethdevs",
+      "amount": 0.00150000,
+      "ccy": "ETH",       
+      "ts": "2025-01-11T19:54:00Z",
+      "total_amount": 0.01500000,
+      "claimed_count": 3,
+      "total_count": 15
+    }
+  ]
+}

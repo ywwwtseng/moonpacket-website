@@ -1,0 +1,11 @@
+---
+const { quote, author } = Astro.props as { quote: string; author: string };
+---
+{quote && author ? (
+  <blockquote class="p-6 rounded-xl bg-white ring-1 ring-black/5">
+    <p class="text-sm">“{quote}”</p>
+    <footer class="text-xs text-textSubtle mt-2">— {author}</footer>
+  </blockquote>
+) : null}
+
+

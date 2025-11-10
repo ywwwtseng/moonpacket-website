@@ -1,0 +1,171 @@
+{
+  "title": "",
+  "hero": {
+    "api_demo_label": "API Demó",
+    "api_get": "https://t.me/MoonPackageDevBot",
+    "response_label": "Válasz:",
+    "json": "{ \"data\": { \"level\": 100, \"status\": \"active\", \"is_blacklist\": false } } {, \"data\": {, \"level\": 100,, \"status\": \"active\",, \"is_blacklist\": false, }",
+    "title": "Vonzz új felhasználókat, növeld az aktivitást",
+    "lead": "A projekt fele beállíthat konkrét feltételeket:",
+    "points": {
+      "0": "",
+      "1": "",
+      "2": ""
+    },
+    "note": "A feltételeknek megfelelő felhasználók igényelhetik a red packet-et",
+    "subtitle": "Hozz létre egy egyedi red packet eseményt a közösséged számára",
+    "desc": "Egyszerű beállítás, gyors indítás, aktiváld a közösséged!",
+    "ctaPrimaryLabel": "Kezdj el most",
+    "ctaPrimaryHref": "https://t.me/MoonPackageDevBot",
+    "ctaSecondaryLabel": "Példa megtekintése",
+    "ctaSecondaryHref": "/zh-TW/claim/",
+    "api_demo_code": "{\n\"data\": {\n\"level\": {\n\"gt\": 99\n},\n\"status\": {\n\"eq\": \"active\"\n},\n\"is_blacklist\": {\n\"eq\": false\n}\n}\n}",
+    "api_demo_title": "GET [api_url]?api_key=[api_key]&user_id=[user_id]",
+    "use_cases_items": {
+      "0": "A projekt fele beállíthat feladatfeltételeket:",
+      "1": "Csatlakozz a csoporthoz / Kövesd a csatornát",
+      "2": "Helyes jelszófrázis",
+      "3": "Projektparti testreszabott API",
+      "4": "Csak a feltételeknek megfelelő felhasználók igényelhetik, küldd el a red packetet az értékes felhasználóknak."
+    },
+    "use_cases_title": "Új felhasználók vonzása・Aktivitás növelése"
+  },
+  "faq": {
+    "section_1": "Kezdés és beállítások.",
+    "q1": "Hogyan kezdjünk neki?",
+    "a1": "Add hozzá a moonpacket Robotot a Telegram csoportodhoz vagy csatornádhoz, és állítsd be rendszergazda szerepkörbe.",
+    "q2": "Milyen előkészületekre van szükség az elküldés előtt?",
+    "a2": "Kérjük, először helyezze el azokat az eszközöket, amelyeket meg szeretne osztani (például helyezzen el 10 USDT-t tesztelés céljából).",
+    "section_2": "2) Küldési folyamat",
+    "q3": "Kiválaszthatom, hová küldjem?",
+    "a3": "Válassza ki a 'Küldési célok' között a kötött csoportokat vagy csatornákat, hogy egyszerre több csoporthoz is el tudjon küldeni.",
+    "tip": "Tipp: A red packetek küldése alkalmas a jégtörő interakciókhoz. Válaszolhatsz a red packet bejegyzésre, hogy elmagyarázd a játék témáját, amelyet szervezni szeretnél.",
+    "section_3": "3) Technikai problémák",
+    "section_4": "Adatok és elemzés",
+    "section_5": "Technikai támogatás és karbantartás",
+    "q4": "Testre szabható az elosztás módja?",
+    "a4": "Támogatja mind a véletlenszerű, mind az átlagos elosztási módokat.",
+    "q5": "Közvetlenül üzenhetsz a hivatalos ügyfélszolgálati robotnak @moonini_helper_bot.",
+    "a5": "Minden API kulcs legfeljebb 60 alkalommal hívható meg egy perc alatt.",
+    "q6": "Hogyan kezeljük a hibákat?",
+    "a6": "Az API részletes hibakódokat és hibaüzeneteket fog visszaadni.",
+    "q7": "Hogyan lehet nyomon követni a tevékenységek hatékonyságát?",
+    "a7": "Valós idejű adatpanel biztosítása:",
+    "q8": "Hogyan számítják ki a tranzakciós díjakat?",
+    "a8": "• Platform szolgáltatási díj: 2-5% (aktivitás mértékétől függően)",
+    "q9": "Hogyan biztosítható a pénzeszközök biztonsága?",
+    "a9": "• Decentralizált architektúra, nem szükséges letéti alap.",
+    "q10": "Mi a teendő a fennmaradó alapokkal az esemény vége után?",
+    "a10": "• A nem igényelt red packetek automatikusan visszakerülnek a tárcádba.",
+    "q11": "Tarthatók egyszerre több esemény?",
+    "a11": "Igen, de azt ajánljuk, hogy:",
+    "q12": "Hogyan kezeljük a felhasználói panaszokat?",
+    "a12": "• Kínálj egy dedikált ügyfélszolgálati csatornát",
+    "q13": "Elérhető technikai támogatás?",
+    "a13": "• 24/7 műszaki támogatás",
+    "q14": "Hogyan optimalizálhatom az esemény hatékonyságát?",
+    "a14": "• Állítsd be az aktivitási stratégiát az adatok alapján",
+    "q9_passcode": "Mi az a jelszó? Milyen helyzetekben alkalmas?",
+    "a9_passcode": "A játékosoknak külső csatornákból kell megszerezniük a titkos kifejezést, és vissza kell térniük erre az oldalra annak helyes megadásához a jogosultság megszerzéséhez. Gyakori gyakorlatok:",
+    "passcode_scenarios": {
+      "0": "Ossza fel a 6 számjegyű titkos kifejezést a YouTube hosszú videóiban a teljes megtekintés ösztönzésére.",
+      "1": "X.com (Twitter) vagy Threads bejegyzések, amelyek utalásokat tesznek a titkos kifejezésre a kölcsönhatás fokozása érdekében.",
+      "2": "Csak élő közvetítések során, szóban oszd meg a titkos kifejezést az ott lévő közönség irányítására.",
+      "3": "A privát/fizetős csoportok exkluzív titkos kifejezéseket biztosítanak, hogy a juttatások csak a magtagság tagjainak legyenek fenntartva."
+    },
+    "q10_api": "Használhatom a saját API-mat a résztvevők jogosultsági feltételeinek meghatározására?",
+    "a10_api": "Igen. A moonpacket a megadott csak olvasható API-t használja a hitelesítéshez, mielőtt a felhasználó igényli azt. Csak állítsd be az api_url és api_key (opcionális domain beállítások elérhetőek) a háttérben.",
+    "api_condition_title": "Feltételnyilatkozat (nincs user_id)",
+    "api_response_label": "Visszatérés:",
+    "api_operators_label": "Operátor:",
+    "api_operators_desc": "eq (bármilyen típushoz illeszkedhet), gt/lt/gte/lte (számértéknek kell lennie)",
+    "api_user_query_title": "Felhasználói lekérdezés (beleértve a user_id-t)",
+    "api_logic_desc": "a moonpacket a 'Feltételnyilatkozat' használatával összehasonlítja a 'Felhasználói lekérdezés' tényleges értékével; ha egyezik, átmegy, ha nem, akkor nem kérhető.",
+    "api_security_title": "Biztonsági ajánlások",
+    "api_security_desc": "Használjon csak olvasható végpontokat, engedélyezze az api_key-t, és engedje meg a domain korlátozásokat; kereszt-domain esetén ajánlott a Cloudflare Workers használata az átmenethez és a sebességkorlátozáshoz.",
+    "q12_antibot": "Hogyan előzhetjük meg a csalást és a bot tevékenységet?",
+    "a12_antibot_items": {
+      "0": "Viselkedési gyakoriság és eszköz/IP észlelés",
+      "1": "Fiók, amely egyedileg kötődik a tárcához",
+      "2": "Kifizetési hitelesítő kód",
+      "3": "AI kockázatkezelés előzetes felülvizsgálat; szükség esetén harmadik féltől származó biometrikus azonosítást, arcfelismerést és dokumentumellenőrzést végezhet."
+    },
+    "q13_records": "Hol ellenőrizhetem az elküldött üzeneteim nyilvántartását és a címzettek számát?",
+    "a13_records": "Kérlek, ellenőrizd a 'Küldött Red Packetek' részt a személyes főoldaladon, hogy megtekintsd az igénylők számát, a megmaradt összegeket és a teljes kiadásokat; ha engedélyezve van, a beszámolók is letölthetők.",
+    "q1_body": {
+      "0": "Ez egy eszköz, amely segít a projektcsapatoknak, csoporttulajdonosoknak vagy közösségkezelőknek gyorsan red packet-et osztani Telegram csoportokban.\nKifejezetten a meme coinok elosztására összpontosít, hogy ösztönözze a közösség tagjait,\nfő felhasználási területek: aktivitás ösztönzése, új tagok vonzása és promóciós tevékenységek lebonyolítása.\nNemcsak saját kibocsátott meme coinjaidat használhatod a red packet-ek elosztására, hanem mainstream tokeneket is, mint az USDT, TRX, SOL és mások.\nA moonpacket-en keresztül megkövetelheted a felhasználóktól, hogy végezzenek el egyszerű feladatokat, és további konfigurációra van lehetőséged az API-n keresztül, lehetővé téve a csoporttulajdonosok számára, hogy 'személyre szabják az elosztási szabályokat' és 'meghatározzák az igénylés feltételeit', saját API-jukkal történő ellenőrzés mellett.",
+      "1": "Tipp: A moonpacket red packet-ek elosztása lehetővé teszi számodra, hogy valóban értékes közösségi tagokat fedezz fel. Minden red packet-ben beállíthatod az igénylési feltételeket, különböző feladatokat biztosítva a játékosok számára."
+    },
+    "q1_title": "1) Mi a moonpacket red packet funkciója?",
+    "q2_body": {
+      "0": "Üdvözlő üzenet új tagoknak a csatlakozás után (a minimális csatlakozási feladatok teljesítése után)",
+      "1": "Valós idejű interakciók élő adások / AMA-k / események alatt (csak az eseményre összpontosító tagok kaphatják meg a jelszót és jogosultak a red packet-re)",
+      "2": "Csoporton belüli marketingpromóciók, sorsolások, szlogenkampányok, játék szintlépések, feltöltési kedvezmények (pl. csak azok a játékosok jogosultak a nyereményre, akik bizonyos szintet elértek a játékban vagy meghatározott összeget töltenek fel)",
+      "3": "Jutalmak barátok csoportba való meghívásáért",
+      "4": "Korlátozott idejű promóciók, visszaszámláló események (napi bejelentkezési feladatok)",
+      "5": "\"Keresztcsoportos red packet\": Red packetek küldése más csoportokban (ha a csoport tulajdonosa engedi), a kölcsönös nyilvánosság elősegítése és a közösségi együttműködés érdekében."
+    },
+    "q2_title": "2) Mikor alkalmas a red packet funkció használata?",
+    "q3_body": {
+      "0": "Minden on-chain művelet gas díjat von maga után. A gas díjat magája a blokklánc számít fel, nem tőlünk származó további díj.",
+      "1": "Amikor tokeneket helyezel el a red packet medencében, egy gas díj azonnal levonásra kerül on-chain. A medencébe belépő tényleges összeg kissé kevesebb lehet, mint a névleges összeg, amit megadtál (vagy további gas díj vonódhat le az átvitel során). Ez normális on-chain levonás.",
+      "2": "red packet kibocsátásakor a 'te csoportodban' a rendszer automatikusan 2%-os platformdíjat számít fel az elosztás idején, ami közvetlenül levonásra kerül.",
+      "3": "Keresztcsoportos red packetek (más csoportban promóció) további szabályokkal rendelkeznek:",
+      "4": "Először is, a promóciót fogadó csoport tulajdonosa engedélyt kell, hogy adjon, és főbb tokeneket kell használni. A keresztcsoportos red packetek nem fogadnak el saját magad által létrehozott meme coinokat, és a rendszernek van egy minimális küszöbe a keresztcsoportos red packet összegére vonatkozóan. Ha a küszöb alatt van, a red packet nem hozható létre. Kérjük, győződj meg róla, hogy az összeg elegendő a küldés előtt."
+    },
+    "q3_title": "3) A red packetek küldésének költsége és küszöbe",
+    "q4_body": {
+      "0": "Aktívan észleljük a visszaélésszerű magatartásokat (például csalás, pénzmosás, robot taktikák, spam interakciók stb.). Ha magas kockázatúnak minősül, a fiók vagy az eszközök 'felülvizsgálat alatt' állapotba léphetnek: a kivonások késlekedhetnek, és a fiók ideiglenesen feketelistára kerülhet. Ez az összes felhasználói eszköz védelme és a szabályozási követelmények betartása érdekében történik.",
+      "1": "Ez a platform kockázatellenőrzési és megfelelőségi mechanizmusa. Belső kockázatellenőrzés, megfelelőségi követelmények, vagy harmadik féltől származó vizsgálatok alapján felfüggeszthetjük, korlátozhatjuk, késleltethetjük, vagy megtagadhatjuk a konkrét kivonásokat vagy átutalásokat.",
+      "2": "Ha úgy gondolod, hogy ez egy téveszme, fellebbezést nyújthatsz be a hivatalos ügyfélszolgálati boton keresztül."
+    },
+    "q4_title": "4) Biztonság, Kockázatellenőrzés és Fiókállapot",
+    "q5_body": {
+      "0": "Közvetlenül üzenhetsz a hivatalos ügyfélszolgálati botnak @moonini_helper_bot.",
+      "1": "Kérjük, írd be a /setlang parancsot a beszélgetésben (pl.: /setlang zh-TW vagy /setlang en-US) az ügyfélszolgálati nyelv váltásához.",
+      "2": "Probléma bejelentésekor kérjük, add meg:",
+      "3": "Az ügyfélszolgálat csak az on-chain adatokat és tranzakciós nyilvántartásokat ellenőrzi. Nem kérjük, hogy küldj eredeti képeket, vagy nyújtsd át a wallet privát kulcsait, emlékezetet, vagy teljes seed kifejezéseket, és nem kérjük, hogy pénzt utalj át 'ellenőrzés' céljából. A hivatalos ügyfélszolgálat nem fog proaktívan üzenetet küldeni tőled eszközök kérésével.",
+      "4": "Használhatod a saját szolgáltatású lekérdező API-t is, hogy ellenőrizd az állapotodat, például, hogy a fiókod érvényes-e, feketelistás-e, vagy felülvizsgálat alatt áll-e. Itt van egy példa: ha a válasz azt mutatja, hogy is_blacklist: true vagy status: \"hold\", ez azt jelenti, hogy a fiók kockázatellenőrzési felülvizsgálat alatt áll, és a kivonások vagy elosztások felfüggeszthetők. Ha ez a funkció nem érhető el a tesztüzemeltetés időszakában, kérjük, nyújts be fellebbezést az ügyfélszolgálati boton keresztül, és add meg a tranzakció hash-t, és felgyorsítjuk a feldolgozást az on-chain bizonyítékok alapján."
+    },
+    "q5_title": "5) Ügyfélszolgálat és önkiszolgáló kérdések",
+    "q6_body": {
+      "0": "API mechanizmust biztosítunk a csoporttulajdonosok számára a feladatfeltételek és a beváltási szabályok testreszabásához.",
+      "1": "Mi az a jelszó? Mikor kell használni? Például, ha több felhasználót szeretnél meghívni TikTokodra vagy YouTube-odra, vagy csatlakozni a privát csoportodhoz, elrejtheted a jelszót videókban vagy üzenetekben. A felhasználóknak meg kell szerezniük a jelszót a megadott helyen, hogy igényelhessék a red packetet miután beírták.",
+      "2": "Mi az API fogalma? Hogyan határozzák meg a jogosultságot?",
+      "3": "Az API beállítások felületén először tájékoztatni kell az API-t a feltételekről, amelyeket 'feltétel-deklarációnak' nevezünk (felhasználó_id kizárva).\nPélda: Visszaadni egy küszöbértékekből álló készletet, például szint, státusz, fekete listán van-e, stb.\nA moonpacket ezt a feltételkészletet fogja alap küszöbként kezelni.",
+      "4": "Ezután, amikor a felhasználó szeretné igényelni a red packetet, az API-nak biztosítania kell:\n'Felhasználói lekérdezés' (beleértve a felhasználó_id-t).\nPélda: Visszaadni a tényleges értékét annak a felhasználónak. A platform összehasonlítja a 'Felhasználói lekérdezés' eredményeit a korábban beállított 'feltétel-deklaráció' küszöbértékkel; ha egyezik, jóváhagyásra kerül; ha nem, elutasításra.",
+      "5": "Biztonsági ajánlás: Kérjük, csak olvasási jogú végpontokat biztosítson, és engedélyezze az api_key-t a domain fehérlistázási korlátozásokkal együtt; ha kereszt-domain műveletekre van szükség, használhat Cloudflare Workers-t reléként és megvalósíthatja a sebességkorlátozást.",
+      "6": "Módosíthatók-e a tevékenységi szabályok közben?",
+      "7": "A közben történő módosítások nem lehetségesek. Reméljük, hogy ennek a rendszernek minden felhasználója kölcsönösen fenntartja a bizalmat. Ha egy projekt fél ígéretet tesz, hogy red packeteket bocsát ki, de módosítja a játék jogosultságokat közben, lehetetlenné téve az igénylést, az sérti a játékosok bizalmát. Ha a kibocsátó módosítja az API-t a szabályok megváltoztatására, és több játékos bejelenti ezt, fenntartjuk a jogot a fiókok felfüggesztésére vagy befagyasztására a változási naplók megerősítése után. Ezért kérjük, mindenképpen kerülje a játék szabályok megváltoztatását az API-n belül, mivel ez fiók tilalomhoz vezethet.",
+      "8": "Ha aggódsz a helytelen beállítások miatt, a helyes megközelítés a következő:",
+      "9": "Először létrehozhatsz egy saját tesztcsoportot, teszt red packeteket adhatsz ki magadnak a tesztcsoportban, és ha megerősíted, hogy nincsenek problémák, folytathatod a hivatalos közösségben való terjesztést. A red packetek alapvető szabálya az, hogy közben nem lehetséges megállítani a folyamatot, sem közvetlenül megváltoztatni a szabályokat egy folyamatban lévő tevékenységre. Minden kört az eredeti elköteleződés szerint kell befejezni és elszámolni, mielőtt új szabályokat lehetne alkalmazni a következő körben."
+    },
+    "q6_title": "6) Tevékenységi szabályok, jogosultság ellenőrzés, és közben nem változtathatók a szabályok",
+    "q7_body": {
+      "0": "Jelenleg még a Beta üzemeltetési fázisban vagyunk, és fokozatosan optimalizáljuk az adatirányítót, beleértve a résztvevők számát, a becslés alatt álló red packetek számát, az igénylési arányt stb. A projekt felei saját API beállításaikban is beágyazhatnak nyomkövetési mutatókat.",
+      "1": "A meg nem igényelt red packetek automatikusan visszatérnek a tárcádba. Ha nem kapsz visszatérítést 3 napon belül a tevékenység vége után, érdeklődhetsz az ügyfélszolgálaton a feldolgozás miatt.",
+      "2": "Ajánlott, hogy ne végezz túl sok tevékenységet egyszerre ugyanabban a csoportban az ütközések elkerülése érdekében. A felhasználók is összezavarodhatnak; legjobb lineárisan, egyesével vagy napi egyszer végezni a tevékenységeket, és biztosítani kell a megfelelő forrásokat minden tevékenység befejezéséhez.",
+      "3": "Ajánlott a szabályokat az adatok alapján módosítani; az API-t használhatod A/B tesztelésre, referálhatod a korábbi sikeres eseteket, és rendszeresen gyűjtheted a tagok visszajelzését a játék fokozatos optimalizálása érdekében.",
+      "4": "Csalás és visszaélés ellen:",
+      "5": "A nyílt beta üzemeltetési tesztidőszak alatt optimalizáljuk a felhasználói csalás ügyeket. A rendszer tisztességének biztosítása érdekében kifejezetten blokkoljuk azokat a felhasználókat, akik botokat próbálnak használni a red packetek megszerzésére. A legjobb megelőzési módszer az, hogy lehetővé tedd a felhasználók számára a saját API-juk és feltételeik beállítását, és korlátozd az igénylések számát, ami megemeli a küszöböt azok számára, akik szeretnek csalni. Abnormális helyzetek esetén, kérjük, bátran lépj kapcsolatba ügyfélszolgálatunkkal visszajelzés miatt."
+    },
+    "q7_title": "7) Teljesítmény nyomon követése, optimalizálás és csalás megelőzése",
+    "section_title": "Gyakran Ismételt Kérdések (Részletes FAQ) — Küldj red packetet"
+  },
+  "features": {
+    "f1": "Gyors beállítás",
+    "f2": "Különböző játékmenetek",
+    "f3": "Valós idejű adatok",
+    "f4": "Biztonságos és megbízható"
+  },
+  "features_desc": {
+    "f1": "A beállítás befejezése 3 perc alatt a red packet tevékenység elindításához",
+    "f2": "Támogatja a véletlenszerű, átlagos és meghatározott elosztási módszereket",
+    "f3": "Azonnali hozzáférés a fogadási adatokhoz és a felhasználói visszajelzésekhez",
+    "f4": "A decentralizált dizájn biztosítja a pénzeszközök biztonságát"
+  },
+  "cta_button_prefix": "Aktiválás most",
+  "cta_button_suffix": "Robot",
+  "cta_launch_bot": "Aktiváld a moonpacket Robotot most",
+  "footer_tip": "Tipp: A red packetek küldése alkalmas a jégtörő interakciókhoz. Válaszolhatsz a red packet bejegyzésre, hogy elmagyarázd a játék témáját, amelyet szervezni szeretnél."
+}

@@ -1,0 +1,48 @@
+{
+  "title": "Peta jalan produk",
+  "updated": "Pembaruan (token mulai didistribusikan setelah bilah kemajuan penuh)",
+  "bucket": {
+    "progress": "Kemajuan"
+  },
+  "status": {
+    "shipping": "Dalam pengembangan",
+    "planned": "Direncanakan",
+    "research": "Dalam penelitian",
+    "live": "Diluncurkan"
+  },
+  "accept": "Kriteria Penerimaan",
+  "lanes": {
+    "build": "Produk yang Dikembangkan",
+    "trust": "Kepercayaan, Kepatuhan, dan Keamanan",
+    "growth": "Pertumbuhan",
+    "token": "moonini Token"
+  },
+  "progressLabel": "Kemajuan",
+  "phase": {
+    "open-beta": {
+      "title": "Peluncuran Beta terbuka (angpao komunitas internal)",
+      "desc": "Pilot di dalam komunitas, integrasi komunitas dibuka secara bersyarat; Uji distribusi/klaim dasar dan pengalaman pengguna",
+      "accept": "Aturan yang jelas, klaim yang lancar, funnel kunci dapat digunakan"
+    },
+    "multi-chain": {
+      "title": "Optimasi berkelanjutan: Multi-chain + Mekanisme Poin + Anti-bot",
+      "desc": "Perluasan dukungan multi-chain di luar Solana; Perhitungan poin dan visualisasi; Strategi anti-bot dan pengujian A/B",
+      "accept": "Identifikasi aset multi-chain benar; Poin dan pengendalian risiko berfungsi normal"
+    },
+    "compliance": {
+      "title": "Pengendalian Risiko dan Kepatuhan",
+      "desc": "KYC/AML, Mekanisme Audit dan Keamanan; Proses Peninjauan Abnormal.",
+      "accept": "Aktifkan KYC jika perlu; aturan AML dapat diaudit; log keamanan yang kuat"
+    },
+    "growth-integration": {
+      "title": "Pertumbuhan: Integrasi komunitas + API/Webhook + Kolaborasi Ekosistem",
+      "desc": "Panduan integrasi, Webhook Acara, API Kuery; Proses integrasi mitra",
+      "accept": "Panduan integrasi disetujui; Webhook/API Kuery stabil"
+    },
+    "token-moonini": {
+      "title": "Poin dapat ditukarkan dengan token: moonini",
+      "desc": "Penyelesaian distribusi token moonini dan mekanisme pertukaran",
+      "accept": "Aturan untuk mengonversi poin menjadi token diterapkan; Pemeriksaan pengendalian risiko/kepatuhan dilalui"
+    }
+  }
+}

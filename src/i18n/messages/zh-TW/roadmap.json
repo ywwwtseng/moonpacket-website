@@ -1,0 +1,48 @@
+{
+  "title": "產品路線圖",
+  "updated": "更新（進度條全滿後代幣開始發放）",
+  "bucket": {
+    "progress": "進度"
+  },
+  "status": {
+    "shipping": "研發中",
+    "planned": "已規劃",
+    "research": "研究中",
+    "live": "已上線"
+  },
+  "accept": "驗收標準",
+  "lanes": {
+    "build": "開發產品",
+    "trust": "信任、合規與安全",
+    "growth": "成長",
+    "token": "moonini 代幣"
+  },
+  "progressLabel": "進度",
+  "phase": {
+    "open-beta": {
+      "title": "Open Beta 上線（社群內部紅包）",
+      "desc": "社群內先行，條件式開放合作社群接入；測試基礎發放/領取與使用者體驗",
+      "accept": "規則清晰、領取順暢，關鍵漏斗可使用"
+    },
+    "multi-chain": {
+      "title": "持續優化：多鏈 + 積分機制 + 防刷",
+      "desc": "擴充到非 Solana 的多鏈支持；積分計算與可視化；防刷策略與 A/B 校驗",
+      "accept": "多鏈資產識別正確；積分與風控正常聯動"
+    },
+    "compliance": {
+      "title": "風控與合規",
+      "desc": "KYC/AML、稽核與安全機制；異常復核流程。",
+      "accept": "必要時啟用 KYC；AML 規則可稽核；安全日誌健全"
+    },
+    "growth-integration": {
+      "title": "增長：社群接入 + API/Webhook + 生態合作",
+      "desc": "接入嚮導、事件 Webhook、查詢 API；夥伴對接流程",
+      "accept": "接入指南已通過；Webhook/查詢 API 穩定"
+    },
+    "token-moonini": {
+      "title": "積分兌換代幣：moonini",
+      "desc": "完成 moonini 代幣的發放與兌換機制",
+      "accept": "積分轉換為代幣的規則落地；風控/合規檢核通過"
+    }
+  }
+}

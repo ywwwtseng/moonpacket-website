@@ -1,0 +1,152 @@
+{
+  "title": "moonpacket — 简单、安全又快速的加密红包",
+  "description": "moonpacket 加密红包机器人｜支援 USDT、TON、SOL、ETH。轻松发红包、即时领取，安全去托管，最适合 Telegram 社群拉新与提升活跃。",
+  "nav": {
+    "home": "首页",
+    "about": "关于",
+    "pricing": "定价",
+    "team": "团队",
+    "blog": "博客",
+    "faq": "常见问题",
+    "contact": "联络我们",
+    "careers": "职涯",
+    "claim": "领红包",
+    "send": "发红包",
+    "api": "API 说明"
+  },
+  "hero": {
+    "title": "加密货币红包，人人可用",
+    "subtitle": "让您的社群体验更美好，提供全球化的简单服务。",
+    "desc": "提供给 meme 币专案方及 Telegram 群主，最佳拉新和提升活跃的红包机器人。",
+    "ctaPrimaryLabel": "启动 moonpacket",
+    "ctaPrimaryHref": "https://t.me/MoonPackageDevBot",
+    "ctaSecondaryLabel": "如何接入",
+    "ctaSecondaryHref": "/zh-TW/integration",
+    "lead": "Telegram TON、meme、USDT 抢红包｜提供给 meme 币专案方及 Telegram 群主，最佳拉新和提升活跃的红包机器人。",
+    "cta_primary": "立即启动 moonpacket",
+    "cta_secondary": "如何接入群组",
+    "headline_line1": "moonpacket",
+    "headline_line2": "启动，冲向月球。",
+    "tagline": "Telegram TON、meme 与 USDT 红包，用于社群行销与拉新留存。为管理员设计的群组红包机器人，可以提升活跃度、导入新成员并激励互动。"
+  },
+  "features": {
+    "f1": "快速注册",
+    "f2": "全球化本地化",
+    "f3": "非托管安全性",
+    "title": "核心功能",
+    "items": "__TODO_TRANSLATE_zh-CN__"
+  },
+  "sections": {
+    "waterfall_title": "红包瀑布流",
+    "features_heading": "功能亮点",
+    "features_subtitle": "您可以获得",
+    "tokens_heading": "代币与统计",
+    "testimonials_heading": "使用者的评价",
+    "pricing_heading": "方案与价格"
+  },
+  "footer": {
+    "rights": "",
+    "privacy": "隐私权政策",
+    "terms": "服务条款",
+    "social": {
+      "telegram_group": "Telegram 群组",
+      "telegram_channel": "Telegram 频道",
+      "x": "X",
+      "youtube": "Youtube"
+    },
+    "copyright": "版权所有。"
+  },
+  "a11y": {
+    "skip_to_main": "跳至主要内容",
+    "language_menu": "开启语言选单",
+    "language": "语言"
+  },
+  "metrics": {
+    "heading": "即时指标",
+    "price_btc": "BTC 价格",
+    "total_sent": "已发送总数",
+    "total_claimed_amount": "已领取总额 (USDT)",
+    "title": "代币与统计",
+    "groups": "已接入群组",
+    "groupsLinkLabel": "接入的红包群",
+    "sent": "已发送红包",
+    "claimed": "已领取总额",
+    "sort": {
+      "latest": "最新",
+      "oldest": "最旧",
+      "most": "人数最多",
+      "least": "人数最少"
+    }
+  },
+  "errors": {
+    "stale": "数据可能过期",
+    "not_found": "找不到页面",
+    "not_found_desc": "很抱歉，我们无法找到此页面，或该页面已被移除。"
+  },
+  "pricing": {
+    "starter": "入门方案",
+    "pro": "专业服务",
+    "enterprise": "企业方案",
+    "price_free": "免费",
+    "price_19": "$19",
+    "price_contact": "联络我们",
+    "sla_support": "SLA 与支援",
+    "bullets": {
+      "starter": {
+        "0": "基本功能",
+        "1": "社群支援"
+      },
+      "pro": {
+        "0": "包含入门方案",
+        "1": "进阶在地化"
+      },
+      "enterprise": {
+        "0": "SLA与支援",
+        "1": "客制化整合"
+      }
+    }
+  },
+  "story": {
+    "title": "🌕 moonini 的故事",
+    "secrets_title": "🌸 他的秘密",
+    "schedule_title": "代币释放规则",
+    "belief_title": "🌕 月之能量与红包的信仰",
+    "future_title": "💫 未来的应用",
+    "disclaimer_title": "⚠️ 声明"
+  },
+  "waterfall": {
+    "sent_from": "发送群：",
+    "claimed": "领取",
+    "total": "总额",
+    "progress": "已领取"
+  },
+  "seo": {
+    "og": {
+      "image": "",
+      "type": ""
+    },
+    "routes": {
+      "claim": {
+        "description": "",
+        "title": ""
+      },
+      "privacy": {
+        "description": "",
+        "title": ""
+      },
+      "send": {
+        "description": "",
+        "title": ""
+      },
+      "terms": {
+        "description": "",
+        "title": ""
+      }
+    },
+    "site": {
+      "description": "",
+      "site_name": "",
+      "title": ""
+    }
+  }
+}

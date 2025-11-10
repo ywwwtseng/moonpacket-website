@@ -1,0 +1,48 @@
+{
+  "title": "Produktová roadmapa",
+  "updated": "Aktualizace (tokeny začnou distribuci po naplnění progress baru)",
+  "bucket": {
+    "progress": "Růst"
+  },
+  "status": {
+    "shipping": "Ve vývoji",
+    "planned": "Plánováno",
+    "research": "Ve výzkumu",
+    "live": "Zahájeno"
+  },
+  "accept": "Vyvinuté produkty",
+  "lanes": {
+    "build": "Token moonini",
+    "trust": "KYC/AML, Mechanismy auditu a bezpečnosti; Abnormální proces kontroly.",
+    "growth": "Růst",
+    "token": "moonini token"
+  },
+  "progressLabel": "Pokrok",
+  "phase": {
+    "open-beta": {
+      "title": "Spuštění Open Beta (interní komunitní red packet)",
+      "desc": "Pilot v rámci komunity, podmíněně otevřená integrace komunity; Test základní distribuce/uplatnění a uživatelského zážitku",
+      "accept": "Jasná pravidla, hladké uplatnění, klíčové trychtýře jsou použitelné"
+    },
+    "multi-chain": {
+      "title": "Průběžná optimalizace: Multi-chain + Mechanismus bodů + Proti-bot",
+      "desc": "Rozšíření podpory více chainů mimo Solana; Výpočet a vizualizace bodů; Strategie proti botům a A/B testování",
+      "accept": "Identifikace multi-chain aktiv je správná; Body a kontrola rizik fungují normálně"
+    },
+    "compliance": {
+      "title": "Kontrola rizik a shoda",
+      "desc": "KYC/AML, audity a bezpečnostní mechanismy; proces přezkoumání anomálií.",
+      "accept": "Riziková kontrola a dodržování předpisů"
+    },
+    "growth-integration": {
+      "title": "Růst: Integrace komunity + API/Webhook + Spolupráce v ekosystému",
+      "desc": "Pokyny k integraci, Event Webhook, Query API; Proces integrace partnerů",
+      "accept": "Pokyny k integraci schváleny; Webhook/Query API je stabilní"
+    },
+    "token-moonini": {
+      "title": "Body směnitelné za tokeny: moonini",
+      "desc": "Dokončení distribuce a mechanismu výměny tokenu moonini",
+      "accept": "Pravidla pro převod bodů na tokeny implementována; Kontroly rizik/provádění shody byly úspěšné"
+    }
+  }
+}

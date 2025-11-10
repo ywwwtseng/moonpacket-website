@@ -1,0 +1,32 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import { computeCanonical } from '@/utils/head';
+import { getLocalesForBuild, defaultLocale } from '@/i18n/locales.config';
+import { LOCALE_ORDER } from '@/config/locales';
+
+export async function getStaticPaths() {
+  const locales = getLocalesForBuild();
+  return locales.map((l) => ({ params: { lang: l.code } }));
+}
+
+const { lang } = Astro.params as { lang: string };
+const t = await import(`@/i18n/messages/${lang}/common.json`).catch(async () => import(`@/i18n/messages/${defaultLocale}/common.json`));
+const messages = (t as any).default;
+const canonical = computeCanonical(Astro.url, (Astro.site && Astro.site.toString()) || undefined);
+---
+<BaseLayout lang={lang} title={messages.site.title} description={messages.site.description} canonicalUrl={canonical} allLocales={LOCALE_ORDER}>
+  
+  <main id="main-content" class="mx-auto max-w-4xl px-4 py-12 space-y-6">
+    <h1 class="sr-only">{messages.nav.faq}</h1>
+    <details class="p-4 rounded-lg bg-white ring-1 ring-black/5">
+      <summary class="font-semibold">{messages.nav.about}</summary>
+      <p class="text-textSubtle mt-2">{messages.hero.subtitle}</p>
+    </details>
+    <details class="p-4 rounded-lg bg-white ring-1 ring-black/5">
+      <summary class="font-semibold">{(messages.features && messages.features.f3) || 'Feature'}</summary>
+      <p class="text-textSubtle mt-2">{(messages.features_desc && messages.features_desc.f3) || ''}</p>
+    </details>
+  </main>
+</BaseLayout>
+
+

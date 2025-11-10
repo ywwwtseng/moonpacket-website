@@ -1,0 +1,15 @@
+{
+  "hero": {
+    "headline": "moonpacket on nousussa kohti kuuta!",
+    "subheadline": "Telegram TON, meme, USDT red packet -lähetys｜Paras red packet -botti meme-projekteille ja Telegram-ryhmien ylläpitäjille uusien käyttäjien houkuttelemiseksi ja sitoutumisen lisäämiseksi.",
+    "cta_primary": "Aktivoi moonpacket",
+    "cta_secondary": "Kuinka integroida"
+  },
+  "metrics": {
+    "title": "Tokenit ja tilastot",
+    "connected_groups": "Yhdistetyt ryhmät",
+    "total_packets_sent": "red packet lähetetty",
+    "total_claimed": "Yhteensä kerätty määrä (USDT)",
+    "data_stale": "Tiedot voivat olla vanhentuneita"
+  }
+}

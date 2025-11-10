@@ -1,0 +1,456 @@
+{
+  "privacyTitle": "Informativa sulla Privacy",
+  "termsTitle": "Accordo Utente",
+  "version": "Versione",
+  "updated": "Aggiornamento",
+  "owner": "Proprietario",
+  "sections": {
+    "scope": "Ambito e Formazione del Contratto",
+    "definitions": "Utilizzi ad Alto Rischio e Proibiti",
+    "eligibility": "Diritti di Proprietà Intellettuale",
+    "services": "Contenuto del Servizio e Modello Operativo",
+    "wallet": "Portafoglio Cloud, Impegno di Regalo e Blocco dei Fondi",
+    "fees": "Commissioni e Spese",
+    "rules": "Regole di Attività e Fairness",
+    "restrictions": "Controllo Anti-bot, Abuso e Restrizioni sul Conto",
+    "ip": "Diritti di Proprietà Intellettuale",
+    "third_party": "Servizi di Terze Parti e Dipendenza Esterna",
+    "data": "Idoneità e Conto",
+    "risks": "Informativa sui Rischi",
+    "disclaimer": "Indennizzo",
+    "liability": "Limitazione di Responsabilità",
+    "indemnity": "Indennizzo",
+    "termination": "Sospensione, Congelamento, Risoluzione e Conservazione dei Dati",
+    "force_majeure": "Forza Maggiore",
+    "high_risk": "Utilizzi Ad Alto Rischio e Proibiti",
+    "tax": "Tassazione e Reporting",
+    "accuracy": "Accuratezza dei contenuti e dei dati",
+    "governing_law": "Legge Applicabile e Risoluzione delle Controversie",
+    "contact": "Metodo di Contatto",
+    "changes": "Terms Changes",
+    "intro": "",
+    "data_collection": "Commissioni e Spese",
+    "data_usage": "Legge Applicabile e Risoluzione delle Controversie",
+    "legal_basis": "",
+    "cookies": "Definizioni",
+    "data_sharing": "Forza Maggiore",
+    "cross_border": "Dichiarazione di non responsabilità",
+    "retention": "",
+    "security": "",
+    "minors": "",
+    "rights": "",
+    "faq": "",
+    "updates": "",
+    "contact_info": "Cooperazione su Dati, Privacy e Conformità"
+  },
+  "contact": {
+    "title": "Metodo di contatto",
+    "privacy": "Casella di posta privata",
+    "security": "Rapporto di sicurezza",
+    "support": "Robot di assistenza clienti"
+  },
+  "privacy": {
+    "version": "v1.0.0",
+    "updated": "automatico",
+    "owner": "team moonpacket",
+    "version_label": "Versione",
+    "updated_label": "Aggiorna",
+    "owner_label": "Proprietario",
+    "data_sources": "Fonte dei dati",
+    "notice": {
+      "disclaimer_binding": "I seguenti termini sono una traduzione e sono solo a scopo di riferimento. La versione ufficiale legalmente vincolante è il testo originale in inglese. In caso di discrepanze tra le versioni linguistiche e la versione inglese, prevarrà la versione inglese."
+    },
+    "intro": [
+      "Questa politica sulla privacy (di seguito denominata 'questa politica') descrive come raccogliamo, usiamo, memorizziamo e proteggiamo le tue informazioni personali e i dati di utilizzo quando utilizzi i servizi forniti da moonpacket, inclusa l'app Mini di Telegram, il bot e il sito web (collettivamente denominati 'il servizio'). Si prega di leggerla completamente prima dell'uso; iniziando a utilizzare il servizio, accetti questa politica.",
+      "La funzione principale di questo servizio è 'crescita della comunità e interazione red packet', e potrebbe fornire funzionalità necessarie relative a portafogli cloud, transazioni o riscatti sotto requisiti di conformità. Questa politica regola solo l'elaborazione dei dati; per le normative sull'uso, limiti di responsabilità, divulgazioni di rischio e rinunce, si prega di fare riferimento ai 'Termini di utilizzo.'",
+      "moonpacket (di seguito denominata 'moonpacket' o 'il servizio') è l'entità e amministratore che raccoglie, utilizza, memorizza e tratta dati personali e di utilizzo relativi all'operatività di questo servizio, trattando i dati esclusivamente per scopi tecnici e operativi; moonpacket non è una banca, fiducia, custode, consulente finanziario, intermediario di pagamento o gestore di beni, né assume obblighi fiduciari, di custodia, conservazione, investimento o garanzia a causa del trattamento dei suddetti dati."
+    ],
+    "definitions": [
+      "moonpacket: Si riferisce ai servizi di applicazione forniti da questo progetto, comprese le applicazioni web e le applicazioni mobili disponibili per il download, e comprese (ma non limitate a) Telegram Mini App, bot, wallet cloud e moduli funzionali correlati.",
+      "Dati personali: Informazioni che possono identificare direttamente o indirettamente una persona fisica, come (se applicabile) informazioni di contatto, Telegram UID, indirizzo del wallet cloud (se può identificare un individuo), identificatori di dispositivo e rete.",
+      "Dati di utilizzo: Registri di eventi e interazioni relativi a conti o dispositivi (ad es., invio/ricezione di red packets, errori e registri di prestazioni, segnali anti-bot)."
+    ],
+    "scope": [
+      "Questi termini si applicano all'uso di tutte le funzioni fornite da moonpacket, inclusi (ma non limitati a) unire o gestire gruppi/canali, inviare o ricevere red packets, partecipare a eventi, collegare o utilizzare portafogli cloud e punti, e integrazioni tramite API/Webhook.",
+      "moonpacket supporta due casi d'uso principali: quelli che inviano red packets e quelli che ricevono red packets. I mittenti devono aggiungere il bot ai loro gruppi/canali posseduti o gestiti e concedere le autorizzazioni necessarie; se non autorizzati o se le autorizzazioni sono insufficienti, la funzionalità non può essere garantita. I destinatari non hanno le proprie informazioni private registrate al di fuori dei necessari identificatori di rete e degli eventi di utilizzo durante le interazioni di gruppo."
+    ],
+    "dataCollected": [
+      "Account e identità: Telegram UID, nome utente, avatar, impostazioni della lingua, identità dei membri del gruppo e autorizzazioni; se necessario, verranno raccolti e conservati esclusivamente per conformità, antiriciclaggio, lotta contro il finanziamento del terrorismo, rispetto delle sanzioni, reportistica fiscale, indagini su frodi o scopi di gestione del rischio, dati di identificazione rilasciati dal governo, selfie o risultati di corrispondenza biometrica facciale, dichiarazione di residenza, informazioni sull’audit KYC/AML e risultati di corrispondenza.",
+      "Eventi di utilizzo: Invio/ricezione di red packets, comandi e registri di interazione, partecipazione ad eventi, eventi da API/Webhook, errori e registri di prestazioni; segnali anti-bot e di controllo del rischio (come frequenza anomala, caratteristiche di dispositivo o rete).",
+      "Transazioni e attivi: Indirizzi relativi al wallet cloud, saldi o riepiloghi delle transazioni (solo nella misura necessaria per la funzionalità); le transazioni on-chain possono essere verificate pubblicamente, ma sono irreversibili e immutabili. Le informazioni suddette possono includere registri Off-chain (come saldi contabili interni contrassegnati, importi in attesa di distribuzione o stato bloccato), forniti solo per le istruzioni di regolamento interno del sistema e allocazione e non costituiscono una custodia, fiducia, deposito, gestione finanziaria delegata, riscossione e pagamento, gestione degli investimenti o obblighi di custodia da parte di moonpacket.",
+      "Informazioni tecniche e sul dispositivo: Modello di dispositivo, sistema operativo, versione del browser o dell’applicazione, indirizzo di rete (IP/ASN) e regione approssimativa, tag di cookie e archiviazione locale (se presenti).",
+      "Informazioni di contatto: Email o contenuti della chat di supporto clienti che fornisci attivamente (se presenti)."
+    ],
+    "sources": [
+      "I tuoi dati forniti attivamente durante la registrazione, il legame, l'interazione o la comunicazione con il servizio clienti.",
+      "Eventi e dati tecnici registrati automaticamente dal sistema durante l'uso di questo servizio.",
+      "Risultati di confronto o verifica di terzi ottenuti legalmente per necessità di conformità o servizio (come fornitori di servizi KYC/AML)."
+    ],
+    "purposes": [
+      "Le funzioni fornite per l'operazione e la manutenzione di questo servizio includono: verifica dell'identità, autenticazione dei permessi, attivazione e gestione di moduli (red packet, punti, portafoglio cloud), risoluzione dei problemi e monitoraggio della sicurezza.",
+      "Gestione del rischio e conformità: Rilevamento, prevenzione e investigazione di abusi, frodi, riciclaggio di denaro, finanziamento del terrorismo, evasione di sanzioni, evasione fiscale, raccolta fondi illegali, servizi finanziari non autorizzati, manipolazione della condivisione dei ricavi o altre attività anomale; effettuazione di audit KYC/AML e verifica dell'identità (inclusa identificazione rilasciata dal governo, selfie e verifica biometrica), valutazione del rischio e revisione fiscale e delle sanzioni. Se necessario, potrebbe comportare il mantenimento, il congelamento, il ritardo, la limitazione o il diniego di transazioni, distribuzioni, rimborsi, prelievi o sblocco. Tali azioni non costituiscono una violazione o infraczione da parte di moonpacket, e moonpacket non è responsabile di alcun risarcimento, indennità, o altra responsabilità.",
+      "Analisi dei dati e ottimizzazione del prodotto: Tendenze statistiche di utilizzo, miglioramento dell'esperienza e delle prestazioni, conduzione di test A/B e formazione di modelli anti-frode (utilizzando metodi di minimizzazione e de-identificazione).",
+      "Conformità normativa e affermazione dei diritti: Cooperare con richieste legali da normative, autorità o tribunali, o esercitare, stabilire o difendere diritti legali. moonpacket può, a sua esclusiva discrezione, fornire dati pertinenti alle autorità di regolamentazione, organi giudiziari, autorità fiscali o sanzionatorie, agenzie di arbitrato o enforcement, o ai loro fornitori di servizi di conformità autorizzati sulla base di esigenze legali, normative, fiscali, sanzionatorie, antiriciclaggio, antiterrorismo, investigazioni su frodi, o altre esigenze di conformità; tale fornitura non costituisce una violazione o infraczione da parte di moonpacket, e moonpacket non è responsabile di alcun risarcimento, indennità, o altra responsabilità.",
+      "Comunicazione e notifica: Fornirti importanti cambiamenti, notifiche di eventi o informazioni di servizio necessarie; i messaggi di marketing verranno inviati solo con il consenso o come consentito dalla legge."
+    ],
+    "legalBases": [
+      "Necessario per adempiere ai contratti o fornire servizi (ad es., abilitazione dei processi red packet/punti, verifica del controllo del rischio e registri degli eventi).",
+      "Conformità agli obblighi legali (ad es., KYC/AML, sanzioni, audit e obblighi di conservazione).",
+      "Interessi legittimi (ad es., rilevamento abusi, assicurare la sicurezza del sistema e la disponibilità del servizio, migliorare prodotti ed esperienze). In questo caso, implementeremo test di bilanciamento e adotteremo misure di de-identificazione o minimizzazione.",
+      "Il tuo consenso (ad es., ricevere messaggi di marketing, cookie non essenziali e scelte revocabili)."
+    ],
+    "cookies": [
+      "Cookie necessari e archiviazione locale: Utilizzati per mantenere lo stato di accesso, la selezione della lingua, le misure anti-bot e i controlli di sicurezza; alcune funzionalità potrebbero non funzionare correttamente se disabilitate.",
+      "Analytics o Preferenze: Abilitato solo se legalmente consentito o con il tuo consenso; puoi rimuoverli o limitarli nelle impostazioni del tuo browser."
+    ],
+    "wallet": [
+      "Se il wallet cloud è fornito da questo servizio o da un partner, elaborerà e conserverà solo i dati di transazione e le ricevute minimi necessari al completamento del red packet, punti o processi di scambio necessari.",
+      "I dati on-chain sono pubblici e irreversibili; si prega di operare con cautela. La natura inalterabile, permanentemente pubblica e le associazioni di dati derivanti dalle funzionalità della blockchain sono al di fuori del controllo di questo servizio."
+    ],
+    "antiFraud": [
+      "Per prevenire abusi e frodi, potremmo valutare la frequenza delle interazioni, le caratteristiche del dispositivo o della rete, la posizione geografica, i modelli comportamentali e segnali di blacklist; la funzionalità potrebbe essere sospesa o limitata e potrebbero essere necessarie ulteriori verifiche se necessario.",
+      "Per motivi di conformità e sicurezza, ci riserviamo il diritto di condividere indicatori pertinenti o risultati di audit con fornitori di servizi di anti-frode o conformità fidati entro limiti ragionevoli.",
+      "Per i suddetti scopi, moonpacket potrebbe, a sua discrezione, sospendere, ritardare, limitare o negare specifiche funzionalità e richiedere verifiche supplementari (includendo audit KYC/AML, ID emessi dal governo, selfie o confronti biometrici) o condividere indicatori necessari o risultati di audit con fornitori di servizi di anti-frode, conformità, fiscali o sanzioni fidati; tali azioni non costituiscono una violazione da parte di moonpacket e moonpacket non sarà responsabile per eventuali danni, indennizzi o altre responsabilità."
+    ],
+    "sharing": [
+      "I fornitori di servizi di elaborazione o terzi, inclusi hosting cloud, registrazione e monitoraggio, analisi, anti-bot e fornitori di servizi di conformità, conducono operazioni sotto vincoli contrattuali e minimizzati.",
+      "I partner e i gestori della comunità condivideranno le informazioni necessarie in base alle attività specifiche, ai red packets o agli scenari di governance della comunità in cui partecipi, secondo le regole delle attività.",
+      "Divulgheremo i dati necessari alle autorità, ai tribunali o ai titolari di diritti in conformità con le procedure legali come richiesto dalla legge o per far valere i diritti.",
+      "moonpacket può conservare, analizzare, trasmettere, divulgare e fornire informazioni necessarie (inclusi registri off-chain, prove on-chain, dati KYC/AML, registri di gruppo/chat/attività e comportamenti di distribuzione e prelievo) alle autorità, ai tribunali, alle forze dell'ordine o alle unità fiscali, unità sanzionatorie e regolamentari, o ai loro fornitori di servizi di conformità autorizzati riguardo a revisioni di conformità, audit KYC/AML, verifica dell'identità (inclusi ID rilasciati dal governo e confronti biometrici), antiriciclaggio, contrasto al finanziamento del terrorismo, seguito delle sanzioni, conformità fiscale, indagini sulle frodi, rilevamento di abusi, audit finanziari e tracciamento delle distribuzioni e prelievi, entro limiti commercialmente ragionevoli. Tale elaborazione, trasmissione e divulgazione non costituiscono una violazione o illeciti da parte di moonpacket, e moonpacket non è responsabile di alcun risarcimento, indennizzo o altre responsabilità."
+    ],
+    "crossBorder": [
+      "In base all'architettura cloud di questo servizio, al modello operativo globale, alla gestione del rischio, alle norme Antiriciclaggio (AML), alla lotta contro il finanziamento del terrorismo, al rispetto delle sanzioni, alla cooperazione fiscale, alla prevenzione delle frodi, alla conservazione degli audit, al supporto clienti e alle esigenze di manutenzione del sistema, i tuoi dati (compresi dati personali, dati di utilizzo, registri Off-chain, risultati di audit KYC/AML e registri di controllo e prelievo dei rischi) possono essere elaborati, memorizzati o trasmessi al di fuori della tua giurisdizione e possono essere accessibili da partner, fornitori di infrastrutture cloud, fornitori di servizi di conformità e gestione del rischio o autorità/autoritari/giudiziarie/fiscali/sanction/regolamentari (o loro enti autorizzati) secondo necessità per le su citate finalità.",
+      "moonpacket valuterà le obbligazioni di sicurezza delle informazioni e di conformità dei destinatari, entro limiti commercialmente ragionevoli e necessari, e ridurrà i rischi di accesso non autorizzato o uso improprio attraverso contratti, misure tecniche e organizzative; tuttavia, capisci e accetti che qualsiasi trasferimento transfrontaliero, hosting cloud o elaborazione da parte di terzi potrebbe essere influenzato da reti e ambienti normativi e non può garantire sicurezza o disponibilità assoluta. I suddetti processi e trasferimenti transfrontalieri non costituiscono una violazione o una lesione da parte di moonpacket, e moonpacket non sarà responsabile per danni, risarcimenti o altre responsabilità."
+    ],
+    "retention": [
+      "Conserveremo i dati per il tempo necessario a soddisfare gli scopi di raccolta e mantenere i registri necessari come richiesto dalla legge o obblighi di audit (ad es., registri contabili e di conformità).",
+      "Una volta raggiunto lo scopo o scaduto il periodo di conservazione, elimineremo o tratteremo i dati in modo de-identificato; i dati on-chain non sono soggetti a questa limitazione a causa della loro inalterabilità.",
+      "Anche se richiedi di disattivare il tuo account, eliminare i tuoi dati o smettere di utilizzare questo servizio, moonpacket può mantenere, congelare, analizzare o fornire i suddetti dati come richiesto o consentito da leggi, regolamenti, fiscale, sanzioni, antiriciclaggio, antiterrorismo, investigazioni sulle frodi, obblighi di audit retention, verifica contabile, o altre obbligazioni di conformità. Tale mantenimento e trattamento non costituiscono una violazione o infraczione da parte di moonpacket, e moonpacket non è responsabile di alcun risarcimento, indennità, o altra responsabilità."
+    ],
+    "security": [
+      "Adottiamo misure tecniche e gestionali ragionevoli e proporzionate, inclusi controlli di accesso, crittografia durante la trasmissione e statica (se applicabile), segregazione delle autorizzazioni, registri di audit e principi di accesso minimo necessario per il personale.",
+      "Sebbene moonpacket abbia adottato misure tecniche e gestionali per ridurre il rischio di accesso non autorizzato, utilizzo, divulgazione, alterazione o distruzione entro limiti commercialmente ragionevoli, tu comprendi e accetti che qualsiasi trasmissione, archiviazione o integrazione di terzi può comportare determinati rischi. moonpacket non fornisce garanzie esplicite o implicite riguardo alla sicurezza dei dati, integrità, disponibilità, accesso ininterrotto o interferenze. Tali rischi o danni non costituiscono una violazione o illeciti da parte di moonpacket, e moonpacket non è responsabile di alcun risarcimento, indennizzo o altre responsabilità."
+    ],
+    "minors": [
+      "Questo servizio non è destinato a individui di età inferiore ai 13 anni o sotto la soglia di minore nella tua giurisdizione. Se sei un minorenne, ti preghiamo di utilizzare questo servizio con il consenso del tuo tutore legale o di astenerti dall'utilizzare questo servizio."
+    ],
+    "rights": [
+      "Secondo le leggi applicabili in varie regioni, hai il diritto di consultare o rivedere i tuoi dati personali, richiedere copie, correggere, limitare il trattamento, eliminare, portabilità dei dati e revocare il consenso, ma non in conflitto con le obbligazioni legali di moonpacket di mantenere, congelare, analizzare, auditare, cooperare con i requisiti delle autorità di regolamentazione/giudiziarie/fiscali/sanzionatorie/di regolamentazione, o KYC/AML/antiterrorismo/sanzioni con conformità/reporting fiscale/investigazioni sulle frodi/rilevamento degli abusi, o interessi legittimi di moonpacket.",
+      "Se desideri esercitare i diritti sopra menzionati o sollevare preoccupazioni sulla privacy, ti preghiamo di contattare moonpacket utilizzando le 'Informazioni di Contatto'. Per garantire la sicurezza, moonpacket potrebbe richiedere di completare la verifica dell'identità (inclusa ma non limitata a fornire informazioni richieste per audit KYC/AML, identificazione rilasciata dal governo, selfie o risultati di verifica biometrica) per confermare che il richiedente è il soggetto dei dati o un rappresentante autorizzato.",
+      "moonpacket può, a propria discrezione, rifiutare, ritardare, limitare o richiedere correzioni a tali richieste, nell'ambito degli obblighi legali o di conformità, delle esigenze di legittimo interesse o per scopi di gestione dei rischi; tali rifiuti, ritardi, limitazioni o richieste di correzione non costituiscono una violazione o infrazione da parte di moonpacket, e moonpacket non è responsabile di alcun risarcimento, indennizzo o altra responsabilità."
+    ],
+    "faq": [
+      "Perché abbiamo bisogno di informazioni su conformità e controllo del rischio? Questo è necessario per fornire red packet, prevenire abusi e garantire operazioni sicure, nonché per rispettare le leggi pertinenti o le politiche della piattaforma.",
+      "Posso rifiutare di fornire determinate informazioni? Senza compromettere la sicurezza del servizio e gli obblighi legali, puoi scegliere di disabilitare elementi non essenziali, ma ciò potrebbe comportare l'indisponibilità di alcune funzionalità.",
+      "I dati blockchain possono essere cancellati? I record on-chain sono irreversibili e pubblici, e non possiamo modificarli o eliminarli per tuo conto."
+    ],
+    "updates": [
+      "Questi termini possono essere aggiornati con aggiustamenti al servizio o cambiamenti legali; cambiamenti significativi saranno indicati attraverso messaggi interni o annunci sulla pagina; la versione aggiornata entra in vigore dall'annuncio o dalla data di efficacia indicata nei termini."
+    ],
+    "contact": [
+      "Se hai domande sulla privacy o sulla sicurezza dei dati, ti preghiamo di contattarci tramite i metodi di contatto sulla pagina (casella di posta privata/rapporto di sicurezza/servizio clienti); risponderemo entro un periodo ragionevole."
+    ],
+    "controller": [
+      "Titolare del trattamento: team moonpacket (operazioni di piccola squadra).",
+      "Finestra di contatto (Privacy): Ti preghiamo di contattarci tramite il bot di aiuto sulla privacy nella pagina 'Metodi di contatto'."
+    ],
+    "jurisdictions": [
+      "Ci conformiamo alle normative applicabili sulla protezione dei dati personali; se ci sono conflitti normativi tra giurisdizioni diverse, adotteremo azioni che siano più protettive e fattibili per gli utenti, nei limiti previsti dalla legge.",
+      "Se hai bisogno di diritti o procedure aggiuntive per giurisdizioni specifiche, ti preghiamo di contattarci attraverso i canali di contatto, e faremo del nostro meglio per assisterti."
+    ],
+    "dsrProcess": [
+      "Hai il diritto di esercitare inquiry, revisione, richiesta di copie, correzione, cancellazione, limitazione del trattamento, portabilità dei dati e revoca del consenso riguardo ai dati personali (soggetto alle leggi applicabili e alla fattibilità tecnologica).",
+      "Processo: Invia la richiesta → Verifica dell'identità → Accettazione e valutazione → Risposta entro un periodo ragionevole (tipicamente entro 30 giorni; eventuali estensioni verranno comunicate separatamente).",
+      "Se la richiesta coinvolge terzi o dati irreversibili on-chain, potrebbe non essere elaborata direttamente. Forniremo spiegazioni o alternative fattibili.",
+      "Se hai preoccupazioni sui risultati, ti preghiamo di contattarci nuovamente attraverso i canali forniti; puoi anche presentare un reclamo alle autorità in base alle leggi locali (se applicabile)."
+    ],
+    "breach": [
+      "Se viene rilevato un incidente sospetto di dati personali, seguiremo procedure interne per l'elaborazione graduata e la risposta d'emergenza, inclusi il blocco o la mitigazione, l'audit e la documentazione delle prove.",
+      "Se legalmente richiesto o necessario, notificheremo l'autorità competente e gli utenti potenzialmente interessati entro un periodo ragionevole; il contenuto e il momento delle notifiche dipenderanno dal livello dell'incidente e dai progressi dell'indagine.",
+      "Esamineremo e miglioreremo continuamente le misure di controllo e la formazione del personale (entro le risorse disponibili) in seguito."
+    ],
+    "cookiesDetail": [
+      "Cookie necessari: Utilizzati per mantenere l'accesso, le impostazioni della lingua, le misure anti-bot e la sicurezza; la disabilitazione potrebbe influire sulla disponibilità del servizio.",
+      "Cookie di Preferenza/Analytica/Marketing: Abilitato solo se legalmente consentito o con il tuo consenso; puoi modificare o revocare le preferenze in qualsiasi momento.",
+      "Se applicabile, forniremo un'opzione semplice di selezione dei cookie; puoi anche gestirli o rimuoverli nelle impostazioni del tuo browser."
+    ],
+    "consent": [
+      "Per l'elaborazione non essenziale (ad esempio, marketing o specifico monitoraggio analitico), otterremo il consenso preventivo e forniremo un modo per ritirarlo, laddove applicabile e fattibile ai sensi della legge.",
+      "Il ritiro del consenso non influisce sulla legalità dell'elaborazione precedente al ritiro; alcune funzionalità potrebbero essere limitate di conseguenza."
+    ],
+    "lawfulMatrix": {
+      "headers": [
+        "Categoria di dati",
+        "Scopo del trattamento",
+        "Base giuridica",
+        "Periodo di conservazione"
+      ],
+      "rows": [
+        {
+          "cat": "帳號/身分（Telegram UID、暱稱、語言、群組權限）",
+          "purpose": "提供與維運服務（紅包、權限驗證、防刷）",
+          "basis": "履行契約、合法利益",
+          "retention": "帳號存續期間＋必要稽核留存"
+        },
+        {
+          "cat": "合規資料（KYC/AML 結果）",
+          "purpose": "法遵審查與防詐欺",
+          "basis": "法定義務",
+          "retention": "依法令或監理要求（一般為多年期）"
+        },
+        {
+          "cat": "使用事件與日誌（互動、錯誤、效能）",
+          "purpose": "故障排除、資安與產品優化",
+          "basis": "合法利益",
+          "retention": "依安全與營運需要的合理期限"
+        },
+        {
+          "cat": "交易與雲端錢包摘要",
+          "purpose": "完成紅包/積分/兌換流程",
+          "basis": "履行契約、合法利益",
+          "retention": "目的達成後最小化留存；鏈上紀錄不在此限"
+        },
+        {
+          "cat": "Cookie/本地儲存（必要）",
+          "purpose": "登入狀態、語言、防刷標記",
+          "basis": "履行契約、合法利益",
+          "retention": "依裝置與瀏覽器生命周期"
+        },
+        {
+          "cat": "Cookie/像素（非必要）",
+          "purpose": "偏好/分析/行銷（如啟用）",
+          "basis": "同意",
+          "retention": "依工具供應商政策或您撤回為止"
+        }
+      ]
+    },
+    "automated": [
+      "Questo servizio utilizza modelli di analisi automatizzata e controllo del rischio per rilevare abusi o comportamenti anomali; in generale, non costituisce decisioni puramente automatizzate che influenzano significativamente gli individui legalmente o in modo simile.",
+      "Se vengono adottate misure restrittive a causa delle esigenze di controllo del rischio di conformità o sicurezza (ad esempio, sospensione delle funzionalità), forniremo opportunità di ricorso e revisioni manuali in base alle risorse e alla sicurezza disponibili."
+    ],
+    "subprocessors": {
+      "note": "Possiamo collaborare con subprocessori vincolati da contratto (come cloud, monitoraggio, anti-bot/KYC, email, ecc.); l'elenco può essere aggiornato secondo gli aggiustamenti del servizio, ti preghiamo di fare riferimento al sito ufficiale per comunicazioni."
+    },
+    "note": [
+      "Nota: Questa clausola mira a divulgare chiaramente le pratiche di trattamento e protezione dei dati. Poiché moonpacket è un piccolo team, le misure effettive saranno adattate in base a leggi, livelli di rischio e disponibilità di risorse; in caso di regolamenti obbligatori, prevarrà la legge."
+    ],
+    "telegramPermissions": [
+      "Le operazioni del robot in gruppi/canali vengono eseguite solo entro le autorizzazioni che hai concesso (ad es., leggere, inviare, eliminare, fissare messaggi, controlli di link per l'unione, ecc., a seconda delle necessità effettive).",
+      "Se le funzionalità non sono disponibili o si comportano in modo anomalo a causa di autorizzazioni insufficienti, restrizioni della piattaforma o impostazioni di terzi, moonpacket non garantisce che la funzionalità funzioni normalmente."
+    ],
+    "groupDataMinimization": [
+      "Nei contesti di gruppo/canale, elaboriamo solo i dati minimi necessari per fornire il servizio, come identificatori di rete utenti (UID), registri di interazione/eventi e indicatori necessari per la prevenzione di abusi; non raccogliamo attivamente o creiamo profili personali dei membri del gruppo.",
+      "Per motivi di conformità (KYC/AML/sanzioni) o sicurezza, se dobbiamo ampliare l'ambito di trattamento, ci atteniamo ai principi di minimizzazione e de-identificazione, come richiesto dalla legge."
+    ],
+    "analytics": [
+      "Per valutare le prestazioni del prodotto, prevenire abusi e valutare i risultati operativi, potremmo elaborare dati di utilizzo in modo de-identificato o aggregato e introdurre strumenti di analisi/monitoraggio di terze parti entro limiti ragionevoli per il monitoraggio del traffico e l'analisi di attribuzione.",
+      "Non venderemo i tuoi dati personali; ti preghiamo di fare riferimento alle spiegazioni e alle opzioni riguardanti il CPRA e altre normative in questo accordo se la giurisdizione applicabile ha definizioni specifiche per 'vendita/condivisione'.",
+      "Quando le leggi locali richiedono il consenso preventivo o forniscono un'opzione di opt-out, offriremo scelte pertinenti quanto più possibile."
+    ],
+    "saleShareStatement": [
+      "Non vendiamo i tuoi dati personali in cambio di considerazione; qualsiasi tecnologia di analisi e pubblicità di terzi sarà trattata solo in forma de-identificata o aggregata quando legalmente consentito o con il necessario consenso."
+    ]
+  },
+  "terms": {
+    "version": "v1.0.0",
+    "updated": "automatico",
+    "version_label": "Versione",
+    "updated_label": "Aggiornamento",
+    "owner_label": "Proprietario",
+    "appendix_title": "Appendice | Definizioni e Spiegazioni",
+    "notice": {
+      "disclaimer_binding": "I seguenti termini sono forniti come una versione tradotta solo per riferimento; la versione ufficiale vincolante è l'originale in inglese. In caso di discrepanze tra le versioni linguistiche e la versione in inglese, prevale la versione in inglese."
+    },
+    "owner": "Il team di moonpacket (di seguito denominato 'moonpacket') è un marchio e un nome di servizio che fornisce funzionalità interattive online sperimentali e strumenti di crescita marketing/comunitaria. moonpacket non è una banca, una fiduciaria, un'istituzione di custodia, un cambiavalute, un consulente per investimenti, un broker, o qualsiasi istituzione finanziaria regolamentata; salvo quanto richiesto dalla legge, moonpacket non ha alcun dovere fiduciario, dovere di fiducia, dovere di custodia di asset, o garanzia di rendimento verso gli utenti.",
+    "intro": [
+      "Questi Termini dell'Utente (di seguito denominati “questi Termini”) costituiscono un accordo legalmente vincolante tra te (di seguito denominato “tu” o “Utente”) e moonpacket (di seguito denominata “moonpacket,” “questo servizio,” o “noi”) riguardo il tuo accesso o utilizzo dei servizi forniti da moonpacket.",
+      "Questo servizio include, ma non si limita a: siti web, applicazioni scaricabili, Telegram Mini App, bot, wallet cloud, moduli di distribuzione red packet/premi, interfacce di gestione eventi, e funzioni statistiche/classifiche correlate (di seguito collettivamente denominati “questo servizio”).",
+      "Toccando pulsanti come “Inizia,” “Accetta,” “Invia,” o azioni simili di consenso nell'interfaccia, o iniziando effettivamente a utilizzare questo servizio, si considera che hai letto, compreso e accettato irrevocabilmente di essere vincolato da tutti i contenuti di questi Termini; se non sei d'accordo, ti preghiamo di interrompere immediatamente l'uso di questo servizio.",
+      "Specifiche attività, collaborazioni promozionali o programmi aziendali possono fornire termini aggiuntivi o norme di attività; tali termini aggiuntivi saranno considerati parte di questi Termini; in caso di conflitto con questi Termini, i termini aggiuntivi prevalgono nell'ambito dell'attività specifica, mentre il resto continuerà ad essere disciplinato da questi Termini.",
+      "Questi Termini possono essere forniti in più lingue per comodità di lettura. In caso di eventuali incoerenze o conflitti tra qualsiasi versione tradotta e la versione inglese riguardo al contenuto, interpretazione o effetto, la versione inglese avrà la precedenza e sarà considerata la versione finale valida; le altre versioni linguistiche non verranno considerate come creare obblighi aggiuntivi per moonpacket.",
+      "Confermi e garantisci che la tua decisione di utilizzare questo servizio non è basata su promesse di 'rendimenti garantiti,' 'recupero del capitale,' 'condivisione dei profitti,' 'consigli di investimento,' o altri impegni di remunerazione; moonpacket non ha fornito, e non fornirà, alcuna garanzia o impegni legalmente vincolanti riguardo a qualsiasi reddito futuro, premi, prezzi, classifiche o valore riscattabile."
+    ],
+    "definitions": [
+      "Il 'mittente' o 'iniziatore' del red packet si riferisce a coloro che creano, finanziano o distribuiscono red packet/premi/partecipazioni ai ricavi/fondi promozionali all'interno di questo servizio, inclusi utenti individuali, amministratori di gruppo, parti di progetto o i loro agenti.",
+      "Il 'ricevente' o 'partecipante' del red packet si riferisce a coloro che interagiscono secondo le regole dell'attività, completando compiti o tentando di ricevere/ha ricevuto red packet o premi.",
+      "Attività' si riferisce al meccanismo di distribuzione stabilito dall'iniziatore, inclusa ma non limitata a distribuzione equa, 'fortuna' casuale, sblocco di compiti designati, acquisizione di password, acquisizioni temporizzate, distribuzione con quota/tempo limitati, ecc.",
+      "I 'registri Off-chain' si riferiscono alla contabilità interna, agli indicatori di saldo e agli indicatori di attribuzione dei diritti all'interno del sistema moonpacket (ad es., 'da distribuire', 'allocato', 'disponibile per il prelievo'). I registri Off-chain sono indicatori puramente a livello di sistema e non riflettono il trasferimento in tempo reale di asset sulla blockchain, né costituiscono prova legale finale di proprietà degli asset; le transazioni on-chain reali prevarranno.",
+      "Il 'cloud wallet' si riferisce a un wallet/custodia di asset custodiale o semi-custodiale fornito da moonpacket o dai suoi partner per ricevere asset di ricarica, indicare saldi allocabili e supportare i successivi prelievi. I cloud wallet non sono conti bancari, conti fiduciari, conti di deposito, né soggetti assicurativi, e non offrono garanzie di preservazione del capitale.",
+      "Le 'commissioni' si riferiscono ai costi delle risorse di rete richieste per le transazioni blockchain (come il gas), costi di servizi di terzi o costi di canali di pagamento, e (ove applicabile) le commissioni della piattaforma addebitate da moonpacket per servizi o attività specifiche. Le commissioni sono a carico degli utenti; una volta sostenute, non sono rimborsabili.",
+      "KYC/AML' si riferisce ai processi di verifica dell'identità (Know Your Customer), anti-riciclaggio (Anti-Money Laundering), contrasto al finanziamento del terrorismo, revisione delle sanzioni, prevenzione delle frodi, audit fiscali e di conformità, ecc."
+    ],
+    "eligibility": [
+      "Dichiari e garantisci di essere legalmente qualificato e di avere piena capacità di utilizzare questo servizio all'interno della tua giurisdizione; i minori o gli individui con capacità limitata devono ottenere il consenso necessario secondo le leggi locali.",
+      "Questo servizio adotta un modello 'prova prima di legarti'; tuttavia, prima di richiedere un prelievo, trasferire il saldo tra le attività o impegnarsi in qualsiasi disposizione effettiva di asset, moonpacket ha il diritto di richiedere di legare la tua email, numero di telefono e indirizzo del portafoglio di criptovalute, e (se applicabile) completare la verifica KYC/AML."
+    ],
+    "accounts": [
+      "Se rifiuti, ritardi o non superi la suddetta verifica, moonpacket può, a sua esclusiva discrezione, ritardare, limitare o rifiutare qualsiasi richiesta di prelievo, restituzione, sblocco o rimborso; tali ritardi, limitazioni o rifiuti non costituiscono una violazione del contratto da parte di moonpacket, e moonpacket non è responsabile per compensazioni, indennizzi o altre responsabilità.",
+      "Devi prendere adeguate misure per proteggere tutti gli elementi di verifica come il tuo account Telegram, le credenziali di accesso al wallet cloud, i token di accesso, le chiavi di firma, i dispositivi e le password. Qualsiasi conseguenza derivante da phishing, malware, prestito di dispositivi, fuga di credenziali, password deboli o azioni autorizzate di terzi ricadrà su di te."
+    ],
+    "service": [
+      "Le funzionalità fornite da questo servizio includono, ma non sono limitate a: (a) creazione e finanziamento di attività/red packet; (b) impostazione delle regole dell'attività (importo totale, quota, limiti individuali, durata valida, algoritmi di distribuzione, condizioni di compito, codici di accesso, aperture programmate, ecc.); (c) verifica se i partecipanti soddisfano le condizioni dell'attività; (d) marcatura, distribuzione e blocco di importi assegnabili nei registri Off-chain; (e) consentire ai partecipanti qualificati di attivare prelievi effettivi on-chain al momento del riscatto; (f) generare classifiche, statistiche e visualizzazioni delle prestazioni.",
+      "Il processo operativo è il seguente: dopo che l'iniziatore ricarica beni all'indirizzo moonpacket designato, l'importo equivalente sarà marcato come 'bene disponibili per la distribuzione in questa attività' nei registri Off-chain; durante il periodo dell'attività, il sistema contrassegnerà o dividerà solo importi in Off-chain senza garantire trasferimenti diretti immediati e individuali on-chain nel portafoglio di alcun individuo; solo quando i partecipanti qualificati riscattano e superano le verifiche tecniche e di conformità, moonpacket attiverà trasferimenti effettivi on-chain.",
+      "Gli utenti accettano esplicitamente che: i registri Off-chain sono esclusivamente per la contabilità interna di moonpacket e l'indicazione di interessi e non rappresentano la proprietà legale finale dei beni; i diritti finali rivendicabili sono basati sui trasferimenti on-chain effettivamente completati."
+    ],
+    "features": [
+      "moonpacket può regolare, sospendere, limitare o terminare determinate funzioni o tipi di attività in qualsiasi momento per esigenze di sicurezza, operative o di conformità; fintanto che l'aggiustamento è basato su considerazioni tecniche, di rischio, di conformità o commerciali ragionevoli, tali situazioni non costituiscono una violazione da parte di moonpacket, che non sarà responsabile per alcun risarcimento o altre responsabilità.",
+      "moonpacket raccomanda fortemente di utilizzare questo servizio per piccole quantità più volte; l'importo per ciascuna ricarica o distribuzione non dovrebbe superare l'equivalente di 100 USDT, ed è consigliato di non accumulare grandi quantità di beni in registri off-chain per lunghi periodi."
+    ],
+    "cloudWallet": [
+      "Quando l'emittente conferma le condizioni dell'evento (importo totale, regole di distribuzione, periodo di validità e commissioni, ecc.) nell'interfaccia e lo invia, costituisce una promessa di un regalo per partecipanti non specificati. Questa promessa entra in vigore non appena viene inviata e ha la natura di essere \"non ritirabile e non irreversibile\"; l'emittente non può richiedere una pausa dicendo \"ho cambiato idea\" o \"non riconosco un certo partecipante.\"",
+      "Per adempiere alla promessa di regalo sopra menzionata, moonpacket può bloccare l'importo corrispondente (blocco dell'asset) nelle registrazioni off-chain e contrassegnarlo come \"in attesa di distribuzione\". Questo blocco è necessario per adempiere alla promessa dell'emittente e non è un'appropriazione arbitraria da parte di moonpacket.",
+      "Durante il periodo dell'evento, l'emittente non può richiedere un prelievo anticipato dell'importo impegnato, né può richiedere di riproporre l'asset.",
+      "Dopo la scadenza dell'evento: (a) Le porzioni che sono state richieste dai partecipanti (o hanno attivato le procedure di prelievo), così come le commissioni sostenute per la distribuzione, non possono essere richieste per la restituzione; (b) Per i saldi che rimangono non richiesti entro la scadenza, moonpacket può restituire l'importo residuo all'indirizzo di ricarica o invio originale, o all'indirizzo originale ritenuto ragionevole da moonpacket dopo aver dedotto le commissioni necessarie, a condizione che le condizioni tecniche e di conformità lo consentano.",
+      "Per qualsiasi processo di restituzione, sblocco, prelievo o rimborso del saldo, moonpacket può prima richiedere il completamento di KYC/AML; se l'utente rifiuta, ritarda o non supera, moonpacket può a sua esclusiva discrezione ritardare, limitare o rifiutare di elaborare; tali ritardi, limitazioni o rifiuti non costituiscono una violazione del contratto da parte di moonpacket, e moonpacket non è responsabile per compensazioni, indennizzi o altre responsabilità.",
+      "Una volta in-chain, le transazioni blockchain sono tipicamente irreversible, verificabili pubblicamente e immutabili; moonpacket non può eliminare, ritirare o \"riavvolgere\" retroattivamente transazioni già in-chain, né si assume alcuna responsabilità correlata.",
+      "Qualsiasi valore, punto, saldo, premio o altre indicazioni che non siano ancora in-chain sono semplici registrazioni temporanee e indicazioni di distribuzione all'interno del sistema e non rappresentano che tali asset siano detenuti, affidati o tutelati da moonpacket, né rappresentano che moonpacket abbia un obbligo di consegna, obbligo di protezione del valore, obbligo di interesse o obbligo di risarcimento per te. moonpacket può decidere di ritardare, rifiutare o non emettere più tali valori basandosi sulla sua gestione del rischio, obblighi KYC/AML, obblighi di sanzioni, fiscali o altri requisiti di conformità; tali decisioni non costituiscono una violazione del contratto da parte di moonpacket, e moonpacket non è responsabile di risarcimenti, indennizzi o altre responsabilità.",
+      "Per risparmiare sulle commissioni di transazione on-chain e fornire funzionalità di distribuzione batch/distribuzione di red packet, moonpacket può registrare e visualizzare temporaneamente il tuo saldo distribuibile o gli importi di allocazione in sospeso utilizzando valori del database interno (Off-chain). Questi valori sono semplici indicazioni convenienti per la regolazione interna e la distribuzione all'interno del sistema e non costituiscono fiducia, custodia, depositi, gestione finanziaria discrezionale, raccolta e pagamento, gestione degli investimenti o altre attività finanziarie regolamentate. A meno che e fino a quando questi valori non siano effettivamente in-chain, effettivamente pagati e verificabili sulla catena pubblica, moonpacket non ha alcun obbligo di restituzione, protezione del valore o obblighi di interessi, e tali valori non sono garantiti come prelevabili in un momento specifico, a un prezzo specifico o a un costo di rete specifico."
+    ],
+    "fees": [
+      "Processi come la creazione di attività, distribuzione, verifica, prelievo e trasferimento on-chain possono comportare spese di gestione. I tipi e le tariffe delle spese di gestione saranno come visualizzati sull'interfaccia, secondo le regole delle attività, pagine di regolamento, accordi di cooperazione o altri mezzi espliciti.",
+      "Le spese di gestione sono a carico dell'utente e saranno dedotte durante l'invio, la distribuzione, il prelievo o le operazioni correlate; una volta sostenute, non sono rimborsabili. Anche se moonpacket assiste con rimborsi o restituendo saldi a causa di fattori di questo servizio, tali rimborsi o restituzioni saranno effettuati solo nella valuta originale al proprio indirizzo originale, escludendo eventuali spese di gestione o costi di gas on-chain sostenuti.",
+      "Se l'utente non fornisce informazioni di conformità ragionevoli richieste da moonpacket (ad esempio, KYC/AML), moonpacket può, a sua esclusiva discrezione, ritardare, limitare o negare qualsiasi richiesta di rimborso, restituzione del saldo, prelievo o sblocco; tali ritardi, limitazioni o rifiuti non costituiscono una violazione da parte di moonpacket, che non sarà responsabile di alcun risarcimento o altre responsabilità.",
+      "Quando scegli di utilizzare specifiche distribuzioni di red packet, distribuzione di gruppo, distribuzione promozionale o funzioni simili, il sistema potrebbe calcolare automaticamente e visualizzare una certa percentuale di costi di sistema (ad esempio, circa il 2% per premiare moonpacket per mantenere le operazioni del servizio) e/o una certa percentuale di premi per l'operazione della comunità (ad esempio, circa il 3% restituito ai leader della comunità per supportare le operazioni della comunità). Utilizzando queste funzioni, autorizzi il sistema a calcolare e allocare queste spese secondo le percentuali visualizzate. Salvo divieto legale, moonpacket ha il diritto di regolare queste percentuali, condizioni o modelli di premio entro un intervallo ragionevole senza ulteriore preavviso."
+    ],
+    "rules": [
+      "L'iniziatore è obbligato a stabilire le regole di attività in modo veritiero e chiaro (incluso l'importo totale, la quota, i limiti individuali, la durata valida, le restrizioni condizionali, gli algoritmi di distribuzione, ecc.), e non deve attrarre partecipazione tramite mezzi falsi o fuorvianti.",
+      "moonpacket esegue e registra algoritmi di distribuzione, verifica dei compiti e risultati dei premi sul lato server e riserva le necessarie tracce di audit per rispondere a controversie, conformità o indagini regolamentari.",
+      "Se moonpacket sospetta ragionevolmente abusi su larga scala, spam, automazione di rapine, frodi, riciclaggio di denaro, finanziamento del terrorismo, condivisione di profitti da gioco, raccolta fondi illegale, evasione di sanzioni o altre situazioni ad alto rischio, moonpacket può immediatamente sospendere, congelare o modificare l'attività e decidere di restituire saldi non reclamati, rifiutare la distribuzione o trasferire dettagli alle autorità di regolamentazione/giudiziarie; tali azioni non costituiscono una violazione del contratto da parte di moonpacket, e moonpacket non è responsabile per alcun risarcimento, rimedio o altre responsabilità."
+    ],
+    "abuse": [
+      "moonpacket dichiara esplicitamente: Non abbiamo alcun obbligo, né possiamo garantire che 'ogni account corrisponda necessariamente a una singola persona fisica verificabile'. Non possiamo inoltre garantire l'assenza di più account condivisi, di una singola persona fisica che possiede più account, account falsi o script/bot automatizzati che bloccano i red packets.",
+      "Gli utenti (inclusi gli iniziatori e i partecipanti) comprendono chiaramente e concordano: Le situazioni sopra menzionate possono influenzare i risultati di allocazione degli asset, l'ordine di distribuzione o gli importi disponibili; eventuali disuguaglianze, discrepanze o controversie causate da più account, account falsi, script, bot o altre operazioni irregolari non costituiscono una violazione del contratto da parte di moonpacket, e moonpacket non ha alcuna responsabilità per compensazioni, rimborsi o altre responsabilità.",
+      "Per mantenere la sicurezza del sistema e la conformità, moonpacket può utilizzare la rilevazione automatica, modelli di intelligenza artificiale, liste nere/grigie, limitazione delle transazioni, riconoscimento dei dispositivi, valutazione del rischio IP/ASN e altri meccanismi di controllo dei rischi entro limiti ragionevoli, e può: (a) congelare, sospendere, bloccare o limitare l'uso di account specifici, gruppi, IP, dispositivi o attività; (b) richiedere informazioni supplementari o completare KYC/AML; (c) ritardare o rifiutare l'elaborazione del servizio clienti, prelievi, rimborsi o sblocco; (d) segnalare situazioni sospette o ad alto rischio alle autorità o agli organi giudiziari.",
+      "moonpacket non ha alcun obbligo di divulgare la propria logica decisionale interna di controllo dei rischi, dettagli tecnici o base di audit completa. Qualsiasi azione intrapresa in base ai suddetti controlli dei rischi, conformità o richieste delle autorità di regolamentazione non costituisce una violazione del contratto da parte di moonpacket, e moonpacket non ha alcuna responsabilità per compensazioni, rimborsi o altre responsabilità.",
+      "Controversie sulla proprietà dell'account (ad es. rivendicare 'un altro account è in realtà mio, per favore trasferisci il saldo'): moonpacket riconosce solo l'account originale, l'email originariamente collegata e l'indirizzo del wallet originariamente collegato come i diritti titolari; moonpacket non ha alcun obbligo di trasferire alcun saldo di registrazione off-chain, diritti di prelievo o altri benefici di un particolare account a un diverso account/email/wallet.",
+      "Se un account non ha effettuato il login per diciotto (18) mesi consecutivi dalla sua ultima connessione, moonpacket congelerà il saldo di registrazione off-chain che non è stato prelevato per motivi di sicurezza, conformità e gestione dei rischi e non fornirà più rimborsi, prelievi o altre forme di restituzione. Questa azione non costituisce una violazione del contratto da parte di moonpacket, e moonpacket non è responsabile per compensazioni, indennizzi o altre responsabilità."
+    ],
+    "ip": [
+      "I diritti di proprietà intellettuale e altri diritti di questo servizio e dei suoi contenuti (inclusi ma non limitati a: codice, design, loghi, marchi, immagini, testi, presentazioni statistiche, classifiche, materiali di marketing, documenti e compilazioni di dati) sono di proprietà di moonpacket o dei suoi legittimi licenziatari.",
+      "Non puoi copiare, trasmettere, modificare, distribuire, noleggiare, fare reverse engineering, o sfruttare in alcun modo il contenuto summenzionato per scopi commerciali o non commerciali senza una preventiva autorizzazione scritta di moonpacket.",
+      "Dichiari di aver ottenuto le necessarie autorizzazioni o diritti legali per qualsiasi contenuto inviato, caricato, segnalato o fornito in altro modo a questo servizio (ad es., nomi di gruppo, soprannomi, avatar, descrizioni, commenti, risultati degli eventi, importi di distribuzione, dati di classificazione, screenshot illustrativi, meme, feedback, registrazioni chat, ecc., collettivamente denominati come “Contenuto dell'Utente”)."
+    ],
+    "thirdparty": [
+      "Questo servizio può integrare, fare affidamento su o collegarsi a terzi (come piattaforme Telegram, nodi blockchain, fornitori KYC/AML, canali di pagamento o scambio, sistemi di task esterni, fornitori di cloud, ecc.). Questi terzi operano in modo indipendente e sono vincolati dai propri termini, politiche sulla privacy e limiti di disponibilità.",
+      "moonpacket non garantisce l'esistenza continua, la tempestività, l'accuratezza, la disponibilità, la legalità o la sicurezza di alcun servizio di terzi; né garantisce che questi terzi non bloccheranno, limiteranno, ritarderanno, cambieranno politiche o interromperanno i servizi.",
+      "Ritardi, fallimenti, modifiche, interruzioni o discrepanze nei dati causati da servizi di terzi, connettività di rete, congestione blockchain, guasti dei nodi, blocchi, limitazioni, cambi di policy, manutenzione del sistema o altre cause non attribuibili a moonpacket non costituiscono una violazione del contratto da parte di moonpacket, e moonpacket non si assume alcuna responsabilità per danni, risarcimenti o responsabilità contrattuali.",
+      "Se le modifiche nelle politiche o negli ambienti di terzi richiedono che moonpacket modifichi, sospenda o fermi alcune funzionalità, moonpacket può annunciare o spiegare gli aggiustamenti entro un ambito ragionevole, e tali aggiustamenti saranno validi, e moonpacket non sarà responsabile per risarcimenti."
+    ],
+    "dataPrivacy": [
+      "moonpacket raccoglierà, utilizzerà, conserverà, elaborerà e condividerà i tuoi dati in conformità con l'Informativa sulla privacy.",
+      "A causa della natura pubblica, irreversibile e tracciabile dei dati blockchain, alcune informazioni potrebbero essere ricostruite o collegate alla tua identità o indirizzo wallet da terzi; dovresti comprendere e assumerti questo rischio pubblico da solo.",
+      "Accetti espressamente che moonpacket possa, entro limiti ragionevoli, trattenere, esaminare, analizzare, congelare e fornire informazioni necessarie (inclusi, ma non limitati a, registri Off-chain, prove on-chain, dati KYC/AML, registri di gruppo/chat/attività, azioni di distribuzione e prelievo) alle suddette autorità o ai loro enti autorizzati, sulla base di frodi, riciclaggio di denaro, finanziamento del terrorismo, conformità alle sanzioni, reporting fiscale, audit di conformità o richieste legittime da autorità/giudiziarie.",
+      "La cooperazione di moonpacket con le autorità regolatorie o giudiziarie è necessaria per legge o conformità e non costituisce una violazione o infrazione nei tuoi confronti; moonpacket non sarà responsabile per danni o costi derivanti da tali azioni cooperative."
+    ],
+    "risk": [
+      "Riconosci e accetti che le criptovalute, le reti blockchain e i meccanismi di distribuzione interattivi in tempo reale comportano alta incertezza e rischi tecnici, inclusi ma non limitati a volatilità dei prezzi, guasti del protocollo o dei nodi, fork, rollback, attacchi malevoli, negazione del servizio, congestione della rete, blocchi, limitazioni, vulnerabilità dei contratti intelligenti, cambiamenti nelle API di terze parti, cambiamenti nelle politiche regolamentari, o ritardi nei dati.",
+      "Le transazioni blockchain sono generalmente irreversibili una volta inviate e confermate on-chain; eventuali ritardi, fallimenti, o discrepanze dovute a irreversibilità, congestione della rete, anomalie nei nodi, o vincoli di terze parti saranno a tuo carico. moonpacket non fornisce garanzie di protezione del capitale, preservazione del valore, assicurazione del rendimento, o disponibilità in tempo reale.",
+      "I registri off-chain sono solo per la rappresentazione interna degli interessi del sistema; i diritti che possono essere rivendicati in ultima analisi saranno basati sui trasferimenti effettivi on-chain completati. Prima dell'on-chain, l'asset potrebbe non essere ancora attribuito a una persona fisica identificabile in modo univoco e potrebbe essere soggetto a regole di partecipazione, KYC/AML, misure di congelamento, o revisioni di conformità.",
+      "moonpacket non è una banca, non è un'istituzione di pagamento regolamentata, non è un consulente per investimenti, non è un gestore di asset, non è un assicuratore. moonpacket non fornisce consulenze in materia di investimenti, tasse, leggi, o conformità; la legalità attraverso confini o giurisdizioni, obblighi di reportistica fiscale, e obblighi di conformità alle sanzioni sono di tua esclusiva responsabilità da valutare e intraprendere. Se hai preoccupazioni sulla conformità, ti preghiamo di non utilizzare questo servizio.",
+      "Per ridurre il rischio, moonpacket raccomanda di utilizzare piccole somme più volte (un singolo importo di transazione non deve superare l'equivalente di 100 USDT) e di evitare il deposito a lungo termine di grandi asset nei registri off-chain.",
+      "Capisci e accetti: moonpacket non è la tua banca, fiduciaria, agente, cambiavalute o intermediario di pagamento, gestore di asset, consulente per investimenti, broker o custode; moonpacket non ha alcun obbligo (e nega espressamente qualsiasi obbligo) di preservare, gestire, far crescere, investire, scambiare, convertire, proteggere o mantenere alcun valore, token, asset o interesse per te.",
+      "Capisci e accetti che quando trasferisci qualsiasi asset crittografico o token dal tuo wallet o account in questo servizio, la transazione on-chain stessa potrebbe comportare costi di rete irreversibili, costi di gas, spese minerarie, o altri costi simili; di conseguenza, l'importo netto ricevuto e registrato dal sistema come 'accreditato' potrebbe essere inferiore all'importo nominale che hai inserito o visualizzato sull'interfaccia del mittente. Questa differenza è addebitata dalla rete e infrastruttura on-chain pertinente e non raccolta da moonpacket; moonpacket riconosce e registra solo l'importo netto accreditato con successo, che sarà l'unica base per successivi registri interni e regolamenti, e non costituisce alcuna altra discrepanza dovuta a te da moonpacket."
+    ],
+    "disclaimer": [
+      "Questo servizio è fornito 'così com'è' e 'come disponibile'. Nella massima misura consentita dalla legge, moonpacket non fornisce garanzie esplicite o implicite, dichiarazioni o garanzie riguardo a questo servizio o a qualsiasi sua parte (comprese disponibilità immediata, accuratezza, operatività non interrotta, performance priva di errori, idoneità per uno scopo particolare, legalità, conformità, sicurezza o assenza di interferenze).",
+      "moonpacket non garantisce ritardi, errori, interruzioni, blocchi o cambiamenti di policy causati o coinvolti da servizi di terzi (come la piattaforma Telegram, nodi blockchain, fornitori KYC/AML, canali di pagamento o di scambio, sistemi di task esterni, fornitori cloud, ecc.), né si assume responsabilità per la loro applicabilità, legalità, tempestività, disponibilità o sicurezza.",
+      "moonpacket non offre garanzie esplicite o implicite, garanzie o impegni riguardo a feedback specifici, classifiche, percentuali di vincita, rapporti di allocazione, importi di distribuzione, numero di invii, probabilità di vincita, idoneità a drop aerei, scambiabilità degli asset, finalità di prelievo o valore di mercato; eventuali cifre, percentuali, stime, simulazioni, classifiche, dimensioni dei pool di premi o descrizioni di 'premi disponibili' visualizzate nell'interfaccia o negli annunci sono solo a scopo informativo e non costituiscono garanzie o diritti legalmente esigibili per te.",
+      "Comprendi e accetti che questo servizio è un meccanismo interattivo di distribuzione/distribuzione di red packet di natura internet. Sebbene moonpacket possa tentare di rilevare ragionevolmente abusi automatici, account duplicati, cambio di identità o altri comportamenti non equi, moonpacket non garantisce e non può garantire: (a) che ogni account corrisponda a una persona fisica unica; (b) che ogni ricevente soddisfi la tua valutazione soggettiva di 'riceventi aventi diritto'; o (c) che i risultati delle allocazioni soddisfino il tuo senso personale di equità o aspettativa economica. moonpacket non ha alcun obbligo di compensare, ridistribuire, recuperare o recuperare asset da te a causa della tua denuncia di 'altri con più account che prendono pacchetti/robot che prendono pacchetti,' salvo quanto richiesto dalla legge.",
+      "Quando richiedi prelievi, trasferimenti o qualsiasi valore on-chain, potresti dover sostenere costi aggiuntivi on-chain, spese per gas, spese per miner o altri costi di rete nel tuo portafoglio o nella rete specificata. Tali costi possono superare significativamente l'importo nominale che tenti di prelevare durante specifiche congestioni di rete. Tali costi sono determinati dalla tua valutazione economica e di rischio e non sono spese di servizio o commissioni di moonpacket; salvo quanto richiesto dalla legge, moonpacket non ha alcun obbligo di sostenere, anticipare, sovvenzionare, scontare, ottimizzare o rimborsare tali costi, né alcun obbligo di garantire che tali costi siano 'ragionevoli' in proporzione all'importo nominale di prelievo che tentavi.",
+      "Questo servizio è destinato a fornire uno strumento tecnico, automatico e programmato per la distribuzione e l'interazione, consentendo agli utenti di allocare o impegnarsi a distribuire i propri asset per scopi di gamificazione o gestione della comunità. Salvo quanto richiesto dalla legge, questo servizio non costituisce (né deve essere inteso come) servizi bancari, depositi, fiduciarietà, custodia, investimenti fiduciari, consulenze d'investimento, gestione di fondi, cambio straniero o servizi di regolamento dei pagamenti, né costituisce prodotti di prestito o finanziamento."
+    ],
+    "liability": [
+      "Nella massima misura consentita dalla legge, moonpacket non sarà responsabile per danni indiretti, incidentali, speciali, punitivi, consequenziali o derivati (inclusi ma non limitati a perdita di profitti, perdita di entrate, danni alla goodwill o reputazione, perdita di dati, costi opportunità, tasse o multe, o benefici attesi non realizzati) derivanti da qualsiasi reclamo basato su contratto, illecito, arricchimento ingiusto, responsabilità oggettiva, o altro principio giuridico/equilibrato.",
+      "Ritardi, fallimenti, funzionalità limitate, discrepanze nei dati, o interruzioni causate da servizi di terze parti, connessioni di rete, congestione della blockchain, guasti dei nodi, blocchi, limitazioni, cambiamenti di policy, manutenzione del sistema, o altri fattori non attribuibili a moonpacket non costituiranno una violazione da parte di moonpacket, e moonpacket non sarà responsabile per danni, compensazioni, o altri obblighi in tali casi.",
+      "Le spese di transazione, i costi di gas on-chain, le spese di terzi o costi simili non sono inclusi in alcun ambito di rimborso o compensazione."
+    ],
+    "indemnity": [
+      "Se tu (inclusi l'iniziatore e i partecipanti) violi questi termini o qualsiasi legge applicabile, sanzioni, obblighi fiscali o requisiti di conformità, o violi i diritti di terzi, o ti impegni in frodi, riciclaggio di denaro, finanziamento del terrorismo, profitti da gioco, raccolte di fondi illegali, raccolta non autorizzata di dati personali, diffusione di contenuti dannosi, o altre attività ad alto rischio/vietate utilizzando questo servizio, con conseguenti richieste, danni, multe, responsabilità, indagini, cause legali o altre spese (incluse le spese legali ragionevoli) contro moonpacket e le sue affiliate, dirigenti, dipendenti, partner, fornitori, o enti di controllo legale/di conformità, accetti di difenderli, indennizzarli e mantenerli indenni nella massima misura consentita dalla legge.",
+      "Le suddette obbligazioni di indennizzo (se applicabili) includono, ma non si limitano a: richieste delle autorità di regolamentazione, richieste di congelamento o sequestro da parte di regolatori fiscali o finanziari, procedimenti civili o penali, sanzioni amministrative, spese legali e costi di contenzioso, nonché responsabilità imposte o rivendicate contro moonpacket a causa delle tue azioni (compresi presunti riciclaggio di denaro, frodi, finanziamento del terrorismo, evasione fiscale, evasione delle sanzioni o servizi finanziari non autorizzati).",
+      "Accetti che le obbligazioni di indennizzo, risarcimento, difesa e mantenimento indenni si applichino non solo a moonpacket stessa ma anche ai membri, manager, dirigenti, dipendenti, consulenti, appaltatori, sviluppatori, partner operativi, gestori della comunità, agenti, successori, cessionari di moonpacket e i rispettivi successori (collettivamente denominati “indennizzati”). Nella massima misura consentita dalla legge, accetti di indennizzare tutti gli indennizzati per eventuali richieste, inchieste, congelamenti, sequestro, multe, cause legali, sentenze, accordi, spese legali e altre spese derivanti dal tuo uso di questo servizio, fonti o destinazioni di fondi, attività di distribuzione di red packet, transazioni o controversie con altri utenti, o violazione di qualsiasi legge (inclusi ma non limitati a obblighi di antiriciclaggio, sanzioni, obblighi fiscali e di segnalazione dell'imposta sui consumi)."
+    ],
+    "suspension": [
+      "moonpacket può, sulla base di esigenze di sicurezza, conformità, gestione del rischio o operative, intraprendere prontamente le seguenti azioni entro un ambito ragionevole senza preavviso individuale: (a) restrizioni, ritardi o rifiuto di fornire parte o tutti i servizi; (b) congelare, trattenere, limitare, regolare o fermare conti, saldi, funzionalità o prelievi; (c) bloccare specifici conti, gruppi, IP, dispositivi o attività; (d) richiedere informazioni supplementari o completare KYC/AML. Le misure sopra menzionate non costituiscono una violazione del contratto da parte di moonpacket, e moonpacket non si assume alcuna responsabilità per eventuali danni, risarcimenti o altre responsabilità.",
+      "Se moonpacket determina ragionevolmente che ci sono circostanze ad alto rischio o illegali come frodi, riciclaggio di denaro, finanziamento del terrorismo, evasione di sanzioni, servizi finanziari non autorizzati, raccolta fondi illegale, condivisione di profitti da gioco, sfruttamento di lacune o compromissione della stabilità della piattaforma, moonpacket può sospendere, ritardare o rifiutare transazioni, distribuzioni, prelievi, rimborsi, sblocco o elaborazione del servizio clienti, e cooperare con indagini o direttive da parte delle autorità di regolamentazione o giudiziarie.",
+      "moonpacket ha il diritto di conservare registri di conti, prove di transazione, dati KYC/AML e informazioni richieste per audit per un periodo ragionevole. Anche se richiedi di eliminare il tuo conto o smettere di utilizzare il servizio, moonpacket può comunque conservare tali dati per motivi legali, fiscali, contabili e di conformità fino a quando non scade l'obbligo di conservazione prima di eliminarlo o anonimizzarlo.",
+      "Se i registri Off-chain non sono coerenti con gli stati on-chain, moonpacket può regolare o ripristinare i registri Off-chain per riflettere quello che moonpacket determina ragionevolmente essere lo stato corretto; tuttavia, le transazioni on-chain non possono essere annullate o ripristinate.",
+      "Senza compromettere il contenuto generale sopra menzionato, moonpacket può rifiutare, ritardare, annullare, congelare o trattenere permanentemente qualsiasi valore/ripartizione visualizzati come 'credito in sospeso', 'da guadagnare', 'non ancora on-chain' o designazioni simili basate su conformità, gestione del rischio, frode o preoccupazioni per abusi, anche se hai visto il valore nell'interfaccia. Accetti esplicitamente e rinunci irrevocabilmente a qualsiasi richiesta di risarcimento, interessi, guadagni, costi opportunità, danni punitivi o altre richieste riguardanti tali valori non pagati contro moonpacket, a meno che la legge applicabile non vieti espressamente la rinuncia a tali richieste.",
+      "Comprendi e accetti che una volta che invii (o confermi l'invio di) qualsiasi red packet, ripartizione, allocazione di gruppo, o altre istruzioni di distribuzione nell'interfaccia, moonpacket considererà l'autorizzazione dell'allocazione per i destinatari/gruppi/condizioni delineati in tali istruzioni come irrevocabile e finale. Salvo per indagini su frode, abusi, riciclaggio di denaro, evasione di sanzioni, evasione fiscale o altre preoccupazioni di conformità, moonpacket non è obbligata a fornire meccanismi per 'reverso', 'rimborso', 'annullamento', 'recupero' o azioni simili, né è obbligata a reclamare tali valori per tuo conto da altri utenti dopo che la distribuzione è completata; tali azioni non costituiscono una violazione da parte di moonpacket, e moonpacket non sarà responsabile per eventuali danni, risarcimenti o altre responsabilità.",
+      "In caso di leggi applicabili, regolamenti anti-riciclaggio, sanzioni, reportistica fiscale, indagini su frodi o avvisi ad alto rischio, moonpacket può richiedere di completare la verifica dell'identità (inclusi ma non limitati a documento d'identità rilasciato dal governo, selfie, confronto facciale o biometrico, ecc.) e può richiedere documenti aggiuntivi o ulteriori verifiche se necessario. Se non fornisci le informazioni richieste entro un periodo ragionevole, o se le informazioni fornite non passano controlli di verifica ragionevoli, moonpacket può, a propria discrezione, ritardare, limitare, rifiutare o proibire permanentemente qualsiasi richiesta di prelievo, estrazione, on-chain o riscatto; tali azioni non costituiscono una violazione del contratto da parte di moonpacket, e moonpacket non si assume alcuna responsabilità per danni, risarcimenti o altre responsabilità, e rinunci irrevocabilmente a richieste di danni, interessi o costi opportunità riguardanti tali ritardi o proibizioni, salvo dove vietato dalla legge."
+    ],
+    "compliance": [
+      "Accetti esplicitamente che moonpacket possa, in conformità ai propri obblighi di conformità, regolamenti contro il riciclaggio di denaro/finanziamento del terrorismo, obblighi di sanzioni, obblighi fiscali o requisiti legali da autorità di supervisione/giudiziarie, trattenere, congelare, analizzare e fornire informazioni necessarie (inclusi registri Off-chain, tracciamenti on-chain, dati KYC/AML, registri di gruppo/chat/eventi, comportamenti di distribuzione e prelievo) a unità autorizzate o ai loro fornitori di conformità designati.",
+      "Tale cooperazione non costituisce una violazione del contratto o un'infrazione da parte di moonpacket, e moonpacket non è responsabile di risarcimenti, indennizzi o altre responsabilità."
+    ],
+    "forceMajeure": [
+      "In caso di disastri naturali, guerre, rivolte, ordini governativi, sanzioni, nuove leggi o requisiti normativi, interruzioni di corrente, comunicazioni o interruzioni di rete, guasti dei fornitori o delle infrastrutture cloud, incidenti a livello di protocollo blockchain, attacchi malevoli, epidemie, controversie sul lavoro o altre cause non attribuibili a moonpacket, risultando in un ritardo o impossibilità di una delle parti di adempiere pienamente o parzialmente agli obblighi ai sensi di questi termini, la parte interessata può richiedere esenzione da responsabilità per tali ritardi o inadempienze; tuttavia, la parte dovrà comunque fare ragionevoli sforzi per mitigare l'impatto e ripristinare quanto prima possibile."
+    ],
+    "highRisk": [
+      "Gli usi vietati di questo servizio includono qualsiasi scopo illegale, ad alto rischio o sottoposto a sanzioni, comprese ma non limitate a frodi, riciclaggio di denaro, finanziamento del terrorismo, profitti da gioco, raccolte di fondi illegali, servizi finanziari non autorizzati, evasione di sanzioni o qualsiasi altra condotta vietata dalla normativa.",
+      "L'iniziatore deve confermare la propria giurisdizione o il proprio dominio legale applicabile riguardo alla distribuzione di red packet, premi, fondi promozionali, airdrop, condivisione dei profitti o distribuzioni simili, e assicurarsi che queste non costituiscano raccolte di fondi illegali, servizi finanziari non autorizzati, profitti da gioco illegali o altre attività soggette a segnalazione/permessi richiesti.",
+      "I partecipanti devono confermare che ricevere, detenere, prelevare o trasferire asset sia conforme alle leggi applicabili alla loro posizione, e non comporti redditi illeciti, violazioni di sanzioni, obblighi di segnalazione fiscale o altre restrizioni normative.",
+      "moonpacket non fornisce alcuna garanzia legale riguardo alla legalità dell'uso di questo servizio oltre confine o tra giurisdizioni, né garantisce che tu possa legalmente utilizzare questo servizio in alcuna regione specifica.",
+      "Dichiari e garantisci di non essere soggetto a sanzioni internazionali, controlli sulle esportazioni, misure anti-terrorismo o simili restrizioni, e di non utilizzare questo servizio per conto di tali entità. Non devi utilizzare questo servizio per assistere, facilitare o tentare di eludere qualsiasi sanzione, congelamento, sequestro, confiscazione, audit fiscali, azioni delle forze dell'ordine o procedimenti giudiziari. moonpacket si riserva il diritto di rifiutare, limitare o terminare in tutto o in parte i servizi, o ritardare, limitare o negare qualsiasi richiesta di prelievo, trasferimento o riscatto senza preavviso; tali azioni non costituiscono una violazione da parte di moonpacket, e moonpacket non sarà responsabile per eventuali danni, risarcimenti o altre responsabilità."
+    ],
+    "tax": [
+      "Sei responsabile della gestione di eventuali obblighi fiscali, dichiarazioni, pagamenti e costi correlati derivanti dall'uso di questo servizio in conformità con le leggi applicabili; moonpacket non fornisce consulenza fiscale, né è responsabile per dichiarazioni o ritenute di pagamento, a meno che non sia legalmente richiesto."
+    ],
+    "accuracy": [
+      "Le classifiche, le statistiche, i risultati degli eventi, i consigli o le informazioni sul dashboard fornite da questo servizio possono differire dallo stato reale a causa di ritardi di sincronizzazione, dipendenze da terzi, restrizioni temporanee o manutenzione del sistema; tutto è comunque soggetto ai risultati delle transazioni on-chain effettive o ai registri di regolamento finale all'interno di moonpacket.",
+      "moonpacket può correggere eventuali errori evidenti, guasti di sistema o risultati manifestamente ingiusti nella visualizzazione e può ripristinare le registrazioni off-chain entro un ambito ragionevole per allinearle allo stato accurato come ragionevolmente determinato da moonpacket; tuttavia, le transazioni on-chain non possono essere annullate o invertite."
+    ],
+    "law": [
+      "Questi Termini, così come tutte le relazioni tra te e moonpacket derivanti da o collegate a questo servizio (inclusi ma non limitati a distribuzioni di attività, gestione degli asset, meccanismi di classificazione/ricompensa, congelamento/sospensione degli account, interruzione o cessazione del servizio, aggiustamenti dei registri off-chain, conservazione dei dati, cooperazione con le forze dell'ordine, qualsiasi annuncio, dichiarazione, marketing, interventi di assistenza clienti, ecc.), saranno disciplinati dalle leggi del Giappone senza riguardo ai suoi principi di diritto internazionale privato o di conflitto di leggi."
+    ],
+    "disputes": [
+      "Qualsiasi controversia, controversia, richiesta, causa legale, rimedio o procedimenti derivanti o correlati a questo servizio o a questi termini saranno esclusivamente sottoposti al Tribunale Distrettuale di Tokyo come tribunale di prima istanza. Rinunci irrevocabilmente a qualsiasi diritto di rivendicare la giurisdizione di qualsiasi altro tribunale, istituzione di arbitraggio o distretto giudiziario che possa essere più conveniente o appropriato, e non potrai rivendicare che moonpacket debba essere soggetto alla giurisdizione del tribunale in cui ti trovi.",
+      "Accetti che moonpacket possa, in conformità con i suoi obblighi di conformità, anti-riciclaggio/controfinanziamento al terrorismo, sanzioni, tasse o richieste legittime da parte delle autorità di regolamentazione/giudiziarie, trattenere, congelare, analizzare e fornire le informazioni necessarie (inclusi registri off-chain, prove on-chain, dati KYC/AML, registri di gruppo/chat/attività, azioni di distribuzione e prelievo) a unità autorizzate o ai loro fornitori di conformità autorizzati; tale cooperazione non costituisce violazione o infrangimento da parte di moonpacket e moonpacket non avrà responsabilità per alcun risarcimento, rimborso o altre responsabilità."
+    ],
+    "contact": [
+      "Per questioni relative a questo accordo, contatta moonpacket tramite il bot di assistenza clienti o i canali di contatto mostrati nell'interfaccia. Per richieste di protezione dei dati o privacy, ti preghiamo di contattare la finestra di contatto indicata nell'Informativa sulla privacy."
+    ],
+    "changes": [
+      "moonpacket può rivedere questi termini e politiche correlate in qualsiasi momento in base a considerazioni tecniche, di gestione dei rischi, di conformità o commerciali. La versione rivista entrerà in vigore al momento della pubblicazione e sarà considerata come l'ultima versione valida. Continuando ad accedere o utilizzare questo servizio dopo la pubblicazione, si considera che si sia accettato il contenuto aggiornato; se non si accetta, l'unico rimedio è interrompere immediatamente l'utilizzo di questo servizio."
+    ],
+    "serviceChanges": {
+      "title": "Modifiche ai servizi e aggiornamenti dei termini",
+      "body": [
+        "moonpacket può, a propria discrezione, modificare, localizzare, regolare, sospendere, limitare, aggiornare o terminare tutto o parte di questo servizio (inclusi ma non limitati al metodo di calcolo dei red packet/ripartizioni, tempi di raffreddamento, condizioni di distribuzione, regole delle classifiche, commissioni di gestione, funzionalità disponibili, interfacce, API, integrazioni con plugin, soglie di attività, ecc.), e può disattivare tutto o parte dei suoi servizi in qualsiasi momento; moonpacket non è obbligata a mantenere alcun servizio o funzionalità specifica in modo permanente.",
+        "moonpacket può rifiutare o sospendere i servizi a utenti o gruppi specifici sulla base di gestione del rischio, verifica di conformità, considerazioni tecniche o commerciali, o limitare le loro funzionalità e permessi (incluso congelamento, sospensione, blocco, prevenzione di connessioni o blocco di specifici gruppi o conti di chat) senza preavviso individuale. Salvo quanto richiesto dalla legge, moonpacket non è responsabile per eventuali danni, perdite o costi derivanti da eventuali aggiustamenti, sospensioni o rifiuti di fornire questo servizio."
+      ]
+    },
+    "userContent": {
+      "title": "Autorizzazione contenuti utente e visualizzazione pubblica",
+      "body": [
+        "Comprendi e accetti: Qualsiasi contenuto, dati, nomi, soprannomi, nomi di gruppo, avatar di gruppo, descrizioni di gruppo, informazioni sulle chat, dati della classifica, importi di contributo, importi totali dei red packet, registri di estrazione fortunata, messaggi, risposte, meme, adesivi, testo o altre informazioni (collettivamente denominate 'Contenuto Utente') che fornisci, carichi, segnali o altrimenti rendi disponibili a moonpacket durante l'uso di questo servizio possono essere visualizzati, ordinati, classificati, aggregati, annunciati, illustrati con screenshot, riprodotti, distribuiti, trasmessi pubblicamente, visualizzati pubblicamente, adattati e utilizzati per spiegazioni di marketing e operative (ad es., presentazione di gruppi popolari, classifiche di distribuzione dei red packet, fortunati ricevitori, recensioni dei risultati degli eventi, ecc.) all'interno delle aree interne o visibili pubblicamente di moonpacket.",
+        "Se moonpacket sospetta ragionevolmente che contenuti utente specifici possano violare leggi, violare diritti di terzi, coinvolgere frodi/riciclaggio di denaro/finanziamento del terrorismo/partecipazione ai profitti di gioco/raccolta fondi illecita/raccolta non autorizzata di dati personali e altri comportamenti ad alto rischio, moonpacket può rimuovere, nascondere, limitare la visualizzazione, ritirare o bloccare tali contenuti, e può congelare, sospendere o terminare l'accesso ai relativi account o gruppi e può fornire le informazioni necessarie agli amministratori di gruppo, fornitori di piattaforme, autorità di regolamentazione o entità giudiziarie. moonpacket non si assume alcuna responsabilità per eventuali danni, perdita di profitti, danni alla reputazione o altre rivendicazioni derivanti da tali azioni."
+      ]
+    },
+    "liabilityCap": {
+      "title": "Limitazione di responsabilità e tetto di compensazione",
+      "body": [
+        "Nella massima misura consentita dalla legge, la responsabilità totale di moonpacket per eventuali reclami, danni o obbligazioni derivanti dal tuo utilizzo di questo servizio sarà limitata a (A) le spese totali effettivamente pagate da te a moonpacket e confermate da moonpacket entro i trenta (30) giorni precedenti a quella richiesta, o (B) l'equivalente di cinquanta (50) dollari, a seconda di quale sia inferiore. Questo limite costituisce il tuo unico e esclusivo rimedio, anche se tale rimedio non riesce a compensare i tuoi danni.",
+        "Il limite sopra si applica solo nella misura in cui la legge richiede a moonpacket di sostenere la responsabilità e costituisce il tuo unico e esclusivo rimedio; al di là di tale ambito obbligatorio, moonpacket non riconosce o garantisce alcuna responsabilità per controversie o reclami."
+      ]
+    },
+    "governingLaw": {
+      "title": "Leggi e risoluzione delle controversie applicabili.",
+      "body": [
+        "Questi termini, e tutte le relazioni derivanti o correlate a questo servizio tra te e moonpacket, saranno regolati dalle leggi giapponesi e interpretati di conseguenza, ma non includeranno l'applicazione dei principi di conflitto di leggi.",
+        "Qualsiasi controversia, rivendicazione, causa legale, rimedi o procedimenti derivanti o correlati a questo servizio o a questi termini saranno soggetti alla giurisdizione esclusiva del Tribunale Distrettuale di Tokyo in Giappone come prima istanza. Rinunci irrevocabilmente a qualsiasi diritto di rivendicare che qualsiasi altro tribunale o giurisdizione sia più conveniente o appropriata e non potrai affermare che moonpacket sia soggetta alla giurisdizione dei tuoi tribunali locali.",
+        "moonpacket, in conformità con i suoi obblighi, anti-riciclaggio/anti-finanziamento del terrorismo, sanzioni, tasse o richieste legittime delle autorità legali, può trattenere, congelare, analizzare e fornire le informazioni necessarie (inclusi registri off-chain, prove on-chain, dati KYC/AML, registri di gruppo/chat/attività, e attività di distribuzione e prelievo) a entità autorizzate o ai loro fornitori di conformità; tali azioni non costituiscono una violazione del contratto o un'infrazione da parte di moonpacket, che non sarà responsabile per danni o costi derivanti da tali azioni.",
+        "Tu e moonpacket concordate che non possono essere presentate rivendicazioni o partecipazioni tramite azioni di classe, azioni collettive, azioni comuni, o procedimenti simili; rinunci irrevocabilmente ai tuoi diritti di essere un attore, membro, agente o rappresentante in tali procedimenti, salvo quanto proibito dalla legge.",
+        "Se qualsiasi disposizione di questi termini è ritenuta non valida, illegale o inapplicabile da un tribunale competente, le restanti disposizioni continueranno a essere in pieno vigore ed effetto nella massima misura consentita dalla legge (separabilità).",
+        "Questi termini costituiscono l'accordo completo tra te e moonpacket riguardo a questo servizio e sostituiscono qualsiasi comunicazione orale o scritta precedente, annunci, descrizioni di marketing, post della comunità, risposte di supporto o promesse (se presenti) tra le parti. Salvo esplicito accordo scritto di moonpacket, nessuna altra dichiarazione, FAQ, materiale di marketing, registri di chat o spiegazioni verbali costituiranno una garanzia o una responsabilità vincolante per moonpacket in senso legale.",
+        "moonpacket può, senza il tuo previo consenso, cedere, trasferire, delegare o altrimenti far processare o soddisfare in tutto o in parte questi termini o i suoi diritti e obblighi da filiali, appaltatori, cessionari, successori operativi o terzi, e tali terzi possono continuare, modificare o terminare il servizio in condizioni sostanzialmente simili; non puoi cedere o trasferire alcun diritto o obbligo ai sensi di questi termini senza il previo consenso scritto di moonpacket.",
+        "Salvo diverso indicato dalla legge, il mancato esercizio da parte di moonpacket di qualsiasi diritto, rimedio o reclamo concessi da questi termini in un momento specifico, o il suo mancato esercizio immediato di tali diritti, non sarà considerato una rinuncia a tale diritto, né influenzerà la capacità di moonpacket di far valere o esercitare tale diritto in futuro.",
+        "Le disposizioni che, per loro natura, dovrebbero sopravvivere alla risoluzione di questi termini, comprese ma non limitate a obblighi relativi a spese e commissioni di gestione, dichiarazioni di non responsabilità, limitazioni di responsabilità, massimali di indennizzo, obblighi fiscali, clausole di proprietà intellettuale, divieti, obblighi di conformità e cooperazione, clausole di legge applicabile e giurisdizione, così come le obbligazioni di indennizzo applicabili, rimarranno efficaci e vincolanti per te dopo che cesserai di utilizzare questo servizio o alla risoluzione di questi termini per qualsiasi motivo."
+      ]
+    },
+    "appendix": [
+      "\"Irreversibile\": Si riferisce a transazioni on-chain che, una volta confermate (on-chain), di solito non sono revocabili, recuperabili o eliminabili, e i loro registri possono essere verificati permanentemente su esploratori blockchain pubblici.",
+      "\"Non ritirabile\": Si riferisce alla promessa di un regalo fatta a partecipanti non specificati che entra in vigore quando l'emittente conferma le condizioni di distribuzione e lo invia, e non può essere arbitrariamente ritirato, annullato o richiesto di essere fermato durante l'evento, né può essere richiesto di essere restituito per motivi di \"rimpianto\"; questo è un concetto di livello diverso rispetto alle transazioni on-chain \"irreversibili\".",
+      "\"Entro un ambito ragionevole\": Si riferisce ad azioni commercialmente ragionevoli intraprese da moonpacket per garantire la sicurezza operativa, i requisiti di conformità, la lotta al riciclaggio di denaro/finanziamento del terrorismo, l'adeguamento alle sanzioni, la conformità fiscale, la protezione degli utenti o obiettivi di gestione dei rischi entro i limiti delle obbligazioni legali, regolatorie e delle risorse disponibili, incluso ma non limitato a: congelamento, limitazione, ritardo, regolazione, trattenimento, cooperazione con le autorità o rifiuto di fornire determinate funzionalità."
+    ]
+  }
+}

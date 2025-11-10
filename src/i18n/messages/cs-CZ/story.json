@@ -1,0 +1,101 @@
+{
+  "illustration_alt": "moonini objímá ilustraci",
+  "title": "🌕 Příběh moonini",
+  "origin": [
+    "Jednoho dne spadl červený meteorit na vzdálené straně měsíce,",
+    "Měsíční světlo explodovalo po nárazu a přeměnilo se na stříbřitě bílý déšť světla.",
+    "Z toho blikajícího červeného 'meteoritu červeného balíčku',",
+    "Se zrodil zářící malý měsíční králíček — moonini.",
+    "",
+    "moonini nosí zlatě žlutou měsíční nášivku na své hrudi.",
+    "Cítí každou srdečnou červenou obálku poslanou ze Země.",
+    "Ať už je částka jakákoli, je to nejčistší teplá energie.",
+    "Ano, moonini roste díky energii z červených obálek od všech.",
+    "",
+    "Tyto energie se změnily na kredencialy červeného balíčku narozené na Solana řetězci —",
+    "To je původ Tokenu $moonini."
+  ],
+  "secrets_title": "🌸 Jeho tajemství",
+  "secrets_intro": "Pokaždé, když odešlete červenou obálku, moonini zaznamená záznam energie na měsíci:",
+  "secrets_flow": "Odeslat červenou obálku → Vyprodukovat odpovídající hodnotu energie (převedeno na hodnotu USDT) → Nahromadit na 10 → Dosáhnout minimální vyplácené hodnoty $moonini.",
+  "secrets_halving": [
+    "Ve fázi 1 se moonini obecně vrátí v nejlepším poměru 1:1 k odesílateli červené obálky. Abyste zajistili spravedlnost a snížili riziko praní/ping-pong, zavedeme koncept efektivní energie.",
+    "Když celkové odeslané a vybrané částky z komunity dosáhnou stanoveného prahu pro rozdělení systému, dojde k prvnímu rozdělení; poté dosažení poloviny částky z předchozí fáze spustí další rozdělení."
+  ],
+  "schedule_title": "Pravidla uvolnění tokenu",
+  "schedule_headers": [
+    "Fáze",
+    "Limit problémů",
+    "Poměr výstupu (energie vyprodukovaná za 1 USDT nahromaděnou)",
+    "Popis"
+  ],
+  "schedule_rows": [
+    [
+      "Phase 1",
+      "0 ~ 4.5 billion",
+      "1.0 $MOONINI / USDT",
+      "Initial period, energy overflow."
+    ],
+    [
+      "Phase 2",
+      "4.5B ~ 6.75B",
+      "0.5 $MOONINI / USDT",
+      "First halving."
+    ],
+    [
+      "Phase 3",
+      "6.75B ~ 7.875B",
+      "0.25 $MOONINI / USDT",
+      "Stabilization period."
+    ],
+    [
+      "Phase 4",
+      "7.875B ~ 8.4375B",
+      "0.125 $MOONINI / USDT",
+      "Scarcity period."
+    ],
+    [
+      "Phase 5",
+      "8.4375B ~ 8.71875B",
+      "0.0625 $MOONINI / USDT",
+      "Late mining phase."
+    ],
+    [
+      "Phase 6",
+      "8.71875B ~ 9B",
+      "0.03125 $MOONINI / USDT",
+      "Crystallization period (final phase)."
+    ]
+  ],
+  "cap_note": [
+    "Až celková cirkulace dosáhne 9 miliard, moonini přestane vydávat více.",
+    "Zbývající 1 miliarda (10 % z celkové nabídky),",
+    "Rezervováno oficiálně pro budoucí odměny komunity a využití energetického fondu spolupráce."
+  ],
+  "belief_title": "🌕 Energie měsíce a víra v červené obálky",
+  "belief_paragraphs": [
+    "moonini miluje všechny, kteří jsou ochotni 'sdílet'.",
+    "Věří, že červené obálky nejsou jen peníze, ale výměna požehnání a energie.",
+    "Každýkrát, když odešlete červenou obálku, splníte úkol nebo se připojíte ke komunitě moonpacket,",
+    "budete mít šanci obdržet návrat z měsíce — náhodně spadlé $moonini.",
+    "",
+    "To je světlo, které vám vesmír vrací po rozšíření radosti."
+  ],
+  "future_title": "💫 Budoucí aplikace",
+  "future_intro": "V současné době $moonini není otevřeno pro žádné oficiální aplikační scénáře, ale je navrženo jako odměna a energetická kredencial pro budoucí svět červených balíčků, možná k použití pro:",
+  "future_list": [
+    "✅ Slevy na poplatky za transakce červených balíčků",
+    "🎁 Obchodní poukázky/slevy na výměnu",
+    "🌐 Airdropy akcí a odměny za úkoly komunity"
+  ],
+  "disclaimer_title": "⚠️ Prohlášení",
+  "disclaimer_paragraphs": [
+    "Oficiální nedává žádnou záruku na hodnotu směny fiat pro $moonini.",
+    "Můžete to považovat za bonusové body štědré osoby.",
+    "Symbolizující každého, kdo je ochoten sdílet štěstí a šířit energii."
+  ],
+  "closing": [
+    "moonini — měsíční králíček narozený z energie červeného balíčku.",
+    "Každé požehnání je paprsek světla pro jeho růst."
+  ]
+}

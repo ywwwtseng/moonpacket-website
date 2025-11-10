@@ -1,0 +1,386 @@
+{
+  "title": "",
+  "faq": {
+    "section_1": "1) البداية والأهلية",
+    "q1": "كيف يمكنني التسجيل؟",
+    "a1": "استخدم الروبوت الخاص بنا (رابط الروبوت) لإكمال تسجيل التجربة تلقائيًا.",
+    "q2": "ما المؤهلات المطلوبة؟",
+    "a2": "ما عليك سوى أن تكون في المجموعات المدعومة والتأكد من انضمام البوت إلى المجموعة (مع أذونات المسؤول الممنوحة).",
+    "section_2": "2) عملية الاسترداد",
+    "q3": "كيف أستلم ريد باكيت؟",
+    "a3": "عند رؤية رسالة ريد باكيت في المجموعة، انقر على زر 'استلام' للحصول عليه.",
+    "q4": "هل هناك حد زمني للمطالبة؟",
+    "a4": "يمكن استلام كل ريد باكيت مرة واحدة فقط لكل شخص، وفقًا لأسبقية الوصول.",
+    "section_3": "3) الأسئلة المتداولة",
+    "q5": "لماذا فشل السحب؟",
+    "a5": "قد يكون ذلك بسبب مشكلات في الشبكة، أو رصيد غير كاف، أو تم استكمال استلام الريد باكيت.",
+    "q6": "كيف يمكنني التحقق من تاريخ سحبي؟",
+    "a6": "يمكنك التحقق من تاريخ المطالبات الخاصة بك في محادثة خاصة مع الروبوت.",
+    "section_4": "المبلغ، الرصيد، والسحوبات",
+    "section_5": "رقابة المخاطر والقيود",
+    "section_6": "",
+    "section_7": "",
+    "section_8": "",
+    "section_9": "",
+    "section_10": "دعم العملاء والشكاوى",
+    "section_11": "ميزات ومعلومات أخرى",
+    "tip": "نصيحة: إذا تلقيت ريد باكيت، لا تنسى شكر قائد المجموعة، وتذكر الإعجاب بوسائل التواصل الاجتماعي الخاصة بهم.",
+    "q7": "",
+    "a7": "يعتمد ذلك على تصميم النشاط. بعض الأنشطة لمرة واحدة فقط، بينما لدى أخرى حدود يومية. إذا كان هناك حد 'لعديد من المطالبات لكل شخص'، فإن النظام سيقوم تلقائيًا بتقييد ذلك وإعلامك عند الوصول إلى الحد.",
+    "q8": "هل سينتهي الحدث مبكرًا أو يتم تأجيله؟",
+    "a8": "إذا كانت الأسهم قد تم المطالبة بها أو انتهت صلاحيتها، فإنها ستنتهي على الفور؛ قد يقوم المنظم أيضًا بتعليق أو إنهاء النشاط بسبب المخاطر غير العادية، وسيتم تحديث صفحة ريد باكيت وفقًا لذلك. نظرًا لأسباب تتعلق بالمنصات المتعددة، قد تتأخر التحديثات؛ إذا لم تتمكن من المطالبة بعد النقر مرة أخرى، نوصي بتحديث الصفحة للتأكد من أحدث حالة لنشاط ريد باكيت.",
+    "q9": "لماذا لا أزال غير قادر على الاستلام بعد النقر؟",
+    "a9": "أسباب شائعة: تم المطالبة بها أو لم يتم إكمال المهام. في حالات نادرة، قد يتم تعليقها أو إنهاؤها بسبب مخاطر المشروع. نظرًا لوجود تأخيرات في تحديث المعلومات بين المجموعات، يرجى الانتباه إلى أحدث معلومات ريد باكيت وحالة الإرسال على صفحة النشاط وفي المجموعة.",
+    "q10": "ما هو فتح المهام؟",
+    "a10": "يجب عليك أولاً إكمال الشروط المحددة (مثل متابعة القناة/الانضمام إلى المجموعة/عبارة المرور/مهام خارجية) للمطالبة بالحزمة الحمراء. بمجرد الانتهاء، يرجى العودة إلى الزر في منشور معلومات الحزمة الحمراء لـ 'مطالبة بالحزمة الحمراء'.",
+    "q11": "لقد أكملت المهمة بوضوح، لماذا يظهر كأنه لم يُقبل؟",
+    "a11": "قد تكون هناك تأخيرات في المزامنة بين واجهات برمجة التطبيقات المختلفة في تيليجرام، لذا يرجى الانتظار إذا لم تتمكن من المرور مؤقتًا. إذا لم تتمكن من اجتياز التحقق لفترة طويلة، فقد تكون هناك مشكلة مع مزود واجهة برمجة التطبيقات؛ يرجى الاتصال بالمشروع الذي أطلق مهمة ريد باكيت.",
+    "q12": "أين يمكنني الحصول على كلمة المرور؟ ماذا يجب أن أفعل إذا ارتكبت خطأ؟",
+    "a12": "عادةً ما يتم إعلان عبارة المرور من قبل المنظم في المشاركات ذات الصلة أو البث المباشر أو الفيديوهات؛ يمكنك المحاولة مرة أخرى إذا أدخلتها بشكل غير صحيح، لكن المحاولات غير الصحيحة المتعددة قد تؤدي إلى تفعيل قيود التردد.",
+    "q13": "كيف يتم التحقق من المهام الخارجية (مثل التسجيل في المواقع/التداول)؟",
+    "a13": "يقدم moonpacket واجهة برمجة التطبيقات للمشاريع الخارجية للتحقق مما إذا كان المستخدمون قد أكملوا المهام. عندما يطالب المستخدمون بالريد باكيت، سيقومون بالاستعلام عن واجهة برمجة التطبيقات وإرجاع نتيجة التحقق، والتي ستفتح فقط إذا تم استيفاء الشروط. إذا لم يتم إرجاع أي استجابة، يمكنك الانتظار وإعادة تفعيلها لاحقًا.",
+    "q14": "أين يمكنني عرض المبلغ المستلم؟",
+    "a14": "سيتم إرسال المطالبات الناجحة عبر روبوت تيليجرام وعرضها في تاريخ مطالبات الريد باكيت في التطبيق المصغر، حيث يمكنك عرض تاريخك ورصيد السحب في أي وقت.",
+    "q15": "ما هي الأصول المدعومة؟",
+    "a15": "استنادًا إلى إعدادات الحملة، نحن ندعم حاليًا USDT/SOL/ETH/TON الرئيسية، بالإضافة إلى الرموز المصدرة من قبل مالكي المجموعة. ستشير الصفحة إلى وحدات الأصول ومصادر سعر الصرف (إذا كان ذلك مناسبًا).",
+    "q16": "ما الذي يجب ربطه للسحب؟ كم من الوقت يستغرق؟",
+    "a16": "يتطلب الأمر عنوان محفظة ومعلومات هوية أساسية كأسئلة أمان. عادةً ما يكون وقت الوصول من T+0 إلى T+2 أيام عمل وقد يتم تمديده خلال حالات التحكم في المخاطر الاستثنائية.",
+    "q17": "من المسؤول عن الرسوم/الغاز؟",
+    "a17": "يتم خصم هذا عادةً من المبلغ المطالب به أو يتم تحمله من قبل المنظم، مع توضيح القواعد المحددة بوضوح على صفحة السحب.",
+    "q18": "هل يمكنني نقل الرصيد إلى صديق أو دمجه؟",
+    "a18": "لا يتم دعم التحويل/الإهداء أو الدمج.",
+    "q19": "لماذا يعتبر مشبوهاً أو معترضاً؟",
+    "a19": "يمكن أن تشمل الأسباب المحتملة وجود حسابات متعددة من نفس الجهاز، بروكسيات/شبكات VPN غير طبيعية، تكرار المطالبات بشكل مفرط في مجموعات متعددة، المناطق/ASN المدرجة في القائمة السوداء، إلخ. يمكنك إرسال /report محتوى الرسالة إلى الروبوت؛ هذه القناة رد واحدة، ويحتفظ المسؤولون بالحق في عدم توضيح الأسباب أو الرد على تعليق الحساب.",
+    "q20": "هل يجب علي إجراء التحقق من هوية KYC (رمز التحقق)؟",
+    "a20": "في الحالات عالية المخاطر، سيتم التحقق بناءً على المعلومات المقدمة من المستخدم. يرجى التأكد من ملء المعلومات الأمنية الصحيحة عند السحب؛ إذا كانت المعلومات غير صحيحة، فلن تتمكن من اجتياز KYC الخاصة بالبيانات البيومترية والمستندات.",
+    "q21": "ماذا يجب أن أفعل إذا تم تقييد حسابي؟",
+    "a21": "القيود عادة ما تكون تدابير حماية مؤقتة. إذا كنت بحاجة إلى مساعدة، يرجى إرسال محتوى رسالة /report. لن يتم معالجة القضايا المطروحة من قبل المراجعين الذين لم يكملوا المعلومات الأمنية؛ إذا تم إكمال التحقق وكانت الحالة طبيعية، سنتولى الأمر.",
+    "q22": "متى تبدأ/تنتهي كل حدث للريد باكيت؟",
+    "a22": "كل مشروع يصدر ريد باكيت مختلف؛ يرجى الانتباه إلى توقيت ومخصصات ريد باكيت المتبقية. يمكنك تفعيل الإشعارات في تيليجرام أو تعيين أصوات إشعارات خاصة لتسهيل تلقي التذكيرات للحصول على ريد باكيت.",
+    "q23": "هل يمكنني تشغيل أو إيقاف الإشعارات عندما أستلم أو أكمل سحباً؟",
+    "a23": "هذه هي إعداداتك في تيليجرام، ليست في moonpacket. يمكنك تعديل إعدادات الإشعارات في إعدادات تيليجرام.",
+    "q24": "هل يمكنني عدم رؤية طرق سحب معينة أو أنماط لعب؟",
+    "a24": "قد لا تنطبق السياسات في بعض المناطق، وسيتولى النظام تلقائيًا إخفاء أو عدم إمكانية السحب، مما يعني أنه لا يمكنك المشاركة في لعبة ريد باكيت؛ هذه المنطقة غير مدعومة حاليًا.",
+    "q25": "كم عدد الأرقام العشرية المعروضة بتنسيق رقمي؟",
+    "a25": "سيقوم النظام تلقائيًا بتطبيق المحددات العشرية المحلية وأماكن الفاصلة بناءً على لغتك؛ نحن نعرض حتى 8 أماكن عشرية، وإذا تجاوزت قيمة الرمز الخاص بك نطاق العرض، فسيتم التعامل معها وفقًا لذلك.",
+    "q26": "هل يمكنني استخدامه على إصدار iOS/Android/Desktop من تيليجرام؟",
+    "a26": "نعم، يوصى باستخدام أحدث إصدار من تيليجرام. إذا واجهت مشكلات مع محتوى غير قابل للقراءة، يرجى التأكد من أنك تستخدم العميل الرسمي، أو تحديث التطبيق أو النقر على إعادة تحميل الصفحة في الزاوية العلوية اليمنى من صفحة التطبيق الصغيرة.",
+    "q27": "هل يؤثر تغيير الأجهزة على الاستلام؟",
+    "a27": "لن يؤثر على السجل، ولكن العمليات المتكررة على أجهزة متعددة في فترة قصيرة قد تؤدي إلى تفعيل السيطرة على المخاطر.",
+    "q28": "أستخدم VPN/بروكسي، هل سيكون هناك أي تأثير؟",
+    "a28": "إذا كنت تستخدم بروكسي عالي المخاطر، فقد يتم اعتراضه. نوصي بتعطيل البروكسي مؤقتًا أو الانتقال إلى بيئة شبكة نظيفة والمحاولة مرة أخرى.",
+    "q29": "ما البيانات التي سيتم جمعها؟",
+    "a29": "اتبع مبدأ التقليل: اجمع فقط البيانات الضرورية للتوزيع والسحب والتحكم في المخاطر (مثل أسئلة الأمان الشخصية، عنوان المحفظة، البريد الإلكتروني، معرف تيليجرام). لأغراض التحقق من الهوية الضرورية، سنستخدم منصة تحقق من طرف ثالث، ولن تخزن المنصة أي بيانات خاصة بالمستخدم باستثناء معلومات الأمان.",
+    "q30": "ما هي التدابير الأمنية للأموال؟",
+    "a30": "تتطلب جميع العمليات الرئيسية التحقق من خطوتين؛ قد تؤدي السحوبات عالية المخاطر إلى مراجعة يدوية.",
+    "q31": "هل يمكنني حذف حسابي أو بياناتي؟",
+    "a31": "يمكنك تقديم طلبات الوصول إلى البيانات أو حذفها وفقًا للإجراءات. بمجرد حذف الحساب، لن تتمكن من تسجيل الدخول بعد الآن، ولكن سيتم الاحتفاظ ببيانات المعاملات وفقًا لمتطلبات الامتثال.",
+    "q32": "من يجب أن أتصل به إذا واجهت مشكلة؟",
+    "a32": "يمكنك الاتصال بنا عن طريق تقديم/الإبلاغ عن محتوى المعلومات في البوت؛ تقديم رمز الخطأ ولقطة شاشة يمكن أن يسرع من معالجة الطلب.",
+    "q33": "كم من الوقت يستغرق الحصول على رد على الشكاوى؟",
+    "a33": "بشكل عام، ستتلقى ردًا في غضون 1-3 أيام عمل؛ ستتم معالجة الحالات المتعلقة بالأموال بشكل عاجل.",
+    "q34": "هل يمكنني المشاركة في أنشطة من مجموعات متعددة؟",
+    "a34": "نعم، جميع قواعد النشاط مستقلة، لذا يرجى الانتباه إلى حدود كل نشاط وفترة Validity.",
+    "q35": "هل هناك لوحة للمتصدرين أو شارات؟",
+    "a35": "ستحتوي بعض الأنشطة على لوحات المتصدرين، وشارات، ورهانات؛ يرجى الرجوع إلى صفحة النشاط لمعرفة القواعد والمكافآت المحددة.",
+    "q1_body": {
+      "0": "كيف يمكنني التسجيل؟ قم بتنشيط الروبوت الخاص بنا لإكمال التسجيل الأساسي تلقائيًا. يتيح moonpacket لمالكي المجموعات إضافة روبوت ريد باكيت إلى مجموعاتهم، ويمكن للاعبين المشاركة ليس فقط في المجموعة الرسمية ولكن أيضًا في أي مجموعة بها روبوت ريد باكيت من moonpacket.",
+      "1": "ماذا أحتاج للتثبيت أو التعطيل؟ لا يلزم تثبيت تطبيق إضافي؛ نوصي باستخدام أحدث إصدار من Telegram. إذا كنت تفتح التطبيق المصغر/WebApp من خلال متصفح النظام، يرجى التأكد من عدم حظر الكوكيز أو التخزين لتجنب مشاكل في تسجيل الدخول والسجلات.",
+      "2": "من يمكنه المشاركة؟ بشكل عام، يمكن لجميع مستخدمي Telegram المشاركة. ومع ذلك، قد تختلف القواعد لكل مجموعة أو نشاط، وقد تكون هناك شروط محددة مطلوبة (مثل: الدور، أهلية الدعوة، الموقع، إكمال المهام، إلخ). يرجى الرجوع إلى تعليمات ريد باكيت من مالك المجموعة أو منظم النشاط للتفاصيل.",
+      "3": "هل يمكنني استرداد عدة مرات باستخدام حسابات أو أجهزة مختلفة؟ معظم مديري المجموعات يمنعون الإساءة. سيقلل النظام من احتمالية أن يقوم شخص واحد بالاسترداد أكثر من مرة من خلال طرق مثل حساب Telegram، رمز التحقق، البريد الإلكتروني المرتبط، عنوان المحفظة الفريد، وتقليل وزن مكافأة moonini.",
+      "4": "نصيحة: عندما تتلقى ريد باكيت، تذكر أن تشكر مدير المجموعة. يمكنك أيضًا الإعجاب ودعم قنوات المجتمع أو وسائل التواصل الاجتماعي الخاصة بهم."
+    },
+    "q1_title": "1) ابدأ مع الأهلية",
+    "q10_body": {
+      "0": "من يجب أن أتواصل معه إذا واجهت مشكلة؟ يمكنك مراسلة روبوت الدعم الرسمي @moonini_helper_bot. بمجرد الدخول في المحادثة، يرجى إدخال الأمر /setlang (على سبيل المثال، /setlang zh-TW أو /setlang en-US) لتغيير لغات الدعم.",
+      "1": "عند الإبلاغ عن مشكلة، يرجى التحضير: حساب Telegram الخاص بك أو عنوان المحفظة، وقت حدوث المشكلة، الإجراءات التي كنت تقوم بها (مثل 'سحب'، 'إرسال ريد باكيت'، 'استرداد ريد باكيت')، وأي معرف معاملة أو هاش متعلق (إذا كان متوفرًا). ستساعدك فريق الدعم بناءً على سجلات السلسلة والمعاملات.",
+      "2": "مهم جدًا: لن يقوم الدعم الرسمي أبدًا بمراسلتك أولاً، ولن يطلب منك تحويل أموال للتحقق، ولن يطلب أبدًا مفتاحك الخاص أو عبارة الاسترداد أو العبارة الكاملة أو أي معلومات يمكن أن تتحكم مباشرة في أصول محفظتك. لا تشارك هذه المعلومات الحساسة مع أي شخص.",
+      "3": "كم من الوقت يستغرق الحصول على رد بشأن الاستئناف؟ بشكل عام، سنرد في غضون 1 إلى 3 أيام عمل. إذا كانت القضية تتضمن أصولًا مجمدة، أو مخاوف أمنية، أو مبالغ كبيرة، فسيتم إعطاؤها الأولوية. قد نطلب منك معرف المعاملة أو الهش لتسريع التأكيد."
+    },
+    "q10_title": "10) الدعم والاستئنافات",
+    "q11_body": {
+      "0": "هل يمكنني المشاركة في أنشطة من مجموعات أخرى؟ نعم. قد تحمل مجتمعات أو مجموعات مختلفة أنشطة أو ترويجات ريد باكيت خاصة بها. يرجى الانتباه إلى الإعلانات لكل نشاط، حيث قد تختلف الأهلية، الحدود، والمواعيد النهائية.",
+      "1": "هل هناك لوحة متصدرين أو آلية مكافآت؟ بعض الأحداث ستظهر لوحات متصدرة، إحصائيات تفاعلية، قوائم جوائز، أو نتائج يانصيب. يرجى الرجوع إلى إعلانات كل حدث للحصول على شروط المكافأة الفعلية، والحدود، وطرق التوزيع. يحتفظ المنظم بحق التفسير النهائي والتعديلات."
+    },
+    "q11_title": "11) ألعاب ومعلومات أخرى",
+    "q2_body": {
+      "0": "هل الريد باكيت عشوائي أم موزع بالتساوي؟ يتم تعيين وضع توزيع الريد باكيت من قبل مالك المجموعة أو منظم الحدث وقد يكون 'عشوائي' أو 'توزيع متساوي' أو 'محدد'. قد تختلف القواعد بين المجموعات المختلفة، لذا يرجى الرجوع إلى وصف الحدث لتلك المجموعة.",
+      "1": "كيف نضمن العدالة؟ تقدم moonpacket أدوات لتوزيع الريد باكيت والتحقق منه فقط. المنصة نفسها ليست مستثمراً أو كيان عائدات وعد وأنها لا تتدخل في ترتيبات أعمال مالكي المجموعات أو منظمي الأحداث. يقوم نظامنا بمعالجة عملية التوزيع بناءً على القواعد العامة والخوارزميات المتسقة لتجنب التحيز المتعمد.",
+      "2": "كم مرة يمكنني استلامه؟ يتحدد ذلك من قبل منظم الحدث. بعض الأحداث تسمح مرة واحدة فقط، وبعضها لديها حدود يومية، وآخرون يسمحون لأكثر من شخص باستلام مرات متعددة، ولكن مع حد. بمجرد الوصول إلى الحد، سيقوم النظام تلقائيًا بحظر الإرسال وإبلاغك.",
+      "3": "هل سينتهي الحدث مبكرًا أو سيتم تمديده؟ قد يحدث ذلك. إذا تم استنفاد حصص الريد باكيت، أو وصل وقت انتهاء الصلاحية، أو أوقف المنظم الحدث بسبب المخاطر أو السلوك غير الطبيعي، سينتهي الحدث أو يتم إيقافه. ستتم تحديث صفحة الريد باكيت في أقرب وقت ممكن، ولكن قد تكون هناك تأخيرات في التزامن عبر المجموعات أو المنصات. إذا نقرت ورأيت أنك لا تستطيع استلامه، يرجى تحديث الصفحة لتأكيد الحالة الأخيرة."
+    },
+    "q2_title": "2) قواعد الحدث والعدالة",
+    "q3_body": {
+      "0": "لماذا لا أستطيع استلامه بعد النقر؟ الأسباب الشائعة تشمل: نفاد الحصة، لم تكمل المهمة، أو تم تعليق الحدث بسبب التحكم في المخاطر. بسبب التأخيرات المحتملة في مزامنة الحالة بين المجموعات المختلفة، قد لا يتم عكسها على الفور، لذا يرجى الرجوع إلى الإعلان الأخير ضمن المجموعة.",
+      "1": "ما هو فتح المهام؟ تتطلب بعض ريد باكيت منك إكمال شروط محددة (مثل الانضمام إلى مجموعة، متابعة قناة، إدخال كلمة مرور، أو إكمال مهام خارجية) قبل أن تتمكن من استلامها. بعد الإكمال، يرجى العودة إلى الزر في نفس رسالة ريد باكيت والنقر على 'استلام ريد باكيت' مرة أخرى.",
+      "2": "لقد أكملت المهمة بوضوح، لماذا تظهر على أنها لم تُنجز؟ قد تكون هناك تأخيرات في المزامنة مع واجهة برمجة التطبيقات الخاصة بتيليجرام في سياقات مختلفة. إذا كنت قد أنهيت للتو ولكن النظام لم يتعرف على ذلك بعد، يرجى الانتظار قليلاً والمحاولة مرة أخرى. إذا استمرت المشكلة لفترة طويلة، قد يكون هناك خطأ في واجهة برمجة التطبيقات لمُنظم الحدث؛ يرجى الإبلاغ مباشرة إلى المنظم أو مسؤول المجموعة الخاصة بالريد باكيت.",
+      "3": "أين يمكنني الحصول على كلمة المرور؟ إذا كان الحدث قد حدد كلمة مرور، فعادة ما يتم الإعلان عنها من قبل المُنظم من خلال الإعلانات، المشاركات، البث المباشر، أو الفيديوهات. إذا واجهت خطأ عند إدخال كلمة المرور، يمكنك المحاولة مرة أخرى؛ قد تؤدي الأخطاء المتعددة إلى تفعيل حدود معدل أو قفل مؤقت.",
+      "4": "كيف يتم التحقق من المهام الخارجية (مثل التسجيل في المواقع أو التداول)؟ بعض المنظمين سيتحققون مما إذا كنت قد أكملت المهام المحددة من خلال اتصال واجهة برمجة التطبيقات مع moonpacket. عندما تنقر على 'مطالبة'، سيطلب النظام على الفور تلك الواجهة ويوفر نتيجة التحقق. إذا لم يتم إرجاعها بنجاح، يرجى المحاولة مرة أخرى لاحقًا."
+    },
+    "q3_title": "3) عملية المطالبة والمهمة",
+    "q4_body": {
+      "0": "أين يمكنني التحقق من المبلغ الذي قمت بمطالبته؟ بعد المطالبة الناجحة، سيقوم بوت تيليجرام بإرسال إشعارات، ويمكنك التحقق من سجلات المطالبة، التاريخ، والرصيد القابل للسحب في التطبيق المصغر أو الويب.",
+      "1": "ما هي الأصول المدعومة؟ يعتمد ذلك على إعدادات الحدث؛ حالياً، تشمل الأصول الشائعة USDT، SOL، ETH، TON، وبعض الرموز التي تصدرها مالكي المجموعات أو منظمين الأحداث أنفسهم. ستوضح الصفحة وحدات الأصول ومصادر أسعار الصرف (إن وجدت).",
+      "2": "ما الذي يتطلبه السحب؟ عادةً ما تتطلب عمليات السحب منك تقديم عنوان محفظة ومعلومات تأكيد أمنية أساسية. عادةً، يمكن أن يكون وقت وصول الأصول من T+0 إلى T+2 يوم عمل؛ إذا اكتشف النظام سلوكاً عالي المخاطر، قد يتأخر السحب.",
+      "3": "من يتحمل رسوم المعاملات والغاز؟",
+      "4": "1. جميع المعاملات على السلسلة تتطلب رسوم غاز، وهي رسوم شبكية تتقاضاها البلوكشين نفسها وليست رسوم إضافية من moonpacket.",
+      "5": "2. عند إيداع الرموز في تجمع الريد باكيت، سيتم خصم رسوم الغاز (أو إضافتها) مباشرة على السلسلة، لذا قد يكون المبلغ الفعلي من الرموز المودعة أقل قليلاً من الرقم الذي أدخلته (أو قد تتضمن سجلاتك على السلسلة رسوم الغاز).",
+      "6": "3. عند سحب الرموز من ريد باكيت، تحتاج محفظتك إلى الاحتفاظ بما يكفي من الأصول الأصلية (مثل SOL، TRX، TON، BNB، حسب السلسلة المدعومة من رموز ريد باكيت الخاصة بك) لدفع رسوم الغاز. إذا لم تكن محفظتك تحتوي على أصول كافية لدفع رسوم الغاز، سيفشل السحب. وهذا يعني أن السحب نفسه يتطلب منك أيضاً تغطية رسوم الغاز.",
+      "7": "4. عند إرسال الريد باكيت داخل 'مجموعة خاصة بك'، ستفرض المنصة رسوم منصة بنسبة 2%: 1% لعمليات المنصة، و1% كاحتياطي رمزي، قد يُستخدم لإعادة شراء رموز moonini بعد وصولها إلى حد معين.",
+      "8": "5. إذا كنت ترسل 'ريد باكيت عبر المجموعات' (الترويج عن طريق إرسال ريد باكيت إلى مجموعات أخرى): يتيح النظام فقط الرموز الرئيسية، وقد تحتوي على حد أدنى للمبلغ، وتحجز حوالي 3% كدعم أو حوافز لمجتمع تلك المجموعة المستهدفة، والتي ستطالب بها إدارة تلك المجموعة أو مالك المجموعة. وهذا يعني أنك تستطيع الترويج لنفسك عن طريق إرسال ريد باكيت في مجموعة شخص آخر (ولكن فقط إذا وافق مالك تلك المجموعة على الريد باكيت وتحتاج إلى الامتثال لقواعد تلك المجموعة)، وهو وسيلة رائعة لرعاية تفاعل كل من المجتمعات.",
+      "9": "يمكنك نقل رصيدك إلى الأصدقاء أو دمج أرصدة متعددة، أليس كذلك؟ حالياً، ميزات هدايا الرصيد أو الدمج غير متاحة."
+    },
+    "q4_title": "4) المبلغ، الرصيد، والسحب",
+    "q5_body": {
+      "0": "لماذا يتم تصنيفي كمشتبه به أو معترض؟ تشمل الأسباب الشائعة: نفس المستخدم يستخدم حسابات متعددة في فترة قصيرة، سحوبات متكررة سريعة، التشغيل على أجهزة متعددة، الوكلاء / الشبكات الافتراضية غير العادية، التقاط الريد باكيت بكميات كبيرة في مناطق عالية المخاطر، أو كونه مدرجًا في ASN / مناطق عالية المخاطر. قد تُعتبر هذه السلوكيات إساءة استخدام أو خطر احتيالي.",
+      "1": "كيف سيتعامل النظام مع هذا؟ في الحالات عالية المخاطر، قد يقوم النظام بقفل مؤقت لوظائف الحساب (بما في ذلك السحوبات) ويطلب تحقيقًا إضافيًا. يمكنك الإبلاغ عن المشكلات من خلال الروبوت /report. يرجى ملاحظة: هذه القناة للإبلاغ هي أحادية الاتجاه؛ تحتفظ moonpacket بالحق في عدم الرد أو الكشف عن تفاصيل المراجعة الكاملة.",
+      "2": "هل سيكون مطلوبًا التحقق من KYC؟ في السيناريوهات عالية المخاطر أو بسبب متطلبات الامتثال، قد يطلب منك النظام إكمال التحقق من KYC / AML (كود التحقق من الهوية، التحقق من الوثائق، إلخ). يرجى التأكد من إدخال معلومات الأمان الصحيحة أثناء عملية السحب؛ إذا فشل التحقق، فلن تتمكن من إكمال سحب الرموز.",
+      "3": "ماذا يجب أن أفعل إذا كانت حسابي مقيدًا؟ معظم القيود هي تدابير وقائية مؤقتة. إذا كنت قد أكملت التحقق الضروري وتمت إساءة تقدير وضعك، سنستعيد وصولك تحت ظروف معقولة. إذا لم تكن قد أكملت تحقق معلومات الأمان، فلن نواصل."
+    },
+    "q5_title": "5) التحكم في المخاطر والقيود",
+    "q6_body": {
+      "0": "متى تبدأ أو تنتهي أنشطة الريد باكيت؟ يقوم كل منظم حدث بتحديد أوقات مختلفة، لذا يرجى الانتباه إلى الوقت، والكمية المتبقية، وإعلانات المجموعة في رسائل الريد باكيت. يمكنك تشغيل إشعارات Telegram أو ضبط نغمات تذكير مخصصة لتجنب فقدان الفرصة.",
+      "1": "هل يمكنني التحكم في الإشعارات؟ تُحدد الإشعارات مثل 'تلقيت ريد باكيت' و'اكتمل السحب' عادةً بواسطة إعدادات إشعارات Telegram الخاصة بك؛ هذا لا يُحدد بشكل مستقل في moonpacket، ولكن بناءً على تفضيلاتك الشخصية للإشعارات في Telegram."
+    },
+    "q6_title": "6) التوقيت والإشعارات",
+    "q7_body": {
+      "0": "لماذا لا أستطيع رؤية بعض طرق السحب أو أساليب اللعب؟ قد تخضع بعض المناطق لسياسات أو قيود امتثال، مما يؤدي إلى إخفاء الخيارات غير القابلة للتطبيق أو تعليق المشاركة في أنشطة ريد باكيت لتلك المنطقة، مما يدل على أن السحوبات/المشاركة غير مدعومة في هذا الوقت.",
+      "1": "كم عدد الأرقام العشرية التي تظهر في التنسيق الرقمي؟ يقوم النظام بتطبيق تنسيق الآلاف والأرقام العشرية تلقائيًا بناءً على إعدادات لغتك، مع حد أقصى افتراضي لعرض 8 أرقام عشرية. إذا كانت وحدة الرمز أكثر دقة، فسنجعلها ضمن النطاق القابل للعرض دون إظهار أرقام عشرية لا نهائية."
+    },
+    "q7_title": "7) الاختلافات اللغوية والإقليمية",
+    "q8_body": {
+      "0": "هل تطبيق تيليجرام متاح على iOS/Android/سطح المكتب؟ نعم، يُوصى باستخدام أحدث إصدار من تيليجرام. إذا واجهت مشاكل في التحميل، يرجى التأكد من أنك تستخدم العميل الرسمي، أو حاول التحديث (إعادة تحميل الصفحة) من القائمة في الزاوية العلوية اليمنى من صفحة التطبيق المصغر.",
+      "1": "هل سيؤثر تغيير الأجهزة على أهلية السحب؟ بشكل عام، لا ينبغي أن يؤثر ذلك على تاريخك. ومع ذلك، إذا قمت بالتشغيل المتكرر على عدة أجهزة في فترة زمنية قصيرة، قد يعتبر النظام ذلك سلوكًا غير طبيعي ويقوم بتفعيل التحكم في المخاطر.",
+      "2": "هل سيؤثر استخدام VPN/وكيل على أي شيء؟ قد يتم اعتراض الوكلاء/VPNs العالية المخاطر أو غير الموثوقة من قبل النظام. إذا حدثت مشاكل، يرجى محاولة تعطيل الوكيل أو التبديل إلى بيئة شبكة مستقرة وتجربة مرة أخرى."
+    },
+    "q8_title": "8) الأجهزة والتوافق",
+    "q9_body": {
+      "0": "ما البيانات التي سيتم جمعها؟ نحن نلتزم بمبادئ التقليل وسنجمع فقط المعلومات الضرورية لمنع الاحتيال، وحماية من الإساءة، والتحكم في المخاطر، والامتثال، مثل فحص أمان الحساب، عناوين المحافظ، معرف تيليجرام، البريد الإلكتروني، وغيرها من المعرفات الأساسية. إذا كانت KYC / AML متضمنة، سيتم إجراء التحقق من الهوية من قبل خدمة تحقق موثوقة طرف ثالث. لن تطلب moonpacket أي معلومات خاصة غير متعلقة بالخدمة. (موظفو moonpacket سيقومون فقط بالتحقق من معلومات الأمان التي قدمتها، ولن يسألوا أبدًا عن كلمات المرور أو عبارات الاسترداد أو رموز التحقق، إلخ.)",
+      "1": "كيف يتم حماية أمان الأصول؟ إذا اكتشف النظام سلوكيات مشبوهة أو عالية المخاطر، قد نقوم بتفعيل كشف المخاطر التلقائي، وإذا لزم الأمر، الرجوع إلى مراجعة يدوية. لحماية الأموال، قد نتأخر أو نؤجل السحوبات لمنع الاحتيال والإساءة، وليس لعقاب المستخدمين الشرعيين.",
+      "2": "هل يمكنني حذف حسابي أو طلب بيانات؟ يمكنك تقديم طلب وصول بيانات أو حذف حسب العملية. سنتعامل معه ضمن نطاق اللوائح القانونية وواجبات التحقيق. يرجى ملاحظة: حتى إذا قمت بحذف حسابك، قد نحتفظ قانونيًا بسجلات المعاملات الضرورية وسجلات تدقيق الأمان بسبب متطلبات منع الاحتيال/الامتثال؛ هذه السجلات لن تختفي فورًا بعد حذف الحساب."
+    },
+    "q9_title": "9) الخصوصية والأمان",
+    "sections": [
+      {
+        "title": "1) Getting Started and Eligibility",
+        "items": [
+          {
+            "q": "How to register?",
+            "a": "Use our bot (link to bot) to automatically complete the experience registration."
+          },
+          {
+            "q": "What qualifications are required?",
+            "a": "You only need to be in supported groups, and the bot must already be added to that group."
+          },
+          {
+            "q": "How do I claim a red envelope?",
+            "a": "When you see a red envelope message in the group, simply click the \"Claim\" button."
+          },
+          {
+            "q": "Are there limits on claiming?",
+            "a": "Each red envelope can only be claimed once per person, first come, first served."
+          }
+        ]
+      },
+      {
+        "title": "2) Redemption Process",
+        "items": [
+          {
+            "q": "Why did the withdrawal fail?",
+            "a": "It may be due to network issues, insufficient balance, or the red envelope has been completely claimed."
+          },
+          {
+            "q": "How can I view my claim records?",
+            "a": "You can view your claim history in the bot's private chat."
+          },
+          {
+            "q": "",
+            "a": "It depends on the activity settings designed by the project party. Some are one-time only, while others have daily limits. If there is a \"multiple claims per person\" limit, the system will also automatically restrict it and prompt you once the limit is reached."
+          },
+          {
+            "q": "Will the event end early or be postponed?",
+            "a": "If the portion has been claimed out or expired, it will end; or the organizer may also suspend or terminate due to abnormal risks, the red envelope page will be updated subsequently. However, due to cross-platform reasons, there may be some delays; if after clicking again you are unable to claim, please reload the page to refresh and check the status of the red envelope activity."
+          }
+        ]
+      },
+      {
+        "title": "3) Frequently Asked Questions",
+        "items": [
+          {
+            "q": "Why can’t I receive it even after clicking?",
+            "a": "Common reasons: already claimed out / task not completed. A few may be due to project pauses or terminations because of risks. Due to the time difference in information updates among groups, it may not reflect immediately; please pay attention to the latest red envelope information sending status on the activity page published group."
+          },
+          {
+            "q": "What is task unlocking?",
+            "a": "You must first meet specified conditions (such as following channels / joining groups / passphrase / external tasks) before claiming. After completion, return to the button on that red envelope post to 'claim the red envelope'."
+          },
+          {
+            "q": "I clearly completed the task, why does it show as not passed?",
+            "a": "There is a synchronization delay between different APIs in Telegram, so if it doesn't go through immediately, please wait a moment. If validation continues to fail, it is likely an issue with the API provider; please report it to the project party that released the red envelope task."
+          },
+          {
+            "q": "Where can I get the passphrase? What if I typed it wrong?",
+            "a": "The passphrase is usually announced by the organizing project in a post, live stream, or video; you can retry if you enter it incorrectly, but multiple errors may trigger rate limiting."
+          }
+        ]
+      },
+      {
+        "title": "Amounts, Balances, and Withdrawals",
+        "items": [
+          {
+            "q": "How are external tasks (such as website registrations/trades) verified?",
+            "a": "moonpacket provides API integration for external project parties to verify whether users have completed tasks. At the time of claiming the red envelope, the user will request from the API and return the validation result, unlocking once conditions are met; if no response is received at that moment, you can wait and retry."
+          },
+          {
+            "q": "Where can I see the amount I received?",
+            "a": "Successful claims will be pushed via the Telegram bot, and there will be a record of red envelope claims in the mini app, where you can view your history and available withdrawable balance at any time."
+          },
+          {
+            "q": "What assets are supported?",
+            "a": "Depending on the activity settings, it is currently divided into mainstream USDT/SOL/ETH/TON, and the group owner’s own token. The page will indicate the asset unit and source of the exchange rate (if applicable)."
+          },
+          {
+            "q": "What do I need to bind for withdrawals? How long does it take?",
+            "a": "A wallet address / basic identity information is required as a security question; funds usually arrive within T+0 to T+2 business days. In cases of abnormal risk control, this may take longer."
+          }
+        ]
+      },
+      {
+        "title": "Risk Control and Restrictions",
+        "items": [
+          {
+            "q": "Who bears the handling fees/Gas fees?",
+            "a": "Typically deducted from the claimed amount or absorbed by the organizer, and the rules will be clearly stated on the withdrawal page."
+          },
+          {
+            "q": "Can I transfer my balance to a friend or merge it?",
+            "a": "No 'gifting/merging' methods are offered."
+          },
+          {
+            "q": "Why was I deemed suspicious or intercepted?",
+            "a": "Possible reasons: multiple accounts on the same device, anomalies with proxies/VPN, excessively high frequency from multiple groups claiming red envelopes, blacklisted regions/ASNs, etc. You can send the /report message to the bot. This is a one-way response channel, and the official reserves the right to not disclose reasons or respond regarding account ban actions."
+          },
+          {
+            "q": "Will KYC verification be needed (verification code)?",
+            "a": "In high-risk situations, verification based on the information provided by the user will be activated. Please ensure correct security information is provided during cash withdrawal. If incorrect information is provided, you will not pass the biometrics and document KYC."
+          }
+        ]
+      },
+      {
+        "title": "Timeliness and Notifications",
+        "items": [
+          {
+            "q": "What should I do if my account is restricted?",
+            "a": "Restrictions are usually a temporary protective measure. Please send the /report message to the bot. Issues from verifiers who have not completed the security information verification will not be handled; if verification is completed and the situation is normal, we will proceed with action."
+          },
+          {
+            "q": "When does each red envelope event start and end?",
+            "a": "Each project releasing red envelopes is different; please pay attention to the timing of red envelope information and remaining quotas. You may enable Telegram notifications or set a special notification sound to conveniently receive reminders for claiming red envelopes."
+          },
+          {
+            "q": "Can I turn on or off notifications for when I receive my claim or withdrawal completion?",
+            "a": "This setting is on your Telegram and not in moonpacket's settings; you can set notifications within Telegram's settings yourself."
+          },
+          {
+            "q": "I can't see certain withdrawal methods or gameplay options?",
+            "a": "Regulations in certain regions do not apply, and the system will automatically hide or prevent withdrawals. This means you cannot participate in the red envelope game, as that region is temporarily unsupported."
+          }
+        ]
+      },
+      {
+        "title": "Multilingual and Regional Differences",
+        "items": [
+          {
+            "q": "To what decimal places is the numeric format displayed?",
+            "a": "The platform will automatically apply localized delimiters and decimal places according to your language; we display up to 8 decimal places. If the value of your tokens exceeds the visible range, it will be displayed accordingly."
+          },
+          {
+            "q": "Is the iOS/Android/Desktop version of Telegram available?",
+            "a": "Yes, it is recommended to use the latest version of Telegram. If you encounter issues with reading, please check if you are using the official client, or update the app, or click Reload Page at the top right corner of the mini app page."
+          },
+          {
+            "q": "Will switching devices affect claiming?",
+            "a": "It will not affect records, but if you repeatedly operate on multiple devices in a short time, it may trigger risk control."
+          },
+          {
+            "q": "I am using a VPN/proxy; will it have an impact?",
+            "a": "If you are using a high-risk proxy, it may be intercepted. It is recommended to temporarily disable the proxy or switch to a clean network environment and try again."
+          }
+        ]
+      },
+      {
+        "title": "Devices and Compatibility",
+        "items": [
+          {
+            "q": "What data will be collected?",
+            "a": "Follow the principle of minimization: only collect the data necessary for issuance/withdrawal/risk control (such as personal security questions, wallet address, email, Telegram ID; when identity verification is necessary, we verify through a third-party verification platform, which does not store user privacy information beyond security information)."
+          },
+          {
+            "q": "What guarantees are there for the safety of funds?",
+            "a": "All key operations will require secondary verification; high-risk withdrawals may trigger manual review."
+          },
+          {
+            "q": "Can I delete my account or data?",
+            "a": "You can submit a request for data access or deletion according to the process; once your account is deleted, you will no longer be able to log in; however, transaction data will be retained per compliance requirements."
+          },
+          {
+            "q": "Who should I contact if I encounter a problem?",
+            "a": "You can contact us by submitting/reporting information in the bot; providing error codes and screenshots can expedite processing."
+          }
+        ]
+      },
+      {
+        "title": "Privacy and Security",
+        "items": [
+          {
+            "q": "How long does it take to get a response to a complaint?",
+            "a": "Generally, we reply within 1–3 working days; urgent cases related to funds will be prioritized."
+          },
+          {
+            "q": "Can I participate in activities from multiple groups?",
+            "a": "Yes; each activity has its own rules, so please pay attention to the limits and validity period of each activity."
+          },
+          {
+            "q": "Is there a leaderboard or badges?",
+            "a": "Some activities will feature leaderboards/badges and lotteries; please refer to the activity page instructions for rules and rewards."
+          }
+        ]
+      },
+      {
+        "title": "Customer Service and Complaints",
+        "items": []
+      },
+      {
+        "title": "Other Fun Activities and Information",
+        "items": []
+      }
+    ]
+  },
+  "cta_launch": "تفعيل moonpacket",
+  "groups": {
+    "members": "عدد الأعضاء",
+    "owner": "المالك:",
+    "owner_label": "المالك: {handle}",
+    "period_sent": "الإرسال الحالي (USDT)",
+    "total_sent": "إجمالي المرسل (USDT)"
+  },
+  "pagination": {
+    "next": "الصفحة التالية",
+    "prev": "الصفحة السابقة",
+    "summary_template": "إجمالي {total} مجموعة | صفحة {page} / {pages}",
+    "summary_template_en": "{count} مجموعة (صفحة {page} / {pages})"
+  },
+  "search_placeholder": "ابحث عن مجموعات…",
+  "section_title": "حول استلام ريد باكيت",
+  "tabs": {
+    "hot": "المجموعات الشائعة",
+    "latest": "أحدث المجموعات"
+  },
+  "ticker_templates": {
+    "CLAIM": "{actor} تلقى {amount} {unit} (مبروك على الفوز!)",
+    "JACKPOT": "تم فتح ريد باكيت الحظ اليوم!",
+    "SEND": "{actor} أرسل ريد باكيت بقيمة {amount} {unit} في {group}",
+    "TOP_UP": "قام المشرف {actor} بزيادة مجموعة المكافآت بمقدار {amount} {unit}",
+    "UPGRADE": "تحديث النظام: الآن يدعم {feature}"
+  }
+}

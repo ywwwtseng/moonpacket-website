@@ -1,0 +1,171 @@
+{
+  "title": "",
+  "hero": {
+    "api_demo_label": "API-demo",
+    "api_get": "https://t.me/MoonPackageDevBot",
+    "response_label": "Svar:",
+    "json": "{ \"data\": { \"level\": 100, \"status\": \"active\", \"is_blacklist\": false } } {, \"data\": {, \"level\": 100,, \"status\": \"active\",, \"is_blacklist\": false, }",
+    "title": "Tiltrekke nye brukere, øke aktiviteten",
+    "lead": "Prosjektpartiet kan sette spesifikke betingelser:",
+    "points": {
+      "0": "",
+      "1": "",
+      "2": ""
+    },
+    "note": "Brukere som oppfyller betingelsene kan kreve red packet",
+    "subtitle": "Lag et tilpasset red packet-arrangement for fellesskapet ditt",
+    "desc": "Enkel oppsett, rask lansering, aktiver fellesskapet!",
+    "ctaPrimaryLabel": "Kom i gang nå",
+    "ctaPrimaryHref": "https://t.me/MoonPackageDevBot",
+    "ctaSecondaryLabel": "Se eksempel",
+    "ctaSecondaryHref": "/zh-TW/claim/",
+    "api_demo_code": "{\n\"data\": {\n\"level\": {\n\"gt\": 99\n},\n\"status\": {\n\"eq\": \"active\"\n},\n\"is_blacklist\": {\n\"eq\": false\n}\n}\n}",
+    "api_demo_title": "GET [api_url]?api_key=[api_key]&user_id=[user_id]",
+    "use_cases_items": {
+      "0": "Prosjektpartiet kan sette oppgavebetingelser:",
+      "1": "Bli med i gruppen / Følg kanalen",
+      "2": "Riktig passordfrase",
+      "3": "Prosjektparti tilpasset API",
+      "4": "Kun brukere som oppfyller betingelsene kan kreve, send red packet til verdifulle brukere."
+    },
+    "use_cases_title": "Tiltrekke nye brukere・Øke aktiviteten"
+  },
+  "faq": {
+    "section_1": "Kom i gang og innstillinger.",
+    "q1": "Hvordan starte?",
+    "a1": "Legg til moonpacket Robot i Telegram-gruppen eller kanalen din og sett den som administrator.",
+    "q2": "Hvilke forberedelser er nødvendige før sending?",
+    "a2": "Vennligst sett inn eiendelene du ønsker å distribuere først (for eksempel, sett inn 10 USDT for testing).",
+    "section_2": "2) Sendingsprosessen",
+    "q3": "Kan jeg velge hvor jeg skal sende det?",
+    "a3": "Velg de bundne gruppene eller kanalene i 'Sending Targets' for å sende til en eller flere grupper samtidig.",
+    "tip": "Tips: Sending av red packets er passende for å bryte isen. Du kan svare på red packet-innlegget for å forklare spilltemaet du ønsker å organisere.",
+    "section_3": "3) Tekniske problemer",
+    "section_4": "Data og analyse",
+    "section_5": "Teknisk støtte og vedlikehold",
+    "q4": "Kan fordelingsmetoden tilpasses?",
+    "a4": "Støtter både tilfeldig distribusjon og gjennomsnittlig distribusjonsmodus.",
+    "q5": "Du kan direkte sende melding til den offisielle kundeservice-roboten @moonini_helper_bot.",
+    "a5": "Hver API-nøkkel kan kalles opptil 60 ganger per minutt.",
+    "q6": "Hvordan håndtere feil?",
+    "a6": "API-et vil returnere detaljerte feilkoder og feilmeldinger.",
+    "q7": "Hvordan overvåke aktivitetseffektivitet?",
+    "a7": "Gi sanntidsdata dashboard:",
+    "q8": "Hvordan beregnes transaksjonsgebyrer?",
+    "a8": "• Plattformtjenesteavgift: 2-5% (justert basert på aktivitetsvolum)",
+    "q9": "Hvordan sikre fondsikkerhet?",
+    "a9": "• Desentralisert arkitektur, trenger ikke forvaringsmidler",
+    "q10": "Hva skal jeg gjøre med gjenværende midler etter at arrangementet avsluttes?",
+    "a10": "• Uavhettede red packets vil automatisk bli returnert til lommeboken din.",
+    "q11": "Kan flere arrangementer holdes samtidig?",
+    "a11": "Ja, men vi anbefaler at du:",
+    "q12": "Hvordan håndtere brukerklager?",
+    "a12": "• Opprett en dedikert kundeservicekanal",
+    "q13": "Er teknisk støtte tilgjengelig?",
+    "a13": "• 24/7 teknisk støtte",
+    "q14": "Hvordan optimalisere arrangementets effektivitet?",
+    "a14": "• Juster aktivitetsstrategi basert på data",
+    "q9_passcode": "Hva er et passord? I hvilke scenarier er det passende?",
+    "a9_passcode": "Spillere må skaffe den hemmelige setningen fra eksterne kanaler og komme tilbake til denne siden for å skrive den inn korrekt for å kreve. Vanlige praksiser:",
+    "passcode_scenarios": {
+      "0": "Del den 6-sifrede hemmelige setningen i lange YouTube-videoer for å oppmuntre til full visning.",
+      "1": "Innlegg på X.com (Twitter) eller Threads som antyder den hemmelige setningen for å forbedre interaksjon.",
+      "2": "Del kun den hemmelige setningen verbalt under direktesendinger for å veilede tilstedeværende publikum.",
+      "3": "Private/betalte grupper gir eksklusive hemmelige setninger for å sikre at fordeler kun gis til kjerne medlemmer."
+    },
+    "q10_api": "Kan jeg bruke min egen API for å bestemme deltagerberettigelse?",
+    "a10_api": "Ja. moonpacket vil kalle det oppgitte read-only API-et for verifisering før brukeren gjør krav på det. Bare sett opp api_url og api_key (valgfri domeneinnstilling tilgjengelig) i backend.",
+    "api_condition_title": "Betingelseserklæring (ingen bruker_id)",
+    "api_response_label": "Tilbake:",
+    "api_operators_label": "Operatør:",
+    "api_operators_desc": "eq (kan samsvare med hvilken som helst type), gt/lt/gte/lte (må være numerisk)",
+    "api_user_query_title": "Brukerspørsmål (inkludert bruker_id)",
+    "api_logic_desc": "moonpacket bruker 'Betingelseserklæring' som en terskel for å sammenligne med den faktiske verdien av 'Brukerspørsmål'; hvis det samsvarer, går det gjennom, hvis ikke, kan det ikke kreves.",
+    "api_security_title": "Sikkerhetsanbefalinger",
+    "api_security_desc": "Bruk skrivebeskyttede endepunkter, aktivere api_key, og tillate domenerestriksjoner; for tverrdomen, anbefales det å bruke Cloudflare Workers for transit og hastighetsbegrensning.",
+    "q12_antibot": "Hvordan forhindre juks og bot-aktivitet?",
+    "a12_antibot_items": {
+      "0": "Atferdsfrekvens og enhets/IP-deteksjon",
+      "1": "Konto unikt knyttet til lommebok",
+      "2": "Uttaksverifiseringskode",
+      "3": "AI risikokontroll foreløpig gjennomgang; kan utføre tredjeparts biometrisk autentisering, ansiktsgjenkjenning og dokumentsjekk om nødvendig."
+    },
+    "q13_records": "Hvor kan jeg sjekke registrene for mine sendte meldinger og antall mottakere?",
+    "a13_records": "Vennligst sjekk 'Red Packets jeg har sendt' på din personlige hjemmeside for å se antall krav, gjenværende beløp og totalt brukt for hver økt; hvis aktivert, kan rapporter også lastes ned.",
+    "q1_body": {
+      "0": "Dette er et verktøy for å hjelpe prosjektteam, gruppeeiere eller fellesskapsledere med raskt å distribuere røde pakker i Telegram-grupper.\nSpesielt rettet mot distribusjon av meme-mynter for å insentivere fellesskapsmedlemmer,\nhovudbruken inkluderer: stimulere aktivitet, tiltrekke nye medlemmer og gjennomføre kampanjeaktiviteter.\nDu kan bruke ikke bare de utstedte meme-myntene til å distribuere røde pakker, men også mainstream-tokens som USDT, TRX, SOL, og andre.\nGjennom moonpacket kan du kreve at brukere fullfører enkle oppgaver, og videre konfigurere gjennom API-et, noe som gjør det mulig for gruppeeiere å 'tilpasse distribusjonsregler' og 'sette kravbetingelser', verifisere med sitt eget API.",
+      "1": "Tips: Distribuering av moonpacket røde pakker lar deg oppdage virkelig verdifulle fellesskapsmedlemmer. Du kan sette kravbetingelser i hver rød pakke, og gi spillerne forskjellige oppgaver å fullføre."
+    },
+    "q1_title": "1) Hva er red packet-funksjonen til moonpacket?",
+    "q2_body": {
+      "0": "Velkomstmelding for nye medlemmer etter å ha blitt med (møte grunnleggende oppgaver for å bli med)",
+      "1": "Sanntidsinteraksjon under direktesendte sendinger / AMAs / arrangementer (kun medlemmer fokusert på arrangementet kan motta passordet og kvalifisere for red packet)",
+      "2": "Markedsføringskampanjer i gruppen, lotterier, slagordoppgaver, spillnivå, opplading rabatter (f.eks., bare spillere som når et visst nivå i spillet eller lader opp et visst beløp er kvalifisert til å motta)",
+      "3": "Belønninger for å invitere venner til å bli med i gruppen",
+      "4": "Tidsbegrensede kampanjer, nedtellingsevent (daglige påmeldingsoppgaver)",
+      "5": "\"Kryss-gruppe red packet\": Slipp red packets i andre grupper (hvis gruppeeieren tillater det), for å fremme gjensidig publisitet og fellesskapssamarbeid."
+    },
+    "q2_title": "2) Når er det passende å bruke red packet-funksjonen?",
+    "q3_body": {
+      "0": "Alle kjedeoperasjoner påløper et gebyr. Gebyret blir belastet av blokkjeden selv og ikke et tillegg fra oss.",
+      "1": "Når du setter inn tokens i red packet-poolen, vil et gebyr bli trukket umiddelbart på kjeden. Det faktiske beløpet som går inn i poolen kan være litt mindre enn det nominelle beløpet du satte inn (eller et tillegg for gebyrer kan bli belastet ved overføring). Dette er normal kjedededuksjon.",
+      "2": "Når du utsteder en red packet i 'din gruppe', vil systemet automatisk ta en plattformavgift på 2 % ved utdelingen, som vil bli trukket direkte.",
+      "3": "Kryss-gruppe red packets (promotering av en red packet i noen andres gruppe) har ekstra regler:",
+      "4": "For det første må gruppeeieren som mottar promoteringen sette tillatelse, og mainstream-tokens må brukes. Kryss-gruppe red packets aksepterer ikke selvopprettede meme coins, og systemet har et minimumsgrense for beløpene til kryss-gruppe red packets. Hvis beløpet er under grensen, kan ikke red packet etableres. Vennligst bekreft at beløpet ditt er tilstrekkelig før du sender."
+    },
+    "q3_title": "3) Kostnad og terskel for sending av red packets",
+    "q4_body": {
+      "0": "Vi vil aktivt oppdage misbruk (som svindel, hvitvasking, robotmanøvrer, spam-interaksjoner osv.). Hvis det anses som høy risiko, kan kontoen eller eiendelene komme i 'under vurdering'-status: uttak kan bli forsinket, og kontoen kan midlertidig bli svartelistet. Dette er for å beskytte brukernes eiendeler generelt og overholde regulatoriske krav.",
+      "1": "Dette er plattformens risikokontroll- og overholdelsesmekanisme. Basert på intern risikokontroll, overholdelseskrav, eller tredjepartsundersøkelser, kan vi suspendere, begrense, forsinke, eller nekte spesifikke uttak eller overføringer.",
+      "2": "Hvis du mener dette er en feilvurdering, kan du sende inn en klage gjennom den offisielle kundeservice-boten."
+    },
+    "q4_title": "4) Sikkerhet, risikostyring og kontostatus",
+    "q5_body": {
+      "0": "Du kan sende melding til den offisielle kundeservice-boten direkte @moonini_helper_bot.",
+      "1": "Vennligst skriv inn kommandoen /setlang i samtalen (f.eks., /setlang zh-TW eller /setlang en-US) for å bytte kundesServiciospråket.",
+      "2": "Når du rapporterer et problem, vennligst oppgi:",
+      "3": "Kundeservice vil kun sjekke on-chain data og transaksjonsopptegnelser. Vi vil ikke be deg om å sende originale bilder eller gi ut private nøkler til lommeboken, mnemonikker, eller komplette frøfraser, og vi vil ikke be deg om å overføre midler for 'verifisering'. Offisiell kundeservice vil ikke proaktivt sende deg meldinger for å be om eiendeler.",
+      "4": "Du kan også bruke API for selvbetjening for å sjekke statusen din, for eksempel om kontoen din er gyldig, om den er svartelistet, eller om den er under vurdering. Her er et eksempel: hvis svaret viser at du er is_blacklist: true eller status: \"hold\", betyr det at kontoen er under risikokontrollvurdering, og uttak eller utdelinger kan bli suspendert. Hvis denne funksjonen ikke er tilgjengelig i testdriftsperioden, vennligst send inn en klage gjennom kundeservice-boten og oppgi transaksjons-hash, så vil vi fremskynde prosesseringen basert på on-chain bevis."
+    },
+    "q5_title": "5) Kundeservice og selvbetjeningsforespørsel",
+    "q6_body": {
+      "0": "Vi tilbyr en API-mekanisme for gruppeeiere å tilpasse oppgavebetingelser og innløsningsregler.",
+      "1": "Hva er en passordfrase? Når bør den brukes? For eksempel, når du vil be flere brukere besøke TikTok- eller YouTube-kanalen din, eller bli med i din private gruppe, kan du skjule passordfrasen i videoer eller meldinger. Brukere må skaffe passordfrasen på den spesifiserte plassen for å kreve red packet etter å ha skrevet den inn.",
+      "2": "Hva er konseptet API? Hvordan bestemmes berettigelse?",
+      "3": "I API-innstillingsgrensesnittet må vi først informere API-en om betingelsene, kjent som 'betingelsesdeklarasjon' (uten bruker_id).\nEksempel: Returner et sett med terskelbetingelser, som nivå, status, om de er på svartelisten, osv.\nmoonpacket vil anse dette settet av betingelser som den grunnleggende terskelen.",
+      "4": "Neste gang, når brukeren ønsker å motta en red packet, må API-en gi:\n'Brukerspørsmål' (inkludert bruker_id).\nEksempel: Returner den faktiske verdien til den brukeren. Plattformen vil sammenligne resultatene av 'Brukerspørsmål' med den tidligere angitte 'betingelsesdeklarasjon'-terskelen; hvis det samsvarer, godkjennes det; hvis ikke, avvises det.",
+      "5": "Sikkerhetsanbefaling: Vennligst gi kun skjermer for lesing og aktiver api_key sammen med domene hvitelisting restriksjoner; hvis det er behov for tverrdomene operasjoner, kan du bruke Cloudflare Workers som en mellommann og implementere rate limiting.",
+      "6": "Kan aktivitetens regler endres underveis?",
+      "7": "Ingen endringer kan gjøres underveis. Vi håper at alle brukere av dette systemet kan opprettholde tillit. Hvis en prosjektpart lover å utstede red packets, men endrer spillbetingelsene underveis, slik at det er umulig å kreve, vil dette skade spillernes tillit. Hvis utstederen endrer API-en for å endre regler, og flere spillere rapporterer det, forbeholder vi oss retten til å suspendere eller fryse kontoer etter bekreftelse gjennom endringslogger. Derfor, vennligst unngå å endre spillregler midt i API-en, da det kan føre til kontosuspensjoner.",
+      "8": "Hvis du er bekymret for feil innstillinger, er den riktige tilnærmingen:",
+      "9": "Du kan først opprette din egen testgruppe, utstede test red packets til deg selv i testgruppen, og når det er bekreftet uten problemer, fortsette med distribusjon i det offisielle fellesskapet. Den grunnleggende regelen for red packets er: du kan ikke be om å stoppe underveis, og kan ikke direkte endre regler for en pågående aktivitet. Hver runde må fullføres og avsluttes i henhold til det opprinnelige løftet før nye regler kan brukes i neste runde."
+    },
+    "q6_title": "6) Aktivitetsregler, berettigelseskontroll, og ingen endringer i regler underveis",
+    "q7_body": {
+      "0": "Vi er for tiden fortsatt i beta-driftfasen og vil gradvis optimalisere datadashbordet, inkludert antall deltakere, antall red packets som er krevd, kravrate, osv. Prosjektparter kan også legge inn sporingsindikatorer i sine API-innstillinger.",
+      "1": "Udelte red packets vil automatisk bli returnert til lommeboken din. Hvis du ikke mottar en refusjon innen 3 dager etter at aktiviteten er over, kan du henvende deg til kundeservice for behandling.",
+      "2": "Det anbefales å ikke utføre for mange aktiviteter samtidig i samme gruppe for å unngå konflikter. Brukere kan også bli forvirret; det er best å utføre aktiviteter lineært, en av gangen eller en per dag, og sikre tilstrekkelige midler til å fullføre hver aktivitet.",
+      "3": "Det anbefales å justere reglene basert på data; du kan bruke API-en for A/B-testing, referere til tidligere vellykkede saker, og regelmessig samle inn tilbakemeldinger fra medlemmer for gradvis å optimalisere spillopplevelsen.",
+      "4": "Anti-juks og misbruk:",
+      "5": "I løpet av den åpne beta-driftstestperioden jobber vi med å optimalisere brukerjuks problemer. For å sikre rettferdigheten i systemet, vil vi spesifikt blokkere brukere som prøver å bruke roboter for å ta red packets. Den beste forebyggingsmetoden er å la brukere sette egne API-er og betingelser og begrense antall krav, noe som vil heve terskelen for de som liker å jukse. I tilfelle av unormale situasjoner, vennligst ikke nøl med å kontakte vår kundeservice for tilbakemelding."
+    },
+    "q7_title": "7) Spor ytelse, optimalisere og forebygge svindel",
+    "section_title": "Ofte stilte spørsmål (Detaljert FAQ) — Send red packet"
+  },
+  "features": {
+    "f1": "Raskt oppsett",
+    "f2": "Ulike spillestiler",
+    "f3": "Sanntidsdata",
+    "f4": "Sikkert og pålitelig"
+  },
+  "features_desc": {
+    "f1": "Fullfør oppsettet på 3 minutter for å starte red packet-aktiviteten",
+    "f2": "Støtter tilfeldige, gjennomsnittlige og spesifiserte fordelingsmetoder",
+    "f3": "Se mottaksdata og brukerfeedback umiddelbart",
+    "f4": "Desentralisert design sikrer fondsikkerhet"
+  },
+  "cta_button_prefix": "Aktiver nå",
+  "cta_button_suffix": "Robot",
+  "cta_launch_bot": "Aktiver moonpacket Robot nå",
+  "footer_tip": "Tips: Sending av red packets er passende for å bryte isen. Du kan svare på red packet-innlegget for å forklare spilltemaet du ønsker å organisere."
+}

@@ -1,0 +1,165 @@
+{
+  "timestamp": "2025-10-30T00:02:46.736Z",
+  "langs": {
+    "zh-TW": {
+      "todo": [
+        "site.hero.lead"
+      ],
+      "empty": [],
+      "enUS_CJK": [],
+      "zhCN_TradHint": [],
+      "arrayIssues": [],
+      "missingSections": [
+        {
+          "file": "legal.json",
+          "issue": "sections should be array but is object"
+        },
+        {
+          "file": "privacy.json",
+          "issue": "sections should be array but is object"
+        },
+        {
+          "file": "terms.json",
+          "issue": "sections should be array but is object"
+        }
+      ]
+    },
+    "zh-CN": {
+      "todo": [
+        "site.hero.lead"
+      ],
+      "empty": [],
+      "enUS_CJK": [],
+      "zhCN_TradHint": [
+        "claim.faq.a6",
+        "claim.faq.section_9",
+        "claim.faq.section_10",
+        "claim.faq.q11",
+        "claim.faq.a19",
+        "claim.faq.a29",
+        "claim.faq.a35",
+        "claim.faq.q9_title",
+        "claim.faq.q10_title",
+        "common.nav.api",
+        "common.footer.privacy",
+        "common.footer.terms",
+        "common.features_desc.f3",
+        "common.claim.faq.section_9",
+        "common.claim.faq.section_10",
+        "common.claim.faq.a5",
+        "common.claim.faq.a6",
+        "common.claim.faq.q11",
+        "common.claim.faq.a19",
+        "common.claim.faq.a29",
+        "common.claim.faq.a35",
+        "common.send.faq.a7",
+        "common.send.faq.a9",
+        "common.terms.title",
+        "common.terms.sections.services",
+        "common.terms.sections.third_party",
+        "common.terms.sections.data",
+        "common.terms.sections.disclaimer",
+        "common.terms.sections.third_party_services",
+        "common.terms.sections.wallet_assets",
+        "common.privacy.title",
+        "common.privacy.sections.blockchain",
+        "common.privacy.sections.telegram",
+        "common.privacy.sections.faq",
+        "common.privacy.sections.updates",
+        "legal.privacyTitle",
+        "legal.termsTitle",
+        "legal.sections.services",
+        "legal.sections.third_party",
+        "legal.sections.data",
+        "legal.sections.disclaimer",
+        "legal.sections.changes",
+        "legal.contact.privacy",
+        "legal.contact.support",
+        "legal.privacy.notice.disclaimer_binding",
+        "legal.privacy.subprocessors.note",
+        "legal.terms.notice.disclaimer_binding",
+        "legal.terms.owner",
+        "legal.terms.serviceChanges.title",
+        "privacy.title",
+        "privacy.sections.third_party",
+        "privacy.sections.changes",
+        "privacy.sections.children_privacy",
+        "privacy.content.intro",
+        "privacy.content.definitions",
+        "privacy.content.third_party",
+        "privacy.content.changes",
+        "privacy.content.contact",
+        "send.title",
+        "send.faq.tip",
+        "send.faq.a8",
+        "send.faq.a12",
+        "send.faq.q5_title",
+        "send.footer_tip",
+        "site.nav.api",
+        "site.footer.privacy",
+        "site.footer.terms",
+        "site.story.disclaimer_title",
+        "story.disclaimer_title",
+        "terms.title",
+        "terms.sections.service_description",
+        "terms.sections.prohibited_activities",
+        "terms.sections.termination",
+        "terms.sections.changes",
+        "terms.sections.services",
+        "terms.sections.privacy",
+        "terms.sections.disclaimers",
+        "terms.content.scope",
+        "terms.content.definitions",
+        "terms.content.services",
+        "terms.content.privacy",
+        "terms.content.disclaimers",
+        "terms.content.termination",
+        "terms.content.changes"
+      ],
+      "arrayIssues": [],
+      "missingSections": [
+        {
+          "file": "legal.json",
+          "issue": "sections should be array but is object"
+        },
+        {
+          "file": "privacy.json",
+          "issue": "sections should be array but is object"
+        },
+        {
+          "file": "terms.json",
+          "issue": "sections should be array but is object"
+        }
+      ]
+    },
+    "en-US": {
+      "todo": [
+        "site.hero.lead"
+      ],
+      "empty": [],
+      "enUS_CJK": [
+        "common.claim.faq.a8"
+      ],
+      "zhCN_TradHint": [],
+      "arrayIssues": [],
+      "missingSections": [
+        {
+          "file": "legal.json",
+          "issue": "sections should be array but is object"
+        },
+        {
+          "file": "privacy.json",
+          "issue": "sections should be array but is object"
+        },
+        {
+          "file": "terms.json",
+          "issue": "sections should be array but is object"
+        }
+      ]
+    }
+  },
+  "summary": {
+    "totalIssues": 97,
+    "criticalIssues": []
+  }
+}

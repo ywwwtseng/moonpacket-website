@@ -1,0 +1,11 @@
+---
+const { title, desc } = Astro.props as { title: string; desc: string };
+---
+{title ? (
+  <div class="p-6 rounded-xl bg-white ring-1 ring-black/5 min-h-[120px]">
+    <div class="font-semibold">{title}</div>
+    {desc ? <p class="text-sm text-textSubtle mt-1">{desc}</p> : null}
+  </div>
+) : null}
+
+
